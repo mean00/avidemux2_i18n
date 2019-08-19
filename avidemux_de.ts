@@ -1746,12 +1746,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+232"/>
         <source>_Limit Refresh Rate</source>
-        <translation>_Bildwiederholungsfrequenz begrenzen</translation>
+        <translation>_Bildwiederholfrequenz beim Zeichnen der grafischen Oberfläche begrenzen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Refresh Rate Cap (ms)</source>
-        <translation>Bild _neu aufbauen nicht häufiger als nach (ms)</translation>
+        <translation>Minimaler _Zeitabstand beim Zeichnen des Fensterinhalts (ms)</translation>
     </message>
     <message>
         <location line="-188"/>
@@ -1767,12 +1767,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Ignore driver blacklist (Intel)</source>
-        <translation type="unfinished"></translation>
+        <translation>Blacklist für alte Intel-Grafiktreiber ignorieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>Codec-Blacklist ignorieren (10bit HEVC mit Intel-Grafik)</translation>
     </message>
     <message>
         <location line="+60"/>
