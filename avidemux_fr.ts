@@ -677,7 +677,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+227"/>
         <source> (0 tracks)</source>
-        <translation> (0 pistes)</translation>
+        <translation> (0 piste)</translation>
     </message>
     <message>
         <location line="+177"/>
