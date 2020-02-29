@@ -8736,7 +8736,7 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+18"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+18"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+18"/>
-        <source>Lanzcos3</source>
+        <source>Lanczos-3</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

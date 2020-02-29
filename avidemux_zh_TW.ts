@@ -8729,8 +8729,8 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+146"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+146"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+146"/>
-        <source>Lanzcos3</source>
-        <translation>Lanzcos3三階線性</translation>
+        <source>Lanczos-3</source>
+        <translation>Lanczos-3三階線性</translation>
     </message>
     <message>
         <location line="-5"/>
