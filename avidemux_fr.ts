@@ -30,7 +30,7 @@ Si vous copiez la piste sans re-encoder, il vaut mieux conserver ces information
 Ignorer les informations de timing ?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+390"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+425"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Impossible de trouver un demuxer pour lire %s</translation>
     </message>
@@ -530,10 +530,6 @@ Ignorer les informations de timing ?</translation>
         <location line="-128"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;Sortie Audio&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>   (0 track(s))</source>
-        <translation type="vanished">   (0 piste(s))</translation>
     </message>
     <message>
         <location line="+155"/>
@@ -1196,10 +1192,6 @@ Ignorer les informations de timing ?</translation>
         <translation>Priorités</translation>
     </message>
     <message>
-        <source>_Use alternative tag for MP3 in .mp4</source>
-        <translation type="vanished">Utiliser un tag alternatif pour les pistes mp3 (.mp4)</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>Utiliser le répertoire du dernier fichier lu comme répertoire de sauvegarde par défaut</translation>
@@ -1731,7 +1723,7 @@ It is needed to create FLV  video.</source>
         <translation>Impossible de choisir le codec FLV1.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+186"/>
+        <location filename="../../common/gui_main.cpp" line="+188"/>
         <source>Select script to save</source>
         <translation>Choisir le script à sauvegarder</translation>
     </message>
@@ -1992,10 +1984,6 @@ It is needed to create FLV  video.</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
     <message>
-        <source>Decode video using XVBA (AMD)</source>
-        <translation type="vanished">Utiliser XVBA pour décoder (AMD)</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Utiliser LIBVA pour décoder (INTEL/...)</translation>
@@ -2157,7 +2145,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+654"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+662"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2487,7 +2475,7 @@ Expect problems.</source>
         <translation>Impossible de choisir la langue, piste audio invalide</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation></translation>
     </message>
@@ -2719,10 +2707,6 @@ Is it running ?</source>
         <location line="+0"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>Le fichier %s n&apos;a pas été enregistré correctement.</translation>
-    </message>
-    <message>
-        <source>Cannot get tinyPÿ script engine</source>
-        <translation type="vanished">Impossible d&apos;obtenir le moteur de script tinyPÿ</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -3301,20 +3285,20 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+173"/>
-        <location line="+30"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+34"/>
-        <location line="+35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location line="+31"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
+        <location line="+39"/>
         <source>Codec</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
         <source>Internal error finding codec 0x%x</source>
         <translation type="unfinished">Erreur interne pour trouver le codec 0x%x</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+39"/>
         <source>Internal error opening 0x%x</source>
         <translation type="unfinished">Erreur interne lors de l&apos;ouverture 0x%x</translation>
     </message>
@@ -4818,7 +4802,7 @@ Do you want to load it  ?
 <context>
     <name>ffVAEncH264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+351"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+328"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4876,7 +4860,7 @@ Do you want to load it  ?
 <context>
     <name>ffVAEncHEVC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+343"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+320"/>
         <source>GOP Size:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4914,7 +4898,7 @@ Do you want to load it  ?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+292"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+325"/>
         <source>Interlacing</source>
         <translation type="unfinished">Entrelacement</translation>
     </message>
@@ -6954,7 +6938,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mkvmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+176"/>
         <source>Saving Mkv</source>
         <translation type="unfinished">Sauvegarde au format MKV (ff)</translation>
     </message>
@@ -7053,7 +7037,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+819"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+872"/>
         <source>Problem reading SVQ3 headers</source>
         <translation type="unfinished">Impossible de lire l&apos;entete SVQ3</translation>
     </message>
@@ -7594,22 +7578,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>psdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="vanished">Erreur</translation>
-    </message>
-    <message>
-        <source>This file&apos;s index has been created with an older version of avidemux.
-Please delete the idx2 file and reopen.</source>
-        <translation type="vanished">L&apos;index de ce fichier a été créé avec une version plus ancienne d&apos;avidemux.
-Veuillez supprimer le fichier idx2 et rouvrir.</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+159"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+162"/>
         <source>Indexing</source>
         <translation>Indexation</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+44"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>Il existe plusieurs fichiers avec des noms de fichiers séquentiels. Doivent-ils tous être chargés ?</translation>
     </message>
@@ -7835,10 +7809,6 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
             <numerusform> (%n piste)</numerusform>
             <numerusform> (%n pistes)</numerusform>
         </translation>
-    </message>
-    <message>
-        <source> (%d track(s))</source>
-        <translation type="vanished"> (%d piste(s))</translation>
     </message>
 </context>
 <context>
@@ -8359,7 +8329,7 @@ Ready.
     <message>
         <location line="+282"/>
         <source>_New frame rate:</source>
-        <translation type="unfinished">&amp;Nouveau nombre d&apos;i/s:</translation>
+        <translation type="unfinished">_Nouveau nombre d&apos;i/s:</translation>
     </message>
     <message>
         <location line="-322"/>
@@ -8610,30 +8580,20 @@ Ready.
     </message>
     <message>
         <location line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+5"/>
         <source>Lanczos-3</source>
         <translation>Lanczos-3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-398"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-398"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-393"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-393"/>
         <source>Source:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8724,17 +8684,31 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+356"/>
+        <source>Lanzcos3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="-166"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+190"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+190"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-166"/>
         <source>1%</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9124,17 +9098,7 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="vanished">Erreur</translation>
-    </message>
-    <message>
-        <source>This file&apos;s index has been created with an older version of avidemux.
-Please delete the idx2 file and reopen.</source>
-        <translation type="vanished">L&apos;index de ce fichier a été créé avec une version plus ancienne d&apos;avidemux.
-Veuillez supprimer le fichier idx2 et rouvrir.</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+183"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+194"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+325"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+84"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
@@ -9286,7 +9250,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU de-entrelacement (+redimensionnement).</translation>
     </message>
     <message>
-        <location line="+185"/>
+        <location line="+197"/>
         <source>Keep Top Field</source>
         <translation>Garder le champs supérieur</translation>
     </message>
@@ -9738,12 +9702,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+7"/>
-        <location line="+3152"/>
+        <location line="+3157"/>
         <source>Delete</source>
         <translation>Effacer</translation>
     </message>
     <message>
-        <location line="-3110"/>
+        <location line="-3115"/>
         <source>General</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9971,12 +9935,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2490"/>
+        <location line="+2495"/>
         <source>frames</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-2466"/>
+        <location line="-2471"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10109,12 +10073,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+13"/>
-        <location line="+2596"/>
+        <location line="+2601"/>
         <source>None</source>
         <translation type="unfinished">Aucun</translation>
     </message>
     <message>
-        <location line="-2591"/>
+        <location line="-2596"/>
         <source>Spatial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10195,12 +10159,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+12"/>
-        <location line="+1328"/>
+        <location line="+1333"/>
         <source>Strength:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1289"/>
+        <location line="-1294"/>
         <source>Threshold:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10407,12 +10371,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+10"/>
-        <location line="+856"/>
+        <location line="+861"/>
         <source>Edit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-809"/>
+        <location line="-814"/>
         <source>Quantiser Control</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10429,12 +10393,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+85"/>
         <location line="+179"/>
-        <location line="+302"/>
+        <location line="+307"/>
         <source>%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-459"/>
+        <location line="-464"/>
         <source>Maximum Quantiser Step:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10495,7 +10459,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+5"/>
-        <source>Auto Variance AQ</source>
+        <source>Auto Variance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto Variance Biased</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -12210,10 +12179,6 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>MotionEstimation</source>
-        <translation type="obsolete">Estimation de mouvement</translation>
-    </message>
-    <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
         <translation type="unfinished">Rapport h/l:</translation>
@@ -12368,7 +12333,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
 <context>
     <name>yadif</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+132"/>
         <source>Yadif</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12378,7 +12343,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+70"/>
         <source>Bottom field first</source>
         <translation type="unfinished"></translation>
     </message>

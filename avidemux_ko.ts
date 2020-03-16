@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+390"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+425"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>%s용 디먹서를 찾을 수 없습니다</translation>
     </message>
@@ -444,10 +444,6 @@ Drop timing informations ?</source>
 <context>
     <name>FDK-AAC</name>
     <message>
-        <source>_Profile::</source>
-        <translation type="vanished">_프로파일::</translation>
-    </message>
-    <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+436"/>
         <source>_Profile:</source>
         <translation type="unfinished"></translation>
@@ -466,10 +462,6 @@ Drop timing informations ?</source>
         <location line="+2"/>
         <source>Afterburner</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>After burner</source>
-        <translation type="vanished">애프터 버너</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -590,10 +582,6 @@ Drop timing informations ?</source>
         <location line="-128"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;오디오 출력&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <source>   (0 track(s))</source>
-        <translation type="vanished">   (0 트랙)</translation>
     </message>
     <message>
         <location line="+155"/>
@@ -1642,10 +1630,6 @@ Drop timing informations ?</source>
         <translation>VDPAU로 비디오 디코드 (엔비디아)</translation>
     </message>
     <message>
-        <source>Decode video using XVBA (AMD)</source>
-        <translation type="vanished">XVBA로 비디오 디코드 (AMD)</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>LIBVA로 비디오 디코드 (인텔)</translation>
@@ -1806,10 +1790,6 @@ Drop timing informations ?</source>
         <location line="+2"/>
         <source>Prioritisation</source>
         <translation>우선 순위</translation>
-    </message>
-    <message>
-        <source>_Use alternative tag for MP3 in .mp4</source>
-        <translation type="vanished">.mp4에서 MP3용 대체 태그 사용하기</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2022,10 +2002,6 @@ Drop timing informations ?</source>
         <translation>JPEG로 저장</translation>
     </message>
     <message>
-        <source>-</source>
-        <translation type="vanished">-</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>Connect to avsproxy</source>
         <translation>avsproxy에 연결</translation>
@@ -2091,13 +2067,13 @@ Drop timing informations ?</source>
         <translation>다음 검정 프레임</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+654"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+662"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1537"/>
+        <location filename="../../common/gui_main.cpp" line="+1539"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2498,7 +2474,7 @@ Expect problems.</source>
         <translation>주어진 트릭 인덱스의 언어를 설정할 수 없습니다: 무효한 트랙 인덱스!</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2730,10 +2706,6 @@ Is it running ?</source>
         <location line="+0"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>%s 파일을 제대로 저장하지 못했습니다.</translation>
-    </message>
-    <message>
-        <source>Cannot get tinyPÿ script engine</source>
-        <translation type="vanished">TinyPÿ 스크립트 엔진을 가져올 수 없습니다</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -3313,20 +3285,20 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+173"/>
-        <location line="+30"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+34"/>
-        <location line="+35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location line="+31"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
+        <location line="+39"/>
         <source>Codec</source>
         <translation>코덱</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>코덱 0x%x 찾는 중 내부 오류 발생</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+39"/>
         <source>Internal error opening 0x%x</source>
         <translation>0x%x를 여는 중 내부 오류 발생</translation>
     </message>
@@ -3878,10 +3850,6 @@ This message will not be displayed again.</source>
         <location line="+1"/>
         <source>50 (Pal)</source>
         <translation>50 (PAL)</translation>
-    </message>
-    <message>
-        <source>59.93  (NTSC)</source>
-        <translation type="vanished">59.93  (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4837,7 +4805,7 @@ Do you want to load it  ?
 <context>
     <name>ffVAEncH264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+351"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+328"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4895,7 +4863,7 @@ Do you want to load it  ?
 <context>
     <name>ffVAEncHEVC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+343"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+320"/>
         <source>GOP Size:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4933,7 +4901,7 @@ Do you want to load it  ?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+217"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+250"/>
         <source>Normal (4:3)</source>
         <translation>보통 (4:3)</translation>
     </message>
@@ -6976,7 +6944,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mkvmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+176"/>
         <source>Saving Mkv</source>
         <translation>Mkv 저장 중</translation>
     </message>
@@ -7075,7 +7043,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+819"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+872"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 헤더를 읽는 중 문제 발생</translation>
     </message>
@@ -7087,14 +7055,6 @@ I will assume it has and try to continue</source>
         <location line="+9"/>
         <source>Unsupported</source>
         <translation>미지원</translation>
-    </message>
-    <message>
-        <source>Only MP4Video, H264, and H265 supported for video</source>
-        <translation type="vanished">비디오용으로 MP4 비디오, H264와 H265만 지원합니다</translation>
-    </message>
-    <message>
-        <source>Only AAC, AC3, E-AC3 and mpegaudio supported for audio</source>
-        <translation type="vanished">오디오용으로 AAC, AC3, E-AC3와 MPEG 오디오만 지원합니다</translation>
     </message>
     <message>
         <location line="-9"/>
@@ -7120,10 +7080,6 @@ I will assume it has and try to continue</source>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
         <source>Muxing Format</source>
         <translation>먹싱 형식</translation>
-    </message>
-    <message>
-        <source>Use alternate MP3 tag</source>
-        <translation type="vanished">대체 MP3 태그 사용</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7628,22 +7584,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>psdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="vanished">오류</translation>
-    </message>
-    <message>
-        <source>This file&apos;s index has been created with an older version of avidemux.
-Please delete the idx2 file and reopen.</source>
-        <translation type="vanished">이 파일의 인덱스는 이전 버전의 avidemux로 만들었습니다.
-idx2 파일을 삭제하고 파일을 다시 여세요.</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+159"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+162"/>
         <source>Indexing</source>
         <translation>인덱싱</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+44"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>연속적인 파일 이름을 가진 파일이 여럿 있습니다. 전부 불러올까요?</translation>
     </message>
@@ -7868,10 +7814,6 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>
             <numerusform> (%n 트랙)</numerusform>
         </translation>
-    </message>
-    <message>
-        <source> (%d track(s))</source>
-        <translation type="vanished"> (%d 트랙)</translation>
     </message>
 </context>
 <context>
@@ -8398,10 +8340,6 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>59.93  (NTSC)</source>
-        <translation type="vanished">59.93 (NTSC)</translation>
-    </message>
-    <message>
         <location line="+35"/>
         <source>Resample FPS</source>
         <translation>FPS 리샘플</translation>
@@ -8593,6 +8531,20 @@ Ready.
         <translation>대상:</translation>
     </message>
     <message>
+        <location line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+356"/>
+        <source>Lanzcos3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+15"/>
         <source>Source PAR:</source>
         <translation type="unfinished"></translation>
@@ -8610,16 +8562,16 @@ Ready.
     </message>
     <message>
         <location line="+34"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-312"/>
         <source>Resize Dimensions</source>
         <translation>해상도 크기조절</translation>
     </message>
@@ -8790,16 +8742,6 @@ Ready.
     </message>
     <message>
         <location line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+5"/>
         <source>Lanczos-3</source>
         <translation>Lanczos-3</translation>
     </message>
@@ -9159,17 +9101,7 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="vanished">오류</translation>
-    </message>
-    <message>
-        <source>This file&apos;s index has been created with an older version of avidemux.
-Please delete the idx2 file and reopen.</source>
-        <translation type="vanished">이 파일의 인덱스는 이전 버전의 avidemux로 만들었습니다.
-idx2 파일을 삭제하고 파일을 다시 여세요.</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+183"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+194"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+325"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+84"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
@@ -9321,7 +9253,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU 디인터레이서 (+크기조절).</translation>
     </message>
     <message>
-        <location line="+185"/>
+        <location line="+197"/>
         <source>Keep Top Field</source>
         <translation>상단 필드 유지</translation>
     </message>
@@ -9714,10 +9646,6 @@ Do you wish to continue?</source>
         <translation>프로파일 저장</translation>
     </message>
     <message>
-        <source>my profile</source>
-        <translation type="vanished">내 프로파일</translation>
-    </message>
-    <message>
         <location line="+46"/>
         <source>Overwrite</source>
         <translation>덮어쓰기</translation>
@@ -9779,12 +9707,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+3152"/>
+        <location line="+3157"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location line="-3110"/>
+        <location line="-3115"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -10012,12 +9940,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2490"/>
+        <location line="+2495"/>
         <source>frames</source>
         <translation>프레임</translation>
     </message>
     <message>
-        <location line="-2466"/>
+        <location line="-2471"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>시퀀스 매개변수 세트 식별자: </translation>
     </message>
@@ -10150,12 +10078,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+2596"/>
+        <location line="+2601"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location line="-2591"/>
+        <location line="-2596"/>
         <source>Spatial</source>
         <translation>공간의</translation>
     </message>
@@ -10236,12 +10164,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+12"/>
-        <location line="+1328"/>
+        <location line="+1333"/>
         <source>Strength:</source>
         <translation>강도:</translation>
     </message>
     <message>
-        <location line="-1289"/>
+        <location line="-1294"/>
         <source>Threshold:</source>
         <translation>임계값:</translation>
     </message>
@@ -10448,12 +10376,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+856"/>
+        <location line="+861"/>
         <source>Edit</source>
         <translation>편집</translation>
     </message>
     <message>
-        <location line="-809"/>
+        <location line="-814"/>
         <source>Quantiser Control</source>
         <translation>양자화기 제어</translation>
     </message>
@@ -10470,12 +10398,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+85"/>
         <location line="+179"/>
-        <location line="+302"/>
+        <location line="+307"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location line="-459"/>
+        <location line="-464"/>
         <source>Maximum Quantiser Step:</source>
         <translation>최대 양자화기 스텝:</translation>
     </message>
@@ -10536,8 +10464,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+5"/>
-        <source>Auto Variance AQ</source>
-        <translation>자동 변동 적응형 양자화</translation>
+        <source>Auto Variance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto Variance Biased</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+91"/>
@@ -12286,10 +12219,6 @@ If it is a system profile it will be recreated next time.</source>
         <translation>16:9 (NTSC)</translation>
     </message>
     <message>
-        <source>MotionEstimation</source>
-        <translation type="vanished">모션추정</translation>
-    </message>
-    <message>
         <location line="+9"/>
         <source>Threading</source>
         <translation>쓰레딩</translation>
@@ -12355,10 +12284,6 @@ If it is a system profile it will be recreated next time.</source>
         <translation>XVID fcc 사용 (아니면 DIVX)</translation>
     </message>
     <message>
-        <source>Advanced Simple Profile</source>
-        <translation type="vanished">고급 간편 프로파일</translation>
-    </message>
-    <message>
         <location line="-32"/>
         <source>Motion Estimation</source>
         <translation>모션 추정</translation>
@@ -12408,7 +12333,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>yadif</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+132"/>
         <source>Yadif</source>
         <translation>Yadif</translation>
     </message>
@@ -12418,23 +12343,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Fizick 이 만든 avisynth 버전의 Yadif를 포팅한 필터입니다.</translation>
     </message>
     <message>
-        <source>Temporal &amp; spatial check</source>
-        <translation type="vanished">시간 &amp; 공간 검사</translation>
-    </message>
-    <message>
-        <source>Bob, temporal &amp; spatial check</source>
-        <translation type="vanished">Bob, 시간 &amp; 공간 검사</translation>
-    </message>
-    <message>
-        <source>Skip spatial temporal check</source>
-        <translation type="vanished">시간 공간 검사 건너뛰기</translation>
-    </message>
-    <message>
-        <source>Bob, skip spatial temporal check</source>
-        <translation type="vanished">Bob, 시간 공간 검사 건너뛰기</translation>
-    </message>
-    <message>
-        <location line="+64"/>
+        <location line="+70"/>
         <source>Bottom field first</source>
         <translation>하단 필드 먼저</translation>
     </message>

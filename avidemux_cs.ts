@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+426"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+461"/>
         <source>Attempt to open %s failed!</source>
         <translation type="unfinished">Selhalo otevření %s!</translation>
     </message>
@@ -723,10 +723,6 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;Zvukový výstup&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>   (0 track(s))</source>
-        <translation type="obsolete">   (0 stopa(y))</translation>
-    </message>
-    <message>
         <location line="+222"/>
         <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
         <translation>&lt;b&gt;Výstupní formát&lt;/b&gt;</translation>
@@ -1182,10 +1178,6 @@ Drop timing informations ?</source>
         <translation type="unfinished">Priority</translation>
     </message>
     <message>
-        <source>_Use alternative tag for MP3 in .mp4</source>
-        <translation type="obsolete">_Používat alternativní značku pro MP3 v .mp4</translation>
-    </message>
-    <message>
         <location line="+5"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation type="unfinished"></translation>
@@ -1366,10 +1358,6 @@ Drop timing informations ?</source>
         <location line="+7"/>
         <source>Close</source>
         <translation type="unfinished">Zavřít</translation>
-    </message>
-    <message>
-        <source>-</source>
-        <translation type="obsolete">-</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1669,7 +1657,7 @@ It is needed to create PSP compatible video.</source>
 To je potřeba k vytvoření PSP kompatibilního videa.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+369"/>
+        <location filename="../../common/gui_main.cpp" line="+371"/>
         <source>Not coded in this version</source>
         <translation type="unfinished">Nepodporováno v této verzi</translation>
     </message>
@@ -1853,7 +1841,7 @@ Expect problems.</source>
         <translation type="unfinished">Hlavní audio stopa</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+264"/>
         <source>AvsProxy</source>
         <translation type="unfinished">AvsProxy</translation>
     </message>
@@ -1952,13 +1940,13 @@ Je spuštěno?</translation>
         <translation type="unfinished">Počet uložených obrázků: %d.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+654"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+662"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-250"/>
+        <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2814,7 +2802,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+297"/>
+        <location line="+298"/>
         <source>Oops</source>
         <translation type="unfinished">Ouha</translation>
     </message>
@@ -3287,20 +3275,20 @@ Try anyway?</source>
         <translation type="unfinished">1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+173"/>
-        <location line="+30"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+34"/>
-        <location line="+35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location line="+31"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
+        <location line="+39"/>
         <source>Codec</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-35"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
         <source>Internal error finding codec 0x%x</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+39"/>
         <source>Internal error opening 0x%x</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4805,7 +4793,7 @@ Chcete ho nahrát?
 <context>
     <name>ffVAEncH264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+351"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaH264/ADM_ffVAEncH264.cpp" line="+328"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4863,7 +4851,7 @@ Chcete ho nahrát?
 <context>
     <name>ffVAEncHEVC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+343"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp" line="+320"/>
         <source>GOP Size:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4901,7 +4889,7 @@ Chcete ho nahrát?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+223"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+256"/>
         <source>Default</source>
         <translation type="unfinished">Výchozí</translation>
     </message>
@@ -6943,7 +6931,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mkvmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+176"/>
         <source>Saving Mkv</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7042,7 +7030,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+819"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+872"/>
         <source>Problem reading SVQ3 headers</source>
         <translation type="unfinished">Chyba čtení hlavičky SVQ3</translation>
     </message>
@@ -7079,10 +7067,6 @@ I will assume it has and try to continue</source>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
         <source>Muxing Format</source>
         <translation>Formát multiplexeru</translation>
-    </message>
-    <message>
-        <source>Use alternate MP3 tag</source>
-        <translation type="vanished">Použít alternativní MP3 značky</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7587,16 +7571,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>psdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="obsolete">Chyba</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+159"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+162"/>
         <source>Indexing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+44"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7822,10 +7802,6 @@ The current editing has been saved and will be reloaded at next start</source>
             <numerusform></numerusform>
             <numerusform></numerusform>
         </translation>
-    </message>
-    <message>
-        <source> (%d track(s))</source>
-        <translation type="obsolete"> (%d stopa(y))</translation>
     </message>
 </context>
 <context>
@@ -8545,6 +8521,20 @@ Ready.
         <translation type="unfinished">Cíl:</translation>
     </message>
     <message>
+        <location line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+356"/>
+        <source>Lanzcos3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+15"/>
         <source>Source PAR:</source>
         <translation type="unfinished"></translation>
@@ -8562,16 +8552,16 @@ Ready.
     </message>
     <message>
         <location line="+34"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+44"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-312"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-312"/>
         <source>Resize Dimensions</source>
         <translation type="unfinished">Velikost</translation>
     </message>
@@ -8742,16 +8732,6 @@ Ready.
     </message>
     <message>
         <location line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+5"/>
         <source>Lanczos-3</source>
         <translation type="unfinished">Lanczos-3</translation>
     </message>
@@ -9111,11 +9091,7 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <source>Error</source>
-        <translation type="obsolete">Chyba</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+183"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+194"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+325"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+84"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
@@ -9267,7 +9243,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+185"/>
+        <location line="+197"/>
         <source>Keep Top Field</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9658,10 +9634,6 @@ Chcete pokračovat?</translation>
         <translation>Uložit profil</translation>
     </message>
     <message>
-        <source>my profile</source>
-        <translation type="vanished">můj profil</translation>
-    </message>
-    <message>
         <location line="+46"/>
         <source>Overwrite</source>
         <translation type="unfinished"></translation>
@@ -9711,12 +9683,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Uložit jako</translation>
     </message>
     <message>
-        <location line="+2982"/>
+        <location line="+2987"/>
         <source>kbit/s</source>
         <translation type="unfinished">kb/s</translation>
     </message>
     <message>
-        <location line="-2655"/>
+        <location line="-2660"/>
         <source>Target Video Size:</source>
         <translation type="unfinished">Cílová velikost videa:</translation>
     </message>
@@ -9737,12 +9709,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+24"/>
-        <location line="+3152"/>
+        <location line="+3157"/>
         <source>Delete</source>
         <translation type="unfinished">Odstranit</translation>
     </message>
     <message>
-        <location line="-3110"/>
+        <location line="-3115"/>
         <source>General</source>
         <translation type="unfinished">Obecné</translation>
     </message>
@@ -9807,7 +9779,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2490"/>
+        <location line="+2495"/>
         <source>frames</source>
         <translation type="unfinished">snímků</translation>
     </message>
@@ -9832,7 +9804,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Vynutit opakovatelnost</translation>
     </message>
     <message>
-        <location line="-2353"/>
+        <location line="-2358"/>
         <source>Motion</source>
         <translation type="unfinished">Pohyb</translation>
     </message>
@@ -9925,12 +9897,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+13"/>
-        <location line="+2596"/>
+        <location line="+2601"/>
         <source>None</source>
         <translation type="unfinished">Žádný</translation>
     </message>
     <message>
-        <location line="-2591"/>
+        <location line="-2596"/>
         <source>Spatial</source>
         <translation type="unfinished">Prostorový</translation>
     </message>
@@ -10012,12 +9984,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+21"/>
-        <location line="+1328"/>
+        <location line="+1333"/>
         <source>Strength:</source>
         <translation type="unfinished">Síla:</translation>
     </message>
     <message>
-        <location line="-1289"/>
+        <location line="-1294"/>
         <source>Threshold:</source>
         <translation type="unfinished">Práh:</translation>
     </message>
@@ -10092,13 +10064,13 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Strom makrobloků</translation>
     </message>
     <message>
-        <location line="+2440"/>
+        <location line="+2445"/>
         <source>Custom:</source>
         <comment>multithreading</comment>
         <translation type="unfinished">Vlastní:</translation>
     </message>
     <message>
-        <location line="-2187"/>
+        <location line="-2192"/>
         <source>11 (Best)</source>
         <translation type="unfinished">11 (nejlepší)</translation>
     </message>
@@ -10190,12 +10162,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+856"/>
+        <location line="+861"/>
         <source>Edit</source>
         <translation type="unfinished">Upravit</translation>
     </message>
     <message>
-        <location line="-809"/>
+        <location line="-814"/>
         <source>Quantiser Control</source>
         <translation type="unfinished">Regulace kvantizérů</translation>
     </message>
@@ -10212,12 +10184,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+85"/>
         <location line="+179"/>
-        <location line="+302"/>
+        <location line="+307"/>
         <source>%</source>
         <translation type="unfinished">%</translation>
     </message>
     <message>
-        <location line="-459"/>
+        <location line="-464"/>
         <source>Maximum Quantiser Step:</source>
         <translation type="unfinished">Maximální rozdíl kvantizérů:</translation>
     </message>
@@ -10267,7 +10239,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Adaptivní kvantizace</translation>
     </message>
     <message>
-        <location line="+129"/>
+        <location line="+26"/>
+        <source>Auto Variance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto Variance Biased</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+103"/>
         <source>Video Buffer Verifier</source>
         <translation type="unfinished">Kontrola video bufferu</translation>
     </message>
@@ -10312,7 +10294,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Výstup</translation>
     </message>
     <message>
-        <location line="-3165"/>
+        <location line="-3170"/>
         <location line="+669"/>
         <source>1</source>
         <translation type="unfinished">1</translation>
@@ -10414,7 +10396,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Normální</translation>
     </message>
     <message>
-        <location line="+590"/>
+        <location line="+595"/>
         <source>Pixel Aspect Ratio</source>
         <translation type="unfinished">Poměr stran pixelu</translation>
     </message>
@@ -10612,7 +10594,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Overscan:</translation>
     </message>
     <message>
-        <location line="-3525"/>
+        <location line="-3530"/>
         <source>Basic</source>
         <translation>Základní</translation>
     </message>
@@ -10752,12 +10734,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+18"/>
-        <source>Auto Variance AQ</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+91"/>
+        <location line="+114"/>
         <source>Advanced 1</source>
         <translation>Pokročilé 1</translation>
     </message>
@@ -12211,10 +12188,6 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">_Rozhodování makrobloků:</translation>
     </message>
     <message>
-        <source>Advanced Simple Profile</source>
-        <translation type="obsolete">Advanced Simple Profile</translation>
-    </message>
-    <message>
         <location line="-17"/>
         <source>Motion Estimation</source>
         <translation type="unfinished">Odhad pohybu</translation>
@@ -12350,7 +12323,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>yadif</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+132"/>
         <source>Yadif</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12360,23 +12333,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Temporal &amp; spatial check</source>
-        <translation type="obsolete">Časová a prostorová kontrola</translation>
-    </message>
-    <message>
-        <source>Bob, temporal &amp; spatial check</source>
-        <translation type="obsolete">Bob, časová a prostorová kontrola</translation>
-    </message>
-    <message>
-        <source>Skip spatial temporal check</source>
-        <translation type="obsolete">Vynechat prostorovou časovou kontrolu</translation>
-    </message>
-    <message>
-        <source>Bob, skip spatial temporal check</source>
-        <translation type="obsolete">Bob, vynechat prostorovou časovou kontrolu</translation>
-    </message>
-    <message>
-        <location line="+64"/>
+        <location line="+70"/>
         <source>Bottom field first</source>
         <translation type="unfinished">Nejdřív spodní půlsnímek</translation>
     </message>

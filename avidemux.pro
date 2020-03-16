@@ -228,7 +228,6 @@ HEADERS = \
 ../../../avidemux_core/ADM_coreUtils/include/prefs.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_codecType.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_coreCodecMapping.h \ 
-../../../avidemux_core/ADM_coreUtils/include/ADM_putbits.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/FFcodecContext_param.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_confCouple.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_paramList.h \ 
@@ -936,7 +935,6 @@ SOURCES = \
 ../../../avidemux_core/ADM_coreUtils/src/ADM_getbits.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/prefs2.conf \ 
 ../../../avidemux_core/ADM_coreUtils/src/ADM_codecType.cpp \ 
-../../../avidemux_core/ADM_coreUtils/src/ADM_putbits.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/ADM_infoExtractorVC1.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/Source/JSONAllocator.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/Source/JSONNode_Mutex.cpp \ 
@@ -1106,7 +1104,6 @@ SOURCES = \
 ../../../avidemux/common/ADM_muxerGate/src/ADM_videoCopySeiInjector.cpp \ 
 ../../../avidemux/common/ADM_muxerGate/src/ADM_videoCopy.cpp \ 
 ../../../avidemux/common/ADM_muxerGate/src/ADM_videoCopyFromAnnexB.cpp \ 
-../../../avidemux/common/ADM_editor/src/ADM_edVideoCopy.wip.cpp \ 
 ../../../avidemux/common/ADM_editor/src/ADM_edSearch.cpp \ 
 ../../../avidemux/common/ADM_editor/src/audio/ADM_edPoolOfAudioTracks.cpp \ 
 ../../../avidemux/common/ADM_editor/src/audio/ADM_edAudioTrackExternal.cpp \ 
