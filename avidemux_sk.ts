@@ -796,7 +796,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+3"/>
         <source>Alt+Return</source>
-        <translation>Alt+Enter</translation>
+        <translation>Alt+Return</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -940,7 +940,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+3"/>
         <source>Ctrl+Return</source>
-        <translation>Ctrl+Enter</translation>
+        <translation>Ctrl+Return</translation>
     </message>
 </context>
 <context>
