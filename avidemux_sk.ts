@@ -120,7 +120,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+8"/>
         <source>Medium:</source>
-        <translation>Médium:</translation>
+        <translation>Stradný:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -291,7 +291,7 @@ Vypustiť časové údaje?</translation>
         <location line="+41"/>
         <location line="+41"/>
         <source>Configure</source>
-        <translation>Nastaviť</translation>
+        <translation>Konfigurovať...</translation>
     </message>
     <message>
         <location line="-116"/>
@@ -796,7 +796,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+3"/>
         <source>Alt+Return</source>
-        <translation>Alt+Return</translation>
+        <translation>Alt+Enter</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -940,7 +940,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+3"/>
         <source>Ctrl+Return</source>
-        <translation>Ctrl+Return</translation>
+        <translation>Ctrl+Enter</translation>
     </message>
 </context>
 <context>
@@ -1876,7 +1876,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Master</source>
-        <translation>Riadiaci</translation>
+        <translation>Hlavné</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1936,7 +1936,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+8"/>
         <source>User Interface</source>
-        <translation>Užívateľské prostredie</translation>
+        <translation>Užívateľské rozhranie</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1961,7 +1961,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+16"/>
         <source>Display</source>
-        <translation>Zobrazovanie</translation>
+        <translation>Zobrazenie</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2550,7 +2550,7 @@ Je spustené?</translation>
     <message>
         <location line="+0"/>
         <source>No file loaded</source>
-        <translation>Žiadny súbor nezavedený</translation>
+        <translation>Nenahraný žiadny súbor</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2724,7 +2724,7 @@ Je spustené?</translation>
     <message>
         <location line="+4"/>
         <source>Failed</source>
-        <translation>Neúspešné</translation>
+        <translation>zlyhalo</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -3858,7 +3858,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+11"/>
         <source>Frames</source>
-        <translation>Snímky</translation>
+        <translation>snímok</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4631,7 +4631,7 @@ Chcete ho načítať?
     <message>
         <location line="+21"/>
         <source>Frames/sec:</source>
-        <translation>snímok/s:</translation>
+        <translation>snímok/sek:</translation>
     </message>
     <message>
         <location line="-226"/>
@@ -5012,12 +5012,12 @@ Chcete ho načítať?
     <message>
         <location line="+4"/>
         <source>Progressive</source>
-        <translation>Progresívne</translation>
+        <translation>Progresívny</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Interlaced</source>
-        <translation>Prekladané</translation>
+        <translation>Prekladaný</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -5112,7 +5112,7 @@ Chcete ho načítať?
     <message>
         <location line="+1"/>
         <source>Field Order:</source>
-        <translation>Poradie poľa:</translation>
+        <translation>Poradie polsnímok:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -6985,7 +6985,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fields/ADM_vidMergeField.cpp" line="+52"/>
         <source>Merge Fields</source>
-        <translation>Spájanie polí</translation>
+        <translation>Spájanie polsnímok</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8148,13 +8148,13 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Počet snímok:	</translation>
+        <translation>Snímková frekvencia::	</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Celková doba:	</translation>
+        <translation>Celkové trvanie:	</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -10257,7 +10257,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+23"/>
         <source>Interlaced:</source>
-        <translation>Prekladané:</translation>
+        <translation>Prekladaný:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -11508,7 +11508,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+23"/>
         <source>Interlaced:</source>
-        <translation>Prekladané:</translation>
+        <translation>Prekladaný:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -11898,7 +11898,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+10"/>
         <source>Pixel Aspect Ratio</source>
-        <translation>Pomer strán pixelu</translation>
+        <translation>Pomer strán v pixeloch</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -12393,7 +12393,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+5"/>
         <source>Rate Control</source>
-        <translation>Riadenie dátového toku</translation>
+        <translation>Riadenie prenosovej rýchlosti</translation>
     </message>
     <message>
         <location line="+3"/>
