@@ -120,7 +120,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+8"/>
         <source>Medium:</source>
-        <translation>Stradný:</translation>
+        <translation>Stredný:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -904,7 +904,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+12"/>
         <source>&amp;Top</source>
-        <translation>&amp;Na seba</translation>
+        <translation>&amp;Na sebe</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -4546,7 +4546,7 @@ Chcete ho načítať?
     <message>
         <location line="+5"/>
         <source>Above Normal</source>
-        <translation>Vyššia</translation>
+        <translation>Nad normálom</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4556,7 +4556,7 @@ Chcete ho načítať?
     <message>
         <location line="+5"/>
         <source>Below Normal</source>
-        <translation>Nižšia</translation>
+        <translation>Pod normálom</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4813,7 +4813,7 @@ Chcete ho načítať?
     <message>
         <location line="+10"/>
         <source>Out</source>
-        <translation>Von</translation>
+        <translation>Do</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5027,7 +5027,7 @@ Chcete ho načítať?
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation>Najskôr spodná polsnímka</translation>
+        <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5762,7 +5762,7 @@ Chcete ho nahradiť?</translation>
     <message>
         <location line="+50"/>
         <source>_Temporal threshold:</source>
-        <translation>Č_asový prah:</translation>
+        <translation>Doč_asný prah:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6164,7 +6164,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+3"/>
         <source>Bottom field first</source>
-        <translation>Najskôr spodná polsnímka</translation>
+        <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6885,7 +6885,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Close</source>
-        <translation>&amp;Zatvoriť</translation>
+        <translation>&amp;Zavrieť</translation>
     </message>
 </context>
 <context>
@@ -7550,7 +7550,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <location line="+14"/>
         <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Text návestia</translation>
+        <translation>Textová návesť</translation>
     </message>
     <message>
         <location line="-49"/>
@@ -7695,7 +7695,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+34"/>
         <source>.... Add audio track</source>
-        <translation>.... Pridať zvukovú stopu</translation>
+        <translation>.... Pridať audio stopu</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -8787,7 +8787,7 @@ Pripravený.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+8"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+8"/>
         <source>Bilinear</source>
-        <translation>Bilineárny</translation>
+        <translation>Bilineárna</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -8802,7 +8802,7 @@ Pripravený.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+5"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+5"/>
         <source>Bicubic</source>
-        <translation>Bikubický</translation>
+        <translation>Bikubická</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10156,7 +10156,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+5"/>
         <source>Temporal</source>
-        <translation>Časový</translation>
+        <translation>Dočasný</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -10262,7 +10262,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+13"/>
         <source>Bottom Field First</source>
-        <translation>Najskôr spodná polsnímka</translation>
+        <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10677,7 +10677,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+10"/>
         <source>Pixel Aspect Ratio</source>
-        <translation>Pixelový pomer strán</translation>
+        <translation>Pomer strán v pixeloch</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -11518,7 +11518,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+5"/>
         <source>Bottom Field First</source>
-        <translation>Najskôr spodná polsnímka</translation>
+        <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -12416,7 +12416,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+70"/>
         <source>Bottom field first</source>
-        <translation>Najskôr spodná polsnímka</translation>
+        <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
         <location line="-1"/>
