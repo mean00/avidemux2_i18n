@@ -454,6 +454,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv_param.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/confResampleFps.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilterDeint.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilter.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/largeMedian/ADM_largeMedian.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/largeMedian/convolution.h \ 
@@ -1265,8 +1266,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/confResampleFps_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/testHeader.c \ 
+../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilterDeint.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilter_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilterDeint_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilter.conf \ 
+../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilterDeint.conf \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilter_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fields/ADM_vidMergeField.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fields/ADM_vidSeparateField.cpp \ 
@@ -1354,7 +1358,6 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/blend/blend_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/yadif_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/yadif_json.cpp \ 
-../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif_body_demacrofied.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/yadif.conf \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif_body.cpp \ 
@@ -1930,5 +1933,6 @@ TRANSLATIONS = \
 ./avidemux_ja.ts \ 
 ./avidemux_de.ts \ 
 ./avidemux_tr.ts \ 
+./avidemux_sk.ts \ 
 
 
