@@ -2078,7 +2078,7 @@ Vypustiť časové údaje?</translation>
         <translation>&amp;Nasledujúca čierna snímka</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+665"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -4251,7 +4251,7 @@ Chcete ho načítať?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+323"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
         <source>Size: </source>
         <translation>Veľkosť: </translation>
     </message>
@@ -7210,7 +7210,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+872"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+885"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Chyba čítania hlavičky SVQ3</translation>
     </message>
@@ -7992,8 +7992,13 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
+    <message>
+        <location line="+103"/>
+        <source>Selection: </source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+341"/>
+        <location line="+238"/>
         <source> (%n track(s))</source>
         <translation>
             <numerusform> (%n stopa)</numerusform>
@@ -8562,7 +8567,7 @@ Pripravený.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+306"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+326"/>
         <source>Width and height cannot be odd</source>
         <translation>Šírka a výška nemôžu byť nepárne</translation>
     </message>
@@ -9424,44 +9429,8 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <source>Deinterlace and optionally resize video using VA-API.</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>vaapiResize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
-        <source>VA-API Resize</source>
-        <translation>VA-API Zmena veľkosti</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Resize image using VA-API.</source>
-        <translation>Zmena veľkosti obrázka použitím VA-API.</translation>
-    </message>
-    <message>
-        <location line="+129"/>
-        <source>Width :</source>
-        <translation>Šírka:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Height :</source>
-        <translation>Výška:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>mpeg-&gt;PC</source>
-        <translation type="unfinished">mpeg-&gt;PC</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>vaapi</source>
-        <translation>vaapi</translation>
-    </message>
-</context>
-<context>
-    <name>vaapideint</name>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilterDeint.cpp" line="+316"/>
+        <location line="+316"/>
         <source>Bob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9564,6 +9533,39 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <location line="+1"/>
         <source>Could not setup VA-API, purely passthrough operation.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>vaapiResize</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
+        <source>VA-API Resize</source>
+        <translation>VA-API Zmena veľkosti</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Resize image using VA-API.</source>
+        <translation>Zmena veľkosti obrázka použitím VA-API.</translation>
+    </message>
+    <message>
+        <location line="+129"/>
+        <source>Width :</source>
+        <translation>Šírka:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Height :</source>
+        <translation>Výška:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>mpeg-&gt;PC</source>
+        <translation type="unfinished">mpeg-&gt;PC</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>vaapi</source>
+        <translation>vaapi</translation>
     </message>
 </context>
 <context>

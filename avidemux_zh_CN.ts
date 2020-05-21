@@ -1425,7 +1425,7 @@ It is needed to create FLV  video.</source>
         <translation>只显示错误警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+665"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -4221,7 +4221,7 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+323"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -7179,7 +7179,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+872"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+885"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>读取 SVQ3 档头时发生问题</translation>
     </message>
@@ -7915,8 +7915,13 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Backward one minute</source>
         <translation>倒退一分钟</translation>
     </message>
+    <message>
+        <location line="+1049"/>
+        <source>Selection: </source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+1287"/>
+        <location line="+238"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8528,7 +8533,7 @@ Ready.
         <translation>调整比例像素大小。</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+306"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+326"/>
         <source>Width and height cannot be odd</source>
         <translation>宽度和高度不能为奇数</translation>
     </message>
@@ -9384,44 +9389,8 @@ The file must be re-indexed. Proceed?</source>
         <source>Deinterlace and optionally resize video using VA-API.</source>
         <translation type="unfinished"></translation>
     </message>
-</context>
-<context>
-    <name>vaapiResize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
-        <source>VA-API Resize</source>
-        <translation type="unfinished">VA-API 重设大小</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Resize image using VA-API.</source>
-        <translation>使用 VA-API 的大小调整图像。</translation>
-    </message>
-    <message>
-        <location line="+131"/>
-        <source>mpeg-&gt;PC</source>
-        <translation>mpeg-&gt;PC</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>vaapi</source>
-        <translation>vaapi</translation>
-    </message>
-    <message>
-        <location line="-5"/>
-        <source>Height :</source>
-        <translation>高 :</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>Width :</source>
-        <translation>宽 :</translation>
-    </message>
-</context>
-<context>
-    <name>vaapideint</name>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilterDeint.cpp" line="+316"/>
+        <location line="+316"/>
         <source>Bob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9524,6 +9493,39 @@ The file must be re-indexed. Proceed?</source>
         <location line="+1"/>
         <source>Could not setup VA-API, purely passthrough operation.</source>
         <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>vaapiResize</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
+        <source>VA-API Resize</source>
+        <translation type="unfinished">VA-API 重设大小</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Resize image using VA-API.</source>
+        <translation>使用 VA-API 的大小调整图像。</translation>
+    </message>
+    <message>
+        <location line="+131"/>
+        <source>mpeg-&gt;PC</source>
+        <translation>mpeg-&gt;PC</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>vaapi</source>
+        <translation>vaapi</translation>
+    </message>
+    <message>
+        <location line="-5"/>
+        <source>Height :</source>
+        <translation>高 :</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>Width :</source>
+        <translation>宽 :</translation>
     </message>
 </context>
 <context>
