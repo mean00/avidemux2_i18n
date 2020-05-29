@@ -917,12 +917,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+32"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Leeren</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>Evaluate</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausführen</translation>
     </message>
 </context>
 <context>
@@ -1584,7 +1584,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Fit to window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ins Fenster einpassen</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-15"/>
@@ -2283,7 +2283,7 @@ Läuft er?</translation>
     <message>
         <location line="+181"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das gespeicherte Video ist unvollständig. Der Fehler ereignete sich bei %s (%d%%). Dies kann eine Folge ungültiger Zeitstempel im Video sein.</translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="-1363"/>
@@ -2320,7 +2320,9 @@ Läuft er?</translation>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Einfügepunkte befinden sich nicht an Keyframes.
+Video wird an diesen Stellen beschädigt sein.
+Trotzdem fortsetzen?</translation>
     </message>
     <message>
         <location line="+124"/>
@@ -2418,7 +2420,7 @@ Proceed anyway?</source>
     <message>
         <location line="+0"/>
         <source>Shift Value (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Wert in ms:</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="-14"/>
@@ -2550,17 +2552,17 @@ Proceed anyway?</source>
     <message>
         <location line="+1"/>
         <source>Open Application &amp;Log</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Logdatei öffnen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Open Application Data &amp;Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordner mit &amp;Anwendungsdaten öffnen</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>About</source>
-        <translation type="unfinished"></translation>
+        <translation>Über Avidemux</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edFrameType.cpp" line="+72"/>
@@ -3657,47 +3659,47 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../ADM_UIs/src/T_bitrate.cpp" line="+51"/>
         <source>Constant Bitrate</source>
-        <translation type="unfinished">konstante Bitrate</translation>
+        <translation>Konstante Bitrate</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Constant Quantiser</source>
-        <translation type="unfinished">konstante Quantisierung</translation>
+        <translation>Konstante Quantisierung</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Same Quantiser as Input</source>
-        <translation type="unfinished">gleiche Quantisierung wie Quelle</translation>
+        <translation>Gleiche Quantisierung wie Quelle</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Constant Rate Factor</source>
-        <translation type="unfinished">konstante Rate</translation>
+        <translation>Konstante Qualität (CRF)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two Pass - Video Size</source>
-        <translation type="unfinished">feste Videogröße          (2 Durchläufe)</translation>
+        <translation>Feste Videogröße (2 Durchläufe)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two Pass - Average Bitrate</source>
-        <translation type="unfinished">durchschnittliche Bitrate (2 Durchläufe)</translation>
+        <translation>Durchschnittliche Bitrate (2 Durchläufe)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Encoding mode</source>
-        <translation type="unfinished">Kodiermodus</translation>
+        <translation>Kodiermodus</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bitrate</source>
-        <translation type="unfinished">Bitrate</translation>
+        <translation>Bitrate</translation>
     </message>
     <message>
         <location line="+86"/>
         <source>Target bitrate (kb/s)</source>
-        <translation type="unfinished">Zielbitrate (kb/s)</translation>
+        <translation>Zielbitrate (kb/s)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3708,12 +3710,12 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="-14"/>
         <source>Target video size (MB)</source>
-        <translation type="unfinished">Zielvideogröße (MB)</translation>
+        <translation>Zielgröße für Video (MB)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Average bitrate (kb/s)</source>
-        <translation type="unfinished">Durchschnittsbitrate (kb/s)</translation>
+        <translation>Durchschnittsbitrate (kb/s)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3759,7 +3761,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+1"/>
         <source>Remove noisy edge by turning them to black.</source>
-        <translation type="unfinished">Flimmern am Bildrand mit Schwarz überdecken.</translation>
+        <translation>Flimmern am Bildrand mit Schwarz überdecken.</translation>
     </message>
 </context>
 <context>
@@ -3768,42 +3770,42 @@ Trotzdem fortsetzen?</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt4/blackenBorders.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+14"/>
         <source>Blacken Borders</source>
-        <translation type="unfinished"></translation>
+        <translation>Rand schwärzen</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+75"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+23"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oben:</translation>
     </message>
     <message>
         <location line="+43"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+7"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+51"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auswahlrahmen verstecken</translation>
     </message>
 </context>
 <context>
@@ -3887,7 +3889,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+1"/>
         <source>59.94  (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>59,94 (NTSC)</translation>
     </message>
     <message>
         <location line="+179"/>
@@ -3912,7 +3914,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+8"/>
         <source>Change fps</source>
-        <translation type="unfinished">Bildfrequenz ändern</translation>
+        <translation>Bildfrequenz ändern</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3922,7 +3924,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+0"/>
         <source>Error</source>
-        <translation type="unfinished">Fehler</translation>
+        <translation>Fehler</translation>
     </message>
 </context>
 <context>
@@ -4223,7 +4225,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
         <source>Size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Größe: </translation>
     </message>
 </context>
 <context>
@@ -6808,12 +6810,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/license.ui" line="+16"/>
         <source>License</source>
-        <translation type="unfinished">Lizenz</translation>
+        <translation>Lizenz</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation>Schließen</translation>
     </message>
 </context>
 <context>
@@ -6826,17 +6828,17 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Put a logo on top of video, with alpha blending.</source>
-        <translation type="unfinished">Video mit einem halbtransparenten Logo überlagern.</translation>
+        <translation>Video mit einem halbtransparenten Logo überlagern.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+110"/>
         <source>Select Logo Image</source>
-        <translation type="unfinished">Bild als Logo auswählen</translation>
+        <translation>Bild als Logo auswählen</translation>
     </message>
     <message>
         <location line="+72"/>
         <source> s</source>
-        <translation type="unfinished"></translation>
+        <translation> s</translation>
     </message>
 </context>
 <context>
@@ -7854,7 +7856,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-82"/>
         <source>Overwrite file </source>
-        <translation type="unfinished">Überschreiben </translation>
+        <translation>Überschreiben </translation>
     </message>
 </context>
 <context>
@@ -8168,7 +8170,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_processing.cpp" line="+69"/>
         <source>Unknown</source>
-        <translation type="unfinished">Unbekannt</translation>
+        <translation>Unbekannt</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -9998,42 +10000,42 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+270"/>
         <source>Rate Control</source>
-        <translation type="unfinished">Bitraten-Kontrolle (die entsprechenden x264 CLI Schalter sind in &quot;[ ]&quot; angegeben)</translation>
+        <translation>Bitratensteuerung (die entsprechenden x264 CLI Schalter sind in &quot;[ ]&quot; angegeben)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Target Video Size:</source>
-        <translation type="unfinished">Ziel-Videogröße:</translation>
+        <translation>Zielgröße Video:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Constant Bitrate (Single Pass)</source>
-        <translation type="unfinished">konstante Bitrate [bitrate]          (1 Durchlauf)</translation>
+        <translation>Konstante Bitrate [bitrate] (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Constant Quantiser (Single Pass)</source>
-        <translation type="unfinished">konstante Quantisierung [qp]     (1 Durchlauf)</translation>
+        <translation>Konstante Quantisierung [qp] (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Constant Rate Factor (Single Pass)</source>
-        <translation type="unfinished">konstante Bildqualität [crf]         (1 Durchlauf)</translation>
+        <translation>Konstante Bildqualität [crf] (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Video Size (Two Pass)</source>
-        <translation type="unfinished">feste Videogröße [bitrate, pass] (2 Durchläufe)</translation>
+        <translation>Feste Videogröße [bitrate, pass] (zwei Durchläufe)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Average Bitrate (Two Pass)</source>
-        <translation type="unfinished">durchschnittliche Bitrate [pass]   (2 Durchläufe)</translation>
+        <translation>Mittlere Bitrate [pass] (zwei Durchläufe)</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Encoding Mode:</source>
-        <translation type="unfinished">Kodiermodus:</translation>
+        <translation>Kodiermodus:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -10067,7 +10069,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+9"/>
         <source>Frametype Lookahead:</source>
-        <translation type="unfinished">vorausschauende Bildtypeinschatzung (MB-Tree, VBV) [rc-lookahead] für:</translation>
+        <translation>Vorausschauende Bildtypeinschatzung (MB-Tree, VBV) [rc-lookahead] für:</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -10158,22 +10160,22 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+98"/>
         <source>Motion Vector</source>
-        <translation type="unfinished">Bewegungsvektor</translation>
+        <translation>Bewegungsvektoren</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Maximum Motion Vector Length:</source>
-        <translation type="unfinished">maximale Bewegungsvektorlänge [mvrange]:</translation>
+        <translation>Maximale Bewegungsvektorlänge [mvrange]:</translation>
     </message>
     <message>
         <location line="+70"/>
         <source>Minimum Buffer Between Threads:</source>
-        <translation type="unfinished">minimaler Puffer zwischen zwei Arbeitsträngen [mvrange-thread]:</translation>
+        <translation>Minimaler Puffer zwischen zwei Arbeitsträngen [mvrange-thread]:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Maximum Motion Vector Search Range:</source>
-        <translation type="unfinished">max. Suchradius für die Bewegungssuche in Pixel [merange]:</translation>
+        <translation>Max. Suchradius für die Bewegungssuche in Pixel [merange]:</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -10195,7 +10197,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+7"/>
         <source>Weighted Prediction for P-frames:</source>
-        <translation type="unfinished">gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
+        <translation>Gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -10222,12 +10224,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+25"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation type="unfinished">gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
+        <translation>Gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Constrained Intra Prediction</source>
-        <translation type="unfinished">I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
+        <translation>I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -10328,12 +10330,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+7"/>
         <source>Maximum Consecutive B-frames:</source>
-        <translation type="unfinished">maximale Anzahl aufeinanderfolgender B-Bilder [bframes]:</translation>
+        <translation>Maximale Anzahl aufeinanderfolgender B-Bilder [bframes]:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Adaptive B-frame Decision:</source>
-        <translation type="unfinished">adaptive Entscheidung zwischen P- und B-Bildern (DCT) [b-adapt]:</translation>
+        <translation>Adaptive Entscheidung zwischen P- und B-Bildern (DCT) [b-adapt]:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -10532,7 +10534,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-2705"/>
         <source>Fast First Pass</source>
-        <translation type="unfinished">ersten Durchlauf schnell ausführen [no-slow-firstpass]</translation>
+        <translation>Ersten Durchlauf schnell ausführen [no-slow-firstpass]</translation>
     </message>
     <message>
         <location line="+2943"/>
@@ -10593,7 +10595,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+162"/>
         <source>GOP Size:</source>
-        <translation type="unfinished">GOP Größe (Bildanzahl zwischen zwei Vollbildern) [keyint]:</translation>
+        <translation>GOP-Länge (Anzahl Bilder zwischen zwei Vollbildern) [keyint]:</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -10608,7 +10610,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+68"/>
         <source>Periodic Intra Refresh</source>
-        <translation type="unfinished">keine IDR-Frames verwenden, stattdessen kontinuierlich aktualisieren [intra-refresh]</translation>
+        <translation>Keine IDR-Frames verwenden, stattdessen kontinuierlich aktualisieren [intra-refresh]</translation>
     </message>
     <message>
         <location line="+181"/>
@@ -10770,7 +10772,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+584"/>
         <source>Sequence Parameter Set Identifer:</source>
-        <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
+        <translation>Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
     <message>
         <location line="-692"/>
@@ -10806,7 +10808,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <location line="+8"/>
         <source>Custom:</source>
         <comment>PAR</comment>
-        <translation type="unfinished">individuelles Seitenverhältnis angeben:</translation>
+        <translation>Individuelles Seitenverhältnis angeben:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -10816,12 +10818,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+49"/>
         <source>:</source>
-        <translation type="unfinished">:</translation>
+        <translation>:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Predefined Aspect Ratio:</source>
-        <translation type="unfinished">Vordefiniertes Seitenverhältnis:</translation>
+        <translation>Vordefiniertes Seitenverhältnis:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -11468,32 +11470,32 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+21"/>
         <source>Target Video Size:</source>
-        <translation type="unfinished">Ziel-Videogröße:</translation>
+        <translation>Zielgröße Video:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Constant Bitrate (Single Pass)</source>
-        <translation type="unfinished">Konstante Bitrate (ein Durchlauf)</translation>
+        <translation>Konstante Bitrate (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Constant Quantiser (Single Pass)</source>
-        <translation type="unfinished">Konstante Quantisierungsstufe (ein Durchlauf)</translation>
+        <translation>Konstante Quantisierungsstufe (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Constant Rate Factor (Single Pass)</source>
-        <translation type="unfinished">Konstante Bildqualität [crf] (ein Durchlauf)</translation>
+        <translation>Konstante Bildqualität [crf] (ein Durchlauf)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Video Size (Two Pass)</source>
-        <translation type="unfinished">Videogröße (zwei Durchläufe)</translation>
+        <translation>Videogröße (zwei Durchläufe)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Average Bitrate (Two Pass)</source>
-        <translation type="unfinished">Mittlere Bitrate (zwei Durchläufe)</translation>
+        <translation>Mittlere Bitrate (zwei Durchläufe)</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -11648,7 +11650,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+35"/>
         <source>Maximum Motion Vector Search Range:</source>
-        <translation type="unfinished">max. Suchradius für die Bewegungssuche in Pixel [merange]:</translation>
+        <translation>Max. Suchradius für Bewegungssuche in Pixel [merange]:</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -11658,7 +11660,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation type="unfinished">gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
+        <translation>Gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -11668,7 +11670,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+9"/>
         <source>Weighted Prediction for P-frames:</source>
-        <translation type="unfinished">gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
+        <translation>Gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
     </message>
     <message>
         <location line="+10"/>
