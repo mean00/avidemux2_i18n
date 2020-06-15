@@ -987,7 +987,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location line="+10"/>
-        <source>© 2001 - 2019  Mean / Eumagga0x2a</source>
+        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1345,10 +1345,10 @@ Si solo copia el vídeo sin recodificarlo,
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+282"/>
+        <location line="+283"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+430"/>
+        <location filename="../../common/gui_savenew.cpp" line="+432"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
@@ -1844,7 +1844,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-318"/>
+        <location filename="../../common/gui_save.cpp" line="-319"/>
         <source>No audio track</source>
         <translation>No hay pistas de audio</translation>
     </message>
@@ -1906,12 +1906,12 @@ Se necesita para crear vídeos compatibles con PSP.</translation>
         <translation>Seleccionar script a guardar</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+182"/>
         <source>Not coded in this version</source>
         <translation>Sin codificar en esta versión</translation>
     </message>
     <message>
-        <location line="+212"/>
+        <location line="+214"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -2177,7 +2177,7 @@ Is it running ?</source>
         <translation>Añadir tarea a la cola</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>Select Workbench to Save</source>
         <translation>Seleccionar la zona de trabajo a guardar</translation>
     </message>
@@ -2234,7 +2234,7 @@ Is it running ?</source>
         <translation>Guardadas %d imágenes.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2712,7 +2712,7 @@ Instalación incongruente</translation>
         <translation>No se puede seleccionar el códec MPEG-4 SP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1446"/>
+        <location filename="../../common/gui_main.cpp" line="-1447"/>
         <source>Select script/project to run</source>
         <translation>Seleccionar script/proyecto a ejecutar</translation>
     </message>
@@ -2732,13 +2732,13 @@ Instalación incongruente</translation>
         <translation>Está a punto de vaciar la lista de archivos y proyectos recientes. Esto no se puede deshacer. ¿Procecer?</translation>
     </message>
     <message>
-        <location line="+127"/>
-        <location line="+71"/>
+        <location line="+126"/>
+        <location line="+73"/>
         <source>Select Video File...</source>
         <translation>Seleccionar archivo de vídeo...</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-48"/>
         <source>No engine</source>
         <translation>No hay ningún motor</translation>
     </message>
@@ -2748,7 +2748,7 @@ Instalación incongruente</translation>
         <translation>El script tinyPy no se habilitó al compilar el programa</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <source>Select Video File to Append...</source>
         <translation>Seleccionar archivo de vídeo a anexar...</translation>
     </message>
@@ -2819,7 +2819,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Problemas al inicializar el dispositivo de audio</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-591"/>
+        <location filename="../../common/gui_save.cpp" line="-592"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2844,7 +2844,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>No se puede acceder a la base de datos. ¿Tiene el control de tareas en ejecución?</translation>
     </message>
     <message>
-        <location line="+228"/>
+        <location line="+229"/>
         <source>Function not implemented
 </source>
         <translation>Función no implementada
@@ -3352,7 +3352,7 @@ Instalación incongruente</translation>
         <translation>No se puede compilar el sombreador</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_toolkit/automation.cpp" line="+234"/>
+        <location filename="../../common/ADM_toolkit/automation.cpp" line="+235"/>
         <source>Permission Error</source>
         <translation>Error de permisos</translation>
     </message>
@@ -6534,7 +6534,7 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Salir</translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+37"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+36"/>
         <source>Oops</source>
         <translation>Huy</translation>
     </message>
@@ -6544,7 +6544,7 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Algo muy malo ha ocurrido al construir la lista de tareas.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>There are no jobs stored</source>
         <translation>No hay tareas guardadas</translation>
     </message>
@@ -7523,7 +7523,7 @@ Se asume que tiene y se intenta continuar.</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+242"/>
+        <location filename="../../common/gui_navigate.cpp" line="+232"/>
         <source>Cannot go to next keyframe</source>
         <translation>No se puede ir al fotograma siguiente</translation>
     </message>
@@ -7886,7 +7886,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+213"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+206"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Nueva versión disponible&lt;/b&gt;&lt;br&gt; Versión %1&lt;br&gt;Publicada el %2.&lt;br&gt;Puede descargarla aquí&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Puede deshabilitar las actualizaciones automáticas en Preferencias.&lt;/small&gt;</translation>
     </message>
@@ -7973,17 +7973,18 @@ The current editing has been saved and will be reloaded at next start</source>
 Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio</translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+230"/>
         <source>%c-%s (%02d)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+70"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+238"/>
+        <location line="+277"/>
+        <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8225,7 +8226,8 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         <translation>Sí</translation>
     </message>
     <message numerus="yes">
-        <location line="+71"/>
+        <location line="+72"/>
+        <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8233,7 +8235,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         </translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>
@@ -8319,18 +8321,18 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         <translation>No hay audio</translation>
     </message>
     <message>
-        <location line="-166"/>
+        <location line="-170"/>
         <source>%2.3f fps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+86"/>
+        <location line="+90"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-92"/>
+        <location line="-96"/>
         <source>%s (%u:%u)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9816,7 +9818,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 Solo se admite vídeo VP8/VP9 y audio Vorbis/Opus</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>Saving Webm</source>
         <translation>Guardando Webm</translation>
     </message>

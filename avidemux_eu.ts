@@ -983,12 +983,7 @@ Erori denborapen argibideak?</translation>
         <translation>Plataforma-anitzeko Bideo Editatzailea</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>© 2001 - 2019  Mean / Eumagga0x2a</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+84"/>
+        <location line="+94"/>
         <source>OK</source>
         <translation>Ongi</translation>
     </message>
@@ -998,7 +993,12 @@ Erori denborapen argibideak?</translation>
         <translation>http://www.avidemux.org</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="-19"/>
+        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>&amp;License</source>
         <translation>&amp;Baimena</translation>
     </message>
@@ -1295,10 +1295,10 @@ Erori denborapen argibideak?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+282"/>
+        <location line="+283"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+430"/>
+        <location filename="../../common/gui_savenew.cpp" line="+432"/>
         <source>Audio</source>
         <translation>Audioa</translation>
     </message>
@@ -1986,7 +1986,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-318"/>
+        <location filename="../../common/gui_save.cpp" line="-319"/>
         <source>No audio track</source>
         <translation>Audio biderik ez</translation>
     </message>
@@ -2048,12 +2048,12 @@ Hau beharrezkoa da PSP bateragarri bideoa sortzeko.</translation>
         <translation>Hautatu gordetzeko eskripta</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+182"/>
         <source>Not coded in this version</source>
         <translation>Kodeatu gabe bertsio honetan</translation>
     </message>
     <message>
-        <location line="+212"/>
+        <location line="+214"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -2294,7 +2294,7 @@ Ekinean dago ?</translation>
         <translation>Lerrokatu lana lan-zerrendan</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>Select Workbench to Save</source>
         <translation>Hautatu Gordtzeko Lanmahaia</translation>
     </message>
@@ -2356,7 +2356,7 @@ Ekinean dago ?</translation>
         <translation>%d irudi gordeta.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2780,7 +2780,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1446"/>
+        <location filename="../../common/gui_main.cpp" line="-1447"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2800,13 +2800,13 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+127"/>
-        <location line="+71"/>
+        <location line="+126"/>
+        <location line="+73"/>
         <source>Select Video File...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-48"/>
         <source>No engine</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2816,7 +2816,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <source>Select Video File to Append...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2885,7 +2885,7 @@ Proceed anyway?</source>
         <translation type="unfinished">Arazoak audio gailua abiarazterakoan</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-591"/>
+        <location filename="../../common/gui_save.cpp" line="-592"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2910,7 +2910,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+228"/>
+        <location line="+229"/>
         <source>Function not implemented
 </source>
         <translation type="unfinished"></translation>
@@ -3326,7 +3326,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_toolkit/automation.cpp" line="+234"/>
+        <location filename="../../common/ADM_toolkit/automation.cpp" line="+235"/>
         <source>Permission Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6491,7 +6491,7 @@ I will assume it has and try to continue</source>
         <translation>Utzi</translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+37"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+36"/>
         <source>Oops</source>
         <translation>Ustekabea</translation>
     </message>
@@ -6501,7 +6501,7 @@ I will assume it has and try to continue</source>
         <translation>Zerbait oso okerra gertatu da lan-zerrenda eraikitzerakoan.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>There are no jobs stored</source>
         <translation>Ez dago lanik biltegiratuta</translation>
     </message>
@@ -7479,7 +7479,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+242"/>
+        <location filename="../../common/gui_navigate.cpp" line="+232"/>
         <source>Cannot go to next keyframe</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7842,7 +7842,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+213"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+206"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7928,17 +7928,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+230"/>
         <source>%c-%s (%02d)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+70"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+238"/>
+        <location line="+277"/>
+        <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8186,12 +8187,13 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+86"/>
+        <location line="+90"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message numerus="yes">
-        <location line="-52"/>
+        <location line="-55"/>
+        <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8199,7 +8201,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+83"/>
         <source>Video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8275,12 +8277,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-168"/>
+        <location line="-172"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Mono</source>
         <translation>Monoa</translation>
     </message>
@@ -9765,7 +9767,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>Saving Webm</source>
         <translation type="unfinished"></translation>
     </message>

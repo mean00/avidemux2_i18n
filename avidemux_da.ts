@@ -986,7 +986,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>© 2001 - 2019  Mean / Eumagga0x2a</source>
+        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1546,10 +1546,10 @@ Drop timinginformationer?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+282"/>
+        <location line="+283"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+430"/>
+        <location filename="../../common/gui_savenew.cpp" line="+432"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
@@ -1913,7 +1913,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-318"/>
+        <location filename="../../common/gui_save.cpp" line="-319"/>
         <source>No audio track</source>
         <translation>Ingen lydspor</translation>
     </message>
@@ -1980,12 +1980,12 @@ Det er nødvendigt for at kunne oprette PSP-kompatibel video.</translation>
         <translation>Du er igang med at slette listen over de sidst åbnede filer og projekter. Dette kan ikke fortrydes. Fortsæt?</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+115"/>
         <source>Not coded in this version</source>
         <translation>Ikke kodet i denne version</translation>
     </message>
     <message>
-        <location line="+207"/>
+        <location line="+209"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2246,7 +2246,7 @@ Kører den?</translation>
         <translation>Sæt i kø, i jobliste</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>Select Workbench to Save</source>
         <translation>Vælg den arbejdsbænk som skal gemmes</translation>
     </message>
@@ -2308,7 +2308,7 @@ Kører den?</translation>
         <translation>Gemte %d billeder.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2788,7 +2788,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1446"/>
+        <location filename="../../common/gui_main.cpp" line="-1447"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2803,13 +2803,13 @@ Uoverensstemmelse i installation</translation>
         <translation>Vælg script som skal fejlfindes</translation>
     </message>
     <message>
-        <location line="+198"/>
-        <location line="+71"/>
+        <location line="+197"/>
+        <location line="+73"/>
         <source>Select Video File...</source>
         <translation>Vælg videofil...</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-48"/>
         <source>No engine</source>
         <translation>Ingen motor</translation>
     </message>
@@ -2819,7 +2819,7 @@ Uoverensstemmelse i installation</translation>
         <translation>tinyPy-script er ikke aktiveret i denne byg</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <source>Select Video File to Append...</source>
         <translation>Vælg videofil som skal føjes til slutning...</translation>
     </message>
@@ -2889,7 +2889,7 @@ Forvent problemer.</translation>
         <translation>Problem ved initialisering af lydenhed</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-591"/>
+        <location filename="../../common/gui_save.cpp" line="-592"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2914,7 +2914,7 @@ Forvent problemer.</translation>
         <translation>Kan ikke kontakte database. Har du Job-kontrol kørende?</translation>
     </message>
     <message>
-        <location line="+228"/>
+        <location line="+229"/>
         <source>Function not implemented
 </source>
         <translation>Funktion ikke implementeret
@@ -3348,7 +3348,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_toolkit/automation.cpp" line="+234"/>
+        <location filename="../../common/ADM_toolkit/automation.cpp" line="+235"/>
         <source>Permission Error</source>
         <translation>Tilladelsesfejl</translation>
     </message>
@@ -6529,7 +6529,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>Afslut</translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+37"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+36"/>
         <source>Oops</source>
         <translation>Ups</translation>
     </message>
@@ -6539,7 +6539,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>Noget gik helt galt under bygning af jobliste.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>There are no jobs stored</source>
         <translation>Der er ingen gemte jobs</translation>
     </message>
@@ -7518,7 +7518,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+242"/>
+        <location filename="../../common/gui_navigate.cpp" line="+232"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kan ikke gå til det næste nøglebillede</translation>
     </message>
@@ -7881,7 +7881,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+213"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+206"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
@@ -7968,17 +7968,18 @@ The current editing has been saved and will be reloaded at next start</source>
 Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start</translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+230"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+70"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+238"/>
+        <location line="+277"/>
+        <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
             <numerusform> (%n spor)</numerusform>
@@ -8226,12 +8227,13 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
     </message>
     <message>
         <location line="+4"/>
-        <location line="+86"/>
+        <location line="+90"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d,%03d</translation>
     </message>
     <message numerus="yes">
-        <location line="-52"/>
+        <location line="-55"/>
+        <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
@@ -8239,7 +8241,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         </translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+83"/>
         <source>Video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8315,12 +8317,12 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-168"/>
+        <location line="-172"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>
@@ -9810,7 +9812,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 Understøtter kun VP8-/VP9-video og Vorbis-/Opus-lyd</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>Saving Webm</source>
         <translation>Gemmer Webm</translation>
     </message>

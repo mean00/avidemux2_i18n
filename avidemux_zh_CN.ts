@@ -993,7 +993,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>© 2001 - 2019  Mean / Eumagga0x2a</source>
+        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1064,7 +1064,7 @@ Drop timing informations ?</source>
         <translation>否</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+73"/>
         <source>Select PNG to Save</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1170,7 +1170,7 @@ Drop timing informations ?</source>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-571"/>
+        <location filename="../../common/gui_save.cpp" line="-572"/>
         <source>Job</source>
         <translation>工作</translation>
     </message>
@@ -1247,7 +1247,7 @@ Drop timing informations ?</source>
         <translation>H263</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+457"/>
+        <location filename="../../common/gui_save.cpp" line="+458"/>
         <location line="+76"/>
         <source>Done</source>
         <translation>完成</translation>
@@ -1306,7 +1306,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1901"/>
+        <location filename="../../common/gui_main.cpp" line="+1902"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1352,7 +1352,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-402"/>
+        <location filename="../../common/gui_save.cpp" line="-403"/>
         <source>No audio track</source>
         <translation>没有音轨</translation>
     </message>
@@ -1378,7 +1378,7 @@ It is needed to create FLV  video.</source>
         <translation>它没&apos;有LAME！，它需要去建立 FLV视频。</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+601"/>
+        <location filename="../../common/gui_save.cpp" line="+602"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>文件 %s 保存不正确。</translation>
     </message>
@@ -1397,12 +1397,12 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+217"/>
         <location line="+3"/>
         <location line="+5"/>
-        <location filename="../../common/gui_save.cpp" line="-601"/>
+        <location filename="../../common/gui_save.cpp" line="-602"/>
         <location line="+10"/>
-        <location line="+282"/>
+        <location line="+283"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+430"/>
+        <location filename="../../common/gui_savenew.cpp" line="+432"/>
         <source>Audio</source>
         <translation>音频</translation>
     </message>
@@ -1425,7 +1425,7 @@ It is needed to create FLV  video.</source>
         <translation>只显示错误警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -1696,7 +1696,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1721"/>
+        <location filename="../../common/gui_main.cpp" line="-1722"/>
         <source>Select script to run</source>
         <translation>选择脚本去执行</translation>
     </message>
@@ -1741,7 +1741,7 @@ Installation mismatch</source>
         <translation>插件-音频装置(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1212"/>
+        <location filename="../../common/gui_main.cpp" line="+1213"/>
         <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+120"/>
         <source>Something bad happened</source>
         <translation>有些事发生问题</translation>
@@ -1930,7 +1930,7 @@ Warning, the settings must be close.</source>
         <translation>高于一般</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-891"/>
+        <location filename="../../common/gui_main.cpp" line="-892"/>
         <source>Select script to save</source>
         <translation>选择脚本去保存</translation>
     </message>
@@ -1947,7 +1947,7 @@ Warning, the settings must be close.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+268"/>
+        <location filename="../../common/gui_main.cpp" line="+269"/>
         <source>Select Video File to Append...</source>
         <translation>选择视频去附加合并(二视带宽高比要一致)...</translation>
     </message>
@@ -2127,7 +2127,7 @@ Installation mismatch</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1228"/>
+        <location filename="../../common/gui_main.cpp" line="-1230"/>
         <source>Not coded in this version</source>
         <translation>没有编进这个版本</translation>
     </message>
@@ -2152,7 +2152,7 @@ Installation mismatch</source>
         <translation>忽略</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+988"/>
+        <location filename="../../common/gui_main.cpp" line="+990"/>
         <source>No error found</source>
         <translation>没有找到错误</translation>
     </message>
@@ -2193,7 +2193,7 @@ Installation mismatch</source>
         <translation>运动</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-529"/>
+        <location filename="../../common/gui_save.cpp" line="-530"/>
         <source>Job name</source>
         <translation>工作名称</translation>
     </message>
@@ -2203,7 +2203,7 @@ Installation mismatch</source>
         <translation>复合器</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+449"/>
+        <location filename="../../common/gui_save.cpp" line="+450"/>
         <source>Saved %d images.</source>
         <translation>已保存 %d 个图像。</translation>
     </message>
@@ -2283,7 +2283,7 @@ Installation mismatch</source>
         <translation>广泛搜寻</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1175"/>
+        <location filename="../../common/gui_main.cpp" line="-1176"/>
         <source>Select script to debug</source>
         <translation>选择脚本去调试</translation>
     </message>
@@ -2318,7 +2318,7 @@ Installation mismatch</source>
         <translation>转到第一帧(开始)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+689"/>
+        <location filename="../../common/gui_main.cpp" line="+690"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>无法开启 &quot;%s&quot;。</translation>
     </message>
@@ -2343,7 +2343,7 @@ Installation mismatch</source>
         <translation>转到下一帧</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-247"/>
+        <location filename="../../common/gui_save.cpp" line="-248"/>
         <source>Cannot reach database. Do you have Job control running ?</source>
         <translation>不能到达数据库，你有工作控制执行吗？</translation>
     </message>
@@ -2427,7 +2427,7 @@ Installation mismatch</source>
         <translation>没有改变</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-618"/>
+        <location filename="../../common/gui_main.cpp" line="-619"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>你是要清除最近使用的文件和项目的列表，这不&apos;能撤销，是否继续？</translation>
     </message>
@@ -2438,12 +2438,12 @@ Installation mismatch</source>
         <translation>Sdl 驱动程序r</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+152"/>
+        <location filename="../../common/gui_main.cpp" line="+151"/>
         <source>No engine</source>
         <translation>没有引擎</translation>
     </message>
     <message>
-        <location line="+470"/>
+        <location line="+472"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; 不存在。</translation>
     </message>
@@ -2559,7 +2559,7 @@ Do you want to continue anyway ?</source>
         <translation>正在检查视频</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+513"/>
+        <location filename="../../common/gui_save.cpp" line="+514"/>
         <source>Saving %s as a BMP file failed.</source>
         <translation>另存 %s 为 BMP 档失败。</translation>
     </message>
@@ -2629,7 +2629,7 @@ Do you want to continue anyway ?</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-66"/>
+        <location filename="../../common/gui_save.cpp" line="-67"/>
         <source>No file loaded</source>
         <translation>没有文件加载</translation>
     </message>
@@ -2814,7 +2814,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>非常高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1383"/>
+        <location filename="../../common/gui_main.cpp" line="-1384"/>
         <source>Select script/project to run</source>
         <translation>选择要执行的脚本/项目</translation>
     </message>
@@ -2876,7 +2876,7 @@ Installation mismatch</source>
         <translation>去除垂直方向块状色斑</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1207"/>
+        <location filename="../../common/gui_main.cpp" line="+1208"/>
         <source>Errors found in %u frames</source>
         <translation>在 %u 帧中发现错误</translation>
     </message>
@@ -2912,7 +2912,7 @@ Installation mismatch</source>
         <translation>剪切</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+60"/>
+        <location filename="../../common/gui_save.cpp" line="+61"/>
         <source>Select BMP to Save</source>
         <translation>选择 BMP 进行保存</translation>
     </message>
@@ -3007,7 +3007,7 @@ Installation mismatch</source>
         <translation>启用openGl支援</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-977"/>
+        <location filename="../../common/gui_main.cpp" line="-979"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>在生成中未启用 tinyPy 脚本</translation>
     </message>
@@ -3016,13 +3016,13 @@ Installation mismatch</source>
         <translation type="vanished">无法安装编译码器，比特率太低？</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-526"/>
+        <location filename="../../common/gui_save.cpp" line="-527"/>
         <source>Output file</source>
         <translation>输出文件</translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="-25"/>
-        <location line="+71"/>
+        <location line="+73"/>
         <source>Select Video File...</source>
         <translation>选择视频檔...</translation>
     </message>
@@ -3103,7 +3103,7 @@ Install lame plugin</source>
         <translation>1/4像素</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+126"/>
+        <location filename="../../common/gui_save.cpp" line="+127"/>
         <source>Saving audio</source>
         <translation>正在保存音频</translation>
     </message>
@@ -3326,7 +3326,7 @@ Expect problems.</source>
         <translation>模式决定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-29"/>
+        <location filename="../../common/gui_save.cpp" line="-30"/>
         <source>Queue job to jobList</source>
         <translation>工作清单</translation>
     </message>
@@ -3341,7 +3341,7 @@ Expect problems.</source>
         <translation>确定吗?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_toolkit/automation.cpp" line="+234"/>
+        <location filename="../../common/ADM_toolkit/automation.cpp" line="+235"/>
         <source>Permission Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6477,7 +6477,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>jobs</name>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+37"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+36"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -6502,7 +6502,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+6"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+5"/>
         <source>There are no jobs stored</source>
         <translation>没有保存任何工作</translation>
     </message>
@@ -6517,7 +6517,7 @@ I will assume it has and try to continue</source>
         <translation>执行工作</translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="-6"/>
+        <location filename="../../common/GUI_jobs.cpp" line="-5"/>
         <source>Something very wrong happened when building joblist.</source>
         <translation>建立任务栏表时发生某些重大错误。</translation>
     </message>
@@ -7506,7 +7506,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+494"/>
+        <location filename="../../common/gui_navigate.cpp" line="+484"/>
         <source>Seek</source>
         <translation>寻求</translation>
     </message>
@@ -7869,12 +7869,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2124"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2085"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-947"/>
         <source>Set start marker</source>
         <translation>设定开始标记</translation>
     </message>
@@ -7916,19 +7916,20 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分钟</translation>
     </message>
     <message>
-        <location line="+1049"/>
+        <location line="+984"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+238"/>
+        <location line="+277"/>
+        <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="-1312"/>
+        <location line="-1288"/>
         <source>Go to first frame</source>
         <translation>转到第一帧</translation>
     </message>
@@ -8207,14 +8208,15 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>是</translation>
     </message>
     <message numerus="yes">
-        <location line="+71"/>
+        <location line="+72"/>
+        <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Mono</source>
         <translation>单音</translation>
     </message>
@@ -8244,12 +8246,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>帧率:	</translation>
     </message>
     <message>
-        <location line="-128"/>
+        <location line="-132"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location line="+140"/>
+        <location line="+144"/>
         <source>Extra data:	</source>
         <translation>额外数据：:	</translation>
     </message>
@@ -8264,8 +8266,8 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>额外视频属性</translation>
     </message>
     <message>
-        <location line="-128"/>
-        <location line="+86"/>
+        <location line="-132"/>
+        <location line="+90"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
@@ -8290,12 +8292,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>编译码器：		</translation>
     </message>
     <message>
-        <location line="-155"/>
+        <location line="-159"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+159"/>
+        <location line="+163"/>
         <source>Bitrate:	</source>
         <translation>比特率:	</translation>
     </message>
@@ -9792,12 +9794,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>强制显示宽度</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebm.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebm.cpp" line="+169"/>
         <source>Saving Webm</source>
         <translation>保存 Webm</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-89"/>
         <source>Unsupported Audio.
 Only VP8/VP9 video and Vorbis/Opus audio supported</source>
         <translation>只有 VP8/VP9 视频和 Vorbis/s/Opus音频支援</translation>

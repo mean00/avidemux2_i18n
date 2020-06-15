@@ -986,7 +986,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>© 2001 - 2019  Mean / Eumagga0x2a</source>
+        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1511,10 +1511,10 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+282"/>
+        <location line="+283"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+430"/>
+        <location filename="../../common/gui_savenew.cpp" line="+432"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
@@ -2078,13 +2078,13 @@ Drop timing informations ?</source>
         <translation>다음 검정 프레임</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+670"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1539"/>
+        <location filename="../../common/gui_main.cpp" line="+1540"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2132,7 +2132,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-642"/>
+        <location filename="../../common/gui_save.cpp" line="-643"/>
         <source>No audio track</source>
         <translation>오디오 트랙 없음</translation>
     </message>
@@ -2191,7 +2191,7 @@ It is needed to create PSP compatible video.</source>
         <translation>FAAC 코덱이 없습니다! PSP 호환 비디오를 만들 때 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1446"/>
+        <location filename="../../common/gui_main.cpp" line="-1447"/>
         <source>Select script/project to run</source>
         <translation>실행할 스크립트/프로젝트 선택</translation>
     </message>
@@ -2216,18 +2216,18 @@ It is needed to create PSP compatible video.</source>
         <translation>최근 파일과 프로젝트의 목록을 지우려고 합니다. 이 작업은 복구할 수 없습니다. 진행할까요?</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+115"/>
         <source>Not coded in this version</source>
         <translation>이 버전에 코딩되어 있지 않습니다</translation>
     </message>
     <message>
         <location line="+11"/>
-        <location line="+71"/>
+        <location line="+73"/>
         <source>Select Video File...</source>
         <translation>비디오 파일 선택...</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-48"/>
         <source>No engine</source>
         <translation>엔진 없음</translation>
     </message>
@@ -2237,7 +2237,7 @@ It is needed to create PSP compatible video.</source>
         <translation>이 빌드에서 TinyPy 스크립트는 사용할 수 없습니다</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+51"/>
         <source>Select Video File to Append...</source>
         <translation>덧붙일 비디오 파일 선택...</translation>
     </message>
@@ -2571,7 +2571,7 @@ Is it running ?</source>
         <translation>작업목록 대기열에 작업 넣기</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>Select Workbench to Save</source>
         <translation>저장할 작업벤치 선택</translation>
     </message>
@@ -3334,7 +3334,7 @@ Installation mismatch</source>
         <translation>쉐이더를 컴파일할 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_toolkit/automation.cpp" line="+234"/>
+        <location filename="../../common/ADM_toolkit/automation.cpp" line="+235"/>
         <source>Permission Error</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6504,7 +6504,7 @@ I will assume it has and try to continue</source>
         <translation>끝내기</translation>
     </message>
     <message>
-        <location filename="../../common/GUI_jobs.cpp" line="+37"/>
+        <location filename="../../common/GUI_jobs.cpp" line="+36"/>
         <source>Oops</source>
         <translation>웁스</translation>
     </message>
@@ -6514,7 +6514,7 @@ I will assume it has and try to continue</source>
         <translation>작업 목록을 만드는 중 매우 잘못된 일이 발생했습니다.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>There are no jobs stored</source>
         <translation>저장된 작업이 없습니다</translation>
     </message>
@@ -7492,7 +7492,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+242"/>
+        <location filename="../../common/gui_navigate.cpp" line="+232"/>
         <source>Cannot go to next keyframe</source>
         <translation>다음 키프레임으로 이동할 수 없습니다</translation>
     </message>
@@ -7855,7 +7855,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+213"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+206"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;새 버전이 나왔습니다!&lt;/b&gt;&lt;br&gt; 버전 %1&lt;br&gt;%2에 배포.&lt;br&gt;여기에서 다운로드할 수 있습니다&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; 자동 업데이트는 환경 설정에서 끌 수 있습니다.&lt;/small&gt;</translation>
     </message>
@@ -7942,17 +7942,18 @@ The current editing has been saved and will be reloaded at next start</source>
 현재 편집 중인 것을 저장하고 다음 시작시에 다시 불러올 것입니다</translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+230"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+70"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+238"/>
+        <location line="+277"/>
+        <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
             <numerusform> (%n 트랙)</numerusform>
@@ -8199,19 +8200,20 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+86"/>
+        <location line="+90"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message numerus="yes">
-        <location line="-52"/>
+        <location line="-55"/>
+        <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
             <numerusform></numerusform>
         </translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+83"/>
         <source>Video</source>
         <translation>비디오</translation>
     </message>
@@ -8287,12 +8289,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>오디오 없음</translation>
     </message>
     <message>
-        <location line="-168"/>
+        <location line="-172"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Mono</source>
         <translation>모노</translation>
     </message>
@@ -9779,7 +9781,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 VP8/VP9 비디오와 Vorbis/Opus 오디오만 지원합니다</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>Saving Webm</source>
         <translation>WebM 저장 중</translation>
     </message>
