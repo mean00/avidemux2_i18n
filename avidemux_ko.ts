@@ -383,32 +383,32 @@ Drop timing informations ?</source>
         <translation>대화</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+6"/>
         <source>TimeLeft</source>
         <translation>남은시간</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="+13"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+28"/>
         <source>ProcessImages</source>
         <translation>이미지처리</translation>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="+23"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="-30"/>
         <source>Speed</source>
         <translation>속도</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-14"/>
         <source>0 fps</source>
         <translation>0 fps</translation>
     </message>
@@ -3213,7 +3213,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUtils/src/ADM_iso639.cpp" line="+17"/>
-        <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="+375"/>
+        <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="+382"/>
         <source>Unknown</source>
         <translation>알 수 없음</translation>
     </message>
@@ -6967,7 +6967,7 @@ I will assume it has and try to continue</source>
         <translation>Matroska 이미지</translation>
     </message>
     <message>
-        <location line="+506"/>
+        <location line="+523"/>
         <source>Matroska clusters</source>
         <translation>Matroska 클러스터</translation>
     </message>
@@ -9246,8 +9246,8 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+205"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+330"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+207"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+335"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>연속적인 파일 이름을 가진 파일이 여럿 있습니다. 전부 불러올까요?</translation>
@@ -9804,7 +9804,7 @@ VP8/VP9 비디오와 Vorbis/Opus 오디오만 지원합니다</translation>
 <context>
     <name>workingDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/working.ui" line="+13"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/working.ui" line="+14"/>
         <source>Processing</source>
         <translation>처리 중</translation>
     </message>
@@ -9814,12 +9814,12 @@ VP8/VP9 비디오와 Vorbis/Opus 오디오만 지원합니다</translation>
         <translation>경과:</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+14"/>
         <source>Time Remaining:</source>
         <translation>남은 시간:</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="+13"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>

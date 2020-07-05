@@ -377,22 +377,22 @@ Drop timing informations ?</source>
 <context>
     <name>DialogProcessing</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/processing.ui" line="+33"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/processing.ui" line="+84"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="-44"/>
         <source>0 fps</source>
         <translation>0 fps</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-20"/>
         <source>TimeLeft</source>
         <translation>剩余时间</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+34"/>
         <source>Speed</source>
         <translation>速率</translation>
     </message>
@@ -402,12 +402,12 @@ Drop timing informations ?</source>
         <translation>序列图像</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-28"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-19"/>
         <source>Dialog</source>
         <translation>对话窗</translation>
     </message>
@@ -1119,7 +1119,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="+373"/>
+        <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="+380"/>
         <source>1:1</source>
         <translation>1:1</translation>
     </message>
@@ -6975,12 +6975,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+553"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+570"/>
         <source>Matroska clusters</source>
         <translation>Matroska 集群</translation>
     </message>
     <message>
-        <location line="-506"/>
+        <location line="-523"/>
         <source>Matroska Images</source>
         <translation>Matroska 图像</translation>
     </message>
@@ -9263,8 +9263,8 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+217"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+342"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+219"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+347"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+105"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexVC1.cpp" line="+74"/>
         <source>Indexing</source>
@@ -9819,22 +9819,22 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 <context>
     <name>workingDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/working.ui" line="+19"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/working.ui" line="+20"/>
         <source>Elapsed:</source>
         <translation>已过时间:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+27"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-13"/>
         <source>Time Remaining:</source>
         <translation>剩余时间:</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-20"/>
         <source>Processing</source>
         <translation>处理中</translation>
     </message>
