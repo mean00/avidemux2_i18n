@@ -1064,7 +1064,7 @@ Drop timing informations ?</source>
         <translation>否</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+76"/>
         <source>Select PNG to Save</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1170,7 +1170,7 @@ Drop timing informations ?</source>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-572"/>
+        <location filename="../../common/gui_save.cpp" line="-575"/>
         <source>Job</source>
         <translation>工作</translation>
     </message>
@@ -1247,7 +1247,7 @@ Drop timing informations ?</source>
         <translation>H263</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+458"/>
+        <location filename="../../common/gui_save.cpp" line="+461"/>
         <location line="+76"/>
         <source>Done</source>
         <translation>完成</translation>
@@ -1352,7 +1352,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-403"/>
+        <location filename="../../common/gui_save.cpp" line="-406"/>
         <source>No audio track</source>
         <translation>没有音轨</translation>
     </message>
@@ -1378,7 +1378,7 @@ It is needed to create FLV  video.</source>
         <translation>它没&apos;有LAME！，它需要去建立 FLV视频。</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+602"/>
+        <location filename="../../common/gui_save.cpp" line="+605"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>文件 %s 保存不正确。</translation>
     </message>
@@ -1397,9 +1397,9 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+217"/>
         <location line="+3"/>
         <location line="+5"/>
-        <location filename="../../common/gui_save.cpp" line="-602"/>
+        <location filename="../../common/gui_save.cpp" line="-605"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1853,7 +1853,7 @@ Proceed anyway?</source>
         <translation>当增加时某些事情失败</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-487"/>
+        <location filename="../../common/gui_save.cpp" line="-490"/>
         <source>Select Workbench to Save</source>
         <translation>选择工作台进行保存</translation>
     </message>
@@ -2099,7 +2099,7 @@ Installation mismatch</source>
         <translation>OpenGL (最好)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+19"/>
+        <location filename="../../common/gui_save.cpp" line="+21"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>选择 JPEG 顺序进行保存</translation>
     </message>
@@ -2132,7 +2132,7 @@ Installation mismatch</source>
         <translation>没有编进这个版本</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+492"/>
+        <location filename="../../common/gui_save.cpp" line="+493"/>
         <source>Failed</source>
         <translation>已失败</translation>
     </message>
@@ -2193,7 +2193,7 @@ Installation mismatch</source>
         <translation>运动</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-530"/>
+        <location filename="../../common/gui_save.cpp" line="-533"/>
         <source>Job name</source>
         <translation>工作名称</translation>
     </message>
@@ -2203,7 +2203,7 @@ Installation mismatch</source>
         <translation>复合器</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+450"/>
+        <location filename="../../common/gui_save.cpp" line="+453"/>
         <source>Saved %d images.</source>
         <translation>已保存 %d 个图像。</translation>
     </message>
@@ -2343,7 +2343,7 @@ Installation mismatch</source>
         <translation>转到下一帧</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-248"/>
+        <location filename="../../common/gui_save.cpp" line="-251"/>
         <source>Cannot reach database. Do you have Job control running ?</source>
         <translation>不能到达数据库，你有工作控制执行吗？</translation>
     </message>
@@ -2559,7 +2559,7 @@ Do you want to continue anyway ?</source>
         <translation>正在检查视频</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+514"/>
+        <location filename="../../common/gui_save.cpp" line="+517"/>
         <source>Saving %s as a BMP file failed.</source>
         <translation>另存 %s 为 BMP 档失败。</translation>
     </message>
@@ -2629,7 +2629,7 @@ Do you want to continue anyway ?</source>
         <translation>语言</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-67"/>
+        <location filename="../../common/gui_save.cpp" line="-70"/>
         <source>No file loaded</source>
         <translation>没有文件加载</translation>
     </message>
@@ -2912,7 +2912,7 @@ Installation mismatch</source>
         <translation>剪切</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+61"/>
+        <location filename="../../common/gui_save.cpp" line="+64"/>
         <source>Select BMP to Save</source>
         <translation>选择 BMP 进行保存</translation>
     </message>
@@ -3016,7 +3016,7 @@ Installation mismatch</source>
         <translation type="vanished">无法安装编译码器，比特率太低？</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-527"/>
+        <location filename="../../common/gui_save.cpp" line="-530"/>
         <source>Output file</source>
         <translation>输出文件</translation>
     </message>
@@ -3103,7 +3103,7 @@ Install lame plugin</source>
         <translation>1/4像素</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+127"/>
+        <location filename="../../common/gui_save.cpp" line="+130"/>
         <source>Saving audio</source>
         <translation>正在保存音频</translation>
     </message>
@@ -3290,7 +3290,7 @@ Expect problems.</source>
         <translation>保存失败</translation>
     </message>
     <message>
-        <location line="-216"/>
+        <location line="-219"/>
         <location line="+2"/>
         <source>Select File to Save Audio</source>
         <translation>选择文件来保存音频</translation>
@@ -3464,7 +3464,7 @@ Expect problems.</source>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+190"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+218"/>
         <source>ASS</source>
         <translation>ASS</translation>
     </message>
@@ -3476,12 +3476,12 @@ Expect problems.</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>字型</translation>
     </message>
     <message>
-        <location line="-70"/>
+        <location line="-75"/>
         <source>Cannot load this SRT file.</source>
         <translation>不能载入SRT檔.</translation>
     </message>
@@ -3506,33 +3506,33 @@ Expect problems.</source>
         <translation>你确认是ASS/SSA档吗?</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+226"/>
         <source>SSA Error</source>
         <translation>SSA错误</translation>
     </message>
     <message>
-        <location line="-146"/>
+        <location line="-186"/>
         <source>Select Subtitle File</source>
         <translation>选择字幕档</translation>
     </message>
     <message>
-        <location line="+146"/>
+        <location line="+186"/>
         <source>ass_read_file() failed for %s</source>
         <translation>无法读取文件为 %s</translation>
     </message>
     <message>
-        <location line="-145"/>
+        <location line="-185"/>
         <source>_Line spacing:</source>
         <translation>行距:</translation>
     </message>
     <message>
-        <location line="+93"/>
+        <location line="+98"/>
         <source>Preparing the fonts can take a few minutes the first time.
 This message will not be displayed again.</source>
         <translation>准备的字体可以花几分钟第一次，不会再显示此消息。</translation>
     </message>
     <message>
-        <location line="-91"/>
+        <location line="-96"/>
         <source>_Top margin:</source>
         <translation>顶部边界:</translation>
     </message>
@@ -3542,12 +3542,12 @@ This message will not be displayed again.</source>
         <translation>格式 ?</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <location line="-92"/>
         <source>SSA/ASS/SRT</source>
         <translation>6.1-字型文件SSA/ASS/SRT扩展名格式</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+132"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>字幕檔(ASS/SSA):</translation>
     </message>
@@ -3567,12 +3567,12 @@ This message will not be displayed again.</source>
         <translation>不能转换SSA檔.</translation>
     </message>
     <message>
-        <location line="-132"/>
+        <location line="-160"/>
         <source>Hardcode ASS/SSA/SRT subtitles using libass.</source>
         <translation>编码-扩展名兼容的.ass/.ssa/.srt字幕，请汇入文本檔。</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+169"/>
         <source>Cannot save converted file.</source>
         <translation>不能保存转换档.</translation>
     </message>

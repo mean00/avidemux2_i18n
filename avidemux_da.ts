@@ -1546,7 +1546,7 @@ Drop timinginformationer?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1913,7 +1913,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-319"/>
+        <location filename="../../common/gui_save.cpp" line="-322"/>
         <source>No audio track</source>
         <translation>Ingen lydspor</translation>
     </message>
@@ -2257,12 +2257,12 @@ Kører den?</translation>
         <translation>Vælg fil som lyden skal gemmes til</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Vælg den JPEG-sekvens som skal gemmes</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Vælg den BMP som skal gemmes</translation>
     </message>
@@ -2889,7 +2889,7 @@ Forvent problemer.</translation>
         <translation>Problem ved initialisering af lydenhed</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-592"/>
+        <location filename="../../common/gui_save.cpp" line="-595"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2914,7 +2914,7 @@ Forvent problemer.</translation>
         <translation>Kan ikke kontakte database. Har du Job-kontrol kørende?</translation>
     </message>
     <message>
-        <location line="+229"/>
+        <location line="+232"/>
         <source>Function not implemented
 </source>
         <translation>Funktion ikke implementeret
@@ -3471,7 +3471,7 @@ Try anyway?</source>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>_Undertekst-fil (ASS/SSA):</translation>
     </message>
@@ -3506,7 +3506,7 @@ Try anyway?</source>
         <translation>ASS</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation>SSA/ASS/SRT</translation>
     </message>
@@ -3516,7 +3516,7 @@ Try anyway?</source>
         <translation>Hardcode ASS-/SSA-/SRT-undertekster ved brug af libass.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>Format?</translation>
     </message>
@@ -3563,7 +3563,7 @@ Try anyway?</source>
         <translation>Kan ikke gemme konverterede fil.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Skrifttyper</translation>
     </message>
@@ -3575,7 +3575,7 @@ This message will not be displayed again.</source>
 Denne meddelelse vil ikke blive vist igen.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>SSA-fejl</translation>
     </message>

@@ -1900,7 +1900,7 @@ It is needed to create FLV  video.</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2195,7 +2195,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-82"/>
-        <location filename="../../common/gui_save.cpp" line="-643"/>
+        <location filename="../../common/gui_save.cpp" line="-646"/>
         <source>No audio track</source>
         <translation>Pas de piste audio</translation>
     </message>
@@ -2571,12 +2571,12 @@ Is it running ?</source>
         <translation>Choisir le fichier audio à sauver</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Choisir l&apos;image jpeg à sauver</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Choisir l&apos;image BMP à sauver</translation>
     </message>
@@ -3450,7 +3450,7 @@ Incompatibilité d&apos;installation</translation>
         <translation type="unfinished">Incruster des sous titres ASS/SSA/SRT avec libass</translation>
     </message>
     <message>
-        <location line="+103"/>
+        <location line="+131"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Fichier de sous-titres (ASS/SSA):</translation>
     </message>
@@ -3475,12 +3475,12 @@ Incompatibilité d&apos;installation</translation>
         <translation>Marge basse:</translation>
     </message>
     <message>
-        <location line="-108"/>
+        <location line="-136"/>
         <source>SSA/ASS/SRT</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+92"/>
         <source>Format ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3537,7 +3537,7 @@ Incompatibilité d&apos;installation</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3548,7 +3548,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation type="unfinished"></translation>
     </message>

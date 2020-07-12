@@ -1345,7 +1345,7 @@ Si solo copia el vídeo sin recodificarlo,
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1844,7 +1844,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-319"/>
+        <location filename="../../common/gui_save.cpp" line="-322"/>
         <source>No audio track</source>
         <translation>No hay pistas de audio</translation>
     </message>
@@ -2188,12 +2188,12 @@ Is it running ?</source>
         <translation>Seleccionar archivo para guardar al audio</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Seleccionar secuencia JPEG a guardar</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Seleccionar BMP a guardar</translation>
     </message>
@@ -2819,7 +2819,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Problemas al inicializar el dispositivo de audio</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-592"/>
+        <location filename="../../common/gui_save.cpp" line="-595"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2844,7 +2844,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>No se puede acceder a la base de datos. ¿Tiene el control de tareas en ejecución?</translation>
     </message>
     <message>
-        <location line="+229"/>
+        <location line="+232"/>
         <source>Function not implemented
 </source>
         <translation>Función no implementada
@@ -3475,7 +3475,7 @@ Instalación incongruente</translation>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Archivo de _subtítulo (ASS/SSA):</translation>
     </message>
@@ -3510,7 +3510,7 @@ Instalación incongruente</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3520,7 +3520,7 @@ Instalación incongruente</translation>
         <translation>Incrustar los subtítulos ASS/SSA/SRT usando libass.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>¿Formato?</translation>
     </message>
@@ -3567,7 +3567,7 @@ Instalación incongruente</translation>
         <translation>No se puede guardar el archivo convertido.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Fuentes</translation>
     </message>
@@ -3579,7 +3579,7 @@ This message will not be displayed again.</source>
 Este mensaje no se mostrará de nuevo.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>Error de SSA</translation>
     </message>

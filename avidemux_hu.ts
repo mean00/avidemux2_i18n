@@ -1307,7 +1307,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1958,7 +1958,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-319"/>
+        <location filename="../../common/gui_save.cpp" line="-322"/>
         <source>No audio track</source>
         <translation>Nincs hangsáv</translation>
     </message>
@@ -2297,12 +2297,12 @@ El lett indítva ?</translation>
         <translation>Fájl kiválasztása a hang mentésére</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>JPEG képsor kiválasztása mentésre</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>BMP kiválasztása mentésre</translation>
     </message>
@@ -2877,7 +2877,7 @@ Proceed anyway?</source>
         <translation type="unfinished">Probléma a hangeszköz inicializálásánál</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-592"/>
+        <location filename="../../common/gui_save.cpp" line="-595"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2902,7 +2902,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+229"/>
+        <location line="+232"/>
         <source>Function not implemented
 </source>
         <translation type="unfinished"></translation>
@@ -3450,7 +3450,7 @@ Installation mismatch</source>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Felirat fájl (ASS/SSA):</translation>
     </message>
@@ -3485,7 +3485,7 @@ Installation mismatch</source>
         <translation>ASS</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3495,7 +3495,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3542,7 +3542,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3553,7 +3553,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation type="unfinished"></translation>
     </message>

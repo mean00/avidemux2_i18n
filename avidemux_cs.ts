@@ -1316,7 +1316,7 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1611,7 +1611,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-319"/>
+        <location filename="../../common/gui_save.cpp" line="-322"/>
         <source>No audio track</source>
         <translation type="unfinished">Chybí zvuková stopa</translation>
     </message>
@@ -1898,12 +1898,12 @@ Je spuštěno?</translation>
         <translation>Vybrat soubor k uložení zvuku</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Vybrat sled JPEG souborů k uložení</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Vybrat BMP soubor k uložení</translation>
     </message>
@@ -2816,7 +2816,7 @@ Proceed anyway?</source>
         <translation type="unfinished">Chyba inicializace zvukového zařízení</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-592"/>
+        <location filename="../../common/gui_save.cpp" line="-595"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2856,7 +2856,7 @@ Proceed anyway?</source>
         <translation>Přidat úlohu na seznam</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>Select PNG to Save</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3429,7 +3429,7 @@ Installation mismatch</source>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation type="unfinished">_Soubor s titulky (ASS/SSA):</translation>
     </message>
@@ -3464,7 +3464,7 @@ Installation mismatch</source>
         <translation type="unfinished">ASS</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3474,7 +3474,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3521,7 +3521,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3532,7 +3532,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation type="unfinished"></translation>
     </message>

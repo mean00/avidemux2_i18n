@@ -1515,7 +1515,7 @@ Vypustiť časové údaje?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2137,7 +2137,7 @@ Zmätočná inštalácia</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-643"/>
+        <location filename="../../common/gui_save.cpp" line="-646"/>
         <source>No audio track</source>
         <translation>Žiadna audio stopa</translation>
     </message>
@@ -2604,12 +2604,12 @@ Je spustené?</translation>
         <translation>Vyberte súbor na uloženie audia</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Vyberte sekvenciu JPEG súborov na uloženie</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Vyberte BMP na uloženie</translation>
     </message>
@@ -2707,12 +2707,12 @@ Je spustené?</translation>
         <translation>Hotovo</translation>
     </message>
     <message>
-        <location line="-588"/>
+        <location line="-591"/>
         <source>Audio encoder index out of bounds</source>
         <translation>Index audio kódovača je mimo hraníc</translation>
     </message>
     <message>
-        <location line="+510"/>
+        <location line="+513"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation>Dosiahol sa maximálny počet 99999 obrázkov.</translation>
     </message>
@@ -3504,7 +3504,7 @@ Installation mismatch</source>
         <translation>Pevné titulky ASS/SSA/SRT použitím knižnice libass.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>Formátovať?</translation>
     </message>
@@ -3586,7 +3586,7 @@ Installation mismatch</source>
         <translation>Nemožno uložiť konvertovaný súbor.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Písma</translation>
     </message>
@@ -3598,7 +3598,7 @@ This message will not be displayed again.</source>
 Táto správa sa znova nezobrazí.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>Chyba SSA</translation>
     </message>

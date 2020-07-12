@@ -1511,7 +1511,7 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2132,7 +2132,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-643"/>
+        <location filename="../../common/gui_save.cpp" line="-646"/>
         <source>No audio track</source>
         <translation>오디오 트랙 없음</translation>
     </message>
@@ -2582,12 +2582,12 @@ Is it running ?</source>
         <translation>오디오를 저장할 파일 선택</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>저장할 JPEG 시퀀스 선택</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>저장할 BMP 선택</translation>
     </message>
@@ -3466,7 +3466,7 @@ Installation mismatch</source>
         <translation>ASS/SSA/SRT 자막을 libass로 하드코딩합니다.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>형식?</translation>
     </message>
@@ -3548,7 +3548,7 @@ Installation mismatch</source>
         <translation>변환한 파일을 저장할 수 없습니다.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>글꼴</translation>
     </message>
@@ -3560,7 +3560,7 @@ This message will not be displayed again.</source>
 이 메시지는 다시 표시되지 않습니다.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>SSA 오류</translation>
     </message>

@@ -1290,7 +1290,7 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2067,7 +2067,7 @@ Läuft er?</translation>
         <translation type="unfinished">Gehe zur Zeit</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-228"/>
+        <location filename="../../common/gui_save.cpp" line="-231"/>
         <source>Select Workbench to Save</source>
         <translation type="unfinished">Arbeitsbereich als Projekt speichern</translation>
     </message>
@@ -2078,12 +2078,12 @@ Läuft er?</translation>
         <translation type="unfinished">Audio-Datei zum Speichern wählen</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation type="unfinished">Als JPEG-Bildfolge speichern</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>BMP-Datei zum Speichern wählen</translation>
     </message>
@@ -2591,7 +2591,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-602"/>
+        <location filename="../../common/gui_save.cpp" line="-605"/>
         <source>No audio track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2705,7 +2705,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished">Job zur Warteschlange hinzufügen</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>Select PNG to Save</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3462,7 +3462,7 @@ Nichtübereinstimmende Installation</translation>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>_Untertitel-Datei (ASS/SSA):</translation>
     </message>
@@ -3497,7 +3497,7 @@ Nichtübereinstimmende Installation</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3507,7 +3507,7 @@ Nichtübereinstimmende Installation</translation>
         <translation>ASS/SSA/SRT-Untertitel durch libass einbrennen.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>Falsches Dateiformat?</translation>
     </message>
@@ -3554,7 +3554,7 @@ Nichtübereinstimmende Installation</translation>
         <translation>Kann umgewandelte Datei nicht speichern.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Schriftarten</translation>
     </message>
@@ -3566,7 +3566,7 @@ This message will not be displayed again.</source>
 Diese Meldung wird nur einmal angezeigt.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation type="unfinished"></translation>
     </message>

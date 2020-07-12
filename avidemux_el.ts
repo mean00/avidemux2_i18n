@@ -1337,7 +1337,7 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1826,7 +1826,7 @@ Is it running ?</source>
         <translation>Ισχύς _μεταμορφωτή:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-228"/>
+        <location filename="../../common/gui_save.cpp" line="-231"/>
         <source>Select Workbench to Save</source>
         <translation>Επιλέξτε το έργο για αποθήκευση</translation>
     </message>
@@ -1837,12 +1837,12 @@ Is it running ?</source>
         <translation>Επιλέξτε αρχείο για αποθήκευση του ήχου</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Επιλέξτε την ακολουθία JPEG για αποθήκευση</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Επιλέξτε BMP για αποθήκευση</translation>
     </message>
@@ -2503,7 +2503,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-602"/>
+        <location filename="../../common/gui_save.cpp" line="-605"/>
         <source>No audio track</source>
         <translation>Κανένα κανάλι ήχου</translation>
     </message>
@@ -2716,7 +2716,7 @@ Proceed anyway?</source>
         <translation>Προσθήκη της διαδικασίας στο κατάστιχο διαδικασιών</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>Select PNG to Save</source>
         <translation>Επιλέξτε PNG για αποθήκευση</translation>
     </message>
@@ -3513,7 +3513,7 @@ Installation mismatch</source>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Αρχείο _υποτίτλων (ASS/SSA):</translation>
     </message>
@@ -3543,7 +3543,7 @@ Installation mismatch</source>
         <translation>ASS</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation>SSA/ASS/SRT</translation>
     </message>
@@ -3553,7 +3553,7 @@ Installation mismatch</source>
         <translation>Εγχάραξη υποτίτλων ASS, SSA ή SRT χρησιμοποιώντας την libass.</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation>Μορφή ;</translation>
     </message>
@@ -3605,7 +3605,7 @@ Installation mismatch</source>
         <translation>Αδυναμία αποθήκευσης του μεταποιημένου αρχείου.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Γραμματοσειρές</translation>
     </message>
@@ -3617,7 +3617,7 @@ This message will not be displayed again.</source>
 Αυτό το μήνυμα δεν θα επανεμφανιστεί.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>SSA Σφάλμα</translation>
     </message>

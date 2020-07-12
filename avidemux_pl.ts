@@ -1354,7 +1354,7 @@ Porzucić informacje dotyczące czasu?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+57"/>
         <location line="+10"/>
-        <location line="+283"/>
+        <location line="+286"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1873,7 +1873,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-228"/>
+        <location filename="../../common/gui_save.cpp" line="-231"/>
         <source>Select Workbench to Save</source>
         <translation type="unfinished">Wybierz narzędzia do zapisania</translation>
     </message>
@@ -1884,12 +1884,12 @@ Czy jest on uruchomiony?</translation>
         <translation>Wybierz plik aby zapisać dźwięk</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>Select JPEG Sequence to Save</source>
         <translation>Wybierz sekwencję JPEG do zapisania</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Select BMP to Save</source>
         <translation>Wybierz plik BMP do zapisu</translation>
     </message>
@@ -2485,7 +2485,7 @@ Niezgodność instalacji</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-602"/>
+        <location filename="../../common/gui_save.cpp" line="-605"/>
         <source>No audio track</source>
         <translation>Brak ścieżki dźwiękowej</translation>
     </message>
@@ -2688,7 +2688,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Dodaj zadanie do kolejki</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+55"/>
         <source>Select PNG to Save</source>
         <translation>Wybierz plik PNG do zapisu</translation>
     </message>
@@ -3479,7 +3479,7 @@ Niezgodność instalacji</translation>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+208"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Plik z _napisami (ASS/SSA):</translation>
     </message>
@@ -3514,7 +3514,7 @@ Niezgodność instalacji</translation>
         <translation>ASS</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-142"/>
         <source>SSA/ASS/SRT</source>
         <translation>SSA/ASS/SRT</translation>
     </message>
@@ -3524,7 +3524,7 @@ Niezgodność instalacji</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+91"/>
         <source>Format ?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3571,7 +3571,7 @@ Niezgodność instalacji</translation>
         <translation>Nie można zapisać skonwertowanego pliku.</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+61"/>
         <source>Fonts</source>
         <translation>Czcionki</translation>
     </message>
@@ -3583,7 +3583,7 @@ This message will not be displayed again.</source>
 Ten komunikat nie pojawi się ponownie.</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+87"/>
         <source>SSA Error</source>
         <translation>Błąd SSA</translation>
     </message>
