@@ -3579,7 +3579,7 @@ This message will not be displayed again.</source>
 Este mensaje no se mostrará de nuevo.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>Error de SSA</translation>
     </message>

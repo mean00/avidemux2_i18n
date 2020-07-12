@@ -3583,7 +3583,7 @@ This message will not be displayed again.</source>
 Ten komunikat nie pojawi się ponownie.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>Błąd SSA</translation>
     </message>

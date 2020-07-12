@@ -3560,7 +3560,7 @@ This message will not be displayed again.</source>
 이 메시지는 다시 표시되지 않습니다.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>SSA 오류</translation>
     </message>

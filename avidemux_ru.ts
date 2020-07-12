@@ -3574,7 +3574,7 @@ This message will not be displayed again.</source>
 Это сообщение больше показываться не будет.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation type="unfinished">Ошибка SSA</translation>
     </message>

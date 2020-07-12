@@ -3575,7 +3575,7 @@ This message will not be displayed again.</source>
 Denne meddelelse vil ikke blive vist igen.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>SSA-fejl</translation>
     </message>

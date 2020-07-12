@@ -3598,7 +3598,7 @@ This message will not be displayed again.</source>
 Táto správa sa znova nezobrazí.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>Chyba SSA</translation>
     </message>

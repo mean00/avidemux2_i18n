@@ -3617,7 +3617,7 @@ This message will not be displayed again.</source>
 Αυτό το μήνυμα δεν θα επανεμφανιστεί.</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+89"/>
         <source>SSA Error</source>
         <translation>SSA Σφάλμα</translation>
     </message>

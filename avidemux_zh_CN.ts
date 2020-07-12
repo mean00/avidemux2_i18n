@@ -3506,22 +3506,22 @@ Expect problems.</source>
         <translation>你确认是ASS/SSA档吗?</translation>
     </message>
     <message>
-        <location line="+226"/>
+        <location line="+228"/>
         <source>SSA Error</source>
         <translation>SSA错误</translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-188"/>
         <source>Select Subtitle File</source>
         <translation>选择字幕档</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+188"/>
         <source>ass_read_file() failed for %s</source>
         <translation>无法读取文件为 %s</translation>
     </message>
     <message>
-        <location line="-185"/>
+        <location line="-187"/>
         <source>_Line spacing:</source>
         <translation>行距:</translation>
     </message>
