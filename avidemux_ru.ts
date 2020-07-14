@@ -4537,12 +4537,12 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <location line="+31"/>
-        <location line="+57"/>
+        <location line="+60"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="-518"/>
+        <location line="-521"/>
         <source>Time Remaining:</source>
         <translation>Осталось времени:</translation>
     </message>
@@ -4627,12 +4627,12 @@ Do you want to load it  ?
         <translation>Прошло:</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
         <source>Frames/sec:</source>
         <translation>Скорость (к/с):</translation>
     </message>
     <message>
-        <location line="-533"/>
+        <location line="-536"/>
         <source>Main</source>
         <translation type="unfinished">Главный</translation>
     </message>
@@ -4988,12 +4988,12 @@ Do you want to load it  ?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+289"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+290"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+38"/>
         <source>Interlacing</source>
         <translation>Череcстрочность</translation>
     </message>
@@ -5003,7 +5003,7 @@ Do you want to load it  ?
         <translation>Управление битрейтом</translation>
     </message>
     <message>
-        <location line="-85"/>
+        <location line="-87"/>
         <source>Normal (4:3)</source>
         <translation>Нормальный (4:3)</translation>
     </message>
@@ -5168,7 +5168,7 @@ Do you want to load it  ?
         <translation>Порядок полей:</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Basic Settings</source>
         <translation>Общая</translation>
     </message>
@@ -5625,7 +5625,7 @@ Do you want to load it  ?
         <translation type="unfinished">[Несовпадение]</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+99"/>
         <source>Saving mpeg PS (ff)</source>
         <translation type="unfinished">Сохранение mpeg PS (ff)</translation>
     </message>

@@ -4488,12 +4488,12 @@ El voleu carregar?
     <message>
         <location line="+159"/>
         <location line="+31"/>
-        <location line="+57"/>
+        <location line="+60"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-10"/>
         <source>00:00:00</source>
         <translation type="unfinished">00:00:00</translation>
     </message>
@@ -4508,12 +4508,12 @@ El voleu carregar?
         <translation type="unfinished">Temps restant:</translation>
     </message>
     <message>
-        <location line="+525"/>
+        <location line="+528"/>
         <source>Frames/sec:</source>
         <translation type="unfinished">Fotogrames/s:</translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-172"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -4949,7 +4949,7 @@ El voleu carregar?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+256"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+257"/>
         <source>Default</source>
         <translation type="unfinished">Predetermin.</translation>
     </message>
@@ -4984,7 +4984,7 @@ El voleu carregar?
         <translation type="unfinished">Mida mem. intermèdia VBV:</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+34"/>
         <source>Interlacing</source>
         <translation type="unfinished">Entrellaçat</translation>
     </message>
@@ -4994,7 +4994,7 @@ El voleu carregar?
         <translation type="unfinished">Control taxa</translation>
     </message>
     <message>
-        <location line="-85"/>
+        <location line="-87"/>
         <source>Normal (4:3)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5129,7 +5129,7 @@ El voleu carregar?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Basic Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5582,7 +5582,7 @@ El voleu carregar?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+99"/>
         <source>Saving mpeg PS (ff)</source>
         <translation type="unfinished"></translation>
     </message>

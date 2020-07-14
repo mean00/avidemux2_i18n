@@ -4528,12 +4528,12 @@ Vil du indlæse den?
     <message>
         <location line="+159"/>
         <location line="+31"/>
-        <location line="+57"/>
+        <location line="+60"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-10"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>
@@ -4548,12 +4548,12 @@ Vil du indlæse den?
         <translation>Resterende tid:</translation>
     </message>
     <message>
-        <location line="+525"/>
+        <location line="+528"/>
         <source>Frames/sec:</source>
         <translation>Billeder/sekund:</translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-172"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -4989,7 +4989,7 @@ Vil du indlæse den?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+250"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+251"/>
         <source>Normal (4:3)</source>
         <translation>Normal (4:3)</translation>
     </message>
@@ -5159,7 +5159,7 @@ Vil du indlæse den?
         <translation>Felt rækkefølge:</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Basic Settings</source>
         <translation>Grundlæggende indstillinger</translation>
     </message>
@@ -5622,7 +5622,7 @@ Vil du indlæse den?
         <translation>[uoverensstemmelse]</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+99"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Gemmer MPEG PS (ff)</translation>
     </message>

@@ -4644,12 +4644,12 @@ Chcete ho načítať?
         <translation>Uplynulý čas:</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
         <source>Frames/sec:</source>
         <translation>snímok/sek:</translation>
     </message>
     <message>
-        <location line="-226"/>
+        <location line="-229"/>
         <source>Video Codec:</source>
         <translation>Video kodek:</translation>
     </message>
@@ -4663,12 +4663,12 @@ Chcete ho načítať?
     <message>
         <location line="+53"/>
         <location line="+31"/>
-        <location line="+57"/>
+        <location line="+60"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="-64"/>
+        <location line="-67"/>
         <source>0 kB/s</source>
         <translation>0 kB/s</translation>
     </message>
@@ -5012,7 +5012,7 @@ Chcete ho načítať?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+250"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+251"/>
         <source>Normal (4:3)</source>
         <translation>Normálne (4:3)</translation>
     </message>
@@ -5182,7 +5182,7 @@ Chcete ho načítať?
         <translation>Poradie polsnímok:</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Basic Settings</source>
         <translation>Základné nastavenia</translation>
     </message>
@@ -5645,7 +5645,7 @@ Chcete ho načítať?
         <translation>[Zmätočné]</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+99"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Uloženie mpeg PS (ff)</translation>
     </message>

@@ -4512,12 +4512,12 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <location line="+31"/>
-        <location line="+57"/>
+        <location line="+60"/>
         <source>0</source>
         <translation type="unfinished">0</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-81"/>
         <source>Processed Frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4537,12 +4537,12 @@ Do you want to load it  ?
         <translation type="unfinished">00:00:00</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Frames/sec:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-172"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -4959,7 +4959,7 @@ Do you want to load it  ?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+256"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+257"/>
         <source>Default</source>
         <translation type="unfinished">デフォルト</translation>
     </message>
@@ -4980,7 +4980,7 @@ Do you want to load it  ?
             </translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+38"/>
         <source>Interlacing</source>
         <translation type="unfinished">インタレース</translation>
     </message>
@@ -4990,7 +4990,7 @@ Do you want to load it  ?
         <translation type="unfinished">レート制御</translation>
     </message>
     <message>
-        <location line="-85"/>
+        <location line="-87"/>
         <source>Normal (4:3)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5140,7 +5140,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+6"/>
         <source>Basic Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5596,7 +5596,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+99"/>
         <source>Saving mpeg PS (ff)</source>
         <translation type="unfinished"></translation>
     </message>
