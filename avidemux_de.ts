@@ -4992,27 +4992,27 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+16"/>
         <source>Progressive</source>
-        <translation type="unfinished">Progressiv (Vollbilder)</translation>
+        <translation>Progressiv (Vollbilder)</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Threading</source>
-        <translation type="unfinished">Mehrkernprozessoren</translation>
+        <translation>Threading</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Interlacing</source>
-        <translation type="unfinished">Interlacing beseitigen</translation>
+        <translation>Interlacing</translation>
     </message>
     <message>
         <location line="-75"/>
         <source>Normal (4:3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal (4:3)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Wide (16:9)</source>
-        <translation type="unfinished"></translation>
+        <translation>Breitbild (16:9)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -5027,52 +5027,52 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+5"/>
         <source>MB comparison</source>
-        <translation type="unfinished"></translation>
+        <translation>MB-Vergleich</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fewest bits (vhq)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleinste Größe (vhq)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rate distortion</source>
-        <translation type="unfinished"></translation>
+        <translation>Abweichung bewerten</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>One thread</source>
-        <translation type="unfinished"></translation>
+        <translation>Ein Thread</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two threads)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwei Threads</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Three threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Drei Threads</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Auto (#cpu)</source>
-        <translation type="unfinished"></translation>
+        <translation>So viele Threads wie Prozessorkerne</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Interlaced</source>
-        <translation type="unfinished"></translation>
+        <translation>Interlaced</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Top Field First</source>
-        <translation type="unfinished"></translation>
+        <translation>Oberes Halbbild zuerst</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation type="unfinished"></translation>
+        <translation>Unteres Halbbild zuerst</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -5092,12 +5092,12 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+1"/>
         <source>VBV Buffer Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe des _VBV-Puffers:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Max bitrate (kb/s):</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximale _Bitrate (kbit/s):</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5107,7 +5107,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+2"/>
         <source>_Number of B frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Anzahl aufeinanderfolgender B-Frames:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5117,7 +5117,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+1"/>
         <source>Aspect ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildformat:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5142,27 +5142,27 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+2"/>
         <source>_Gop Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>_GOP-Länge:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Interlaced:</source>
-        <translation type="unfinished"></translation>
+        <translation>Die _Quelle ist:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Field Order:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Halbbildreihenfolge:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Basic Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundeinstellungen</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Adv. Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Erweitert</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -5172,12 +5172,12 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+5"/>
         <source>Rate Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitratensteuerung</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>libavcodec MPEG-2 configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>libavcodec MPEG-2 Encoder konfigurieren</translation>
     </message>
 </context>
 <context>
