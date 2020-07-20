@@ -2439,7 +2439,6 @@ Expect problems.</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+120"/>
         <source>Something bad happened</source>
         <translation>잘못된 일이 발생했습니다</translation>
     </message>
@@ -3192,7 +3191,17 @@ Try anyway?</source>
         <translation>시간 맵 빌드 중</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <source>Cannot allocate enough memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Cannot create output file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+230"/>
         <source>Memory error</source>
         <translation>메모리 오류</translation>
     </message>
@@ -4215,7 +4224,7 @@ Do you want to load it  ?
         <translation>경고: 높이를 너무 많이 잘라냈습니다! 높이 초기화!</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+345"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>

@@ -1678,7 +1678,6 @@ Expect problems.</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+120"/>
         <source>Something bad happened</source>
         <translation type="unfinished">Ошибка при открытии файла для записи</translation>
     </message>
@@ -3200,7 +3199,17 @@ Try anyway?</source>
         <translation type="unfinished">Создание временной карты</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <source>Cannot allocate enough memory</source>
+        <translation>Ошибка выделения памяти</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Cannot create output file</source>
+        <translation>Невозможно создать выходной файл</translation>
+    </message>
+    <message>
+        <location line="+230"/>
         <source>Memory error</source>
         <translation type="unfinished">Ошибка выделения памяти</translation>
     </message>
@@ -4231,7 +4240,7 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+345"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>

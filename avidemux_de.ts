@@ -2645,7 +2645,6 @@ It is needed to create PSP compatible video.</source>
     </message>
     <message>
         <location line="+1205"/>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+120"/>
         <source>Something bad happened</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3202,7 +3201,17 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <source>Cannot allocate enough memory</source>
+        <translation>Angeforderter Arbeitsspeicher nicht zugeteilt</translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Cannot create output file</source>
+        <translation>Ausgabedatei kann nicht angelegt werden</translation>
+    </message>
+    <message>
+        <location line="+230"/>
         <source>Memory error</source>
         <translation type="unfinished">Speicherfehler</translation>
     </message>
@@ -3222,7 +3231,7 @@ Try anyway?</source>
         <source>can&apos;t open &quot;%s&quot;: %s
 %s
 </source>
-        <translation type="unfinished">Kann &quot;%s&quot; nicht öffnen: %s
+        <translation>Kann &quot;%s&quot; nicht öffnen: %s
 %s
 </translation>
     </message>
@@ -3230,7 +3239,7 @@ Try anyway?</source>
         <location line="+2"/>
         <location line="+85"/>
         <source>filesystem full</source>
-        <translation type="unfinished">Dateisystem voll</translation>
+        <translation>Dateisystem voll</translation>
     </message>
     <message>
         <location line="-85"/>
@@ -4223,7 +4232,7 @@ Soll dieses jetzt geladen werden ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+345"/>
         <source>Size: </source>
         <translation>Größe: </translation>
     </message>

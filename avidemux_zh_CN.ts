@@ -1742,7 +1742,6 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="+1213"/>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+120"/>
         <source>Something bad happened</source>
         <translation>有些事发生问题</translation>
     </message>
@@ -3238,7 +3237,17 @@ Install lame plugin</source>
         <translation>网格量化</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <source>Cannot allocate enough memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Cannot create output file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+230"/>
         <source>Memory error</source>
         <translation>内存错误</translation>
     </message>
@@ -4221,7 +4230,7 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+344"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+345"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
