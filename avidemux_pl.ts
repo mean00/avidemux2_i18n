@@ -1302,7 +1302,7 @@ Porzucić informacje dotyczące czasu?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
-        <source>The options above are effective only for MPEG and DivX with software decoding</source>
+        <source>The options above are effective only for software decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6940,7 +6940,7 @@ Ja zakładam, że ma i spróbuję kontynuować</translation>
         <translation>Menedżer filtrów wideo</translation>
     </message>
     <message>
-        <location line="+189"/>
+        <location line="+97"/>
         <source>Interlacing</source>
         <translation>Przeplot</translation>
     </message>
@@ -6960,17 +6960,17 @@ Ja zakładam, że ma i spróbuję kontynuować</translation>
         <translation>Różne</translation>
     </message>
     <message>
-        <location line="-182"/>
+        <location line="+50"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Aktywne filtry&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Dostępne filtry&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="-81"/>
         <source>Transform</source>
         <translation>Transformacja</translation>
     </message>
@@ -6990,7 +6990,12 @@ Ja zakładam, że ma i spróbuję kontynuować</translation>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+120"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>&amp;Preview</source>
         <translation>&amp;Podgląd</translation>
     </message>
@@ -7911,7 +7916,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Ostatnie projekty</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>Odtwórz/Zatrzymaj</translation>
     </message>
@@ -8151,7 +8156,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation>Częściowy</translation>
     </message>
@@ -8161,17 +8166,18 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation>Ten filtr nie może zostać zastosowany częściowo</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>Dodaj</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>Konfiguruj</translation>
     </message>
@@ -8191,7 +8197,12 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation>Zastosuj częściowo</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation>Wczytaj filtry wideo...</translation>
     </message>
@@ -9561,7 +9572,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>vdpauDeint</translation>
     </message>
@@ -9571,7 +9582,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU usuwanie przeplotu (+zmiana rozmiaru).</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>Zachowaj półobraz górny</translation>
     </message>
@@ -9586,7 +9597,22 @@ The file must be re-indexed. Proceed?</source>
         <translation>Podwój liczbę klatek/s</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>_IVTC</translation>
     </message>
@@ -9596,12 +9622,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Zmiana _rozmiaru</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>Tryb usuwania przeplotu:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>Szerokość:</translation>
     </message>
@@ -11360,12 +11386,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation>Ogólne</translation>
     </message>
@@ -11545,12 +11571,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation>Kwantyzacja</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Niska jakość)</translation>
@@ -11587,12 +11613,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation>klatek</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11703,13 +11729,13 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>Wyłączone</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation>Ważone referencje</translation>
     </message>
@@ -11729,27 +11755,33 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation>Kodowanie ramki</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation type="unfinished">Loop Filter (de-blocking):</translation>
+        <translation type="obsolete">Loop Filter (de-blocking):</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="obsolete">Open GOP:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="vanished">Tryb normalny</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="vanished">Tryb Blu-ray</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation type="unfinished">Open GOP:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation>Tryb normalny</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation>Tryb Blu-ray</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation>Z przeplotem:</translation>
     </message>

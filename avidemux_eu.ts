@@ -1374,7 +1374,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="-1"/>
-        <source>The options above are effective only for MPEG and DivX with software decoding</source>
+        <source>The options above are effective only for software decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6895,12 +6895,12 @@ I will assume it has and try to continue</source>
         <translation>Bideo Iragazki Kudeatzailea</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+201"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Eragindako Iragazkiak&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+119"/>
+        <location line="-113"/>
         <source>Transform</source>
         <translation>Eraldatu</translation>
     </message>
@@ -6940,17 +6940,22 @@ I will assume it has and try to continue</source>
         <translation>Askotarikoak</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;Close</source>
         <translation>It&amp;xi</translation>
     </message>
     <message>
-        <location line="-166"/>
+        <location line="-124"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Iragazki Eskuragarriak&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+113"/>
         <source>&amp;Preview</source>
         <translation>&amp;Aurreikuspena</translation>
     </message>
@@ -7866,7 +7871,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Azken Egitasmoak</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8104,7 +8109,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8114,17 +8119,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation type="unfinished">Gehitu</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation type="unfinished">Kendu</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation type="unfinished">Itxuratu</translation>
     </message>
@@ -8144,7 +8150,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9513,7 +9524,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9523,7 +9534,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation type="unfinished">Heutsi Goiko Eremuari</translation>
     </message>
@@ -9538,7 +9549,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Frameneurri bikoitza</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9548,12 +9574,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">_Birneurriratu</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation type="unfinished">_Deint Modua:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11316,12 +11342,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation type="unfinished">Ezabatu</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation type="unfinished">Orokorra</translation>
     </message>
@@ -11501,12 +11527,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation type="unfinished">Kuantizatzailea</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (Ontasun Apala)</translation>
@@ -11543,12 +11569,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation type="unfinished">frame</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sekuentzia Parametro Ezarpen Ezautzailea:</translation>
     </message>
@@ -11659,13 +11685,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished">Ezgaituta</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation type="unfinished">Neurritasun Xehetasunak</translation>
     </message>
@@ -11685,27 +11711,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Frame Kodeaketa</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation type="unfinished">Bigizta Iragazkia:</translation>
+        <translation type="obsolete">Bigizta Iragazkia:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="obsolete">Ireki GOP:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="obsolete">Modu Arrunta</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="obsolete">Blu-ray Modua</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation type="unfinished">Ireki GOP:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation type="unfinished">Modu Arrunta</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation type="unfinished">Blu-ray Modua</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation type="unfinished">Elkarlotuta:</translation>
     </message>

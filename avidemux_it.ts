@@ -1310,7 +1310,7 @@ Eliminare le informazioni temporali?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
-        <source>The options above are effective only for MPEG and DivX with software decoding</source>
+        <source>The options above are effective only for software decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6897,7 +6897,7 @@ I will assume it has and try to continue</source>
         <translation>Gestore filtri video</translation>
     </message>
     <message>
-        <location line="+180"/>
+        <location line="+88"/>
         <source>Transform</source>
         <translation>Trasforma</translation>
     </message>
@@ -6932,27 +6932,32 @@ I will assume it has and try to continue</source>
         <translation>Varie</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;Close</source>
         <translation>&amp;Chiudi</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-92"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Filtri attivi&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Filtri disponibili&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+113"/>
         <source>&amp;Preview</source>
         <translation>Ante&amp;prima</translation>
     </message>
     <message>
-        <location line="-60"/>
+        <location line="-140"/>
         <source>OpenGl</source>
         <translation>OpenGL</translation>
     </message>
@@ -7868,7 +7873,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Progetti recenti</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8561,7 +8566,7 @@ DEI TERMINI E DELLE CONDIZIONI&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation type="unfinished">Parziale</translation>
     </message>
@@ -8571,17 +8576,18 @@ DEI TERMINI E DELLE CONDIZIONI&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation type="unfinished">Aggiungi</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation type="unfinished">Rimuovi</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation type="unfinished">Configura</translation>
     </message>
@@ -8601,7 +8607,12 @@ DEI TERMINI E DELLE CONDIZIONI&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9970,7 +9981,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9980,7 +9991,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation type="unfinished">Mantieni semiquadro superiore</translation>
     </message>
@@ -9995,7 +10006,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Doppio frame rate</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10005,12 +10031,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">_Ridimensiona</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation type="unfinished">Modalità _deint.:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation type="unfinished">Larghezza:</translation>
     </message>
@@ -11765,12 +11791,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation type="unfinished">Elimina</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation type="unfinished">Generale</translation>
     </message>
@@ -11950,12 +11976,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantizzatore</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (Qualità bassa)</translation>
@@ -11992,12 +12018,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation type="unfinished">fotogrammi</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Identificatore set di parametri di sequenza:</translation>
     </message>
@@ -12108,13 +12134,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation type="unfinished">Riferimenti pesati</translation>
     </message>
@@ -12134,27 +12160,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Codifica fotogramma</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation type="unfinished">In-loop deblocking:</translation>
+        <translation type="obsolete">In-loop deblocking:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="obsolete">GOP aperto:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="obsolete">Modalità normale</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="obsolete">Modalità Blu-ray</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation type="unfinished">GOP aperto:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation type="unfinished">Modalità normale</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation type="unfinished">Modalità Blu-ray</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation type="unfinished">Interlacciato:</translation>
     </message>

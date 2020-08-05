@@ -1593,9 +1593,13 @@ Vypustiť časové údaje?</translation>
         <translation>_Sila filtra:</translation>
     </message>
     <message>
-        <location line="-1"/>
         <source>The options above are effective only for MPEG and DivX with software decoding</source>
-        <translation>Vyššie uvedené možnosti sú efektívne iba pre MPEG a DivX s dekódovaním softvéru</translation>
+        <translation type="vanished">Vyššie uvedené možnosti sú efektívne iba pre MPEG a DivX s dekódovaním softvéru</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>The options above are effective only for software decoding</source>
+        <translation>Vyššie uvedené možnosti sú efektívne iba s dekódovaním softvéru</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6956,17 +6960,17 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Správca video filtrov</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+201"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Aktívne filtre&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Dostupné filtre&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="-81"/>
         <source>Transform</source>
         <translation>Transformovanie</translation>
     </message>
@@ -7006,7 +7010,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Rôzne</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>&amp;Preview</source>
         <translation>&amp;Náhľad</translation>
     </message>
@@ -7929,7 +7938,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Nedávne &amp;projekty</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>Pre&amp;hrať/Zastaviť</translation>
     </message>
@@ -8169,7 +8178,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation>Čiastočný</translation>
     </message>
@@ -8179,17 +8188,18 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <translation>Tento filter nemôže urobený ako čiastočný</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>Pridať</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>Odstrániť</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>Konfigurovať</translation>
     </message>
@@ -8209,7 +8219,12 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <translation>Vytvoriť čiastočný</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation>Nahrať video filtre..</translation>
     </message>
@@ -9586,7 +9601,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>Rozkladač vdpau</translation>
     </message>
@@ -9596,7 +9611,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Rozkladač VDPAU (+ zmena veľkosti).</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>Zachovať hornú polsnímku</translation>
     </message>
@@ -9611,7 +9626,22 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Dvojitá snímková frekvencia</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>_IVTC</translation>
     </message>
@@ -9621,12 +9651,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>_Zmena veľkosti</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>Režim _rozkladu:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>Šírka:</translation>
     </message>
@@ -11395,12 +11425,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation>&amp;Odstrániť</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation>Obecné</translation>
     </message>
@@ -11580,12 +11610,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation>Kvantifikátor</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (nízka kvalita)</translation>
@@ -11622,12 +11652,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation>snímok</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Identifikátor nastavenia parametrov sekvencie:</translation>
     </message>
@@ -11738,13 +11768,13 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>Vypnuté</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation>Odporúčaná záťaž</translation>
     </message>
@@ -11764,27 +11794,33 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Zakódovanie snímok</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation>Filter slučky:</translation>
+        <translation type="vanished">Filter slučky:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="vanished">Otvoriť skupinu obrázkov:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="vanished">Normálny režim</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="vanished">Režim Blu-ray</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation>Otvoriť skupinu obrázkov:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation>Normálny režim</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation>Režim Blu-ray</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation>Prekladaný:</translation>
     </message>

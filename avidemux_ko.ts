@@ -1590,7 +1590,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="-1"/>
-        <source>The options above are effective only for MPEG and DivX with software decoding</source>
+        <source>The options above are effective only for software decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6908,17 +6908,17 @@ I will assume it has and try to continue</source>
         <translation>비디오 필터 관리자</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+201"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;사용 중인 필터&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;이용 가능한 필터&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="-81"/>
         <source>Transform</source>
         <translation>변환</translation>
     </message>
@@ -6958,7 +6958,12 @@ I will assume it has and try to continue</source>
         <translation>기타</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>&amp;Preview</source>
         <translation>미리보기(&amp;P)</translation>
     </message>
@@ -7879,7 +7884,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>최근 프로젝트</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>재생/정지</translation>
     </message>
@@ -8117,7 +8122,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation>일부분</translation>
     </message>
@@ -8127,17 +8132,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>이 필터는 부분적으로 만들 수 없습니다</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>추가</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>제거</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>설정</translation>
     </message>
@@ -8157,7 +8163,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>부분적으로 만들기</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation>비디오 필터 불러오기..</translation>
     </message>
@@ -9525,7 +9536,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>vdpauDeint</translation>
     </message>
@@ -9535,7 +9546,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU 디인터레이서 (+크기조절).</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>상단 필드 유지</translation>
     </message>
@@ -9550,7 +9561,22 @@ The file must be re-indexed. Proceed?</source>
         <translation>더블 프레임레이트</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>Ivtc</translation>
     </message>
@@ -9560,12 +9586,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>크기조절</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>Deint 모드:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>너비:</translation>
     </message>
@@ -11328,12 +11354,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -11513,12 +11539,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation>양자화기</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (낮은 품질)</translation>
@@ -11555,12 +11581,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation>프레임</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>시퀀스 매개변수 세트 식별자: </translation>
     </message>
@@ -11671,13 +11697,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation>가중된 참조들</translation>
     </message>
@@ -11697,27 +11723,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation>프레임 인코딩</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation>루프 Loop 필터:</translation>
+        <translation type="vanished">루프 Loop 필터:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="vanished">GOP 열기:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="vanished">보통 모드</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="vanished">블루레이 모드</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation>GOP 열기:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation>보통 모드</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation>블루레이 모드</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation>인터레이스:</translation>
     </message>

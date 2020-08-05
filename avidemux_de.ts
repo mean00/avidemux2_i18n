@@ -1789,9 +1789,13 @@ Drop timing informations ?</source>
         <translation>OpenGL (bestens)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
         <source>The options above are effective only for MPEG and DivX with software decoding</source>
-        <translation>Diese Einstellungen sind nur für MPEG und DivX bei Dekodierung in Software wirksam</translation>
+        <translation type="vanished">Diese Einstellungen sind nur für MPEG und DivX bei Dekodierung in Software wirksam</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
+        <source>The options above are effective only for software decoding</source>
+        <translation>Diese Einstellungen sind nur bei Dekodierung in Software wirksam</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6912,67 +6916,72 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/mainfilter.ui" line="+20"/>
         <source>Video Filter Manager</source>
-        <translation type="unfinished">Video Filter Manager</translation>
+        <translation>Videofilter-Verwaltung</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+201"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Aktive Filter&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+119"/>
+        <location line="-113"/>
         <source>Transform</source>
-        <translation type="unfinished">Transformieren</translation>
+        <translation>Transformation</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Interlacing</source>
-        <translation type="unfinished">Interlacing beseitigen</translation>
+        <translation>Interlacing</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Colors</source>
-        <translation type="unfinished">Farbkorrekturen</translation>
+        <translation>Farbkorrekturen</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Noise</source>
-        <translation type="unfinished">Rauschunterdrückung</translation>
+        <translation>Rauschunterdrückung</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Sharpness</source>
-        <translation type="unfinished">Schärfe</translation>
+        <translation>Schärfe</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Untertitel hinzufügen</translation>
+        <translation>Untertitel hinzufügen</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished">Diverse Filter</translation>
+        <translation>Übriges</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation>Konfiguration bestätigen und Dialog schließen mit Strg+Eingabetaste</translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">Schließe&amp;n</translation>
+        <translation>&amp;Schließen</translation>
     </message>
     <message>
-        <location line="-166"/>
+        <location line="-124"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Verfügbare Filter&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+113"/>
         <source>&amp;Preview</source>
-        <translation type="unfinished">&amp;Vorschau</translation>
+        <translation>&amp;Vorschau</translation>
     </message>
     <message>
-        <location line="-60"/>
+        <location line="-140"/>
         <source>OpenGl</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL</translation>
     </message>
 </context>
 <context>
@@ -7881,7 +7890,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Zuletzt verwendete &amp;Projekte</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>Wiedergabe/Stopp</translation>
     </message>
@@ -7960,12 +7969,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2228"/>
+        <location line="-2242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1649"/>
+        <location line="+1663"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -8125,9 +8134,9 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
-        <translation type="unfinished">Abschnittsweise Anwendung</translation>
+        <translation>Teilanwendung</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -8135,17 +8144,18 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation>Dieser Filter kann nicht abschnittsweise angewendet werden</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>Hinzufügen</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>Konfigurieren</translation>
     </message>
@@ -8165,7 +8175,12 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation>Abschnittsweise anwenden</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation>Konfiguration bestätigen und Dialog schließen mit %s</translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9504,12 +9519,12 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
         <source>VA-API Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildgröße ändern (VA-API)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Resize image using VA-API.</source>
-        <translation>Bildgröße mittels VA-API ändern.</translation>
+        <translation>Bildgröße mittels VA-API verändern.</translation>
     </message>
     <message>
         <location line="+129"/>
@@ -9529,13 +9544,13 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
     <message>
         <location line="+4"/>
         <source>vaapi</source>
-        <translation>VA-API Resizer-Konfiguration</translation>
+        <translation>VA-API-Konfiguration</translation>
     </message>
 </context>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>VDPAU-Deinterlacer</translation>
     </message>
@@ -9545,7 +9560,7 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
         <translation>Deinterlacen und Ändern der Bildgröße mittels VDPAU.</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>Erstes Halbbild verwenden</translation>
     </message>
@@ -9560,7 +9575,22 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
         <translation>Bildfrequenz verdoppeln</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation>Oberes Halbbild zuerst</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation>Unteres Halbbild zuerst</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation>_Halbbildreihenfolge:</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>_Inverse Telecine (IVTC)</translation>
     </message>
@@ -9570,12 +9600,12 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
         <translation>Bildg_röße ändern</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>_Deint.-Modus:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>_Breite:</translation>
     </message>
@@ -9595,12 +9625,12 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+69"/>
         <source>vdpau: Resize</source>
-        <translation type="unfinished">Bildgröße ändern (VDPAU)</translation>
+        <translation>Bildgröße ändern (VDPAU)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>vdpau: Resize image using vdpau.</source>
-        <translation type="unfinished">Bildgröße in Pixeln mittels VDPAU verändern.</translation>
+        <translation>Bildgröße mittels VDPAU verändern.</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -9615,7 +9645,7 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
     <message>
         <location line="+4"/>
         <source>vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>VDPAU-Konfiguration</translation>
     </message>
 </context>
 <context>
@@ -9825,22 +9855,22 @@ Nur Vorbis und Opus sind zulässig.</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/working.ui" line="+14"/>
         <source>Processing</source>
-        <translation type="unfinished">Bearbeitung</translation>
+        <translation>Bearbeitung</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Elapsed:</source>
-        <translation type="unfinished">Verbrauchte Zeit:</translation>
+        <translation>Verbrauchte Zeit:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Time Remaining:</source>
-        <translation type="unfinished">Verbleibende Zeit:</translation>
+        <translation>Verbleibende Zeit:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>00:00:00</source>
-        <translation type="unfinished">00:00:00</translation>
+        <translation>00:00:00</translation>
     </message>
 </context>
 <context>
@@ -11342,12 +11372,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation type="unfinished">Löschen</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation type="unfinished">Allgemein</translation>
     </message>
@@ -11527,12 +11557,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantisierung</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (niedrige Qualität)</translation>
@@ -11569,12 +11599,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation type="unfinished">Bilder (I-Bilder: max. GOP beachten)</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
@@ -11685,13 +11715,13 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11711,27 +11741,29 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Bildkodierung</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation type="unfinished">Blockartefakte glätten [deblock] --&gt;</translation>
+        <translation type="obsolete">Blockartefakte glätten [deblock] --&gt;</translation>
     </message>
     <message>
-        <location line="+9"/>
-        <source>Open GOP:</source>
+        <source>Normal Mode</source>
+        <translation type="obsolete">normaler Modus</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="obsolete">Blu-ray Modus</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation type="unfinished">normaler Modus</translation>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation type="unfinished">Blu-ray Modus</translation>
-    </message>
-    <message>
-        <location line="+23"/>
+        <location line="+9"/>
         <source>Interlaced:</source>
         <translation type="unfinished">Zeilensprungverfahren:</translation>
     </message>

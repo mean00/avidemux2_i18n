@@ -1264,9 +1264,13 @@ Drop timing informations ?</source>
         <translation>_Даунмиксинг звука при локальном воспроизведении:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
         <source>The options above are effective only for MPEG and DivX with software decoding</source>
-        <translation>Эти параметры действуют только для MPEG и DivX без аппаратного ускорения декодирования</translation>
+        <translation type="vanished">Эти параметры действуют только для MPEG и DivX без аппаратного ускорения декодирования</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+26"/>
+        <source>The options above are effective only for software decoding</source>
+        <translation>Эти параметры действуют только без аппаратного ускорения декодирования</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6933,67 +6937,72 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/mainfilter.ui" line="+20"/>
         <source>Video Filter Manager</source>
-        <translation type="unfinished">Видеофильтры</translation>
+        <translation>Видеофильтры</translation>
     </message>
     <message>
-        <location line="+180"/>
+        <location line="+88"/>
         <source>Transform</source>
-        <translation type="unfinished">Трансформация</translation>
+        <translation>Трансформация</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Interlacing</source>
-        <translation type="unfinished">Чересстрочность</translation>
+        <translation>Чересстрочность</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Colors</source>
-        <translation type="unfinished">Цвет</translation>
+        <translation>Цвет</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Noise</source>
-        <translation type="unfinished">Подавление шума</translation>
+        <translation>Подавление шума</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Sharpness</source>
-        <translation type="unfinished">Резкость</translation>
+        <translation>Резкость</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Субтитры</translation>
+        <translation>Субтитры</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished">Прочие</translation>
+        <translation>Прочие</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation>Применить конфигурацию и закрыть диалог: CTRL+ENTER</translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Закрыть</translation>
+        <translation>&amp;Закрыть</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-92"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
-        <translation type="unfinished">&lt;big&gt;&lt;b&gt;Активные фильтры&lt;/b&gt;&lt;/big&gt;</translation>
+        <translation>&lt;big&gt;&lt;b&gt;Активные фильтры&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
-        <translation type="unfinished">&lt;big&gt;&lt;b&gt;Доступные фильтры&lt;/b&gt;&lt;/big&gt;</translation>
+        <translation>&lt;big&gt;&lt;b&gt;Доступные фильтры&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="-27"/>
         <source>OpenGl</source>
-        <translation type="unfinished">OpenGL</translation>
+        <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+140"/>
         <source>&amp;Preview</source>
-        <translation type="unfinished">&amp;Предпросмотр</translation>
+        <translation>&amp;Предпросмотр</translation>
     </message>
 </context>
 <context>
@@ -7908,7 +7917,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Предыдущие проекты</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>
@@ -8148,9 +8157,9 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
-        <translation type="unfinished">Частичное наложение</translation>
+        <translation>Частичное наложение</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -8158,17 +8167,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Этот фильтр не может быть применен только к части видео</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>Настройка</translation>
     </message>
@@ -8188,7 +8198,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Сделать частичным</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation>Применить конфигурацию и закрыть диалог: %s</translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation type="unfinished">Загрузить фильтры видео...</translation>
     </message>
@@ -9572,7 +9587,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>Деинтерлейсер на основе VDPAU</translation>
     </message>
@@ -9582,7 +9597,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Устранить чересстрочность и по выбору изменить размер видео с помощью VDPAU.</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>Сохранить верхнее поле</translation>
     </message>
@@ -9597,7 +9612,22 @@ The file must be re-indexed. Proceed?</source>
         <translation>Удвоить частоту кадров</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation>Верхнее поле сначала</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation>Нижнее поле сначала</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation>_Очерёдность полей:</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>_Обратный телесин</translation>
     </message>
@@ -9607,12 +9637,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>_Изменить размер</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>_Режим деинтерлейсинга:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>Ширина:</translation>
     </message>
@@ -11381,12 +11411,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation type="unfinished">Удалить</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation type="unfinished">Общий</translation>
     </message>
@@ -11566,12 +11596,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation type="unfinished">Квантизатор</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (низкое качество)</translation>
@@ -11608,12 +11638,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation type="unfinished">кадры</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Идентификатор установки параметра последовательности:</translation>
     </message>
@@ -11725,13 +11755,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished">Выключено</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation type="unfinished">Взвешенные ссылки</translation>
     </message>
@@ -11751,27 +11781,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Кодирование кадра</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation type="unfinished">Фильтр зацикливания:</translation>
+        <translation type="obsolete">Фильтр зацикливания:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="obsolete">Открыть GOP:</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="obsolete">Нормальный режим</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="obsolete">Режим Blu-ray</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation type="unfinished">Открыть GOP:</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation type="unfinished">Нормальный режим</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation type="unfinished">Режим Blu-ray</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation type="unfinished">Интерлейсинг:</translation>
     </message>

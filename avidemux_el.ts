@@ -2084,9 +2084,13 @@ Is it running ?</source>
         <translation>Πληροφορίες ενθεμάτων</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
         <source>The options above are effective only for MPEG and DivX with software decoding</source>
-        <translation>Οι ανωτέρω επιλογές εφαρμόζονται μόνο σε MPEG και DivX με αποκωδικοποίηση μέσω λογισμικού</translation>
+        <translation type="vanished">Οι ανωτέρω επιλογές εφαρμόζονται μόνο σε MPEG και DivX με αποκωδικοποίηση μέσω λογισμικού</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
+        <source>The options above are effective only for software decoding</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6983,7 +6987,7 @@ I will assume it has and try to continue</source>
         <translation>Διαχειριστής μεταμορφωτών βίντεο</translation>
     </message>
     <message>
-        <location line="+180"/>
+        <location line="+88"/>
         <source>Transform</source>
         <translation>Μετασχηματισμός</translation>
     </message>
@@ -7018,27 +7022,32 @@ I will assume it has and try to continue</source>
         <translation>Διάφορα</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+111"/>
+        <source>Press Ctrl + Enter to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>&amp;Close</source>
         <translation>&amp;Κλείσιμο</translation>
     </message>
     <message>
-        <location line="-244"/>
+        <location line="-92"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Ενεργοί μεταμορφωτές&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="-32"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;Διαθέσιμοι μεταμορφωτές&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="-27"/>
         <source>OpenGl</source>
         <translation>OpenGl</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+140"/>
         <source>&amp;Preview</source>
         <translation>&amp;Προεπισκόπηση</translation>
     </message>
@@ -7956,7 +7965,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Πρόσφατες εργασίες</translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+685"/>
         <source>Play/Stop</source>
         <translation>Εκτέλεση/Διακοπή</translation>
     </message>
@@ -8195,7 +8204,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+432"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
         <source>Partial</source>
         <translation>Μερικό</translation>
     </message>
@@ -8205,17 +8214,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Αυτός ο μεταμορφωτής δεν μπορεί να γίνει μερικός</translation>
     </message>
     <message>
-        <location line="+244"/>
+        <location line="+249"/>
         <source>Add</source>
         <translation>Προσθήκη</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-101"/>
+        <location line="+106"/>
         <source>Remove</source>
         <translation>Αφαίρεση</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-107"/>
         <source>Configure</source>
         <translation>Διαμόρφωση</translation>
     </message>
@@ -8235,7 +8245,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Να γίνει μερικό</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+140"/>
+        <source>Press %s to accept the dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+119"/>
         <source>Load video filters..</source>
         <translation>Φόρτωση μεταμορφωτών βίντεο...</translation>
     </message>
@@ -9611,7 +9626,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+131"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
         <source>vdpauDeint</source>
         <translation>Απόπλεξη vdpau</translation>
     </message>
@@ -9621,7 +9636,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU αποπλέκτης (+ αλλαγή-διαστάσεων).</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+193"/>
         <source>Keep Top Field</source>
         <translation>Διατήρηση του άνω πεδίου</translation>
     </message>
@@ -9636,7 +9651,22 @@ The file must be re-indexed. Proceed?</source>
         <translation>Διπλός ρυθμός στιγμιότυπων</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Top Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom Field First</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>_Field Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_IVTC</source>
         <translation>_IVTC</translation>
     </message>
@@ -9646,12 +9676,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Α_λλαγή μεγέθους</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-4"/>
         <source>_Deint Mode:</source>
         <translation>Λειτουργία α_πόπλεξης:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Width:</source>
         <translation>Πλάτος:</translation>
     </message>
@@ -11428,12 +11458,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2738"/>
+        <location line="+2704"/>
         <source>Delete</source>
         <translation>Διαγραφή</translation>
     </message>
     <message>
-        <location line="-2696"/>
+        <location line="-2662"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
@@ -11613,12 +11643,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1274"/>
+        <location line="+1240"/>
         <source>Quantiser</source>
         <translation>Κβαντιστής</translation>
     </message>
     <message>
-        <location line="-1464"/>
+        <location line="-1430"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Χαμηλή ποιότητα)</translation>
@@ -11655,12 +11685,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2077"/>
+        <location line="+2043"/>
         <source>frames</source>
         <translation>στιγμιότυπα</translation>
     </message>
     <message>
-        <location line="-2053"/>
+        <location line="-2019"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Αναγνωριστικό της ομάδας παραμέτρων συχνότητας:</translation>
     </message>
@@ -11771,13 +11801,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+217"/>
+        <location line="+183"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>Απενεργοποιημένο</translation>
     </message>
     <message>
-        <location line="-248"/>
+        <location line="-214"/>
         <source>Weighted References</source>
         <translation>Ζυγισμένες αναφορές</translation>
     </message>
@@ -11797,27 +11827,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Κωδικοποίηση στιγμιότυπων</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Loop Filter:</source>
-        <translation>Μεταμορφωτής ανακύκλωσης:</translation>
+        <translation type="vanished">Μεταμορφωτής ανακύκλωσης:</translation>
+    </message>
+    <message>
+        <source>Open GOP:</source>
+        <translation type="vanished">Άνοιγμα Ομάδας Εικόνων (GOP):</translation>
+    </message>
+    <message>
+        <source>Normal Mode</source>
+        <translation type="vanished">Κανονική κατάσταση λειτουργίας</translation>
+    </message>
+    <message>
+        <source>Blu-ray Mode</source>
+        <translation type="vanished">Λειτουργία Blu-ray</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Loop Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Open GOP</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Open GOP:</source>
-        <translation>Άνοιγμα Ομάδας Εικόνων (GOP):</translation>
-    </message>
-    <message>
-        <location line="+13"/>
-        <source>Normal Mode</source>
-        <translation>Κανονική κατάσταση λειτουργίας</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Blu-ray Mode</source>
-        <translation>Λειτουργία Blu-ray</translation>
-    </message>
-    <message>
-        <location line="+23"/>
         <source>Interlaced:</source>
         <translation>Πεπλεγμένο:</translation>
     </message>
