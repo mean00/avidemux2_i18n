@@ -44,6 +44,29 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+15"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+124"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
         <translation type="unfinished"></translation>
@@ -71,7 +94,7 @@ Bideoa berkodeatu gabe kopiatzen baduzu,
 Erori denborapen argibideak?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+2"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="-25"/>
         <source>You cannot mix different video dimensions yet. Using the partial video filter later, will not work around this problem. The workaround is:
 1.) &quot;resize&quot; / &quot;add border&quot; / &quot;crop&quot; each stream to the same resolution
 2.) concatenate them together</source>
@@ -522,7 +545,7 @@ Erori denborapen argibideak?</translation>
         <translation>sm</translation>
     </message>
     <message>
-        <location line="+233"/>
+        <location line="+245"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -535,12 +558,12 @@ Erori denborapen argibideak?</translation>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-286"/>
+        <location line="-318"/>
         <source>Time:</source>
         <translation>Denbora:</translation>
     </message>
@@ -560,23 +583,23 @@ Erori denborapen argibideak?</translation>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+111"/>
+        <location line="+107"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <location line="+10"/>
+        <location line="+23"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="-32"/>
         <source>B:</source>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="-1392"/>
+        <location line="-1400"/>
         <source>Vi&amp;deo</source>
         <translation>&amp;Bideoa</translation>
     </message>
@@ -641,12 +664,12 @@ Erori denborapen argibideak?</translation>
         <translation>&lt;b&gt;Irteera Heuskarria&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+605"/>
+        <location line="+617"/>
         <source>Frame type:</source>
         <translation>Frame mota:</translation>
     </message>
     <message>
-        <location line="+319"/>
+        <location line="+375"/>
         <source>&amp;Open...</source>
         <translation>&amp;Ireki...</translation>
     </message>
@@ -726,18 +749,18 @@ Erori denborapen argibideak?</translation>
         <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
-        <location line="-920"/>
-        <location line="+931"/>
+        <location line="-976"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Nabigazioa</translation>
     </message>
     <message>
-        <location line="-276"/>
+        <location line="-318"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+279"/>
+        <location line="+321"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
@@ -782,7 +805,7 @@ Erori denborapen argibideak?</translation>
         <translation>&amp;Bananduta</translation>
     </message>
     <message>
-        <location line="-1656"/>
+        <location line="-1724"/>
         <source>Codec O&amp;ptions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -797,7 +820,7 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+413"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -872,37 +895,37 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+191"/>
         <source>Se&amp;lection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+77"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+16"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Play filtered</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-199"/>
         <source>Vol&amp;ume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+113"/>
         <source>Audio &amp;Metre</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+50"/>
         <source>Open Video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2355,7 +2378,7 @@ Ekinean dago ?</translation>
         <translation>%d irudi gordeta.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2635,7 +2658,7 @@ Ekinean dago ?</translation>
         <translation>Xvid4 Itxurapena</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+495"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+496"/>
         <source>Saving</source>
         <translation type="unfinished">Gordetzen</translation>
     </message>
@@ -2879,7 +2902,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Arazoak audio gailua abiarazterakoan</translation>
     </message>
@@ -3204,7 +3227,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation type="unfinished">Oroimen akatsa</translation>
     </message>
@@ -3306,7 +3329,7 @@ Try anyway?</source>
         <translation type="unfinished">1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -4412,13 +4435,16 @@ Hau gertatzea nahi duzu  ?
     </message>
     <message>
         <location line="+3"/>
-        <source>_Extra</source>
-        <translation type="unfinished">_Estra</translation>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
+        <source>_Extra</source>
+        <translation type="obsolete">_Estra</translation>
+    </message>
+    <message>
         <source>Extra check, avoid using it</source>
-        <translation type="unfinished">Gain egiaztapena, saihestu erabiltzea</translation>
+        <translation type="obsolete">Gain egiaztapena, saihestu erabiltzea</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -6968,7 +6994,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+527"/>
         <source>Matroska clusters</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7172,7 +7198,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">Arazoak SVQ3 idazburuak irakurtzean</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7180,33 +7206,35 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+103"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation type="unfinished">Ez-sostengatua</translation>
     </message>
     <message>
-        <location line="-17"/>
-        <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
+        <location line="-31"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Incompatible Format</source>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PSP format is incompatible with LPCM audio</source>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+190"/>
         <source>Saving mp4</source>
         <translation type="unfinished">mp4 gordetzea</translation>
     </message>
@@ -7216,27 +7244,34 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">PSP gordetzea</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7321,7 +7356,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>MP4 Muxer</source>
         <translation type="unfinished"></translation>
     </message>

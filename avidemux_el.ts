@@ -54,6 +54,29 @@
 2) συνένωση των βίντεο</translation>
     </message>
     <message>
+        <location line="+13"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+77"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Ελέγχεται η εγκυρότητα των χρονοσφραγίδων...</translation>
@@ -504,7 +527,7 @@ Drop timing informations ?</source>
         <translation>Μετατόπι&amp;ση:</translation>
     </message>
     <message>
-        <location line="+265"/>
+        <location line="+277"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -517,12 +540,12 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-286"/>
+        <location line="-318"/>
         <source>Time:</source>
         <translation>Χρόνος:</translation>
     </message>
@@ -542,13 +565,13 @@ Drop timing informations ?</source>
         <translation>;</translation>
     </message>
     <message>
-        <location line="+128"/>
-        <location line="+10"/>
+        <location line="+130"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-1417"/>
+        <location line="-1437"/>
         <source>&amp;Help</source>
         <translation>Βοή&amp;θεια</translation>
     </message>
@@ -598,7 +621,7 @@ Drop timing informations ?</source>
         <translation> (0 κανάλια)</translation>
     </message>
     <message>
-        <location line="+1136"/>
+        <location line="+1204"/>
         <source>&amp;Open...</source>
         <translation>Άν&amp;οιγμα...</translation>
     </message>
@@ -658,12 +681,12 @@ Drop timing informations ?</source>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-1097"/>
+        <location line="-1165"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location line="+764"/>
+        <location line="+772"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -673,7 +696,7 @@ Drop timing informations ?</source>
         <translation>Β:</translation>
     </message>
     <message>
-        <location line="+272"/>
+        <location line="+332"/>
         <source>&amp;Input</source>
         <translation>Δεδομένα ει&amp;σόδου</translation>
     </message>
@@ -693,22 +716,22 @@ Drop timing informations ?</source>
         <translation>&amp;Κορυφή</translation>
     </message>
     <message>
-        <location line="-1635"/>
+        <location line="-1703"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Αποκωδικοποιητής βίντεο&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1126"/>
+        <location line="+1138"/>
         <source>Frame type:</source>
         <translation>Τύπος στιγμιότυπου:</translation>
     </message>
     <message>
-        <location line="+497"/>
+        <location line="+553"/>
         <source>&amp;Separate</source>
         <translation>Δια&amp;χωρισμός</translation>
     </message>
     <message>
-        <location line="-1744"/>
+        <location line="-1812"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Εργαλειοθήκες</translation>
     </message>
@@ -749,13 +772,13 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;Μορφή εξόδου&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+114"/>
-        <location line="+931"/>
+        <location line="+126"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Πλοήγηση</translation>
     </message>
     <message>
-        <location line="-856"/>
+        <location line="-912"/>
         <source>Play [SPACE]</source>
         <translation>Αναπαραγωγή [ΔΙΑΣΤΗΜΑ]</translation>
     </message>
@@ -830,42 +853,42 @@ Drop timing informations ?</source>
         <translation>Μπροστά κατά ένα λεπτό</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+191"/>
         <source>Se&amp;lection</source>
         <translation>Επι&amp;λογή</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+77"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>Μετάβαση στον σημαδευτή Α [PAGE UP]</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+16"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation>Μετάβαση στον σημαδευτή Β [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Play filtered</source>
         <translation>Αναπαραγωγή του μεταμορφωμένου</translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-199"/>
         <source>Vol&amp;ume</source>
         <translation>Έντασ&amp;η</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-37"/>
         <source>Selection: 000000</source>
         <translation>Επιλογή: 000000</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+150"/>
         <source>Audio &amp;Metre</source>
         <translation>&amp;Μετρητής ήχου</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+50"/>
         <source>Open Video</source>
         <translation>Άνοιγμα βίντεο</translation>
     </message>
@@ -1877,7 +1900,7 @@ Is it running ?</source>
         <translation>Αποθηκεύτηκαν %d εικόνες.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -1937,7 +1960,7 @@ Is it running ?</source>
         <translation>Απολαβή</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+495"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+496"/>
         <source>Saving</source>
         <translation>Αποθηκεύεται</translation>
     </message>
@@ -2674,7 +2697,7 @@ Proceed anyway?</source>
         <translation>Αυτή η λειτουργία είναι απενεργοποιημένη ή δεν ισχύει πια</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation>Πρόβλημα στην αρχικοποίηση της συσκευής ήχου</translation>
     </message>
@@ -3265,7 +3288,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation>Σφάλμα μνήμης</translation>
     </message>
@@ -3373,7 +3396,7 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -4498,13 +4521,16 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+1"/>
-        <source>_Extra</source>
-        <translation>_Επιπλέον</translation>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
+        <source>_Extra</source>
+        <translation type="vanished">_Επιπλέον</translation>
+    </message>
+    <message>
         <source>Extra check, avoid using it</source>
-        <translation>Επιπλέον έλεγχος· αποφύγετε τη χρήση του</translation>
+        <translation type="vanished">Επιπλέον έλεγχος· αποφύγετε τη χρήση του</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -7060,7 +7086,7 @@ I will assume it has and try to continue</source>
         <translation>Εικόνες Matroska</translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+527"/>
         <source>Matroska clusters</source>
         <translation>Συστάδες Matroska</translation>
     </message>
@@ -7264,7 +7290,7 @@ I will assume it has and try to continue</source>
         <translation>Πρόβλημα στην ανάγνωση των κεφαλίδων SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation>Τύπος αποκωδικοποίησης του στιγμιότυπου</translation>
     </message>
@@ -7272,33 +7298,51 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+103"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation>Μη υποστηριζόμενη</translation>
     </message>
     <message>
-        <location line="-17"/>
         <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
-        <translation>Μόνο τα MP4Video, H264, H265 και AV1 υποστηρίζονται για το βίντεο</translation>
+        <translation type="vanished">Μόνο τα MP4Video, H264, H265 και AV1 υποστηρίζονται για το βίντεο</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation>Μόνο τα AAC, AC3, E-AC3, LPCM, MP2, MP3 και Vorbis υποστηρίζονται για τον ήχο</translation>
+        <translation type="vanished">Μόνο τα AAC, AC3, E-AC3, LPCM, MP2, MP3 και Vorbis υποστηρίζονται για τον ήχο</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Incompatible Format</source>
-        <translation>Μη συμβατή μορφή</translation>
+        <translation type="vanished">Μη συμβατή μορφή</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>PSP format is incompatible with LPCM audio</source>
-        <translation>Η μορφή PSP δεν είναι συμβατή με τον ήχο LPCM</translation>
+        <translation type="vanished">Η μορφή PSP δεν είναι συμβατή με τον ήχο LPCM</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="-31"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+190"/>
         <source>Saving mp4</source>
         <translation>Αποθήκευση του mp4</translation>
     </message>
@@ -7308,27 +7352,34 @@ I will assume it has and try to continue</source>
         <translation>Αποθήκευση του PSP</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation>Μορφή πολυπλεξίας</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation>Χωρίς βελτιστοποίηση</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation>Μετακίνηση του ευρετηρίου στην αρχή του αρχείου</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation>Χρήση τεμαχισμού</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation>Βελτιστοποίηση για ροοθήκευση</translation>
     </message>
@@ -7413,7 +7464,7 @@ I will assume it has and try to continue</source>
         <translation>Κλίμακα χρόνου</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>MP4 Muxer</source>
         <translation>Πολυπλέκτης MP4</translation>
     </message>

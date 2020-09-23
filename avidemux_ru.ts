@@ -53,6 +53,29 @@
 2) склеить их вместе</translation>
     </message>
     <message>
+        <location line="+13"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+77"/>
         <source>Checking if timestamps are valid..</source>
         <translation type="unfinished">Проверка правильности временных меток...</translation>
@@ -499,12 +522,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Сдв&amp;иг:</translation>
     </message>
     <message>
-        <location line="+602"/>
+        <location line="+614"/>
         <source>Time:</source>
         <translation type="unfinished">Время:</translation>
     </message>
     <message>
-        <location line="-1196"/>
+        <location line="-1208"/>
         <source>&amp;Help</source>
         <translation type="unfinished">Сп&amp;равка</translation>
     </message>
@@ -554,7 +577,7 @@ Drop timing informations ?</source>
         <translation> (0 дорожек)</translation>
     </message>
     <message>
-        <location line="+1136"/>
+        <location line="+1204"/>
         <source>&amp;Open...</source>
         <translation type="unfinished">&amp;Открыть...</translation>
     </message>
@@ -621,22 +644,22 @@ Drop timing informations ?</source>
         <translation type="unfinished">&amp;Сверху</translation>
     </message>
     <message>
-        <location line="-1635"/>
+        <location line="-1703"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Декодер видео&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1126"/>
+        <location line="+1138"/>
         <source>Frame type:</source>
         <translation type="unfinished">Тип кадра:</translation>
     </message>
     <message>
-        <location line="+497"/>
+        <location line="+553"/>
         <source>&amp;Separate</source>
         <translation type="unfinished">&amp;Отделить</translation>
     </message>
     <message>
-        <location line="-1858"/>
+        <location line="-1926"/>
         <source>Avidemux</source>
         <translation type="unfinished"></translation>
     </message>
@@ -687,13 +710,13 @@ Drop timing informations ?</source>
         <translation type="unfinished">&lt;b&gt;Выходной формат&lt;b&gt;</translation>
     </message>
     <message>
-        <location line="+114"/>
-        <location line="+931"/>
+        <location line="+126"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished">&amp;Навигация</translation>
     </message>
     <message>
-        <location line="-856"/>
+        <location line="-912"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished">Воспроизвести [SPACE]</translation>
     </message>
@@ -716,12 +739,12 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-603"/>
+        <location line="-635"/>
         <source>Go to previous frame [LEFT]</source>
         <translation type="unfinished">Предыдущий кадр [LEFT]</translation>
     </message>
@@ -801,12 +824,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+50"/>
         <source>Se&amp;lection</source>
         <translation type="unfinished">&amp;Выбор</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+57"/>
         <source>A:</source>
         <translation type="unfinished">A:</translation>
     </message>
@@ -816,13 +839,13 @@ Drop timing informations ?</source>
         <translation type="unfinished">B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation type="unfinished">Перейти к маркеру A [PAGE UP]</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+10"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -832,27 +855,27 @@ Drop timing informations ?</source>
         <translation type="unfinished">Перейти к маркеру B [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Play filtered</source>
         <translation type="unfinished">Включить фильтр</translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-199"/>
         <source>Vol&amp;ume</source>
         <translation type="unfinished">&amp;Громкость</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-37"/>
         <source>Selection: 000000</source>
-        <translation type="unfinished"></translation>
+        <translation>Выборка: 000000</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+150"/>
         <source>Audio &amp;Metre</source>
         <translation type="unfinished">&amp;Аудиометр</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+50"/>
         <source>Open Video</source>
         <translation type="unfinished">Открыть видео</translation>
     </message>
@@ -1780,7 +1803,7 @@ Is it running ?</source>
         <translation>Сохранено изображений: %d</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2644,7 +2667,7 @@ Proceed anyway?</source>
         <translation type="unfinished">Функция отключена или более недействительна</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Проблема при инициализации аудиоустройства.</translation>
     </message>
@@ -3213,12 +3236,12 @@ Try anyway?</source>
         <translation>Невозможно создать выходной файл</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation type="unfinished">Ошибка выделения памяти</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+495"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+496"/>
         <source>Saving</source>
         <translation type="unfinished">Сохранение</translation>
     </message>
@@ -3330,7 +3353,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -4421,17 +4444,15 @@ Do you want to load it  ?
         <translation type="unfinished">Порог:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Extra</source>
-        <translation type="unfinished">Экстра</translation>
+        <translation type="obsolete">Экстра</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Extra check, avoid using it</source>
-        <translation type="unfinished">Экстра, избегайте использовать</translation>
+        <translation type="obsolete">Экстра, избегайте использовать</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>dgbob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4471,7 +4492,12 @@ Do you want to load it  ?
         <translation type="unfinished">_Сначала поле сверху</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>DGBob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7013,7 +7039,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">Изображения Matroska</translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+527"/>
         <source>Matroska clusters</source>
         <translation type="unfinished">Кластеры Matroska</translation>
     </message>
@@ -7217,7 +7243,7 @@ I will assume it has and try to continue</source>
         <translation>Ошибка чтения заголовков SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation>Декодирование типа кадров</translation>
     </message>
@@ -7225,33 +7251,51 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+103"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation>Не поддерживается</translation>
     </message>
     <message>
-        <location line="-17"/>
         <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
-        <translation>Как видео поддерживаются только MPEG-4, H.264, HEVC и AV1</translation>
+        <translation type="vanished">Как видео поддерживаются только MPEG-4, H.264, HEVC и AV1</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation>Как аудио поддерживаются только AAC, AC3, E-AC3, LPCM, MP2, MP3 и Vorbis</translation>
+        <translation type="vanished">Как аудио поддерживаются только AAC, AC3, E-AC3, LPCM, MP2, MP3 и Vorbis</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>Incompatible Format</source>
-        <translation>Несовместимый формат</translation>
+        <translation type="vanished">Несовместимый формат</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>PSP format is incompatible with LPCM audio</source>
-        <translation>Формат PSP несовместим с аудиокодеком LPCM</translation>
+        <translation type="vanished">Формат PSP несовместим с аудиокодеком LPCM</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="-31"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+190"/>
         <source>Saving mp4</source>
         <translation>Сохранение как MP4</translation>
     </message>
@@ -7261,27 +7305,34 @@ I will assume it has and try to continue</source>
         <translation>Сохранение в формате PSP</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation>Формат мультиплексирования</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation>Без оптимизации</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation>Переместить индекс к началу файла</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation>Фрагментировать</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation>Оптимизировать для потоковой передачи</translation>
     </message>
@@ -7366,7 +7417,7 @@ I will assume it has and try to continue</source>
         <translation>Шкала времени</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>MP4 Muxer</source>
         <translation>Мультиплексор MP4</translation>
     </message>

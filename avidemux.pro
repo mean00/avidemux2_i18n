@@ -1916,6 +1916,7 @@ TRANSLATIONS = \
 ./avidemux_es.ts \ 
 ./avidemux_hu.ts \ 
 ./avidemux_da.ts \ 
+./avidemux_uk.ts \ 
 ./avidemux_zh_TW.ts \ 
 ./avidemux_ko.ts \ 
 ./avidemux_sr.ts \ 

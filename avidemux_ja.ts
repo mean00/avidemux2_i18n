@@ -51,6 +51,29 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+13"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+77"/>
         <source>Checking if timestamps are valid..</source>
         <translation type="unfinished"></translation>
@@ -495,7 +518,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">フィルタ</translation>
     </message>
     <message>
-        <location line="+648"/>
+        <location line="+660"/>
         <source>00:00:00.000</source>
         <translation type="unfinished">00:00:00.000</translation>
     </message>
@@ -505,13 +528,13 @@ Drop timing informations ?</source>
         <translation type="unfinished">/ 00:00:00.000</translation>
     </message>
     <message>
-        <location line="+170"/>
-        <location line="+10"/>
+        <location line="+172"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation type="unfinished">000000</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-39"/>
         <source>A:</source>
         <translation type="unfinished">A :</translation>
     </message>
@@ -521,12 +544,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">B&#xa0;:</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-127"/>
         <source>Frame type:</source>
         <translation type="unfinished">フレームタイプ:</translation>
     </message>
     <message>
-        <location line="-1266"/>
+        <location line="-1278"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
@@ -622,13 +645,13 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+114"/>
-        <location line="+931"/>
+        <location line="+126"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-856"/>
+        <location line="-912"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -651,12 +674,12 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-603"/>
+        <location line="-635"/>
         <source>Go to previous frame [LEFT]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -731,47 +754,47 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+50"/>
         <source>Se&amp;lection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+77"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+16"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Play filtered</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-199"/>
         <source>Vol&amp;ume</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1006"/>
+        <location line="-1044"/>
         <source> (0 tracks)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+981"/>
+        <location line="+1007"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+150"/>
         <source>Audio &amp;Metre</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+47"/>
         <source>&amp;Open...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1837,7 +1860,7 @@ Is it running ?</source>
         <translation type="unfinished">%d 画像を保存.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2612,7 +2635,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">音声デバイス初期化トラブル</translation>
     </message>
@@ -3188,12 +3211,12 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation type="unfinished">メモリエラー</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+495"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+496"/>
         <source>Saving</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3300,7 +3323,7 @@ Try anyway?</source>
         <translation type="unfinished">1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -4412,17 +4435,15 @@ Do you want to load it  ?
         <translation type="unfinished">閾値(_T):</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Extra</source>
-        <translation type="unfinished">特別(_E)</translation>
+        <translation type="obsolete">特別(_E)</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>Extra check, avoid using it</source>
-        <translation type="unfinished">特別チェック, それを使うのを避けよ</translation>
+        <translation type="obsolete">特別チェック, それを使うのを避けよ</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-23"/>
         <source>dgbob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4437,7 +4458,12 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>DGBob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6970,7 +6996,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+527"/>
         <source>Matroska clusters</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7174,7 +7200,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">SVQ3ヘッダ読取に問題</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7182,33 +7208,35 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+103"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation type="unfinished">未サポート</translation>
     </message>
     <message>
-        <location line="-17"/>
-        <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
+        <location line="-31"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Incompatible Format</source>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PSP format is incompatible with LPCM audio</source>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+190"/>
         <source>Saving mp4</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7218,27 +7246,34 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7323,7 +7358,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>MP4 Muxer</source>
         <translation type="unfinished"></translation>
     </message>

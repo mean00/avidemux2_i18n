@@ -58,7 +58,30 @@
 2) 将它们串联在一起</translation>
     </message>
     <message>
-        <location line="-41"/>
+        <location line="+13"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-66"/>
         <source>Attempt to open %s failed!</source>
         <translation>尝试开启 %s 失败!</translation>
     </message>
@@ -472,12 +495,12 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1389"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1401"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+111"/>
+        <location line="+107"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -491,7 +514,7 @@ Drop timing informations ?</source>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-771"/>
+        <location line="-779"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
@@ -501,7 +524,7 @@ Drop timing informations ?</source>
         <translation>前往(&amp;G)</translation>
     </message>
     <message>
-        <location line="+818"/>
+        <location line="+830"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -514,28 +537,28 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="+293"/>
+        <location line="+317"/>
         <source>&amp;Top</source>
         <translation>上下并排(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1410"/>
+        <location line="-1478"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>复制</translation>
     </message>
     <message>
-        <location line="+319"/>
+        <location line="+331"/>
         <source>Play</source>
         <translation>播放</translation>
     </message>
     <message>
-        <location line="-638"/>
+        <location line="-650"/>
         <location line="+7"/>
         <source>XXXX</source>
         <translation>XXXX</translation>
@@ -566,7 +589,7 @@ Drop timing informations ?</source>
         <translation>检视(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1573"/>
+        <location line="+1641"/>
         <source>Open Video</source>
         <translation>开启视频</translation>
     </message>
@@ -576,7 +599,7 @@ Drop timing informations ?</source>
         <translation>左右并排(&amp;D</translation>
     </message>
     <message>
-        <location line="-591"/>
+        <location line="-647"/>
         <source>Time:</source>
         <translation>时间:</translation>
     </message>
@@ -585,13 +608,13 @@ Drop timing informations ?</source>
         <translation type="vanished">Alt+Return</translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+496"/>
         <location line="+3"/>
         <source>Load/Run Project</source>
         <translation>加载/执行项目</translation>
     </message>
     <message>
-        <location line="-596"/>
+        <location line="-652"/>
         <source>Search next black frame</source>
         <translation>搜寻下一帧黑框</translation>
     </message>
@@ -610,23 +633,23 @@ Drop timing informations ?</source>
         <translation type="vanished">计算器(&amp;C)...</translation>
     </message>
     <message>
-        <location line="+456"/>
+        <location line="+458"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>转到标记 A [PAGE UP]</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+301"/>
         <location line="+3"/>
         <source>Save Project</source>
         <translation>保存项目</translation>
     </message>
     <message>
-        <location line="-1603"/>
+        <location line="-1671"/>
         <source>&amp;Audio</source>
         <translation>音频(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1618"/>
+        <location line="+1686"/>
         <source>&amp;Input</source>
         <translation>输入(&amp;I)</translation>
     </message>
@@ -636,33 +659,33 @@ Drop timing informations ?</source>
         <translation>标志区段(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1674"/>
+        <location line="-1742"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1271"/>
+        <location line="+1295"/>
         <source>Se&amp;lection</source>
         <translation>标志区间段(&amp;L)</translation>
     </message>
     <message>
-        <location line="-323"/>
+        <location line="-335"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
         <translation>设定结束标记 [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
-        <location line="+413"/>
-        <location line="+10"/>
+        <location line="+415"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="+331"/>
+        <location line="+379"/>
         <source>&amp;Audio Metre</source>
         <translation>音频画面(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1508"/>
+        <location line="-1576"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -675,32 +698,32 @@ Drop timing informations ?</source>
         <translation>视频(&amp;D)</translation>
     </message>
     <message>
-        <location line="+845"/>
+        <location line="+857"/>
         <source>Play [SPACE]</source>
         <translation>播放 [SPACE]</translation>
     </message>
     <message>
-        <location line="+694"/>
+        <location line="+744"/>
         <source>Audio &amp;Metre</source>
         <translation>音频画面(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1525"/>
+        <location line="-1587"/>
         <source>&amp;Toolbars</source>
         <translation>工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1566"/>
+        <location line="+1634"/>
         <source>&amp;Open...</source>
         <translation>开启文件(&amp;O)...</translation>
     </message>
     <message>
-        <location line="-319"/>
+        <location line="-375"/>
         <source>Frame type:</source>
         <translation>帧类型:</translation>
     </message>
     <message>
-        <location line="+343"/>
+        <location line="+399"/>
         <location line="+3"/>
         <source>Save Video</source>
         <translation>保存视频</translation>
@@ -711,7 +734,7 @@ Drop timing informations ?</source>
         <translation>保存视频&amp;V)...</translation>
     </message>
     <message>
-        <location line="-586"/>
+        <location line="-642"/>
         <source>Search previous black frame</source>
         <translation>搜寻上一帧黑框</translation>
     </message>
@@ -721,22 +744,22 @@ Drop timing informations ?</source>
         <translation>转到上一帧 [LEFT]</translation>
     </message>
     <message>
-        <location line="-772"/>
+        <location line="-784"/>
         <source>Codec O&amp;ptions</source>
         <translation>编译码器选项(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1517"/>
+        <location line="+1585"/>
         <source>Play filtered</source>
         <translation>过滤播放(&amp;P)</translation>
     </message>
     <message>
-        <location line="-210"/>
+        <location line="-258"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation>转到标记 B [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="-975"/>
+        <location line="-995"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;输出音频编码佳AC3/Mp3&lt;/b&gt;</translation>
     </message>
@@ -746,42 +769,42 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;视频输出格式(容器)佳Mp4/Mkv&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+972"/>
+        <location line="+1040"/>
         <source>&amp;Load/Run Project...</source>
         <translation>加载/执行项目(&amp;L)...</translation>
     </message>
     <message>
-        <location line="-544"/>
+        <location line="-600"/>
         <source>Go to last frame [END]</source>
         <translation>G转到最后一帧 [END]</translation>
     </message>
     <message>
-        <location line="-1053"/>
+        <location line="-1065"/>
         <source>&amp;Custom</source>
         <translation>自定义(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1645"/>
+        <location line="+1713"/>
         <source>&amp;Output</source>
         <translation>输出(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1620"/>
+        <location line="-1688"/>
         <source>&amp;Recent</source>
         <translation>最近(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1077"/>
+        <location line="+1089"/>
         <source>Forward one minute</source>
         <translation>前进一分钟</translation>
     </message>
     <message>
-        <location line="-544"/>
+        <location line="-556"/>
         <source>&amp;Shift:</source>
         <translation>位移(±)(&amp;S):</translation>
     </message>
     <message>
-        <location line="+1140"/>
+        <location line="+1208"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -791,22 +814,22 @@ Drop timing informations ?</source>
         <translation>编译码器选项(&amp;C)</translation>
     </message>
     <message>
-        <location line="-557"/>
+        <location line="-613"/>
         <source>Forward one minute [CTRL+UP]</source>
         <translation>前进一分钟 [CTRL+UP]</translation>
     </message>
     <message>
-        <location line="+628"/>
+        <location line="+684"/>
         <source>&amp;Separate</source>
         <translation>分离窗口(&amp;S)</translation>
     </message>
     <message>
-        <location line="-792"/>
+        <location line="-848"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>设定开始标记 [CTRL+PAGEUP]</translation>
     </message>
     <message>
-        <location line="-1066"/>
+        <location line="-1078"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -817,12 +840,12 @@ Drop timing informations ?</source>
         <translation>过滤器-特效</translation>
     </message>
     <message>
-        <location line="+888"/>
+        <location line="+926"/>
         <source>Vol&amp;ume</source>
         <translation>音量(&amp;U)</translation>
     </message>
     <message>
-        <location line="-1315"/>
+        <location line="-1353"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;译码器.颜色.不编码直选COPY&lt;/b&gt;</translation>
     </message>
@@ -837,7 +860,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+778"/>
         <source>00:00:00.000</source>
         <translation>00:00:00.000</translation>
     </message>
@@ -847,12 +870,12 @@ Drop timing informations ?</source>
         <translation>/ 00:00:00.000</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+207"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+218"/>
+        <location line="+260"/>
         <source>Save &amp;Project</source>
         <translation>保存项目(&amp;P)</translation>
     </message>
@@ -862,7 +885,7 @@ Drop timing informations ?</source>
         <translation>属性(&amp;I)...</translation>
     </message>
     <message>
-        <location line="-695"/>
+        <location line="-751"/>
         <source>Go to next frame [RIGHT]</source>
         <translation>转到下一帧</translation>
     </message>
@@ -872,7 +895,7 @@ Drop timing informations ?</source>
         <translation>倒退一分钟 [CTRL+DOWN]</translation>
     </message>
     <message>
-        <location line="+583"/>
+        <location line="+639"/>
         <source>Ctrl+Alt+C</source>
         <translation>Ctrl+Alt+C</translation>
     </message>
@@ -897,13 +920,13 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="-812"/>
+        <location line="-868"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>转到上一帧(关键帧或I帧) [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+931"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation>视频导航栏(&amp;N)</translation>
     </message>
@@ -1412,7 +1435,7 @@ It is needed to create FLV  video.</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -1425,7 +1448,7 @@ It is needed to create FLV  video.</source>
         <translation>只显示错误警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -1608,7 +1631,7 @@ Installation mismatch</source>
         <translation>定向逻辑</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+676"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+677"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2848,7 +2871,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>低比特率的场景（%）</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation>音频装置初始化时发生问题</translation>
     </message>
@@ -3247,7 +3270,7 @@ Install lame plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation>内存错误</translation>
     </message>
@@ -4402,7 +4425,12 @@ Do you want to load it  ?
         <translation>顶部</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+12"/>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>DGBob</source>
         <translation>2.5-浮标过滤器(DGBob)-浮标效果</translation>
     </message>
@@ -4427,22 +4455,20 @@ Do you want to load it  ?
         <translation>底部</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Extra check, avoid using it</source>
-        <translation>额外检查，避免正在使用它</translation>
+        <translation type="vanished">额外检查，避免正在使用它</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <location line="+5"/>
         <source>Double nb of frames (slow motion)</source>
         <translation>两倍帧的数量(慢运动)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>_Extra</source>
-        <translation>额外</translation>
+        <translation type="vanished">额外</translation>
     </message>
     <message>
-        <location line="-2"/>
+        <location line="+4"/>
         <source>_Mode:</source>
         <translation>模式:</translation>
     </message>
@@ -6989,12 +7015,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+570"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+574"/>
         <source>Matroska clusters</source>
         <translation>Matroska 集群</translation>
     </message>
     <message>
-        <location line="-523"/>
+        <location line="-527"/>
         <source>Matroska Images</source>
         <translation>Matroska 图像</translation>
     </message>
@@ -7198,7 +7224,7 @@ I will assume it has and try to continue</source>
         <translation>读取 SVQ3 档头时发生问题</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7206,27 +7232,29 @@ I will assume it has and try to continue</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation>复合器格式</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7311,43 +7339,50 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+104"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Incompatible Format</source>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PSP format is incompatible with LPCM audio</source>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+191"/>
         <source>Saving PSP</source>
         <translation>保存 PSP</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>Saving mp4</source>
         <translation>保存 mp4</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+4"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+8"/>
         <source>MP4 Muxer</source>
         <translation>复合器</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-212"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-223"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation>未支援的</translation>
     </message>

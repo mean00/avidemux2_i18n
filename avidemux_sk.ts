@@ -53,6 +53,29 @@
 2.) spojiť ich dohromady</translation>
     </message>
     <message>
+        <location line="+13"/>
+        <source>The width of the video %u px exceeds maximum supported width %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>The height of the video %u px exceeds maximum supported height %u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Video dimensions %ux%u exceed maximum supported size %ux%u.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+77"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Kontrola platnosti časových údajov.</translation>
@@ -599,13 +622,13 @@ Vypustiť časové údaje?</translation>
         <translation>&lt;b&gt;Výstupný formát&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+114"/>
-        <location line="+931"/>
+        <location line="+126"/>
+        <location line="+987"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigácia</translation>
     </message>
     <message>
-        <location line="-856"/>
+        <location line="-912"/>
         <source>Play [SPACE]</source>
         <translation>Prehrať [medzerník]</translation>
     </message>
@@ -628,12 +651,12 @@ Vypustiť časové údaje?</translation>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+26"/>
-        <location line="+341"/>
+        <location line="+373"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-603"/>
+        <location line="-635"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Prejsť na predošlú snímku [šípka vľavo]</translation>
     </message>
@@ -723,12 +746,12 @@ Vypustiť časové údaje?</translation>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+50"/>
         <source>Se&amp;lection</source>
         <translation>Vy&amp;brané</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+57"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -738,13 +761,13 @@ Vypustiť časové údaje?</translation>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>Choď na značku A [Page Up]</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+10"/>
+        <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
@@ -754,32 +777,32 @@ Vypustiť časové údaje?</translation>
         <translation>Choď na značku B [Page Down]</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Play filtered</source>
         <translation>Prehrať filtrované</translation>
     </message>
     <message>
-        <location line="-169"/>
+        <location line="-199"/>
         <source>Vol&amp;ume</source>
         <translation>Hlasi&amp;tosť</translation>
     </message>
     <message>
-        <location line="-1006"/>
+        <location line="-1044"/>
         <source> (0 tracks)</source>
         <translation> (0 stôp)</translation>
     </message>
     <message>
-        <location line="+981"/>
+        <location line="+1007"/>
         <source>Selection: 000000</source>
         <translation>Vybrané: 000000</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+150"/>
         <source>Audio &amp;Metre</source>
         <translation>&amp;Audiometer</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+47"/>
         <source>&amp;Open...</source>
         <translation>&amp;Otvoriť...</translation>
     </message>
@@ -2086,7 +2109,7 @@ Vypustiť časové údaje?</translation>
         <translation>&amp;Nasledujúca čierna snímka</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+673"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
         <location line="+43"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2556,7 +2579,7 @@ Je spustené?</translation>
         <translation>Táto funkcia je vypnutá alebo je už neplatná</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+442"/>
+        <location filename="../../common/gui_play.cpp" line="+446"/>
         <source>Trouble initializing audio device</source>
         <translation>Chyba inicializácie audio zariadenia</translation>
     </message>
@@ -3237,12 +3260,12 @@ Skúsiť to znovu?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+235"/>
         <source>Memory error</source>
         <translation>Chyba pamäte</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+495"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+496"/>
         <source>Saving</source>
         <translation>Ukladanie</translation>
     </message>
@@ -3355,7 +3378,7 @@ Skúsiť to znovu?</translation>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+175"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
         <location line="+39"/>
@@ -4486,13 +4509,16 @@ Chcete ho načítať?
     </message>
     <message>
         <location line="+1"/>
-        <source>_Extra</source>
-        <translation>_Extra</translation>
+        <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
+        <source>_Extra</source>
+        <translation type="vanished">_Extra</translation>
+    </message>
+    <message>
         <source>Extra check, avoid using it</source>
-        <translation>Extra kontrola, nepoužívajte</translation>
+        <translation type="vanished">Extra kontrola, nepoužívajte</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -7033,7 +7059,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Matroska obrázky</translation>
     </message>
     <message>
-        <location line="+523"/>
+        <location line="+527"/>
         <source>Matroska clusters</source>
         <translation>Matroska klustery</translation>
     </message>
@@ -7237,7 +7263,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Chyba čítania hlavičky SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+492"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+499"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7245,33 +7271,43 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+88"/>
-        <location line="+17"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+103"/>
+        <location line="+4"/>
+        <location line="+24"/>
+        <location line="+4"/>
         <source>Unsupported</source>
         <translation>Nepodporované</translation>
     </message>
     <message>
-        <location line="-17"/>
         <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
-        <translation>Podporované len video MP4Video, H264, H265 a AV1</translation>
+        <translation type="vanished">Podporované len video MP4Video, H264, H265 a AV1</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation>Podporované len audio AAC, AC3, E-AC3, LPCM, MP2, MP3 a Vorbis</translation>
+        <translation type="vanished">Podporované len audio AAC, AC3, E-AC3, LPCM, MP2, MP3 a Vorbis</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Incompatible Format</source>
+        <location line="-31"/>
+        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+0"/>
-        <source>PSP format is incompatible with LPCM audio</source>
+        <location line="+4"/>
+        <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+24"/>
+        <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+190"/>
         <source>Saving mp4</source>
         <translation>Uloženie mp4</translation>
     </message>
@@ -7281,27 +7317,34 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Uloženie PSP</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+32"/>
+        <location line="+2"/>
+        <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+37"/>
         <source>Muxing Format</source>
         <translation>Formát zmiešavania</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location line="+6"/>
         <source>No optimization</source>
         <translation>Bez optimalizácie</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
+        <location line="+6"/>
         <source>Move index to the beginning of the file</source>
         <translation>Presunúť index na začiatok súboru</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-5"/>
         <source>Use fragmentation</source>
         <translation>Použiť fragmentáciu</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+17"/>
         <source>Optimize for Streaming</source>
         <translation>Optimalizácia audiovizuálneho prenosu</translation>
     </message>
@@ -7386,7 +7429,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Časová mierka</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>MP4 Muxer</source>
         <translation>Zmiešavač MP4</translation>
     </message>
