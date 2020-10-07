@@ -7968,7 +7968,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Предыдущие проекты</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+513"/>
+        <source>?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>
@@ -8040,7 +8045,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Ход текущего редактирования сохранен и будет загружен при следующем запуске</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+240"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
@@ -11308,7 +11313,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
         <source>Not coded</source>
         <translation type="unfinished">Не разработано</translation>
     </message>
@@ -11320,7 +11325,7 @@ If it is a system profile it will be recreated next time.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+184"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
         <source>none</source>
         <translation type="unfinished">нет</translation>
     </message>
@@ -11330,7 +11335,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Вручную</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+372"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Целевой битрейт</translation>
     </message>
@@ -11366,7 +11371,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Средний битрейт</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+109"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11462,12 +11467,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2704"/>
+        <location line="+2788"/>
         <source>Delete</source>
         <translation type="unfinished">Удалить</translation>
     </message>
     <message>
-        <location line="-2662"/>
+        <location line="-2746"/>
         <source>General</source>
         <translation type="unfinished">Общий</translation>
     </message>
@@ -11647,12 +11652,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1240"/>
+        <location line="+1324"/>
         <source>Quantiser</source>
         <translation type="unfinished">Квантизатор</translation>
     </message>
     <message>
-        <location line="-1430"/>
+        <location line="-1514"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (низкое качество)</translation>
@@ -11689,12 +11694,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2043"/>
+        <location line="+2127"/>
         <source>frames</source>
         <translation type="unfinished">кадры</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2103"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Идентификатор установки параметра последовательности:</translation>
     </message>
@@ -11790,29 +11795,28 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Предсказание:</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation type="unfinished">Взвешенное предсказание для B-кадров</translation>
+        <translation type="obsolete">Взвешенное предсказание для B-кадров</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Constrained Intra Prediction</source>
         <translation type="unfinished">Ограниченное внутреннее предсказание</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+16"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation type="unfinished">Взвешенное предсказание для P-кадров</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+183"/>
+        <location line="+204"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished">Выключено</translation>
     </message>
     <message>
-        <location line="-214"/>
+        <location line="-235"/>
         <source>Weighted References</source>
         <translation type="unfinished">Взвешенные ссылки</translation>
     </message>
@@ -11878,7 +11882,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Максимум кадров-ссылок:</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+60"/>
         <source>B-frames</source>
         <translation type="unfinished">B-кадры</translation>
     </message>
@@ -11979,9 +11983,58 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Децимация DCT на P-кадрах</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Psychovisual Rate Distortion Optimisation:</source>
-        <translation type="unfinished">Оптимизация психовизуального искажения частоты</translation>
+        <translation type="obsolete">Оптимизация психовизуального искажения частоты</translation>
+    </message>
+    <message>
+        <location line="-592"/>
+        <source>Prediction for B-frames:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Weighted Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Intra Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Rectangular Motion Partitions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+181"/>
+        <source>Limit References by:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+376"/>
+        <source>Rate Distortion Optimisation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Level:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Psycho-visual Strength:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>

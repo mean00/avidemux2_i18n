@@ -7941,7 +7941,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Zuletzt verwendete &amp;Projekte</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+513"/>
+        <source>?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>Play/Stop</source>
         <translation>Wiedergabe/Stopp</translation>
     </message>
@@ -8006,7 +8011,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+981"/>
+        <location line="+991"/>
         <source>Selection: </source>
         <translation>Auswahl: </translation>
     </message>
@@ -8020,19 +8025,19 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2242"/>
+        <location line="-2255"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1663"/>
+        <location line="+1666"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
 Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendungsstart geladen.</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+240"/>
         <source>%c-%s (%02d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11270,7 +11275,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
         <source>Not coded</source>
         <translation type="unfinished">Nicht verfügbar</translation>
     </message>
@@ -11281,7 +11286,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Dieser Modus ist nicht implementiert</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+184"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
         <source>none</source>
         <translation>Kein Tuning</translation>
     </message>
@@ -11291,7 +11296,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+372"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Ziel-Bitrate:</translation>
     </message>
@@ -11327,7 +11332,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">durchschnittliche Bitrate:</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+109"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11423,12 +11428,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2704"/>
+        <location line="+2788"/>
         <source>Delete</source>
         <translation type="unfinished">Löschen</translation>
     </message>
     <message>
-        <location line="-2662"/>
+        <location line="-2746"/>
         <source>General</source>
         <translation type="unfinished">Allgemein</translation>
     </message>
@@ -11608,12 +11613,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1240"/>
+        <location line="+1324"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantisierung</translation>
     </message>
     <message>
-        <location line="-1430"/>
+        <location line="-1514"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (niedrige Qualität)</translation>
@@ -11650,12 +11655,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2043"/>
+        <location line="+2127"/>
         <source>frames</source>
         <translation type="unfinished">Bilder (I-Bilder: max. GOP beachten)</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2103"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
@@ -11750,29 +11755,28 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Vorhersage</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation>Gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
+        <translation type="vanished">Gewichtete Vorhersage aus B-Bildreferenzen erlauben [weightb]</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Constrained Intra Prediction</source>
         <translation type="unfinished">I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+16"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>Gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+183"/>
+        <location line="+204"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-214"/>
+        <location line="-235"/>
         <source>Weighted References</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11834,7 +11838,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Größe des Referenzbildpuffers (DPD) für P- und B-Bildreferenzierungen [ref]:</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+60"/>
         <source>B-frames</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11935,9 +11939,58 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">DCT-Abschwächung bei P-Bildern, unnötige DCT-Makroblöcke werden verworfen [dct-decimate]</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Psychovisual Rate Distortion Optimisation:</source>
-        <translation type="unfinished">psychovisuell optimierte Abstimmung der Bitrate auf die Bildqualität [psy-rd]:</translation>
+        <translation type="obsolete">psychovisuell optimierte Abstimmung der Bitrate auf die Bildqualität [psy-rd]:</translation>
+    </message>
+    <message>
+        <location line="-592"/>
+        <source>Prediction for B-frames:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Weighted Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Intra Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Rectangular Motion Partitions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+181"/>
+        <source>Limit References by:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+376"/>
+        <source>Rate Distortion Optimisation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Level:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Psycho-visual Strength:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>

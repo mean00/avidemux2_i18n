@@ -7890,7 +7890,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Nedávné projekty</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+513"/>
+        <source>?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7961,7 +7966,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+240"/>
         <source>%c-%s (%02d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11211,7 +11216,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
         <source>Not coded</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11222,7 +11227,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+184"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11232,7 +11237,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Vlastní</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+372"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Cílový datový tok:</translation>
     </message>
@@ -11268,7 +11273,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Průměrný datový tok:</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+109"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11363,12 +11368,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2704"/>
+        <location line="+2788"/>
         <source>Delete</source>
         <translation>Odstranit</translation>
     </message>
     <message>
-        <location line="-2662"/>
+        <location line="-2746"/>
         <source>General</source>
         <translation type="unfinished">Obecné</translation>
     </message>
@@ -11548,12 +11553,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1240"/>
+        <location line="+1324"/>
         <source>Quantiser</source>
         <translation type="unfinished">Kvantizér</translation>
     </message>
     <message>
-        <location line="-1430"/>
+        <location line="-1514"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (nízká kvalita)</translation>
@@ -11590,12 +11595,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2043"/>
+        <location line="+2127"/>
         <source>frames</source>
         <translation type="unfinished">snímků</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2103"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11690,29 +11695,28 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Predikce</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation type="unfinished">Vážená predikce pro B snímky</translation>
+        <translation type="obsolete">Vážená predikce pro B snímky</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Constrained Intra Prediction</source>
         <translation type="unfinished">Omezená intra predikce</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+16"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation type="unfinished">Vážená predikce pro P snímky:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+183"/>
+        <location line="+204"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation type="unfinished">Vypnuto</translation>
     </message>
     <message>
-        <location line="-214"/>
+        <location line="-235"/>
         <source>Weighted References</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11762,7 +11766,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Maximum referenčních snímků:</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+60"/>
         <source>B-frames</source>
         <translation type="unfinished">B snímky</translation>
     </message>
@@ -11863,9 +11867,58 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">DCT decimace na P snímcích</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Psychovisual Rate Distortion Optimisation:</source>
-        <translation type="unfinished">Psychovizuální optimalizace rate distortion:</translation>
+        <translation type="obsolete">Psychovizuální optimalizace rate distortion:</translation>
+    </message>
+    <message>
+        <location line="-592"/>
+        <source>Prediction for B-frames:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Weighted Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Intra Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Rectangular Motion Partitions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+181"/>
+        <source>Limit References by:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+376"/>
+        <source>Rate Distortion Optimisation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Level:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Psycho-visual Strength:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>

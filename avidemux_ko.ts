@@ -7919,7 +7919,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>최근 프로젝트</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+513"/>
+        <source>?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>Play/Stop</source>
         <translation>재생/정지</translation>
     </message>
@@ -7991,7 +7996,7 @@ The current editing has been saved and will be reloaded at next start</source>
 현재 편집 중인 것을 저장하고 다음 시작시에 다시 불러올 것입니다</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+240"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
@@ -11240,7 +11245,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
         <source>Not coded</source>
         <translation>코딩되지 않았습니다</translation>
     </message>
@@ -11251,7 +11256,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>이 모드는 구현되지 않았습니다</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+184"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
         <source>none</source>
         <translation>없음</translation>
     </message>
@@ -11261,7 +11266,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+372"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>
@@ -11297,7 +11302,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>평균 비트레이트:</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+109"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11389,12 +11394,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2704"/>
+        <location line="+2788"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location line="-2662"/>
+        <location line="-2746"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -11574,12 +11579,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1240"/>
+        <location line="+1324"/>
         <source>Quantiser</source>
         <translation>양자화기</translation>
     </message>
     <message>
-        <location line="-1430"/>
+        <location line="-1514"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (낮은 품질)</translation>
@@ -11616,12 +11621,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2043"/>
+        <location line="+2127"/>
         <source>frames</source>
         <translation>프레임</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2103"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>시퀀스 매개변수 세트 식별자: </translation>
     </message>
@@ -11716,29 +11721,28 @@ If it is a system profile it will be recreated next time.</source>
         <translation>예측</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation>B 프레임에 대한 가중된 예측</translation>
+        <translation type="vanished">B 프레임에 대한 가중된 예측</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Constrained Intra Prediction</source>
         <translation>강제적인 인트라 예측</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+16"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>P 프레임에 대한 가중된 예측:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+183"/>
+        <location line="+204"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
     </message>
     <message>
-        <location line="-214"/>
+        <location line="-235"/>
         <source>Weighted References</source>
         <translation>가중된 참조들</translation>
     </message>
@@ -11804,7 +11808,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>최대 참조 프레임:</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+60"/>
         <source>B-frames</source>
         <translation>B 프레임</translation>
     </message>
@@ -11905,9 +11909,58 @@ If it is a system profile it will be recreated next time.</source>
         <translation>P 프레임에서 DCT 데시메이션 Decimation</translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Psychovisual Rate Distortion Optimisation:</source>
-        <translation>시각 심리 비율 왜곡 최적화:</translation>
+        <translation type="vanished">시각 심리 비율 왜곡 최적화:</translation>
+    </message>
+    <message>
+        <location line="-592"/>
+        <source>Prediction for B-frames:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Weighted Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Intra Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Rectangular Motion Partitions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+181"/>
+        <source>Limit References by:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+376"/>
+        <source>Rate Distortion Optimisation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Level:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Psycho-visual Strength:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>

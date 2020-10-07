@@ -7950,7 +7950,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Proyectos recientes</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+513"/>
+        <source>?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+175"/>
         <source>Play/Stop</source>
         <translation>Reproducir/Detener</translation>
     </message>
@@ -8022,7 +8027,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+240"/>
         <source>%c-%s (%02d)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11278,7 +11283,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
         <source>Not coded</source>
         <translation>No implementado</translation>
     </message>
@@ -11290,7 +11295,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+184"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11300,7 +11305,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Personalizado</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+372"/>
         <source>Target Bitrate:</source>
         <translation>Tasa de bits objetivo:</translation>
     </message>
@@ -11336,7 +11341,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Tasa de bits media:</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+109"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11432,12 +11437,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2704"/>
+        <location line="+2788"/>
         <source>Delete</source>
         <translation>Borrar</translation>
     </message>
     <message>
-        <location line="-2662"/>
+        <location line="-2746"/>
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -11617,12 +11622,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1240"/>
+        <location line="+1324"/>
         <source>Quantiser</source>
         <translation>Cuantizador</translation>
     </message>
     <message>
-        <location line="-1430"/>
+        <location line="-1514"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Calidad baja)</translation>
@@ -11659,12 +11664,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2043"/>
+        <location line="+2127"/>
         <source>frames</source>
         <translation>fotogramas</translation>
     </message>
     <message>
-        <location line="-2019"/>
+        <location line="-2103"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Identificador del conjunto de parámetros de secuencia:</translation>
     </message>
@@ -11759,29 +11764,28 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Predicción</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation>Predicción ponderada para fotogramas B</translation>
+        <translation type="vanished">Predicción ponderada para fotogramas B</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+31"/>
         <source>Constrained Intra Prediction</source>
         <translation>Predicción interna restringida</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+16"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>Predicción ponderada para fotogramas-P:</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+183"/>
+        <location line="+204"/>
         <location line="+36"/>
         <source>Disabled</source>
         <translation>Deshabilitada</translation>
     </message>
     <message>
-        <location line="-214"/>
+        <location line="-235"/>
         <source>Weighted References</source>
         <translation>Referencias ponderadas</translation>
     </message>
@@ -11847,7 +11851,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Máximo de fotogramas de referencia:</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+60"/>
         <source>B-frames</source>
         <translation>Fotogramas-B</translation>
     </message>
@@ -11948,9 +11952,58 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
         <source>Psychovisual Rate Distortion Optimisation:</source>
-        <translation>Optimización de la tasa de distorsión psicovisual:</translation>
+        <translation type="vanished">Optimización de la tasa de distorsión psicovisual:</translation>
+    </message>
+    <message>
+        <location line="-592"/>
+        <source>Prediction for B-frames:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Weighted Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Intra Prediction</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Rectangular Motion Partitions</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+181"/>
+        <source>Limit References by:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>CU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Depth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+376"/>
+        <source>Rate Distortion Optimisation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Level:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Psycho-visual Strength:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+34"/>
