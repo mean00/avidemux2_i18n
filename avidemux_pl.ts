@@ -11298,7 +11298,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="unfinished">Własna</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation>Docelowa przepływność:</translation>
     </message>
@@ -11426,12 +11426,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation>Ogólne</translation>
     </message>
@@ -11611,12 +11611,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation>Kwantyzacja</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Niska jakość)</translation>
@@ -11653,12 +11653,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation>klatek</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11768,13 +11768,13 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation>Wyłączone</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation>Ważone referencje</translation>
     </message>
@@ -11846,7 +11846,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="unfinished">Kodowanie dwukierunkowe (B-frames)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation>Klatki B jako referencje:</translation>
     </message>
@@ -11861,7 +11861,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="unfinished">Bez ograniczeń (Nie kompatybilne z Blu-ray)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation>Szybki</translation>
     </message>
@@ -11871,22 +11871,22 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="unfinished">Optymalnie</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation type="unfinished">Wpływ klatek B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished">Maksymalna liczba kolejnych klatek B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation type="unfinished">Adaptacyjny wybór klatek B:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation type="unfinished">Kodowanie wewnątrzobrazowe (I-frames)</translation>
     </message>
@@ -11917,22 +11917,19 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation>Analiza</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation>Kwantyzacja Trellis:</translation>
+        <translation type="vanished">Kwantyzacja Trellis:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation>Tylko ostatni makroblok</translation>
+        <translation type="vanished">Tylko ostatni makroblok</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation>Zawsze włączona</translation>
+        <translation type="vanished">Zawsze włączona</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation type="unfinished">Szybkie pomijanie detekcji na klatkach P</translation>
     </message>
@@ -11946,7 +11943,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="vanished">Wskaźnik optymalizacji dystorsji psycho-wizualnej (RDO):</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11981,7 +11978,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

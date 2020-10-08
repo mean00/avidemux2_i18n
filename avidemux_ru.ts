@@ -11335,7 +11335,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Вручную</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Целевой битрейт</translation>
     </message>
@@ -11467,12 +11467,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation type="unfinished">Удалить</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation type="unfinished">Общий</translation>
     </message>
@@ -11652,12 +11652,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation type="unfinished">Квантизатор</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (низкое качество)</translation>
@@ -11694,12 +11694,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation type="unfinished">кадры</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Идентификатор установки параметра последовательности:</translation>
     </message>
@@ -11810,13 +11810,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation type="unfinished">Выключено</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation type="unfinished">Взвешенные ссылки</translation>
     </message>
@@ -11887,7 +11887,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">B-кадры</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation type="unfinished">B-кадры как ссылки:</translation>
     </message>
@@ -11902,7 +11902,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Нестрогая (не совместима с Blu-ray)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation type="unfinished">Быстро</translation>
     </message>
@@ -11912,22 +11912,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Оптимально</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation type="unfinished">Смещение B-кадров:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished">Максимум последовательных B-кадров:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation type="unfinished">Адаптивное определение B-кадров:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation type="unfinished">I-кадры</translation>
     </message>
@@ -11958,22 +11958,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Анализ</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation type="unfinished">Квантизация Треллиса:</translation>
+        <translation type="obsolete">Квантизация Треллиса:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation type="unfinished">Только последний макроблок</translation>
+        <translation type="obsolete">Только последний макроблок</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation type="unfinished">Всегда включено</translation>
+        <translation type="obsolete">Всегда включено</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation type="unfinished">Быстрый пропуск обнаружения P-кадров</translation>
     </message>
@@ -11987,7 +11984,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="obsolete">Оптимизация психовизуального искажения частоты</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12022,7 +12019,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

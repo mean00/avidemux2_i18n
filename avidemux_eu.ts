@@ -11251,7 +11251,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Xede Bitneurria:</translation>
     </message>
@@ -11382,12 +11382,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation type="unfinished">Ezabatu</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation type="unfinished">Orokorra</translation>
     </message>
@@ -11567,12 +11567,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation type="unfinished">Kuantizatzailea</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (Ontasun Apala)</translation>
@@ -11609,12 +11609,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation type="unfinished">frame</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sekuentzia Parametro Ezarpen Ezautzailea:</translation>
     </message>
@@ -11724,13 +11724,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation type="unfinished">Ezgaituta</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation type="unfinished">Neurritasun Xehetasunak</translation>
     </message>
@@ -11801,7 +11801,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">B-frame</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation type="unfinished">B-frameak Xehetasun bezala:</translation>
     </message>
@@ -11816,7 +11816,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Ez-zorrotza (Bluray-arekin Bateraezina)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11826,22 +11826,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Hoberen</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation type="unfinished">B-frame Bias:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished">Gehienezko B-frame Jarraian:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation type="unfinished">B-frame Erabaki Egokigarria:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation type="unfinished">I-frame</translation>
     </message>
@@ -11872,22 +11872,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Azterketa</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation type="unfinished">Trellis Kuantizazioa:</translation>
+        <translation type="obsolete">Trellis Kuantizazioa:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation type="unfinished">Amaiera Makroblokea Bakarrik</translation>
+        <translation type="obsolete">Amaiera Makroblokea Bakarrik</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation type="unfinished">Betik Eraginda</translation>
+        <translation type="obsolete">Betik Eraginda</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation type="unfinished">Atzemate Jauzi Azkarra P-frametan</translation>
     </message>
@@ -11901,7 +11898,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="obsolete">Psikoikuspen Neurri Bihurdura Hobekuntza:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11936,7 +11933,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

@@ -11704,7 +11704,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Personalizzato</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Bitrate finale:</translation>
     </message>
@@ -11831,12 +11831,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation type="unfinished">Elimina</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation type="unfinished">Generale</translation>
     </message>
@@ -12016,12 +12016,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantizzatore</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (Qualità bassa)</translation>
@@ -12058,12 +12058,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation type="unfinished">fotogrammi</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Identificatore set di parametri di sequenza:</translation>
     </message>
@@ -12173,13 +12173,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation type="unfinished">Riferimenti pesati</translation>
     </message>
@@ -12250,7 +12250,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Fotogrammi B</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation type="unfinished">Fotogrammi B come riferimento:</translation>
     </message>
@@ -12265,7 +12265,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Non rigorosa (non compatibile con Blu-ray)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation type="unfinished">Veloce</translation>
     </message>
@@ -12275,22 +12275,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Ottimale</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation type="unfinished">Bias fotogrammi B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished">Massimo numero di fotogrammi B consecutivi:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation type="unfinished">Decisione fotogrammi B adattiva:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation type="unfinished">Fotogrammi I</translation>
     </message>
@@ -12321,22 +12321,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Analisi</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation type="unfinished">Quantizzazione Trellis:</translation>
+        <translation type="obsolete">Quantizzazione Trellis:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation type="unfinished">Solo macroblocco finale</translation>
+        <translation type="obsolete">Solo macroblocco finale</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation type="unfinished">Sempre attiva</translation>
+        <translation type="obsolete">Sempre attiva</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation type="unfinished">Rilevamento sommario sui fotogrammi P</translation>
     </message>
@@ -12350,7 +12347,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="obsolete">Ottimizzazione psicovisuale distorsione bitrate:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12385,7 +12382,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

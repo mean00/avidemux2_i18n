@@ -11266,7 +11266,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>
@@ -11394,12 +11394,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -11579,12 +11579,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation>양자화기</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (낮은 품질)</translation>
@@ -11621,12 +11621,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation>프레임</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>시퀀스 매개변수 세트 식별자: </translation>
     </message>
@@ -11736,13 +11736,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation>비활성화됨</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation>가중된 참조들</translation>
     </message>
@@ -11813,7 +11813,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>B 프레임</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation>B 프레임을 참조로:</translation>
     </message>
@@ -11828,7 +11828,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>엄격하지 않음 (블루레이 비호환)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation>빠른</translation>
     </message>
@@ -11838,22 +11838,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation>최적</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation>B 프레임 편향:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation>최대 연속 B 프레임:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation>적응형 B 프레임 결정:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation>I 프레임</translation>
     </message>
@@ -11884,22 +11884,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation>분석</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation>트렐리스 Trellis 양자화:</translation>
+        <translation type="vanished">트렐리스 Trellis 양자화:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation>마지막 매크로블럭만</translation>
+        <translation type="vanished">마지막 매크로블럭만</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation>항상 켬</translation>
+        <translation type="vanished">항상 켬</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation>P 프레임에서 빠른 건너뛰기 검출</translation>
     </message>
@@ -11913,7 +11910,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">시각 심리 비율 왜곡 최적화:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11948,7 +11945,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

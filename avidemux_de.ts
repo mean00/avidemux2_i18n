@@ -11296,7 +11296,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Ziel-Bitrate:</translation>
     </message>
@@ -11428,12 +11428,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation type="unfinished">Löschen</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation type="unfinished">Allgemein</translation>
     </message>
@@ -11613,12 +11613,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantisierung</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (niedrige Qualität)</translation>
@@ -11655,12 +11655,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation type="unfinished">Bilder (I-Bilder: max. GOP beachten)</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
@@ -11770,13 +11770,13 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11843,7 +11843,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation type="unfinished">B-Bilder als Referenz zulassen [b-pyramid]:</translation>
     </message>
@@ -11858,7 +11858,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">unabhängig (nicht Blu-ray kompatibel)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11868,22 +11868,22 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">2: langsam (neuer Modus)</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation type="unfinished">Anpassung der B-Bild-Verwendungswahrscheinlichkeit (BIAS) [b-bias]:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation type="unfinished">adaptive Entscheidung zwischen P- und B-Bildern (DCT) [b-adapt]:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11914,22 +11914,19 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Analyse</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation type="unfinished">zusätzl. Trellis Quantisierung [trellis]:</translation>
+        <translation type="obsolete">zusätzl. Trellis Quantisierung [trellis]:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation type="unfinished">1: nur beim letzten Makroblock</translation>
+        <translation type="obsolete">1: nur beim letzten Makroblock</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation type="unfinished">2: immer durchführen</translation>
+        <translation type="obsolete">2: immer durchführen</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation type="unfinished">schnelle Erkennung, ob P-Bilder weggelassen werden können [fast-pskip]</translation>
     </message>
@@ -11943,7 +11940,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="obsolete">psychovisuell optimierte Abstimmung der Bitrate auf die Bildqualität [psy-rd]:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11978,7 +11975,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>

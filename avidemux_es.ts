@@ -11305,7 +11305,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Personalizado</translation>
     </message>
     <message>
-        <location line="+372"/>
+        <location line="+360"/>
         <source>Target Bitrate:</source>
         <translation>Tasa de bits objetivo:</translation>
     </message>
@@ -11437,12 +11437,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2788"/>
+        <location line="+2747"/>
         <source>Delete</source>
         <translation>Borrar</translation>
     </message>
     <message>
-        <location line="-2746"/>
+        <location line="-2705"/>
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -11622,12 +11622,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1324"/>
+        <location line="+1283"/>
         <source>Quantiser</source>
         <translation>Cuantizador</translation>
     </message>
     <message>
-        <location line="-1514"/>
+        <location line="-1473"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Calidad baja)</translation>
@@ -11664,12 +11664,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2127"/>
+        <location line="+2086"/>
         <source>frames</source>
         <translation>fotogramas</translation>
     </message>
     <message>
-        <location line="-2103"/>
+        <location line="-2062"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Identificador del conjunto de parámetros de secuencia:</translation>
     </message>
@@ -11779,13 +11779,13 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+204"/>
-        <location line="+36"/>
+        <location line="+269"/>
+        <location line="+43"/>
         <source>Disabled</source>
         <translation>Deshabilitada</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="-307"/>
         <source>Weighted References</source>
         <translation>Referencias ponderadas</translation>
     </message>
@@ -11856,7 +11856,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Fotogramas-B</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+114"/>
         <source>B-frames as References:</source>
         <translation>Fotogramas-B como referencias:</translation>
     </message>
@@ -11871,7 +11871,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>No estricto (no compatible con Blu-ray)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="-48"/>
         <source>Fast</source>
         <translation>Rápido</translation>
     </message>
@@ -11881,22 +11881,22 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Óptimo</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="-54"/>
         <source>B-frame Bias:</source>
         <translation>Sesgo de fotogramas-B:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-31"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation>Máximo de fotogramas-B consecutivos:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
         <translation>Decisión de fotograma-B adaptativo:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+89"/>
         <source>I-frames</source>
         <translation>Fotogramas-I</translation>
     </message>
@@ -11927,22 +11927,19 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Análisis</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Trellis Quantization:</source>
-        <translation>Rejilla de cuantización:</translation>
+        <translation type="vanished">Rejilla de cuantización:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Final Macroblock Only</source>
-        <translation>Solo el macrobloque final</translation>
+        <translation type="vanished">Solo el macrobloque final</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Always On</source>
-        <translation>Siempre activo</translation>
+        <translation type="vanished">Siempre activo</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation>Detección de omisión rápida en fotogramas-P</translation>
     </message>
@@ -11956,7 +11953,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation type="vanished">Optimización de la tasa de distorsión psicovisual:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-551"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11991,7 +11988,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+376"/>
+        <location line="+335"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>
