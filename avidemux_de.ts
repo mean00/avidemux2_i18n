@@ -11286,17 +11286,17 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Dieser Modus ist nicht implementiert</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+191"/>
         <source>none</source>
         <translation>Kein Tuning</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+55"/>
         <source>Custom</source>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+360"/>
+        <location line="+347"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Ziel-Bitrate:</translation>
     </message>
@@ -11332,7 +11332,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">durchschnittliche Bitrate:</translation>
     </message>
     <message>
-        <location line="+109"/>
+        <location line="+128"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11428,12 +11428,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2747"/>
+        <location line="+2765"/>
         <source>Delete</source>
         <translation type="unfinished">Löschen</translation>
     </message>
     <message>
-        <location line="-2705"/>
+        <location line="-2723"/>
         <source>General</source>
         <translation type="unfinished">Allgemein</translation>
     </message>
@@ -11613,12 +11613,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1283"/>
+        <location line="+1345"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantisierung</translation>
     </message>
     <message>
-        <location line="-1473"/>
+        <location line="-1535"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (niedrige Qualität)</translation>
@@ -11655,12 +11655,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2086"/>
+        <location line="+2104"/>
         <source>frames</source>
         <translation type="unfinished">Bilder (I-Bilder: max. GOP beachten)</translation>
     </message>
     <message>
-        <location line="-2062"/>
+        <location line="-2080"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
@@ -11764,7 +11764,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+41"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>Gewichtete Bewegungskompensierung für P-Bilder [weightp]:</translation>
     </message>
@@ -11873,7 +11873,27 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">Anpassung der B-Bild-Verwendungswahrscheinlichkeit (BIAS) [b-bias]:</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-267"/>
+        <source>Motion Partitions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Rectangular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Asymmetric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Limit Motion Partition Modes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+213"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11940,7 +11960,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="obsolete">psychovisuell optimierte Abstimmung der Bitrate auf die Bildqualität [psy-rd]:</translation>
     </message>
     <message>
-        <location line="-551"/>
+        <location line="-576"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11955,12 +11975,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Rectangular Motion Partitions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+181"/>
+        <location line="+222"/>
         <source>Limit References by:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11980,22 +11995,23 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+16"/>
+        <location line="+70"/>
         <source>Level:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="-42"/>
+        <location line="+70"/>
         <source>Psycho-visual Strength:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>Noise Reduction:</source>
-        <translation type="unfinished">Rauschfilter [nr]:</translation>
+        <translation type="obsolete">Rauschfilter [nr]:</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+32"/>
         <source>Noise Reduction Intra:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12031,12 +12047,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+10"/>
-        <location line="+818"/>
+        <location line="+774"/>
         <source>Edit</source>
         <translation type="unfinished">Bearbeiten</translation>
     </message>
     <message>
-        <location line="-771"/>
+        <location line="-727"/>
         <source>Quantiser Control</source>
         <translation type="unfinished">Quantisierungskontrolle</translation>
     </message>
@@ -12051,19 +12067,23 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">I-Bild zu P-Bild Quantisierungsverhältnis [ipratio]:</translation>
     </message>
     <message>
-        <location line="+58"/>
-        <location line="+168"/>
+        <location line="+182"/>
         <location line="+302"/>
         <source>%</source>
         <translation type="unfinished">%</translation>
     </message>
     <message>
-        <location line="-448"/>
+        <location line="-441"/>
         <source>Maximum Quantiser Step:</source>
         <translation type="unfinished">max. Quantisierungsschwankung zwischen 2 Bildern [qpframes]:</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="-303"/>
+        <source>RDO in Quantization:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+322"/>
         <source>Cb</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12078,9 +12098,8 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="unfinished">P-Bild zu B-Bild Quantisierungsverhältnis [pbratio]:</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Average Bitrate Tolerance:</source>
-        <translation type="unfinished">durchschnittl. Bitratenabweichung [ratetol]:</translation>
+        <translation type="obsolete">durchschnittl. Bitratenabweichung [ratetol]:</translation>
     </message>
     <message>
         <location line="+48"/>

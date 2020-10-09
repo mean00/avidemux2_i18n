@@ -11256,17 +11256,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>이 모드는 구현되지 않았습니다</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+189"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+191"/>
         <source>none</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+55"/>
         <source>Custom</source>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+360"/>
+        <location line="+347"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>
@@ -11302,7 +11302,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>평균 비트레이트:</translation>
     </message>
     <message>
-        <location line="+109"/>
+        <location line="+128"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -11394,12 +11394,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2747"/>
+        <location line="+2765"/>
         <source>Delete</source>
         <translation>삭제</translation>
     </message>
     <message>
-        <location line="-2705"/>
+        <location line="-2723"/>
         <source>General</source>
         <translation>일반</translation>
     </message>
@@ -11579,12 +11579,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1283"/>
+        <location line="+1345"/>
         <source>Quantiser</source>
         <translation>양자화기</translation>
     </message>
     <message>
-        <location line="-1473"/>
+        <location line="-1535"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (낮은 품질)</translation>
@@ -11621,12 +11621,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2086"/>
+        <location line="+2104"/>
         <source>frames</source>
         <translation>프레임</translation>
     </message>
     <message>
-        <location line="-2062"/>
+        <location line="-2080"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>시퀀스 매개변수 세트 식별자: </translation>
     </message>
@@ -11730,7 +11730,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>강제적인 인트라 예측</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+41"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>P 프레임에 대한 가중된 예측:</translation>
     </message>
@@ -11843,7 +11843,27 @@ If it is a system profile it will be recreated next time.</source>
         <translation>B 프레임 편향:</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-267"/>
+        <source>Motion Partitions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Rectangular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Asymmetric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Limit Motion Partition Modes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+213"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation>최대 연속 B 프레임:</translation>
     </message>
@@ -11910,7 +11930,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">시각 심리 비율 왜곡 최적화:</translation>
     </message>
     <message>
-        <location line="-551"/>
+        <location line="-576"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11925,12 +11945,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Rectangular Motion Partitions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+181"/>
+        <location line="+222"/>
         <source>Limit References by:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11950,22 +11965,23 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+16"/>
+        <location line="+70"/>
         <source>Level:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="-42"/>
+        <location line="+70"/>
         <source>Psycho-visual Strength:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
         <source>Noise Reduction:</source>
-        <translation>노이즈 리덕션:</translation>
+        <translation type="vanished">노이즈 리덕션:</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+32"/>
         <source>Noise Reduction Intra:</source>
         <translation>노이즈 리덕션 인트라:</translation>
     </message>
@@ -12001,12 +12017,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+818"/>
+        <location line="+774"/>
         <source>Edit</source>
         <translation>편집</translation>
     </message>
     <message>
-        <location line="-771"/>
+        <location line="-727"/>
         <source>Quantiser Control</source>
         <translation>양자화기 제어</translation>
     </message>
@@ -12021,19 +12037,23 @@ If it is a system profile it will be recreated next time.</source>
         <translation>I와 P 프레임 양자화기 비율:</translation>
     </message>
     <message>
-        <location line="+58"/>
-        <location line="+168"/>
+        <location line="+182"/>
         <location line="+302"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location line="-448"/>
+        <location line="-441"/>
         <source>Maximum Quantiser Step:</source>
         <translation>최대 양자화기 스텝:</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="-303"/>
+        <source>RDO in Quantization:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+322"/>
         <source>Cb</source>
         <translation>Cb</translation>
     </message>
@@ -12048,9 +12068,8 @@ If it is a system profile it will be recreated next time.</source>
         <translation>P와 B 프레임 양자화기 비율:</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Average Bitrate Tolerance:</source>
-        <translation>평균 비트레이트 허용 오차: </translation>
+        <translation type="vanished">평균 비트레이트 허용 오차: </translation>
     </message>
     <message>
         <location line="+48"/>

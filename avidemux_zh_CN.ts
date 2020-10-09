@@ -11257,17 +11257,17 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+616"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+609"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location line="-427"/>
+        <location line="-418"/>
         <source>none</source>
         <translation>无</translation>
     </message>
     <message>
-        <location line="+593"/>
+        <location line="+603"/>
         <location line="+70"/>
         <location line="+14"/>
         <source>Error</source>
@@ -11286,12 +11286,12 @@ Do you wish to continue?</source>
         <translation>保存配置文件</translation>
     </message>
     <message>
-        <location line="-182"/>
+        <location line="-201"/>
         <source>Target Video Size:</source>
         <translation>目标视频大小:</translation>
     </message>
     <message>
-        <location line="+255"/>
+        <location line="+274"/>
         <source>Do you really want to delete the </source>
         <translation>你打算删除 </translation>
     </message>
@@ -11306,17 +11306,17 @@ Do you wish to continue?</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location line="-632"/>
+        <location line="-638"/>
         <source>Custom</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location line="+612"/>
+        <location line="+618"/>
         <source>Cannot save preset</source>
         <translation>无法保存默认定</translation>
     </message>
     <message>
-        <location line="-246"/>
+        <location line="-265"/>
         <source>Quantiser:</source>
         <translation>量化值:</translation>
     </message>
@@ -11332,12 +11332,12 @@ Do you wish to continue?</source>
         <translation>kbit/s</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+241"/>
         <source>Replace the following preset ?:</source>
         <translation>要替代以下默认定?:</translation>
     </message>
     <message>
-        <location line="-243"/>
+        <location line="-262"/>
         <source>Target Bitrate:</source>
         <translation>目标比特率：</translation>
     </message>
@@ -11359,7 +11359,7 @@ Do you wish to continue?</source>
         <translation>品质:</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+275"/>
         <source>Cannot delete custom profile</source>
         <translation>不能删除自定义的配置文件</translation>
     </message>
@@ -11391,14 +11391,13 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265ConfigDialog</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+2132"/>
-        <location line="+168"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+2318"/>
         <location line="+302"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location line="-1710"/>
+        <location line="-1728"/>
         <source>0</source>
         <translation>0</translation>
     </message>
@@ -11435,12 +11434,37 @@ If it is a system profile it will be recreated next time.</source>
         <translation>7</translation>
     </message>
     <message>
-        <location line="+2165"/>
+        <location line="+346"/>
+        <source>Motion Partitions:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Rectangular</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Asymmetric</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Limit Motion Partition Modes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+600"/>
+        <source>RDO in Quantization:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1214"/>
         <source>:</source>
         <translation>:</translation>
     </message>
     <message>
-        <location line="-2160"/>
+        <location line="-2178"/>
         <source>15</source>
         <translation>15</translation>
     </message>
@@ -11450,7 +11474,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>31</translation>
     </message>
     <message>
-        <location line="+1256"/>
+        <location line="+1281"/>
         <source>Cb</source>
         <translation>Cb</translation>
     </message>
@@ -11460,7 +11484,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Cr</translation>
     </message>
     <message>
-        <location line="-1733"/>
+        <location line="-1758"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
@@ -11530,12 +11554,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <source>Rectangular Motion Partitions</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+83"/>
+        <location line="+124"/>
         <source>Loop Filter</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11565,22 +11584,24 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+16"/>
+        <location line="+70"/>
         <source>Level:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="-42"/>
+        <location line="+70"/>
         <source>Psycho-visual Strength:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+119"/>
+        <location line="+80"/>
         <source>Strong Intra Smoothing</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+933"/>
+        <location line="+889"/>
         <source>Custom:</source>
         <comment>multithreading</comment>
         <translation type="unfinished"></translation>
@@ -11621,28 +11642,28 @@ If it is a system profile it will be recreated next time.</source>
         <translation>可变比特率(VBR)</translation>
     </message>
     <message>
-        <location line="-3316"/>
+        <location line="-3334"/>
         <source>Auto</source>
         <translation>自动</translation>
     </message>
     <message>
-        <location line="+3013"/>
+        <location line="+3031"/>
         <source>Crop</source>
         <translation>剪切</translation>
     </message>
     <message>
-        <location line="-1252"/>
-        <location line="+818"/>
+        <location line="-1208"/>
+        <location line="+774"/>
         <source>Edit</source>
         <translation>编辑</translation>
     </message>
     <message>
-        <location line="-1259"/>
+        <location line="-1252"/>
         <source>Fast</source>
         <translation>快</translation>
     </message>
     <message>
-        <location line="+1817"/>
+        <location line="+1810"/>
         <source>Film</source>
         <translation>电影</translation>
     </message>
@@ -11674,12 +11695,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>BT709</translation>
     </message>
     <message>
-        <location line="-3361"/>
+        <location line="-3379"/>
         <source>Basic</source>
         <translation>基本</translation>
     </message>
     <message>
-        <location line="+1211"/>
+        <location line="+1236"/>
         <source>Frame</source>
         <translation>帧</translation>
     </message>
@@ -11689,7 +11710,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>最小 :</translation>
     </message>
     <message>
-        <location line="+1658"/>
+        <location line="+1651"/>
         <source>SECAM</source>
         <translation>SECAM顺序彩色与记忆</translation>
     </message>
@@ -11714,19 +11735,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation>比特</translation>
     </message>
     <message>
-        <location line="-1861"/>
+        <location line="-1879"/>
         <source>Coding Unit-tree Rate Control</source>
         <translation>单位码-树速率控制</translation>
     </message>
     <message>
-        <location line="+435"/>
+        <location line="+460"/>
         <location line="+269"/>
         <location line="+43"/>
         <source>Disabled</source>
         <translation>禁用</translation>
     </message>
     <message>
-        <location line="+1607"/>
+        <location line="+1600"/>
         <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
         <translation>这些设定只是建议播放设备，使用您自担风险。</translation>
     </message>
@@ -11736,7 +11757,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>VBV 缓冲容量 :</translation>
     </message>
     <message>
-        <location line="-1395"/>
+        <location line="-1388"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>P-帧的加权预测:</translation>
     </message>
@@ -11746,7 +11767,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>最大量化步骤:</translation>
     </message>
     <message>
-        <location line="+526"/>
+        <location line="+519"/>
         <source>Maximum Size per Slice:</source>
         <translation>切割每帧最大容量:</translation>
     </message>
@@ -11756,17 +11777,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>可变 AQ:</translation>
     </message>
     <message>
-        <location line="-1745"/>
+        <location line="-1763"/>
         <source>Advanced Rate Control</source>
         <translation>高级速率控制(RC)</translation>
     </message>
     <message>
-        <location line="+2589"/>
+        <location line="+2607"/>
         <source>Video Format:</source>
         <translation>视频格式:</translation>
     </message>
     <message>
-        <location line="-2094"/>
+        <location line="-2112"/>
         <source>Motion Vector</source>
         <translation>向量运动</translation>
     </message>
@@ -11776,17 +11797,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>恒定量化器(QP)(1通)</translation>
     </message>
     <message>
-        <location line="+1671"/>
+        <location line="+1733"/>
         <source>I and P-frame Quantiser Ratio:</source>
         <translation>P:I , P-帧量化率:</translation>
     </message>
     <message>
-        <location line="+834"/>
+        <location line="+790"/>
         <source>Enforce Repeatability</source>
         <translation>强制回放</translation>
     </message>
     <message>
-        <location line="-690"/>
+        <location line="-683"/>
         <source>P and B-frame Quantiser Ratio:</source>
         <translation>B:P , B-帧量化率:</translation>
     </message>
@@ -11801,7 +11822,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>B-帧偏移：</translation>
     </message>
     <message>
-        <location line="-504"/>
+        <location line="-529"/>
         <source>Hexagonal Search</source>
         <translation>六角形搜寻</translation>
     </message>
@@ -11826,22 +11847,21 @@ If it is a system profile it will be recreated next time.</source>
         <translation>1 (快)</translation>
     </message>
     <message>
-        <location line="+805"/>
         <source>Noise Reduction:</source>
-        <translation>降噪声:</translation>
+        <translation type="vanished">降噪声:</translation>
     </message>
     <message>
-        <location line="-261"/>
+        <location line="+569"/>
         <source>Non-strict (Not Blu-ray Compatible)</source>
         <translation>非严格（不与Blu-ray蓝光相容）</translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+477"/>
         <source>Quantiser Control</source>
         <translation>量化控制</translation>
     </message>
     <message>
-        <location line="-788"/>
+        <location line="-850"/>
         <source>Constrained Intra Prediction</source>
         <translation>约束内部预测</translation>
     </message>
@@ -11851,12 +11871,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>平均比特率(ABR)(2通)</translation>
     </message>
     <message>
-        <location line="+1855"/>
+        <location line="+1873"/>
         <source>Quantiser Curve Compression</source>
         <translation>量化曲线压缩(QCComp)</translation>
     </message>
     <message>
-        <location line="-655"/>
+        <location line="-648"/>
         <source>I-frames</source>
         <translation>I-帧(内帧,前帧)</translation>
     </message>
@@ -11866,12 +11886,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>B-帧 (介于前I帧与后P帧间连续预测帧，例如: IBBBPBBBPBBBPBBBIBBBP....)</translation>
     </message>
     <message>
-        <location line="+1401"/>
+        <location line="+1394"/>
         <source>Auto-detect</source>
         <translation>自动侦测</translation>
     </message>
     <message>
-        <location line="-1330"/>
+        <location line="-1323"/>
         <source>Adaptive B-frame Decision:</source>
         <translation>自适应 B 帧的决定：</translation>
     </message>
@@ -11885,7 +11905,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">网格量化:</translation>
     </message>
     <message>
-        <location line="+963"/>
+        <location line="+956"/>
         <source>Reduce Fluctuation Before Curve Compression:</source>
         <translation>减少波动曲线压缩之前：</translation>
     </message>
@@ -11901,24 +11921,24 @@ If it is a system profile it will be recreated next time.</source>
         <translation>BT470M</translation>
     </message>
     <message>
-        <location line="-1651"/>
+        <location line="-1644"/>
         <location line="+6"/>
         <source>Analysis</source>
         <translation>分析</translation>
     </message>
     <message>
-        <location line="-1082"/>
+        <location line="-1107"/>
         <source>Maximum Constant Rate Factor</source>
         <translation>最大恒定速率系数(CRF)</translation>
     </message>
     <message>
-        <location line="+2167"/>
+        <location line="+2185"/>
         <source>Multithreading</source>
         <translation>多线程</translation>
     </message>
     <message>
-        <location line="-2781"/>
-        <location line="+2747"/>
+        <location line="-2799"/>
+        <location line="+2765"/>
         <source>Delete</source>
         <translation>删除</translation>
     </message>
@@ -11928,7 +11948,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>预定义PAR:</translation>
     </message>
     <message>
-        <location line="-2111"/>
+        <location line="-2129"/>
         <source>Uneven Multi-hexagonal Search</source>
         <translation>六边形搜索</translation>
     </message>
@@ -11938,12 +11958,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>高级速率控制(RC)</translation>
     </message>
     <message>
-        <location line="+615"/>
+        <location line="+640"/>
         <source>Weighted References + Duplicates</source>
         <translation>加权参考 + 重复项</translation>
     </message>
     <message>
-        <location line="+2139"/>
+        <location line="+2132"/>
         <source>LOG100</source>
         <translation>LOG100</translation>
     </message>
@@ -11953,32 +11973,32 @@ If it is a system profile it will be recreated next time.</source>
         <translation>LOG316</translation>
     </message>
     <message>
-        <location line="-1384"/>
+        <location line="-1340"/>
         <source>Chroma to Luma Quantiser Offset:</source>
         <translation>从色度明度量化偏移量:</translation>
     </message>
     <message>
-        <location line="-1849"/>
+        <location line="-1911"/>
         <source>IDC Level:</source>
         <translation>IDC等级 :</translation>
     </message>
     <message>
-        <location line="+3223"/>
+        <location line="+3241"/>
         <source>Linear</source>
         <translation>线性</translation>
     </message>
     <message>
-        <location line="-1448"/>
+        <location line="-1404"/>
         <source>JVT Matrix</source>
         <translation>JVT 矩阵</translation>
     </message>
     <message>
-        <location line="-1007"/>
+        <location line="-1069"/>
         <source>Motion</source>
         <translation>运动</translation>
     </message>
     <message>
-        <location line="+2064"/>
+        <location line="+2082"/>
         <source>As Input</source>
         <translation>另输出为其他输入档(保留原始视频的PAR)</translation>
     </message>
@@ -11998,12 +12018,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>输出</translation>
     </message>
     <message>
-        <location line="-1033"/>
+        <location line="-989"/>
         <source>Flat Matrix</source>
         <translation>平面矩阵</translation>
     </message>
     <message>
-        <location line="+1400"/>
+        <location line="+1356"/>
         <location line="+78"/>
         <location line="+58"/>
         <source>SMPTE240M</source>
@@ -12021,23 +12041,23 @@ If it is a system profile it will be recreated next time.</source>
         <translation>HRD 参数：</translation>
     </message>
     <message>
-        <location line="-3018"/>
+        <location line="-3036"/>
         <location line="+213"/>
         <source>0 (High Quality)</source>
         <translation>0 (高质量)</translation>
     </message>
     <message>
-        <location line="+852"/>
+        <location line="+877"/>
         <source>B-frames as References:</source>
         <translation>B帧作为参考:</translation>
     </message>
     <message>
-        <location line="+1885"/>
+        <location line="+1878"/>
         <source>Colour Matrix:</source>
         <translation>颜色矩阵：</translation>
     </message>
     <message>
-        <location line="-3059"/>
+        <location line="-3077"/>
         <source>Constant Bitrate (Single Pass)</source>
         <translation>固定比特率(CBR)(1通)</translation>
     </message>
@@ -12047,12 +12067,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>开始搜寻</translation>
     </message>
     <message>
-        <location line="+2600"/>
+        <location line="+2618"/>
         <source>Full Range Samples</source>
         <translation>全范围色度样品</translation>
     </message>
     <message>
-        <location line="-1653"/>
+        <location line="-1609"/>
         <source>Quantisation Matrix</source>
         <translation>量化矩阵</translation>
     </message>
@@ -12067,19 +12087,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation>在之间减少噪声：</translation>
     </message>
     <message>
-        <location line="-1351"/>
+        <location line="-1413"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (低品质)</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+808"/>
         <source>Optimal</source>
         <translation>优化</translation>
     </message>
     <message>
-        <location line="-691"/>
-        <location line="+2086"/>
+        <location line="-716"/>
+        <location line="+2104"/>
         <source>frames</source>
         <translation>帧</translation>
     </message>
@@ -12088,7 +12108,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">最终的宏块(更快，中等质量)</translation>
     </message>
     <message>
-        <location line="-2608"/>
+        <location line="-2626"/>
         <source>Frame Threads </source>
         <translation>帧线程 </translation>
     </message>
@@ -12097,7 +12117,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">B-帧的加权预测</translation>
     </message>
     <message>
-        <location line="+2098"/>
+        <location line="+2116"/>
         <source>Auto Variance AQ</source>
         <translation>自动变量 AQ</translation>
     </message>
@@ -12119,17 +12139,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>BT470BG</translation>
     </message>
     <message>
-        <location line="-3349"/>
+        <location line="-3367"/>
         <source>Preset:</source>
         <translation>默认定:</translation>
     </message>
     <message>
-        <location line="+2872"/>
+        <location line="+2890"/>
         <source>Pixel Aspect Ratio</source>
         <translation>像素宽高比(PAR)-(不同于外观比的显示宽高比(DAR))</translation>
     </message>
     <message>
-        <location line="-1240"/>
+        <location line="-1233"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation>快速跳过检测 P-帧 (场景中如有虚影时按取消)</translation>
     </message>
@@ -12138,7 +12158,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">正常模式</translation>
     </message>
     <message>
-        <location line="+760"/>
+        <location line="+753"/>
         <source>Advanced 1</source>
         <translation>高级 : 1</translation>
     </message>
@@ -12148,14 +12168,14 @@ If it is a system profile it will be recreated next time.</source>
         <translation>高级 2</translation>
     </message>
     <message>
-        <location line="-2308"/>
+        <location line="-2326"/>
         <location line="+213"/>
-        <location line="+1283"/>
+        <location line="+1345"/>
         <source>Quantiser</source>
         <translation>量化器</translation>
     </message>
     <message>
-        <location line="+1403"/>
+        <location line="+1359"/>
         <source>SMPTEL170M</source>
         <translation>SMPTEL170M</translation>
     </message>
@@ -12165,12 +12185,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>16:15 (PAL 4:3)</translation>
     </message>
     <message>
-        <location line="-2238"/>
+        <location line="-2256"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>序列参数集的标识符：</translation>
     </message>
     <message>
-        <location line="+1578"/>
+        <location line="+1596"/>
         <source>Strength:</source>
         <translation>强度 :</translation>
     </message>
@@ -12180,17 +12200,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>切割每帧:</translation>
     </message>
     <message>
-        <location line="-2347"/>
+        <location line="-2365"/>
         <source>Pool Threads </source>
         <translation>共享线程 </translation>
     </message>
     <message>
-        <location line="+1342"/>
+        <location line="+1367"/>
         <source>Maximum:</source>
         <translation>最大 :</translation>
     </message>
     <message>
-        <location line="+613"/>
+        <location line="+606"/>
         <source>Quantiser Curve Compression:</source>
         <translation>量化曲线压缩(QCComp):</translation>
     </message>
@@ -12200,17 +12220,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>64:45 (PAL 16:9)</translation>
     </message>
     <message>
-        <location line="-2999"/>
+        <location line="-3017"/>
         <source>Profile:</source>
         <translation>配置文件:</translation>
     </message>
     <message>
-        <location line="+1224"/>
+        <location line="+1249"/>
         <source>Interlaced:</source>
         <translation>纯交错模式:</translation>
     </message>
     <message>
-        <location line="-344"/>
+        <location line="-369"/>
         <source>Exhaustive Search</source>
         <translation>Hadamard彻底搜寻（TESA）</translation>
     </message>
@@ -12229,37 +12249,37 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">循环或循环过滤器：</translation>
     </message>
     <message>
-        <location line="+197"/>
+        <location line="+222"/>
         <source>Maximum Reference Frames:</source>
         <translation>最大参考帧数:</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-437"/>
         <source>Diamond Search</source>
         <translation>菱形搜寻</translation>
     </message>
     <message>
-        <location line="+1681"/>
+        <location line="+1699"/>
         <source>Slicing</source>
         <translation>切割</translation>
     </message>
     <message>
-        <location line="-2652"/>
+        <location line="-2670"/>
         <source>x265 Configuraton</source>
         <translation>x265 配置</translation>
     </message>
     <message>
-        <location line="+1260"/>
+        <location line="+1285"/>
         <source>Weighted References</source>
         <translation>加权参考</translation>
     </message>
     <message>
-        <location line="-310"/>
+        <location line="-335"/>
         <source>Motion Estimation</source>
         <translation>运动估计</translation>
     </message>
     <message>
-        <location line="+1572"/>
+        <location line="+1590"/>
         <source>Video Buffer Verifier</source>
         <translation>视频缓冲验证器(VBV)</translation>
     </message>
@@ -12278,33 +12298,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation>8:9 (NTSC 4:3)</translation>
     </message>
     <message>
-        <location line="-1917"/>
+        <location line="-1935"/>
         <source>Prediction</source>
         <translation>预测</translation>
     </message>
     <message>
-        <location line="+1639"/>
+        <location line="+1657"/>
         <source>Disable</source>
         <translation>禁用</translation>
     </message>
     <message>
-        <location line="-1152"/>
+        <location line="-1145"/>
         <source>I-frame Threshold:</source>
         <translation>I-帧线程:</translation>
     </message>
     <message>
-        <location line="+1313"/>
+        <location line="+1306"/>
         <source>Custom:</source>
         <comment>PAR</comment>
         <translation>自定义:</translation>
     </message>
     <message>
-        <location line="-1241"/>
+        <location line="-1234"/>
         <source>DCT Decimation on P-frames</source>
         <translation>DCT 抽取对P帧</translation>
     </message>
     <message>
-        <location line="-1588"/>
+        <location line="-1613"/>
         <source>Tuning:</source>
         <translation>调音:</translation>
     </message>
@@ -12328,7 +12348,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">开启 GOP(图像群组):</translation>
     </message>
     <message>
-        <location line="+1211"/>
+        <location line="+1236"/>
         <source>Frame Encoding</source>
         <translation>帧编码</translation>
     </message>
@@ -12337,17 +12357,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Blu-ray 模式</translation>
     </message>
     <message>
-        <location line="+1807"/>
+        <location line="+1800"/>
         <source>32:27 (NTSC 16:9)</source>
         <translation>2:27 (NTSC 16:9)</translation>
     </message>
     <message>
-        <location line="-1671"/>
+        <location line="-1664"/>
         <source>Maximum Consecutive B-frames:</source>
         <translation>最大连续 B-帧：</translation>
     </message>
     <message>
-        <location line="+1753"/>
+        <location line="+1746"/>
         <source>Overscan:</source>
         <translation>过度扫描:</translation>
     </message>
@@ -12371,52 +12391,51 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">始终在(缓慢，质量最好)</translation>
     </message>
     <message>
-        <location line="-1040"/>
+        <location line="-1033"/>
         <source>Bottom Field First</source>
         <translation>底部首先扫描</translation>
     </message>
     <message>
-        <location line="-1263"/>
+        <location line="-1288"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
     <message>
-        <location line="+2819"/>
+        <location line="+2837"/>
         <source>Custom Threaded Lookahead Buffer:</source>
         <translation>自定义线程预测先行缓冲区：</translation>
     </message>
     <message>
-        <location line="-2560"/>
+        <location line="-2578"/>
         <source>Rate Control</source>
         <translation>速率控制</translation>
     </message>
     <message>
-        <location line="+2181"/>
+        <location line="+2199"/>
         <source>Maximum VBV Bitrate:</source>
         <translation>最大 VBV 比特率 :</translation>
     </message>
     <message>
-        <location line="-2104"/>
+        <location line="-2122"/>
         <source>Encoding Mode:</source>
         <translation>编码模式:</translation>
     </message>
     <message>
-        <location line="+1146"/>
+        <location line="+1171"/>
         <source>Strictly Hierarchical Pyramid</source>
         <translation>金字塔严格的等级制度</translation>
     </message>
     <message>
-        <location line="+1328"/>
+        <location line="+1321"/>
         <source>Slice-based Threading</source>
         <translation>切割基本线程</translation>
     </message>
     <message>
-        <location line="-690"/>
         <source>Average Bitrate Tolerance:</source>
-        <translation>平均比特率误差(ABR):</translation>
+        <translation type="vanished">平均比特率误差(ABR):</translation>
     </message>
     <message>
-        <location line="-2186"/>
+        <location line="-2894"/>
         <source>Configuration:</source>
         <translation>配置:</translation>
     </message>
@@ -12426,7 +12445,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>次像素精细化(次ME)</translation>
     </message>
     <message>
-        <location line="+2316"/>
+        <location line="+2334"/>
         <source>Transfer Characteristics:</source>
         <translation>转移特性：</translation>
     </message>
@@ -12440,7 +12459,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>视频可用性信息</translation>
     </message>
     <message>
-        <location line="-2775"/>
+        <location line="-2793"/>
         <source>Constant Rate Factor (Single Pass)</source>
         <translation>恒定速率系数(CRF)(1通)</translation>
     </message>
@@ -12450,7 +12469,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>帧类型预测先行:</translation>
     </message>
     <message>
-        <location line="+2477"/>
+        <location line="+2495"/>
         <source>Colour Primaries:</source>
         <translation>基色 :</translation>
     </message>
@@ -12465,7 +12484,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>减少波动曲线压缩之后：</translation>
     </message>
     <message>
-        <location line="-421"/>
+        <location line="-377"/>
         <source>Custom Matrix</source>
         <translation>自定义矩阵</translation>
     </message>
