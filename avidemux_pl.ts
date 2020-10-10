@@ -11276,7 +11276,7 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+227"/>
         <source>Not coded</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11288,17 +11288,22 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>none</source>
         <translation>brak</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+67"/>
         <source>Custom</source>
         <translation type="unfinished">Własna</translation>
     </message>
     <message>
-        <location line="+347"/>
+        <location line="+423"/>
         <source>Target Bitrate:</source>
         <translation>Docelowa przepływność:</translation>
     </message>
@@ -11426,12 +11431,12 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2765"/>
+        <location line="+2724"/>
         <source>Delete</source>
         <translation>Usuń</translation>
     </message>
     <message>
-        <location line="-2723"/>
+        <location line="-2682"/>
         <source>General</source>
         <translation>Ogólne</translation>
     </message>
@@ -11466,96 +11471,85 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
         <translation>Poziom IDC:</translation>
     </message>
     <message>
-        <location line="+33"/>
         <source>Auto</source>
-        <translation>Automatycznie</translation>
+        <translation type="vanished">Automatycznie</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+668"/>
+        <location line="+665"/>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <location line="-663"/>
         <source>1.1</source>
-        <translation>1.1</translation>
+        <translation type="vanished">1.1</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>1.2</source>
-        <translation>1.2</translation>
+        <translation type="vanished">1.2</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>1.3</source>
-        <translation>1.3</translation>
+        <translation type="vanished">1.3</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>2</source>
-        <translation>2</translation>
+        <translation type="vanished">2</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>2.1</source>
-        <translation>2.1</translation>
+        <translation type="vanished">2.1</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>2.2</source>
-        <translation>2.2</translation>
+        <translation type="vanished">2.2</translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+638"/>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <location line="-633"/>
         <source>3.1</source>
-        <translation>3.1</translation>
+        <translation type="vanished">3.1</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>3.2</source>
-        <translation>3.2</translation>
+        <translation type="vanished">3.2</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>4</source>
-        <translation>4</translation>
+        <translation type="vanished">4</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>4.1</source>
-        <translation>4.1</translation>
+        <translation type="vanished">4.1</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>4.2</source>
-        <translation>4.2</translation>
+        <translation type="vanished">4.2</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>5</source>
-        <translation>5</translation>
+        <translation type="vanished">5</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>5.1</source>
-        <translation>5.1</translation>
+        <translation type="vanished">5.1</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="-619"/>
         <source>Pool Threads </source>
         <translation type="unfinished">Pula wątków:</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+26"/>
         <source>Frame Threads </source>
         <translation type="unfinished">Wątki klatek:</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>Output Bit Depth:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+28"/>

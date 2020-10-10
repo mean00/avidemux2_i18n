@@ -11313,7 +11313,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+170"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+227"/>
         <source>Not coded</source>
         <translation type="unfinished">Не разработано</translation>
     </message>
@@ -11325,17 +11325,22 @@ If it is a system profile it will be recreated next time.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <source>Auto</source>
+        <translation>Автоматически</translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>none</source>
         <translation type="unfinished">нет</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+67"/>
         <source>Custom</source>
         <translation type="unfinished">Вручную</translation>
     </message>
     <message>
-        <location line="+347"/>
+        <location line="+423"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Целевой битрейт</translation>
     </message>
@@ -11467,12 +11472,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2765"/>
+        <location line="+2724"/>
         <source>Delete</source>
         <translation type="unfinished">Удалить</translation>
     </message>
     <message>
-        <location line="-2723"/>
+        <location line="-2682"/>
         <source>General</source>
         <translation type="unfinished">Общий</translation>
     </message>
@@ -11507,96 +11512,33 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Уровень IDC:</translation>
     </message>
     <message>
-        <location line="+33"/>
         <source>Auto</source>
-        <translation type="unfinished">Автоматически</translation>
+        <translation type="obsolete">Автоматически</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location line="+668"/>
+        <location line="+665"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-663"/>
-        <source>1.1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location line="+5"/>
-        <source>1.2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>1.3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>2.1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>2.2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <location line="+638"/>
         <source>3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-633"/>
-        <source>3.1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>3.2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>4.1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>4.2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>5</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>5.1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+27"/>
+        <location line="-619"/>
         <source>Pool Threads </source>
         <translation type="unfinished">Потоки пула</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+26"/>
         <source>Frame Threads </source>
         <translation type="unfinished">Потоки кадров</translation>
+    </message>
+    <message>
+        <location line="+27"/>
+        <source>Output Bit Depth:</source>
+        <translation>Глубина цвета на выходе:</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -11742,27 +11684,27 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+13"/>
         <source>Diamond Search</source>
-        <translation type="unfinished">Алмазный поиск</translation>
+        <translation>Ромбовидный поиск</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Hexagonal Search</source>
-        <translation type="unfinished">Гексагональный поиск</translation>
+        <translation>Гексагональный поиск</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Uneven Multi-hexagonal Search</source>
-        <translation type="unfinished">Нечеткий мультигексагональный поиск</translation>
+        <translation type="unfinished">Неравномерный мультигексагональный поиск</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Star Search</source>
-        <translation type="unfinished">Начать поиск</translation>
+        <translation>Звездообразный поиск</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Exhaustive Search</source>
-        <translation type="unfinished">Расширенный поиск</translation>
+        <translation>Исчерпывающий поиск</translation>
     </message>
     <message>
         <location line="+42"/>
