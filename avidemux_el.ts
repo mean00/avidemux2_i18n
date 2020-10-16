@@ -11370,22 +11370,27 @@ If it is a system profile it will be recreated next time.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation>κανένα</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation>Προσαρμοσμένο</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
         <translation>Δυφιορυθμός προορισμού:</translation>
     </message>
@@ -11442,8 +11447,8 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
@@ -11458,7 +11463,7 @@ Do you wish to continue?</source>
         <translation>Αποθήκευση του προφίλ</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
         <translation>Αντικατάσταση</translation>
     </message>
@@ -11468,12 +11473,12 @@ Do you wish to continue?</source>
         <translation>Να αντικατασταθεί η ακόλουθη προρύθμιση; :</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
         <translation>Αδυναμία αποθήκευσης της προρύθμισης</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
         <translation>Αδυναμία διαγραφής του προσαρμοσμένου προφίλ</translation>
     </message>

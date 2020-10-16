@@ -11288,22 +11288,27 @@ Jeśli jest to profil systemowy, zostanie odtworzony następnym razem.</translat
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation>brak</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation type="unfinished">Własna</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
         <translation>Docelowa przepływność:</translation>
     </message>
@@ -11354,8 +11359,8 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
@@ -11370,7 +11375,7 @@ Do you wish to continue?</source>
         <translation>Zapisz profil</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
         <translation>Zastąp</translation>
     </message>
@@ -11380,12 +11385,12 @@ Do you wish to continue?</source>
         <translation>Zastąpić następujące ustawienie?:</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
         <translation>Nie można zapisać ustawień</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
         <translation>Nie można usunąć własnego profilu</translation>
     </message>

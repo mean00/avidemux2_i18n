@@ -11267,19 +11267,19 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+716"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+628"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location line="-506"/>
+        <location line="-412"/>
         <source>none</source>
         <translation>無</translation>
     </message>
     <message>
-        <location line="+691"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+597"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
@@ -11316,17 +11316,17 @@ Do you wish to continue?</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location line="-714"/>
+        <location line="-618"/>
         <source>Custom</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location line="+694"/>
+        <location line="+595"/>
         <source>Cannot save preset</source>
         <translation>無法儲存預設定</translation>
     </message>
     <message>
-        <location line="-265"/>
+        <location line="-262"/>
         <source>Quantiser:</source>
         <translation>量化值:</translation>
     </message>
@@ -11342,12 +11342,12 @@ Do you wish to continue?</source>
         <translation>kbit/s</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+242"/>
         <source>Replace the following preset ?:</source>
         <translation>要替代以下預設定?:</translation>
     </message>
     <message>
-        <location line="-262"/>
+        <location line="-263"/>
         <source>Target Bitrate:</source>
         <translation>目標位元率：</translation>
     </message>
@@ -11374,17 +11374,22 @@ Do you wish to continue?</source>
         <translation>不能刪除自訂的設定檔</translation>
     </message>
     <message>
-        <location line="-23"/>
+        <location line="-22"/>
         <source>Overwrite</source>
         <translation>複寫</translation>
     </message>
     <message>
-        <location line="-795"/>
+        <location line="-660"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+681"/>
+        <location line="+2"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+543"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>

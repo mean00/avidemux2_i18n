@@ -11694,22 +11694,27 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation type="unfinished">Personalizzato</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Bitrate finale:</translation>
     </message>
@@ -11760,8 +11765,8 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation type="unfinished">Errore</translation>
     </message>
@@ -11776,7 +11781,7 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11786,12 +11791,12 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
         <translation type="unfinished"></translation>
     </message>

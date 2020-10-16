@@ -11277,141 +11277,146 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+227"/>
         <source>Not coded</source>
-        <translation type="unfinished">Nicht verfügbar</translation>
+        <translation>Nicht verfügbar</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>this mode has not been implemented
 </source>
-        <translation type="unfinished">Dieser Modus ist nicht implementiert</translation>
+        <translation>Dieser Modus ist nicht implementiert</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation>Kein Tuning</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation>Vorgabe</translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
-        <translation type="unfinished">Ziel-Bitrate:</translation>
+        <translation>Ziel-Bitrate:</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+20"/>
         <source>kbit/s</source>
-        <translation type="unfinished">kbit/s</translation>
+        <translation>kbit/s</translation>
     </message>
     <message>
         <location line="-15"/>
         <source>Quantiser:</source>
-        <translation type="unfinished">Quantisierung:</translation>
+        <translation>Quantisierung:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Quality:</source>
-        <translation type="unfinished">Qualität:</translation>
+        <translation>Qualität:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Target Video Size:</source>
-        <translation type="unfinished">Ziel-Videogröße:</translation>
+        <translation>Ziel-Videogröße:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>MB</source>
-        <translation type="unfinished">MB</translation>
+        <translation>MB</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Average Bitrate:</source>
-        <translation type="unfinished">durchschnittliche Bitrate:</translation>
+        <translation>Durchschnittliche Bitrate:</translation>
     </message>
     <message>
         <location line="+128"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
-        <translation type="unfinished">Die Makroblock-Tree Optimierung benötigt den Algorithmus zur adaptiven Quantisierung (VAQ). VAQ wird daher jetzt zugeschaltet.
+        <translation>Die Makroblock-Tree Optimierung benötigt den Algorithmus zur adaptiven Quantisierung (VAQ). VAQ wird daher jetzt zugeschaltet.
 
-Möchten Sie fortfahren?</translation>
+Fortfahren?</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Macroblock-Tree optimisation will automatically be disabled.
 
 Do you wish to continue?</source>
-        <translation type="unfinished">VAQ ist für die Makroblock-Tree Optimierung erforderlich. MB-Tree wird daher auch abgeschaltet.
-        
-Möchten Sie fortfahren?</translation>
+        <translation>VAQ ist für die Makroblock-Tree Optimierung erforderlich. MB-Tree wird daher auch abgeschaltet.
+
+Fortfahren?</translation>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
-        <translation type="unfinished">Fehler</translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location line="-84"/>
         <source>Cannot load preset</source>
-        <translation type="unfinished">Kann Konfiguration nicht laden</translation>
+        <translation>Kann Konfiguration nicht laden</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Save Profile</source>
-        <translation type="unfinished">Konfiguration speichern</translation>
+        <translation>Konfiguration speichern</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
-        <translation type="unfinished">Überschreiben</translation>
+        <translation>Überschreiben</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Replace the following preset ?:</source>
-        <translation type="unfinished">Folgende Konfiguration ersetzen?</translation>
+        <translation>Folgende Konfiguration ersetzen?</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
-        <translation type="unfinished">Kann die Konfiguration nicht speichern</translation>
+        <translation>Kann die Konfiguration nicht speichern</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
-        <translation type="unfinished">Kann benutzerdefinierte Konfiguration nicht löschen</translation>
+        <translation>Der Eintrag für benutzerdefinierte Konfiguration ist nicht löschbar</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Do you really want to delete the </source>
-        <translation type="unfinished">Wollen Sie die Konfiguration </translation>
+        <translation>Wollen Sie die Konfiguration </translation>
     </message>
     <message>
         <location line="+1"/>
         <source> profile ?.
 If it is a system profile it will be recreated next time.</source>
-        <translation type="unfinished"> wirklich löschen?
+        <translation> wirklich löschen?
 Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwendung wieder erstellt.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Delete preset</source>
-        <translation type="unfinished">Konfiguration löschen</translation>
+        <translation>Konfiguration löschen</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Delete</source>
-        <translation type="unfinished">Löschen</translation>
+        <translation>Löschen</translation>
     </message>
 </context>
 <context>
@@ -11424,28 +11429,28 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+24"/>
         <source>Configuration:</source>
-        <translation type="unfinished">Konfiguration:</translation>
+        <translation>Konfiguration:</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Save As</source>
-        <translation type="unfinished">Speichern als</translation>
+        <translation>Speichern als</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+2724"/>
         <source>Delete</source>
-        <translation type="unfinished">Löschen</translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <location line="-2682"/>
         <source>General</source>
-        <translation type="unfinished">Allgemein</translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Basic</source>
-        <translation type="unfinished">Grundlegend</translation>
+        <translation>Grundlegend</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -11556,7 +11561,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+28"/>
         <source>Rate Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitratensteuerung</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -11591,7 +11596,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+23"/>
         <source>Encoding Mode:</source>
-        <translation type="unfinished">Kodiermodus:</translation>
+        <translation>Modus:</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -11889,32 +11894,32 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+213"/>
         <source>Maximum Consecutive B-frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Max. Anzahl aufeinanderfolgender B-Frames:</translation>
     </message>
     <message>
         <location line="+65"/>
         <source>Adaptive B-frame Decision:</source>
-        <translation type="unfinished">adaptive Entscheidung zwischen P- und B-Bildern (DCT) [b-adapt]:</translation>
+        <translation>Adaptive Wahl zwischen P- und B-Frames (DCT) [b-adapt]:</translation>
     </message>
     <message>
         <location line="+89"/>
         <source>I-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>I-Frames</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>GOP Size:</source>
-        <translation type="unfinished">GOP Größe (Bildanzahl zwischen zwei Vollbildern) [keyint]:</translation>
+        <translation>GOP-Länge (Anzahl von Frames bis zum nächsten Keyframe) [keyint]:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Minimum:</source>
-        <translation type="unfinished">mindestens:</translation>
+        <translation>Min.:</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Maximum:</source>
-        <translation type="unfinished">höchstens:</translation>
+        <translation>Max.:</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -11942,12 +11947,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+6"/>
         <source>Fast Skip Detection on P-frames</source>
-        <translation type="unfinished">schnelle Erkennung, ob P-Bilder weggelassen werden können [fast-pskip]</translation>
+        <translation>Schnell erkennen, ob P-Frames weggelassen werden können [fast-pskip]</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>DCT Decimation on P-frames</source>
-        <translation type="unfinished">DCT-Abschwächung bei P-Bildern, unnötige DCT-Makroblöcke werden verworfen [dct-decimate]</translation>
+        <translation>DCT-Makroblöcke bei P-Frames reduzieren [dct-decimate]</translation>
     </message>
     <message>
         <source>Psychovisual Rate Distortion Optimisation:</source>

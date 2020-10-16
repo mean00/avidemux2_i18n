@@ -11331,22 +11331,27 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation>nie je</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation>Vlastné</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
         <translation>Cieľová prenosová rýchlosť:</translation>
     </message>
@@ -11401,8 +11406,8 @@ Chcete pokračovat?</translation>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
@@ -11417,7 +11422,7 @@ Chcete pokračovat?</translation>
         <translation>Uložiť profil</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
         <translation>Prepísať</translation>
     </message>
@@ -11427,12 +11432,12 @@ Chcete pokračovat?</translation>
         <translation>Nahradiť nasledujúcu predvoľbu?:</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
         <translation>Nemožno uložiť predvoľbu</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
         <translation>Nemožno odstrániť vlastný profil</translation>
     </message>

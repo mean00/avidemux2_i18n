@@ -11256,22 +11256,27 @@ If it is a system profile it will be recreated next time.</source>
         <translation>이 모드는 구현되지 않았습니다</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+1"/>
         <source>none</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+1"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+68"/>
         <source>Custom</source>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+423"/>
+        <location line="+327"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>
@@ -11322,8 +11327,8 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location line="+41"/>
-        <location line="+70"/>
-        <location line="+14"/>
+        <location line="+67"/>
+        <location line="+17"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
@@ -11338,7 +11343,7 @@ Do you wish to continue?</source>
         <translation>프로파일 저장</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Overwrite</source>
         <translation>덮어쓰기</translation>
     </message>
@@ -11348,12 +11353,12 @@ Do you wish to continue?</source>
         <translation>다음 프리셋을 바꿀까요?</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+5"/>
         <source>Cannot save preset</source>
         <translation>프리셋을 저장할 수 없습니다</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+17"/>
         <source>Cannot delete custom profile</source>
         <translation>사용자 정의 프로파일을 삭제할 수 없습니다</translation>
     </message>
