@@ -561,6 +561,8 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoEncoder/huff/huff_encoder.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4_encoder.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/ADM_xvid4.h \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder.h \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ffVAEnc_HEVC.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/directVaEnc/ADM_libVaEncodingContextH264.h \ 
@@ -1493,6 +1495,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4_encoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/ADM_xvid4.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4Dialog.cpp \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder_json.cpp \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder.conf \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp \ 
+../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideoEncPlugin.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ffVAEncHEVC_plugin.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ffVAEnc_HEVC_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVaHEVC/ADM_ffVAEncHEVC.cpp \ 

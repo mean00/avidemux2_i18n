@@ -8007,18 +8007,18 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+128"/>
-        <location line="+106"/>
+        <location line="+116"/>
         <source> files (*.</source>
         <translation>файли (*.</translation>
     </message>
     <message>
-        <location line="-189"/>
-        <location line="+142"/>
+        <location line="-199"/>
+        <location line="+152"/>
         <source>All files (*.*)</source>
         <translation>Всі файли (*.*)</translation>
     </message>
     <message>
-        <location line="-35"/>
+        <location line="-36"/>
         <source>Overwrite file </source>
         <translation>Перезаписати файл </translation>
     </message>
@@ -8026,7 +8026,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2112"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2147"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
@@ -9556,6 +9556,34 @@ The file must be re-indexed. Proceed?</source>
         <location line="+1"/>
         <source>Weave top and bottom halves.</source>
         <translation>Верхні та нижні половини.</translation>
+    </message>
+</context>
+<context>
+    <name>utvideo</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp" line="+108"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Left Neighbour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Median</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Prediction Method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Ut Video Encoder Configuration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11564,7 +11592,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Мб</translation>
     </message>
     <message>
-        <location line="+2351"/>
+        <location line="+2382"/>
         <source>Add</source>
         <translation>Додати</translation>
     </message>
@@ -11584,7 +11612,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Редагувати</translation>
     </message>
     <message>
-        <location line="-1924"/>
+        <location line="-1955"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11594,12 +11622,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-566"/>
+        <location line="-570"/>
         <source>Output Bit Depth:</source>
         <translation>Глибина вихідного біта:</translation>
     </message>
     <message>
-        <location line="+571"/>
+        <location line="+575"/>
         <source>7</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11669,29 +11697,34 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Швидко</translation>
     </message>
     <message>
-        <location line="+237"/>
+        <location line="+43"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+189"/>
         <source>Rate Distortion Optimisation:</source>
         <translation>Оптимізація швидкості спотворення (до якості):</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <location line="+70"/>
+        <location line="+22"/>
+        <location line="+88"/>
         <source>Level:</source>
         <translation>Рівень:</translation>
     </message>
     <message>
-        <location line="-42"/>
-        <location line="+70"/>
+        <location line="-54"/>
+        <location line="+88"/>
         <source>Psycho-visual Strength:</source>
         <translation>Психо-візуальна сила:</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="-56"/>
         <source>RDO in Quantization:</source>
         <translation type="unfinished">RDO в квантизації:</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+340"/>
         <source>Cb</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11835,7 +11868,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Кбіт</translation>
     </message>
     <message>
-        <location line="-2434"/>
+        <location line="-2465"/>
         <source>Basic</source>
         <translation>Основне</translation>
     </message>
@@ -11845,12 +11878,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Кадр</translation>
     </message>
     <message>
-        <location line="+313"/>
+        <location line="+308"/>
         <source>Minimum:</source>
         <translation>Мінімум:</translation>
     </message>
     <message>
-        <location line="+1134"/>
+        <location line="+1170"/>
         <source>Zones</source>
         <translation>Зона</translation>
     </message>
@@ -11865,7 +11898,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>байт</translation>
     </message>
     <message>
-        <location line="-1879"/>
+        <location line="-1910"/>
         <source>Coding Unit-tree Rate Control</source>
         <translation>Управління швидкістю кодування дерева одиниць</translation>
     </message>
@@ -11877,7 +11910,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Вимкнено</translation>
     </message>
     <message>
-        <location line="+1600"/>
+        <location line="+1631"/>
         <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
         <translation>Ці налаштування пропонуються лише для відтворення на обладнанні. Використовуйте їх на свій страх і ризик.</translation>
     </message>
@@ -11887,12 +11920,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Розмір буфера VBV:</translation>
     </message>
     <message>
-        <location line="-1388"/>
+        <location line="-1419"/>
         <source>Weighted Prediction for P-frames:</source>
         <translation>Зважене передбачення для P-кадрів:</translation>
     </message>
     <message>
-        <location line="+894"/>
+        <location line="+925"/>
         <source>Maximum Quantiser Step:</source>
         <translation>Максимальний крок квантизатора:</translation>
     </message>
@@ -11907,17 +11940,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Відхилення адаптивної квантизації:</translation>
     </message>
     <message>
-        <location line="-1763"/>
+        <location line="-1794"/>
         <source>Advanced Rate Control</source>
         <translation>Додатковий контроль швидкості</translation>
     </message>
     <message>
-        <location line="+2607"/>
+        <location line="+2638"/>
         <source>Video Format:</source>
         <translation>Формат відео:</translation>
     </message>
     <message>
-        <location line="-2112"/>
+        <location line="-2143"/>
         <source>Motion Vector</source>
         <translation>Вектор руху</translation>
     </message>
@@ -11927,7 +11960,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Постійний квантизатор (1 прохід)</translation>
     </message>
     <message>
-        <location line="+1733"/>
+        <location line="+1764"/>
         <source>I and P-frame Quantiser Ratio:</source>
         <translation>Співвідношення квантизатора I-і P-кадрів:</translation>
     </message>
@@ -11942,12 +11975,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Співвідношення квантизатора P-і B-кадрів:</translation>
     </message>
     <message>
-        <location line="-592"/>
+        <location line="-628"/>
         <source>GOP Size:</source>
         <translation>Розмір GOP:</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-126"/>
         <source>B-frame Bias:</source>
         <translation>Зміщення B-кадрів:</translation>
     </message>
@@ -11981,17 +12014,16 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Зменшення шуму:</translation>
     </message>
     <message>
-        <location line="+569"/>
         <source>Non-strict (Not Blu-ray Compatible)</source>
-        <translation>Несувора (не сумісна з Blu-ray)</translation>
+        <translation type="vanished">Несувора (не сумісна з Blu-ray)</translation>
     </message>
     <message>
-        <location line="+477"/>
+        <location line="+1077"/>
         <source>Quantiser Control</source>
         <translation>Управління квантизатором</translation>
     </message>
     <message>
-        <location line="-850"/>
+        <location line="-881"/>
         <source>Constrained Intra Prediction</source>
         <translation>Обмежене внутрішнє передбачення</translation>
     </message>
@@ -12001,27 +12033,27 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Середній бітрейт (2 проходи)</translation>
     </message>
     <message>
-        <location line="+1873"/>
+        <location line="+1904"/>
         <source>Quantiser Curve Compression</source>
         <translation>Компресія кривих квантизатора</translation>
     </message>
     <message>
-        <location line="-648"/>
+        <location line="-684"/>
         <source>I-frames</source>
         <translation>I-кадри</translation>
     </message>
     <message>
-        <location line="-160"/>
+        <location line="-155"/>
         <source>B-frames</source>
         <translation>B-кадри</translation>
     </message>
     <message>
-        <location line="+1394"/>
+        <location line="+1425"/>
         <source>Auto-detect</source>
         <translation>Автовизначення</translation>
     </message>
     <message>
-        <location line="-1323"/>
+        <location line="-1354"/>
         <source>Adaptive B-frame Decision:</source>
         <translation>Адаптивне визначення B-кадрів:</translation>
     </message>
@@ -12035,7 +12067,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Квантування Трелліса:</translation>
     </message>
     <message>
-        <location line="+956"/>
+        <location line="+987"/>
         <source>Reduce Fluctuation Before Curve Compression:</source>
         <translation>Зменшити коливання до компресії кривих:</translation>
     </message>
@@ -12045,29 +12077,29 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Компонент</translation>
     </message>
     <message>
-        <location line="-1518"/>
+        <location line="-1554"/>
         <location line="+6"/>
         <source>Analysis</source>
         <translation>Аналіз</translation>
     </message>
     <message>
-        <location line="-1107"/>
+        <location line="-1102"/>
         <source>Maximum Constant Rate Factor</source>
         <translation>Максимально-постійний коефіцієнт швидкості</translation>
     </message>
     <message>
-        <location line="+2185"/>
+        <location line="+2216"/>
         <source>Multithreading</source>
         <translation>Багатопотоковість</translation>
     </message>
     <message>
-        <location line="-1503"/>
+        <location line="-1534"/>
         <source>Loop Filter</source>
         <translation>Фільтр зациклення</translation>
     </message>
     <message>
         <location line="-1255"/>
-        <location line="+2724"/>
+        <location line="+2755"/>
         <source>Delete</source>
         <translation>Видалити</translation>
     </message>
@@ -12077,7 +12109,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Зумовлене співвідношення сторін:</translation>
     </message>
     <message>
-        <location line="-2129"/>
+        <location line="-2160"/>
         <source>Uneven Multi-hexagonal Search</source>
         <translation>Нечіткий пошук мультигексагональний</translation>
     </message>
@@ -12092,17 +12124,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Зважені посилання + дублікати</translation>
     </message>
     <message>
-        <location line="+797"/>
+        <location line="+828"/>
         <source>Chroma to Luma Quantiser Offset:</source>
         <translation>Зміщення квантизатора від Chroma до Luma:</translation>
     </message>
     <message>
-        <location line="-1870"/>
+        <location line="-1808"/>
         <source>IDC Level:</source>
         <translation>Рівень IDC:</translation>
     </message>
     <message>
-        <location line="+3200"/>
+        <location line="+3138"/>
         <source>Linear</source>
         <translation>Лінійний</translation>
     </message>
@@ -12112,12 +12144,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Матриця JVT</translation>
     </message>
     <message>
-        <location line="-1069"/>
+        <location line="-1100"/>
         <source>Motion</source>
         <translation>Рух</translation>
     </message>
     <message>
-        <location line="+2082"/>
+        <location line="+2113"/>
         <source>As Input</source>
         <translation>Як вхід</translation>
     </message>
@@ -12147,7 +12179,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Параметри HRD:</translation>
     </message>
     <message>
-        <location line="-3036"/>
+        <location line="-3067"/>
         <location line="+213"/>
         <source>0 (High Quality)</source>
         <translation>0 (Висока якість)</translation>
@@ -12158,12 +12190,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>B-кадри як посилання:</translation>
     </message>
     <message>
-        <location line="+1878"/>
+        <location line="+1909"/>
         <source>Colour Matrix:</source>
         <translation>Колірна матриця:</translation>
     </message>
     <message>
-        <location line="-3077"/>
+        <location line="-3108"/>
         <source>Constant Bitrate (Single Pass)</source>
         <translation>Постійний бітрейт (1 прохід)</translation>
     </message>
@@ -12173,7 +12205,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Зіркоподібний пошук</translation>
     </message>
     <message>
-        <location line="+2618"/>
+        <location line="+2649"/>
         <source>Full Range Samples</source>
         <translation>Зразки повного діапазону</translation>
     </message>
@@ -12193,7 +12225,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Зовнішнє зменшення шуму:</translation>
     </message>
     <message>
-        <location line="-1413"/>
+        <location line="-1444"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Низька якість)</translation>
@@ -12210,7 +12242,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="-508"/>
-        <location line="+2104"/>
+        <location line="+2135"/>
         <source>frames</source>
         <translation>кадри</translation>
     </message>
@@ -12219,7 +12251,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Тільки останній макроблок</translation>
     </message>
     <message>
-        <location line="-2653"/>
+        <location line="-2693"/>
         <source>Frame Threads </source>
         <translation>Потоки кадрів </translation>
     </message>
@@ -12228,7 +12260,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Зважене передбачення для B-кадрів</translation>
     </message>
     <message>
-        <location line="+2143"/>
+        <location line="+2183"/>
         <source>Auto Variance AQ</source>
         <translation>Автоматичне відхилення адаптивної квантизації:</translation>
     </message>
@@ -12243,17 +12275,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Початкове заповнення буфера VBV:</translation>
     </message>
     <message>
-        <location line="-2396"/>
+        <location line="-2353"/>
         <source>Preset:</source>
         <translation>Передустановка:</translation>
     </message>
     <message>
-        <location line="+2849"/>
+        <location line="+2806"/>
         <source>Pixel Aspect Ratio</source>
         <translation>Співвідношення сторін</translation>
     </message>
     <message>
-        <location line="-1233"/>
+        <location line="-1269"/>
         <source>Fast Skip Detection on P-frames</source>
         <translation>Швидкий пропуск виявлення P-кадрів</translation>
     </message>
@@ -12262,7 +12294,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Нормальний режим</translation>
     </message>
     <message>
-        <location line="+753"/>
+        <location line="+789"/>
         <source>Advanced 1</source>
         <translation>Додатково 1</translation>
     </message>
@@ -12272,19 +12304,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Додатково 2</translation>
     </message>
     <message>
-        <location line="-2326"/>
+        <location line="-2357"/>
         <location line="+213"/>
-        <location line="+1345"/>
+        <location line="+1376"/>
         <source>Quantiser</source>
         <translation>Квантизатор</translation>
     </message>
     <message>
-        <location line="-1206"/>
+        <location line="-1237"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Ідентифікатор установки параметра послідовності:</translation>
     </message>
     <message>
-        <location line="+1596"/>
+        <location line="+1627"/>
         <source>Strength:</source>
         <translation>Сила:</translation>
     </message>
@@ -12294,22 +12326,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Частин на кадр:</translation>
     </message>
     <message>
-        <location line="-2408"/>
+        <location line="-2481"/>
         <source>Pool Threads </source>
         <translation>Потоки пулу </translation>
     </message>
     <message>
-        <location line="+1410"/>
+        <location line="+1447"/>
         <source>Maximum:</source>
         <translation>Максимум:</translation>
     </message>
     <message>
-        <location line="+606"/>
+        <location line="+642"/>
         <source>Quantiser Curve Compression:</source>
         <translation>Компресія кривих квантизатора:</translation>
     </message>
     <message>
-        <location line="-2132"/>
+        <location line="-2163"/>
         <source>Profile:</source>
         <translation>Профіль:</translation>
     </message>
@@ -12329,12 +12361,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Зберегти як</translation>
     </message>
     <message>
-        <location line="+1903"/>
+        <location line="+1934"/>
         <source>Strong Intra Smoothing</source>
         <translation>Надпотужне згладжування</translation>
     </message>
     <message>
-        <location line="-799"/>
+        <location line="-830"/>
         <source>Maximum Motion Vector Search Range:</source>
         <translation>Діапазон пошуку вектора максимального руху:</translation>
     </message>
@@ -12353,23 +12385,23 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Ромбоподібний пошук</translation>
     </message>
     <message>
-        <location line="+1699"/>
+        <location line="+1730"/>
         <source>Slicing</source>
         <translation>Поділ на частини</translation>
     </message>
     <message>
-        <location line="-2629"/>
+        <location line="-2660"/>
         <source>x265 Configuraton</source>
         <translation>Налаштування x265</translation>
     </message>
     <message>
-        <location line="+2833"/>
+        <location line="+2864"/>
         <source>Custom:</source>
         <comment>multithreading</comment>
         <translation>Власна:</translation>
     </message>
     <message>
-        <location line="-1589"/>
+        <location line="-1620"/>
         <source>Weighted References</source>
         <translation>Зважені посилання</translation>
     </message>
@@ -12379,7 +12411,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Визначення руху</translation>
     </message>
     <message>
-        <location line="+1590"/>
+        <location line="+1621"/>
         <source>Video Buffer Verifier</source>
         <translation>Перевірка відеобуфера</translation>
     </message>
@@ -12397,38 +12429,38 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Власне:</translation>
     </message>
     <message>
-        <location line="-2272"/>
+        <location line="-2303"/>
         <source>Prediction</source>
         <translation>Передбачення:</translation>
     </message>
     <message>
-        <location line="+1657"/>
+        <location line="+1688"/>
         <source>Disable</source>
         <translation>Вимкнути</translation>
     </message>
     <message>
-        <location line="-1145"/>
+        <location line="-1181"/>
         <source>I-frame Threshold:</source>
         <translation>Поріг I-кадрів:</translation>
     </message>
     <message>
-        <location line="+1306"/>
+        <location line="+1342"/>
         <source>Custom:</source>
         <comment>PAR</comment>
         <translation>Власне:</translation>
     </message>
     <message>
-        <location line="-1234"/>
+        <location line="-1270"/>
         <source>DCT Decimation on P-frames</source>
         <translation>Децимація DCT на P-кадрах</translation>
     </message>
     <message>
-        <location line="-1572"/>
+        <location line="-1558"/>
         <source>Tuning:</source>
         <translation>Настройка:</translation>
     </message>
     <message>
-        <location line="+748"/>
+        <location line="+739"/>
         <source>Motion Estimation Method:</source>
         <translation>Метод визначення руху:</translation>
     </message>
@@ -12461,7 +12493,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Максимум послідовних B-кадрів:</translation>
     </message>
     <message>
-        <location line="+1746"/>
+        <location line="+1777"/>
         <source>Overscan:</source>
         <translation>Пересканування:</translation>
     </message>
@@ -12485,7 +12517,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Завжди увімкнено</translation>
     </message>
     <message>
-        <location line="-1033"/>
+        <location line="-1064"/>
         <source>Bottom Field First</source>
         <translation>Спочатку нижнє поле:</translation>
     </message>
@@ -12495,32 +12527,31 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Загальне</translation>
     </message>
     <message>
-        <location line="+2796"/>
+        <location line="+2827"/>
         <source>Custom Threaded Lookahead Buffer:</source>
         <translation>Буфер передбачення власних потоків:</translation>
     </message>
     <message>
-        <location line="-2578"/>
+        <location line="-2609"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
     <message>
-        <location line="+2199"/>
+        <location line="+2230"/>
         <source>Maximum VBV Bitrate:</source>
         <translation>Максимальний бітрейт VBV:</translation>
     </message>
     <message>
-        <location line="-2122"/>
+        <location line="-2153"/>
         <source>Encoding Mode:</source>
         <translation>Режим кодування:</translation>
     </message>
     <message>
-        <location line="+1171"/>
         <source>Strictly Hierarchical Pyramid</source>
-        <translation>Сувора ієрархічна піраміда</translation>
+        <translation type="vanished">Сувора ієрархічна піраміда</translation>
     </message>
     <message>
-        <location line="+1321"/>
+        <location line="+2523"/>
         <source>Slice-based Threading</source>
         <translation>Багатопотоковість по частинах</translation>
     </message>
@@ -12529,7 +12560,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Допустимий середній бітрейт:</translation>
     </message>
     <message>
-        <location line="-2853"/>
+        <location line="-2884"/>
         <source>Configuration:</source>
         <translation>Настройка:</translation>
     </message>
@@ -12539,7 +12570,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Субпіксельна точність</translation>
     </message>
     <message>
-        <location line="+2334"/>
+        <location line="+2365"/>
         <source>Transfer Characteristics:</source>
         <translation>Характеристики переходу:</translation>
     </message>
@@ -12553,7 +12584,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Інформація про використання відео</translation>
     </message>
     <message>
-        <location line="-2793"/>
+        <location line="-2824"/>
         <source>Constant Rate Factor (Single Pass)</source>
         <translation>Постійний фактор частоти (1 прохід)</translation>
     </message>
@@ -12563,7 +12594,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Передбачення типу кадрів:</translation>
     </message>
     <message>
-        <location line="+2495"/>
+        <location line="+2526"/>
         <source>Colour Primaries:</source>
         <translation>Первинні кольори:</translation>
     </message>

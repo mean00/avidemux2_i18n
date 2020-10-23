@@ -7982,18 +7982,18 @@ The file must be re-indexed. Proceed?</source>
     <name>qfile</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+45"/>
-        <location line="+142"/>
+        <location line="+152"/>
         <source>All files (*.*)</source>
         <translation>Όλα τα αρχεία (*.*)</translation>
     </message>
     <message>
-        <location line="-59"/>
-        <location line="+106"/>
+        <location line="-69"/>
+        <location line="+116"/>
         <source> files (*.</source>
         <translation> αρχεία (*.</translation>
     </message>
     <message>
-        <location line="-82"/>
+        <location line="-83"/>
         <source>Overwrite file </source>
         <translation>Αντικατάσταση αρχείου </translation>
     </message>
@@ -8001,7 +8001,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+206"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+241"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Διαθέσιμη νέα έκδοση&lt;/b&gt;&lt;br&gt; Έκδοση %1&lt;br&gt;Εκδόθηκε στις %2.&lt;br&gt;Μπορείτε να την κάνετε λήψη από εδώ&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Μπορείτε να απενεργοποιήσετε την αυτόματη ενημέρωση από τις προτιμήσεις.&lt;/small&gt;</translation>
     </message>
@@ -9505,6 +9505,34 @@ The file must be re-indexed. Proceed?</source>
         <location line="+1"/>
         <source>Weave top and bottom halves.</source>
         <translation>Ύφανση του επάνω και του κάτω μισού.</translation>
+    </message>
+</context>
+<context>
+    <name>utvideo</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp" line="+108"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Left Neighbour</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Median</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Prediction Method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Ut Video Encoder Configuration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11524,12 +11552,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2724"/>
+        <location line="+2755"/>
         <source>Delete</source>
         <translation>Διαγραφή</translation>
     </message>
     <message>
-        <location line="-2682"/>
+        <location line="-2713"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
@@ -11549,17 +11577,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Προφίλ:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+81"/>
         <source>Preset:</source>
         <translation>Προρύθμιση:</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="-14"/>
         <source>Tuning:</source>
         <translation>Συντονισμός:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+91"/>
         <source>IDC Level:</source>
         <translation>Επίπεδο IDC:</translation>
     </message>
@@ -11568,7 +11596,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Αυτόματο</translation>
     </message>
     <message>
-        <location line="+665"/>
+        <location line="+572"/>
         <source>1</source>
         <translation>1</translation>
     </message>
@@ -11630,22 +11658,22 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">5.1</translation>
     </message>
     <message>
-        <location line="-619"/>
+        <location line="-661"/>
         <source>Pool Threads </source>
         <translation>Νήματα ομαδοποίησης </translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+59"/>
         <source>Frame Threads </source>
         <translation>Νήματα στιγμιότυπων </translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+32"/>
         <source>Output Bit Depth:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+32"/>
         <source>Rate Control</source>
         <translation>Έλεγχος ρυθμού</translation>
     </message>
@@ -11698,12 +11726,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1345"/>
+        <location line="+1376"/>
         <source>Quantiser</source>
         <translation>Κβαντιστής</translation>
     </message>
     <message>
-        <location line="-1535"/>
+        <location line="-1566"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation>51 (Χαμηλή ποιότητα)</translation>
@@ -11740,12 +11768,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2104"/>
+        <location line="+2135"/>
         <source>frames</source>
         <translation>στιγμιότυπα</translation>
     </message>
     <message>
-        <location line="-2080"/>
+        <location line="-2111"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Αναγνωριστικό της ομάδας παραμέτρων συχνότητας:</translation>
     </message>
@@ -11937,17 +11965,15 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Β-στιγμιότυπα ως αναφορές:</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Strictly Hierarchical Pyramid</source>
-        <translation>Αυστηρώς ιεραρχική πυραμίδα</translation>
+        <translation type="vanished">Αυστηρώς ιεραρχική πυραμίδα</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Non-strict (Not Blu-ray Compatible)</source>
-        <translation>Μη-αυστηρό (Μη Συμβατό με Blu-ray)</translation>
+        <translation type="vanished">Μη-αυστηρό (Μη Συμβατό με Blu-ray)</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-28"/>
         <source>Fast</source>
         <translation>Γρήγορο</translation>
     </message>
@@ -11992,7 +12018,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Προσαρμοζόμενη απόφαση Β-στιγμιότυπων:</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+58"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
         <source>I-frames</source>
         <translation>Ι-στιγμιότυπα</translation>
     </message>
@@ -12049,7 +12080,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Βελτιστοποίηση ψυχο-οπτικής παραμόρφωσης ρυθμού:</translation>
     </message>
     <message>
-        <location line="-576"/>
+        <location line="-571"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12079,19 +12110,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+330"/>
         <source>Rate Distortion Optimisation:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
-        <location line="+70"/>
+        <location line="+22"/>
+        <location line="+88"/>
         <source>Level:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-42"/>
-        <location line="+70"/>
+        <location line="-54"/>
+        <location line="+88"/>
         <source>Psycho-visual Strength:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12100,7 +12131,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="vanished">Μείωση του θορύβου:</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+38"/>
         <source>Noise Reduction Intra:</source>
         <translation>Μείωση του θορύβου έσωθεν:</translation>
     </message>
@@ -12167,12 +12198,12 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Μέγιστο βήμα κβαντιστή:</translation>
     </message>
     <message>
-        <location line="-303"/>
+        <location line="-321"/>
         <source>RDO in Quantization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+340"/>
         <source>Cb</source>
         <translation>Cb</translation>
     </message>

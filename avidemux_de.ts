@@ -7912,18 +7912,18 @@ The file must be re-indexed. Proceed?</source>
     <name>qfile</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+45"/>
-        <location line="+142"/>
+        <location line="+152"/>
         <source>All files (*.*)</source>
         <translation>Alle Dateien (*.*)</translation>
     </message>
     <message>
-        <location line="-59"/>
-        <location line="+106"/>
+        <location line="-69"/>
+        <location line="+116"/>
         <source> files (*.</source>
         <translation>-Dateien (*.</translation>
     </message>
     <message>
-        <location line="-82"/>
+        <location line="-83"/>
         <source>Overwrite file </source>
         <translation>Überschreiben </translation>
     </message>
@@ -7931,7 +7931,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+451"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+486"/>
         <source>Recent Files</source>
         <translation>Zuletzt verwendete &amp;Dateien</translation>
     </message>
@@ -9429,6 +9429,34 @@ Die Datei muss neu indexiert werden. Fortfahren?</translation>
         <location line="+1"/>
         <source>Weave top and bottom halves.</source>
         <translation type="unfinished">Die obere und die untere Hälfte des Bildes verflechten (Umkehrung des Filters &quot;Halbbilder übereinander&quot;).</translation>
+    </message>
+</context>
+<context>
+    <name>utvideo</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp" line="+108"/>
+        <source>None</source>
+        <translation>Keine</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Left Neighbour</source>
+        <translation>Linkes Nachbarpixel</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Median</source>
+        <translation>Median</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Prediction Method:</source>
+        <translation>Vorhersagemethode:</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Ut Video Encoder Configuration</source>
+        <translation>Ut-Video-Encoder konfigurieren</translation>
     </message>
 </context>
 <context>
@@ -11424,7 +11452,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+15"/>
         <source>x265 Configuraton</source>
-        <translation type="unfinished"></translation>
+        <translation>x265 HEVC Encoder konfigurieren</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -11438,12 +11466,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2724"/>
+        <location line="+2755"/>
         <source>Delete</source>
         <translation>Löschen</translation>
     </message>
     <message>
-        <location line="-2682"/>
+        <location line="-2713"/>
         <source>General</source>
         <translation>Allgemein</translation>
     </message>
@@ -11463,17 +11491,17 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation>Profil:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+81"/>
         <source>Preset:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="-14"/>
         <source>Tuning:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+91"/>
         <source>IDC Level:</source>
         <translation type="unfinished">IDC Level [level]:</translation>
     </message>
@@ -11482,7 +11510,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="vanished">Automatisch</translation>
     </message>
     <message>
-        <location line="+665"/>
+        <location line="+572"/>
         <source>1</source>
         <translation type="unfinished">1</translation>
     </message>
@@ -11544,22 +11572,22 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="obsolete">5.1</translation>
     </message>
     <message>
-        <location line="-619"/>
+        <location line="-661"/>
         <source>Pool Threads </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+59"/>
         <source>Frame Threads </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+32"/>
         <source>Output Bit Depth:</source>
         <translation>Ausgabe-Farbtiefe:</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+32"/>
         <source>Rate Control</source>
         <translation>Bitratensteuerung</translation>
     </message>
@@ -11612,12 +11640,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-190"/>
         <location line="+213"/>
-        <location line="+1345"/>
+        <location line="+1376"/>
         <source>Quantiser</source>
         <translation type="unfinished">Quantisierung</translation>
     </message>
     <message>
-        <location line="-1535"/>
+        <location line="-1566"/>
         <location line="+213"/>
         <source>51 (Low Quality)</source>
         <translation type="unfinished">51 (niedrige Qualität)</translation>
@@ -11654,12 +11682,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2104"/>
+        <location line="+2135"/>
         <source>frames</source>
         <translation type="unfinished">Bilder (I-Bilder: max. GOP beachten)</translation>
     </message>
     <message>
-        <location line="-2080"/>
+        <location line="-2111"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Sequence Parameter Set Identifer [sps-id]:</translation>
     </message>
@@ -11772,7 +11800,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <location line="+269"/>
         <location line="+43"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <location line="-307"/>
@@ -11809,67 +11837,65 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+6"/>
         <source>Loop Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Glätten</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Open GOP</source>
-        <translation type="unfinished"></translation>
+        <translation>Offene GOPs verwenden</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Interlaced:</source>
-        <translation type="unfinished">Zeilensprungverfahren:</translation>
+        <translation>Zeilensprungverfahren:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Top Field First</source>
-        <translation type="unfinished"></translation>
+        <translation>Oberes Halbbild zuerst</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bottom Field First</source>
-        <translation type="unfinished"></translation>
+        <translation>Unteres Halbbild zuerst</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Maximum Reference Frames:</source>
-        <translation type="unfinished">Größe des Referenzbildpuffers (DPD) für P- und B-Bildreferenzierungen [ref]:</translation>
+        <translation>Größe des Referenzbildpuffers (DPB) [ref]:</translation>
     </message>
     <message>
         <location line="+60"/>
         <source>B-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>B-Frames</translation>
     </message>
     <message>
         <location line="+114"/>
         <source>B-frames as References:</source>
-        <translation type="unfinished">B-Bilder als Referenz zulassen [b-pyramid]:</translation>
+        <translation>B-Frames als Referenzen verwenden [b-pyramid]:</translation>
     </message>
     <message>
-        <location line="+15"/>
         <source>Strictly Hierarchical Pyramid</source>
-        <translation type="unfinished">nur als strikt hierarchische Pyramide</translation>
+        <translation type="vanished">Als strikt hierarchische Pyramide</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Non-strict (Not Blu-ray Compatible)</source>
-        <translation type="unfinished">unabhängig (nicht Blu-ray kompatibel)</translation>
+        <translation type="obsolete">unabhängig (nicht Blu-ray-kompatibel)</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-28"/>
         <source>Fast</source>
-        <translation type="unfinished"></translation>
+        <translation>Schnell</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Optimal</source>
-        <translation type="unfinished">2: langsam (neuer Modus)</translation>
+        <translation>Optimal (Trellis)</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>B-frame Bias:</source>
-        <translation type="unfinished">Anpassung der B-Bild-Verwendungswahrscheinlichkeit (BIAS) [b-bias]:</translation>
+        <translation>Neigung zum Verwenden von B-Frames [b-bias]:</translation>
     </message>
     <message>
         <location line="-267"/>
@@ -11902,7 +11928,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation>Adaptive Wahl zwischen P- und B-Frames (DCT) [b-adapt]:</translation>
     </message>
     <message>
-        <location line="+89"/>
+        <location line="+58"/>
+        <source>Enabled</source>
+        <translation>Aktiviert</translation>
+    </message>
+    <message>
+        <location line="+26"/>
         <source>I-frames</source>
         <translation>I-Frames</translation>
     </message>
@@ -11924,7 +11955,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+32"/>
         <source>I-frame Threshold:</source>
-        <translation type="unfinished">Bildveränderungsschwellwert (%) der zum Setzen eines I-Bildes führt [scenecut]:</translation>
+        <translation>Schwelle zum Einsetzen eines I-Frames, in % der Bildveränderungen [scenecut]:</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -11959,7 +11990,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation type="obsolete">psychovisuell optimierte Abstimmung der Bitrate auf die Bildqualität [psy-rd]:</translation>
     </message>
     <message>
-        <location line="-576"/>
+        <location line="-571"/>
         <source>Prediction for B-frames:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11976,53 +12007,53 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+222"/>
         <source>Limit References by:</source>
-        <translation type="unfinished"></translation>
+        <translation>Referenzen beschränken nach:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>CU</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodiereinheit (CU)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiefe</translation>
     </message>
     <message>
-        <location line="+335"/>
+        <location line="+330"/>
         <source>Rate Distortion Optimisation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abstimmung Datenverbrauch vs. Verzerrungen (RDO):</translation>
     </message>
     <message>
-        <location line="+16"/>
-        <location line="+70"/>
+        <location line="+22"/>
+        <location line="+88"/>
         <source>Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stufe:</translation>
     </message>
     <message>
-        <location line="-42"/>
-        <location line="+70"/>
+        <location line="-54"/>
+        <location line="+88"/>
         <source>Psycho-visual Strength:</source>
-        <translation type="unfinished"></translation>
+        <translation>Psychovisuelle Stärke:</translation>
     </message>
     <message>
         <source>Noise Reduction:</source>
         <translation type="obsolete">Rauschfilter [nr]:</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+38"/>
         <source>Noise Reduction Intra:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rauschminderung Intra:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Noise Reduction Inter:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rauschminderung Inter:</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Strong Intra Smoothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Intra-Blöcke stark glätten</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -12053,7 +12084,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-727"/>
         <source>Quantiser Control</source>
-        <translation type="unfinished">Quantisierungskontrolle</translation>
+        <translation>Quantisierungskontrolle</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -12063,7 +12094,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+34"/>
         <source>I and P-frame Quantiser Ratio:</source>
-        <translation type="unfinished">I-Bild zu P-Bild Quantisierungsverhältnis [ipratio]:</translation>
+        <translation>Quantisierungsverhältnis zwischen I- und P-Frames [ipratio]:</translation>
     </message>
     <message>
         <location line="+182"/>
@@ -12074,15 +12105,15 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-441"/>
         <source>Maximum Quantiser Step:</source>
-        <translation type="unfinished">max. Quantisierungsschwankung zwischen 2 Bildern [qpframes]:</translation>
+        <translation>Max. Quantisierungsdifferenz zwischen benachbarten Frames [qpstep]:</translation>
     </message>
     <message>
-        <location line="-303"/>
+        <location line="-321"/>
         <source>RDO in Quantization:</source>
-        <translation type="unfinished"></translation>
+        <translation>RDO bei Quantisierung:</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+340"/>
         <source>Cb</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12094,7 +12125,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+22"/>
         <source>P and B-frame Quantiser Ratio:</source>
-        <translation type="unfinished">P-Bild zu B-Bild Quantisierungsverhältnis [pbratio]:</translation>
+        <translation>Quantisierungsverhältnis zwischen P- und B-Frames [pbratio]:</translation>
     </message>
     <message>
         <source>Average Bitrate Tolerance:</source>
@@ -12143,7 +12174,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+26"/>
         <source>Strength:</source>
-        <translation type="unfinished">Stärke:</translation>
+        <translation>Stärke:</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -12223,23 +12254,23 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+6"/>
         <source>Multithreading</source>
-        <translation type="unfinished"></translation>
+        <translation>Multithreading</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Disable</source>
-        <translation type="unfinished">nein, nicht aufteilen und nur einen Prozessorkern nutzen</translation>
+        <translation>Deaktivieren</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Auto-detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatische Erkennung</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Custom:</source>
         <comment>multithreading</comment>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefinierte Anzahl von Threads:</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -12274,18 +12305,18 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+10"/>
         <source>Pixel Aspect Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixel-Seitenverhältnis (SAR)</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Custom:</source>
         <comment>PAR</comment>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefiniert:</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>As Input</source>
-        <translation type="unfinished">Wie Eingang</translation>
+        <translation>Wie die Quelle</translation>
     </message>
     <message>
         <location line="+49"/>
