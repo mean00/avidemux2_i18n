@@ -11347,7 +11347,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+227"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+238"/>
         <source>Not coded</source>
         <translation>Nekódované</translation>
     </message>
@@ -11359,7 +11359,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+282"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11374,12 +11374,17 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+1"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+73"/>
         <source>Custom</source>
         <translation>Vlastné</translation>
     </message>
     <message>
-        <location line="+327"/>
+        <location line="+333"/>
         <source>Target Bitrate:</source>
         <translation>Cieľová prenosová rýchlosť:</translation>
     </message>
@@ -11511,12 +11516,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2755"/>
+        <location line="+3051"/>
         <source>Delete</source>
         <translation>&amp;Odstrániť</translation>
     </message>
     <message>
-        <location line="-2713"/>
+        <location line="-3009"/>
         <source>General</source>
         <translation>Obecné</translation>
     </message>
@@ -11727,12 +11732,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2135"/>
+        <location line="+2431"/>
         <source>frames</source>
         <translation>snímok</translation>
     </message>
     <message>
-        <location line="-2111"/>
+        <location line="-2407"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Identifikátor nastavenia parametrov sekvencie:</translation>
     </message>
@@ -12126,12 +12131,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+774"/>
+        <location line="+1070"/>
         <source>Edit</source>
         <translation>Upraviť</translation>
     </message>
     <message>
-        <location line="-727"/>
+        <location line="-1023"/>
         <source>Quantiser Control</source>
         <translation>Riadenie kvantifikátorov</translation>
     </message>
@@ -12147,12 +12152,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+182"/>
-        <location line="+302"/>
+        <location line="+598"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location line="-441"/>
+        <location line="-737"/>
         <source>Maximum Quantiser Step:</source>
         <translation>Maximálny krok kvantifikátorov:</translation>
     </message>
@@ -12227,6 +12232,38 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location line="+65"/>
+        <source>Display</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Color Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+160"/>
+        <source>The value set here will almost always be ignored in favor of the aspect ratio stored in the container.  Configure that via the options in Output Format for the muxer chosen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Unspecified</source>
+        <comment>PAR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Custom Aspect Ratio:</source>
+        <comment>PAR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+57"/>
+        <source>Same as Input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Advanced 1</source>
         <translation>Pokročilé 1</translation>
     </message>
@@ -12337,11 +12374,11 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Vlastný zásobník vzhľadu vlákien:</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>Output 1</source>
-        <translation>Výstup 1</translation>
+        <translation type="vanished">Výstup 1</translation>
     </message>
     <message>
+        <location line="+59"/>
         <location line="+6"/>
         <source>Output</source>
         <translation>Výstup</translation>
@@ -12352,58 +12389,51 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Generovať prístup obmedzovačov jednotiek</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-606"/>
         <source>Pixel Aspect Ratio</source>
         <translation>Pomer strán v pixeloch</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Custom:</source>
         <comment>PAR</comment>
-        <translation>Vlastné:</translation>
+        <translation type="vanished">Vlastné:</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>As Input</source>
-        <translation>Ako vstup</translation>
+        <translation type="vanished">Ako vstup</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+81"/>
         <source>:</source>
         <translation>:</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="-53"/>
         <source>Predefined Aspect Ratio:</source>
         <translation>Prednastavený pomer strán:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>16:15 (PAL 4:3)</source>
-        <translation>16:15 (PAL 4:3)</translation>
+        <translation type="vanished">16:15 (PAL 4:3)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>64:45 (PAL 16:9)</source>
-        <translation>64:45 (PAL 16:9)</translation>
+        <translation type="vanished">64:45 (PAL 16:9)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>8:9 (NTSC 4:3)</source>
-        <translation>8:9 (NTSC 4:3)</translation>
+        <translation type="vanished">8:9 (NTSC 4:3)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>32:27 (NTSC 16:9)</source>
-        <translation>32:27 (NTSC 16:9)</translation>
+        <translation type="vanished">32:27 (NTSC 16:9)</translation>
     </message>
     <message>
-        <location line="+42"/>
         <source>Output 2</source>
-        <translation>Výstup 2</translation>
+        <translation type="vanished">Výstup 2</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+588"/>
         <source>Video Usability Information</source>
         <translation>Informácia o použití videa</translation>
     </message>
@@ -12418,16 +12448,13 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Zosnímanie:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+46"/>
-        <location line="+58"/>
-        <location line="+63"/>
-        <location line="+73"/>
+        <location line="-785"/>
+        <location line="+795"/>
         <source>Undefined</source>
         <translation>Nedefinované</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="+5"/>
         <source>Show</source>
         <translation>Zobraziť</translation>
     </message>
@@ -12437,7 +12464,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Orezanie</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-818"/>
         <source>Video Format:</source>
         <translation>Video formát:</translation>
     </message>
@@ -12472,67 +12499,49 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Primárne farby:</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <location line="+63"/>
-        <location line="+73"/>
         <source>BT709</source>
-        <translation>BT709</translation>
+        <translation type="vanished">BT709</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+63"/>
         <source>BT470M</source>
-        <translation>BT470M</translation>
+        <translation type="vanished">BT470M</translation>
     </message>
     <message>
-        <location line="-58"/>
-        <location line="+63"/>
-        <location line="+73"/>
         <source>BT470BG</source>
-        <translation>BT470BG</translation>
+        <translation type="vanished">BT470BG</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+136"/>
         <source>SMPTE170M</source>
-        <translation>SMPTE170M</translation>
+        <translation type="vanished">SMPTE170M</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+78"/>
-        <location line="+58"/>
         <source>SMPTE240M</source>
-        <translation>SMPTE240M</translation>
+        <translation type="vanished">SMPTE240M</translation>
     </message>
     <message>
-        <location line="-131"/>
         <source>Film</source>
-        <translation>Film</translation>
+        <translation type="vanished">Film</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+28"/>
         <source>Transfer Characteristics:</source>
         <translation>Charakteristika prevodu:</translation>
     </message>
     <message>
-        <location line="+30"/>
         <source>Linear</source>
-        <translation>Lineárna</translation>
+        <translation type="vanished">Lineárna</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>LOG100</source>
-        <translation>LOG100</translation>
+        <translation type="vanished">LOG100</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>LOG316</source>
-        <translation>LOG316</translation>
+        <translation type="vanished">LOG316</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>SMPTEL170M</source>
-        <translation>SMPTEL170M</translation>
+        <translation type="vanished">SMPTEL170M</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -12540,22 +12549,19 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Matrica farieb:</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>FCC</source>
-        <translation>FCC</translation>
+        <translation type="vanished">FCC</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>GBR</source>
-        <translation>GBR</translation>
+        <translation type="vanished">GBR</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>YCgCo</source>
-        <translation>YCgCo</translation>
+        <translation type="vanished">YCgCo</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+724"/>
         <source>HRD Parameters:</source>
         <translation>Parametre HRD:</translation>
     </message>

@@ -11711,7 +11711,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+227"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+238"/>
         <source>Not coded</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11722,7 +11722,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+215"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+282"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11737,12 +11737,17 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+1"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+73"/>
         <source>Custom</source>
         <translation type="unfinished">Personalizzato</translation>
     </message>
     <message>
-        <location line="+327"/>
+        <location line="+333"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Bitrate finale:</translation>
     </message>
@@ -11869,12 +11874,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+2755"/>
+        <location line="+3051"/>
         <source>Delete</source>
         <translation type="unfinished">Elimina</translation>
     </message>
     <message>
-        <location line="-2713"/>
+        <location line="-3009"/>
         <source>General</source>
         <translation type="unfinished">Generale</translation>
     </message>
@@ -12085,12 +12090,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2135"/>
+        <location line="+2431"/>
         <source>frames</source>
         <translation type="unfinished">fotogrammi</translation>
     </message>
     <message>
-        <location line="-2111"/>
+        <location line="-2407"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation type="unfinished">Identificatore set di parametri di sequenza:</translation>
     </message>
@@ -12484,12 +12489,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+774"/>
+        <location line="+1070"/>
         <source>Edit</source>
         <translation type="unfinished">Modifica</translation>
     </message>
     <message>
-        <location line="-727"/>
+        <location line="-1023"/>
         <source>Quantiser Control</source>
         <translation type="unfinished">Controllo quantizzatore</translation>
     </message>
@@ -12505,12 +12510,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+182"/>
-        <location line="+302"/>
+        <location line="+598"/>
         <source>%</source>
         <translation type="unfinished">%</translation>
     </message>
     <message>
-        <location line="-441"/>
+        <location line="-737"/>
         <source>Maximum Quantiser Step:</source>
         <translation type="unfinished">Massima variazione quantizzatore:</translation>
     </message>
@@ -12585,6 +12590,38 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+65"/>
+        <source>Display</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Color Description</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+160"/>
+        <source>The value set here will almost always be ignored in favor of the aspect ratio stored in the container.  Configure that via the options in Output Format for the muxer chosen.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Unspecified</source>
+        <comment>PAR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>Custom Aspect Ratio:</source>
+        <comment>PAR</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+57"/>
+        <source>Same as Input</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Advanced 1</source>
         <translation type="unfinished">Avanzate 1</translation>
     </message>
@@ -12695,11 +12732,11 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Buffer suddiviso personalizzato sui successivi</translation>
     </message>
     <message>
-        <location line="+59"/>
         <source>Output 1</source>
-        <translation type="unfinished">Output 1</translation>
+        <translation type="obsolete">Output 1</translation>
     </message>
     <message>
+        <location line="+59"/>
         <location line="+6"/>
         <source>Output</source>
         <translation type="unfinished">Output</translation>
@@ -12710,58 +12747,51 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Genera delimitatori di unità di accesso</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-606"/>
         <source>Pixel Aspect Ratio</source>
         <translation type="unfinished">Proporzioni pixel</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>Custom:</source>
         <comment>PAR</comment>
-        <translation type="unfinished">Personalizzato:</translation>
+        <translation type="obsolete">Personalizzato:</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>As Input</source>
-        <translation type="unfinished">Come in ingresso</translation>
+        <translation type="obsolete">Come in ingresso</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+81"/>
         <source>:</source>
         <translation type="unfinished">:</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="-53"/>
         <source>Predefined Aspect Ratio:</source>
         <translation type="unfinished">Proporzioni predefinite:</translation>
     </message>
     <message>
-        <location line="+13"/>
         <source>16:15 (PAL 4:3)</source>
-        <translation type="unfinished">16:15 (PAL 4:3)</translation>
+        <translation type="obsolete">16:15 (PAL 4:3)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>64:45 (PAL 16:9)</source>
-        <translation type="unfinished">64:45 (PAL 16:9)</translation>
+        <translation type="obsolete">64:45 (PAL 16:9)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>8:9 (NTSC 4:3)</source>
-        <translation type="unfinished">8:9 (NTSC 4:3)</translation>
+        <translation type="obsolete">8:9 (NTSC 4:3)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>32:27 (NTSC 16:9)</source>
-        <translation type="unfinished">32:27 (NTSC 16:9)</translation>
+        <translation type="obsolete">32:27 (NTSC 16:9)</translation>
     </message>
     <message>
-        <location line="+42"/>
         <source>Output 2</source>
-        <translation type="unfinished">Output 2</translation>
+        <translation type="obsolete">Output 2</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+588"/>
         <source>Video Usability Information</source>
         <translation type="unfinished">Informazioni usabilità video</translation>
     </message>
@@ -12776,16 +12806,13 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Overscan:</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+46"/>
-        <location line="+58"/>
-        <location line="+63"/>
-        <location line="+73"/>
+        <location line="-785"/>
+        <location line="+795"/>
         <source>Undefined</source>
         <translation type="unfinished">Non definito</translation>
     </message>
     <message>
-        <location line="-235"/>
+        <location line="+5"/>
         <source>Show</source>
         <translation type="unfinished">Mostra</translation>
     </message>
@@ -12795,7 +12822,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Crop</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="-818"/>
         <source>Video Format:</source>
         <translation type="unfinished">Formato video:</translation>
     </message>
@@ -12830,67 +12857,49 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Colori primari:</translation>
     </message>
     <message>
-        <location line="+15"/>
-        <location line="+63"/>
-        <location line="+73"/>
         <source>BT709</source>
-        <translation type="unfinished">BT709</translation>
+        <translation type="obsolete">BT709</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+63"/>
         <source>BT470M</source>
-        <translation type="unfinished">BT470M</translation>
+        <translation type="obsolete">BT470M</translation>
     </message>
     <message>
-        <location line="-58"/>
-        <location line="+63"/>
-        <location line="+73"/>
         <source>BT470BG</source>
-        <translation type="unfinished">BT470BG</translation>
+        <translation type="obsolete">BT470BG</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+136"/>
         <source>SMPTE170M</source>
-        <translation type="unfinished">SMPTE170M</translation>
+        <translation type="obsolete">SMPTE170M</translation>
     </message>
     <message>
-        <location line="-131"/>
-        <location line="+78"/>
-        <location line="+58"/>
         <source>SMPTE240M</source>
-        <translation type="unfinished">SMPTE240M</translation>
+        <translation type="obsolete">SMPTE240M</translation>
     </message>
     <message>
-        <location line="-131"/>
         <source>Film</source>
-        <translation type="unfinished">Film</translation>
+        <translation type="obsolete">Film</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+28"/>
         <source>Transfer Characteristics:</source>
         <translation type="unfinished">Caratteristiche di trasferimento:</translation>
     </message>
     <message>
-        <location line="+30"/>
         <source>Linear</source>
-        <translation type="unfinished">Lineare</translation>
+        <translation type="obsolete">Lineare</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>LOG100</source>
-        <translation type="unfinished">LOG100</translation>
+        <translation type="obsolete">LOG100</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>LOG316</source>
-        <translation type="unfinished">LOG316</translation>
+        <translation type="obsolete">LOG316</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>SMPTEL170M</source>
-        <translation type="unfinished">SMPTEL170M</translation>
+        <translation type="obsolete">SMPTEL170M</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -12898,22 +12907,19 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished">Matrice colore:</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>FCC</source>
-        <translation type="unfinished">FCC</translation>
+        <translation type="obsolete">FCC</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>GBR</source>
-        <translation type="unfinished">GBR</translation>
+        <translation type="obsolete">GBR</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>YCgCo</source>
-        <translation type="unfinished">YCgCo</translation>
+        <translation type="obsolete">YCgCo</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+724"/>
         <source>HRD Parameters:</source>
         <translation type="unfinished">Parametri HRD:</translation>
     </message>
