@@ -577,8 +577,6 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/x265_settings.h \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ffnvenc.h \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ADM_ffNvEnc.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/mpegMatrix.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.h \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/mpeg2_encoder.h \ 
@@ -702,8 +700,6 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/audiostrm.hpp \ 
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/ADM_inout.h \ 
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/padstrm.hpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/webm_muxer.h \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebm.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/TinyParams.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/modules/re/regexpr.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/PythonScriptWriter.h \ 
@@ -790,6 +786,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_audioEncoders/lavcodec/lavcodec_encoder.h \ 
 ../../../avidemux_plugins/ADM_audioEncoders/lavcodec/audioencoder_lavcodec.h \ 
 ../../../avidemux_plugins/ADM_audioEncoders/pcm/audioencoder_pcm.h \ 
+../../../avidemux_plugins/ADM_audioEncoders/pcm/pcm_encoder.h \ 
 ../../../avidemux_plugins/ADM_audioEncoders/dcaenc/dcaencoder.h \ 
 ../../../avidemux_plugins/ADM_audioEncoders/dcaenc/audioencoder_dcaenc.h \ 
 
@@ -1495,7 +1492,6 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4_encoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/ADM_xvid4.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4Dialog.cpp \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/utvideo_encoder.conf \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp \ 
@@ -1531,11 +1527,6 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/x265_settings_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/x265_settings_json.cpp \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ADM_ffNvEnc.cpp \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ffnvenc.conf \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ffnvenc_desc.cpp \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ffNvEncPlugin.cpp \ 
-../../../avidemux_plugins/ADM_videoEncoder/ffNvEncHEVC/ffnvenc_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ffMpeg2Plugin.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/mpeg2_encoder.conf \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp \ 
@@ -1721,11 +1712,6 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/videostrm_in.cpp \ 
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/ac3strm_in.cpp \ 
 ../../../avidemux_plugins/ADM_muxers/muxerMplex/mpastrm_in.cpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebmConfig.cpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebm.cpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/muxerWebmPlugin.cpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/webm_muxer_desc.cpp \ 
-../../../avidemux_plugins/ADM_muxers/muxerWebm/webm_muxer.conf \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/TinyParams.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemuxAudio.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/editor_gen.cpp \ 
@@ -1862,6 +1848,8 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_audioEncoders/lavcodec/ADM_lav_dts.cpp \ 
 ../../../avidemux_plugins/ADM_audioEncoders/lavcodec/audioencoder_lavcodec.cpp \ 
 ../../../avidemux_plugins/ADM_audioEncoders/pcm/audioencoder_pcm.cpp \ 
+../../../avidemux_plugins/ADM_audioEncoders/pcm/pcm_encoder.conf \ 
+../../../avidemux_plugins/ADM_audioEncoders/pcm/pcm_encoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_audioEncoders/dcaenc/audioencoder_dcaenc.cpp \ 
 ../../../avidemux_plugins/ADM_audioEncoders/dcaenc/dcaencoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_audioEncoders/dcaenc/dcaencoder_json.cpp \ 
