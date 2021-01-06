@@ -7733,7 +7733,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>на 270 градусів</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+108"/>
+        <source>Video track is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Audio track %d from %u is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Only MPEG-4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+208"/>
         <source>Saving PSP</source>
         <translation>Збереження у форматі PSP</translation>
     </message>
@@ -7794,7 +7809,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>90 кГц</translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="+11"/>
+        <source>MOV Muxer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-30"/>
         <source>Aspect Ratio (DAR)</source>
         <translation>Формат кадру (DAR)</translation>
     </message>
@@ -7804,12 +7824,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Форсувати співвідношення сторін</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-28"/>
         <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
-        <translation>Для відео підтримуються лише MPEG-1/2/4, H264, H265, AV1, DNxHD та ProRes</translation>
+        <translation type="vanished">Для відео підтримуються лише MPEG-1/2/4, H264, H265, AV1, DNxHD та ProRes</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+28"/>
+        <location line="+28"/>
         <source>180 kHz</source>
         <translation>180 кГц</translation>
     </message>
@@ -7823,25 +7842,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Оптимізувати для потокової передачі</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+4"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-7"/>
         <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
         <translation>Для відео підтримуються тільки MPEG-4, H.264, HEVC і AV1</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+9"/>
         <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
         <translation>Для аудіо підтримуються тільки AAC, AC3, E-AC3, MP2, MP3 і Vorbis</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+39"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+36"/>
         <source>MP4 Muxer</source>
         <translation>Мультиплексор MP4</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-33"/>
-        <location line="+4"/>
-        <location line="+24"/>
-        <location line="+4"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+5"/>
         <source>Unsupported</source>
         <translation>Не підтримується</translation>
     </message>
@@ -7850,7 +7866,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="vanished">Як аудіо підтримуються тільки AAC, AC3, E-AC3, LPCM, MP2, MP3 і Vorbis</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="-8"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="-5"/>
         <source>Time scale</source>
         <translation>Шкала часу</translation>
     </message>

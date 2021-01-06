@@ -470,12 +470,12 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+436"/>
         <source>_Profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Профиль:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Bitrate:</source>
-        <translation type="unfinished">_Битрейт</translation>
+        <translation>_Битрейт:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -766,12 +766,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+23"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
-        <translation type="unfinished">Поставить маркер A [CTRL+PAGEUP]</translation>
+        <translation>Поставить метку начала [CTRL+PAGEUP]</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
-        <translation type="unfinished">Поставить маркер B [CTRL+PAGEDOWN]</translation>
+        <translation>Поставить метку конца [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -831,17 +831,17 @@ Drop timing informations ?</source>
     <message>
         <location line="+57"/>
         <source>A:</source>
-        <translation type="unfinished">A:</translation>
+        <translation>A:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>B:</source>
-        <translation type="unfinished">B:</translation>
+        <translation>B:</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Go to marker A [PAGE UP]</source>
-        <translation type="unfinished">Перейти к маркеру A [PAGE UP]</translation>
+        <translation>Перейти к метке A [PAGE UP]</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -852,7 +852,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-3"/>
         <source>Go to Marker B [PAGE DOWN]</source>
-        <translation type="unfinished">Перейти к маркеру B [PAGE DOWN]</translation>
+        <translation>Перейти к метке B [PAGE DOWN]</translation>
     </message>
     <message>
         <location line="+258"/>
@@ -1096,12 +1096,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Re_verse UP and DOWN arrow keys for navigation</source>
-        <translation type="unfinished">_Обратить действие клавиш UP и DOWN при навигации</translation>
+        <translation>_Обратить действие клавиш UP и DOWN при навигации</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
-        <translation type="unfinished"></translation>
+        <translation>_Менять при необходимости местами значения меток выборки вместо сброса ранее поставленной метки</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1383,12 +1383,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+8"/>
         <source>Set Marker A</source>
-        <translation type="unfinished">Установить маркер А</translation>
+        <translation>Поставить метку А</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set Marker B</source>
-        <translation type="unfinished">Установить маркер В</translation>
+        <translation>Поставить метку B</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2342,7 +2342,7 @@ Is it running ?</source>
     <message>
         <location line="+5"/>
         <source>Reset Markers</source>
-        <translation>Сброс маркеров</translation>
+        <translation>Сброс меток выборки</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2433,12 +2433,12 @@ Is it running ?</source>
     <message>
         <location line="+2"/>
         <source>Go To Marker A</source>
-        <translation type="unfinished">Перейти к маркеру A</translation>
+        <translation>Перейти к метке A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go To Marker B</source>
-        <translation type="unfinished">Перейти к маркеру B</translation>
+        <translation>Перейти к метке B</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6666,12 +6666,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>use Qt version</source>
-        <translation type="unfinished">использовать версию Qt</translation>
+        <translation>Использовать приложение на Qt</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Quit</source>
-        <translation type="unfinished">Выйти</translation>
+        <translation>Выйти</translation>
     </message>
 </context>
 <context>
@@ -7230,17 +7230,18 @@ I will assume it has and try to continue</source>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+84"/>
         <source>Unsupported Video.
 Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Несовместимое видео.
+Только VP8/VP9/AV1 поддерживаются как видео и Vorbis/Opus как аудио</translation>
     </message>
     <message>
         <location line="+136"/>
         <source>Saving WebM</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранение в формате WebM</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Saving Mkv</source>
-        <translation type="unfinished">Сохранение в MKV</translation>
+        <translation>Сохранение в формате MKV</translation>
     </message>
     <message>
         <source>Force display width</source>
@@ -7257,7 +7258,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkvConfig.cpp" line="+33"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>Производный ширины изображения</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7351,12 +7352,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>1: Limited</source>
-        <translation type="unfinished"></translation>
+        <translation>1: Ограниченный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2: Full</source>
-        <translation type="unfinished"></translation>
+        <translation>2: Расширенный</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -7477,22 +7478,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+8"/>
         <source>Force aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Форсировать соотношение сторон</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Display width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина изображения:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Aspect Ratio (DAR):</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат кадра (DAR):</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Add color info</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить сведения о цветовых свойствах</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7502,7 +7503,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Диапазон:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7517,22 +7518,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+8"/>
         <source>Basic Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Общие настройки</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Дополнительные настройки</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>WebM Muxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Мультиплексор WebM</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>MKV Muxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Мультиплексор MKV</translation>
     </message>
 </context>
 <context>
@@ -7622,53 +7623,44 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+104"/>
-        <location line="+4"/>
-        <location line="+24"/>
-        <location line="+4"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+157"/>
         <source>Unsupported</source>
         <translation>Не поддерживается</translation>
     </message>
     <message>
-        <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
-        <translation type="vanished">Как видео поддерживаются только MPEG-4, H.264, HEVC и AV1</translation>
+        <location line="-49"/>
+        <source>Video track is incompatible</source>
+        <translation>Видеодорожка несовместима</translation>
     </message>
     <message>
-        <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="vanished">Как аудио поддерживаются только AAC, AC3, E-AC3, LPCM, MP2, MP3 и Vorbis</translation>
+        <location line="+21"/>
+        <source>Audio track %d from %u is incompatible</source>
+        <translation>Звуковая дорожка %d из %u несовместима</translation>
     </message>
     <message>
-        <source>Incompatible Format</source>
-        <translation type="vanished">Несовместимый формат</translation>
+        <location line="+12"/>
+        <source>Only MPEG-4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
+        <translation>Только MPEG-4, H264, H265, AV1, DNxHD и ProRes поддерживаются как видео</translation>
     </message>
     <message>
-        <source>PSP format is incompatible with LPCM audio</source>
-        <translation type="vanished">Формат PSP несовместим с аудиокодеком LPCM</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+2"/>
         <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
-        <translation type="unfinished"></translation>
+        <translation>Только MPEG-1/2/4, H264, H265 и AV1 поддерживаются как видео</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+7"/>
         <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Только AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 и Vorbis поддерживаются как аудио</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
         <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Только AAC, AC3, DTS, E-AC3, MP2, MP3 и Vorbis поддерживаются как аудио</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+196"/>
         <source>Saving mp4</source>
-        <translation>Сохранение как MP4</translation>
+        <translation>Сохранение в формате MP4</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7678,7 +7670,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранение в формате MOV</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -7715,7 +7707,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+6"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>Производный ширины изображения</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7725,7 +7717,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Display Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина изображения</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7799,6 +7791,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     </message>
     <message>
         <location line="+8"/>
+        <source>MOV Muxer</source>
+        <translation>Мультиплексор MOV</translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>MP4 Muxer</source>
         <translation>Мультиплексор MP4</translation>
     </message>
@@ -8087,22 +8084,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/pcm/audioencoder_pcm.cpp" line="+205"/>
         <source>PCM</source>
-        <translation type="unfinished"></translation>
+        <translation>PCM</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>LPCM</source>
-        <translation type="unfinished"></translation>
+        <translation>LPCM</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Output format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат на выход:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>PCM Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка кодировщика PCM</translation>
     </message>
 </context>
 <context>
@@ -8226,18 +8223,19 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+243"/>
         <source>Indexing</source>
-        <translation type="unfinished">Индексирование</translation>
+        <translation>Индексирование</translation>
     </message>
     <message>
         <location line="-32"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
-        <translation type="unfinished">Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
+        <translation>Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_ps.cpp" line="+78"/>
         <source>This file&apos;s index has been created with an older version of avidemux.
 The file must be re-indexed. Proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот файл был индексирован более старой версией Авидемукса.
+Файл необходимо переиндексировать. Продолжить?</translation>
     </message>
 </context>
 <context>
@@ -8404,12 +8402,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Set start marker</source>
-        <translation>Поставить маркер A</translation>
+        <translation>Поставить метку A</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Set end marker</source>
-        <translation>Поставить маркер B</translation>
+        <translation>Поставить метку B</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -8424,12 +8422,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Go to marker A</source>
-        <translation>Перейти к маркеру A</translation>
+        <translation>Перейти к метке A</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to marker B</source>
-        <translation>Перейти к маркеру B</translation>
+        <translation>Перейти к метке B</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -8909,22 +8907,22 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRawConfig.cpp" line="+29"/>
         <source>Prefer Annex B type stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Предпочитать видеопоток типа Annex B</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Video Only Muxer Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки мультиплексора Video Only</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
         <source>Saving raw video</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранение чистого видеопотока</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>без контейнера</translation>
     </message>
 </context>
 <context>
@@ -9778,7 +9776,7 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+335"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
-        <translation type="unfinished">Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
+        <translation>Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -9786,23 +9784,24 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+19"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexVC1.cpp" line="+74"/>
         <source>Indexing</source>
-        <translation type="unfinished">Индексирование</translation>
+        <translation>Индексирование</translation>
     </message>
     <message>
         <location line="+160"/>
         <source>Size Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменение разрешения</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешение видео изменяется при кадре %u с %ux%u на %ux%u. Это не поддерживается, индексирование прекращено.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+84"/>
         <source>This file&apos;s index has been created with an older version of avidemux.
 The file must be re-indexed. Proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот файл был индексирован более старой версией Авидемукса.
+Файл необходимо переиндексировать. Продолжить?</translation>
     </message>
 </context>
 <context>

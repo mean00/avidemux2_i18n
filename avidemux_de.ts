@@ -7602,68 +7602,59 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+104"/>
-        <location line="+4"/>
-        <location line="+24"/>
-        <location line="+4"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+157"/>
         <source>Unsupported</source>
         <translation>Nicht unterstütztes Format</translation>
     </message>
     <message>
-        <source>Only MP4Video, H264, H265 and AV1 supported for video</source>
-        <translation type="vanished">Nur MPEG-4, H.264, HEVC und AV1 können als Video verwendet werden</translation>
+        <location line="-49"/>
+        <source>Video track is incompatible</source>
+        <translation>Videospur ist inkompatibel</translation>
     </message>
     <message>
-        <source>Only AAC, AC3, E-AC3, LPCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="vanished">Nur AAC, AC3, E-AC3, LPCM, MP2, MP3 und Vorbis können als Audio verwendet werden</translation>
+        <location line="+21"/>
+        <source>Audio track %d from %u is incompatible</source>
+        <translation>Tonspur %d von %u ist inkompatibel</translation>
     </message>
     <message>
-        <source>Incompatible Format</source>
-        <translation type="vanished">Inkompatibles Format</translation>
+        <location line="+12"/>
+        <source>Only MPEG-4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
+        <translation>Nur MPEG-4, H264, H265, AV1, DNxHD und ProRes werden als Video unterstützt</translation>
     </message>
     <message>
-        <source>PSP format is incompatible with LPCM audio</source>
-        <translation type="vanished">Format PSP kann nicht mit LPCM Audio verwendet werden</translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+2"/>
         <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur MPEG-1/2/4, H264, H265 und AV1 werden als Video unterstützt</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+7"/>
         <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 und Vorbis werden als Audio unterstützt</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
         <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Nur AAC, AC3, DTS, E-AC3, MP3, MP3 und Vorbis werden als Audio unterstützt</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+196"/>
         <source>Saving mp4</source>
         <translation>Speichere mp4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Saving PSP</source>
-        <translation>Speichere PSP</translation>
+        <translation>PSP wird gespeichert</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
-        <translation type="unfinished"></translation>
+        <translation>MOV wird gespeichert</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
         <source>Muxing Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgabeformat</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7695,7 +7686,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+6"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>Abgeleitet von der Anzeigebreite</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7705,7 +7696,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+1"/>
         <source>Display Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Anzeigebreite</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7779,8 +7770,13 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     </message>
     <message>
         <location line="+8"/>
+        <source>MOV Muxer</source>
+        <translation>MOV Muxer</translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>MP4 Muxer</source>
-        <translation type="unfinished"></translation>
+        <translation>MP4 Muxer</translation>
     </message>
 </context>
 <context>
