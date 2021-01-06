@@ -7634,7 +7634,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Audio track %d from %u is incompatible</source>
+        <source>Audio track %d out of %u is incompatible</source>
         <translation>Звуковая дорожка %d из %u несовместима</translation>
     </message>
     <message>

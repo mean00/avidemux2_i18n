@@ -7613,7 +7613,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     </message>
     <message>
         <location line="+21"/>
-        <source>Audio track %d from %u is incompatible</source>
+        <source>Audio track %d out of %u is incompatible</source>
         <translation>Tonspur %d von %u ist inkompatibel</translation>
     </message>
     <message>
