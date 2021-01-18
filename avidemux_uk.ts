@@ -1015,7 +1015,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
+        <source>© 2001 - 2021  Mean / eumagga0x2a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1151,7 +1151,7 @@ Drop timing informations ?</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1911"/>
+        <location filename="../../common/gui_main.cpp" line="+1921"/>
         <source>Oops</source>
         <translation>Попередження</translation>
     </message>
@@ -1257,7 +1257,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+678"/>
-        <location line="+43"/>
+        <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
@@ -1358,7 +1358,7 @@ Installation mismatch</source>
         <translation>Увімкнути 3DNOWEXT</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-837"/>
+        <location filename="../../common/gui_main.cpp" line="-847"/>
         <source>Codec or codec settings across the deletion do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
@@ -1379,7 +1379,7 @@ Proceed anyway?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+718"/>
+        <location filename="../../common/gui_main.cpp" line="+728"/>
         <source>Main Audio Track</source>
         <translation>Головна звукова доріжка</translation>
     </message>
@@ -1389,7 +1389,7 @@ Proceed anyway?</source>
         <translation>Значення зсуву (мс):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-760"/>
+        <location filename="../../common/gui_main.cpp" line="-770"/>
         <source>Error while cutting out.</source>
         <translation>Помилка обрізки</translation>
     </message>
@@ -1414,7 +1414,7 @@ Proceed anyway?</source>
         <translation>Занадто коротко</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+656"/>
+        <location filename="../../common/gui_main.cpp" line="+666"/>
         <source>Marker A &gt; B</source>
         <translation>Мітка A&gt; B</translation>
     </message>
@@ -1498,7 +1498,7 @@ It is needed to create PSP compatible video.</source>
         <translation>__невідомо__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1731"/>
+        <location filename="../../common/gui_main.cpp" line="-1741"/>
         <source>Select script to run</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
@@ -1533,7 +1533,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Додатки аудіопристроїв</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1222"/>
+        <location filename="../../common/gui_main.cpp" line="+1232"/>
         <source>Something bad happened</source>
         <translation>Помилка при відкритті файлу для запису</translation>
     </message>
@@ -1589,7 +1589,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Перевищена квота</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1169"/>
+        <location filename="../../common/gui_main.cpp" line="-1179"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Утворилися точки розрізу вставки при збереженні відео в режимі копіювання можуть призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1695,7 +1695,7 @@ Warning, the settings must be close.</source>
         <translation>Додатки декодерів відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1144"/>
+        <location filename="../../common/gui_main.cpp" line="+1154"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>Неможливо встановити мову аудіо: відео не завантажене!</translation>
     </message>
@@ -1759,7 +1759,7 @@ Installation mismatch</source>
         <translation>Не вдається встановити кодер для першого проходу. Конфігурація, надана кодеру, може бути несумісною, або кодер може залежати від функцій, недоступних у цій системі.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-821"/>
+        <location filename="../../common/gui_main.cpp" line="-831"/>
         <source>Cut points could not be checked.
 This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Proceed anyway?</source>
@@ -1777,7 +1777,7 @@ Proceed anyway?</source>
         <translation>Розмір GOP</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+144"/>
+        <location filename="../../common/gui_main.cpp" line="+154"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
         <translation>Спробуйте &quot;Файл-&gt;Завантажити/Запустити проект...&quot;</translation>
     </message>
@@ -1812,12 +1812,12 @@ Proceed anyway?</source>
         <translation>Фільтри аудіо</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1087"/>
+        <location filename="../../common/gui_main.cpp" line="-1097"/>
         <source>It is impossible to cut out the entire video. Please recheck the position of markers A and B.</source>
         <translation>Вирізати відео цілком неприпустимо. Будь ласка, перевірте положення міток A і B.</translation>
     </message>
     <message>
-        <location line="+170"/>
+        <location line="+180"/>
         <source>Permission error</source>
         <translation>Помилка прав доступу</translation>
     </message>
@@ -1843,7 +1843,7 @@ Installation mismatch</source>
         <translation>Установка мови доріжки неможлива: невірний: Відео не має аудіофайлу!</translation>
     </message>
     <message>
-        <location line="-846"/>
+        <location line="-856"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the deletion may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки видалення при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1921,7 +1921,7 @@ Proceed anyway?</source>
         <translation>Ігнорувати</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+618"/>
+        <location filename="../../common/gui_main.cpp" line="+628"/>
         <source>No error found</source>
         <translation>Помилки не знайдені</translation>
     </message>
@@ -1992,7 +1992,7 @@ Proceed anyway?</source>
         <translation>Назва операції</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-612"/>
+        <location filename="../../common/gui_main.cpp" line="-622"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the cut may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки вирізу при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -2035,7 +2035,7 @@ Proceed anyway?</source>
         <translation>Вихідні дані</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1000"/>
+        <location filename="../../common/gui_main.cpp" line="+1010"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Неможливо з&apos;єднатися з AvsProxy.
@@ -2057,8 +2057,8 @@ Is it running ?</source>
         <translation>Ремікс:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-43"/>
-        <location line="+43"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-49"/>
+        <location line="+49"/>
         <source>You cannot remove *all* the video
 </source>
         <translation>Не можна видалити всі відео</translation>
@@ -2085,7 +2085,7 @@ Is it running ?</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1169"/>
+        <location filename="../../common/gui_main.cpp" line="-1179"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2125,7 +2125,7 @@ Try anyway?</source>
         <translation>Перший кадр</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+699"/>
+        <location filename="../../common/gui_main.cpp" line="+709"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>Неможливо відкрити &quot;%s&quot;.</translation>
     </message>
@@ -2223,7 +2223,7 @@ Try anyway?</source>
         <translation>Без змін</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-628"/>
+        <location filename="../../common/gui_main.cpp" line="-638"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>Ви намагаєтеся очистити список недавно відкритих файлів і проектів. Цей крок незворотній. Продовжити?</translation>
     </message>
@@ -2244,7 +2244,7 @@ Try anyway?</source>
         <translation>Немає рушія</translation>
     </message>
     <message>
-        <location line="+481"/>
+        <location line="+491"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; не існує.</translation>
     </message>
@@ -2765,7 +2765,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Дуже високий</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1393"/>
+        <location filename="../../common/gui_main.cpp" line="-1403"/>
         <source>Select script/project to run</source>
         <translation>Вибрати скрипт/проект для запуску</translation>
     </message>
@@ -2835,7 +2835,7 @@ Installation mismatch</source>
         <translation>_Вертикальний деблокинг</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+602"/>
+        <location filename="../../common/gui_main.cpp" line="+612"/>
         <source>Errors found in %u frames</source>
         <translation>Знайдено помилки в %u кадрах</translation>
     </message>
@@ -2870,7 +2870,7 @@ Installation mismatch</source>
         <translation>Ці параметри діють тільки для програмного декодування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-661"/>
+        <location filename="../../common/gui_main.cpp" line="-671"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Обрізка</translation>
@@ -2985,7 +2985,7 @@ Installation mismatch</source>
         <translation>Рівень повідомлень:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+661"/>
+        <location filename="../../common/gui_main.cpp" line="+671"/>
         <source>You can&apos;t remove all frames</source>
         <translation>Ви не можете видалити всі кадри.</translation>
     </message>
@@ -3000,7 +3000,7 @@ Installation mismatch</source>
         <translation>Увімкнути підтримку OpenGL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-988"/>
+        <location filename="../../common/gui_main.cpp" line="-998"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>Скрипт tinyPy не увімкнений в цю збірку</translation>
     </message>
@@ -3086,7 +3086,7 @@ Install lame plugin</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1036"/>
+        <location filename="../../common/gui_main.cpp" line="+1046"/>
         <source>_Track from video:</source>
         <translation>Доріжка:</translation>
     </message>
@@ -3164,7 +3164,7 @@ Install lame plugin</source>
         <translation>Режим VHQ</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-782"/>
+        <location filename="../../common/gui_main.cpp" line="-792"/>
         <source>The end point of the cut is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -3256,12 +3256,12 @@ Proceed anyway?</source>
         <translation>2 проходи</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+328"/>
+        <location filename="../../common/gui_main.cpp" line="+338"/>
         <source>Could not open the file</source>
         <translation>Неможливо відкрити файл</translation>
     </message>
     <message>
-        <location line="-211"/>
+        <location line="-221"/>
         <source>It is impossible to delete the entire video. Please recheck the position of markers A and B.</source>
         <translation>Видалити Відео цілком неприпустимо. Будь ласка, перевірте позиції міток A і B.</translation>
     </message>
@@ -3320,7 +3320,7 @@ Try anyway?</source>
         <translation>XVideo (найкраще)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+602"/>
+        <location filename="../../common/gui_main.cpp" line="+612"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -3399,7 +3399,7 @@ Expect problems.</source>
         <translation>Внутрішня помилка відкриття 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-912"/>
+        <location filename="../../common/gui_main.cpp" line="-922"/>
         <source>Are you sure?</source>
         <translation>Ви впевнені?</translation>
     </message>
@@ -3505,29 +3505,41 @@ Expect problems.</source>
 <context>
     <name>asharpDialog</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+124"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+71"/>
+        <source>High quality block filtering</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Threshold</source>
         <translation>Поріг</translation>
     </message>
     <message>
-        <location line="-47"/>
-        <source>Unknown flag</source>
-        <translation>Невідомий прапор</translation>
+        <location line="+87"/>
+        <source>Adaptive strength</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="+7"/>
+        <source>Block adaptive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unknown flag</source>
+        <translation type="vanished">Невідомий прапор</translation>
+    </message>
+    <message>
+        <location line="-198"/>
         <source>ASharp</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+123"/>
         <source>Strength</source>
-        <translation>Сила</translation>
+        <translation type="vanished">Сила</translation>
     </message>
     <message>
-        <location line="-33"/>
         <source>Block Adaptative</source>
-        <translation>Блок адаптації</translation>
+        <translation type="vanished">Блок адаптації</translation>
     </message>
 </context>
 <context>
@@ -4275,7 +4287,7 @@ Do you want to load it  ?
         <translation>Кадрування</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+345"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
         <source>Size: </source>
         <translation>Розмір: </translation>
     </message>
@@ -4285,7 +4297,7 @@ Do you want to load it  ?
         <translation>Фільтр кадрування</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+24"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Попередження: ширина занадто сильно обрізана! Її значення відновлено!
@@ -4337,8 +4349,13 @@ Do you want to load it  ?
         <translation>Розмір: </translation>
     </message>
     <message>
+        <location line="+36"/>
+        <source>Keep aspect ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="+71"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-51"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-87"/>
         <source>Bottom:</source>
         <translation>Знизу:</translation>
     </message>
@@ -4727,7 +4744,7 @@ Do you want to load it  ?
 <context>
     <name>eq2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+52"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+59"/>
         <source>Reset</source>
         <translation>Скидання</translation>
     </message>
@@ -4789,6 +4806,11 @@ Do you want to load it  ?
         <location line="+7"/>
         <source>Brightness</source>
         <translation>Яскравість</translation>
+    </message>
+    <message>
+        <location line="+219"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7733,7 +7755,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>на 270 градусів</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+108"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+107"/>
         <source>Video track is incompatible</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8050,12 +8072,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Пороги</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+7"/>
         <source>HighQuality</source>
         <translation>Висока якість</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="+50"/>
+        <source>Process chroma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-67"/>
         <source>Strength</source>
         <translation>Сила</translation>
     </message>
@@ -8739,12 +8766,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Додати</translation>
     </message>
     <message>
-        <location line="+174"/>
+        <location line="+177"/>
         <source>Save video filters..</source>
         <translation>Зберегти фільтри відео...</translation>
     </message>
     <message>
-        <location line="-274"/>
+        <location line="-277"/>
         <source>Make partial</source>
         <translation>Зробити частковим</translation>
     </message>
@@ -8765,12 +8792,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Видалити</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>Press %s to accept the dialog</source>
         <translation>Натисніть %s, щоб прийняти діалогове вікно</translation>
     </message>
     <message>
-        <location line="-289"/>
+        <location line="-290"/>
         <source>Partial</source>
         <translation>Часткове накладення</translation>
     </message>
@@ -8780,12 +8807,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перемістити вниз</translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+265"/>
         <source>Load video filters..</source>
         <translation>Завантажити фільтри відео...</translation>
     </message>
     <message>
-        <location line="-408"/>
+        <location line="-411"/>
         <source>This filter cannot be made partial</source>
         <translation>Цей фільтр не може бути застосований тільки до частини відео</translation>
     </message>
@@ -9158,7 +9185,7 @@ Ready.
         <translation>Змінити розмір за допомогою swScale.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+326"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
         <source>Width and height cannot be odd</source>
         <translation>Ширина і висота не можуть бути непарними</translation>
     </message>
@@ -9171,162 +9198,26 @@ Ready.
 <context>
     <name>resizeDialog</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+63"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+63"/>
-        <location line="+42"/>
-        <source>1:1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <source>4:3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-37"/>
-        <location line="+42"/>
-        <source>16:9</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-18"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-18"/>
         <source>Destination:</source>
-        <translation>Приймач:</translation>
+        <translation type="vanished">Приймач:</translation>
     </message>
     <message>
-        <location line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+356"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+356"/>
-        <source>Lanzcos3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+420"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-10"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-10"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+543"/>
         <source>Bilinear</source>
         <translation>Білінійний</translation>
     </message>
     <message>
-        <location line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-66"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-66"/>
+        <location line="-75"/>
         <source>Error X / Y:</source>
         <translation>Помилка X/Y:</translation>
     </message>
     <message>
-        <location line="-317"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-340"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-340"/>
+        <location line="-412"/>
         <source>Lock Aspect Ratio</source>
         <translation>Фіксувати співвідношення сторін</translation>
     </message>
     <message>
-        <location line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-12"/>
+        <location line="-21"/>
         <source>Aspect Ratio</source>
         <translation>Співвідношення сторін</translation>
     </message>
@@ -9335,37 +9226,17 @@ Ready.
         <translation type="vanished">0,00/0,00</translation>
     </message>
     <message>
-        <location line="+405"/>
+        <location line="+518"/>
         <source>Lanczos-3</source>
         <translation>Ланчош-3</translation>
     </message>
     <message>
-        <location line="-417"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-12"/>
+        <location line="-539"/>
         <source>Resize</source>
         <translation>Змінити розмір</translation>
     </message>
     <message>
-        <location line="+125"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+148"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+148"/>
+        <location line="+170"/>
         <source>Width:</source>
         <translation>Ширина:</translation>
     </message>
@@ -9374,167 +9245,82 @@ Ready.
         <translation type="vanished">Помилка X/Y:</translation>
     </message>
     <message>
-        <location line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+146"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+146"/>
+        <location line="+205"/>
         <source>Percent</source>
         <translation>Відсоток</translation>
     </message>
     <message>
-        <location line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+141"/>
+        <location line="+159"/>
         <source>Bicubic</source>
         <translation>Бікубічний</translation>
     </message>
     <message>
-        <location line="-373"/>
+        <location line="-468"/>
         <source>Source PAR:</source>
         <translation>PAR на вході:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-393"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-393"/>
         <source>Source:</source>
-        <translation>Джерело:</translation>
+        <translation type="vanished">Джерело:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+8"/>
+        <location line="+8"/>
         <location line="+32"/>
         <source>1:1 (square pixels)</source>
         <translation>1: 1 (квадратні пікселі)</translation>
     </message>
     <message>
-        <location line="+117"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+177"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+177"/>
+        <location line="+145"/>
         <source>Round to the Nearest Multiple of 16</source>
         <translation>Округлити до найближчого кратного 16</translation>
     </message>
     <message>
-        <location line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="-91"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="-91"/>
+        <location line="-119"/>
         <source>Resize Dimensions</source>
         <translation>Розміри на виході</translation>
     </message>
     <message>
-        <location line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+56"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+56"/>
+        <location line="+74"/>
         <source>Height:</source>
         <translation>Висота:</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-108"/>
         <source>Destination PAR:</source>
         <translation>PAR на виході:</translation>
     </message>
     <message>
-        <location line="+180"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+90"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+90"/>
+        <location line="+148"/>
+        <source>No rounding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Round to the Nearest Multiple of 8</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Round to the Nearest Multiple of 4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+94"/>
         <source>1%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+40"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+40"/>
         <source>200%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+57"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+57"/>
+        <location line="+66"/>
         <source>0.00 / 0.00</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui" line="+51"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui" line="+51"/>
+        <location line="+60"/>
         <source>Resize Method:</source>
         <translation>Метод зміни розміру:</translation>
     </message>

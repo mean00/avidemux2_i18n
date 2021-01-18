@@ -1876,16 +1876,6 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/x264CustomMatrixDialog.ui \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265CustomMatrixDialog.ui \ 
 ../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glYadif/glYadif.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glVdpau/ADM_vf_vdpauGl.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.ui \ 
-../../../avidemux_plugins/ADM_videoFilters6_openGl/glRotate/rotateGl.ui \ 
 ../../../avidemux/qt4/ADM_jobs/src/uiProgress.ui \ 
 ../../../avidemux/qt4/ADM_jobs/src/uiJobs.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_filters/mainfilter.ui \ 
