@@ -1187,7 +1187,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+534"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+540"/>
         <location line="+3"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
@@ -1642,7 +1642,7 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-234"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-239"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
@@ -1722,12 +1722,17 @@ Drop timinginformationer?</translation>
         <translation>_lavc-tråde:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Multi-threading</source>
         <translation>Multi-trådning</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>High</source>
         <translation>Høj</translation>
@@ -2039,7 +2044,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+72"/>
         <source>Are you sure?</source>
         <translation>Er du sikker?</translation>
     </message>
@@ -2625,7 +2630,7 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-289"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-295"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
@@ -2660,7 +2665,12 @@ Kører den?</translation>
         <translation>Hvis du bruger hardwaredekodning, så er det bedre at bruge den matchende skærmdriver</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+2"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Tilbagefør til gemte standardoutputindstillinger når video indlæses</translation>
     </message>
@@ -2670,7 +2680,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+69"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2815,7 +2825,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1466"/>
+        <location filename="../../common/gui_main.cpp" line="-1478"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2851,7 +2861,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Vælg videofil som skal føjes til slutning...</translation>
     </message>
     <message>
-        <location line="+255"/>
+        <location line="+267"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Klipper</translation>
@@ -3365,17 +3375,17 @@ Try anyway?</source>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Codec</source>
         <translation>Codec</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Intern fejl ved forsøg på at finde codec 0x%x</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Internal error opening 0x%x</source>
         <translation>Intern fejl ved åbning af 0x%x</translation>
     </message>
@@ -4267,7 +4277,7 @@ Vil du indlæse den?
         <translation>Beskæringsfilter</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+25"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Advarsel! Klipper for meget bredde! Bredde nulstillet!
@@ -4281,7 +4291,7 @@ Vil du indlæse den?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+538"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4343,6 +4353,46 @@ Vil du indlæse den?
     <message>
         <location line="+10"/>
         <source>Keep aspect ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5871,7 +5921,7 @@ Vil du indlæse den?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+151"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Gemmer MPEG TS (ff)</translation>
     </message>
@@ -7248,7 +7298,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+138"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8001,6 +8051,54 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+79"/>
         <source>Error</source>
         <translation>Fejl</translation>
+    </message>
+</context>
+<context>
+    <name>negative</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
+        <source>Negative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert Y,U or V plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+108"/>
+        <source>Invert Y Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process luma plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert U Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaU plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert V Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaV plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invert plane</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9053,7 +9151,7 @@ Ready.
         <translation>sw skalering tilpas størrelse.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+336"/>
         <source>Width and height cannot be odd</source>
         <translation>Bredde og højde kan ikke være ulige</translation>
     </message>
@@ -9568,11 +9666,13 @@ Ready.
     </message>
     <message>
         <location line="+160"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
         <source>Size Change</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1095,7 +1095,12 @@ Drop timing informations ?</source>
         <translation>Αγνόηση της μαύρης λίστας του κωδικοποιητή (Intel, HEVC 10bit)</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+10"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Επαναφορά στις προεπιλεγμένες ρυθμίσεις εξόδου του βίντεο, κατά τη φόρτωση του αρχείου</translation>
     </message>
@@ -1170,12 +1175,17 @@ Drop timing informations ?</source>
         <translation>_Νήματα lavc:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Multi-threading</source>
         <translation>Πολυνημάτωση</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Υψηλή</translation>
@@ -1625,7 +1635,7 @@ Try anyway?</source>
 Να γίνει προσπάθεια ούτως ή άλλως;</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+72"/>
         <source>Are you sure?</source>
         <translation>Είστε σίγουρος/η;</translation>
     </message>
@@ -2143,7 +2153,7 @@ Is it running ?</source>
         <translation>_Απόπλεξη (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-172"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-178"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VDPAU (NVIDIA)</translation>
     </message>
@@ -2158,17 +2168,17 @@ Is it running ?</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VideoToolbox (macOS)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Enable openGl support</source>
         <translation>Ενεργοποίηση της υποστήριξης openGl</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-4"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Αν χρησιμοποιείτε την αποκωδικοποίηση μέσω υλικού, είναι καλύτερα να επιλέξετε και τον κατάλληλο οδηγό της συσκευής απεικόνισης</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Αποδοχή μη τυπικών συχνοτήτων ήχου για DVD</translation>
     </message>
@@ -2178,7 +2188,7 @@ Is it running ?</source>
         <translation>Έλεγ_χος για νέα έκδοση</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+79"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (κάλλιστη)</translation>
     </message>
@@ -2585,7 +2595,7 @@ It is needed to create PSP compatible video.</source>
 Είναι απαραίτητο για τη δημιουργία βίντεο συμβατό με PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1466"/>
+        <location filename="../../common/gui_main.cpp" line="-1478"/>
         <source>Select script/project to run</source>
         <translation>Επιλέξτε σενάριο ή εργασία για εκτέλεση</translation>
     </message>
@@ -2645,7 +2655,7 @@ Proceed anyway?</source>
 Να συνεχίσω, ούτως ή άλλως;</translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+136"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Γίνεται αποκοπή</translation>
@@ -3404,17 +3414,17 @@ Try anyway?</source>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Codec</source>
         <translation>Κωδικοποιητής</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Εσωτερικό σφάλμα στην εύρεση του κωδικοποιητή 0x%x</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Internal error opening 0x%x</source>
         <translation>Εσωτερικό σφάλμα στο άνοιγμα του 0x%x</translation>
     </message>
@@ -4321,7 +4331,7 @@ Do you want to load it  ?
         <translation>Φίλτρο περικοπής</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+25"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Προειδοποίηση : Υπερβολικά μεγάλη περικοπή κατά πλάτος. Έγινε επαναφορά του πλάτους!
@@ -4335,7 +4345,7 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+538"/>
         <source>Size: </source>
         <translation>Μέγεθος: </translation>
     </message>
@@ -4397,6 +4407,46 @@ Do you want to load it  ?
     <message>
         <location line="+10"/>
         <source>Keep aspect ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5937,7 +5987,7 @@ Do you want to load it  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+151"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Αποθηκεύεται το mpeg TS (ff)</translation>
     </message>
@@ -7314,7 +7364,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+138"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8087,6 +8137,54 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+79"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
+    </message>
+</context>
+<context>
+    <name>negative</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
+        <source>Negative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert Y,U or V plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+108"/>
+        <source>Invert Y Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process luma plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert U Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaU plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert V Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaV plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invert plane</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9133,7 +9231,7 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+336"/>
         <source>Width and height cannot be odd</source>
         <translation>Το πλάτος και το ύψος δεν μπορούν να είναι μονοί αριθμοί</translation>
     </message>
@@ -9662,11 +9760,13 @@ Ready.
     </message>
     <message>
         <location line="+160"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
         <source>Size Change</source>
         <translation>Αλλαγή μεγέθους</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation>Το μέγεθος του βίντεο αλλάζει στο στιγμιότυπο %u από %ux%u σε %ux%u. Αυτό δεν υποστηρίζεται· διακόπτεται εδώ.</translation>
     </message>

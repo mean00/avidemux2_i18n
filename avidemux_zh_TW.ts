@@ -1168,7 +1168,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+519"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+525"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1329,7 +1329,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1921"/>
+        <location filename="../../common/gui_main.cpp" line="+1933"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1339,7 +1339,7 @@ Drop timing informations ?</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-37"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-42"/>
         <source>SIMD</source>
         <translation>SIMD</translation>
     </message>
@@ -1417,7 +1417,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-86"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+217"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+222"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="-605"/>
@@ -1438,7 +1438,7 @@ It is needed to create FLV  video.</source>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Codec</source>
         <translation>編解碼器</translation>
     </message>
@@ -1582,7 +1582,7 @@ Installation mismatch</source>
         <translation>解碼器選項(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-135"/>
         <source>Enable 3DNOWEXT</source>
         <translation>啟用 3DNOWEXT</translation>
     </message>
@@ -1626,7 +1626,7 @@ Installation mismatch</source>
         <translation>不能增加工作 %s</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+129"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+134"/>
         <source>Pro Logic</source>
         <translation>定向邏輯</translation>
     </message>
@@ -1719,7 +1719,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1741"/>
+        <location filename="../../common/gui_main.cpp" line="-1753"/>
         <source>Select script to run</source>
         <translation>選擇腳本去執行</translation>
     </message>
@@ -1729,12 +1729,12 @@ Installation mismatch</source>
         <translation>沒降混合</translation>
     </message>
     <message>
-        <location line="-125"/>
+        <location line="-130"/>
         <source>Enable SSE2</source>
         <translation>啟用 SSE2</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-30"/>
         <source>Ignore driver blacklist (Intel)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1749,7 +1749,12 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+8"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1769,7 +1774,7 @@ Installation mismatch</source>
         <translation>外掛-音訊裝置(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1232"/>
+        <location filename="../../common/gui_main.cpp" line="+1244"/>
         <source>Something bad happened</source>
         <translation>有些事發生問題</translation>
     </message>
@@ -1789,7 +1794,7 @@ Installation mismatch</source>
         <translation>多音軌</translation>
     </message>
     <message>
-        <location line="-405"/>
+        <location line="-417"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -1815,7 +1820,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+108"/>
+        <location line="+120"/>
         <source>It is impossible to cut out the entire video. Please recheck the position of markers A and B.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1890,7 +1895,7 @@ Proceed anyway?</source>
         <translation>反轉向上和向下方向鍵進行導航</translation>
     </message>
     <message>
-        <location line="+90"/>
+        <location line="+95"/>
         <source>SDL (good)</source>
         <translation>SDL (好)</translation>
     </message>
@@ -1957,7 +1962,7 @@ Warning, the settings must be close.</source>
         <translation>高於一般</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-911"/>
+        <location filename="../../common/gui_main.cpp" line="-923"/>
         <source>Select script to save</source>
         <translation>選擇腳本去儲存</translation>
     </message>
@@ -1979,7 +1984,7 @@ Warning, the settings must be close.</source>
         <translation>選擇影片去附加合併(二影片寬高比要一致)...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-28"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-33"/>
         <source>Enable SSSE3</source>
         <translation>啟用 SSSE3</translation>
     </message>
@@ -1994,7 +1999,7 @@ Warning, the settings must be close.</source>
         <translation>外掛-影片解碼器(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1154"/>
+        <location filename="../../common/gui_main.cpp" line="+1166"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>無法設置音訊語言：仍然未載入影片！</translation>
     </message>
@@ -2004,7 +2009,7 @@ Warning, the settings must be close.</source>
         <translation>選擇音訊音軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+30"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+35"/>
         <source>Below normal</source>
         <translation>低於一般</translation>
     </message>
@@ -2024,7 +2029,7 @@ Warning, the settings must be close.</source>
         <translation>杜比定向邏輯</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-38"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-43"/>
         <source>Enable 3DNOW</source>
         <translation>啟用 3DNOW</translation>
     </message>
@@ -2121,7 +2126,7 @@ Installation mismatch</source>
         <translation>設定語言提供跟蹤索引是不可能的：影片有沒有音訊檔！</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+72"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
         <source>OpenGL (best)</source>
         <translation>OpenGL (最好)</translation>
     </message>
@@ -2154,7 +2159,7 @@ Installation mismatch</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1249"/>
+        <location filename="../../common/gui_main.cpp" line="-1261"/>
         <source>Not coded in this version</source>
         <translation>沒有編進這個版本</translation>
     </message>
@@ -2179,7 +2184,7 @@ Installation mismatch</source>
         <translation>忽略</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1009"/>
+        <location filename="../../common/gui_main.cpp" line="+1021"/>
         <source>No error found</source>
         <translation>沒有找到錯誤</translation>
     </message>
@@ -2200,7 +2205,7 @@ Installation mismatch</source>
         <translation>編解碼器錯誤</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>發現編解碼器內部錯誤</translation>
     </message>
@@ -2246,7 +2251,7 @@ Installation mismatch</source>
         <translation>清除最近使用的 檔案 及 專案</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-61"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-67"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>解碼影片使用 DXVA2 (windows)</translation>
     </message>
@@ -2256,7 +2261,7 @@ Installation mismatch</source>
         <translation>運動搜索精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+233"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+239"/>
         <source>Output</source>
         <translation>輸出</translation>
     </message>
@@ -2266,7 +2271,7 @@ Installation mismatch</source>
         <translation>不能建立流</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-209"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-214"/>
         <source>Enable all SIMD</source>
         <translation>啟用所有 SIMD</translation>
     </message>
@@ -2284,7 +2289,7 @@ Installation mismatch</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+150"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+155"/>
         <source>_AudioDevice</source>
         <translation>音訊裝置</translation>
     </message>
@@ -2310,7 +2315,7 @@ Installation mismatch</source>
         <translation>廣泛搜尋</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1195"/>
+        <location filename="../../common/gui_main.cpp" line="-1207"/>
         <source>Select script to debug</source>
         <translation>選擇腳本去除錯</translation>
     </message>
@@ -2345,7 +2350,7 @@ Installation mismatch</source>
         <translation>轉到第一幀(開始)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+709"/>
+        <location filename="../../common/gui_main.cpp" line="+721"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>無法開啟 &quot;%s&quot;。</translation>
     </message>
@@ -2454,7 +2459,7 @@ Installation mismatch</source>
         <translation>沒有改變</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-638"/>
+        <location filename="../../common/gui_main.cpp" line="-650"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>你是要清除最近使用的檔和專案的清單，這不&apos;能撤銷，是否繼續？</translation>
     </message>
@@ -2470,7 +2475,7 @@ Installation mismatch</source>
         <translation>沒有引擎</translation>
     </message>
     <message>
-        <location line="+491"/>
+        <location line="+503"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; 不存在。</translation>
     </message>
@@ -2485,7 +2490,7 @@ Installation mismatch</source>
         <translation>建立時間軸</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-133"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>解碼影片使用 VDPAU (NVIDIA)</translation>
     </message>
@@ -2516,7 +2521,7 @@ It is needed to create PSP compatible video.</source>
         <translation>外掛程式(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+87"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+93"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (最好)</translation>
     </message>
@@ -2591,12 +2596,12 @@ Do you want to continue anyway ?</source>
         <translation>另存 %s 為 BMP 檔失敗。</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-165"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-170"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>啟用備用的鍵盤快速鍵</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-10"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>解碼影片使用 LIBVA (INTEL)</translation>
     </message>
@@ -2606,7 +2611,7 @@ Do you want to continue anyway ?</source>
         <translation>使用影片載入器時無法開啟專案。</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+95"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+101"/>
         <source>LIBVA (best)</source>
         <translation>LIBVA (最好)</translation>
     </message>
@@ -2693,12 +2698,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>儲存工作</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-161"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
         <source>_Check for new release</source>
         <translation>檢查有新版本</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+37"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>_Indexing/unpacking priority:</source>
         <translation>索引/拆開打包的優先次序:</translation>
     </message>
@@ -2753,7 +2763,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>關鍵幀提高(%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-154"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-159"/>
         <source>Enable MMX</source>
         <translation>啟用 MMX</translation>
     </message>
@@ -2763,7 +2773,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>啟用 SSE</translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-20"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>如果你使用硬體解碼，最好使用匹配的顯示驅動程式</translation>
     </message>
@@ -2774,14 +2784,14 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>檔系統已滿</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+264"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+270"/>
         <location line="+3"/>
         <location line="+3"/>
         <source>HW Accel</source>
         <translation>HW 硬體加速器</translation>
     </message>
     <message>
-        <location line="-266"/>
+        <location line="-271"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>同意在 DVD 使用非標準的音訊頻率</translation>
     </message>
@@ -2821,7 +2831,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>不能使用該檔作為音訊軌道</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+43"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+48"/>
         <source>Prioritisation</source>
         <translation>優化</translation>
     </message>
@@ -2841,7 +2851,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>非常高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1403"/>
+        <location filename="../../common/gui_main.cpp" line="-1415"/>
         <source>Select script/project to run</source>
         <translation>選擇要執行的腳本/專案</translation>
     </message>
@@ -2903,7 +2913,7 @@ Installation mismatch</source>
         <translation>去除垂直方向塊狀色斑</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1227"/>
+        <location filename="../../common/gui_main.cpp" line="+1239"/>
         <source>Errors found in %u frames</source>
         <translation>在 %u 幀中發現錯誤</translation>
     </message>
@@ -2979,7 +2989,7 @@ Installation mismatch</source>
         <translation>前往時間點</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-215"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-216"/>
         <source>Multi-threading</source>
         <translation>多線程</translation>
     </message>
@@ -3009,7 +3019,7 @@ Installation mismatch</source>
         <translation>取消標記</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+238"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+239"/>
         <source>Default port to use</source>
         <translation>製作影片要使用預設埠(Avidemux)</translation>
     </message>
@@ -3029,12 +3039,12 @@ Installation mismatch</source>
         <translation>進階(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-135"/>
         <source>Enable openGl support</source>
         <translation>啟用openGl支援</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-998"/>
+        <location filename="../../common/gui_main.cpp" line="-1010"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>在生成中未啟用 tinyPy 腳本</translation>
     </message>
@@ -3080,7 +3090,7 @@ Installation mismatch</source>
         <translation>取消編輯(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1313"/>
+        <location filename="../../common/gui_main.cpp" line="+1325"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>無法連線到 avs代理，
@@ -3114,7 +3124,7 @@ Install lame plugin</source>
         <translation>另存圖片(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+287"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+292"/>
         <location line="+3"/>
         <source>Preferences</source>
         <translation>首選項-偏好設定</translation>
@@ -3158,7 +3168,7 @@ Install lame plugin</source>
         <translation>濾鏡器(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-250"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-255"/>
         <source>_lavc threads:</source>
         <translation>lavc 線程:</translation>
     </message>
@@ -3173,7 +3183,7 @@ Install lame plugin</source>
         <translation>灰階</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+200"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+205"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>重整速率上限 (ms)</translation>
     </message>
@@ -3368,7 +3378,7 @@ Expect problems.</source>
         <translation>工作清單</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+41"/>
         <source>Internal error opening 0x%x</source>
         <translation>內部開啟錯誤中 0x%x</translation>
     </message>
@@ -4258,7 +4268,7 @@ Do you want to load it  ?
         <translation>裁剪濾鏡</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+25"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>重定的寬度！裁剪太多寬度的警告！
@@ -4272,7 +4282,7 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+538"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4334,6 +4344,46 @@ Do you want to load it  ?
     <message>
         <location line="+10"/>
         <source>Keep aspect ratio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5877,7 +5927,7 @@ Do you want to load it  ?
         <translation>VBR 複合</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+151"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>儲存 mpeg TS (ff)</translation>
     </message>
@@ -7238,7 +7288,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+138"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7991,6 +8041,54 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="-67"/>
         <source>Cannot go to next keyframe</source>
         <translation>轉到下一幀(關鍵幀或I幀)</translation>
+    </message>
+</context>
+<context>
+    <name>negative</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
+        <source>Negative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert Y,U or V plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+108"/>
+        <source>Invert Y Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process luma plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert U Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaU plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert V Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaV plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invert plane</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9036,7 +9134,7 @@ Ready.
         <translation>調整比例像素大小。</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+336"/>
         <source>Width and height cannot be odd</source>
         <translation>寬度和高度不能為奇數</translation>
     </message>
@@ -9549,18 +9647,20 @@ Ready.
     </message>
     <message>
         <location line="+160"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
         <source>Size Change</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-173"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="-19"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="-87"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>有幾個檔使用順序檔案名稱，將所有載入他們嗎？</translation>
     </message>

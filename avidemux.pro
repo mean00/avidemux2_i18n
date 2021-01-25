@@ -447,6 +447,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt4/Q_blackenBorders.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt4/DIA_flyBlackenBorders.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asciiView/ascii_font.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/negative/negative.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/rotate/rte.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/black/black.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/colorYuv.h \ 
@@ -1248,6 +1249,10 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/ADM_vidBlackBorder.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asciiView/ADM_vidAscii.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asciiView/vf_matrix.conf \ 
+../../../avidemux_plugins/ADM_videoFilters6/negative/negative.conf \ 
+../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/negative/negative_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/negative/negative_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/rotate/rte_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/rotate/rte.conf \ 
 ../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp \ 

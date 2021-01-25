@@ -927,7 +927,7 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/opus/audioencoder_opus.cpp" line="+277"/>
         <source>_Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Bitrate:</translation>
     </message>
 </context>
 <context>
@@ -981,12 +981,12 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/about.ui" line="+14"/>
         <source>About Avidemux</source>
-        <translation type="unfinished">Über Avidemux</translation>
+        <translation>Über Avidemux</translation>
     </message>
     <message>
         <location line="+112"/>
         <source>Multi-platform Video Editor</source>
-        <translation type="unfinished">Eine plattformunabhängige Videoschnittsoftware</translation>
+        <translation>Eine plattformunabhängige Videoschnittsoftware</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1006,7 +1006,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+45"/>
         <source>&amp;License</source>
-        <translation type="unfinished">&amp;Lizenz</translation>
+        <translation>&amp;Lizenz</translation>
     </message>
     <message>
         <location line="-93"/>
@@ -1061,7 +1061,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+248"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation type="unfinished">_Erlaube auch nicht DVD-konforme Audiofrequenzen (DVD-konform sind lediglich 48kHz und 96kHz)</translation>
     </message>
@@ -1138,15 +1138,20 @@ Drop timing informations ?</source>
     <message>
         <location line="+21"/>
         <source>_lavc threads:</source>
-        <translation type="unfinished">_Libavcodec Ausführungsstränge (Threads):</translation>
+        <translation>Decoder-_Multithreading in libavcodec:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation>Decoder-Multithreading in libavcodec wird bei aktivierter Hardwarebeschleunigung intern deaktiviert, Änderungen sind nach Neustart der Anwendung wirksam</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Multi-threading</source>
-        <translation type="unfinished">Auslastung von Mehrkernprozessoren</translation>
+        <translation>Multithreading</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Above normal</source>
         <translation type="unfinished">Über normal</translation>
     </message>
@@ -1765,12 +1770,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Audiogeräte</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-290"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-295"/>
         <source>Enable openGl support</source>
         <translation>OpenG_L benutzen</translation>
     </message>
     <message>
-        <location line="+239"/>
+        <location line="+244"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Bildwiederholungsfrequenz begrenzen</translation>
     </message>
@@ -1786,7 +1791,7 @@ Drop timing informations ?</source>
         <translation>Hoch</translation>
     </message>
     <message>
-        <location line="-59"/>
+        <location line="-65"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Video mittels _DXVA2 dekodieren (nur Windows)</translation>
     </message>
@@ -1801,7 +1806,12 @@ Drop timing informations ?</source>
         <translation>Schwarze Liste für Codecs ignorieren (Intel, HEVC 10bit)</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+10"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation>Bei aktivierter Hardwarebeschleunigung wird Decoder-Multithreading in libavcodec deaktiviert, Änderungen erfordern Neustart der Anwendung</translation>
+    </message>
+    <message>
+        <location line="+57"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>Low</source>
         <translation>Niedrig</translation>
@@ -1886,7 +1896,7 @@ Try anyway?</source>
 Trotzdem fortsetzen?</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+72"/>
         <source>Are you sure?</source>
         <translation type="unfinished">Sind Sie sicher?</translation>
     </message>
@@ -2226,7 +2236,7 @@ Läuft er?</translation>
         <translation type="unfinished">2. Durchlauf</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-180"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Video mittels _VDPAU dekodieren</translation>
     </message>
@@ -2246,7 +2256,7 @@ Läuft er?</translation>
         <translation>Bei aktivierter Dekodierung in Hardware ist es ratsam, die entsprechende Video-Anzeige zu verwenden</translation>
     </message>
     <message>
-        <location line="+92"/>
+        <location line="+98"/>
         <source>LIBVA (best)</source>
         <translation type="unfinished">libVA (bestens)</translation>
     </message>
@@ -2261,12 +2271,12 @@ Läuft er?</translation>
         <translation>Systemvorgabe</translation>
     </message>
     <message>
-        <location line="-174"/>
+        <location line="-179"/>
         <source>_Check for new release</source>
         <translation>Auf _Update überprüfen</translation>
     </message>
     <message>
-        <location line="+235"/>
+        <location line="+240"/>
         <source>GUI Rendering Options</source>
         <translation>Darstellungsoptionen der grafischen Oberfläche</translation>
     </message>
@@ -2291,7 +2301,7 @@ Läuft er?</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1241"/>
+        <location filename="../../common/gui_main.cpp" line="-1253"/>
         <location line="+73"/>
         <source>Select Video File...</source>
         <translation>Videodatei wählen...</translation>
@@ -2302,7 +2312,7 @@ Läuft er?</translation>
         <translation>Videodatei zum Anfügen wählen...</translation>
     </message>
     <message>
-        <location line="+1075"/>
+        <location line="+1087"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished">Ungültige Liste der Tonspuren</translation>
@@ -2318,7 +2328,7 @@ Läuft er?</translation>
         <translation>Das gespeicherte Video ist unvollständig. Der Fehler ereignete sich bei %s (%d%%). Dies kann eine Folge ungültiger Zeitstempel im Video sein.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1383"/>
+        <location filename="../../common/gui_main.cpp" line="-1395"/>
         <source>Select script/project to run</source>
         <translation>Skript/Projekt zum Ausführen wählen</translation>
     </message>
@@ -2357,7 +2367,7 @@ Video wird an diesen Stellen beschädigt sein.
 Trotzdem fortsetzen?</translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+136"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Schneiden</translation>
@@ -2671,12 +2681,12 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1435"/>
+        <location filename="../../common/gui_main.cpp" line="-1447"/>
         <source>Select script to save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1224"/>
+        <location line="+1236"/>
         <source>Something bad happened</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2895,17 +2905,17 @@ Try anyway?</source>
     <message>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktiviert</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Auto-detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerdefiniert</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-9"/>
@@ -3354,17 +3364,17 @@ Try anyway?</source>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Codec</source>
         <translation>Codec</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Interner Fehler bei der Suche nach Dekoder für FourCC 0x%x</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Internal error opening 0x%x</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4258,7 +4268,7 @@ Soll dieses jetzt geladen werden ?
         <translation>Bildrand entfernen.</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+25"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Die Breite kann nicht im geforderten Maße verkleinert werden. Die Breite wird zurückgesetzt!
@@ -4272,7 +4282,7 @@ Soll dieses jetzt geladen werden ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+538"/>
         <source>Size: </source>
         <translation>Größe: </translation>
     </message>
@@ -4334,7 +4344,47 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+10"/>
         <source>Keep aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitenverhältnis erzwingen</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>current selection</source>
+        <translation>Aktuelle Auswahl</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>source</source>
+        <translation>Quelle</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation>21:9</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation>18:9</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation>16:9</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation>4:3</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation>1:1</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
+        <translation>9:16</translation>
     </message>
 </context>
 <context>
@@ -4438,7 +4488,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="-1"/>
         <source>MPlayer delogo2</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer delogo2</translation>
     </message>
 </context>
 <context>
@@ -4762,7 +4812,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+99"/>
         <source>Show full preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau nicht teilen</translation>
     </message>
     <message>
         <location line="-106"/>
@@ -4772,7 +4822,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="-157"/>
         <source>&lt;b&gt;Gamma&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Gamma&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
@@ -5854,7 +5904,7 @@ Soll dieses jetzt geladen werden ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+151"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>MPEG-TS wird gespeichert</translation>
     </message>
@@ -7231,7 +7281,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind zulässig</translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+138"/>
         <source>Saving WebM</source>
         <translation>WebM wird gespeichert</translation>
     </message>
@@ -7872,19 +7922,19 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt4/mpdelogo.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+14"/>
         <source>Mplayer Delogo</source>
-        <translation type="unfinished">MPlayer delogo</translation>
+        <translation>MPlayer delogo</translation>
     </message>
     <message>
         <location line="+8"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+32"/>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <location line="+20"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+37"/>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -7912,12 +7962,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+59"/>
         <source>You can resize the red rectangle using the grips </source>
-        <translation type="unfinished"></translation>
+        <translation>Zur Größenänderung des roten Rechtecks an den Griffen ziehen </translation>
     </message>
     <message>
         <location line="+58"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau</translation>
     </message>
 </context>
 <context>
@@ -7987,6 +8037,54 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <location line="+79"/>
         <source>Error</source>
         <translation type="unfinished">Fehler</translation>
+    </message>
+</context>
+<context>
+    <name>negative</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
+        <source>Negative</source>
+        <translation>Negativ</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert Y,U or V plane</source>
+        <translation>Y-, U- oder V-Ebene invertieren.</translation>
+    </message>
+    <message>
+        <location line="+108"/>
+        <source>Invert Y Plane</source>
+        <translation>Helligkeit invertieren</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process luma plane</source>
+        <translation>Y-Ebene verarbeiten</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert U Plane</source>
+        <translation>Farbkomponente U invertieren</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaU plane</source>
+        <translation>U-Ebene verarbeiten</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert V Plane</source>
+        <translation>Farbkomponente V invertieren</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaV plane</source>
+        <translation>V-Ebene verarbeiten</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invert plane</source>
+        <translation>Negativ</translation>
     </message>
 </context>
 <context>
@@ -9026,7 +9124,7 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+336"/>
         <source>Width and height cannot be odd</source>
         <translation>Ungerade Werte für Breite oder Höhe sind unzulässig</translation>
     </message>
@@ -9543,11 +9641,13 @@ Ready.
     </message>
     <message>
         <location line="+160"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
         <source>Size Change</source>
         <translation>Neue Auflösung</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation>Die Auflösung ändert sich beim Frame %u von %ux%u zu %ux%u. Dies wird nicht unterstützt. Die Indexierung wird abgebrochen.</translation>
     </message>

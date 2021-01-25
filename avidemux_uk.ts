@@ -1101,7 +1101,7 @@ Drop timing informations ?</source>
         <translation>Операція</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+303"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+45"/>
         <source>Low</source>
         <translation>Низький</translation>
@@ -1151,7 +1151,7 @@ Drop timing informations ?</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1921"/>
+        <location filename="../../common/gui_main.cpp" line="+1933"/>
         <source>Oops</source>
         <translation>Попередження</translation>
     </message>
@@ -1246,7 +1246,7 @@ It is needed to create FLV  video.</source>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+39"/>
+        <location line="+41"/>
         <source>Codec</source>
         <translation>Кодек</translation>
     </message>
@@ -1353,7 +1353,7 @@ Installation mismatch</source>
         <translation>Не вдається виділити достатньо пам’яті</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-112"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-117"/>
         <source>Enable 3DNOWEXT</source>
         <translation>Увімкнути 3DNOWEXT</translation>
     </message>
@@ -1404,7 +1404,7 @@ Proceed anyway?</source>
         <translation>Неможливо додати операцію %s</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+56"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+61"/>
         <source>_Cache size:</source>
         <translation>Розм_ір кешу:</translation>
     </message>
@@ -1451,7 +1451,7 @@ Proceed anyway?</source>
         <translation>Максимум кадрів B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-253"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
         <source>Ignore driver blacklist (Intel)</source>
         <translation>Ігнорувати чорний список драйверів (Intel)</translation>
     </message>
@@ -1498,22 +1498,27 @@ It is needed to create PSP compatible video.</source>
         <translation>__невідомо__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1741"/>
+        <location filename="../../common/gui_main.cpp" line="-1753"/>
         <source>Select script to run</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+154"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+160"/>
         <source>No downmixing</source>
         <translation>Без змішування</translation>
     </message>
     <message>
-        <location line="-125"/>
+        <location line="-130"/>
         <source>Enable SSE2</source>
         <translation>Увімкнути SSE2</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-19"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1533,7 +1538,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Додатки аудіопристроїв</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1232"/>
+        <location filename="../../common/gui_main.cpp" line="+1244"/>
         <source>Something bad happened</source>
         <translation>Помилка при відкритті файлу для запису</translation>
     </message>
@@ -1578,7 +1583,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Неможливо відкрити скрипт &quot;%s&quot;.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+90"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+95"/>
         <source>SDL (good)</source>
         <translation>SDL (добре)</translation>
     </message>
@@ -1589,7 +1594,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Перевищена квота</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1179"/>
+        <location filename="../../common/gui_main.cpp" line="-1191"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Утворилися точки розрізу вставки при збереженні відео в режимі копіювання можуть призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1680,7 +1685,7 @@ Warning, the settings must be close.</source>
         <translation>Вибрати файл відео для приєднання...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-28"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-33"/>
         <source>Enable SSSE3</source>
         <translation>Увімкнути SSSE3</translation>
     </message>
@@ -1695,7 +1700,7 @@ Warning, the settings must be close.</source>
         <translation>Додатки декодерів відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1154"/>
+        <location filename="../../common/gui_main.cpp" line="+1166"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>Неможливо встановити мову аудіо: відео не завантажене!</translation>
     </message>
@@ -1705,7 +1710,7 @@ Warning, the settings must be close.</source>
         <translation>Вибрати доріжку...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+30"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+35"/>
         <source>Below normal</source>
         <translation>Нижче нормального</translation>
     </message>
@@ -1727,7 +1732,7 @@ Do you want to continue anyway?</source>
         <translation>_Пріоритет кодування:</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-43"/>
         <source>Enable 3DNOW</source>
         <translation>Увімкнути 3DNOW</translation>
     </message>
@@ -1850,7 +1855,7 @@ Proceed anyway?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+72"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
         <source>OpenGL (best)</source>
         <translation>OpenGL (краще)</translation>
     </message>
@@ -1888,7 +1893,7 @@ Proceed anyway?</source>
         <translation>Вручну</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-393"/>
+        <location filename="../../common/gui_main.cpp" line="-405"/>
         <source>Not coded in this version</source>
         <translation>Ні в цій версії</translation>
     </message>
@@ -1908,7 +1913,7 @@ Proceed anyway?</source>
         <translation>Вихідний _файл:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+381"/>
+        <location filename="../../common/gui_main.cpp" line="+393"/>
         <source>The end point of the deletion is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -1942,7 +1947,7 @@ Proceed anyway?</source>
         <translation>Помилка аудіокодера</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Внутрішня помилка пошуку кодека 0x%x</translation>
     </message>
@@ -2020,7 +2025,7 @@ Proceed anyway?</source>
         <translation>Очистити список</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-61"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-67"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодувати відео за допомогою DXVA2 (Windows)</translation>
     </message>
@@ -2030,7 +2035,7 @@ Proceed anyway?</source>
         <translation>Точність пошуку рухів</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+233"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+239"/>
         <source>Output</source>
         <translation>Вихідні дані</translation>
     </message>
@@ -2047,7 +2052,7 @@ Is it running ?</source>
         <translation>Неможливо створити потік</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-209"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-214"/>
         <source>Enable all SIMD</source>
         <translation>Увімкнути всі SIMD</translation>
     </message>
@@ -2064,7 +2069,7 @@ Is it running ?</source>
         <translation>Не можна видалити всі відео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+150"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+155"/>
         <source>_AudioDevice</source>
         <translation>_Аудіопристрій</translation>
     </message>
@@ -2085,7 +2090,7 @@ Is it running ?</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1179"/>
+        <location filename="../../common/gui_main.cpp" line="-1191"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2125,7 +2130,7 @@ Try anyway?</source>
         <translation>Перший кадр</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+709"/>
+        <location filename="../../common/gui_main.cpp" line="+721"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>Неможливо відкрити &quot;%s&quot;.</translation>
     </message>
@@ -2223,7 +2228,7 @@ Try anyway?</source>
         <translation>Без змін</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-638"/>
+        <location filename="../../common/gui_main.cpp" line="-650"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>Ви намагаєтеся очистити список недавно відкритих файлів і проектів. Цей крок незворотній. Продовжити?</translation>
     </message>
@@ -2244,7 +2249,7 @@ Try anyway?</source>
         <translation>Немає рушія</translation>
     </message>
     <message>
-        <location line="+491"/>
+        <location line="+503"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; не існує.</translation>
     </message>
@@ -2264,7 +2269,7 @@ Try anyway?</source>
         <translation>Створення тимчасової карти</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-133"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодувати відео за допомогою VDPAU (NVIDIA)</translation>
     </message>
@@ -2296,7 +2301,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Плагіни...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+87"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+93"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (найкраще)</translation>
     </message>
@@ -2364,12 +2369,12 @@ Do you want to continue anyway ?</source>
         <translation>Помилка збереження &quot;%s&quot;як BMP.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-165"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-170"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>_Увімкнути альтернативні гарячі клавіші</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-10"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Декодувати відео за допомогою LIBVA (INTEL)</translation>
     </message>
@@ -2384,7 +2389,7 @@ Do you want to continue anyway ?</source>
         <translation>Неможливо відкрити проект за допомогою завантажувача відео.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+95"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+101"/>
         <source>LIBVA (best)</source>
         <translation>LIBVA (найкраще)</translation>
     </message>
@@ -2475,7 +2480,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Збереження завдання</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-161"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
         <source>_Check for new release</source>
         <translation>_Перевіряти оновлення</translation>
     </message>
@@ -2485,7 +2490,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+34"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>_Indexing/unpacking priority:</source>
         <translation>_Індексація/розпакування:</translation>
     </message>
@@ -2641,7 +2651,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Прискорення ключових кадрів (%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-154"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-159"/>
         <source>Enable MMX</source>
         <translation>Увімкнути MMX</translation>
     </message>
@@ -2651,7 +2661,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Увімкнути SSE</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-28"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
         <translation>Ігнорувати чорний список кодеків (Intel, HEVC 10bit)</translation>
     </message>
@@ -2667,14 +2677,14 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>файлова система переповнена</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+264"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+270"/>
         <location line="+3"/>
         <location line="+3"/>
         <source>HW Accel</source>
         <translation>Апаратне прискорення</translation>
     </message>
     <message>
-        <location line="-266"/>
+        <location line="-271"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Дозволяти нестандартну частоту звуку для DVD</translation>
     </message>
@@ -2730,7 +2740,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+264"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2765,7 +2775,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Дуже високий</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1403"/>
+        <location filename="../../common/gui_main.cpp" line="-1415"/>
         <source>Select script/project to run</source>
         <translation>Вибрати скрипт/проект для запуску</translation>
     </message>
@@ -2795,7 +2805,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+615"/>
+        <location filename="../../common/gui_main.cpp" line="+627"/>
         <source>Codec or codec settings across the cut do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
@@ -2850,7 +2860,7 @@ Installation mismatch</source>
         <translation>Всі повідомлення</translation>
     </message>
     <message>
-        <location line="-137"/>
+        <location line="-143"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>Декодувати відео за допомогою VideoToolbox (macOS)</translation>
     </message>
@@ -2916,7 +2926,7 @@ Installation mismatch</source>
         <translation>Наступний чорний кадр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+266"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+272"/>
         <source>Display</source>
         <translation>Відео</translation>
     </message>
@@ -2931,7 +2941,7 @@ Installation mismatch</source>
         <translation>Перейти до часу...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-215"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-216"/>
         <source>Multi-threading</source>
         <translation>Використовувати багатопотоковість</translation>
     </message>
@@ -2975,7 +2985,7 @@ Installation mismatch</source>
         <translation type="vanished">Неможливо підключитися до бази даних. У вас увімкнено управління операціями?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+238"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+239"/>
         <source>Default port to use</source>
         <translation>Порт за замовчуванням</translation>
     </message>
@@ -2995,17 +3005,17 @@ Installation mismatch</source>
         <translation>&amp;Додатково</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-135"/>
         <source>Enable openGl support</source>
         <translation>Увімкнути підтримку OpenGL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-998"/>
+        <location filename="../../common/gui_main.cpp" line="-1010"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>Скрипт tinyPy не увімкнений в цю збірку</translation>
     </message>
     <message>
-        <location line="+310"/>
+        <location line="+322"/>
         <source>Deleting</source>
         <translation>Видалення</translation>
     </message>
@@ -3015,7 +3025,7 @@ Installation mismatch</source>
         <translation>Вихідний файл</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-335"/>
+        <location filename="../../common/gui_main.cpp" line="-347"/>
         <location line="+73"/>
         <source>Select Video File...</source>
         <translation>Вибрати файл відео...</translation>
@@ -3080,13 +3090,13 @@ Install lame plugin</source>
         <translation>Зберегти як &amp;зображення</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+287"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+292"/>
         <location line="+3"/>
         <source>Preferences</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1046"/>
+        <location filename="../../common/gui_main.cpp" line="+1058"/>
         <source>_Track from video:</source>
         <translation>Доріжка:</translation>
     </message>
@@ -3123,7 +3133,7 @@ Install lame plugin</source>
         <translation>Фільтр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-250"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-255"/>
         <source>_lavc threads:</source>
         <translation>_lavc</translation>
     </message>
@@ -3138,7 +3148,7 @@ Install lame plugin</source>
         <translation>_Відтінки сірого</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+200"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+205"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>Інтервал частоти оновлення (мс)</translation>
     </message>
@@ -3228,7 +3238,7 @@ Proceed anyway?</source>
         <translation>Зберегти як JPEG</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-147"/>
+        <location filename="../../common/gui_main.cpp" line="-159"/>
         <source>Codec or codec settings across a cut point of the pasted video do not match.
 Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
@@ -3256,7 +3266,7 @@ Proceed anyway?</source>
         <translation>2 проходи</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+338"/>
+        <location filename="../../common/gui_main.cpp" line="+350"/>
         <source>Could not open the file</source>
         <translation>Неможливо відкрити файл</translation>
     </message>
@@ -3308,7 +3318,7 @@ Do you want to continue anyway?</source>
         <translation>Вихідний файл не вказано</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-112"/>
+        <location filename="../../common/gui_main.cpp" line="-124"/>
         <source>Cut points of the pasted video could not be checked. This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Try anyway?</source>
         <translation>Не вдалося перевірити точки розрізу вставки. Це вказує на проблему або з вихідним відео, або з кроками редагування, або є проявом помилки в програмі. За деталями зверніться, будь ласка, до журнального файлу додатки або до консольних повідомлень.
@@ -3320,7 +3330,7 @@ Try anyway?</source>
         <translation>XVideo (найкраще)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+612"/>
+        <location filename="../../common/gui_main.cpp" line="+624"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -3394,7 +3404,7 @@ Expect problems.</source>
         <translation>Додати операцію в чергу</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+41"/>
         <source>Internal error opening 0x%x</source>
         <translation>Внутрішня помилка відкриття 0x%x</translation>
     </message>
@@ -4287,7 +4297,7 @@ Do you want to load it  ?
         <translation>Кадрування</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+477"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+538"/>
         <source>Size: </source>
         <translation>Розмір: </translation>
     </message>
@@ -4297,7 +4307,7 @@ Do you want to load it  ?
         <translation>Фільтр кадрування</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+25"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Попередження: ширина занадто сильно обрізана! Її значення відновлено!
@@ -4354,8 +4364,48 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+8"/>
+        <source>current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="+71"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-87"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-130"/>
         <source>Bottom:</source>
         <translation>Знизу:</translation>
     </message>
@@ -5969,7 +6019,7 @@ Do you want to load it  ?
         <translation>Мультиплексування VBR</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+151"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Збереження mpeg TS (ff)</translation>
     </message>
@@ -7331,7 +7381,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+138"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8108,6 +8158,54 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="-67"/>
         <source>Cannot go to next keyframe</source>
         <translation>Неможливо перейти до наступного ключового кадру</translation>
+    </message>
+</context>
+<context>
+    <name>negative</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
+        <source>Negative</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert Y,U or V plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+108"/>
+        <source>Invert Y Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process luma plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert U Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaU plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Invert V Plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Process chromaV plane</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Invert plane</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9185,7 +9283,7 @@ Ready.
         <translation>Змінити розмір за допомогою swScale.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+332"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+336"/>
         <source>Width and height cannot be odd</source>
         <translation>Ширина і висота не можуть бути непарними</translation>
     </message>
@@ -9686,19 +9784,21 @@ Ready.
     <name>tsdemuxer</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+438"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+173"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation>Розмір відео змінюється в кадрі %u від %ux%u до %ux%u. Це не підтримується, тому зупинено.</translation>
     </message>
     <message>
         <location line="-161"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+347"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+105"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="-68"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexVC1.cpp" line="+74"/>
         <source>Indexing</source>
         <translation>Індексування</translation>
     </message>
     <message>
         <location line="+160"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
         <source>Size Change</source>
         <translation>Зміна розміру</translation>
     </message>
@@ -9712,7 +9812,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="-172"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="-12"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="-19"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="-86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>Виявлено кілька файлів з послідовними іменами. Завантажити їх все?</translation>
     </message>
