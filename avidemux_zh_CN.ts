@@ -1077,7 +1077,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+67"/>
+        <location filename="../../common/gui_save.cpp" line="+68"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3432,6 +3432,175 @@ Expect problems.</source>
         <location line="+6"/>
         <source>Aften Configuration</source>
         <translation>经常配置</translation>
+    </message>
+</context>
+<context>
+    <name>artColorEffect</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+69"/>
+        <source>Color Effect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ported from frei0r.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artColorEffectDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/artColorEffect.ui" line="+14"/>
+        <source>Color Effect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+62"/>
+        <source>Effect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Sepia</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Vivid</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>RGB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Heat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Radium</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Red-green</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Monochrome</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Old photo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Night vision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>X-ray</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shades</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>XPRO</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Yellow-blue</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Yellow-bluish</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Chrome</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Esses</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artPixelize</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
+        <location line="+1"/>
+        <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artPixelizeDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/qt4/artPixelize.ui" line="+14"/>
+        <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+77"/>
+        <source>Pixel size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>x</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artVignette</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+68"/>
+        <source>Vignette</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lens vignetting effect, ported from frei0r.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artVignetteDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/qt4/artVignette.ui" line="+14"/>
+        <source>Vignette</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+83"/>
+        <source>Size of the unaffected center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Softness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Aspect ratio</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6482,45 +6651,36 @@ I will assume it has and try to continue</source>
 <context>
     <name>histogram</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_bitrateHisto.cpp" line="+220"/>
         <source>Bitrate Histogram</source>
-        <translation>比特率分布图</translation>
+        <translation type="vanished">比特率分布图</translation>
     </message>
     <message>
-        <location line="-18"/>
         <source>Max. bitrate:</source>
-        <translation>最大比特率:</translation>
+        <translation type="vanished">最大比特率:</translation>
     </message>
     <message>
-        <location line="-146"/>
-        <location line="+75"/>
         <source>No data</source>
-        <translation>没有资料</translation>
+        <translation type="vanished">没有资料</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Max. B frames:</source>
-        <translation>最大 B 帧数:</translation>
+        <translation type="vanished">最大 B 帧数:</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>Average bitrate:</source>
-        <translation>平均比特率(ABR):</translation>
+        <translation type="vanished">平均比特率(ABR):</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Number of P frames:</source>
-        <translation>P 帧数目:</translation>
+        <translation type="vanished">P 帧数目:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Number of B frames:</source>
-        <translation>B 帧数目:</translation>
+        <translation type="vanished">B 帧数目:</translation>
     </message>
     <message>
-        <location line="-2"/>
         <source>Number of I frames:</source>
-        <translation>I 帧数目:</translation>
+        <translation type="vanished">I 帧数目:</translation>
     </message>
 </context>
 <context>
@@ -7107,7 +7267,7 @@ I will assume it has and try to continue</source>
         <translation>噪声-清除</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+95"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;选用的过滤器&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
@@ -7117,7 +7277,7 @@ I will assume it has and try to continue</source>
         <translation>关闭(&amp;C)</translation>
     </message>
     <message>
-        <location line="-293"/>
+        <location line="-302"/>
         <source>Video Filter Manager</source>
         <translation>视频过滤管理器</translation>
     </message>
@@ -7130,6 +7290,11 @@ I will assume it has and try to continue</source>
         <location line="+36"/>
         <source>OpenGl</source>
         <translation>OpenGl</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Artistic</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7147,7 +7312,7 @@ I will assume it has and try to continue</source>
         <translation>预览(&amp;P)</translation>
     </message>
     <message>
-        <location line="-194"/>
+        <location line="-203"/>
         <source>Transform</source>
         <translation>变形(转型)</translation>
     </message>
@@ -7167,7 +7332,7 @@ I will assume it has and try to continue</source>
         <translation>字幕-汇入文本檔</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+45"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation>&lt;big&gt;&lt;b&gt;可选用的过滤器&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
@@ -8021,7 +8186,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+490"/>
+        <location filename="../../common/gui_navigate.cpp" line="+494"/>
         <source>Seek</source>
         <translation>寻求</translation>
     </message>
@@ -8031,12 +8196,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-267"/>
+        <location line="-270"/>
         <source>Cannot go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
     <message>
-        <location line="-67"/>
+        <location line="-68"/>
         <source>Cannot go to next keyframe</source>
         <translation>转到下一帧(关键帧或I帧)</translation>
     </message>
@@ -9630,6 +9795,24 @@ Ready.
     <message>
         <location line="+1"/>
         <source> s</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>tinypy</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+278"/>
+        <source>Save File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Open File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Select Directory</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
