@@ -57,14 +57,16 @@ echo "" >> avidemux.pro2
 cat avidemux.pro2 | sed 's/"//g' | \
     grep -v attic | \
     grep -v ffmpeg_package | \
-    grep -v "ADM_videoFilters\/" | \
+    grep -v ADM_videoFilters/ | \
+    grep -v DIA_bitrateHisto | \
+    grep -v \\.conf | \
     grep -v qtScript | \
     grep -v html | \
     grep -v build | \
     grep -v cmake | \
-    grep -v gtk | \
-    grep -v "cli\/" | \
-    grep -vi spidermon > avidemux.pro
+    grep -v gtk/ | \
+    grep -v cli/ | \
+    grep -vi spiderMon > avidemux.pro
 #
 for i in lupdate lupdate-qt${QT_SELECT}; do
     which ${i} > /dev/null 2>&1;
