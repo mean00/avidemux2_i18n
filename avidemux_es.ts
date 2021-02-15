@@ -3446,6 +3446,52 @@ Instalación incongruente</translation>
     </message>
 </context>
 <context>
+    <name>artCharcoal</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/ADM_vidArtCharcoal.cpp" line="+41"/>
+        <source>Charcoal / Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ported from MLT.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artCharcoalDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/artCharcoal.ui" line="+14"/>
+        <source>Charcoal / Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Intensity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Vertical scatter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Horizontal scatter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
+        <source>Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>artColorEffect</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+69"/>
@@ -3466,7 +3512,7 @@ Instalación incongruente</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+23"/>
         <source>Effect</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3568,7 +3614,7 @@ Instalación incongruente</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+77"/>
+        <location line="+38"/>
         <source>Pixel size</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3579,9 +3625,60 @@ Instalación incongruente</translation>
     </message>
 </context>
 <context>
+    <name>artVHS</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <source>VHS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>VHS effect. Most authentic at lower resolutions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artVHSDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui" line="+14"/>
+        <source>VHS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Luma bandwidth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Chroma bandwidth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Sync error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Use zero delay filter for chroma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Use zero delay filter for luma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sync error filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>artVignette</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+68"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+43"/>
         <source>Vignette</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3599,17 +3696,17 @@ Instalación incongruente</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+83"/>
+        <location line="+73"/>
         <source>Size of the unaffected center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>Softness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="-23"/>
         <source>Aspect ratio</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3650,7 +3747,7 @@ Instalación incongruente</translation>
 <context>
     <name>asharp</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/ADM_vidAsharp.cpp" line="+66"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/ADM_vidAsharp.cpp" line="+70"/>
         <source>Adaptative sharpener by MarcFD.</source>
         <translation>Agudizador adaptativo por MarcFD.</translation>
     </message>
@@ -3667,27 +3764,32 @@ Instalación incongruente</translation>
         <translation type="vanished">Intensidad</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+71"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+141"/>
         <source>High quality block filtering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="-119"/>
         <source>Threshold</source>
         <translation>Umbral</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+23"/>
         <source>Adaptive strength</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+85"/>
         <source>Block adaptive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-198"/>
+        <location line="+18"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-134"/>
         <source>ASharp</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4015,36 +4117,35 @@ Este mensaje no se mostrará de nuevo.</translation>
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+75"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+61"/>
         <source>Right:</source>
         <translation>Derecho:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+7"/>
         <source>Top:</source>
         <translation>Superior:</translation>
     </message>
     <message>
         <location line="+43"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+7"/>
         <source>Reset</source>
         <translation>Reiniciar</translation>
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+74"/>
         <source>Bottom:</source>
         <translation>Inferior:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+51"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-14"/>
         <source>Left:</source>
         <translation>Izquierdo:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-30"/>
         <source>&amp;Hide Rubber Band</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4189,14 +4290,45 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation type="unfinished">CromaShift</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+21"/>
         <source>V Shift</source>
         <translation>Desplazamiento de V</translation>
     </message>
     <message>
-        <location line="-23"/>
+        <location line="-7"/>
         <source>U Shift</source>
         <translation>Desplazamiento de U</translation>
+    </message>
+</context>
+<context>
+    <name>colorTemp</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.cpp" line="+41"/>
+        <source>Color temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Adjust color temperature.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>colorTempDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui" line="+14"/>
+        <source>Color Temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Color temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>U-V plane angle of attack</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4325,13 +4457,13 @@ Este mensaje no se mostrará de nuevo.</translation>
 <context>
     <name>contrast</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+34"/>
         <source>Adjust contrast, brightness and colors.</source>
         <translation>Ajustar contraste, brillo y colores.</translation>
     </message>
     <message>
         <location line="-1"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+64"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+66"/>
         <location line="+87"/>
         <source>Contrast</source>
         <translation>Contraste</translation>
@@ -4347,47 +4479,47 @@ Este mensaje no se mostrará de nuevo.</translation>
     <name>contrastDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/contrast.ui" line="+14"/>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Contrast</source>
         <translation>Contraste</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+88"/>
         <source>Luma</source>
         <translation>Luma</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-36"/>
         <source>Brightness</source>
         <translation>Brillo</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-72"/>
         <source>Contrast  </source>
         <translation>Contraste  </translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+52"/>
         <source>Brightness  </source>
         <translation>Brillo  </translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+49"/>
         <source>ChromaU</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>ChromaV</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+41"/>
         <source>Process</source>
         <translation>Procesar</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="-20"/>
         <source>MPEG2-&gt;PC</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4450,7 +4582,7 @@ Do you want to load it  ?
         <translation>Filtro de recorte</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>¡Aviso, está recortando demasiada anchura! ¡Anchura restablecida!
@@ -4468,6 +4600,11 @@ Do you want to load it  ?
         <source>Size: </source>
         <translation>Tamaño: </translation>
     </message>
+    <message>
+        <location line="+74"/>
+        <source>Auto Crop</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>cropDialog</name>
@@ -4479,63 +4616,62 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+88"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
         <source>Reset</source>
         <translation>Reiniciar</translation>
     </message>
     <message>
         <location line="-50"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
         <source>Right:</source>
         <translation>Derecha:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
         <source>Top:</source>
         <translation>Arriba:</translation>
     </message>
     <message>
         <location line="+64"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
         <source>Bottom:</source>
         <translation>Abajo:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
         <source>Left:</source>
         <translation>Izquierda:</translation>
     </message>
     <message>
         <location line="+30"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+21"/>
         <source>Auto Crop</source>
         <translation>Recorte automático</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
         <source>Size: </source>
         <translation>Tamaño: </translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+10"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Ocultar el borde de selección</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Keep aspect ratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>current selection</source>
+        <location line="+7"/>
+        <location line="+4"/>
+        <source>Do not lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>source</source>
+        <source>Current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Source</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4566,6 +4702,11 @@ Do you want to load it  ?
     <message>
         <location line="+5"/>
         <source>9:16</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4938,7 +5079,7 @@ Do you want to load it  ?
 <context>
     <name>eq2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/ADM_vidEq2.cpp" line="+64"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/ADM_vidEq2.cpp" line="+44"/>
         <source>MPlayer eq2</source>
         <translation>eq2 de MPlayer</translation>
     </message>
@@ -4948,7 +5089,7 @@ Do you want to load it  ?
         <translation>Ajustar contraste, brillo, saturación y gamma.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+59"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+62"/>
         <source>Reset</source>
         <translation>Reiniciar</translation>
     </message>
@@ -4957,32 +5098,32 @@ Do you want to load it  ?
     <name>eq2Dialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/eq2.ui" line="+14"/>
-        <location line="+88"/>
+        <location line="+31"/>
         <source>Contrast</source>
         <translation>Contraste</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="+20"/>
         <source>Brightness</source>
         <translation>Brillo</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="+64"/>
         <source>&lt;b&gt;Gamma&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="-44"/>
         <source>Saturation</source>
         <translation>Saturación</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+129"/>
         <source>Blue</source>
         <translation>Azul</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+39"/>
         <source>Red</source>
         <translation>Rojo</translation>
     </message>
@@ -4992,17 +5133,17 @@ Do you want to load it  ?
         <translation>Inicial</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-69"/>
         <source>Weight</source>
         <translation>Peso</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+76"/>
         <source>Green</source>
         <translation>Verde</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="-162"/>
         <source>Show full preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6703,7 +6844,7 @@ Se asume que tiene y se intenta continuar.</translation>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+38"/>
         <source>Mplayer Hue</source>
         <translation>Hue de Mplayer</translation>
     </message>
@@ -6717,7 +6858,7 @@ Se asume que tiene y se intenta continuar.</translation>
     <name>hueDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/qt4/hue.ui" line="+14"/>
-        <location line="+45"/>
+        <location line="+25"/>
         <source>Hue</source>
         <translation>Matiz</translation>
     </message>
@@ -6725,6 +6866,11 @@ Se asume que tiene y se intenta continuar.</translation>
         <location line="+20"/>
         <source>Saturation</source>
         <translation>Saturación</translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7209,12 +7355,22 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Poner un logo sobre el vídeo, con mezclado alfa.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+110"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <source>Image:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>No image selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Select Logo Image</source>
         <translation>Seleccionar la imagen del logotipo</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+67"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7227,18 +7383,25 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Logotipo</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+7"/>
         <source>Image</source>
-        <translation>Imagen</translation>
+        <translation type="vanished">Imagen</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Select</source>
-        <translation>Seleccionar</translation>
+        <translation type="vanished">Seleccionar</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+8"/>
+        <source>Select Image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>No image selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>X</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7253,12 +7416,12 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Fundido de entrada/salida</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
         <translation>Puede hacer clic en la imagen para posicionar aproximadamente el logotipo</translation>
     </message>
     <message>
-        <location line="-85"/>
+        <location line="-72"/>
         <source>Alpha</source>
         <translation>Alfa</translation>
     </message>
@@ -8114,7 +8277,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+12"/>
         <source>X</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8148,12 +8311,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Vista previa. Haga clic en la imagen de arriba para definir las coordenadas de la caja de forma aproximada</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+59"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+454"/>
         <source>You can resize the red rectangle using the grips </source>
         <translation>Puede redimensionar el rectángulo rojo usando las asas </translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+74"/>
         <source>Preview</source>
         <translation>Vista previa</translation>
     </message>
@@ -8179,27 +8342,32 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+112"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Mask</source>
         <translation>Máscara</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="-58"/>
         <source>Strength</source>
         <translation>Intensidad</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+24"/>
         <source>Threshold</source>
         <translation>Umbral</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>HighQuality</source>
         <translation>Calidad alta</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="-24"/>
         <source>Process chroma</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8240,7 +8408,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+108"/>
+        <location line="+112"/>
         <source>Invert Y Plane</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8743,7 +8911,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+277"/>
+        <location line="+302"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
@@ -8941,12 +9109,12 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         <translation>Hacer parcial</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+143"/>
         <source>Press %s to accept the dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+121"/>
+        <location line="+122"/>
         <source>Load video filters..</source>
         <translation>Cargar filtros de vídeo..</translation>
     </message>
@@ -9106,7 +9274,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+53"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+58"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>Introduzca sus órdenes y pulse el botón de evaluar o CTRL+Entrar.
@@ -9813,7 +9981,7 @@ Ready.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+278"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+351"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9831,7 +9999,7 @@ Ready.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+265"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+266"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+335"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
@@ -9846,15 +10014,21 @@ Ready.
         <translation>Indexando</translation>
     </message>
     <message>
-        <location line="+160"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
+        <location line="+161"/>
         <source>Size Change</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+72"/>
+        <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported and will result in a crash.
+Proceed nevertheless?
+This warning won&apos;t be shown again for this video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -11807,7 +11981,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+282"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+289"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11964,12 +12138,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+3051"/>
+        <location line="+3061"/>
         <source>Delete</source>
         <translation>Borrar</translation>
     </message>
     <message>
-        <location line="-3009"/>
+        <location line="-3019"/>
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -12128,12 +12302,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2431"/>
+        <location line="+2441"/>
         <source>frames</source>
         <translation>fotogramas</translation>
     </message>
     <message>
-        <location line="-2407"/>
+        <location line="-2417"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Identificador del conjunto de parámetros de secuencia:</translation>
     </message>
@@ -12527,12 +12701,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+1070"/>
+        <location line="+1080"/>
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
     <message>
-        <location line="-1023"/>
+        <location line="-1033"/>
         <source>Quantiser Control</source>
         <translation>Control del cuantizador</translation>
     </message>
@@ -12548,12 +12722,12 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     </message>
     <message>
         <location line="+182"/>
-        <location line="+598"/>
+        <location line="+608"/>
         <source>%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-737"/>
+        <location line="-747"/>
         <source>Maximum Quantiser Step:</source>
         <translation>Paso máximo del cuantizador:</translation>
     </message>
@@ -12619,6 +12793,16 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
     <message>
         <location line="+5"/>
         <source>Auto Variance AQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto-Variance Biased</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto-Variance Edge</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

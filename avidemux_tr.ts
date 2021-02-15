@@ -3492,6 +3492,52 @@ Yine de devam edilsin mi?</translation>
     </message>
 </context>
 <context>
+    <name>artCharcoal</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/ADM_vidArtCharcoal.cpp" line="+41"/>
+        <source>Charcoal / Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ported from MLT.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artCharcoalDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/artCharcoal.ui" line="+14"/>
+        <source>Charcoal / Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Intensity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <source>Vertical scatter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Horizontal scatter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
+        <source>Chalkboard</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>artColorEffect</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+69"/>
@@ -3512,7 +3558,7 @@ Yine de devam edilsin mi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+23"/>
         <source>Effect</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3614,7 +3660,7 @@ Yine de devam edilsin mi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+77"/>
+        <location line="+38"/>
         <source>Pixel size</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3625,9 +3671,60 @@ Yine de devam edilsin mi?</translation>
     </message>
 </context>
 <context>
+    <name>artVHS</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <source>VHS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>VHS effect. Most authentic at lower resolutions.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>artVHSDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui" line="+14"/>
+        <source>VHS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Luma bandwidth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
+        <source>Chroma bandwidth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Sync error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Use zero delay filter for chroma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Use zero delay filter for luma</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Sync error filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>artVignette</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+68"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+43"/>
         <source>Vignette</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3645,17 +3742,17 @@ Yine de devam edilsin mi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+83"/>
+        <location line="+73"/>
         <source>Size of the unaffected center</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>Softness</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="-23"/>
         <source>Aspect ratio</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3696,7 +3793,7 @@ Yine de devam edilsin mi?</translation>
 <context>
     <name>asharp</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/ADM_vidAsharp.cpp" line="+65"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/ADM_vidAsharp.cpp" line="+69"/>
         <source>Asharp</source>
         <translation>Keskin</translation>
     </message>
@@ -3713,23 +3810,28 @@ Yine de devam edilsin mi?</translation>
         <translation type="vanished">Sertlik</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+71"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui" line="+141"/>
         <source>High quality block filtering</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="-119"/>
         <source>Threshold</source>
         <translation>Eşik</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+23"/>
         <source>Adaptive strength</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+85"/>
         <source>Block adaptive</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Show full preview</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3737,7 +3839,7 @@ Yine de devam edilsin mi?</translation>
         <translation type="vanished">Uyarlamalı Blok</translation>
     </message>
     <message>
-        <location line="-198"/>
+        <location line="-134"/>
         <source>ASharp</source>
         <translation>Keskin</translation>
     </message>
@@ -4061,36 +4163,35 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+75"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+61"/>
         <source>Right:</source>
         <translation>Sağ:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+7"/>
         <source>Top:</source>
         <translation>Üst:</translation>
     </message>
     <message>
         <location line="+43"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+7"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+74"/>
         <source>Bottom:</source>
         <translation>Alt:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+51"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-14"/>
         <source>Left:</source>
         <translation>Sol:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-30"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Lastik Bandı &amp;Gizle</translation>
     </message>
@@ -4235,14 +4336,45 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
         <translation>RenklendirmeÇalışması</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+21"/>
         <source>V Shift</source>
         <translation>V Shift</translation>
     </message>
     <message>
-        <location line="-23"/>
+        <location line="-7"/>
         <source>U Shift</source>
         <translation>U Shift</translation>
+    </message>
+</context>
+<context>
+    <name>colorTemp</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.cpp" line="+41"/>
+        <source>Color temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Adjust color temperature.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>colorTempDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui" line="+14"/>
+        <source>Color Temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Color temperature</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>U-V plane angle of attack</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4371,13 +4503,13 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
 <context>
     <name>contrast</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+34"/>
         <source>Adjust contrast, brightness and colors.</source>
         <translation>Kontrastı, parlaklığı ve renkleri ayarlayın.</translation>
     </message>
     <message>
         <location line="-1"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+64"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+66"/>
         <location line="+87"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
@@ -4393,47 +4525,47 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
     <name>contrastDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/contrast.ui" line="+14"/>
-        <location line="+19"/>
+        <location line="+30"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+88"/>
         <source>Luma</source>
         <translation>Luma</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-36"/>
         <source>Brightness</source>
         <translation>Parlaklık</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-72"/>
         <source>Contrast  </source>
         <translation>Kontrast  </translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+52"/>
         <source>Brightness  </source>
         <translation>Parlaklık  </translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+49"/>
         <source>ChromaU</source>
         <translation>RenklendirmeU</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>ChromaV</source>
         <translation>RenklendirmeV</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+41"/>
         <source>Process</source>
         <translation>İşleme</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="-20"/>
         <source>MPEG2-&gt;PC</source>
         <translation>MPEG2-&gt;PC</translation>
     </message>
@@ -4496,7 +4628,7 @@ Yüklemek istiyor musunuz?
         <translation>Kesme filtresi</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+24"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Uyarı Çok fazla kırpma! Genişlik sıfırlandı!
@@ -4514,6 +4646,11 @@ Yüklemek istiyor musunuz?
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
+    <message>
+        <location line="+74"/>
+        <source>Auto Crop</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>cropDialog</name>
@@ -4525,63 +4662,62 @@ Yüklemek istiyor musunuz?
     </message>
     <message>
         <location line="+88"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
     <message>
         <location line="+58"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+81"/>
         <source>Auto Crop</source>
         <translation>Otomatik Kesme</translation>
     </message>
     <message>
         <location line="-108"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
         <source>Right:</source>
         <translation>Sağ:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
         <source>Top:</source>
         <translation>Üst:</translation>
     </message>
     <message>
         <location line="+64"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
         <source>Bottom:</source>
         <translation>Alt:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
         <source>Left:</source>
         <translation>Sol:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+58"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+10"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Lastik Bandı &amp;Gizle</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <source>Keep aspect ratio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>current selection</source>
+        <location line="+7"/>
+        <location line="+4"/>
+        <source>Do not lock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>source</source>
+        <source>Current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Source</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4612,6 +4748,11 @@ Yüklemek istiyor musunuz?
     <message>
         <location line="+5"/>
         <source>9:16</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4984,7 +5125,7 @@ Yüklemek istiyor musunuz?
 <context>
     <name>eq2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/ADM_vidEq2.cpp" line="+65"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/ADM_vidEq2.cpp" line="+45"/>
         <source>Adjust contrast, brightness, saturation and gamma.</source>
         <translation>Kontrast, parlaklık, doygunluk ve gama ayarlarını yapın.</translation>
     </message>
@@ -4994,7 +5135,7 @@ Yüklemek istiyor musunuz?
         <translation>MPlayer eq2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+59"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+62"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
@@ -5003,32 +5144,32 @@ Yüklemek istiyor musunuz?
     <name>eq2Dialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/eq2.ui" line="+14"/>
-        <location line="+88"/>
+        <location line="+31"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
     </message>
     <message>
-        <location line="-14"/>
+        <location line="+40"/>
         <source>Saturation</source>
         <translation>Doygunluk</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-20"/>
         <source>Brightness</source>
         <translation>Parlaklık</translation>
     </message>
     <message>
-        <location line="-44"/>
+        <location line="+64"/>
         <source>&lt;b&gt;Gamma&lt;/b&gt;</source>
         <translation>&lt;b&gt;Gama&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+85"/>
         <source>Blue</source>
         <translation>Mavi</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+39"/>
         <source>Red</source>
         <translation>Kırmızı</translation>
     </message>
@@ -5038,17 +5179,17 @@ Yüklemek istiyor musunuz?
         <translation>İlk</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-69"/>
         <source>Weight</source>
         <translation>Ağırlık</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+76"/>
         <source>Green</source>
         <translation>Yeşil</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="-162"/>
         <source>Show full preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6765,7 +6906,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+61"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
         <source>Adjust hue and saturation.</source>
         <translation>Tonu ve doygunluğu ayarlayın.</translation>
     </message>
@@ -6779,7 +6920,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <name>hueDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/qt4/hue.ui" line="+14"/>
-        <location line="+45"/>
+        <location line="+25"/>
         <source>Hue</source>
         <translation>Renk</translation>
     </message>
@@ -6787,6 +6928,11 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <location line="+20"/>
         <source>Saturation</source>
         <translation>Doygunluk</translation>
+    </message>
+    <message>
+        <location line="+54"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7271,12 +7417,22 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Alfa karışımıyla videonun üzerine bir logo koyun.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+110"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <source>Image:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>No image selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Select Logo Image</source>
         <translation>Logo Resmini Seçin</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+67"/>
         <source> s</source>
         <translation> s</translation>
     </message>
@@ -7289,18 +7445,25 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Logo</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+7"/>
         <source>Image</source>
-        <translation>Resim</translation>
+        <translation type="vanished">Resim</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Select</source>
-        <translation>Seçim</translation>
+        <translation type="vanished">Seçim</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+8"/>
+        <source>Select Image...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>No image selected</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>X</source>
         <translation>X</translation>
     </message>
@@ -7320,7 +7483,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Karartma-aç/kapa</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
         <translation>Logoyu yaklaşık olarak konumlandırmak için resmin üzerine tıklayabilirsiniz</translation>
     </message>
@@ -8208,7 +8371,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+12"/>
         <source>X</source>
         <translation>X</translation>
     </message>
@@ -8242,12 +8405,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Ön izleme. Kutu koordinatlarını kaba bir şekilde ayarlamak için yukarıdaki resme tıklayın</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+59"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+454"/>
         <source>You can resize the red rectangle using the grips </source>
         <translation>Sapları kullanarak kırmızı dikdörtgeni yeniden boyutlandırabilirsiniz </translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+74"/>
         <source>Preview</source>
         <translation>Ön izleme</translation>
     </message>
@@ -8273,27 +8436,32 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Msharpen</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+112"/>
+        <source>Show full preview</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Mask</source>
         <translation>Maske</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="-58"/>
         <source>Strength</source>
         <translation>Sertlik</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+24"/>
         <source>Threshold</source>
         <translation>Eşik</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>HighQuality</source>
         <translation>Yüksek Kalite</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="-24"/>
         <source>Process chroma</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8334,7 +8502,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+108"/>
+        <location line="+112"/>
         <source>Invert Y Plane</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8838,7 +9006,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Seçim: </translation>
     </message>
     <message numerus="yes">
-        <location line="+277"/>
+        <location line="+302"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -9035,12 +9203,12 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Kısmi yap</translation>
     </message>
     <message>
-        <location line="+141"/>
+        <location line="+143"/>
         <source>Press %s to accept the dialog</source>
         <translation>Diyaloğu kabul etmek için %s tuşuna basın</translation>
     </message>
     <message>
-        <location line="+121"/>
+        <location line="+122"/>
         <source>Load video filters..</source>
         <translation>Video filtrelerini yükleyin..</translation>
     </message>
@@ -9199,7 +9367,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+53"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+58"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>Komutlarınızı girin ve ardından değerlendir düğmesine veya CTRL + ENTER tuşlarına basın.
@@ -9936,7 +10104,7 @@ Hazır.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+278"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+351"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9954,7 +10122,7 @@ Hazır.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+265"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+266"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+335"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
@@ -9969,16 +10137,22 @@ Hazır.
         <translation>İndeksleme</translation>
     </message>
     <message>
-        <location line="+160"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+67"/>
+        <location line="+161"/>
         <source>Size Change</source>
         <translation>Boyut Değişimi</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
         <translation>Videonun boyutu %u karesinde %ux%u&apos;dan %ux%u&apos;ya değişir. Bu desteklenmiyor, burada duruyoruz.</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+72"/>
+        <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported and will result in a crash.
+Proceed nevertheless?
+This warning won&apos;t be shown again for this video.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+84"/>
@@ -11953,7 +12127,7 @@ If it is a system profile it will be recreated next time.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+282"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+289"/>
         <source>Auto</source>
         <translation>Otomatik</translation>
     </message>
@@ -12110,12 +12284,12 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location line="+3051"/>
+        <location line="+3061"/>
         <source>Delete</source>
         <translation>Sil</translation>
     </message>
     <message>
-        <location line="-3009"/>
+        <location line="-3019"/>
         <source>General</source>
         <translation>Genel</translation>
     </message>
@@ -12270,12 +12444,12 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     </message>
     <message>
         <location line="+14"/>
-        <location line="+2431"/>
+        <location line="+2441"/>
         <source>frames</source>
         <translation>kareler</translation>
     </message>
     <message>
-        <location line="-2407"/>
+        <location line="-2417"/>
         <source>Sequence Parameter Set Identifer:</source>
         <translation>Dizi Parametre Seti Tanımlayıcısı:</translation>
     </message>
@@ -12621,12 +12795,12 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+1070"/>
+        <location line="+1080"/>
         <source>Edit</source>
         <translation>Düzenle</translation>
     </message>
     <message>
-        <location line="-1023"/>
+        <location line="-1033"/>
         <source>Quantiser Control</source>
         <translation>Nicelik Kontrolü</translation>
     </message>
@@ -12642,12 +12816,12 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     </message>
     <message>
         <location line="+182"/>
-        <location line="+598"/>
+        <location line="+608"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location line="-737"/>
+        <location line="-747"/>
         <source>Maximum Quantiser Step:</source>
         <translation>En fazla Nicemleme Adımı:</translation>
     </message>
@@ -12710,6 +12884,16 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
         <location line="+5"/>
         <source>Auto Variance AQ</source>
         <translation>Otomatik Varyans AQ</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto-Variance Biased</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Auto-Variance Edge</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
