@@ -496,6 +496,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/DIA_flyArtColorEffect.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/Q_artColorEffect.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/artColorEffect.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avspipecomm.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/strnew.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/cdebug.h \ 

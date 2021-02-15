@@ -3493,7 +3493,7 @@ Installation mismatch</source>
 <context>
     <name>artColorEffect</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+69"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+33"/>
         <source>Color Effect</source>
         <translation>Цветовой эффект</translation>
     </message>
@@ -7052,8 +7052,84 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+20"/>
+        <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="+182"/>
         <source>Quit</source>
         <translation>Выйти</translation>
+    </message>
+    <message>
+        <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="-121"/>
+        <source>Job</source>
+        <translation>Сценарий</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Output</source>
+        <translation>Вывод</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start Time</source>
+        <translation>Начало</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>End Time</source>
+        <translation>Завершение</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Duration</source>
+        <translation>Длительность</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Ready</source>
+        <translation>Готовность</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Running....</source>
+        <translation>Выполнение...</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Success</source>
+        <translation>Успех</translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Failed</source>
+        <translation>Ошибка</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>???</source>
+        <translation>???</translation>
+    </message>
+    <message>
+        <location line="+43"/>
+        <source>Delete</source>
+        <translation>Удалить</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Run Now</source>
+        <translation>Запустить немедленно</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Force Status to success</source>
+        <translation>Изменить статус на успешное выполнение</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Force Status to ready</source>
+        <translation>Изменить статус на готовность</translation>
     </message>
 </context>
 <context>
