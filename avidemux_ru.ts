@@ -3449,12 +3449,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/ADM_vidArtCharcoal.cpp" line="+41"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Рисунок углём / мелом</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from MLT.</source>
-        <translation type="unfinished"></translation>
+        <translation>Портирован из MLT.</translation>
     </message>
 </context>
 <context>
@@ -3462,32 +3462,32 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/artCharcoal.ui" line="+14"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Рисунок углём / мелом</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Интенсивность</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Цвет</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Vertical scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Разброс по вертикали</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Horizontal scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Разброс по горизонтали</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Мел по чёрной доске</translation>
     </message>
 </context>
 <context>
@@ -3495,12 +3495,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+69"/>
         <source>Color Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветовой эффект</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Портирован из frei0r.</translation>
     </message>
 </context>
 <context>
@@ -3508,17 +3508,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/artColorEffect.ui" line="+14"/>
         <source>Color Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветовой эффект</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Эффект</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Sepia</source>
-        <translation type="unfinished"></translation>
+        <translation>Сепия</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3553,17 +3553,17 @@ Installation mismatch</source>
     <message>
         <location line="+5"/>
         <source>Old photo</source>
-        <translation type="unfinished"></translation>
+        <translation>Старая фотография</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Night vision</source>
-        <translation type="unfinished"></translation>
+        <translation>Система ночного видения</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>X-ray</source>
-        <translation type="unfinished"></translation>
+        <translation>Рентген</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3602,7 +3602,7 @@ Installation mismatch</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
         <location line="+1"/>
         <source>Pixelize</source>
-        <translation type="unfinished"></translation>
+        <translation>Пикселизация</translation>
     </message>
 </context>
 <context>
@@ -3610,17 +3610,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/qt4/artPixelize.ui" line="+14"/>
         <source>Pixelize</source>
-        <translation type="unfinished"></translation>
+        <translation>Пикселизация</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Pixel size</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер блока</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>на</translation>
     </message>
 </context>
 <context>
@@ -3628,12 +3628,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>VHS effect. Most authentic at lower resolutions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эффект видео системы VHS. Наиболее убедителен при низком разрешении.</translation>
     </message>
 </context>
 <context>
@@ -3641,37 +3641,37 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui" line="+14"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Luma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Полоса сигнала яркости</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Chroma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Полоса сигнала цвета</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Sync error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка синхронизации</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Use zero delay filter for chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Двойная фильтрация цветности</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use zero delay filter for luma</source>
-        <translation type="unfinished"></translation>
+        <translation>Двойная фильтрация яркости</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sync error filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Фильтр ошибки синхронизации</translation>
     </message>
 </context>
 <context>
@@ -3679,12 +3679,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+43"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Виньетка</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lens vignetting effect, ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эффект виньетирования объектива, портирован из frei0r.</translation>
     </message>
 </context>
 <context>
@@ -3692,22 +3692,22 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/qt4/artVignette.ui" line="+14"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Виньетка</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>Size of the unaffected center</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер незатронутого центра</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>Softness</source>
-        <translation type="unfinished"></translation>
+        <translation>Размытость</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Соотношение сторон</translation>
     </message>
 </context>
 <context>
@@ -3785,7 +3785,7 @@ Installation mismatch</source>
     <message>
         <location line="+18"/>
         <source>Show full preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать кадр полностью</translation>
     </message>
     <message>
         <source>Block Adaptative</source>
@@ -4304,12 +4304,12 @@ This message will not be displayed again.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.cpp" line="+41"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Температура цвета</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Adjust color temperature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изменить температуру цвета.</translation>
     </message>
 </context>
 <context>
@@ -4317,17 +4317,17 @@ This message will not be displayed again.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui" line="+14"/>
         <source>Color Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Температура цвета</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Температура</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>U-V plane angle of attack</source>
-        <translation type="unfinished"></translation>
+        <translation>Угол оттенка</translation>
     </message>
 </context>
 <context>
@@ -4458,20 +4458,20 @@ This message will not be displayed again.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+34"/>
         <source>Adjust contrast, brightness and colors.</source>
-        <translation type="unfinished">Изменение контраста, яркости и цвета.</translation>
+        <translation>Изменение контраста, яркости и цвета.</translation>
     </message>
     <message>
         <location line="-1"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+66"/>
         <location line="+87"/>
         <source>Contrast</source>
-        <translation type="unfinished">Контраст</translation>
+        <translation>Контраст</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="-86"/>
         <location line="+87"/>
         <source>Brightness</source>
-        <translation type="unfinished">Яркость</translation>
+        <translation>Яркость</translation>
     </message>
 </context>
 <context>
@@ -4505,22 +4505,22 @@ This message will not be displayed again.</source>
     <message>
         <location line="+49"/>
         <source>ChromaU</source>
-        <translation type="unfinished"></translation>
+        <translation>Компонента U</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>ChromaV</source>
-        <translation type="unfinished"></translation>
+        <translation>Компонента V</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Process</source>
-        <translation type="unfinished">Обработка</translation>
+        <translation>Предпросмотр</translation>
     </message>
     <message>
         <location line="-20"/>
         <source>MPEG2-&gt;PC</source>
-        <translation type="unfinished"></translation>
+        <translation>MPEG2-&gt;PC</translation>
     </message>
 </context>
 <context>
@@ -4602,7 +4602,7 @@ Do you want to load it  ?
     <message>
         <location line="+74"/>
         <source>Auto Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоматика</translation>
     </message>
 </context>
 <context>
@@ -4665,52 +4665,52 @@ Do you want to load it  ?
         <location line="+7"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Свободное</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Как в текущем выборе</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Как в источнике</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>21:9</source>
-        <translation type="unfinished"></translation>
+        <translation>21:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>18:9</source>
-        <translation type="unfinished"></translation>
+        <translation>18:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1:1</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>9:16</source>
-        <translation type="unfinished"></translation>
+        <translation>9:16</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Соотношение сторон:</translation>
     </message>
 </context>
 <context>
@@ -6852,12 +6852,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
         <source>Adjust hue and saturation.</source>
-        <translation type="unfinished">Настройка оттенка (hue) и насыщености.</translation>
+        <translation>Настройка оттенка (hue) и насыщености.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Mplayer Hue</source>
-        <translation type="unfinished">Оттенок (hue) Mplayer</translation>
+        <translation>Mplayer Hue</translation>
     </message>
 </context>
 <context>
@@ -6866,17 +6866,17 @@ I will assume it has and try to continue</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/qt4/hue.ui" line="+14"/>
         <location line="+25"/>
         <source>Hue</source>
-        <translation type="unfinished">Оттенок (hue)</translation>
+        <translation>Оттенок (hue)</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Saturation</source>
-        <translation type="unfinished">Насыщенность</translation>
+        <translation>Насыщенность</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>Show full preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать кадр полностью</translation>
     </message>
 </context>
 <context>
@@ -7485,12 +7485,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+18"/>
         <source>Artistic</source>
-        <translation type="unfinished"></translation>
+        <translation>Художественность</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Miscellaneous</source>
-        <translation>Прочие</translation>
+        <translation>Прочее</translation>
     </message>
     <message>
         <location line="+111"/>
@@ -8351,7 +8351,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+112"/>
         <source>Show full preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Показывать кадр полностью</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -9440,12 +9440,12 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+365"/>
         <source>_Mode:</source>
-        <translation type="unfinished">_Режим:</translation>
+        <translation>_Режим:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_New frame rate:</source>
-        <translation type="unfinished">Новая _частота кадров:</translation>
+        <translation>Новая _частота кадров:</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -9455,7 +9455,7 @@ Ready.
     <message>
         <location line="-329"/>
         <source>Custom</source>
-        <translation type="unfinished">Вручную</translation>
+        <translation>Вручную</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9644,37 +9644,37 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+52"/>
         <location line="+163"/>
         <source>Rotate</source>
-        <translation type="unfinished">Повернуть</translation>
+        <translation>Повернуть</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>None</source>
-        <translation type="unfinished">Не нужно</translation>
+        <translation>Не нужно</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>90 degrees</source>
-        <translation type="unfinished">90 градусов</translation>
+        <translation>90 градусов</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>180 degrees</source>
-        <translation type="unfinished">180 градусов</translation>
+        <translation>180 градусов</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>270 degrees</source>
-        <translation type="unfinished">270 градусов</translation>
+        <translation>270 градусов</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Angle:</source>
-        <translation type="unfinished">Угол:</translation>
+        <translation>Угол:</translation>
     </message>
     <message>
         <location line="-160"/>
         <source>Rotate the image by 90/180/270 degrees.</source>
-        <translation type="unfinished">Повернуть изображение на 90/180/270 градусов.</translation>
+        <translation>Повернуть изображение на 90/180/270 градусов.</translation>
     </message>
     <message>
         <location line="+156"/>
@@ -9697,12 +9697,12 @@ Ready.
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/seekablePreview.ui" line="+20"/>
         <source>Preview</source>
-        <translation type="unfinished">Предпросмотр</translation>
+        <translation>Предпросмотр</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+74"/>
         <source>Back one minute</source>
-        <translation type="unfinished">Назад на 1 мин</translation>
+        <translation>Назад на 1 мин</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9717,7 +9717,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Next image</source>
-        <translation type="unfinished">Следующее изображение</translation>
+        <translation>Следующий кадр</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9732,7 +9732,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished">Вперед на 1 мин</translation>
+        <translation>Вперед на 1 мин</translation>
     </message>
 </context>
 <context>
@@ -9995,17 +9995,17 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+351"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Сохранить файл</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Open File</source>
-        <translation type="unfinished"></translation>
+        <translation>Открыть файл</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Select Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Выберите каталог</translation>
     </message>
 </context>
 <context>
@@ -10135,12 +10135,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+3"/>
         <source>Prediction Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Алгоритм предсказания:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Ut Video Encoder Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Конфигурация кодировщика Ut Video</translation>
     </message>
 </context>
 <context>
