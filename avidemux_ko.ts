@@ -3583,8 +3583,12 @@ Installation mismatch</source>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3609,7 +3613,7 @@ Installation mismatch</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4308,7 +4312,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8935,7 +8939,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>1분 앞으로</translation>
     </message>
     <message>
-        <location line="+681"/>
+        <location line="+685"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>프로그램에서 치명적인 문제가 발생했습니다

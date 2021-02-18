@@ -3622,8 +3622,12 @@ Expect problems.</source>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3648,7 +3652,7 @@ Expect problems.</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4348,7 +4352,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8992,12 +8996,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2277"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2281"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2036"/>
+        <location line="-2040"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
@@ -9012,14 +9016,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1550"/>
+        <location line="+1554"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-733"/>
+        <location line="-737"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
@@ -9068,12 +9072,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1013"/>
+        <location line="+1017"/>
         <source>Selection: </source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1031"/>
+        <location line="-1035"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -9088,7 +9092,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1353"/>
+        <location line="+1357"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -9098,7 +9102,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1351"/>
+        <location line="-1355"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>

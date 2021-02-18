@@ -3590,8 +3590,12 @@ Expect problems.</source>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3616,7 +3620,7 @@ Expect problems.</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4314,7 +4318,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8866,12 +8870,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2277"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2281"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-965"/>
+        <location line="-969"/>
         <source>Set start marker</source>
         <translation>設定開始標記</translation>
     </message>
@@ -8881,14 +8885,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1550"/>
+        <location line="+1554"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
 當前編輯已保儲存, 將在下一開始重新載入</translation>
     </message>
     <message>
-        <location line="-733"/>
+        <location line="-737"/>
         <source>Go to previous keyframe</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
@@ -8918,7 +8922,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分鐘</translation>
     </message>
     <message>
-        <location line="+994"/>
+        <location line="+998"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -8931,7 +8935,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1329"/>
+        <location line="-1333"/>
         <source>Go to first frame</source>
         <translation>轉到第一幀</translation>
     </message>

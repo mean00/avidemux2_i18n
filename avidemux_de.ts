@@ -492,13 +492,13 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+15"/>
         <source>Avidemux</source>
-        <translation type="unfinished">Avidemux</translation>
+        <translation>Avidemux</translation>
     </message>
     <message>
         <location line="+460"/>
         <location line="+169"/>
         <source>Copy</source>
-        <translation type="unfinished">Kopieren</translation>
+        <translation>Kopieren</translation>
     </message>
     <message>
         <location line="-294"/>
@@ -506,18 +506,18 @@ Drop timing informations ?</source>
         <location line="+169"/>
         <location line="+181"/>
         <source>Configure</source>
-        <translation type="unfinished">Konfigurieren</translation>
+        <translation>Konfigurieren</translation>
     </message>
     <message>
         <location line="-334"/>
         <location line="+169"/>
         <source>Filters</source>
-        <translation type="unfinished">Filter</translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>&amp;Shift:</source>
-        <translation type="unfinished">Dela&amp;y:</translation>
+        <translation>Ver&amp;zögerung:</translation>
     </message>
     <message>
         <location line="+277"/>
@@ -535,105 +535,105 @@ Drop timing informations ?</source>
         <location line="+26"/>
         <location line="+373"/>
         <source>...</source>
-        <translation type="unfinished">...</translation>
+        <translation>...</translation>
     </message>
     <message>
         <location line="-318"/>
         <source>Time:</source>
-        <translation type="unfinished">Zeit:</translation>
+        <translation>Zeit:</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>?</source>
-        <translation type="unfinished">?</translation>
+        <translation>?</translation>
     </message>
     <message>
         <location line="-1291"/>
         <source>&amp;Help</source>
-        <translation type="unfinished">&amp;Hilfe</translation>
+        <translation>&amp;Hilfe</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vi&amp;deo</source>
-        <translation type="unfinished">&amp;Video</translation>
+        <translation>&amp;Video</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>&amp;Audio</source>
-        <translation type="unfinished">&amp;Audio</translation>
+        <translation>&amp;Audio</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;File</source>
-        <translation type="unfinished">&amp;Datei</translation>
+        <translation>&amp;Datei</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>&amp;Tools</source>
-        <translation type="unfinished">&amp;Werkzeuge</translation>
+        <translation>&amp;Werkzeuge</translation>
     </message>
     <message>
         <location line="-36"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished">&amp;Bearbeiten</translation>
+        <translation>&amp;Bearbeiten</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;View</source>
-        <translation type="unfinished">An&amp;sicht</translation>
+        <translation>An&amp;sicht</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Custom</source>
-        <translation type="unfinished">Individuel&amp;l</translation>
+        <translation>&amp;Skripte</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;Go</source>
-        <translation type="unfinished">&amp;Navigation</translation>
+        <translation>&amp;Navigation</translation>
     </message>
     <message>
         <location line="+1612"/>
         <source>&amp;Open...</source>
-        <translation type="unfinished">&amp;Öffnen...</translation>
+        <translation>&amp;Öffnen...</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>&amp;Information...</source>
-        <translation type="unfinished">E&amp;igenschaften...</translation>
+        <translation>E&amp;igenschaften...</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Save &amp;Video...</source>
-        <translation type="unfinished">&amp;Video speichern...</translation>
+        <translation>&amp;Video speichern...</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Save Video</source>
-        <translation type="unfinished">Video speichern</translation>
+        <translation>Video speichern</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>&amp;Load/Run Project...</source>
-        <translation type="unfinished">&amp;Lade/Starte Projekt...</translation>
+        <translation>&amp;Lade/Starte Projekt...</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Load/Run Project</source>
-        <translation type="unfinished">Lade/Starte Projekt</translation>
+        <translation>Lade/Starte Projekt</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Save &amp;Project</source>
-        <translation type="unfinished">&amp;Projekt speichern</translation>
+        <translation>&amp;Projekt speichern</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Save Project</source>
-        <translation type="unfinished">Projekt speichern</translation>
+        <translation>Projekt speichern</translation>
     </message>
     <message>
         <source>&amp;Calculator...</source>
@@ -646,37 +646,37 @@ Drop timing informations ?</source>
     <message>
         <location line="-1096"/>
         <source>ms</source>
-        <translation type="unfinished">ms</translation>
+        <translation>ms</translation>
     </message>
     <message>
         <location line="+772"/>
         <source>A:</source>
-        <translation type="unfinished">A:</translation>
+        <translation>A:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>B:</source>
-        <translation type="unfinished">B:</translation>
+        <translation>B:</translation>
     </message>
     <message>
         <location line="+332"/>
         <source>&amp;Input</source>
-        <translation type="unfinished">&amp;Original</translation>
+        <translation>&amp;Original</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>&amp;Output</source>
-        <translation type="unfinished">&amp;Vorschau</translation>
+        <translation>&amp;Vorschau</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>Si&amp;de</source>
-        <translation type="unfinished">&amp;nebeneinander</translation>
+        <translation>&amp;Nebeneinander</translation>
     </message>
     <message>
         <location line="-12"/>
         <source>&amp;Top</source>
-        <translation type="unfinished">&amp;übereinander</translation>
+        <translation>&amp;Übereinander</translation>
     </message>
     <message>
         <location line="-565"/>
@@ -686,67 +686,67 @@ Drop timing informations ?</source>
     <message>
         <location line="+553"/>
         <source>&amp;Separate</source>
-        <translation type="unfinished">&amp;eigenständig</translation>
+        <translation>Ab&amp;trennen</translation>
     </message>
     <message>
         <location line="-1812"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Werkzeugleisten</translation>
+        <translation>&amp;Werkzeugleisten</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>&amp;Auto</source>
-        <translation type="unfinished">A&amp;uto</translation>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>&amp;Recent</source>
-        <translation type="unfinished">Ve&amp;rlauf</translation>
+        <translation>Ve&amp;rlauf</translation>
     </message>
     <message>
         <location line="+218"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Video-Codec&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Video-Codec&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+160"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Audio-Codec&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Audio-Codec&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+222"/>
         <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
-        <translation type="unfinished">&lt;b&gt;Ausgabeformat&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Ausgabeformat&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+1099"/>
         <source>&amp;Codec Options</source>
-        <translation type="unfinished">&amp;Codec-Einstellungen</translation>
+        <translation>&amp;Codec-Einstellungen</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>&amp;Selection</source>
-        <translation type="unfinished">&amp;Auswahlbereich</translation>
+        <translation>&amp;Auswahl</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Volume</source>
-        <translation type="unfinished">&amp;Lautstärke</translation>
+        <translation>&amp;Lautstärke</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Audio Metre</source>
-        <translation type="unfinished">&amp;Pegelanzeige</translation>
+        <translation>&amp;Pegelanzeige</translation>
     </message>
     <message>
         <location line="-124"/>
         <source>Play filtered</source>
-        <translation type="unfinished">Filter anwenden</translation>
+        <translation>Filter anwenden</translation>
     </message>
     <message>
         <location line="-36"/>
         <source>Open Video</source>
-        <translation type="unfinished">Videodatei öffnen</translation>
+        <translation>Videodatei öffnen</translation>
     </message>
     <message>
         <location line="-794"/>
@@ -826,7 +826,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-1327"/>
         <source>Codec O&amp;ptions</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Codec-Einstellungen</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -837,7 +837,7 @@ Drop timing informations ?</source>
         <location line="+75"/>
         <location line="+7"/>
         <source>XXXX</source>
-        <translation type="unfinished"></translation>
+        <translation>XXXX</translation>
     </message>
     <message>
         <location line="+227"/>
@@ -848,38 +848,38 @@ Drop timing informations ?</source>
         <location line="+338"/>
         <location line="+987"/>
         <source>&amp;Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Navigation</translation>
     </message>
     <message>
         <location line="-909"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe</translation>
     </message>
     <message>
         <location line="+285"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Minute vor</translation>
     </message>
     <message>
         <location line="+77"/>
         <source>00:00:00.000</source>
-        <translation type="unfinished">00:00:00.000</translation>
+        <translation>00:00:00,000</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>/ 00:00:00.000</source>
-        <translation type="unfinished">/ 00:00:00.000</translation>
+        <translation>/ 00:00:00,000</translation>
     </message>
     <message>
         <location line="+92"/>
         <source>Se&amp;lection</source>
-        <translation type="unfinished"></translation>
+        <translation>Aus&amp;wahl</translation>
     </message>
     <message>
         <location line="+80"/>
         <location line="+16"/>
         <source>000000</source>
-        <translation type="unfinished">000000</translation>
+        <translation>000000</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -889,37 +889,37 @@ Drop timing informations ?</source>
     <message>
         <location line="+37"/>
         <source>Vol&amp;ume</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lautstärke</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Audio &amp;Metre</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio&amp;pegel</translation>
     </message>
     <message>
         <location line="+157"/>
         <source>Ctrl+Alt+C</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+C</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Ctrl+Alt+N</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+N</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Ctrl+Alt+S</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+S</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Ctrl+Alt+V</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+V</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Ctrl+Alt+M</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+M</translation>
     </message>
 </context>
 <context>
@@ -935,7 +935,7 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_shell/shell.ui" line="+17"/>
         <source>Shell</source>
-        <translation type="unfinished"></translation>
+        <translation>Konsole</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -3442,12 +3442,12 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/ADM_vidArtCharcoal.cpp" line="+41"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohle- / Kreidezeichnung</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from MLT.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portiert aus MLT.</translation>
     </message>
 </context>
 <context>
@@ -3455,32 +3455,32 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/artCharcoal.ui" line="+14"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kohle- / Kreidezeichnung</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Intensität</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbigkeit</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Vertical scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikale Streuung</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Horizontal scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontale Streuung</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Kreidetafel</translation>
     </message>
 </context>
 <context>
@@ -3593,9 +3593,13 @@ Nichtübereinstimmende Installation</translation>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
         <translation>Pixelieren</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
+        <translation>Bild verpixeln.</translation>
     </message>
 </context>
 <context>
@@ -3619,14 +3623,14 @@ Nichtübereinstimmende Installation</translation>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>VHS effect. Most authentic at lower resolutions.</source>
-        <translation type="unfinished"></translation>
+        <translation>Video wie eine VHS-Aufnahme aussehen lassen. Wirkt bei niedrigen Auflösungen am besten.</translation>
     </message>
 </context>
 <context>
@@ -3634,37 +3638,37 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui" line="+14"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Luma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Luminanz-Bandbreite</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Chroma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Chrominanz-Bandbreite</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Sync error</source>
-        <translation type="unfinished"></translation>
+        <translation>Synchronisationsfehler</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Use zero delay filter for chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Chrominanz nicht verzögern</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Use zero delay filter for luma</source>
-        <translation type="unfinished"></translation>
+        <translation>Luminanz nicht verzögern</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Sync error filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Synchronisationsfilter</translation>
     </message>
 </context>
 <context>
@@ -4261,12 +4265,12 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/chromaShift/ADM_vidChromaShift.cpp" line="+36"/>
         <source>Shift chroma U/V to fix badly synced luma/chroma.</source>
-        <translation type="unfinished">Farbintensität U/V verschieben bei schlecht synchronisierter Intensität/Helligkeit.</translation>
+        <translation>Chrominanz-Komponenten U und V verschieben, um schlechte Synchronisation mit Luminanz zu korrigieren.</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>ChromaShift</source>
-        <translation type="unfinished">Farbintensitäts-Verschiebung</translation>
+        <translation>Farbverschiebung</translation>
     </message>
 </context>
 <context>
@@ -4274,17 +4278,17 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/chromaShift/qt4/chromashift.ui" line="+14"/>
         <source>ChromaShift</source>
-        <translation type="unfinished">Farbintensitäts-Verschiebung</translation>
+        <translation>Farbverschiebung</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>V Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Versatz für V</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>U Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Versatz für U</translation>
     </message>
 </context>
 <context>
@@ -4292,12 +4296,12 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.cpp" line="+41"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbtemperatur</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Adjust color temperature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbtemperatur anpassen.</translation>
     </message>
 </context>
 <context>
@@ -4305,17 +4309,17 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui" line="+14"/>
         <source>Color Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbtemperatur</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbtemperatur</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
-        <translation type="unfinished"></translation>
+        <source>Chroma shift angle</source>
+        <translation>Winkel der Farbverschiebung</translation>
     </message>
 </context>
 <context>
@@ -4473,12 +4477,12 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+88"/>
         <source>Luma</source>
-        <translation type="unfinished">Helligkeit</translation>
+        <translation>Luminanz</translation>
     </message>
     <message>
         <location line="-36"/>
         <source>Brightness</source>
-        <translation type="unfinished">Helligkeit</translation>
+        <translation>Helligkeit</translation>
     </message>
     <message>
         <location line="-72"/>
@@ -4661,17 +4665,17 @@ Soll dieses jetzt geladen werden ?
         <location line="+7"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Frei</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Wie aktuelle Auswahl</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Wie Quelle</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4706,7 +4710,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+8"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitenverhältnis:</translation>
     </message>
 </context>
 <context>
@@ -6996,7 +7000,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../ADM_jobs/src/uiJobs.ui" line="+17"/>
         <source>Avidemux Jobs</source>
-        <translation type="unfinished"></translation>
+        <translation>Avidemux Jobs</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -7006,7 +7010,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>Run jobs</source>
-        <translation type="unfinished"></translation>
+        <translation>Jobs ausführen</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7016,7 +7020,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufräumen</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7026,13 +7030,13 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>use Qt version</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt-Anwendung benutzen</translation>
     </message>
     <message>
         <location line="+20"/>
         <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="+182"/>
         <source>Quit</source>
-        <translation type="unfinished">&amp;Beenden</translation>
+        <translation>Beenden</translation>
     </message>
     <message>
         <location filename="../../common/GUI_jobs.cpp" line="-5"/>
@@ -7042,77 +7046,77 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="-121"/>
         <source>Job</source>
-        <translation type="unfinished"></translation>
+        <translation>Job</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgabe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Status</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Startzeit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>End Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ende</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Dauer</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Bereit</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Running....</source>
-        <translation type="unfinished"></translation>
+        <translation>Wird ausgeführt...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Erfolg</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Fehler</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>???</source>
-        <translation type="unfinished"></translation>
+        <translation>???</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Löschen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run Now</source>
-        <translation type="unfinished"></translation>
+        <translation>Jetzt ausführen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to success</source>
-        <translation type="unfinished"></translation>
+        <translation>Als erfolgreich abgeschlossen markieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Als bereit zur Ausführung markieren</translation>
     </message>
 </context>
 <context>
@@ -7422,12 +7426,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
         <source>Image:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilddatei:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>No image selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Bilddatei ausgewählt</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7463,32 +7467,32 @@ I will assume it has and try to continue</source>
     <message>
         <location line="-155"/>
         <source>Logo</source>
-        <translation type="unfinished">Logo</translation>
+        <translation>Logo</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Select Image...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild wählen...</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>No image selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine Bilddatei ausgewählt</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Y</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparenz</translation>
     </message>
 </context>
 <context>
@@ -7529,12 +7533,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+9"/>
         <source>Colors</source>
-        <translation>Farbkorrekturen</translation>
+        <translation>Farben</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Noise</source>
-        <translation>Rauschunterdrückung</translation>
+        <translation>Rauschen</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -7544,12 +7548,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+9"/>
         <source>Subtitles</source>
-        <translation>Untertitel hinzufügen</translation>
+        <translation>Untertitel</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Artistic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunst</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -8886,7 +8890,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+591"/>
         <source>?</source>
-        <translation type="unfinished"></translation>
+        <translation>?</translation>
     </message>
     <message>
         <location line="+214"/>
@@ -8954,7 +8958,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+991"/>
+        <location line="+995"/>
         <source>Selection: </source>
         <translation>Auswahl: </translation>
     </message>
@@ -8968,12 +8972,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2410"/>
+        <location line="-2414"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1796"/>
+        <location line="+1800"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -9015,12 +9019,12 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+20"/>
         <source>Scripting Shell</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriptkonsole</translation>
     </message>
     <message>
         <location line="+4"/>
         <source> Shell</source>
-        <translation type="unfinished"></translation>
+        <translation>-Konsole</translation>
     </message>
     <message>
         <location line="+22"/>
@@ -9342,27 +9346,33 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+58"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Code eingeben und auf &quot;Ausführen&quot; klicken oder Strg+Eingabetaste drücken.
+</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Durch den Verlauf navigieren: Strg + Bild auf / Strg + Bild ab
+Bereit.
+</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Enter your commands then press the evaluate button or ⌘⏎.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Code eingeben und auf den Ausführen-Button klicken oder ⌘⏎ drücken.
+</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>You can use ⌥⌘▲ and ⌥⌘▼ to recall previous commands.
 Ready.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Durch den Verlauf navigieren: ⌥⌘▲ und ⌥⌘▼
+Bereit.
+</translation>
     </message>
 </context>
 <context>
@@ -10094,7 +10104,9 @@ Ready.
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported and will result in a crash.
 Proceed nevertheless?
 This warning won&apos;t be shown again for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Auflösung ändert sich beim Frame %u von %ux%u zu %ux%u. Dies wird nicht unterstützt und führt zum Absturz.
+Trotzdem fortsetzen?
+Diese Warnung wird für dieses Video nicht mehr angezeigt.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+84"/>

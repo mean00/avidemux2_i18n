@@ -3605,8 +3605,12 @@ Niezgodność instalacji</translation>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3631,7 +3635,7 @@ Niezgodność instalacji</translation>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4323,7 +4327,7 @@ Czy pomimo tego chcesz kontynuować?</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8959,7 +8963,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Do przodu jedna minuta</translation>
     </message>
     <message>
-        <location line="+681"/>
+        <location line="+685"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikacja napotkała fatalny problem!
