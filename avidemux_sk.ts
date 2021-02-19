@@ -6889,7 +6889,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+36"/>
         <source>Mplayer Hue</source>
         <translation>Mplayer odtieň</translation>
     </message>
@@ -8647,7 +8647,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation>Čas _štartu:</translation>
     </message>
@@ -8662,9 +8667,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Konfigurácia filtra</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Partial Filter</source>
-        <translation>Čiastkový filter</translation>
+        <translation type="vanished">Čiastkový filter</translation>
     </message>
 </context>
 <context>

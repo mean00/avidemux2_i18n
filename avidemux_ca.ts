@@ -6782,7 +6782,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+37"/>
         <source>Adjust hue and saturation.</source>
         <translation type="unfinished">Ajusta el matís i la saturació.</translation>
     </message>
@@ -8507,7 +8507,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8519,11 +8524,6 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Configure filter</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Partial Filter</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

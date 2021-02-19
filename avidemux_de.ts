@@ -6837,14 +6837,14 @@ I will assume it has and try to continue</source>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+37"/>
         <source>Adjust hue and saturation.</source>
-        <translation type="unfinished">Farbton und Sättigung einstellen (MPlayer hue Version).</translation>
+        <translation>Farbton und Sättigung anpassen (MPlayer hue Version).</translation>
     </message>
     <message>
         <location line="-1"/>
         <source>Mplayer Hue</source>
-        <translation type="unfinished">MPlayer Hue</translation>
+        <translation>MPlayer Hue</translation>
     </message>
 </context>
 <context>
@@ -6853,17 +6853,17 @@ I will assume it has and try to continue</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/qt4/hue.ui" line="+14"/>
         <location line="+25"/>
         <source>Hue</source>
-        <translation type="unfinished">Farbton</translation>
+        <translation>Farbton</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Saturation</source>
-        <translation type="unfinished">Sättigung</translation>
+        <translation>Sättigung</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>Show full preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorschau nicht teilen</translation>
     </message>
 </context>
 <context>
@@ -8583,7 +8583,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation>&quot;%s&quot; auf Teilbereich anwenden</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation>_Beginn:</translation>
     </message>
@@ -8598,9 +8603,8 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>_Konfigurieren</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Partial Filter</source>
-        <translation>Teilbereich festlegen</translation>
+        <translation type="vanished">Teilbereich festlegen</translation>
     </message>
 </context>
 <context>
