@@ -3327,18 +3327,18 @@ Try anyway?</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7530,7 +7530,7 @@ I will assume it has and try to continue</source>
         <translation>Matroska obrázky</translation>
     </message>
     <message>
-        <location line="+527"/>
+        <location line="+544"/>
         <source>Matroska clusters</source>
         <translation>Matroska klastry</translation>
     </message>
@@ -8813,12 +8813,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+241"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+245"/>
+        <location line="+248"/>
         <source>Recent Files</source>
         <translation type="unfinished">Nedávné soubory</translation>
     </message>
@@ -8898,7 +8898,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+688"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
@@ -9072,7 +9072,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+441"/>
         <source>Partial</source>
         <translation type="unfinished">Částečný</translation>
     </message>
@@ -9701,7 +9701,7 @@ Ready.
         <translation type="unfinished">Náhled</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+74"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
         <source>Back one minute</source>
         <translation type="unfinished"></translation>
     </message>

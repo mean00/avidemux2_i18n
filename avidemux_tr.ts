@@ -3381,18 +3381,18 @@ Yine de denemek ister misiniz?</translation>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation>Kod Çözücü</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>0x%x kodeki dahili hata bulma</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation>Mod Kararı 0x%x açılırken dahili hata</translation>
     </message>
@@ -7667,7 +7667,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Matroska Görüntüleri</translation>
     </message>
     <message>
-        <location line="+527"/>
+        <location line="+544"/>
         <source>Matroska clusters</source>
         <translation>Matroska kümeleri</translation>
     </message>
@@ -8989,12 +8989,12 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+241"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+245"/>
+        <location line="+248"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
@@ -9074,7 +9074,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+685"/>
+        <location line="+688"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
@@ -9247,7 +9247,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+441"/>
         <source>Partial</source>
         <translation>Kısmi</translation>
     </message>
@@ -9896,7 +9896,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+74"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
         <source>Back one minute</source>
         <translation>Bir dakika geri git</translation>
     </message>

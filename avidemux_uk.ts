@@ -1245,8 +1245,8 @@ It is needed to create FLV  video.</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation>Кодек</translation>
     </message>
@@ -1947,7 +1947,7 @@ Proceed anyway?</source>
         <translation>Помилка аудіокодера</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Внутрішня помилка пошуку кодека 0x%x</translation>
     </message>
@@ -3404,7 +3404,7 @@ Expect problems.</source>
         <translation>Додати операцію в чергу</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation>Внутрішня помилка відкриття 0x%x</translation>
     </message>
@@ -7678,12 +7678,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+574"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+591"/>
         <source>Matroska clusters</source>
         <translation>Кластери Matroska</translation>
     </message>
     <message>
-        <location line="-527"/>
+        <location line="-544"/>
         <source>Matroska Images</source>
         <translation>Зображення Matroska</translation>
     </message>
@@ -9000,17 +9000,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2281"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2288"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2040"/>
+        <location line="-2046"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1071"/>
+        <location line="+1074"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
@@ -9020,14 +9020,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1554"/>
+        <location line="+1557"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-737"/>
+        <location line="-740"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
@@ -9076,12 +9076,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1017"/>
+        <location line="+1020"/>
         <source>Selection: </source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1035"/>
+        <location line="-1038"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -9096,7 +9096,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1357"/>
+        <location line="+1360"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -9106,7 +9106,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1355"/>
+        <location line="-1358"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>
@@ -9276,7 +9276,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+683"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+690"/>
         <source>Add</source>
         <translation>Додати</translation>
     </message>
@@ -9902,7 +9902,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+76"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
         <source>Play</source>
         <translation>Відтворити</translation>
     </message>
