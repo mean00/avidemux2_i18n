@@ -3370,18 +3370,18 @@ Try anyway?</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation type="unfinished">Кодек</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation type="unfinished">Внутренняя ошибка поиска кодека 0x%x</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation type="unfinished">Внутренняя ошибка открытия 0x%x</translation>
     </message>
@@ -3600,9 +3600,13 @@ Installation mismatch</source>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
         <translation>Пикселизация</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
+        <translation>Пикселизировать изображение.</translation>
     </message>
 </context>
 <context>
@@ -3626,7 +3630,7 @@ Installation mismatch</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation>VHS</translation>
     </message>
@@ -4326,8 +4330,8 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
-        <translation>Угол оттенка</translation>
+        <source>Chroma shift angle</source>
+        <translation>Угол смещения цветности</translation>
     </message>
 </context>
 <context>
@@ -6850,7 +6854,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+37"/>
         <source>Adjust hue and saturation.</source>
         <translation>Настройка оттенка (hue) и насыщености.</translation>
     </message>
@@ -7607,7 +7611,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">Изображения Matroska</translation>
     </message>
     <message>
-        <location line="+527"/>
+        <location line="+544"/>
         <source>Matroska clusters</source>
         <translation type="unfinished">Кластеры Matroska</translation>
     </message>
@@ -8597,7 +8601,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation>Частичное наложение &quot;%s&quot;</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation>_Начало:</translation>
     </message>
@@ -8612,9 +8621,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Настроить фильтр</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Partial Filter</source>
-        <translation>Частичный фильтр</translation>
+        <translation type="vanished">Частичный фильтр</translation>
     </message>
 </context>
 <context>
@@ -8893,12 +8901,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+241"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+245"/>
+        <location line="+248"/>
         <source>Recent Files</source>
         <translation>Предыдущие файлы</translation>
     </message>
@@ -8978,7 +8986,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Вперед на 1 минуту</translation>
     </message>
     <message>
-        <location line="+681"/>
+        <location line="+688"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой
@@ -9153,7 +9161,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+441"/>
         <source>Partial</source>
         <translation>Частичное наложение</translation>
     </message>
@@ -9776,7 +9784,7 @@ Ready.
         <translation>Предпросмотр</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+74"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
         <source>Back one minute</source>
         <translation>Назад на 1 мин</translation>
     </message>

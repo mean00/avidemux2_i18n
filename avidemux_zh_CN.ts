@@ -1437,8 +1437,8 @@ It is needed to create FLV  video.</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation>编译码器</translation>
     </message>
@@ -2205,7 +2205,7 @@ Installation mismatch</source>
         <translation>编译码器错误</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>发现编译码器内部错误</translation>
     </message>
@@ -3378,7 +3378,7 @@ Expect problems.</source>
         <translation>工作清单</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation>内部开启错误中 0x%x</translation>
     </message>
@@ -3590,8 +3590,12 @@ Expect problems.</source>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3616,7 +3620,7 @@ Expect problems.</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4314,7 +4318,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6827,7 +6831,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+39"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+37"/>
         <source>Adjust hue and saturation.</source>
         <translation>调整色相和饱和度。</translation>
     </message>
@@ -7579,12 +7583,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+574"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+591"/>
         <source>Matroska clusters</source>
         <translation>Matroska 集群</translation>
     </message>
     <message>
-        <location line="-527"/>
+        <location line="-544"/>
         <source>Matroska Images</source>
         <translation>Matroska 图像</translation>
     </message>
@@ -8569,7 +8573,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8584,9 +8593,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>配置过滤器</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Partial Filter</source>
-        <translation>局部过滤器</translation>
+        <translation type="vanished">局部过滤器</translation>
     </message>
 </context>
 <context>
@@ -8864,12 +8872,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2277"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2288"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-965"/>
+        <location line="-972"/>
         <source>Set start marker</source>
         <translation>设定开始标记</translation>
     </message>
@@ -8879,24 +8887,24 @@ The file must be re-indexed. Proceed?</source>
         <translation>最近使用的 项目(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1550"/>
+        <location line="+1557"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>应用程序遇到了一个致命的问题
 当前编辑已保保存, 将在下一开始重载</translation>
     </message>
     <message>
-        <location line="-733"/>
+        <location line="-740"/>
         <source>Go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
     <message>
-        <location line="-1063"/>
+        <location line="-1066"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+245"/>
+        <location line="+248"/>
         <source>Recent Files</source>
         <translation>最近使用的 文件(&amp;F)</translation>
     </message>
@@ -8916,7 +8924,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分钟</translation>
     </message>
     <message>
-        <location line="+994"/>
+        <location line="+1001"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -8929,7 +8937,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1329"/>
+        <location line="-1336"/>
         <source>Go to first frame</source>
         <translation>转到第一帧</translation>
     </message>
@@ -9122,7 +9130,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+683"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+690"/>
         <source>Add</source>
         <translation>加入</translation>
     </message>
@@ -9747,7 +9755,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+78"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+92"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>

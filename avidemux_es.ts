@@ -3371,18 +3371,18 @@ Try anyway?</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
         <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+39"/>
-        <location line="+41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
+        <location line="+46"/>
         <source>Codec</source>
         <translation>Códec</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-41"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
         <translation>Error interno al buscar el códec 0x%x</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+46"/>
         <source>Internal error opening 0x%x</source>
         <translation>Error interno al abrir 0x%x</translation>
     </message>
@@ -3601,8 +3601,12 @@ Instalación incongruente</translation>
     <name>artPixelize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
-        <location line="+1"/>
         <source>Pixelize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pixelize image.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -3627,7 +3631,7 @@ Instalación incongruente</translation>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+40"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4327,7 +4331,7 @@ Este mensaje no se mostrará de nuevo.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>U-V plane angle of attack</source>
+        <source>Chroma shift angle</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6844,7 +6848,7 @@ Se asume que tiene y se intenta continuar.</translation>
 <context>
     <name>hue</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/hue/ADM_vidHue.cpp" line="+36"/>
         <source>Mplayer Hue</source>
         <translation>Hue de Mplayer</translation>
     </message>
@@ -7601,7 +7605,7 @@ Se asume que tiene y se intenta continuar.</translation>
         <translation>Imágenes Matroska</translation>
     </message>
     <message>
-        <location line="+527"/>
+        <location line="+544"/>
         <source>Matroska clusters</source>
         <translation>Clústeres Matroska</translation>
     </message>
@@ -8590,7 +8594,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+343"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
+        <source>Partialize &quot;%s&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Start time:</source>
         <translation>_Comienzo:</translation>
     </message>
@@ -8605,9 +8614,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Configurar el filtro</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Partial Filter</source>
-        <translation>Filtro parcial</translation>
+        <translation type="vanished">Filtro parcial</translation>
     </message>
 </context>
 <context>
@@ -8885,12 +8893,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+241"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Nueva versión disponible&lt;/b&gt;&lt;br&gt; Versión %1&lt;br&gt;Publicada el %2.&lt;br&gt;Puede descargarla aquí&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Puede deshabilitar las actualizaciones automáticas en Preferencias.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+245"/>
+        <location line="+248"/>
         <source>Recent Files</source>
         <translation>Archivos recientes</translation>
     </message>
@@ -8970,7 +8978,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avanzar un minuto</translation>
     </message>
     <message>
-        <location line="+681"/>
+        <location line="+688"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>La aplicación ha encontrado un problema fatal.
@@ -9144,7 +9152,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+434"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+441"/>
         <source>Partial</source>
         <translation>Parcial</translation>
     </message>
@@ -9764,7 +9772,7 @@ Ready.
         <translation>Previsualizar</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+74"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
         <source>Back one minute</source>
         <translation>Retroceder un minuto</translation>
     </message>
