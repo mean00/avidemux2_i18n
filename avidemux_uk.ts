@@ -9902,7 +9902,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+92"/>
         <source>Play</source>
         <translation>Відтворити</translation>
     </message>

@@ -9757,7 +9757,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+92"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>

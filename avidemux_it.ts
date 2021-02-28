@@ -10156,7 +10156,7 @@ Ready.
         <translation>Anteprima</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
         <source>Back one minute</source>
         <translation type="unfinished"></translation>
     </message>

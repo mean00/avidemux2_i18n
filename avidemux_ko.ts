@@ -9743,7 +9743,7 @@ Ready.
         <translation>미리보기</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
         <source>Back one minute</source>
         <translation>1분 뒤로</translation>
     </message>

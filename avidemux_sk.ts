@@ -9846,7 +9846,7 @@ Pripravený.
         <translation>Náhľad</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+88"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
         <source>Back one minute</source>
         <translation>Späť o jednu minútu</translation>
     </message>
