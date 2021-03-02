@@ -1545,7 +1545,8 @@ Vypustiť časové údaje?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2186,7 +2187,7 @@ Zmätočná inštalácia</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-646"/>
+        <location filename="../../common/gui_save.cpp" line="-647"/>
         <source>No audio track</source>
         <translation>Žiadna audio stopa</translation>
     </message>
@@ -2677,12 +2678,12 @@ Je spustené?</translation>
         <translation>Vyberte súbor na uloženie</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Ukladanie audia</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+100"/>
         <source>Function not implemented
 </source>
         <translation>Funkcia nie je nezavedená
@@ -2694,7 +2695,8 @@ Je spustené?</translation>
         <translation>Nemožno vytvoriť tok</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Uloženie zlyhalo</translation>
     </message>
@@ -2755,12 +2757,12 @@ Je spustené?</translation>
         <translation>Hotovo</translation>
     </message>
     <message>
-        <location line="-591"/>
+        <location line="-592"/>
         <source>Audio encoder index out of bounds</source>
         <translation>Index audio kódovača je mimo hraníc</translation>
     </message>
     <message>
-        <location line="+513"/>
+        <location line="+514"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation>Dosiahol sa maximálny počet 99999 obrázkov.</translation>
     </message>
@@ -8947,12 +8949,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Dostupná nová verzia&lt;/b&gt;&lt;br&gt; verzia %1&lt;br&gt;uvoľnená od %2.&lt;br&gt;Môžete si ju stiahnuť tu&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Automatickú aktualizáciu môžete zakázať v predvoľbách.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>Nedávne &amp;súbory</translation>
     </message>
@@ -9032,7 +9034,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Vpred o 1 minútu</translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikácia sa stretla s fatálnym problémom
@@ -9846,7 +9848,7 @@ Pripravený.
         <translation>Náhľad</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation>Späť o jednu minútu</translation>
     </message>

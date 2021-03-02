@@ -1081,7 +1081,7 @@ Drop timing informations ?</source>
         <translation>Ні</translation>
     </message>
     <message>
-        <location line="+352"/>
+        <location line="+353"/>
         <source>Jpeg</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1096,7 +1096,7 @@ Drop timing informations ?</source>
         <translation>Вирізати</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-488"/>
+        <location filename="../../common/gui_save.cpp" line="-489"/>
         <source>Job</source>
         <translation>Операція</translation>
     </message>
@@ -1117,7 +1117,7 @@ Drop timing informations ?</source>
         <translation>Копіювати</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+461"/>
+        <location filename="../../common/gui_save.cpp" line="+462"/>
         <location line="+76"/>
         <source>Done</source>
         <translation>Виконано</translation>
@@ -1187,7 +1187,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-601"/>
+        <location filename="../../common/gui_save.cpp" line="-602"/>
         <source>No audio track</source>
         <translation>Немає звукової доріжки</translation>
     </message>
@@ -1214,7 +1214,7 @@ It is needed to create FLV  video.</source>
 Це потрібно для створення відео FLV.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+605"/>
+        <location filename="../../common/gui_save.cpp" line="+606"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>Файл &quot;%s&quot; збережений некоректно.</translation>
     </message>
@@ -1228,9 +1228,10 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+180"/>
         <location line="+3"/>
         <location line="+5"/>
-        <location filename="../../common/gui_save.cpp" line="-605"/>
+        <location filename="../../common/gui_save.cpp" line="-606"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1568,7 +1569,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-436"/>
+        <location filename="../../common/gui_save.cpp" line="-437"/>
         <source>Select Workbench to Save</source>
         <translation>Виберіть файл для збереження</translation>
     </message>
@@ -1898,7 +1899,7 @@ Proceed anyway?</source>
         <translation>Ні в цій версії</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+493"/>
+        <location filename="../../common/gui_save.cpp" line="+494"/>
         <source>Failed</source>
         <translation>Помилка</translation>
     </message>
@@ -1992,7 +1993,7 @@ Proceed anyway?</source>
         <translation>Рух</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-533"/>
+        <location filename="../../common/gui_save.cpp" line="-534"/>
         <source>Job name</source>
         <translation>Назва операції</translation>
     </message>
@@ -2009,7 +2010,7 @@ Proceed anyway?</source>
         <translation>Мультиплексори</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+453"/>
+        <location filename="../../common/gui_save.cpp" line="+454"/>
         <source>Saved %d images.</source>
         <translation>Збережено зображень: %d</translation>
     </message>
@@ -2160,7 +2161,7 @@ Try anyway?</source>
         <translation>Наступний кадр</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-429"/>
+        <location filename="../../common/gui_save.cpp" line="-430"/>
         <source>Cannot reach database. Do you have Job control running ?</source>
         <translation>Неможливо підключитися до бази даних. У вас увімкнено управління операціями?</translation>
     </message>
@@ -2364,7 +2365,7 @@ Do you want to continue anyway ?</source>
         <translation>Перевірка відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+517"/>
+        <location filename="../../common/gui_save.cpp" line="+518"/>
         <source>Saving %s as a BMP file failed.</source>
         <translation>Помилка збереження &quot;%s&quot;як BMP.</translation>
     </message>
@@ -2399,7 +2400,7 @@ Do you want to continue anyway ?</source>
         <translation>З Фільм у PAL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-413"/>
+        <location filename="../../common/gui_save.cpp" line="-414"/>
         <source>Select File to Save</source>
         <translation>Вкажіть файл для збереження</translation>
     </message>
@@ -2911,7 +2912,7 @@ Installation mismatch</source>
         <translation>Не вдається налаштувати кодувальник. Можливо, що конфігурація, передана кодувальнику, несумісна, або кодувальник потребує функцій, не наданих даною системою.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+471"/>
+        <location filename="../../common/gui_save.cpp" line="+472"/>
         <source>File %s has been successfully saved.</source>
         <translation>Файл &quot;%s&quot; успішно збережено.</translation>
     </message>
@@ -3020,7 +3021,7 @@ Installation mismatch</source>
         <translation>Видалення</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-568"/>
+        <location filename="../../common/gui_save.cpp" line="-569"/>
         <source>Output file</source>
         <translation>Вихідний файл</translation>
     </message>
@@ -3106,7 +3107,7 @@ Install lame plugin</source>
         <translation>Чверть пікселя</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+130"/>
+        <location filename="../../common/gui_save.cpp" line="+126"/>
         <source>Saving audio</source>
         <translation>Збереження аудіо</translation>
     </message>
@@ -3121,7 +3122,7 @@ Install lame plugin</source>
         <translation>&amp;Відкрити журнал програми</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+95"/>
+        <location filename="../../common/gui_save.cpp" line="+100"/>
         <source>Function not implemented
 </source>
         <translation>Функція не включена</translation>
@@ -3182,7 +3183,7 @@ Proceed anyway?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-286"/>
+        <location filename="../../common/gui_save.cpp" line="-287"/>
         <source>Audio encoder index out of bounds</source>
         <translation>Індекс аудіо кодера поза межами</translation>
     </message>
@@ -3192,7 +3193,7 @@ Proceed anyway?</source>
         <translation>Р_ежим анімації</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+396"/>
+        <location filename="../../common/gui_save.cpp" line="+397"/>
         <source>Failed to save as JPEG</source>
         <translation>Зберегти як JPEG невдалось</translation>
     </message>
@@ -3353,12 +3354,13 @@ Expect problems.</source>
         <translation>Помилка при оновленні відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-304"/>
+        <location filename="../../common/gui_save.cpp" line="-345"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Помилка при збереженні</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-220"/>
         <location line="+2"/>
         <source>Select File to Save Audio</source>
         <translation>Виберіть файл для збереження звуку</translation>
@@ -9000,17 +9002,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2288"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2293"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2046"/>
+        <location line="-2049"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1074"/>
+        <location line="+1076"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
@@ -9020,14 +9022,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1557"/>
+        <location line="+1558"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-740"/>
+        <location line="-741"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
@@ -9076,12 +9078,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1020"/>
+        <location line="+1021"/>
         <source>Selection: </source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1038"/>
+        <location line="-1039"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -9096,7 +9098,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1360"/>
+        <location line="+1361"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -9106,7 +9108,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1358"/>
+        <location line="-1359"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>
@@ -9902,7 +9904,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+92"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+89"/>
         <source>Play</source>
         <translation>Відтворити</translation>
     </message>

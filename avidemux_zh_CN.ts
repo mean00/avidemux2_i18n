@@ -1092,7 +1092,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+276"/>
+        <location line="+277"/>
         <source>Failed to save as JPEG</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1193,7 +1193,7 @@ Drop timing informations ?</source>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-575"/>
+        <location filename="../../common/gui_save.cpp" line="-576"/>
         <source>Job</source>
         <translation>工作</translation>
     </message>
@@ -1270,7 +1270,7 @@ Drop timing informations ?</source>
         <translation>H263</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+461"/>
+        <location filename="../../common/gui_save.cpp" line="+462"/>
         <location line="+76"/>
         <source>Done</source>
         <translation>完成</translation>
@@ -1375,7 +1375,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-406"/>
+        <location filename="../../common/gui_save.cpp" line="-407"/>
         <source>No audio track</source>
         <translation>没有音轨</translation>
     </message>
@@ -1401,7 +1401,7 @@ It is needed to create FLV  video.</source>
         <translation>它没&apos;有LAME！，它需要去建立 FLV视频。</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+605"/>
+        <location filename="../../common/gui_save.cpp" line="+606"/>
         <source>File %s was NOT saved correctly.</source>
         <translation>文件 %s 保存不正确。</translation>
     </message>
@@ -1420,9 +1420,10 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+222"/>
         <location line="+3"/>
         <location line="+5"/>
-        <location filename="../../common/gui_save.cpp" line="-605"/>
+        <location filename="../../common/gui_save.cpp" line="-606"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1885,7 +1886,7 @@ Proceed anyway?</source>
         <translation>当增加时某些事情失败</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-490"/>
+        <location filename="../../common/gui_save.cpp" line="-491"/>
         <source>Select Workbench to Save</source>
         <translation>选择工作台进行保存</translation>
     </message>
@@ -2164,7 +2165,7 @@ Installation mismatch</source>
         <translation>没有编进这个版本</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+493"/>
+        <location filename="../../common/gui_save.cpp" line="+494"/>
         <source>Failed</source>
         <translation>已失败</translation>
     </message>
@@ -2225,7 +2226,7 @@ Installation mismatch</source>
         <translation>运动</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-533"/>
+        <location filename="../../common/gui_save.cpp" line="-534"/>
         <source>Job name</source>
         <translation>工作名称</translation>
     </message>
@@ -2235,7 +2236,7 @@ Installation mismatch</source>
         <translation>复合器</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+453"/>
+        <location filename="../../common/gui_save.cpp" line="+454"/>
         <source>Saved %d images.</source>
         <translation>已保存 %d 个图像。</translation>
     </message>
@@ -2375,7 +2376,7 @@ Installation mismatch</source>
         <translation>转到下一帧</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-251"/>
+        <location filename="../../common/gui_save.cpp" line="-252"/>
         <source>Cannot reach database. Do you have Job control running ?</source>
         <translation>不能到达数据库，你有工作控制执行吗？</translation>
     </message>
@@ -2591,7 +2592,7 @@ Do you want to continue anyway ?</source>
         <translation>正在检查视频</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+517"/>
+        <location filename="../../common/gui_save.cpp" line="+518"/>
         <source>Saving %s as a BMP file failed.</source>
         <translation>另存 %s 为 BMP 档失败。</translation>
     </message>
@@ -2621,7 +2622,7 @@ Do you want to continue anyway ?</source>
         <translation>Film 转成 PAL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-442"/>
+        <location filename="../../common/gui_save.cpp" line="-443"/>
         <source>Select File to Save</source>
         <translation>选择文件进行保存</translation>
     </message>
@@ -2959,7 +2960,7 @@ Installation mismatch</source>
         <translation>几秒钟</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+483"/>
+        <location filename="../../common/gui_save.cpp" line="+484"/>
         <source>File %s has been successfully saved.</source>
         <translation>文件 %s 已经成功地保存。</translation>
     </message>
@@ -3053,7 +3054,7 @@ Installation mismatch</source>
         <translation type="vanished">无法安装编译码器，比特率太低？</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-530"/>
+        <location filename="../../common/gui_save.cpp" line="-531"/>
         <source>Output file</source>
         <translation>输出文件</translation>
     </message>
@@ -3140,7 +3141,7 @@ Install lame plugin</source>
         <translation>1/4像素</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+130"/>
+        <location filename="../../common/gui_save.cpp" line="+126"/>
         <source>Saving audio</source>
         <translation>正在保存音频</translation>
     </message>
@@ -3155,7 +3156,7 @@ Install lame plugin</source>
         <translation>开启应用程序Log(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+95"/>
+        <location filename="../../common/gui_save.cpp" line="+100"/>
         <source>Function not implemented
 </source>
         <translation>函数尚未执行
@@ -3332,12 +3333,13 @@ Expect problems.</source>
         <translation>不幸的事情发生 (II)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+26"/>
+        <location filename="../../common/gui_save.cpp" line="-15"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>保存失败</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-220"/>
         <location line="+2"/>
         <source>Select File to Save Audio</source>
         <translation>选择文件来保存音频</translation>
@@ -8872,12 +8874,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2288"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2293"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-972"/>
+        <location line="-973"/>
         <source>Set start marker</source>
         <translation>设定开始标记</translation>
     </message>
@@ -8887,24 +8889,24 @@ The file must be re-indexed. Proceed?</source>
         <translation>最近使用的 项目(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1557"/>
+        <location line="+1558"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>应用程序遇到了一个致命的问题
 当前编辑已保保存, 将在下一开始重载</translation>
     </message>
     <message>
-        <location line="-740"/>
+        <location line="-741"/>
         <source>Go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
     <message>
-        <location line="-1066"/>
+        <location line="-1068"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>最近使用的 文件(&amp;F)</translation>
     </message>
@@ -8924,7 +8926,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分钟</translation>
     </message>
     <message>
-        <location line="+1001"/>
+        <location line="+1002"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -8937,7 +8939,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1336"/>
+        <location line="-1337"/>
         <source>Go to first frame</source>
         <translation>转到第一帧</translation>
     </message>
@@ -9755,7 +9757,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+91"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>

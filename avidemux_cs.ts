@@ -1354,7 +1354,8 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1649,7 +1650,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-322"/>
+        <location filename="../../common/gui_save.cpp" line="-323"/>
         <source>No audio track</source>
         <translation type="unfinished">Chybí zvuková stopa</translation>
     </message>
@@ -1955,12 +1956,12 @@ Je spuštěno?</translation>
         <translation>Vybrat soubor k uložení</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation type="unfinished">Ukládá se zvuk</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2853,7 +2854,7 @@ Proceed anyway?</source>
         <translation type="unfinished">Chyba inicializace zvukového zařízení</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-595"/>
+        <location filename="../../common/gui_save.cpp" line="-596"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2898,7 +2899,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+167"/>
         <source>Function not implemented
 </source>
         <translation type="unfinished"></translation>
@@ -2909,7 +2910,8 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation type="unfinished">Uložení se nezdařilo</translation>
     </message>
@@ -8813,12 +8815,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation type="unfinished">Nedávné soubory</translation>
     </message>
@@ -8898,7 +8900,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
@@ -9701,7 +9703,7 @@ Ready.
         <translation type="unfinished">Náhled</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation type="unfinished"></translation>
     </message>

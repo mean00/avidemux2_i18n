@@ -1375,7 +1375,8 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1863,7 +1864,7 @@ Is it running ?</source>
         <translation>Ισχύς _μεταμορφωτή:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-231"/>
+        <location filename="../../common/gui_save.cpp" line="-232"/>
         <source>Select Workbench to Save</source>
         <translation>Επιλέξτε το έργο για αποθήκευση</translation>
     </message>
@@ -1894,12 +1895,12 @@ Is it running ?</source>
         <translation>Επιλέξτε αρχείο για αποθήκευση</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Αποθηκεύεται ο ήχος</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation>Συμπληρώθηκε το μέγιστο πλήθος των 99999 εικόνων, εγκατάλειψη.</translation>
     </message>
@@ -2544,7 +2545,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-605"/>
+        <location filename="../../common/gui_save.cpp" line="-606"/>
         <source>No audio track</source>
         <translation>Κανένα κανάλι ήχου</translation>
     </message>
@@ -2762,7 +2763,7 @@ Proceed anyway?</source>
         <translation>Επιλέξτε PNG για αποθήκευση</translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+167"/>
         <source>Function not implemented
 </source>
         <translation>Η λειτουργία δεν έχει υλοποιηθεί
@@ -2774,7 +2775,8 @@ Proceed anyway?</source>
         <translation>Αδυναμία δημιουργίας ροής</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Η αποθήκευση απέτυχε</translation>
     </message>
@@ -8971,12 +8973,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Διαθέσιμη νέα έκδοση&lt;/b&gt;&lt;br&gt; Έκδοση %1&lt;br&gt;Εκδόθηκε στις %2.&lt;br&gt;Μπορείτε να την κάνετε λήψη από εδώ&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Μπορείτε να απενεργοποιήσετε την αυτόματη ενημέρωση από τις προτιμήσεις.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>Πρόσφατα αρχεία</translation>
     </message>
@@ -9056,7 +9058,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Προς τα εμπρός, κατά ένα λεπτό</translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Η εφαρμογή αντιμετώπισε ένα μοιραίο πρόβλημα
@@ -9868,7 +9870,7 @@ Ready.
         <translation>Προεπισκόπηση</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation>Πίσω, για ένα λεπτό</translation>
     </message>

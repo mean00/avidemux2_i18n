@@ -1355,7 +1355,8 @@ Bırakma zamanlaması bilgileri?</translation>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1776,7 +1777,7 @@ Is it running ?</source>
         <translation>_Filtre gücü:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-231"/>
+        <location filename="../../common/gui_save.cpp" line="-232"/>
         <source>Select Workbench to Save</source>
         <translation>Kaydedilecek Çalışma Tezgahını Seçin</translation>
     </message>
@@ -1807,12 +1808,12 @@ Is it running ?</source>
         <translation>Kaydedilecek Dosyayı Seçin</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Ses kaydetme</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation>Azami 99999 görüntü sayısına ulaşıldı.</translation>
     </message>
@@ -2526,7 +2527,7 @@ Kurulum uyuşmazlığı</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-605"/>
+        <location filename="../../common/gui_save.cpp" line="-606"/>
         <source>No audio track</source>
         <translation>Ses parçası yok</translation>
     </message>
@@ -2744,7 +2745,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Kaydetmek için PNG seçin</translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+167"/>
         <source>Function not implemented
 </source>
         <translation>İşlev uygulanmadı
@@ -2756,7 +2757,8 @@ Yine de devam edilsin mi?</translation>
         <translation>Akış oluşturulamıyor</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Kaydetme başarısız oldu</translation>
     </message>
@@ -8989,12 +8991,12 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
@@ -9074,7 +9076,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
@@ -9896,7 +9898,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation>Bir dakika geri git</translation>
     </message>

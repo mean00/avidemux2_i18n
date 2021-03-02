@@ -1937,7 +1937,8 @@ It is needed to create FLV  video.</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2232,7 +2233,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-82"/>
-        <location filename="../../common/gui_save.cpp" line="-646"/>
+        <location filename="../../common/gui_save.cpp" line="-647"/>
         <source>No audio track</source>
         <translation>Pas de piste audio</translation>
     </message>
@@ -2633,12 +2634,12 @@ Is it running ?</source>
         <translation>Choisir le fichier à écrire</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Sauvegarde audio</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+100"/>
         <source>Function not implemented
 </source>
         <translation>Fonction non implementée</translation>
@@ -2649,7 +2650,8 @@ Is it running ?</source>
         <translation>Impossible de créer le flux audio</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>La sauvegarde a échoué</translation>
     </message>
@@ -8757,12 +8759,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Nouvelle version disponible&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Publié le %2.&lt;br&gt;Vous pouvez la télécharger ici&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Vous pouvez désactiver autoupdate dans les préférences.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>Fichiers Récents</translation>
     </message>
@@ -8842,7 +8844,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avancer d&apos;une minute</translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>L&apos;application a rencontré un problème fatal
@@ -9625,7 +9627,7 @@ Ready.
         <translation>Aperçu</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation type="unfinished"></translation>
     </message>

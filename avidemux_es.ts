@@ -1383,7 +1383,8 @@ Si solo copia el vídeo sin recodificarlo,
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -1882,7 +1883,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
-        <location filename="../../common/gui_save.cpp" line="-322"/>
+        <location filename="../../common/gui_save.cpp" line="-323"/>
         <source>No audio track</source>
         <translation>No hay pistas de audio</translation>
     </message>
@@ -2250,12 +2251,12 @@ Is it running ?</source>
         <translation>Seleccionar archivo a guardar</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Guardando audio</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2856,7 +2857,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Problemas al inicializar el dispositivo de audio</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-595"/>
+        <location filename="../../common/gui_save.cpp" line="-596"/>
         <source>Audio encoder index out of bounds</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2881,7 +2882,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>No se puede acceder a la base de datos. ¿Tiene el control de tareas en ejecución?</translation>
     </message>
     <message>
-        <location line="+232"/>
+        <location line="+233"/>
         <source>Function not implemented
 </source>
         <translation>Función no implementada
@@ -2893,7 +2894,8 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>No se puede crear el flujo</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Error al guardar</translation>
     </message>
@@ -8893,12 +8895,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+242"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+244"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Nueva versión disponible&lt;/b&gt;&lt;br&gt; Versión %1&lt;br&gt;Publicada el %2.&lt;br&gt;Puede descargarla aquí&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Puede deshabilitar las actualizaciones automáticas en Preferencias.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+248"/>
+        <location line="+250"/>
         <source>Recent Files</source>
         <translation>Archivos recientes</translation>
     </message>
@@ -8978,7 +8980,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avanzar un minuto</translation>
     </message>
     <message>
-        <location line="+688"/>
+        <location line="+689"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>La aplicación ha encontrado un problema fatal.
@@ -9772,7 +9774,7 @@ Ready.
         <translation>Previsualizar</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation>Retroceder un minuto</translation>
     </message>

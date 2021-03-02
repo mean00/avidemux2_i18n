@@ -1323,7 +1323,8 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
         <location line="+10"/>
-        <location line="+286"/>
+        <location line="+272"/>
+        <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
         <location filename="../../common/gui_savenew.cpp" line="+432"/>
@@ -2109,7 +2110,7 @@ Läuft er?</translation>
         <translation type="unfinished">Gehe zur Zeit</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="-231"/>
+        <location filename="../../common/gui_save.cpp" line="-232"/>
         <source>Select Workbench to Save</source>
         <translation type="unfinished">Arbeitsbereich als Projekt speichern</translation>
     </message>
@@ -2140,12 +2141,12 @@ Läuft er?</translation>
         <translation>Datei zum Speichern wählen</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+58"/>
         <source>Saving audio</source>
         <translation>Audio speichern</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2633,7 +2634,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="-144"/>
-        <location filename="../../common/gui_save.cpp" line="-605"/>
+        <location filename="../../common/gui_save.cpp" line="-606"/>
         <source>No audio track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2751,7 +2752,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+167"/>
         <source>Function not implemented
 </source>
         <translation type="unfinished"></translation>
@@ -2762,7 +2763,8 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-34"/>
+        <location line="+41"/>
         <source>Saving failed</source>
         <translation>Das Speichern ist fehlgeschlagen</translation>
     </message>
@@ -8882,7 +8884,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+490"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+494"/>
         <source>Recent Files</source>
         <translation>Zuletzt verwendete &amp;Dateien</translation>
     </message>
@@ -8962,7 +8964,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+998"/>
+        <location line="+999"/>
         <source>Selection: </source>
         <translation>Auswahl: </translation>
     </message>
@@ -8976,12 +8978,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2420"/>
+        <location line="-2423"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1806"/>
+        <location line="+1809"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -9767,7 +9769,7 @@ Bereit.
         <translation>Vorschau</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+90"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+87"/>
         <source>Back one minute</source>
         <translation type="unfinished"></translation>
     </message>
