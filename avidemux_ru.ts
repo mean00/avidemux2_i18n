@@ -1078,7 +1078,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
-        <translation>Игнорировать чёрный список  (Intel, HEVC 10bit)</translation>
+        <translation>Игнорировать чёрный список (Intel, HEVC 10bit)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1158,7 +1158,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+21"/>
         <source>_lavc threads:</source>
-        <translation>_Потоки декодера видео libavcodec:</translation>
+        <translation>_Потоки декодера libavcodec:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1634,7 +1634,7 @@ Proceed anyway?</source>
     <message>
         <location line="+0"/>
         <source>Cannot open &quot;%s&quot;.</source>
-        <translation>Невозможно открыть &quot;%s&quot;.</translation>
+        <translation>Невозможно открыть «%s».</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1644,7 +1644,7 @@ Proceed anyway?</source>
     <message>
         <location line="+0"/>
         <source>&quot;%s&quot; does not exist.</source>
-        <translation>&quot;%s&quot; не существует.</translation>
+        <translation>«%s» не существует.</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -1853,7 +1853,7 @@ Is it running ?</source>
     <message>
         <location line="+20"/>
         <source>File %s has been successfully saved.</source>
-        <translation>Файл &quot;%s&quot; успешно сохранен.</translation>
+        <translation>Файл «%s» успешно сохранён.</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1863,7 +1863,7 @@ Is it running ?</source>
     <message>
         <location line="+0"/>
         <source>File %s was NOT saved correctly.</source>
-        <translation>Файл &quot;%s&quot; сохранен некорректно.</translation>
+        <translation>Файл «%s» сохранён некорректно.</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+47"/>
@@ -2109,7 +2109,7 @@ Is it running ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+14"/>
         <source>_Deringing</source>
-        <translation>_Деринг</translation>
+        <translation>_Дерингинг</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-285"/>
@@ -2201,7 +2201,7 @@ Is it running ?</source>
     <message>
         <location line="+5"/>
         <source>De_ringing</source>
-        <translation>_Деринг</translation>
+        <translation>_Дерингинг</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2361,7 +2361,7 @@ Is it running ?</source>
         <location line="+5"/>
         <location line="+2"/>
         <source>Save current settings as default</source>
-        <translation>Сохранить текущие настройки в виде стандартных</translation>
+        <translation>Сохранить текущие настройки как стандартные</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2893,12 +2893,12 @@ Try anyway?</source>
     <message>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
-        <translation>Отключено</translation>
+        <translation>Отключены</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Auto-detect</source>
-        <translation>Автоопределение</translation>
+        <translation>Автоматически</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-23"/>
@@ -5029,7 +5029,7 @@ Do you want to load it  ?
     <message>
         <location line="+12"/>
         <source>Keep dialog open when finished</source>
-        <translation>Оставить диалог открытым</translation>
+        <translation>Не закрывать окно по завершению</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -5039,7 +5039,7 @@ Do you want to load it  ?
     <message>
         <location line="+20"/>
         <source>Pause / Abort</source>
-        <translation>Пауза / Прервать</translation>
+        <translation>Пауза / прервать</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -5049,7 +5049,7 @@ Do you want to load it  ?
     <message>
         <location line="+249"/>
         <source>Processed Frames:</source>
-        <translation>Выдано кадров:</translation>
+        <translation>Обработано кадров:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -5064,7 +5064,7 @@ Do you want to load it  ?
     <message>
         <location line="+24"/>
         <source>Frames/sec:</source>
-        <translation>Скорость (к/с):</translation>
+        <translation>Кадров в секунду:</translation>
     </message>
     <message>
         <location line="-536"/>
@@ -5381,7 +5381,7 @@ Do you want to load it  ?
     <message>
         <location line="-8"/>
         <source>Max Bitrate (kbps):</source>
-        <translation>Максимальный битрейт (кбит/с):</translation>
+        <translation>Макс. битрейт (кбит/с):</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -6023,7 +6023,7 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <source>RC Mode:</source>
-        <translation>Режим RC:</translation>
+        <translation>Режим управления битрейтом:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6132,7 +6132,7 @@ Do you want to load it  ?
     </message>
     <message>
         <source>nvEnc HEVC  configuration</source>
-        <translation type="obsolete">Настройка nvEnc HEVC</translation>
+        <translation type="obsolete">Настройки nvEnc HEVC</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -6184,28 +6184,28 @@ Do you want to load it  ?
         <location line="+17"/>
         <source> VCD : only MP2 audio accepted
 </source>
-        <translation> VCD : подходит только аудио MP2
+        <translation>VCD: подходит только аудио MP2
 </translation>
     </message>
     <message>
         <location line="+5"/>
         <source> VCD : only 44.1 khz audio accepted
 </source>
-        <translation>VCD : подходит только аудио 44.1 кГц
+        <translation>VCD: подходит только аудио 44.1 кГц
 </translation>
     </message>
     <message>
         <location line="+7"/>
         <source> DVD : only 48 khz audio accepted
 </source>
-        <translation>DVD : подходит только аудио 48 кГц
+        <translation>DVD: подходит только аудио 48 кГц
 </translation>
     </message>
     <message>
         <location line="+6"/>
         <source>[ffPS] DVD : only MP2/AC3/DTS audio accepted
 </source>
-        <translation>[ffPS] DVD : подходит только аудио MP2/AC3/DTS
+        <translation>[ffPS] DVD: подходит только аудио MP2/AC3/DTS
 </translation>
     </message>
     <message>
@@ -6826,7 +6826,7 @@ I will assume it has and try to continue</source>
     <name>histogram</name>
     <message>
         <source>No data</source>
-        <translation type="obsolete">Нет данных.</translation>
+        <translation type="obsolete">Нет данных</translation>
     </message>
     <message>
         <source>Max. bitrate:</source>
@@ -6953,7 +6953,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+91"/>
         <source>Remove IVTC dupe.</source>
-        <translation>Удалить дублей IVTC.</translation>
+        <translation>Удаление дублей IVTC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7515,7 +7515,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>Щёлкните на изображение для установки логотипа</translation>
+        <translation>Щёлкните на изображение для примерной установки логотипа</translation>
     </message>
 </context>
 <context>
@@ -7581,7 +7581,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+111"/>
         <source>Press Ctrl + Enter to accept the dialog</source>
-        <translation>Применить конфигурацию и закрыть диалог: CTRL+ENTER</translation>
+        <translation>Применить настройки и закрыть окно: CTRL+ENTER</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -7748,7 +7748,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkvConfig.cpp" line="+33"/>
         <source>Derived from display width</source>
-        <translation>Производный ширины изображения</translation>
+        <translation>От ширины изображения</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8069,7 +8069,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3Dlow.cpp" line="+37"/>
         <source>Reduce noise, smooth image, increase compressibility.</source>
-        <translation>Уменьшает шум, сглаживает картинку, улучшает сжимаемость.</translation>
+        <translation>Уменьшение шума, сглаживание изображения, увеличение сжатия.</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -8197,7 +8197,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+6"/>
         <source>Derived from display width</source>
-        <translation>Производный ширины изображения</translation>
+        <translation>От ширины изображения</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8212,7 +8212,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+4"/>
         <source>Do not rotate</source>
-        <translation>не вращать</translation>
+        <translation>Не вращать</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8424,7 +8424,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Sharpen edges without amplifying noise. By Donald Graft.</source>
-        <translation>Повысить резкость граней без увеличения шума. От Donald Graft.</translation>
+        <translation>Повысить резкость граней без увеличения шума. От Дональда Графта.</translation>
     </message>
 </context>
 <context>
@@ -8581,7 +8581,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Max Bitrate (kbps):</source>
-        <translation>Максимальный битрейт (кбит/с):</translation>
+        <translation>Макс. битрейт (кбит/с):</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8609,7 +8609,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+375"/>
         <source>Partialize &quot;%s&quot;</source>
-        <translation>Частичное наложение &quot;%s&quot;</translation>
+        <translation>Частичное наложение «%s»</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -9069,7 +9069,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+172"/>
         <source>Restore previous session</source>
-        <translation>Восстановить предыдущую сессию</translation>
+        <translation>Восстановить прошлую сессию</translation>
     </message>
 </context>
 <context>
@@ -9377,7 +9377,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+58"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
-        <translation>Введите команды и нажмите кнопку &quot;Выполнить&quot; или CTRL+ENTER.
+        <translation>Введите команды и нажмите кнопку «Выполнить» или CTRL+ENTER.
 </translation>
     </message>
     <message>
@@ -9393,7 +9393,7 @@ Ready.
         <location line="+2"/>
         <source>Enter your commands then press the evaluate button or ⌘⏎.
 </source>
-        <translation>Введите команды и нажмите кнопку &quot;Выполнить&quot; или ⌘⏎.
+        <translation>Введите команды и нажмите кнопку «Выполнить» или ⌘⏎.
 </translation>
     </message>
     <message>
@@ -9555,12 +9555,12 @@ Ready.
     <message>
         <location line="+1"/>
         <source>23.976 (Film)</source>
-        <translation>23,976 (Film)</translation>
+        <translation>23.976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.97 (NTSC)</source>
-        <translation>29,97 (NTSC)</translation>
+        <translation>29.97 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9570,7 +9570,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>59.94  (NTSC)</source>
-        <translation>59,94  (NTSC)</translation>
+        <translation>59.94  (NTSC)</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -9864,12 +9864,12 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stackField/stackField.cpp" line="+47"/>
         <source>Stack Fields</source>
-        <translation>Стековые поля</translation>
+        <translation>Кладка полей</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put even lines on top, odd lines at bottom.</source>
-        <translation>Установить чётные линии вверх, нечётные вниз.</translation>
+        <translation>Расположить чётные линии свверу, нечётные снизу.</translation>
     </message>
 </context>
 <context>
