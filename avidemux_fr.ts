@@ -52,7 +52,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source> and </source>
-        <translation type="unfinished"></translation>
+        <translation> et </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -62,12 +62,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source> are </source>
-        <translation type="unfinished"></translation>
+        <translation> sont </translation>
     </message>
     <message>
         <location line="+0"/>
         <source> is </source>
-        <translation type="unfinished"></translation>
+        <translation> est </translation>
     </message>
     <message>
         <location line="+2"/>
@@ -99,7 +99,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+4"/>
         <source>Unsupported size</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille non supportée</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-193"/>
@@ -117,12 +117,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+143"/>
         <source>Track 1:</source>
-        <translation>Piste 1:</translation>
+        <translation>Piste 1 :</translation>
     </message>
     <message>
         <location line="+37"/>
         <source>Track 2:</source>
-        <translation>Piste 2:</translation>
+        <translation>Piste 2 :</translation>
     </message>
     <message>
         <location line="+330"/>
@@ -172,7 +172,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+7"/>
         <source>Duration:</source>
-        <translation></translation>
+        <translation>Durée :</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -202,7 +202,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+63"/>
         <source>Custom Size:</source>
-        <translation>Taille personnalisée:</translation>
+        <translation>Taille personnalisée :</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -210,12 +210,12 @@ Ignorer les informations de timing ?</translation>
         <location line="+27"/>
         <location line="+34"/>
         <source>MB</source>
-        <translation></translation>
+        <translation>Mo</translation>
     </message>
     <message>
         <location line="-217"/>
         <source>Audio Bitrate</source>
-        <translation></translation>
+        <translation>Débit audio</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -232,12 +232,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+28"/>
         <source>Audio Size:</source>
-        <translation>Taille audio:</translation>
+        <translation>Taille audio :</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Video Size:</source>
-        <translation>Taille de la vidéo:</translation>
+        <translation>Taille de la vidéo :</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -251,17 +251,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-101"/>
         <source>Total Size:</source>
-        <translation>Taille Totale:</translation>
+        <translation>Taille totale :</translation>
     </message>
     <message>
         <location line="+120"/>
         <source>Bits Per Pixel:</source>
-        <translation></translation>
+        <translation>Bit par pixel :</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Video Bitrate:</source>
-        <translation></translation>
+        <translation>Débit vidéo</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -279,7 +279,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Time Left : Infinity</source>
-        <translation>Temps Restant : Infini</translation>
+        <translation>Temps restant : infini</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -394,7 +394,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+7"/>
         <source>Nb Lines :</source>
-        <translation>Nb Lignes:</translation>
+        <translation>Nb lignes :</translation>
     </message>
 </context>
 <context>
@@ -417,7 +417,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+28"/>
         <source>ProcessImages</source>
-        <translation>Images Traitées</translation>
+        <translation>Images traitées</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -445,7 +445,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+13"/>
         <source>Current job</source>
-        <translation>Job en cours</translation>
+        <translation>Travail en cours</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -599,13 +599,13 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+9"/>
         <source>Save &amp;Project</source>
-        <translation>Sauver un &amp;Projet</translation>
+        <translation>Sauver un &amp;projet</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+3"/>
         <source>Save Project</source>
-        <translation>Sauver un Projet</translation>
+        <translation>Sauver un projet</translation>
     </message>
     <message>
         <source>&amp;Calculator...</source>
@@ -644,12 +644,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-1850"/>
         <source>Vi&amp;deo</source>
-        <translation></translation>
+        <translation>Vidéo</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>&amp;Toolbars</source>
-        <translation></translation>
+        <translation>Barre d&apos;outils</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -659,7 +659,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+5"/>
         <source>&amp;Custom</source>
-        <translation>&amp;Scripts Perso</translation>
+        <translation>&amp;Scripts perso</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -684,7 +684,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+33"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Décodeur Vidéo&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Décodeur vidéo&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+75"/>
@@ -711,7 +711,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-912"/>
         <source>Play [SPACE]</source>
-        <translation>Lire [SPACE]</translation>
+        <translation>Lire [ESPACE]</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -804,7 +804,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+58"/>
         <source>Time:</source>
-        <translation>Temps:</translation>
+        <translation>Temps :</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -819,7 +819,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+29"/>
         <source>Frame type:</source>
-        <translation>Type:</translation>
+        <translation>Type :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -829,17 +829,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+50"/>
         <source>Se&amp;lection</source>
-        <translation></translation>
+        <translation>Sélection</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>A:</source>
-        <translation></translation>
+        <translation>A :</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>B:</source>
-        <translation></translation>
+        <translation>B :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -870,7 +870,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+113"/>
         <source>Audio &amp;Metre</source>
-        <translation></translation>
+        <translation>Audio&amp;mètre</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -895,7 +895,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Selection</source>
-        <translation></translation>
+        <translation>&amp;Sélection</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -915,7 +915,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Audio Metre</source>
-        <translation></translation>
+        <translation>Audio&amp;mètre</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,7 +928,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/opus/audioencoder_opus.cpp" line="+277"/>
         <source>_Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Débit :</translation>
     </message>
 </context>
 <context>
@@ -936,7 +936,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_shell/shell.ui" line="+17"/>
         <source>Shell</source>
-        <translation></translation>
+        <translation>Console</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -964,7 +964,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+11"/>
         <source>Port to use: </source>
-        <translation type="unfinished"></translation>
+        <translation>Port à utiliser :</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -987,7 +987,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+112"/>
         <source>Multi-platform Video Editor</source>
-        <translation>Editeur vidéo multiplateformes</translation>
+        <translation>Editeur vidéo multiplateforme</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -1007,7 +1007,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+45"/>
         <source>&amp;License</source>
-        <translation></translation>
+        <translation>&amp;Licence</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -1020,22 +1020,22 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/addBorder/ADM_vidAddBorder.cpp" line="+183"/>
         <source>_Left border:</source>
-        <translation>Bord gauche:</translation>
+        <translation>Bord gauche :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Right border:</source>
-        <translation>Bord droit:</translation>
+        <translation>Bord droit :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Top border:</source>
-        <translation>Bord haut:</translation>
+        <translation>Bord haut :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Bottom border:</source>
-        <translation>Bord bas:</translation>
+        <translation>Bord bas :</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1089,7 +1089,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>_Accept non-standard audio frequency for DVD</source>
-        <translation>Accepter les fréquences non standard pour les DVDs</translation>
+        <translation>Accepter les fréquences non standard pour les DVD</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1109,7 +1109,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
-        <translation type="unfinished"></translation>
+        <translation>_Inversion des marqueurs dans la vidéo si le marqueur A est après le marqueur B, ou inversement</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1159,7 +1159,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+21"/>
         <source>_lavc threads:</source>
-        <translation>Threads lavc:</translation>
+        <translation>Threads lavc :</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1196,17 +1196,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+2"/>
         <source>_Encoding priority:</source>
-        <translation>Priorité de l&apos;encodage:</translation>
+        <translation>Priorité de l&apos;encodage :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>Priorité de l&apos;indexation:</translation>
+        <translation>Priorité de l&apos;indexation :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Playback priority:</source>
-        <translation>Priorité de la lecture:</translation>
+        <translation>Priorité de la lecture :</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1231,7 +1231,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>_Fragment size:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Taille du fragment :</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -1246,7 +1246,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+3"/>
         <source>DXVA2 (best)</source>
-        <translation type="unfinished"></translation>
+        <translation>DXVA2 (très rapide)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1261,7 +1261,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+3"/>
         <source>Video _display:</source>
-        <translation>Affichage vidéo:</translation>
+        <translation>Affichage vidéo :</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1281,12 +1281,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+2"/>
         <source>_Message level:</source>
-        <translation>Afficher les messages:</translation>
+        <translation>Afficher les messages :</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>_Volume control:</source>
-        <translation>Contrôle du volume:</translation>
+        <translation>Contrôle du volume :</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1296,17 +1296,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+5"/>
         <source>_Local playback downmixing:</source>
-        <translation>Downmixing pour la lecture:</translation>
+        <translation>Downmixing pour la lecture :</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>_AudioDevice</source>
-        <translation>Périphérique Audio</translation>
+        <translation>Périphérique audio</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+27"/>
         <source>_Filter strength:</source>
-        <translation>Force du filtre:</translation>
+        <translation>Force du filtre :</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -1333,7 +1333,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+2"/>
         <source>_Strength:</source>
-        <translation>Force:</translation>
+        <translation>Force :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1378,7 +1378,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Save as PNG</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauver comme PNG</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1388,7 +1388,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Save Selection as JPEG</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauver la sélection comme JPEG</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1408,7 +1408,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+8"/>
         <location line="+2"/>
-        <source>Clear recent items</source>
+        <source>Effacer les éléments récents</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1465,7 +1465,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+9"/>
         <source>Load saved settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Charger les réglages sauvegardés</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1486,7 +1486,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-8"/>
         <source>Play filtered</source>
-        <translation type="unfinished"></translation>
+        <translation>Jouer post filtrage</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1606,12 +1606,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+2"/>
         <source>Fit to window</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajuster à la fenêtre</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
         <source>R_esampling (Hz):</source>
-        <translation>R_eéchantillonnage (Hz):</translation>
+        <translation>R_eéchantillonnage (Hz) :</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1638,7 +1638,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+3"/>
         <source>_Frame rate change:</source>
-        <translation>Changement i/s</translation>
+        <translation>Changement fréquence (i/s)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1659,17 +1659,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Stereo+center</source>
-        <translation>Stéréo+Centre</translation>
+        <translation>Stéréo + centre</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stereo+center+surround</source>
-        <translation>Stéréo+Centre+Surround</translation>
+        <translation>Stéréo + centre + surround</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Stereo front+stereo rear</source>
-        <translation>Stéréo Avant+Stéréo Arrière</translation>
+        <translation>Stéréo avant + stéréo arrière</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1684,17 +1684,17 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+3"/>
         <source>_Gain mode:</source>
-        <translation>Mode:</translation>
+        <translation>Mode :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>G_ain value:</source>
-        <translation>Valeur du gain:</translation>
+        <translation>Valeur du gain :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Maximum value:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Valeur maximum :</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1704,22 +1704,22 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+2"/>
         <source>Remix:</source>
-        <translation>Remixer:</translation>
+        <translation>Remixer :</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Shift audio:</source>
-        <translation>Décalage audio:</translation>
+        <translation>Décalage audio :</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Shift Value (ms):</source>
-        <translation>Valeur (ms):</translation>
+        <translation>Valeur (ms) :</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Audio Filters</source>
-        <translation>Filtres Audio</translation>
+        <translation>Filtres audio</translation>
     </message>
     <message>
         <location filename="../../common/gui_autodrive.cpp" line="+48"/>
@@ -1767,7 +1767,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+489"/>
         <source>Are you sure?</source>
-        <translation>Etes vous sur ?</translation>
+        <translation>Etes-vous sur ?</translation>
     </message>
     <message>
         <location line="+228"/>
@@ -1787,7 +1787,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+96"/>
         <source>Multiple Audio Tracks</source>
-        <translation>Plusieurs pistes audio</translation>
+        <translation>Plusieurs pistes audios</translation>
     </message>
     <message>
         <location line="+419"/>
@@ -1913,7 +1913,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+3"/>
         <source>Output _File:</source>
-        <translation>Fichier à écrire:</translation>
+        <translation>Fichier à écrire :</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1968,22 +1968,22 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+5"/>
         <source>Audio Device Plugins</source>
-        <translation>PLugin de périph. Audio</translation>
+        <translation>Plugin de périph. audio</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Audio Device</source>
-        <translation>Périph. Audio</translation>
+        <translation>Périph. audio</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Audio Encoder Plugins</source>
-        <translation>Plugins d&apos;encodage Audio</translation>
+        <translation>Plugins d&apos;encodage audio</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Audio Encoders</source>
-        <translation>Encodeurs audio</translation>
+        <translation>Encodeurs audios</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2038,7 +2038,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+10"/>
         <source>_Check for new release</source>
-        <translation>Vérifier si il y a de nouvelle version</translation>
+        <translation>Vérifier s&apos;il y a de nouvelle version</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2058,7 +2058,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+1"/>
         <source>_Cache size:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Taille du cache :</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -2257,7 +2257,7 @@ Il est nécessaire pour créer un fichier compatible PSP</translation>
     <message>
         <location filename="../../common/gui_main.cpp" line="-1478"/>
         <source>Select script/project to run</source>
-        <translation>Choisir un script/projet à lancer</translation>
+        <translation>Choisir un script ou projet à lancer</translation>
     </message>
     <message>
         <location line="+24"/>
