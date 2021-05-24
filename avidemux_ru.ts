@@ -9337,7 +9337,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Каналы:	</translation>
+        <translation>Каналы:		</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9347,7 +9347,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Частота выборки:	</translation>
+        <translation>Частота выборки:</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -9883,7 +9883,7 @@ Ready.
     <message>
         <location line="-185"/>
         <source>Duplicate frames for a given duration.</source>
-        <translation>Повторять кадр в течении заданного времени.</translation>
+        <translation>Повторять кадр в течение заданного времени.</translation>
     </message>
     <message>
         <location line="+181"/>
