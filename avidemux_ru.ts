@@ -223,7 +223,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-217"/>
         <source>Audio Bitrate</source>
-        <translation>Битрейт Аудио</translation>
+        <translation>Битрейт аудио</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -566,7 +566,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+21"/>
         <source>&amp;Custom</source>
-        <translation>&amp;Особое</translation>
+        <translation>&amp;Мои скрипты</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2334,7 +2334,7 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>Reset Edit</source>
-        <translation>Сброс</translation>
+        <translation>Сбросить изменения</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2355,7 +2355,7 @@ Is it running ?</source>
     <message>
         <location line="+5"/>
         <source>Reset Markers</source>
-        <translation>Сброс меток выборки</translation>
+        <translation>Сбросить метки выборки</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4062,7 +4062,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="-14"/>
         <source>Target video size (MB)</source>
-        <translation>Конечный размер видео (МБ)</translation>
+        <translation>Целевой размер видео (МБ)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4187,7 +4187,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="+1"/>
         <source>Blend groups of N frames into a single frame.  Useful for speeding up slow motion footage or creating timelapses.</source>
-        <translation>Объединить группу нескольких кадров в один.  Полезно для ускорения замедленной съёмки или создания таймлапса.</translation>
+        <translation>Объединить группу нескольких кадров в один. Полезно для ускорения замедленной съёмки или создания таймлапса.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -4215,12 +4215,12 @@ This message will not be displayed again.</source>
     <message>
         <location line="+1"/>
         <source>23.976 (Film)</source>
-        <translation>23.976 (Film)</translation>
+        <translation>23,976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.97 (NTSC)</source>
-        <translation>29.97 (NTSC)</translation>
+        <translation>29,97 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4230,7 +4230,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="+1"/>
         <source>59.94  (NTSC)</source>
-        <translation>59.94  (NTSC)</translation>
+        <translation>59,94  (NTSC)</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -7822,12 +7822,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>12: Chroma-derived Non-constant Luminance</source>
-        <translation>12: Непостоянная яркость (luminance), полученная из цветности (chroma)</translation>
+        <translation>12: Непостоянная яркость, полученная из цветности</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>13: Chroma-derived Constant Luminance</source>
-        <translation>13: Постоянная яркость (luminance), полученная из цветности (chroma)</translation>
+        <translation>13: Постоянная яркость, полученная из цветности</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8713,7 +8713,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+38"/>
         <source>Frequency:</source>
-        <translation>Частота выборки:</translation>
+        <translation>Частота дискретизации:</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -8762,7 +8762,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+123"/>
         <source>Copy to Clipboard</source>
-        <translation>Скопировать в буфер обмена</translation>
+        <translation>Копировать в буфер обмена</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -8780,7 +8780,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-32"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
-        <translation>Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
+        <translation>Обнаружено несколько файлов с последовательными именами. Загрузить их все?</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_ps.cpp" line="+78"/>
@@ -9291,12 +9291,12 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Размер картинки: </translation>
+        <translation>Размер картинки:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>Соотношение сторон:	</translation>
+        <translation>Соотношение сторон:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9555,12 +9555,12 @@ Ready.
     <message>
         <location line="+1"/>
         <source>23.976 (Film)</source>
-        <translation>23.976 (Film)</translation>
+        <translation>23,976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.97 (NTSC)</source>
-        <translation>29.97 (NTSC)</translation>
+        <translation>29,97 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9570,7 +9570,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>59.94  (NTSC)</source>
-        <translation>59.94  (NTSC)</translation>
+        <translation>59,94  (NTSC)</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -9869,7 +9869,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Put even lines on top, odd lines at bottom.</source>
-        <translation>Расположить чётные линии свверу, нечётные снизу.</translation>
+        <translation>Расположить чётные линии сверху, нечётные снизу.</translation>
     </message>
 </context>
 <context>
@@ -9883,7 +9883,7 @@ Ready.
     <message>
         <location line="-185"/>
         <source>Duplicate frames for a given duration.</source>
-        <translation>Повторять кадр в течение заданного времени.</translation>
+        <translation>Повторять кадр в течении заданного времени.</translation>
     </message>
     <message>
         <location line="+181"/>
@@ -10105,7 +10105,7 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+336"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
-        <translation>Обнаружены несколько файлов с последовательными именами. Загрузить их все?</translation>
+        <translation>Обнаружено несколько файлов с последовательными именами. Загрузить их все?</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -10123,7 +10123,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
-        <translation>Разрешение видео изменяется при кадре %u с %ux%u на %ux%u. Это не поддерживается, индексирование прекращено.</translation>
+        <translation>Разрешение видео в кадре %u меняется с %ux%u на %ux%u. Это не поддерживается, индексирование прекращено.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -10131,7 +10131,7 @@ Ready.
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported and will result in a crash.
 Proceed nevertheless?
 This warning won&apos;t be shown again for this video.</source>
-        <translation>Разрешение видео изменяется при кадре %u с %ux%u на %ux%u. Подобное не поддерживается и приведёт к сбою.
+        <translation>Разрешение видео в кадре %u меняется с %ux%u на %ux%u. Подобное не поддерживается и приведёт к сбою.
 Продолжить всё равно?
 Это предупреждение больше не будет отображаться для этого видео.</translation>
     </message>
@@ -11115,7 +11115,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+36"/>
         <source>Target Video Size:</source>
-        <translation>Целевой размер файла:</translation>
+        <translation>Целевой размер видео:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -11174,12 +11174,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-101"/>
         <source>Advanced RC</source>
-        <translation>Расширенный контроль битрейта</translation>
+        <translation>Управление битрейтом</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Advanced Rate Control</source>
-        <translation>Расширенный контроль битрейта</translation>
+        <translation>Расширенное управление битрейтом</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -11401,7 +11401,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+35"/>
         <source>Open GOP:</source>
-        <translation>Открыть группу кадров:</translation>
+        <translation>Открытая группа кадров:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -12322,7 +12322,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+21"/>
         <source>Target Video Size:</source>
-        <translation>Целевой размер файла:</translation>
+        <translation>Целевой размер видео:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -12386,12 +12386,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+42"/>
         <source>Advanced RC</source>
-        <translation>Расширенный контроль битрейта</translation>
+        <translation>Управление битрейтом</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Advanced Rate Control</source>
-        <translation>Расширенный контроль битрейта</translation>
+        <translation>Расширенное управление битрейтом</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -12574,7 +12574,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+7"/>
         <source>Open GOP</source>
-        <translation>Открыть группу кадров</translation>
+        <translation>Открытая группа кадров</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -12739,7 +12739,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+222"/>
         <source>Limit References by:</source>
-        <translation>Ограничить опорные по:</translation>
+        <translation>Ограничение опорных:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -12775,12 +12775,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+38"/>
         <source>Noise Reduction Intra:</source>
-        <translation>Внутреннее уменьшение шума:</translation>
+        <translation>Подавление шума в интра-блоках:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Noise Reduction Inter:</source>
-        <translation>Внешнее уменьшение шума:</translation>
+        <translation>Подавление шума в интер-блоках</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -12901,7 +12901,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+5"/>
         <source>Auto Variance AQ</source>
-        <translation>Автоматическое адаптивное квантование дисперсии:</translation>
+        <translation>Автоматич. адаптивное квантование дисперсии</translation>
     </message>
     <message>
         <location line="+5"/>
