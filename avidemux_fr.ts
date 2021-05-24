@@ -12981,7 +12981,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+727"/>
         <source>Load File</source>
-        <translation type="unfinished"></translation>
+        <translation>Charger un fichier</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -12991,7 +12991,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+10"/>
         <source>Cancel</source>
-        <translation type="unfinished">Annuler</translation>
+        <translation>Annuler</translation>
     </message>
 </context>
 <context>
@@ -13000,42 +13000,42 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/xvid4/xvid4Dialog.cpp" line="+32"/>
         <location line="+24"/>
         <source>None</source>
-        <translation type="unfinished">Aucun</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>Low</source>
-        <translation type="unfinished">BAsse</translation>
+        <translation>Basse</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Medium</source>
-        <translation type="unfinished">Moyenne</translation>
+        <translation>Moyenne</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Full</source>
-        <translation type="unfinished">Complète</translation>
+        <translation>Complète</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Custom</source>
-        <translation type="unfinished">Manuel</translation>
+        <translation>Manuel</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>One thread</source>
-        <translation type="unfinished">Un thread</translation>
+        <translation>Un thread</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two threads)</source>
-        <translation type="unfinished">Deux threads</translation>
+        <translation>Deux threads</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Three threads</source>
-        <translation type="unfinished">Trois threads</translation>
+        <translation>Trois threads</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -13155,7 +13155,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+2"/>
         <source>Profile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil : </translation>
     </message>
     <message>
         <location line="+10"/>
@@ -13176,7 +13176,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+35"/>
         <location line="+17"/>
         <source>Encoding Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode d'encodage</translation>
     </message>
     <message>
         <location line="-13"/>
