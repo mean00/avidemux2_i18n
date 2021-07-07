@@ -18,7 +18,7 @@
     <message>
         <location filename="../src/qt3support/other/q3accel.cpp" line="462"/>
         <source>%1, %2 not defined</source>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2 non défini</translation>
     </message>
     <message>
         <location filename="../src/qt3support/other/q3accel.cpp" line="497"/>
@@ -41,12 +41,12 @@
     <message>
         <location filename="../src/qt3support/sql/q3datatable.cpp" line="766"/>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Insérer</translation>
     </message>
     <message>
         <location filename="../src/qt3support/sql/q3datatable.cpp" line="767"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Mise à jour</translation>
     </message>
     <message>
         <location filename="../src/qt3support/sql/q3datatable.cpp" line="768"/>
@@ -59,17 +59,17 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="834"/>
         <source>Copy or Move a File</source>
-        <translation type="unfinished"></translation>
+        <translation>Copier ou déplacer un fichier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="842"/>
         <source>Read: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Lire : %1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="878"/>
         <source>Write: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecrire : %1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2470"/>
@@ -114,22 +114,22 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2506"/>
         <source>Look &amp;in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Regarder &amp;dans</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4537"/>
         <source>File &amp;name:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nom du fichier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2508"/>
         <source>File &amp;type:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Type de fichier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2515"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Retour</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2522"/>
@@ -139,42 +139,42 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2531"/>
         <source>Create New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Créer un nouveau dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2549"/>
         <source>List View</source>
-        <translation type="unfinished"></translation>
+        <translation>Vue en liste</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2557"/>
         <source>Detail View</source>
-        <translation type="unfinished"></translation>
+        <translation>Vue en détail</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2566"/>
         <source>Preview File Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Information du fichier de prévisualisation</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2589"/>
         <source>Preview File Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Contenu du fichier de prévisualisation</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2677"/>
         <source>Read-write</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture-écriture</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2678"/>
         <source>Read-only</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture seule</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2679"/>
         <source>Write-only</source>
-        <translation type="unfinished"></translation>
+        <translation>Ecriture seule</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2680"/>
@@ -204,12 +204,12 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2686"/>
         <source>Dir</source>
-        <translation type="unfinished"></translation>
+        <translation>Dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="2687"/>
         <source>Special</source>
-        <translation type="unfinished"></translation>
+        <translation>Spécial</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog_win.cpp" line="478"/>
@@ -249,42 +249,42 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4204"/>
         <source>Sort by &amp;Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier par &amp;nom</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4206"/>
         <source>Sort by &amp;Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier par &amp;taille</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4207"/>
         <source>Sort by &amp;Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier par &amp;date</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4209"/>
         <source>&amp;Unsorted</source>
-        <translation type="unfinished"></translation>
+        <translation>Non &amp;trié</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4224"/>
         <source>Sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Trier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4228"/>
         <source>Show &amp;hidden files</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer les fichiers &amp;cachés</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4259"/>
         <source>the file</source>
-        <translation type="unfinished"></translation>
+        <translation>le fichier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4261"/>
         <source>the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>le dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4263"/>
@@ -294,12 +294,12 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4266"/>
         <source>Delete %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimer %1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4268"/>
         <source>&lt;qt&gt;Are you sure you wish to delete %1 &quot;%2&quot;?&lt;/qt&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;qt&gt;Etes-vous sûr de supprimer %1 &quot;%2&quot;?&lt;/qt&gt;</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4269"/>
@@ -314,22 +314,22 @@
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4305"/>
         <source>New Folder 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau dossier 1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4310"/>
         <source>New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4315"/>
         <source>New Folder %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nouveau dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4420"/>
         <source>Find Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Trouver un dossier</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog.cpp" line="4533"/>
@@ -351,7 +351,9 @@
         <source>%1
 File not found.
 Check path and filename.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+Fichier non trouvé.
+Vérifier le chemin et le fichier.</translation>
     </message>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog_win.cpp" line="103"/>
@@ -361,7 +363,7 @@ Check path and filename.</source>
     <message>
         <location filename="../src/qt3support/dialogs/q3filedialog_win.cpp" line="633"/>
         <source>Select a Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Sélectionner un dossier</translation>
     </message>
 </context>
 <context>
@@ -370,19 +372,22 @@ Check path and filename.</source>
         <location filename="../src/qt3support/network/q3localfs.cpp" line="113"/>
         <source>Could not read directory
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne peut pas lire le dossier
+%1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/network/q3localfs.cpp" line="158"/>
         <source>Could not create directory
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne peut pas créer le dossier
+%1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/network/q3localfs.cpp" line="192"/>
         <source>Could not remove file or directory
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne peut pas supprimer le fichier ou dossier
+%1</translation>
     </message>
     <message>
         <location filename="../src/qt3support/network/q3localfs.cpp" line="219"/>
@@ -390,7 +395,10 @@ Check path and filename.</source>
 %1
 to
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne peut pas renommer
+%1
+en
+%2</translation>
     </message>
     <message>
         <location filename="../src/qt3support/network/q3localfs.cpp" line="244"/>
