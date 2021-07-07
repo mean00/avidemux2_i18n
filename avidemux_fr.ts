@@ -6710,7 +6710,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>_Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Mode :</translation>
     </message>
     <message>
         <location line="+1"/>
