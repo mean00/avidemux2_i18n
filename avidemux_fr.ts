@@ -9836,7 +9836,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+0"/>
         <source>Are you sure you want to delete %s job?</source>
-        <translation>Êtes-vous sur de vouloir détruire %s job ?</translation>
+        <translation>Êtes-vous sûr de vouloir détruire %s job ?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -13241,12 +13241,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+5"/>
         <source>Exhaustive Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Recherche exhaustive</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>1 (Fast)</source>
-        <translation type="unfinished"></translation>
+        <translation>1 (rapide)</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -13256,7 +13256,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>7 (Best)</source>
-        <translation type="unfinished"></translation>
+        <translation>7 (meilleur)</translation>
     </message>
     <message>
         <location line="+78"/>
@@ -13286,7 +13286,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Rectangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Rectangulaire</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -13408,12 +13408,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+9"/>
         <source>Minimum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum :</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Maximum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum:</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -13464,7 +13464,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Profondeur</translation>
     </message>
     <message>
         <location line="+330"/>
@@ -13475,7 +13475,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+22"/>
         <location line="+88"/>
         <source>Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveau :</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -13522,7 +13522,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+10"/>
         <location line="+1080"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Editer</translation>
     </message>
     <message>
         <location line="-1033"/>
@@ -13553,7 +13553,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-598"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Activé</translation>
     </message>
     <message>
         <location line="+277"/>
@@ -13608,7 +13608,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+13"/>
         <source>Normal</source>
-        <translation type="unfinished">Normale</translation>
+        <translation>Normale</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -13649,18 +13649,18 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+12"/>
         <source>Unspecified</source>
         <comment>PAR</comment>
-        <translation type="unfinished"></translation>
+        <translation>Non spécifié</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Custom Aspect Ratio:</source>
         <comment>PAR</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ratio personnalisé :</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Same as Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Comme l'entrée</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -13730,7 +13730,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>Add</source>
-        <translation type="unfinished">Ajouter</translation>
+        <translation>Ajouter</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -13750,7 +13750,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Auto-detect</source>
-        <translation type="unfinished">Détection auto</translation>
+        <translation>Détection auto</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -13777,7 +13777,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+59"/>
         <location line="+6"/>
         <source>Output</source>
-        <translation type="unfinished">Sortie</translation>
+        <translation>Sortie</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -13787,7 +13787,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-606"/>
         <source>Pixel Aspect Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Ratio de pixel</translation>
     </message>
     <message>
         <location line="+81"/>
@@ -13797,7 +13797,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-53"/>
         <source>Predefined Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ratio d'image prédéfini</translation>
     </message>
     <message>
         <location line="+588"/>
@@ -13806,7 +13806,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+6"/>
-        <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
+        <source>These settings are only suggestions for the playback equipment. Use at your own risk.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13818,22 +13818,22 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="-785"/>
         <location line="+795"/>
         <source>Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>Non défini</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrer</translation>
     </message>
     <message>
         <location line="-818"/>
         <source>Video Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Format vidéo :</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -13998,7 +13998,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>Deux threads</translation>
     </message>
     <message>
@@ -14029,12 +14029,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished">Rapport h/l:</translation>
+        <translation>Rapport h/l :</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Aspect Ratio</source>
-        <translation type="unfinished">Rapport hauteur/largeur</translation>
+        <translation>Rapport hauteur/largeur</translation>
     </message>
     <message>
         <location line="-111"/>
@@ -14099,7 +14099,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>_Number of B frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>-Nombre d'image B</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -14124,7 +14124,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+2"/>
         <source>Profile:</source>
-        <translation>Profil : </translation>
+        <translation>Profil :</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -14170,7 +14170,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+12"/>
         <source>Rate Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle du débit</translation>
     </message>
     <message>
         <location line="+3"/>
