@@ -462,6 +462,12 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/colorYuv.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv_param.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/Q_imageStab.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/DIA_flyImageStab.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/imageStab.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/motest.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/resampleFps/motin.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/confResampleFps.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilterDeint.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/vaapiFilter.h \ 
@@ -553,6 +559,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/cdebug.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilterparam.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilter.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/quadTrans.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/DIA_flyQuadTrans.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/Q_quadTrans.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/Q_artMirror.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/DIA_flyArtMirror.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.h \ 
@@ -832,6 +842,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_audioDevices/Alsa/ADM_deviceALSA.h \ 
 ../../../avidemux_plugins/ADM_audioDevices/Sdl/ADM_deviceSDL.h \ 
 ../../../avidemux_plugins/ADM_audioDevices/Oss/ADM_deviceoss.h \ 
+../../../avidemux_plugins/ADM_audioDevices/PulseAudio/ADM_devicePulse.h \ 
 ../../../avidemux_plugins/ADM_audioDevices/AudioCore/ADM_deviceAudioCore.h \ 
 ../../../avidemux_plugins/ADM_audioDevices/Win32/ADM_deviceWin32.h \ 
 ../../../avidemux_plugins/ADM_audioDevices/Arts/ADM_deviceArts.h \ 
@@ -1350,8 +1361,15 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/avsColor.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorYUV/colorYuv_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/imageStab_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/Q_imageStab.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/DIA_flyImageStab.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/motest.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/imageStab_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/confResampleFps_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/resampleFps/motin.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/resampleFps/confResampleFps_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/testHeader.c \ 
@@ -1492,6 +1510,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilter.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilterparam_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/swapUV/swapUV.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/quadTrans_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/quadTrans_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/Q_quadTrans.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/DIA_flyQuadTrans.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/DIA_flyArtMirror.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/Q_artMirror.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.cpp \ 
@@ -1906,6 +1929,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_audioDevices/Alsa/ADM_deviceALSA.cpp \ 
 ../../../avidemux_plugins/ADM_audioDevices/Sdl/ADM_deviceSDL.cpp \ 
 ../../../avidemux_plugins/ADM_audioDevices/Oss/ADM_deviceoss.cpp \ 
+../../../avidemux_plugins/ADM_audioDevices/PulseAudio/ADM_devicePulse.cpp \ 
 ../../../avidemux_plugins/ADM_audioDevices/AudioCore/ADM_deviceAudioCore.cpp \ 
 ../../../avidemux_plugins/ADM_audioDevices/Win32/ADM_deviceWin32.cpp \ 
 ../../../avidemux_plugins/ADM_audioDevices/Arts/ADM_deviceArts.cpp \ 
@@ -1987,6 +2011,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt4/blackenBorders.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/artGrid.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/artChromaKey.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artPixelize/qt4/artPixelize.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/qt4/waveletSharp.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/waveletDenoise/qt4/waveletDenoise.ui \ 
@@ -2005,6 +2030,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/qt4/artDynThreshold.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVignette/qt4/artVignette.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/artColorEffect.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui \ 

@@ -579,7 +579,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation> (0 parçalar)</translation>
     </message>
     <message>
-        <location line="+1204"/>
+        <location line="+583"/>
+        <source>Go to previous cut point [SHIFT+DOWN]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Go to next cut point [SHIFT+UP]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+598"/>
         <source>&amp;Open...</source>
         <translation>&amp;Açılıyor...</translation>
     </message>
@@ -772,17 +782,15 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Bitiş işaretleyicisini ayarla [CTRL+SAYFA AŞAĞI]</translation>
     </message>
     <message>
-        <location line="+26"/>
         <source>Search previous black frame</source>
-        <translation>Önceki siyah karede ara</translation>
+        <translation type="vanished">Önceki siyah karede ara</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation>Sonraki siyah karede ara</translation>
+        <translation type="vanished">Sonraki siyah karede ara</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+72"/>
         <source>Go to first frame [HOME]</source>
         <translation>İlk kareye git [EV]</translation>
     </message>
@@ -1434,7 +1442,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Sonraki İç Çerçeve</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Previous Black Frame</source>
         <translation>Önceki Siyah Çerçeve</translation>
     </message>
@@ -1537,7 +1545,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Codec Hatası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+370"/>
+        <location filename="../../common/gui_main.cpp" line="+369"/>
         <source>Not coded in this version</source>
         <translation>Bu sürümde kodlanmamış</translation>
     </message>
@@ -1750,7 +1758,7 @@ Sorunlar bekliyoruz.</translation>
         <translation>Ana Ses Parçası</translation>
     </message>
     <message>
-        <location line="+264"/>
+        <location line="+263"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Avsproxy&apos;ye bağlanılamadı.
@@ -1840,7 +1848,7 @@ Is it running ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-251"/>
+        <location filename="../../common/gui_main.cpp" line="-250"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2269,7 +2277,7 @@ Is it running ?</source>
         <translation>Kullanılacak varsayılan bağlantı noktası</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-100"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-102"/>
         <source>Open</source>
         <translation>Aç</translation>
     </message>
@@ -2447,7 +2455,17 @@ Is it running ?</source>
         <translation>Sonraki Kare</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+3"/>
+        <source>Previous Cut Point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Next Cut Point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>First Frame</source>
         <translation>İlk Kare</translation>
     </message>
@@ -2583,7 +2601,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1485"/>
+        <location filename="../../common/gui_main.cpp" line="-1484"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -2608,7 +2626,7 @@ PSP uyumlu video oluşturmak gerekir.</translation>
         <translation>Son kullanılan dosyaların ve projelerin listesini silmek üzeresiniz. Bu geri alınamaz. İlerlemek?</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+125"/>
         <location line="+73"/>
         <source>Select Video File...</source>
         <translation>Video Dosyası Seçin ...</translation>
@@ -2680,7 +2698,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Belirli bir iz dizininin dilini ayarlamak mümkün değildir: Geçersiz iz dizini!</translation>
     </message>
     <message>
-        <location line="+144"/>
+        <location line="+143"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2700,7 +2718,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Bu işlev devre dışı veya artık geçerli değil</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+446"/>
+        <location filename="../../common/gui_play.cpp" line="+453"/>
         <source>Trouble initializing audio device</source>
         <translation>Ses cihazını başlatma sorunu</translation>
     </message>
@@ -3166,6 +3184,11 @@ Yine de denemek ister misiniz?</translation>
         <location line="+1"/>
         <source>WMAPRO</source>
         <translation>WMAPRO</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>WMA Lossless</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5096,7 +5119,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Kesme filtresi</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+23"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Uyarı Çok fazla kırpma! Genişlik sıfırlandı!
@@ -5110,12 +5133,12 @@ Yüklemek istiyor musunuz  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+541"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+86"/>
         <source>Auto Crop</source>
         <translation>Otomatik Kesme</translation>
     </message>
@@ -6967,7 +6990,7 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+159"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+155"/>
         <source>Baseline</source>
         <translation>Temel</translation>
     </message>
@@ -7786,6 +7809,77 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <location line="+1"/>
         <source>Put fields side by side.</source>
         <translation>Alanları yan yana koyun.</translation>
+    </message>
+</context>
+<context>
+    <name>imageStab</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.cpp" line="+41"/>
+        <source>Image stabilizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce camera shakiness.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>imageStabDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="+14"/>
+        <source>Image stabilizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Smoothing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Gravity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Interpolation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Motion estimation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>accurate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>fast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
+        <source>Scene threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Zoom</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9019,7 +9113,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1065"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1069"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 başlıklarını okumada sorun</translation>
     </message>
@@ -9419,7 +9513,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+235"/>
+        <location filename="../../common/gui_navigate.cpp" line="+243"/>
         <source>Cannot go to next keyframe</source>
         <translation>Bir sonraki ana kareye gidilemiyor</translation>
     </message>
@@ -9429,12 +9523,12 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Önceki ana kareye gidilemiyor</translation>
     </message>
     <message>
-        <location line="+191"/>
+        <location line="+330"/>
         <source>Seek</source>
         <translation>Araştırma</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+86"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
@@ -9543,9 +9637,9 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>opendmldemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="+321"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="+322"/>
         <location line="+76"/>
-        <location line="+268"/>
+        <location line="+269"/>
         <source>Malformed header</source>
         <translation>Hatalı biçimlendirilmiş başlık</translation>
     </message>
@@ -9863,7 +9957,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+250"/>
+        <location line="+300"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
@@ -9873,12 +9967,17 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Son Projeler</translation>
     </message>
     <message>
-        <location line="+592"/>
+        <location line="+26"/>
+        <source>Restore defaults</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+574"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+222"/>
         <source>Play/Stop</source>
         <translation>Oynat/Durdur</translation>
     </message>
@@ -9913,6 +10012,16 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bitiş işaretini ayarla</translation>
     </message>
     <message>
+        <location line="+4"/>
+        <source>Go to previous cut point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Go to next cut point</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+6"/>
         <source>Go to first frame</source>
         <translation>İlk kareye git</translation>
@@ -9943,7 +10052,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+694"/>
+        <location line="+752"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
@@ -9960,12 +10069,12 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+78"/>
         <source>Selection: </source>
         <translation>Seçim: </translation>
     </message>
     <message numerus="yes">
-        <location line="+305"/>
+        <location line="+326"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10424,6 +10533,63 @@ Hazır.
     </message>
 </context>
 <context>
+    <name>quadTrans</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.cpp" line="+42"/>
+        <source>Quadrilateral transformation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Four point transform.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>quadTransDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="+14"/>
+        <source>Quadrilateral transformation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Interpolation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Zoom:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <location line="+27"/>
+        <location line="+74"/>
+        <location line="+34"/>
+        <source>Δy:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-115"/>
+        <location line="+14"/>
+        <location line="+50"/>
+        <location line="+34"/>
+        <source>Δx:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>qvobsub</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_vobsub.cpp" line="+88"/>
@@ -10505,7 +10671,7 @@ Hazır.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+407"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+446"/>
         <source>_Mode:</source>
         <translation>_Kip:</translation>
     </message>
@@ -10515,17 +10681,12 @@ Hazır.
         <translation>_Yeni kare hızı:</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Blend frames</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>Resample fps</source>
         <translation>Fps&apos;yi yeniden örnekle</translation>
     </message>
     <message>
-        <location line="-372"/>
+        <location line="-410"/>
         <source>Custom</source>
         <translation>Özel</translation>
     </message>
@@ -10555,7 +10716,7 @@ Hazır.
         <translation>59.93  (NTSC)</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>Resample FPS</source>
         <translation>FPS&apos;yi yeniden örnekle</translation>
     </message>
@@ -10563,6 +10724,26 @@ Hazır.
         <location line="+1"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
         <translation>FPS&apos;yi değiştirin ve uygulayın. Süreyi ve senkronizasyonu koru.</translation>
+    </message>
+    <message>
+        <location line="+352"/>
+        <source>none</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Blend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Motion compensation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>_Interpolation:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10573,7 +10754,7 @@ Hazır.
         <translation>Genişlik ve yükseklik garip olamaz</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="+81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="+82"/>
         <source>swsResize</source>
         <translation>sws Yeniden Boyutlandırma</translation>
     </message>
@@ -10700,6 +10881,11 @@ Hazır.
         <location line="+5"/>
         <source>Spline</source>
         <translation>Spline</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Nearest neighbor</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Source:</source>
