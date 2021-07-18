@@ -7839,7 +7839,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+21"/>
+        <source>Auto Gravity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Scene threshold</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9455,12 +9460,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+243"/>
+        <location filename="../../common/gui_navigate.cpp" line="+241"/>
         <source>Cannot go to next keyframe</source>
         <translation>Nemožno prejsť ďalšiu snímku</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+66"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Nemožno prejsť na predošlú snímku</translation>
     </message>
@@ -9470,7 +9475,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Hľadať</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+87"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>

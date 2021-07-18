@@ -7795,7 +7795,12 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+21"/>
+        <source>Auto Gravity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Scene threshold</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9399,12 +9404,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+243"/>
+        <location filename="../../common/gui_navigate.cpp" line="+241"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kann nicht zum nächsten Keyframe wechseln</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+66"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Kann nicht zum vorhergehenden Keyframe wechseln</translation>
     </message>
@@ -9414,7 +9419,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation type="unfinished">Navigation</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+87"/>
         <source>Error</source>
         <translation type="unfinished">Fehler</translation>
     </message>

@@ -7876,7 +7876,12 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+21"/>
+        <source>Auto Gravity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Scene threshold</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9500,22 +9505,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+641"/>
+        <location filename="../../common/gui_navigate.cpp" line="+637"/>
         <source>Seek</source>
         <translation>Пошук</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+87"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location line="-416"/>
+        <location line="-417"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Неможливо перейти до попереднього ключового кадру</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-66"/>
         <source>Cannot go to next keyframe</source>
         <translation>Неможливо перейти до наступного ключового кадру</translation>
     </message>

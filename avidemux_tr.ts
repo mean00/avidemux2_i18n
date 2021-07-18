@@ -7872,7 +7872,12 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+21"/>
+        <source>Auto Gravity</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Scene threshold</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9513,12 +9518,12 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+243"/>
+        <location filename="../../common/gui_navigate.cpp" line="+241"/>
         <source>Cannot go to next keyframe</source>
         <translation>Bir sonraki ana kareye gidilemiyor</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+66"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Önceki ana kareye gidilemiyor</translation>
     </message>
@@ -9528,7 +9533,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Araştırma</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+87"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
