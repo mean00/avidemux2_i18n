@@ -1920,7 +1920,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+3"/>
         <source>Go to Time</source>
-        <translation>Aller au temp</translation>
+        <translation>Aller au temps</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_jobs_save.cpp" line="+8"/>
@@ -9886,7 +9886,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+176"/>
         <source>Restore previous session</source>
-        <translation type="unfinished"></translation>
+        <translation>Restaurer la session précédente</translation>
     </message>
 </context>
 <context>
@@ -9909,12 +9909,12 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+0"/>
         <source>Deleted</source>
-        <translation type="unfinished">Supprimé</translation>
+        <translation>Supprimé</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Running</source>
-        <translation type="unfinished"></translation>
+        <translation>Traitement en cours</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -9929,18 +9929,18 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+0"/>
         <source>Start Time</source>
-        <translation type="unfinished">Date de départ</translation>
+        <translation>Date de départ</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>End Time</source>
-        <translation type="unfinished">Date de fin</translation>
+        <translation>Date de fin</translation>
     </message>
     <message>
         <location line="+64"/>
         <location line="+15"/>
         <source>Sure!</source>
-        <translation type="unfinished">Sur!</translation>
+        <translation>Sur !</translation>
     </message>
     <message>
         <location line="-15"/>
@@ -9950,7 +9950,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+0"/>
         <source>Are you sure you want to delete %s job?</source>
-        <translation>Êtes vous sur de vouloir détruire %s job ?</translation>
+        <translation>Êtes-vous sûr de vouloir détruire %s job ?</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -10017,12 +10017,12 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="-340"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Prévisualisation</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>DISABLED </source>
-        <translation type="unfinished"></translation>
+        <translation>Désactivé</translation>
     </message>
     <message>
         <location line="+338"/>
@@ -10037,17 +10037,17 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+1"/>
         <source>Enable/Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Active/désactive</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Désactive</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Active</translation>
     </message>
     <message>
         <location line="+133"/>
@@ -10057,12 +10057,12 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+122"/>
         <source>Load video filters..</source>
-        <translation>Charger les filtres vidéo..</translation>
+        <translation>Charger les filtres vidéos..</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Save video filters..</source>
-        <translation>Enregistrer les filtres vidéo..</translation>
+        <translation>Enregistrer les filtres vidéos..</translation>
     </message>
 </context>
 <context>
@@ -10123,7 +10123,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+83"/>
         <source>Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidéo</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10133,28 +10133,28 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+2"/>
         <source>Image Size:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille image : </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Ratio : </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Fréquence : </translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Durée totale : </translation>
     </message>
     <message>
         <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Propriétés vidéos étendues</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10179,12 +10179,12 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+2"/>
         <source>Channels:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Canaux : </translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation type="unfinished"></translation>
+        <translation>Débit : </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10194,7 +10194,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+5"/>
         <source>No Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas d'audio</translation>
     </message>
     <message>
         <location line="-172"/>
@@ -10209,7 +10209,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+3"/>
         <source>Stereo</source>
-        <translation type="unfinished">Stéréo</translation>
+        <translation>Stéréo</translation>
     </message>
 </context>
 <context>
@@ -10271,7 +10271,7 @@ Ready.
     <message>
         <location line="-7"/>
         <source>Question?</source>
-        <translation type="unfinished"></translation>
+        <translation>Question ?</translation>
     </message>
 </context>
 <context>
@@ -10344,7 +10344,7 @@ Ready.
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_vobsub.cpp" line="+88"/>
         <source>Select Idx File</source>
-        <translation>Choix du Fichie Idx</translation>
+        <translation>Choix du fichier Idx</translation>
     </message>
 </context>
 <context>
@@ -10362,19 +10362,19 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
         <source>Saving raw video</source>
-        <translation type="unfinished"></translation>
+        <translation>Sauver une vidéo brute</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucun</translation>
     </message>
 </context>
 <context>
     <name>removeplane</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/removePlane/removePlane.cpp" line="+45"/>
-        <source>Remove  Plane</source>
+        <source>Remove Plane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10423,7 +10423,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+44"/>
         <source>Custom</source>
-        <translation type="unfinished">Manuel</translation>
+        <translation>Manuel</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10438,7 +10438,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
-        <translation type="unfinished">Change le nombre d&apos;i/s, conserve la synchronisation et la durée</translation>
+        <translation>Change le nombre d&apos;i/s, conserve la synchronisation et la durée</translation>
     </message>
     <message>
         <location line="+352"/>
@@ -10458,7 +10458,7 @@ Ready.
     <message>
         <location line="+7"/>
         <source>_New frame rate:</source>
-        <translation type="unfinished">_Nouveau nombre d&apos;i/s:</translation>
+        <translation>_Nouveau nombre d&apos;i/s:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10468,7 +10468,7 @@ Ready.
     <message>
         <location line="-403"/>
         <source>25  (PAL)</source>
-        <translation type="unfinished">25  (PAL/SECAM)</translation>
+        <translation>25 (PAL/SECAM)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10493,7 +10493,7 @@ Ready.
     <message>
         <location line="+8"/>
         <source>Resample fps</source>
-        <translation type="unfinished">Re-échantillonnage du nombre d&apos;i/s</translation>
+        <translation>Ré-échantillonnage du nombre d&apos;i/s</translation>
     </message>
 </context>
 <context>
@@ -10529,7 +10529,7 @@ Ready.
     <message>
         <location line="+21"/>
         <source>Lock Aspect Ratio</source>
-        <translation>Vérrouiller le rapport h/l</translation>
+        <translation>Verrouiller le rapport h/l</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -10540,7 +10540,7 @@ Ready.
         <location line="+8"/>
         <location line="+32"/>
         <source>1:1 (square pixels)</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1 (pixel carré)</translation>
     </message>
     <message>
         <location line="-8"/>
@@ -10555,12 +10555,12 @@ Ready.
     <message>
         <location line="+38"/>
         <source>Width:</source>
-        <translation>Largeur:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Height:</source>
-        <translation>Hauteur:</translation>
+        <translation>Hauteur :</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -10575,12 +10575,12 @@ Ready.
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrondir au multiple de 8</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrondir au multiple de 4</translation>
     </message>
     <message>
         <location line="+114"/>
@@ -10590,12 +10590,12 @@ Ready.
     <message>
         <location line="+79"/>
         <source>Error X / Y:</source>
-        <translation>Erreur X/Y:</translation>
+        <translation>Erreur X/Y :</translation>
     </message>
     <message>
         <location line="+67"/>
         <source>Resize Method:</source>
-        <translation>Méthode:</translation>
+        <translation>Méthode :</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -10605,7 +10605,7 @@ Ready.
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation>Bicuibique</translation>
+        <translation>Bicubique</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10649,7 +10649,7 @@ Ready.
     <message>
         <location line="-162"/>
         <source>Rotate the image by 90/180/270 degrees.</source>
-        <translation>Angle de rotation (90/180/270);</translation>
+        <translation>Angle de rotation (90°, 180°, 270°).</translation>
     </message>
     <message>
         <location line="+155"/>
@@ -10659,7 +10659,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>90 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>90 degrés</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -10669,7 +10669,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>180 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>180 degrés</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -10679,7 +10679,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>270 degrees</source>
-        <translation type="unfinished"></translation>
+        <translation>270 degrés</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -10689,7 +10689,7 @@ Ready.
     <message>
         <location line="+2"/>
         <source>_Angle:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Angle :</translation>
     </message>
 </context>
 <context>
@@ -10707,7 +10707,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Show unprocessed input</source>
-        <translation type="unfinished"></translation>
+        <translation>Afficher l'entrée non traitée</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10722,12 +10722,12 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Lecture</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next image</source>
-        <translation type="unfinished"></translation>
+        <translation>Image suivante</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10742,7 +10742,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Avancer d'une minute</translation>
     </message>
 </context>
 <context>
@@ -10789,7 +10789,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Put even lines on top, odd lines at bottom.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettre les lignes paires en haut, les lignes impaires en bas.</translation>
     </message>
 </context>
 <context>
@@ -10813,7 +10813,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>_Duration:</source>
-        <translation type="unfinished">_Fin:</translation>
+        <translation type="unfinished">_Fin :</translation>
     </message>
 </context>
 <context>
@@ -10924,37 +10924,37 @@ Ready.
     <message>
         <location line="+1"/>
         <source>_Field order:</source>
-        <translation>&amp;Ordre champ:</translation>
+        <translation>&amp;Ordre champ :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Postprocessing:</source>
-        <translation>&amp;Post-traitement:</translation>
+        <translation>&amp;Post-traitement :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Try backward:</source>
-        <translation>&amp;Essayer en arrière:</translation>
+        <translation>&amp;Essayer en arrière :</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Direct threshold:</source>
-        <translation>Seuil &amp;direct:</translation>
+        <translation>Seuil &amp;direct :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Backward threshold:</source>
-        <translation>Seuil en &amp;arrière</translation>
+        <translation>Seuil en &amp;arrière :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Noise threshold:</source>
-        <translation>Seuil de b&amp;ruit</translation>
+        <translation>Seuil de b&amp;ruit :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Postp_rocessing threshold:</source>
-        <translation>Seuil de post-t&amp;raitement</translation>
+        <translation>Seuil de post-t&amp;raitement :</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -13432,12 +13432,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+5"/>
         <source>Exhaustive Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Recherche exhaustive</translation>
     </message>
     <message>
         <location line="+42"/>
         <source>1 (Fast)</source>
-        <translation type="unfinished"></translation>
+        <translation>1 (rapide)</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -13447,7 +13447,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>7 (Best)</source>
-        <translation type="unfinished"></translation>
+        <translation>7 (meilleur)</translation>
     </message>
     <message>
         <location line="+78"/>
@@ -13477,7 +13477,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Rectangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Rectangulaire</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -13599,12 +13599,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+9"/>
         <source>Minimum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum :</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>Maximum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum:</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -13655,7 +13655,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Profondeur</translation>
     </message>
     <message>
         <location line="+330"/>
@@ -13666,7 +13666,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+22"/>
         <location line="+88"/>
         <source>Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Niveau :</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -13713,7 +13713,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+10"/>
         <location line="+1080"/>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Editer</translation>
     </message>
     <message>
         <location line="-1033"/>
@@ -13744,7 +13744,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-598"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Activé</translation>
     </message>
     <message>
         <location line="+277"/>
@@ -13799,7 +13799,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+13"/>
         <source>Normal</source>
-        <translation type="unfinished">Normale</translation>
+        <translation>Normale</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -13840,18 +13840,18 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+12"/>
         <source>Unspecified</source>
         <comment>PAR</comment>
-        <translation type="unfinished"></translation>
+        <translation>Non spécifié</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Custom Aspect Ratio:</source>
         <comment>PAR</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ratio personnalisé :</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Same as Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Comme l'entrée</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -13921,7 +13921,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>Add</source>
-        <translation type="unfinished">Ajouter</translation>
+        <translation>Ajouter</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -13941,7 +13941,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+7"/>
         <source>Auto-detect</source>
-        <translation type="unfinished">Détection auto</translation>
+        <translation>Détection auto</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -13968,7 +13968,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+59"/>
         <location line="+6"/>
         <source>Output</source>
-        <translation type="unfinished">Sortie</translation>
+        <translation>Sortie</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -13978,7 +13978,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-606"/>
         <source>Pixel Aspect Ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Ratio de pixel</translation>
     </message>
     <message>
         <location line="+81"/>
@@ -13988,7 +13988,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-53"/>
         <source>Predefined Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ratio d'image prédéfini</translation>
     </message>
     <message>
         <location line="+588"/>
@@ -13997,7 +13997,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+6"/>
-        <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
+        <source>These settings are only suggestions for the playback equipment. Use at your own risk.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14009,22 +14009,22 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="-785"/>
         <location line="+795"/>
         <source>Undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>Non défini</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Show</source>
-        <translation type="unfinished"></translation>
+        <translation>Montrer</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrer</translation>
     </message>
     <message>
         <location line="-818"/>
         <source>Video Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Format vidéo :</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -14189,7 +14189,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>Deux threads</translation>
     </message>
     <message>
@@ -14220,12 +14220,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished">Rapport h/l:</translation>
+        <translation>Rapport h/l :</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Aspect Ratio</source>
-        <translation type="unfinished">Rapport hauteur/largeur</translation>
+        <translation>Rapport hauteur/largeur</translation>
     </message>
     <message>
         <location line="-111"/>
@@ -14290,7 +14290,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>_Number of B frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Nombre d'image B</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -14315,7 +14315,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+2"/>
         <source>Profile:</source>
-        <translation>Profil : </translation>
+        <translation>Profil :</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -14361,7 +14361,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+12"/>
         <source>Rate Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle du débit</translation>
     </message>
     <message>
         <location line="+3"/>
