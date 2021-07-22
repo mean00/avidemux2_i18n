@@ -495,7 +495,7 @@ Drop timing informations ?</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+460"/>
+        <location line="+461"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopieren</translation>
@@ -548,7 +548,7 @@ Drop timing informations ?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="-1291"/>
+        <location line="-1292"/>
         <source>&amp;Help</source>
         <translation>&amp;Hilfe</translation>
     </message>
@@ -558,7 +558,7 @@ Drop timing informations ?</source>
         <translation>&amp;Video</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>&amp;Audio</source>
         <translation>&amp;Audio</translation>
     </message>
@@ -573,7 +573,7 @@ Drop timing informations ?</source>
         <translation>&amp;Werkzeuge</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-37"/>
         <source>&amp;Edit</source>
         <translation>&amp;Bearbeiten</translation>
     </message>
@@ -583,7 +583,7 @@ Drop timing informations ?</source>
         <translation>An&amp;sicht</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>&amp;Custom</source>
         <translation>&amp;Skripte</translation>
     </message>
@@ -669,7 +669,7 @@ Drop timing informations ?</source>
         <translation>&amp;Vorschau</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+120"/>
         <source>Si&amp;de</source>
         <translation>&amp;Nebeneinander</translation>
     </message>
@@ -679,22 +679,22 @@ Drop timing informations ?</source>
         <translation>&amp;Übereinander</translation>
     </message>
     <message>
-        <location line="-565"/>
+        <location line="-579"/>
         <source>Frame type:</source>
         <translation>Frame-Typ:</translation>
     </message>
     <message>
-        <location line="+553"/>
+        <location line="+567"/>
         <source>&amp;Separate</source>
         <translation>Ab&amp;trennen</translation>
     </message>
     <message>
-        <location line="-1812"/>
+        <location line="-1827"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkzeugleisten</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation>A&amp;uto</translation>
     </message>
@@ -734,12 +734,12 @@ Drop timing informations ?</source>
         <translation>&amp;Lautstärke</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+28"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Pegelanzeige</translation>
     </message>
     <message>
-        <location line="-124"/>
+        <location line="-138"/>
         <source>Play filtered</source>
         <translation>Filter anwenden</translation>
     </message>
@@ -923,6 +923,16 @@ Drop timing informations ?</source>
         <location line="+14"/>
         <source>Ctrl+Alt+V</source>
         <translation>Strg+Alt+V</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+14"/>
@@ -5070,12 +5080,13 @@ Soll dieses jetzt geladen werden ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation>Größe: </translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5090,13 +5101,13 @@ Soll dieses jetzt geladen werden ?
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation>Rechts:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation>Oben:</translation>
     </message>
@@ -5107,13 +5118,13 @@ Soll dieses jetzt geladen werden ?
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation>Unten:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation>Links:</translation>
     </message>
@@ -5123,12 +5134,12 @@ Soll dieses jetzt geladen werden ?
         <translation>Zuschneideautomatik</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation>Bildgröße: </translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>&amp;Auswahlrahmen verstecken</translation>
     </message>
@@ -5145,7 +5156,7 @@ Soll dieses jetzt geladen werden ?
         <translation type="vanished">Quelle</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation>Frei</translation>
@@ -5191,7 +5202,7 @@ Soll dieses jetzt geladen werden ?
         <translation>9:16</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation>Seitenverhältnis:</translation>
     </message>
@@ -9842,7 +9853,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+549"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+599"/>
         <source>Recent Files</source>
         <translation>Zuletzt verwendete &amp;Dateien</translation>
     </message>
@@ -9937,7 +9948,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+993"/>
+        <location line="+995"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9956,12 +9967,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2596"/>
+        <location line="-2648"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1947"/>
+        <location line="+1999"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -10641,7 +10652,7 @@ Bereit.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>Ungerade Werte für Breite oder Höhe sind unzulässig</translation>
     </message>
@@ -10762,7 +10773,17 @@ Bereit.
         <translation>0,00 / 0,00</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Methode zur Größenänderung:</translation>
     </message>

@@ -513,7 +513,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1508"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1509"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -533,12 +533,12 @@ Drop timing informations ?</source>
         <translation>Пере&amp;хід</translation>
     </message>
     <message>
-        <location line="+1802"/>
+        <location line="+1816"/>
         <source>&amp;Top</source>
         <translation>&amp;Зверху</translation>
     </message>
     <message>
-        <location line="-1478"/>
+        <location line="-1492"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Копіювати</translation>
@@ -554,17 +554,17 @@ Drop timing informations ?</source>
         <translation>Ав&amp;то</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-22"/>
         <source>&amp;Edit</source>
         <translation>&amp;Правка</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-57"/>
         <source>&amp;Help</source>
         <translation>Довід&amp;ка</translation>
     </message>
@@ -579,7 +579,7 @@ Drop timing informations ?</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location line="+200"/>
+        <location line="+201"/>
         <location line="+7"/>
         <source>XXXX</source>
         <translation type="unfinished"></translation>
@@ -659,6 +659,16 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+14"/>
         <source>Ctrl+Alt+M</source>
         <translation type="unfinished"></translation>
@@ -669,7 +679,7 @@ Drop timing informations ?</source>
         <translation>З&amp;боку</translation>
     </message>
     <message>
-        <location line="-647"/>
+        <location line="-661"/>
         <source>Time:</source>
         <translation>Час:</translation>
     </message>
@@ -735,12 +745,12 @@ Drop timing informations ?</source>
         <translation>Поставити маркер B [CTRL + PAGEDOWN]</translation>
     </message>
     <message>
-        <location line="+810"/>
+        <location line="+824"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Аудіометр</translation>
     </message>
     <message>
-        <location line="-1576"/>
+        <location line="-1590"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -748,12 +758,12 @@ Drop timing informations ?</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location line="-727"/>
+        <location line="-728"/>
         <source>Vi&amp;deo</source>
         <translation>Ві&amp;део</translation>
     </message>
     <message>
-        <location line="+857"/>
+        <location line="+858"/>
         <source>Play [SPACE]</source>
         <translation>Відтворити [SPACE]</translation>
     </message>
@@ -763,12 +773,12 @@ Drop timing informations ?</source>
         <translation>&amp;Аудіометр</translation>
     </message>
     <message>
-        <location line="-1587"/>
+        <location line="-1588"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
     <message>
-        <location line="+1634"/>
+        <location line="+1635"/>
         <source>&amp;Open...</source>
         <translation>&amp;Відкрити...</translation>
     </message>
@@ -883,12 +893,12 @@ Drop timing informations ?</source>
         <translation>Вперед на 1 хвилину [CTRL + UP]</translation>
     </message>
     <message>
-        <location line="+684"/>
+        <location line="+698"/>
         <source>&amp;Separate</source>
         <translation>&amp;Відокремити</translation>
     </message>
     <message>
-        <location line="-848"/>
+        <location line="-862"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>Поставити маркер A [CTRL + PAGEUP]</translation>
     </message>
@@ -5085,12 +5095,13 @@ Do you want to load it  ?
         <translation>Кадрування</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation>Розмір: </translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5124,13 +5135,13 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+45"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+66"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+112"/>
         <source>Top:</source>
         <translation>Зверху:</translation>
     </message>
     <message>
         <location line="+71"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-21"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-74"/>
         <source>Left:</source>
         <translation>Зліва:</translation>
     </message>
@@ -5141,17 +5152,17 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="-50"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
         <source>Right:</source>
         <translation>Праворуч:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+120"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+184"/>
         <source>Size: </source>
         <translation>Розмір: </translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="-61"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation type="unfinished"></translation>
@@ -5197,13 +5208,13 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="+71"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-154"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-30"/>
         <source>Bottom:</source>
         <translation>Знизу:</translation>
     </message>
@@ -5213,7 +5224,7 @@ Do you want to load it  ?
         <translation>Автокадрирование</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+95"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+70"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>&amp;Сховати гумку</translation>
     </message>
@@ -9952,17 +9963,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2439"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2491"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2190"/>
+        <location line="-2242"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1143"/>
+        <location line="+1193"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
@@ -9972,14 +9983,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1646"/>
+        <location line="+1648"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-812"/>
+        <location line="-814"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
@@ -10043,7 +10054,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1015"/>
+        <location line="+1017"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10053,7 +10064,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1121"/>
+        <location line="-1123"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -10068,7 +10079,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1467"/>
+        <location line="+1469"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10078,7 +10089,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1465"/>
+        <location line="-1467"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>
@@ -10774,7 +10785,7 @@ Ready.
         <translation>Змінити розмір за допомогою swScale.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>Ширина і висота не можуть бути непарними</translation>
     </message>
@@ -10791,12 +10802,12 @@ Ready.
         <translation type="vanished">Приймач:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+543"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="+570"/>
         <source>Bilinear</source>
         <translation>Білінійний</translation>
     </message>
     <message>
-        <location line="-75"/>
+        <location line="-102"/>
         <source>Error X / Y:</source>
         <translation>Помилка X/Y:</translation>
     </message>
@@ -10815,12 +10826,12 @@ Ready.
         <translation type="vanished">0,00/0,00</translation>
     </message>
     <message>
-        <location line="+518"/>
+        <location line="+545"/>
         <source>Lanczos-3</source>
         <translation>Ланчош-3</translation>
     </message>
     <message>
-        <location line="-539"/>
+        <location line="-566"/>
         <source>Resize</source>
         <translation>Змінити розмір</translation>
     </message>
@@ -10839,12 +10850,12 @@ Ready.
         <translation>Відсоток</translation>
     </message>
     <message>
-        <location line="+159"/>
+        <location line="+186"/>
         <source>Bicubic</source>
         <translation>Бікубічний</translation>
     </message>
     <message>
-        <location line="-468"/>
+        <location line="-495"/>
         <source>Source PAR:</source>
         <translation>PAR на вході:</translation>
     </message>
@@ -10909,7 +10920,17 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Метод зміни розміру:</translation>
     </message>

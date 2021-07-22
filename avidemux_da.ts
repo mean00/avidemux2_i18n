@@ -526,7 +526,7 @@ Drop timinginformationer?</translation>
         <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation>&amp;Auto</translation>
     </message>
@@ -798,6 +798,16 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Lydmeter</translation>
     </message>
@@ -822,7 +832,7 @@ Drop timinginformationer?</translation>
         <translation>Si&amp;de</translation>
     </message>
     <message>
-        <location line="-1748"/>
+        <location line="-1762"/>
         <source>Codec O&amp;ptions</source>
         <translation>Codec-&amp;valgmuligheder</translation>
     </message>
@@ -5079,12 +5089,13 @@ Vil du indlæse den?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5099,13 +5110,13 @@ Vil du indlæse den?
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation>Højre:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation>Øverst:</translation>
     </message>
@@ -5116,13 +5127,13 @@ Vil du indlæse den?
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation>Nederst:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation>Venstre:</translation>
     </message>
@@ -5132,17 +5143,17 @@ Vil du indlæse den?
         <translation>Automatisk beskæring</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation type="unfinished"></translation>
@@ -5188,7 +5199,7 @@ Vil du indlæse den?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9841,7 +9852,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+350"/>
         <source>Recent Files</source>
         <translation>Seneste filer</translation>
     </message>
@@ -9936,7 +9947,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Fremad ét minut</translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+754"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Programmet er stødt på et fatalt problem
@@ -10642,7 +10653,7 @@ Ready.
         <translation>sw skalering tilpas størrelse.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>Bredde og højde kan ikke være ulige</translation>
     </message>
@@ -10761,7 +10772,17 @@ Ready.
         <translation>0.00/0.00</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Tilpas størrelse-metode:</translation>
     </message>

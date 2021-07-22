@@ -493,7 +493,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Avidemux</translation>
     </message>
     <message>
-        <location line="+460"/>
+        <location line="+461"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation type="unfinished">Kopie</translation>
@@ -562,7 +562,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">000000</translation>
     </message>
     <message>
-        <location line="-1437"/>
+        <location line="-1438"/>
         <source>&amp;Help</source>
         <translation type="unfinished">Náp&amp;ověda</translation>
     </message>
@@ -572,7 +572,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>&amp;Audio</source>
         <translation>Z&amp;vuk</translation>
     </message>
@@ -587,7 +587,7 @@ Drop timing informations ?</source>
         <translation>Nás&amp;troje</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-37"/>
         <source>&amp;Edit</source>
         <translation type="unfinished">&amp;Upravit</translation>
     </message>
@@ -597,7 +597,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">&amp;Zobrazit</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>&amp;Custom</source>
         <translation type="unfinished">V&amp;lastní</translation>
     </message>
@@ -679,7 +679,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Vý&amp;stup</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+120"/>
         <source>Si&amp;de</source>
         <translation type="unfinished">V&amp;edle sebe</translation>
     </message>
@@ -689,7 +689,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">&amp;Na sebe</translation>
     </message>
     <message>
-        <location line="-1703"/>
+        <location line="-1717"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video dekodér&lt;/b&gt;</translation>
     </message>
@@ -699,12 +699,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Typ snímku:</translation>
     </message>
     <message>
-        <location line="+553"/>
+        <location line="+567"/>
         <source>&amp;Separate</source>
         <translation type="unfinished">S&amp;amostatně</translation>
     </message>
     <message>
-        <location line="-1205"/>
+        <location line="-1219"/>
         <source>ms</source>
         <translation type="unfinished">ms</translation>
     </message>
@@ -719,12 +719,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">B:</translation>
     </message>
     <message>
-        <location line="-1386"/>
+        <location line="-1387"/>
         <source>&amp;Toolbars</source>
         <translation>Nás&amp;trojové lišty</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation>&amp;Automaticky</translation>
     </message>
@@ -911,6 +911,16 @@ Drop timing informations ?</source>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+V</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5030,12 +5040,13 @@ Chcete ho nahrát?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5050,13 +5061,13 @@ Chcete ho nahrát?
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation type="unfinished">Vpravo:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation type="unfinished">Nahoře:</translation>
     </message>
@@ -5067,13 +5078,13 @@ Chcete ho nahrát?
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation type="unfinished">Dole:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation type="unfinished">Vlevo:</translation>
     </message>
@@ -5083,17 +5094,17 @@ Chcete ho nahrát?
         <translation type="unfinished">Automatický ořez</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation type="unfinished"></translation>
@@ -5139,7 +5150,7 @@ Chcete ho nahrát?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9766,7 +9777,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+350"/>
         <source>Recent Files</source>
         <translation type="unfinished">Nedávné soubory</translation>
     </message>
@@ -9861,7 +9872,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+754"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
@@ -10555,7 +10566,7 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation type="unfinished">Šířka a výška nemohou být liché</translation>
     </message>
@@ -10684,7 +10695,17 @@ Ready.
         <translation type="unfinished">0,00/0,00</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation type="unfinished">Metoda převzorkování:</translation>
     </message>

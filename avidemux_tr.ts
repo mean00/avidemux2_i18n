@@ -499,7 +499,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+475"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+476"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopya</translation>
@@ -529,7 +529,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Zaman:</translation>
     </message>
     <message>
-        <location line="-1208"/>
+        <location line="-1209"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
@@ -539,7 +539,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Vi&amp;deo</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ses</translation>
     </message>
@@ -554,7 +554,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Araçlar</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-37"/>
         <source>&amp;Edit</source>
         <translation>&amp;Düzenle</translation>
     </message>
@@ -564,7 +564,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Görünüm</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>&amp;Custom</source>
         <translation>&amp;Özel</translation>
     </message>
@@ -642,7 +642,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Çıktı</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+67"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+50"/>
         <source>Si&amp;de</source>
         <translation>Y&amp;an</translation>
     </message>
@@ -652,7 +662,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Üst</translation>
     </message>
     <message>
-        <location line="-1703"/>
+        <location line="-1717"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video Kod Çözücü&lt;/b&gt;</translation>
     </message>
@@ -662,12 +672,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Çerçeve tipi:</translation>
     </message>
     <message>
-        <location line="+553"/>
+        <location line="+567"/>
         <source>&amp;Separate</source>
         <translation>&amp;Ayrı</translation>
     </message>
     <message>
-        <location line="-1926"/>
+        <location line="-1941"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -677,7 +687,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Araç çubukları</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation>&amp;Oto</translation>
     </message>
@@ -921,7 +931,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+25"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Ses Ölçer</translation>
     </message>
@@ -5133,12 +5143,13 @@ Yüklemek istiyor musunuz  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation>Otomatik Kesme</translation>
     </message>
@@ -5163,40 +5174,40 @@ Yüklemek istiyor musunuz  ?
     </message>
     <message>
         <location line="-108"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation>Sağ:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation>Üst:</translation>
     </message>
     <message>
         <location line="+64"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation>Alt:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation>Sol:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Lastik Bandı &amp;Gizle</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation>Kilitleme</translation>
@@ -5242,7 +5253,7 @@ Yüklemek istiyor musunuz  ?
         <translation>9:16</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation>En Boy Oranını Kilitle:</translation>
     </message>
@@ -9962,7 +9973,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+350"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
@@ -10057,7 +10068,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+754"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
@@ -10754,7 +10765,7 @@ Hazır.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>Genişlik ve yükseklik garip olamaz</translation>
     </message>
@@ -10793,12 +10804,12 @@ Hazır.
         <translation>Hedef NOKTA:</translation>
     </message>
     <message>
-        <location line="+436"/>
+        <location line="+463"/>
         <source>Bicubic</source>
         <translation>Bikübik</translation>
     </message>
     <message>
-        <location line="-513"/>
+        <location line="-540"/>
         <source>Aspect Ratio</source>
         <translation>En Boy Oranı</translation>
     </message>
@@ -10868,7 +10879,17 @@ Hazır.
         <translation>0.00 / 0.00</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>

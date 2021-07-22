@@ -515,7 +515,7 @@ Ignorer les informations de timing ?</translation>
         <translation>&amp;Vue</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+32"/>
         <source>&amp;Tools</source>
         <translation>Ou&amp;tils</translation>
     </message>
@@ -637,7 +637,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Options du co&amp;dec</translation>
     </message>
     <message>
-        <location line="+71"/>
+        <location line="+85"/>
         <source>&amp;Separate</source>
         <translation>&amp;Séparer</translation>
     </message>
@@ -652,7 +652,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Cot&amp;e à cote</translation>
     </message>
     <message>
-        <location line="-1850"/>
+        <location line="-1865"/>
         <source>Vi&amp;deo</source>
         <translation>Vidéo</translation>
     </message>
@@ -662,7 +662,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Barre d&apos;outils</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation></translation>
     </message>
@@ -919,6 +919,16 @@ Ignorer les informations de timing ?</translation>
         <location line="+3"/>
         <source>Ctrl+Alt+V</source>
         <translation></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
@@ -5031,12 +5041,13 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5051,13 +5062,13 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+38"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5068,13 +5079,13 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+21"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5084,17 +5095,17 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation type="unfinished"></translation>
@@ -5140,7 +5151,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9710,7 +9721,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Nouvelle version disponible&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Publié le %2.&lt;br&gt;Vous pouvez la télécharger ici&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Vous pouvez désactiver autoupdate dans les préférences.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+350"/>
         <source>Recent Files</source>
         <translation>Fichiers Récents</translation>
     </message>
@@ -9805,7 +9816,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avancer d&apos;une minute</translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+754"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>L&apos;application a rencontré un problème fatal
@@ -10194,7 +10205,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+5"/>
         <source>No Audio</source>
-        <translation>Pas d'audio</translation>
+        <translation>Pas d&apos;audio</translation>
     </message>
     <message>
         <location line="-172"/>
@@ -10374,7 +10385,7 @@ Ready.
     <name>removeplane</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/removePlane/removePlane.cpp" line="+45"/>
-        <source>Remove Plane</source>
+        <source>Remove  Plane</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10499,7 +10510,7 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>La largeur ou la hauteur ne peuvent être impaires</translation>
     </message>
@@ -10593,7 +10604,17 @@ Ready.
         <translation>Erreur X/Y :</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+40"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Méthode :</translation>
     </message>
@@ -10623,7 +10644,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-194"/>
+        <location line="-221"/>
         <source>1%</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10707,7 +10728,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Show unprocessed input</source>
-        <translation>Afficher l'entrée non traitée</translation>
+        <translation>Afficher l&apos;entrée non traitée</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10742,7 +10763,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation>Avancer d'une minute</translation>
+        <translation>Avancer d&apos;une minute</translation>
     </message>
 </context>
 <context>
@@ -13851,7 +13872,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+57"/>
         <source>Same as Input</source>
-        <translation>Comme l'entrée</translation>
+        <translation>Comme l&apos;entrée</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -13988,7 +14009,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-53"/>
         <source>Predefined Aspect Ratio:</source>
-        <translation>Ratio d'image prédéfini</translation>
+        <translation>Ratio d&apos;image prédéfini</translation>
     </message>
     <message>
         <location line="+588"/>
@@ -13996,12 +14017,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>These settings are only suggestions for the playback equipment. Use at your own risk.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+28"/>
+        <location line="+34"/>
         <source>Overscan:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14067,7 +14083,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+724"/>
+        <location line="+653"/>
+        <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+71"/>
         <source>HRD Parameters:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14188,12 +14209,11 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation>Un thread</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Two threads</source>
-        <translation>Deux threads</translation>
+        <translation type="vanished">Deux threads</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Three threads</source>
         <translation>Trois threads</translation>
     </message>
@@ -14258,7 +14278,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+5"/>
+        <source>Two threads)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Auto (#cpu)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14290,7 +14315,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>_Number of B frames:</source>
-        <translation>_Nombre d'image B</translation>
+        <translation>_Nombre d&apos;image B</translation>
     </message>
     <message>
         <location line="+2"/>

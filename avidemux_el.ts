@@ -502,7 +502,7 @@ Drop timing informations ?</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+460"/>
+        <location line="+461"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Αντιγραφή</translation>
@@ -571,7 +571,7 @@ Drop timing informations ?</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-1437"/>
+        <location line="-1438"/>
         <source>&amp;Help</source>
         <translation>Βοή&amp;θεια</translation>
     </message>
@@ -581,7 +581,7 @@ Drop timing informations ?</source>
         <translation>&amp;Βίντεο</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ήχος</translation>
     </message>
@@ -596,7 +596,7 @@ Drop timing informations ?</source>
         <translation>Ε&amp;ργαλεία</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-37"/>
         <source>&amp;Edit</source>
         <translation>&amp;Επεξεργασία</translation>
     </message>
@@ -606,7 +606,7 @@ Drop timing informations ?</source>
         <translation>Προ&amp;βολή</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>&amp;Custom</source>
         <translation>Προ&amp;σαρμοσμένο</translation>
     </message>
@@ -706,7 +706,7 @@ Drop timing informations ?</source>
         <translation>Δεδομένα ε&amp;ξόδου</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+120"/>
         <source>Si&amp;de</source>
         <translation>&amp;Πλευρά</translation>
     </message>
@@ -716,7 +716,7 @@ Drop timing informations ?</source>
         <translation>&amp;Κορυφή</translation>
     </message>
     <message>
-        <location line="-1703"/>
+        <location line="-1717"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Αποκωδικοποιητής βίντεο&lt;/b&gt;</translation>
     </message>
@@ -726,17 +726,17 @@ Drop timing informations ?</source>
         <translation>Τύπος στιγμιότυπου:</translation>
     </message>
     <message>
-        <location line="+553"/>
+        <location line="+567"/>
         <source>&amp;Separate</source>
         <translation>Δια&amp;χωρισμός</translation>
     </message>
     <message>
-        <location line="-1812"/>
+        <location line="-1827"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Εργαλειοθήκες</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>&amp;Auto</source>
         <translation>&amp;Αυτόματο</translation>
     </message>
@@ -929,6 +929,16 @@ Drop timing informations ?</source>
         <location line="+3"/>
         <source>Ctrl+Alt+V</source>
         <translation>Ctrl+Alt+V</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Toolbar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+B</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+11"/>
@@ -5133,12 +5143,13 @@ Do you want to load it  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+562"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location line="+358"/>
         <source>Size: </source>
         <translation>Μέγεθος: </translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="-236"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5158,25 +5169,25 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="-50"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
         <translation>Δεξιά:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
         <translation>Κορυφή:</translation>
     </message>
     <message>
         <location line="+64"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
         <translation>Βάση:</translation>
     </message>
     <message>
         <location line="+7"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-28"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
         <translation>Αριστερά:</translation>
     </message>
@@ -5186,17 +5197,17 @@ Do you want to load it  ?
         <translation>Αυτόματη περικοπή</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+113"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
         <translation>Μέγεθος: </translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Απόκρυψη του &amp;περιγράμματος</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
         <translation type="unfinished"></translation>
@@ -5242,7 +5253,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9928,7 +9939,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Διαθέσιμη νέα έκδοση&lt;/b&gt;&lt;br&gt; Έκδοση %1&lt;br&gt;Εκδόθηκε στις %2.&lt;br&gt;Μπορείτε να την κάνετε λήψη από εδώ&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Μπορείτε να απενεργοποιήσετε την αυτόματη ενημέρωση από τις προτιμήσεις.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+350"/>
         <source>Recent Files</source>
         <translation>Πρόσφατα αρχεία</translation>
     </message>
@@ -10023,7 +10034,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Προς τα εμπρός, κατά ένα λεπτό</translation>
     </message>
     <message>
-        <location line="+752"/>
+        <location line="+754"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Η εφαρμογή αντιμετώπισε ένα μοιραίο πρόβλημα
@@ -10722,7 +10733,7 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
         <source>Width and height cannot be odd</source>
         <translation>Το πλάτος και το ύψος δεν μπορούν να είναι μονοί αριθμοί</translation>
     </message>
@@ -10771,7 +10782,7 @@ Ready.
         <translation>200%</translation>
     </message>
     <message>
-        <location line="+134"/>
+        <location line="+161"/>
         <source>Bilinear</source>
         <translation>Διγραμμικός</translation>
     </message>
@@ -10781,7 +10792,7 @@ Ready.
         <translation>Δικυβικός</translation>
     </message>
     <message>
-        <location line="-513"/>
+        <location line="-540"/>
         <source>Aspect Ratio</source>
         <translation>Αναλογίες διαστάσεων</translation>
     </message>
@@ -10865,7 +10876,17 @@ Ready.
         <translation>0.00 / 0.00</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+33"/>
+        <source>0.0000</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>(00:00)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>Resize Method:</source>
         <translation>Μέθοδος αλλαγής των διαστάσεων:</translation>
     </message>
