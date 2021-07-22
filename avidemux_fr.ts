@@ -9772,7 +9772,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+176"/>
         <source>Restore previous session</source>
-        <translation>Restaurer la version précédente</translation>
+        <translation>Restaurer la session précédente</translation>
     </message>
 </context>
 <context>
@@ -14099,7 +14099,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>_Number of B frames:</source>
-        <translation>-Nombre d'image B</translation>
+        <translation>_Nombre d'image B</translation>
     </message>
     <message>
         <location line="+2"/>
