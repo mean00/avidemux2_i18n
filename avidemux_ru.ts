@@ -1084,7 +1084,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1241,6 +1241,11 @@ Drop timing informations ?</source>
         <translation>_Сохранять видео в папке с последним прочитанным файлом по умолчанию</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Auto-Append Settings</source>
         <translation>Автоматическое объединение расчленённых потоков</translation>
@@ -1378,13 +1383,13 @@ Drop timing informations ?</source>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2135,7 +2140,7 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-287"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-288"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
@@ -2170,7 +2175,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+66"/>
+        <location line="+67"/>
         <source>Caching of decoded pictures</source>
         <translation>Кэширование декодированных кадров</translation>
     </message>
@@ -2841,14 +2846,14 @@ Proceed anyway?</source>
         <translation>Невозможно добавить задание %s</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>Использовать данные первого прохода ещё раз?
 Предупреждение: настройки должны быть закрыты.</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation>Невозможно подтвердить цепочку видео</translation>
     </message>
@@ -2875,20 +2880,20 @@ Do you want to continue anyway ?</source>
 Всё равно продолжить?</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation>Мультиплексор</translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation>Не удаётся настроить кодировщик для 1 прохода. Возможно, что настройки, переданные кодировщику, несовместимы, или кодировщик нуждается в функциях, не предоставляемых данной системой.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation>Не удаётся создать экземпляр мультиплексора</translation>
     </message>
@@ -5076,7 +5081,7 @@ Do you want to load it  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>Кадрирование</translation>
     </message>
@@ -5086,7 +5091,7 @@ Do you want to load it  ?
         <translation>Фильтр кадрирования</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Предупреждение: ширина слишком сильно обрезана! Её значение восстановлено!
@@ -5524,6 +5529,19 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5539,12 +5557,12 @@ Do you want to load it  ?
         <translation>Кодирование...</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+31"/>
         <source>Phase:</source>
         <translation>Этап:</translation>
     </message>
     <message>
-        <location line="+240"/>
+        <location line="+296"/>
         <source>Audio Codec:</source>
         <translation>Кодек аудио:</translation>
     </message>
@@ -5559,15 +5577,15 @@ Do you want to load it  ?
         <translation>Кодек видео:</translation>
     </message>
     <message>
-        <location line="-282"/>
-        <location line="+247"/>
+        <location line="-331"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Неизвестно</translation>
     </message>
@@ -5589,12 +5607,12 @@ Do you want to load it  ?
         <translation>0</translation>
     </message>
     <message>
-        <location line="-521"/>
+        <location line="-522"/>
         <source>Time Remaining:</source>
         <translation>Осталось времени:</translation>
     </message>
     <message>
-        <location line="+349"/>
+        <location line="+350"/>
         <source>Total Size:</source>
         <translation>Общий размер:</translation>
     </message>
@@ -5604,7 +5622,7 @@ Do you want to load it  ?
         <translation>Размер видео:</translation>
     </message>
     <message>
-        <location line="-312"/>
+        <location line="-360"/>
         <source>Shut down computer when finished</source>
         <translation>Выключить ПК по завершению</translation>
     </message>
@@ -5644,7 +5662,17 @@ Do you want to load it  ?
         <translation>Не закрывать окно по завершению</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Minimize to Tray</source>
         <translation>Свернуть в трей</translation>
     </message>
@@ -5679,12 +5707,12 @@ Do you want to load it  ?
         <translation>Кадров в секунду:</translation>
     </message>
     <message>
-        <location line="-536"/>
+        <location line="-568"/>
         <source>Main</source>
         <translation>Основной</translation>
     </message>
     <message>
-        <location line="+364"/>
+        <location line="+396"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -6759,7 +6787,7 @@ Do you want to load it  ?
         <translation>[Несовпадение]</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Сохранение mpeg PS (ff)</translation>
     </message>
@@ -6863,7 +6891,7 @@ Do you want to load it  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Сохранение mpeg TS (ff)</translation>
     </message>
@@ -8701,7 +8729,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Только VP8/VP9/AV1 поддерживаются как видео и Vorbis/Opus как аудио</translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation>Сохранение в формате WebM</translation>
     </message>
@@ -9126,7 +9154,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Только AAC, AC3, DTS, E-AC3, MP2, MP3 и Vorbis поддерживаются как аудио</translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>Сохранение в формате MP4</translation>
     </message>
@@ -9139,6 +9167,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+2"/>
         <source>Saving mov</source>
         <translation>Сохранение в формате MOV</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -9271,7 +9304,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation>Аудио</translation>
     </message>
@@ -9296,7 +9329,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>В видео недостаточно информации о временных метках. Вы копируете из AVI?</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation>Невозможно переименовать файл (оптимизировать)</translation>
     </message>
@@ -9831,22 +9869,26 @@ The file must be re-indexed. Proceed?</source>
         <translation>Для выполнения этой операции требуются права root.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>Первый проход</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pass 1</source>
-        <translation>1 проход</translation>
+        <translation type="vanished">1 проход</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
+        <source>Second Pass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation>Кодирование...</translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Процесс кодирования приостановлен. Вы хотите продолжить или прервать его?</translation>
     </message>
@@ -10164,7 +10206,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>Частичное наложение</translation>
     </message>
@@ -10195,7 +10237,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Переместить вверх</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10205,7 +10247,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>Переместить вниз</translation>
     </message>
@@ -10546,7 +10588,7 @@ Ready.
         <translation>Настройки мультиплексора только для видео</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation>Сохранение чистого видеопотока</translation>
     </message>

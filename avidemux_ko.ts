@@ -1355,7 +1355,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+400"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+405"/>
         <source>Stereo</source>
         <translation>스테레오</translation>
     </message>
@@ -1566,7 +1566,7 @@ Drop timing informations ?</source>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
@@ -1668,7 +1668,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-186"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-187"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -1858,6 +1858,11 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>최근 읽은 파일의 폴더를 저장용 폴더로 사용하기</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2796,14 +2801,14 @@ Is it running ?</source>
         <translation>%s 작업을 추가할 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-251"/>
+        <location filename="../../common/gui_savenew.cpp" line="-253"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>이전의 첫 패스 데이터를 재사용할까요? 경고, 설정을 닫어야 합니다.</translation>
     </message>
     <message>
         <location line="+12"/>
-        <location line="+170"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2838,20 +2843,20 @@ Do you want to continue anyway ?</source>
 어쨌든 계속할까요?</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation>먹서</translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation>먹서를 인스턴스화할 수 없습니다</translation>
     </message>
@@ -5050,7 +5055,7 @@ Do you want to load it  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>잘라내기</translation>
     </message>
@@ -5060,7 +5065,7 @@ Do you want to load it  ?
         <translation>잘라내기 필터</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>경고: 너비를 너무 많이 잘라냈습니다! 너비 초기화!</translation>
@@ -5492,6 +5497,19 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5513,29 +5531,29 @@ Do you want to load it  ?
     </message>
     <message>
         <location line="+32"/>
-        <location line="+254"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>알 수 없음</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+247"/>
+        <location line="-310"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location line="-254"/>
+        <location line="-310"/>
         <source>Phase:</source>
         <translation>페이즈:</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="+24"/>
         <source>Time Remaining:</source>
         <translation>남은 시간:</translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location line="+11"/>
         <source>Shut down computer when finished</source>
         <translation>종료시 컴퓨터 끄기</translation>
     </message>
@@ -5575,7 +5593,17 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Minimize to Tray</source>
         <translation>트레이로 최소화하기</translation>
     </message>
@@ -6719,7 +6747,7 @@ Do you want to load it  ?
         <translation>[불일치]</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Mpeg PS 저장 중 (ff)</translation>
     </message>
@@ -6815,7 +6843,7 @@ Do you want to load it  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Mpeg TS 저장 중 (ff)</translation>
     </message>
@@ -8648,7 +8676,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9069,7 +9097,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>MP4 저장 중</translation>
     </message>
@@ -9081,6 +9109,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9214,7 +9247,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
@@ -9239,7 +9272,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>비디오에 충분한 타이밍 정보가 없습니다. AVI에서 복사 중인가요?</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation>파일 이름을 바꿀 수 없습니다 (최적화)</translation>
     </message>
@@ -9768,22 +9806,26 @@ The file must be re-indexed. Proceed?</source>
         <translation>이 동작을 수행하려면 루트 권한이 필요합니다.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>첫 패스</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pass 1</source>
-        <translation>패스 1</translation>
+        <translation type="vanished">패스 1</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
+        <source>Second Pass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation>인코딩...</translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>인코딩을 일시 중지했습니다. 재시작하거나 취소할까요?</translation>
     </message>
@@ -10099,7 +10141,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>일부분</translation>
     </message>
@@ -10130,7 +10172,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>위로 이동</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10140,7 +10182,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>아래로 이동</translation>
     </message>
@@ -10473,7 +10515,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1093,7 +1093,7 @@ Porzucić informacje dotyczące czasu?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekoduj wideo używając DXVA2 (windows)</translation>
     </message>
@@ -1253,6 +1253,11 @@ Porzucić informacje dotyczące czasu?</translation>
         <location line="+5"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>Domyślnie do zapisu użyj katalog, z którego wczytano ostatni plik</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1419,13 +1424,13 @@ Porzucić informacje dotyczące czasu?</translation>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Dźwięk</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2141,7 +2146,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Multipleksery</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-305"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-306"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Dekoduj wideo używając VDPAU (NVIDIA)</translation>
     </message>
@@ -2171,7 +2176,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Sprawdź czy jest nowe wydanie</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+70"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2837,14 +2842,14 @@ Czy kontynuować mimo to?</translation>
         <translation>Nie można dodać zadania %s</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>Ponownie użyć poprzednich danych pierwszego przebiegu?
 Ostrzeżenie: ustawienia muszą być zbliżone.</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation>Nie można utworzyć instancji łańcucha wideo</translation>
     </message>
@@ -2872,20 +2877,20 @@ Wideo zapisane w trybie kopiowania będzie uszkodzone w tych miejscach.
 Czy kontynuować mimo to?</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation>Mukser</translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation>Nie można utworzyć instancji muksera</translation>
     </message>
@@ -5065,7 +5070,7 @@ Czy chcesz go wczytać ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>Kadrowanie</translation>
     </message>
@@ -5075,7 +5080,7 @@ Czy chcesz go wczytać ?
         <translation>Filtr kadrowania</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Ostrzeżenie! Kadrowanie zbyt dużej szerokości! Szerokość zresetowana!</translation>
@@ -5507,6 +5512,19 @@ Czy chcesz go wczytać ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5522,25 +5540,35 @@ Czy chcesz go wczytać ?
         <translation>Kodowanie...</translation>
     </message>
     <message>
-        <location line="+41"/>
-        <location line="+247"/>
+        <location line="+24"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Brak</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Nieznany</translation>
     </message>
     <message>
-        <location line="-157"/>
+        <location line="-205"/>
         <source>Keep dialog open when finished</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+144"/>
         <source>Audio Codec:</source>
         <translation>Kodek dźwięku:</translation>
     </message>
@@ -5614,17 +5642,17 @@ Czy chcesz go wczytać ?
         <translation>Kwantyzator:</translation>
     </message>
     <message>
-        <location line="-389"/>
+        <location line="-437"/>
         <source>Shut down computer when finished</source>
         <translation>Wyłącz komputer po zakończeniu</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-11"/>
         <source>Time Remaining:</source>
         <translation>Pozostały czas:</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="+31"/>
         <source>Priority:</source>
         <translation>Priorytet:</translation>
     </message>
@@ -5654,22 +5682,22 @@ Czy chcesz go wczytać ?
         <translation>Niski</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+117"/>
         <source>Pause / Abort</source>
         <translation>Wstrzymaj / Przerwij</translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-218"/>
         <source>Main</source>
         <translation>Główne</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+15"/>
         <source>Phase:</source>
         <translation>Faza:</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+183"/>
         <source>Minimize to Tray</source>
         <translation>Minimalizuj do zasobnika</translation>
     </message>
@@ -6734,7 +6762,7 @@ Czy chcesz go wczytać ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Zapisywanie mpeg PS (ff)</translation>
     </message>
@@ -6838,7 +6866,7 @@ Czy chcesz go wczytać ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Zapisywanie mpeg TS (ff)</translation>
     </message>
@@ -8672,7 +8700,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9093,7 +9121,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>Zapisywanie MP4</translation>
     </message>
@@ -9105,6 +9133,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9238,7 +9271,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation>Dźwięk</translation>
     </message>
@@ -9263,7 +9296,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9792,22 +9830,26 @@ The file must be re-indexed. Proceed?</source>
         <translation>Aby wykonać to działanie wymagane są uprawnienia administracyjne.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>Pierwszy przebieg</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pass 1</source>
-        <translation>Przebieg 1</translation>
+        <translation type="vanished">Przebieg 1</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
+        <source>Second Pass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation>Kodowanie...</translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Kodowanie jest wstrzymane. Chcesz je wznowić, czy przerwać?</translation>
     </message>
@@ -10125,7 +10167,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>Częściowy</translation>
     </message>
@@ -10156,7 +10198,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation>Przesuń w górę</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10166,7 +10208,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>Przesuń w dół</translation>
     </message>
@@ -10501,7 +10543,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation type="unfinished"></translation>
     </message>

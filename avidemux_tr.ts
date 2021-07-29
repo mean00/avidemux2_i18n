@@ -1092,7 +1092,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1249,6 +1249,11 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>_Kaydedilmek için son okunan dosyanın dizinine varsayılan</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Auto-Append Settings</source>
         <translation>Otomatik Ekleme Ayarları</translation>
@@ -1382,13 +1387,13 @@ Bırakma zamanlaması bilgileri?</translation>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2143,7 +2148,7 @@ Is it running ?</source>
         <translation>_Halka azaltma</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-287"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-288"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>VDPAU (NVIDIA) kullanarak video kodunu çözme</translation>
     </message>
@@ -2178,7 +2183,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+66"/>
+        <location line="+67"/>
         <source>Caching of decoded pictures</source>
         <translation>Çözülmüş resimlerin önbelleğe alınması</translation>
     </message>
@@ -2851,14 +2856,14 @@ Yine de devam edilsin mi?</translation>
         <translation>%s işi eklenemiyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>Önceki ilk geçiş verileri yeniden kullanılsın mı?
 Uyarı, ayarların yakın olması gerekir.</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation>Video zinciri başlatılamıyor</translation>
     </message>
@@ -2882,20 +2887,20 @@ Video kaydedilecek, ancak kesme noktalarında bozulma olacak.
 Yine de devam etmek istiyor musun ?</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation>Çoklayıcı</translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation>İlk geçiş için kodlayıcı kurulamıyor. Kodlayıcıya sağlanan konfigürasyon uyumsuz olabilir veya kodlayıcı bu sistemde bulunmayan özelliklere bağlı olabilir.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation>Çoklayıcı somutlaştırılamıyor</translation>
     </message>
@@ -5119,7 +5124,7 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>Kes</translation>
     </message>
@@ -5129,7 +5134,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Kesme filtresi</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Uyarı Çok fazla kırpma! Genişlik sıfırlandı!
@@ -5563,6 +5568,19 @@ Yüklemek istiyor musunuz  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5578,12 +5596,12 @@ Yüklemek istiyor musunuz  ?
         <translation>Kodlanıyor...</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+31"/>
         <source>Phase:</source>
         <translation>Evre:</translation>
     </message>
     <message>
-        <location line="+240"/>
+        <location line="+296"/>
         <source>Audio Codec:</source>
         <translation>Ses Kod Çözücü:</translation>
     </message>
@@ -5598,15 +5616,15 @@ Yüklemek istiyor musunuz  ?
         <translation>Video Kod Çözücü:</translation>
     </message>
     <message>
-        <location line="-282"/>
-        <location line="+247"/>
+        <location line="-331"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Bilinmeyen</translation>
     </message>
@@ -5628,12 +5646,12 @@ Yüklemek istiyor musunuz  ?
         <translation>0</translation>
     </message>
     <message>
-        <location line="-521"/>
+        <location line="-522"/>
         <source>Time Remaining:</source>
         <translation>Kalan Süre:</translation>
     </message>
     <message>
-        <location line="+349"/>
+        <location line="+350"/>
         <source>Total Size:</source>
         <translation>Toplam Boyut:</translation>
     </message>
@@ -5643,7 +5661,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Video Boyutu:</translation>
     </message>
     <message>
-        <location line="-312"/>
+        <location line="-360"/>
         <source>Shut down computer when finished</source>
         <translation>İşlem bittiğinde bilgisayarı kapat</translation>
     </message>
@@ -5683,7 +5701,17 @@ Yüklemek istiyor musunuz  ?
         <translation>İşlem bittiğinde iletişim kutusunu açık tut</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Minimize to Tray</source>
         <translation>Tepsiye Küçült</translation>
     </message>
@@ -5718,12 +5746,12 @@ Yüklemek istiyor musunuz  ?
         <translation>Kareler/san:</translation>
     </message>
     <message>
-        <location line="-536"/>
+        <location line="-568"/>
         <source>Main</source>
         <translation>Ana</translation>
     </message>
     <message>
-        <location line="+364"/>
+        <location line="+396"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -6811,7 +6839,7 @@ Yüklemek istiyor musunuz  ?
         <translation>[Uyumsuzluk]</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>MPEG PS (ff) kaydetme</translation>
     </message>
@@ -6915,7 +6943,7 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Mpeg TS&apos;yi kaydetme (ff)</translation>
     </message>
@@ -8753,7 +8781,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation>WebM&apos;yi Kaydetme</translation>
     </message>
@@ -9178,7 +9206,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Ses için yalnızca AAC, AC3, DTS, E-AC3, MP2, MP3 ve Vorbis desteklenir</translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>MP4 kaydediliyor</translation>
     </message>
@@ -9191,6 +9219,11 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <location line="+2"/>
         <source>Saving mov</source>
         <translation>Film kaydediliyor</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -9355,7 +9388,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
@@ -9380,7 +9413,12 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Videoda yeterli zamanlama bilgisi yok. AVI&apos;dan mı kopyalama yapıyorsunuz?</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation>Dosya yeniden adlandırılamıyor (optimize et)</translation>
     </message>
@@ -9915,22 +9953,26 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bu işlemi gerçekleştirmek için kök ayrıcalıkları gerekir.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>İlk Geçiş</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pass 1</source>
-        <translation>Geçiş 1</translation>
+        <translation type="vanished">Geçiş 1</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
+        <source>Second Pass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation>Kodlanıyor...</translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Kodlama duraklatıldı. Devam etmek veya iptal etmek istiyor musunuz?</translation>
     </message>
@@ -10246,7 +10288,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>Kısmi</translation>
     </message>
@@ -10277,7 +10319,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Yukarı git</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10287,7 +10329,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>Aşağı in</translation>
     </message>
@@ -10626,7 +10668,7 @@ Hazır.
         <translation>Yalnızca Video Çoklayıcı Ayarları</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation>Ham video kaydetme</translation>
     </message>

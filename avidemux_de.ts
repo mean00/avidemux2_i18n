@@ -1079,7 +1079,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+251"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+255"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation type="unfinished">_Erlaube auch nicht DVD-konforme Audiofrequenzen (DVD-konform sind lediglich 48kHz und 96kHz)</translation>
     </message>
@@ -1207,6 +1207,11 @@ Drop timing informations ?</source>
         <location line="+5"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>_Den Ordner der gerade geladenen Datei als Speicherziel vorschlagen</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1350,13 +1355,13 @@ Drop timing informations ?</source>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Audio</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -1804,12 +1809,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Audiogeräte</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-298"/>
         <source>Enable openGl support</source>
         <translation>OpenG_L benutzen</translation>
     </message>
     <message>
-        <location line="+246"/>
+        <location line="+247"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Bildwiederholungsfrequenz begrenzen</translation>
     </message>
@@ -1819,7 +1824,7 @@ Drop timing informations ?</source>
         <translation>Bild _neu aufbauen nicht häufiger als nach (ms)</translation>
     </message>
     <message>
-        <location line="-196"/>
+        <location line="-197"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Hoch</translation>
@@ -1851,7 +1856,7 @@ Drop timing informations ?</source>
         <translation>Niedrig</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (bestens)</translation>
     </message>
@@ -2270,7 +2275,7 @@ Läuft er?</translation>
         <translation type="unfinished">2. Durchlauf</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-182"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-183"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Video mittels _VDPAU dekodieren</translation>
     </message>
@@ -2290,7 +2295,7 @@ Läuft er?</translation>
         <translation>Bei aktivierter Dekodierung in Hardware ist es ratsam, die entsprechende Video-Anzeige zu verwenden</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+101"/>
         <source>LIBVA (best)</source>
         <translation type="unfinished">libVA (bestens)</translation>
     </message>
@@ -2305,12 +2310,12 @@ Läuft er?</translation>
         <translation>Systemvorgabe</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-182"/>
         <source>_Check for new release</source>
         <translation>Auf _Update überprüfen</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+243"/>
         <source>GUI Rendering Options</source>
         <translation>Darstellungsoptionen der grafischen Oberfläche</translation>
     </message>
@@ -2857,14 +2862,14 @@ It is needed to create PSP compatible video.</source>
         <translation>Kann den Job %s nicht hinzufügen</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation type="unfinished">Ergebnisse eines früheren ersten Durchlaufs wiederverwenden?
 Warnung: Die Encoder-Konfiguration muss ähnlich sein.</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation type="unfinished">Kann Filterkette nicht aufbauen</translation>
     </message>
@@ -2892,20 +2897,20 @@ Das Video wird gespeichert, aber es wird Bildstörungen an Schnittpunkten geben.
 Trotzdem fortsetzen?</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation type="unfinished">Kann Muxer-Instanz nicht erstellen</translation>
     </message>
@@ -5056,7 +5061,7 @@ Soll dieses jetzt geladen werden ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>Zuschneiden</translation>
     </message>
@@ -5066,7 +5071,7 @@ Soll dieses jetzt geladen werden ?
         <translation>Bildrand entfernen.</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Die Breite kann nicht im geforderten Maße verkleinert werden. Die Breite wird zurückgesetzt!
@@ -5512,6 +5517,19 @@ Soll dieses jetzt geladen werden ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5527,25 +5545,25 @@ Soll dieses jetzt geladen werden ?
         <translation>Kodieren...</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+31"/>
         <source>Phase:</source>
         <translation>Vorgang:</translation>
     </message>
     <message>
-        <location line="+268"/>
+        <location line="+324"/>
         <source>Video Codec:</source>
         <translation>Video-Codec:</translation>
     </message>
     <message>
-        <location line="-282"/>
-        <location line="+247"/>
+        <location line="-331"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Keiner</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Unbekannt</translation>
     </message>
@@ -5562,7 +5580,7 @@ Soll dieses jetzt geladen werden ?
         <translation type="unfinished">0 kb/s</translation>
     </message>
     <message>
-        <location line="-396"/>
+        <location line="-444"/>
         <source>Shut down computer when finished</source>
         <translation>Nach Beendigung den Computer herunterfahren</translation>
     </message>
@@ -5597,7 +5615,7 @@ Soll dieses jetzt geladen werden ?
         <translation type="unfinished">Niedrig</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+117"/>
         <source>Pause / Abort</source>
         <translation>Pause / Abbruch</translation>
     </message>
@@ -5607,22 +5625,32 @@ Soll dieses jetzt geladen werden ?
         <translation>Details</translation>
     </message>
     <message>
-        <location line="-199"/>
+        <location line="-231"/>
         <source>Main</source>
         <translation>Allgemein</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+39"/>
         <source>Time Remaining:</source>
         <translation>Verbleibende Zeit:</translation>
     </message>
     <message>
-        <location line="+121"/>
+        <location line="+74"/>
         <source>Keep dialog open when finished</source>
         <translation>Dialog geöffnet lassen</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Minimize to Tray</source>
         <translation>In den Infobereich minimieren</translation>
     </message>
@@ -6735,7 +6763,7 @@ Soll dieses jetzt geladen werden ?
         <translation>Inkompatible Parameter</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>MPEG-PS wird gespeichert</translation>
     </message>
@@ -6839,7 +6867,7 @@ Soll dieses jetzt geladen werden ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>MPEG-TS wird gespeichert</translation>
     </message>
@@ -8676,7 +8704,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind zulässig</translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation>WebM wird gespeichert</translation>
     </message>
@@ -9101,7 +9129,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Nur AAC, AC3, DTS, E-AC3, MP3, MP3 und Vorbis werden als Audio unterstützt</translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>Speichere mp4</translation>
     </message>
@@ -9114,6 +9142,11 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <location line="+2"/>
         <source>Saving mov</source>
         <translation>MOV wird gespeichert</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -9246,7 +9279,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9271,7 +9304,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation type="unfinished">Video enthält nicht genug Zeitstempel. Wird es aus AVI kopiert?</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation type="unfinished">Für Streaming optimieren: Kann die Datei nicht umbenennen</translation>
     </message>
@@ -9800,22 +9838,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Für diese Operation sind Root-Rechte erforderlich.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>Erster Durchgang</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Pass 1</source>
+        <location line="+7"/>
+        <source>Second Pass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Der Kodierungvorgang wurde angehalten. Möchten Sie den Vorgang fortsetzen oder abbrechen?</translation>
     </message>
@@ -10132,7 +10170,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>Teilanwendung</translation>
     </message>
@@ -10163,7 +10201,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation>Nach oben verschieben</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10173,7 +10211,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>Nach unten verschieben</translation>
     </message>
@@ -10513,7 +10551,7 @@ Bereit.
         <translation>Video Only Muxer konfigurieren</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation>Rohvideo wird gespeichert</translation>
     </message>

@@ -1098,7 +1098,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση DXVA2 (windows)</translation>
     </message>
@@ -1255,6 +1255,11 @@ Drop timing informations ?</source>
         <translation>_Χρήση του καταλόγου του τελευταίως αναγνωσμένου αρχείου ως του καταλόγου αποθήκευσης εξ ορισμού</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Auto-Append Settings</source>
         <translation>Ρυθμίσεις αυτόματης προσάρτησης</translation>
@@ -1402,13 +1407,13 @@ Drop timing informations ?</source>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2177,7 +2182,7 @@ Is it running ?</source>
         <translation>_Απόπλεξη (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-180"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-181"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VDPAU (NVIDIA)</translation>
     </message>
@@ -2212,7 +2217,7 @@ Is it running ?</source>
         <translation>Έλεγ_χος για νέα έκδοση</translation>
     </message>
     <message>
-        <location line="+81"/>
+        <location line="+82"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (κάλλιστη)</translation>
     </message>
@@ -2869,7 +2874,7 @@ Proceed anyway?</source>
         <translation>Αδυναμία προσθήκης της διαδικασίας %s</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>Να επαναχρησιμοποιηθούν τα προηγούμενα δεδομένα
@@ -2877,7 +2882,7 @@ Warning, the settings must be close.</source>
 Προειδοποίηση: οι ρυθμίσεις θα πρέπει να κλείσουν.</translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation>Αδυναμία αρχικοποίησης της αλυσίδας του βίντεο</translation>
     </message>
@@ -2908,20 +2913,20 @@ Do you want to continue anyway ?</source>
 Επιθυμείτε να συνεχίσετε ούτως ή άλλως;</translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation>Πολυπλέκτης</translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation>Αδύνατη ή ρύθμιση ενός κωδικοποιητή για το πρώτο πέρασμα. Η παρασχεθείσα διαμόρφωση για τον κωδικοποιητή μπορεί να μην είναι συμβατή ή ο κωδικοποιητής μπορεί να εξαρτάται από χαρακτηριστικά μη διαθέσιμα σε αυτό το σύστημα.</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation>Αδυναμία αρχικοποίησης του πολυπλέκτη</translation>
     </message>
@@ -5119,7 +5124,7 @@ Do you want to load it  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation>Περικοπή</translation>
     </message>
@@ -5129,7 +5134,7 @@ Do you want to load it  ?
         <translation>Φίλτρο περικοπής</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Προειδοποίηση : Υπερβολικά μεγάλη περικοπή κατά πλάτος. Έγινε επαναφορά του πλάτους!
@@ -5563,6 +5568,19 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5578,25 +5596,35 @@ Do you want to load it  ?
         <translation>Γίνεται κωδικοποίηση...</translation>
     </message>
     <message>
-        <location line="+41"/>
-        <location line="+247"/>
+        <location line="+24"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Κανένα</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Άγνωστο</translation>
     </message>
     <message>
-        <location line="-157"/>
+        <location line="-205"/>
         <source>Keep dialog open when finished</source>
         <translation>Διατήρηση του διαλόγου ανοιχτού μετά τον τερματισμό</translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+144"/>
         <source>Audio Codec:</source>
         <translation>Κωδικοποιητής ήχου:</translation>
     </message>
@@ -5670,17 +5698,17 @@ Do you want to load it  ?
         <translation>0 kB/s</translation>
     </message>
     <message>
-        <location line="-396"/>
+        <location line="-444"/>
         <source>Shut down computer when finished</source>
         <translation>Κλείσιμο του υπολογιστή όταν τερματιστεί</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-11"/>
         <source>Time Remaining:</source>
         <translation>Εναπομένων χρόνος:</translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="+31"/>
         <source>Priority:</source>
         <translation>Προτεραιότητα:</translation>
     </message>
@@ -5710,7 +5738,7 @@ Do you want to load it  ?
         <translation>Χαμηλή</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+117"/>
         <source>Pause / Abort</source>
         <translation>Παύση / Εγκατάλειψη</translation>
     </message>
@@ -5720,17 +5748,17 @@ Do you want to load it  ?
         <translation>Προχωρημένα</translation>
     </message>
     <message>
-        <location line="-199"/>
+        <location line="-231"/>
         <source>Main</source>
         <translation>Κύριο</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+15"/>
         <source>Phase:</source>
         <translation>Φάση:</translation>
     </message>
     <message>
-        <location line="+127"/>
+        <location line="+183"/>
         <source>Minimize to Tray</source>
         <translation>Ελαχιστοποίηση στο πλαίσιο συστήματος</translation>
     </message>
@@ -6802,7 +6830,7 @@ Do you want to load it  ?
         <translation>[Αναντιστοιχία]</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Αποθηκεύεται το mpeg PS (ff)</translation>
     </message>
@@ -6906,7 +6934,7 @@ Do you want to load it  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Αποθηκεύεται το mpeg TS (ff)</translation>
     </message>
@@ -8739,7 +8767,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9180,7 +9208,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation>Αποθήκευση του mp4</translation>
     </message>
@@ -9192,6 +9220,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9325,7 +9358,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
@@ -9350,7 +9383,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Το βίντεο δεν έχει αρκετές πληροφορίες χρονισμού. Μήπως κάνετε αντιγραφή από AVI;</translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation>Αδυναμία μετονομασίας του αρχείου (βελτιστοποίηση)</translation>
     </message>
@@ -9881,22 +9919,26 @@ The file must be re-indexed. Proceed?</source>
         <translation>Απαιτούνται δικαιώματα υπερχρήστη για να εκτελεστεί αυτή η λειτουργία.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation>Πρώτο πέρασμα</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>Pass 1</source>
-        <translation>Πέρασμα 1</translation>
+        <translation type="vanished">Πέρασμα 1</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
+        <source>Second Pass</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation>Γίνεται κωδικοποίηση...</translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Η κωδικοποίηση ανεστάλη. Θέλετε να συνεχιστεί ή να εγκαταλείψετε;</translation>
     </message>
@@ -10213,7 +10255,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation>Μερικό</translation>
     </message>
@@ -10244,7 +10286,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Μετακίνηση πάνω</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10254,7 +10296,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation>Μετακίνηση κάτω</translation>
     </message>
@@ -10594,7 +10636,7 @@ Ready.
         <translation>Ρυθμίσεις πολυπλέκτη μόνο βίντεο</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation>Αποθήκευση του ακατέργαστου βίντεο</translation>
     </message>

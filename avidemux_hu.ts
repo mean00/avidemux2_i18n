@@ -1083,7 +1083,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1233,6 +1233,11 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
@@ -1364,13 +1369,13 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Hang</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -1961,7 +1966,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Bővítmények infó</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-298"/>
         <source>Enable openGl support</source>
         <translation>OpenGL engedélyezés</translation>
     </message>
@@ -1978,7 +1983,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Alacsony</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (legjobb)</translation>
     </message>
@@ -2701,7 +2706,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-182"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-183"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2726,7 +2731,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+70"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3032,13 +3037,13 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3060,20 +3065,20 @@ Do you want to continue anyway ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5018,7 +5023,7 @@ Be akarja tölteni?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5028,7 +5033,7 @@ Be akarja tölteni?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Figyelem, a levágás túl széles ! Szélesség visszáll !</translation>
@@ -5460,6 +5465,19 @@ Be akarja tölteni?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5475,35 +5493,45 @@ Be akarja tölteni?
         <translation>Kódolás...</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+31"/>
         <source>Phase:</source>
         <translation>Ffázis:</translation>
     </message>
     <message>
-        <location line="+268"/>
+        <location line="+324"/>
         <source>Video Codec:</source>
         <translation>Videó kodek:</translation>
     </message>
     <message>
-        <location line="-282"/>
-        <location line="+247"/>
+        <location line="-331"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Nincs</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Ismeretlen</translation>
     </message>
     <message>
-        <location line="-157"/>
+        <location line="-205"/>
         <source>Keep dialog open when finished</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+144"/>
         <source>Audio Codec:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5577,17 +5605,17 @@ Be akarja tölteni?
         <translation>0 kB/s</translation>
     </message>
     <message>
-        <location line="-396"/>
+        <location line="-444"/>
         <source>Shut down computer when finished</source>
         <translation>Számítógép leállítása befejezés után</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-11"/>
         <source>Time Remaining:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+78"/>
+        <location line="+31"/>
         <source>Priority:</source>
         <translation>Prioritás:</translation>
     </message>
@@ -5617,17 +5645,17 @@ Be akarja tölteni?
         <translation>Alacsony</translation>
     </message>
     <message>
-        <location line="+69"/>
+        <location line="+117"/>
         <source>Pause / Abort</source>
         <translation>Szünet / Megszakít</translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-218"/>
         <source>Main</source>
         <translation type="unfinished">Általános</translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+198"/>
         <source>Minimize to Tray</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6679,7 +6707,7 @@ Be akarja tölteni?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation type="unfinished">mpeg PS (ff) mentés</translation>
     </message>
@@ -6775,7 +6803,7 @@ Be akarja tölteni?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation type="unfinished">mpeg TS (ff) mentés</translation>
     </message>
@@ -8597,7 +8625,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9010,7 +9038,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation type="unfinished">mp4 mentés</translation>
     </message>
@@ -9022,6 +9050,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9155,7 +9188,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation type="unfinished">Hang</translation>
     </message>
@@ -9180,7 +9213,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9705,22 +9743,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Root jogosultság szükséges a művelet végrehajtásához.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Pass 1</source>
+        <location line="+7"/>
+        <source>Second Pass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation type="unfinished">A kódolás szünetel. Folytassuk, vagy hagyjuk abba??</translation>
     </message>
@@ -10035,7 +10073,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10066,7 +10104,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10076,7 +10114,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10409,7 +10447,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1126,7 +1126,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+400"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+405"/>
         <source>Stereo</source>
         <translation>Estereoa</translation>
     </message>
@@ -1332,7 +1332,7 @@ Erori denborapen argibideak?</translation>
         <location line="+15"/>
         <location line="+19"/>
         <location line="+7"/>
-        <location filename="../../common/gui_savenew.cpp" line="+432"/>
+        <location filename="../../common/gui_savenew.cpp" line="+436"/>
         <source>Audio</source>
         <translation>Audioa</translation>
     </message>
@@ -1434,7 +1434,7 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-186"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-187"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1601,6 +1601,11 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>De_lete first pass log files by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
@@ -1747,8 +1752,8 @@ Erori denborapen argibideak?</translation>
         <translation>Irteera</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-239"/>
-        <location line="+170"/>
+        <location filename="../../common/gui_savenew.cpp" line="-241"/>
+        <location line="+172"/>
         <location line="+12"/>
         <location line="+16"/>
         <source>Video</source>
@@ -2714,7 +2719,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-305"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-306"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2739,7 +2744,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+90"/>
+        <location line="+91"/>
         <source>LIBVA (best)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3040,13 +3045,13 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="-210"/>
+        <location filename="../../common/gui_savenew.cpp" line="-212"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+182"/>
+        <location line="+184"/>
         <source>Cannot instantiate video chain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3068,20 +3073,20 @@ Do you want to continue anyway ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-257"/>
-        <location line="+290"/>
+        <location line="-259"/>
+        <location line="+292"/>
         <location line="+26"/>
         <source>Muxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-328"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <location line="+290"/>
+        <location line="+292"/>
         <source>Cannot instantiate muxer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5024,7 +5029,7 @@ Hau gertatzea nahi duzu  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5034,7 +5039,7 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+19"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation type="unfinished"></translation>
@@ -5466,6 +5471,19 @@ Hau gertatzea nahi duzu  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
+        <source>Simulated muxing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>(None)</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="+79"/>
@@ -5481,25 +5499,25 @@ Hau gertatzea nahi duzu  ?
         <translation>Kodeatzen...</translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+31"/>
         <source>Phase:</source>
         <translation>Aldia:</translation>
     </message>
     <message>
-        <location line="+268"/>
+        <location line="+324"/>
         <source>Video Codec:</source>
         <translation>Bideo Kodeka:</translation>
     </message>
     <message>
-        <location line="-282"/>
-        <location line="+247"/>
+        <location line="-331"/>
+        <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Ezer ez</translation>
     </message>
     <message>
-        <location line="-261"/>
-        <location line="+254"/>
+        <location line="-293"/>
+        <location line="+286"/>
         <source>Unknown</source>
         <translation>Ezezaguna</translation>
     </message>
@@ -5531,12 +5549,12 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished">Igarota:</translation>
     </message>
     <message>
-        <location line="-504"/>
+        <location line="-505"/>
         <source>Time Remaining:</source>
         <translation type="unfinished">Gelditzen dena:</translation>
     </message>
     <message>
-        <location line="+528"/>
+        <location line="+529"/>
         <source>Frames/sec:</source>
         <translation type="unfinished">Frame/seg:</translation>
     </message>
@@ -5583,17 +5601,17 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished">Kuantizatzailea:</translation>
     </message>
     <message>
-        <location line="-389"/>
+        <location line="-437"/>
         <source>Shut down computer when finished</source>
         <translation>Itzali ordenagailua amaitutakoan</translation>
     </message>
     <message>
-        <location line="-66"/>
+        <location line="-50"/>
         <source>Main</source>
         <translation type="unfinished">Nagusia</translation>
     </message>
     <message>
-        <location line="+86"/>
+        <location line="+70"/>
         <source>Priority:</source>
         <translation>Lehentasuna:</translation>
     </message>
@@ -5628,7 +5646,17 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+24"/>
+        <source>Delete first pass log files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
+        <source>Output File:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
         <source>Minimize to Tray</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6685,7 +6713,7 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+100"/>
         <source>Saving mpeg PS (ff)</source>
         <translation type="unfinished">mpeg PS (ff) gordetzea</translation>
     </message>
@@ -6781,7 +6809,7 @@ Hau gertatzea nahi duzu  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation type="unfinished">mpeg TS (ff) gordetzea</translation>
     </message>
@@ -8603,7 +8631,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+138"/>
+        <location line="+139"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9016,7 +9044,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+203"/>
         <source>Saving mp4</source>
         <translation type="unfinished">mp4 gordetzea</translation>
     </message>
@@ -9028,6 +9056,11 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving mov</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>Optimizing...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9161,7 +9194,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="+181"/>
         <source>Audio</source>
         <translation type="unfinished">Audioa</translation>
     </message>
@@ -9186,7 +9219,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+65"/>
+        <location line="+61"/>
+        <source>Optimizing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Cannot rename file (optimize)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9711,22 +9749,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Erro eskubideak beharrezkoak dira eragiketa hau burutzeko.</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+143"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Pass 1</source>
+        <location line="+7"/>
+        <source>Second Pass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
         <source>Encoding...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+232"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation type="unfinished">Kodeaketa pausatuta dago. Berrekitea edo uztea nahi duzu?</translation>
     </message>
@@ -10042,7 +10080,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
         <source>Partial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10073,7 +10111,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-341"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10083,7 +10121,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+339"/>
         <source>Move down</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10417,7 +10455,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
         <source>Saving raw video</source>
         <translation type="unfinished"></translation>
     </message>
