@@ -9148,7 +9148,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Πρόβλημα στην ανάγνωση των κεφαλίδων SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation>Τύπος αποκωδικοποίησης του στιγμιότυπου</translation>
@@ -9745,18 +9745,35 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Βίντεο</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Ταχύτητα στιγμιότυπων:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Συνολική διάρκεια:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>Αναλογία διαστάσεων:</translation>
     </message>
@@ -9771,7 +9788,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Κωδικοποιητής 4CC:</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>Ήχος</translation>
     </message>
@@ -9801,31 +9838,23 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Κωδικοποιητής:</translation>
     </message>
     <message>
-        <location line="-226"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Ετικέτα κειμένου</translation>
+        <translation type="vanished">Ετικέτα κειμένου</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Extra Video Properties</source>
-        <translation>Επιπρόσθετες ιδιότητες βίντεο</translation>
+        <translation type="vanished">Επιπρόσθετες ιδιότητες βίντεο</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>ExtraDataSize:</source>
-        <translation>Μέγεθος επιπρόσθετων δεδομένων:</translation>
+        <translation type="vanished">Μέγεθος επιπρόσθετων δεδομένων:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Extra data :</source>
-        <translation>Επιπρόσθετα δεδομένα :</translation>
+        <translation type="vanished">Επιπρόσθετα δεδομένα :</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+12"/>
         <source>Copy to Clipboard</source>
         <translation>Αντιγραφή στο πρόχειρο</translation>
     </message>
@@ -10371,8 +10400,23 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Yes</source>
         <translation>Ναι</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
@@ -10391,94 +10435,79 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Στερεοφωνικός</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Video</source>
-        <translation>Βίντεο</translation>
+        <translation type="vanished">Βίντεο</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Codec 4CC:	</source>
-        <translation>Κωδικοποιητής 4CC:	</translation>
+        <translation type="vanished">Κωδικοποιητής 4CC:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Μέγεθος εικόνας:	</translation>
+        <translation type="vanished">Μέγεθος εικόνας:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>Αναλογία διαστάσεων:	</translation>
+        <translation type="vanished">Αναλογία διαστάσεων:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Ταχύτητα στιγμιότυπων:	</translation>
+        <translation type="vanished">Ταχύτητα στιγμιότυπων:	</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Συνολική διάρκεια:	</translation>
+        <translation type="vanished">Συνολική διάρκεια:	</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>Επιπρόσθετες ιδιότητες βίντεο</translation>
+        <translation type="vanished">Επιπρόσθετες ιδιότητες βίντεο</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>Μέγεθος επιπρόσθετων δεδομένων:	</translation>
+        <translation type="vanished">Μέγεθος επιπρόσθετων δεδομένων:	</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra data:	</source>
-        <translation>Επιπρόσθετα δεδομένα :	</translation>
+        <translation type="vanished">Επιπρόσθετα δεδομένα :	</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Audio</source>
-        <translation>Ήχος</translation>
+        <translation type="vanished">Ήχος</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Codec:		</source>
-        <translation>Κωδικοποιητής:		</translation>
+        <translation type="vanished">Κωδικοποιητής:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Κανάλια:	</translation>
+        <translation type="vanished">Κανάλια:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation>Δυφιορυθμός:	</translation>
+        <translation type="vanished">Δυφιορυθμός:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Συχνότητα:	</translation>
+        <translation type="vanished">Συχνότητα:	</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+87"/>
         <source>No Audio</source>
         <translation>Χωρίς ήχο</translation>
     </message>
     <message>
-        <location line="-170"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-120"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>

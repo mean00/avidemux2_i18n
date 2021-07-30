@@ -9053,7 +9053,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>SVQ3 헤더를 읽는 중 문제 발생</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -9633,27 +9633,39 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>텍스트레이블</translation>
+        <translation type="vanished">텍스트레이블</translation>
     </message>
     <message>
-        <location line="-49"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>프레임 속도:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>전체 시간:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>화면 비율:</translation>
     </message>
@@ -9668,22 +9680,39 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>코덱 4CC:</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Extra Video Properties</source>
-        <translation>추가 비디오 속성</translation>
+        <translation type="vanished">추가 비디오 속성</translation>
+    </message>
+    <message>
+        <source>ExtraDataSize:</source>
+        <translation type="vanished">추가데이터크기:</translation>
+    </message>
+    <message>
+        <source>Extra data :</source>
+        <translation type="vanished">추가 데이터:</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+28"/>
-        <source>ExtraDataSize:</source>
-        <translation>추가데이터크기:</translation>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Extra data :</source>
-        <translation>추가 데이터:</translation>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
@@ -10258,18 +10287,33 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>예</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+35"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+90"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
+    <message>
+        <location line="-79"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="-55"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
@@ -10277,88 +10321,73 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="+83"/>
         <source>Video</source>
-        <translation>비디오</translation>
+        <translation type="vanished">비디오</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Codec 4CC:	</source>
-        <translation>코덱 4CC:	</translation>
+        <translation type="vanished">코덱 4CC:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>이미지 크기:	</translation>
+        <translation type="vanished">이미지 크기:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>화면 비율:	</translation>
+        <translation type="vanished">화면 비율:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>프레임 속도:	</translation>
+        <translation type="vanished">프레임 속도:	</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>전체 재생시간:	</translation>
+        <translation type="vanished">전체 재생시간:	</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>추가 비디오 속성</translation>
+        <translation type="vanished">추가 비디오 속성</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>추가날짜크기:	</translation>
+        <translation type="vanished">추가날짜크기:	</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra data:	</source>
-        <translation>추가 날짜:	</translation>
+        <translation type="vanished">추가 날짜:	</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Audio</source>
-        <translation>오디오</translation>
+        <translation type="vanished">오디오</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Codec:		</source>
-        <translation>코덱:		</translation>
+        <translation type="vanished">코덱:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>채널:	</translation>
+        <translation type="vanished">채널:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation>비트레이트:	</translation>
+        <translation type="vanished">비트레이트:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>주파수:	</translation>
+        <translation type="vanished">주파수:	</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+124"/>
         <source>No Audio</source>
         <translation>오디오 없음</translation>
     </message>
     <message>
-        <location line="-172"/>
+        <location line="-191"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <location line="+101"/>
         <source>Mono</source>
         <translation>모노</translation>
     </message>

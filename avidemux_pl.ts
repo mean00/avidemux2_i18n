@@ -9077,7 +9077,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Wystąpił problem podczas czytania nagłówków SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -9657,18 +9657,35 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Obraz</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Liczba klatek/sekundę:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Całkowity czas trwania:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>Proporcje obrazu:</translation>
     </message>
@@ -9683,7 +9700,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Kod 4CC kodeka:</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>Dźwięk</translation>
     </message>
@@ -9713,31 +9750,23 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Kodek:</translation>
     </message>
     <message>
-        <location line="-226"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Etykieta</translation>
+        <translation type="vanished">Etykieta</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Extra Video Properties</source>
-        <translation>Dodatkowe właściwości wideo</translation>
+        <translation type="vanished">Dodatkowe właściwości wideo</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>ExtraDataSize:</source>
-        <translation>Rozmiar dodatkowych danych:</translation>
+        <translation type="vanished">Rozmiar dodatkowych danych:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Extra data :</source>
-        <translation>Dodatkowe dane:</translation>
+        <translation type="vanished">Dodatkowe dane:</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+12"/>
         <source>Copy to Clipboard</source>
         <translation>Kopiuj do schowka</translation>
     </message>
@@ -10283,8 +10312,23 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <source>Yes</source>
         <translation>Tak</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
@@ -10304,94 +10348,79 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation>Stereo</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Video</source>
-        <translation>Obraz</translation>
+        <translation type="vanished">Obraz</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Codec 4CC:	</source>
-        <translation>Kod 4CC kodeka:	</translation>
+        <translation type="vanished">Kod 4CC kodeka:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Rozmiar obrazu:	</translation>
+        <translation type="vanished">Rozmiar obrazu:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>Proporcje obrazu:</translation>
+        <translation type="vanished">Proporcje obrazu:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Liczba kl/sek.:	</translation>
+        <translation type="vanished">Liczba kl/sek.:	</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Całkowita długość:</translation>
+        <translation type="vanished">Całkowita długość:</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>Dodatkowe właściwości wideo</translation>
+        <translation type="vanished">Dodatkowe właściwości wideo</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>Rozmiar dodatkowych danych:</translation>
+        <translation type="vanished">Rozmiar dodatkowych danych:</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra data:	</source>
-        <translation>Dodatkowe dane:	</translation>
+        <translation type="vanished">Dodatkowe dane:	</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Audio</source>
-        <translation>Dźwięk</translation>
+        <translation type="vanished">Dźwięk</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Codec:		</source>
-        <translation>Kodek:		</translation>
+        <translation type="vanished">Kodek:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Kanały:		</translation>
+        <translation type="vanished">Kanały:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation>Przepływność:	</translation>
+        <translation type="vanished">Przepływność:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Częstotliwość:	</translation>
+        <translation type="vanished">Częstotliwość:	</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+87"/>
         <source>No Audio</source>
         <translation>Brak dźwięku</translation>
     </message>
     <message>
-        <location line="-170"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-120"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>

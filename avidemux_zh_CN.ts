@@ -9066,7 +9066,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>读取 SVQ3 档头时发生问题</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -9637,7 +9637,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>propsDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+311"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+325"/>
         <source>OK</source>
         <translation>确定</translation>
     </message>
@@ -9647,28 +9647,26 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>音频</translation>
     </message>
     <message>
-        <location line="-149"/>
+        <location line="-163"/>
         <source>Video</source>
         <translation>视频</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+236"/>
         <source>Bitrate:</source>
         <translation>比特率:</translation>
     </message>
     <message>
-        <location line="-83"/>
         <source>Extra data :</source>
-        <translation>额外的数据:</translation>
+        <translation type="vanished">额外的数据:</translation>
     </message>
     <message>
-        <location line="-42"/>
         <source>Extra Video Properties</source>
-        <translation>额外的视频属性</translation>
+        <translation type="vanished">额外的视频属性</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <location line="+135"/>
+        <location line="-184"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>总持续时间:</translation>
     </message>
@@ -9678,27 +9676,63 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>编译码器:</translation>
     </message>
     <message>
-        <location line="-125"/>
         <source>ExtraDataSize:</source>
-        <translation>额外的数据大小：</translation>
+        <translation type="vanished">额外的数据大小：</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-270"/>
         <source>Properties</source>
         <translation>属性(&amp;I)</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+30"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-212"/>
         <source>Image Size:</source>
         <translation>图像大小(DAR):</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="+21"/>
         <source>Frame Rate:</source>
         <translation>帧率:</translation>
     </message>
     <message>
-        <location line="+170"/>
+        <location line="+28"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+69"/>
         <source>Variable Bitrate:</source>
         <translation>可变比特率(VBR):</translation>
     </message>
@@ -9718,7 +9752,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>频率:</translation>
     </message>
     <message>
-        <location line="-100"/>
+        <location line="-142"/>
         <source>Codec 4CC:</source>
         <translation>编译码器 4CC:</translation>
     </message>
@@ -9728,13 +9762,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>像素比例(PAR):</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>文本标签</translation>
+        <translation type="vanished">文本标签</translation>
     </message>
 </context>
 <context>
@@ -10271,8 +10300,23 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Yes</source>
         <translation>是</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
@@ -10285,101 +10329,86 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>单音</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Audio</source>
-        <translation>音频</translation>
+        <translation type="vanished">音频</translation>
     </message>
     <message>
-        <location line="-27"/>
         <source>Video</source>
-        <translation>视频</translation>
+        <translation type="vanished">视频</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Image Size:	</source>
-        <translation>图片大小(DAR):	</translation>
+        <translation type="vanished">图片大小(DAR):	</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+90"/>
         <source>No Audio</source>
         <translation>没音频</translation>
     </message>
     <message>
-        <location line="-38"/>
         <source>Frame Rate:	</source>
-        <translation>帧率:	</translation>
+        <translation type="vanished">帧率:	</translation>
     </message>
     <message>
-        <location line="-132"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location line="+144"/>
         <source>Extra data:	</source>
-        <translation>额外数据：:	</translation>
+        <translation type="vanished">额外数据：:	</translation>
     </message>
     <message>
-        <location line="-14"/>
         <source>Aspect Ratio:	</source>
-        <translation>像素比例(PAR):	</translation>
+        <translation type="vanished">像素比例(PAR):	</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra Video Properties</source>
-        <translation>额外视频属性</translation>
+        <translation type="vanished">额外视频属性</translation>
     </message>
     <message>
-        <location line="-132"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location line="+65"/>
         <source>Channels:	</source>
-        <translation>频道:	</translation>
+        <translation type="vanished">频道:	</translation>
     </message>
     <message>
-        <location line="-33"/>
         <source>Codec 4CC:	</source>
-        <translation>编译码器 4CC:	</translation>
+        <translation type="vanished">编译码器 4CC:	</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="-16"/>
         <source>Stereo</source>
         <translation>立体声</translation>
     </message>
     <message>
-        <location line="+79"/>
         <source>Codec:		</source>
-        <translation>编译码器：		</translation>
+        <translation type="vanished">编译码器：		</translation>
     </message>
     <message>
-        <location line="-159"/>
+        <location line="-104"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+163"/>
         <source>Bitrate:	</source>
-        <translation>比特率:	</translation>
+        <translation type="vanished">比特率:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>频率:	</translation>
+        <translation type="vanished">频率:	</translation>
     </message>
     <message>
-        <location line="-27"/>
         <source>ExtraDataSize:	</source>
-        <translation>额外的数据大小：	</translation>
+        <translation type="vanished">额外的数据大小：	</translation>
     </message>
     <message>
-        <location line="-4"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>总持续时间：	</translation>
+        <translation type="vanished">总持续时间：	</translation>
     </message>
 </context>
 <context>

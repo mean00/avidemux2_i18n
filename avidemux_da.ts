@@ -9078,7 +9078,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Problem ved læsning af SVQ3-hoveder</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -9659,27 +9659,39 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Tekstetiket</translation>
+        <translation type="vanished">Tekstetiket</translation>
     </message>
     <message>
-        <location line="-49"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Billedhastighed:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Total varighed:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>Højde-bredde-forhold:</translation>
     </message>
@@ -9694,22 +9706,39 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Codec 4CC:</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Extra Video Properties</source>
-        <translation>Ekstra videoegenskaber</translation>
+        <translation type="vanished">Ekstra videoegenskaber</translation>
+    </message>
+    <message>
+        <source>ExtraDataSize:</source>
+        <translation type="vanished">Størrelse på ekstradata:</translation>
+    </message>
+    <message>
+        <source>Extra data :</source>
+        <translation type="vanished">Ekstradata:</translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+28"/>
-        <source>ExtraDataSize:</source>
-        <translation>Størrelse på ekstradata:</translation>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>Extra data :</source>
-        <translation>Ekstradata:</translation>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
@@ -10281,18 +10310,33 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         <translation>Ja</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+35"/>
         <source>%2.3f fps</source>
         <translation>%2.3f billeder/sekund</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+90"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d,%03d</translation>
     </message>
+    <message>
+        <location line="-79"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="-55"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation type="unfinished">
@@ -10301,88 +10345,17 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         </translation>
     </message>
     <message>
-        <location line="+83"/>
-        <source>Video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Codec 4CC:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Image Size:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Aspect Ratio:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Frame Rate:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <location line="+33"/>
-        <source>Total Duration:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-31"/>
-        <source>Extra Video Properties</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>ExtraDataSize:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Extra data:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Codec:		</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Channels:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Bitrate:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Frequency:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
+        <location line="+124"/>
         <source>No Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-172"/>
+        <location line="-191"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+77"/>
+        <location line="+101"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>

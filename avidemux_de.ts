@@ -9085,7 +9085,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation type="unfinished">Problem beim Lesen der SVQ3 Kopfzeilen</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -9665,27 +9665,22 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Video</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Bezeichnung</translation>
+        <translation type="vanished">Bezeichnung</translation>
     </message>
     <message>
-        <location line="-49"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Bildrate:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Gesamtdauer:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-163"/>
         <source>Aspect Ratio:</source>
         <translation>Seitenverhältnis:</translation>
     </message>
@@ -9700,12 +9695,11 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Codec (FourCC):</translation>
     </message>
     <message>
-        <location line="+10"/>
         <source>Extra Video Properties</source>
-        <translation>Zusätzliche Video-Eigenschaften</translation>
+        <translation type="vanished">Zusätzliche Video-Eigenschaften</translation>
     </message>
     <message>
-        <location line="+165"/>
+        <location line="+217"/>
         <source>Copy to Clipboard</source>
         <translation>In die Zwischenablage</translation>
     </message>
@@ -9720,7 +9714,44 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Audio</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="-139"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-163"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>Frequency:</source>
         <translation>Abtastrate:</translation>
     </message>
@@ -9745,14 +9776,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Codec:</translation>
     </message>
     <message>
-        <location line="-125"/>
         <source>ExtraDataSize:</source>
-        <translation>Extradata-Länge:</translation>
+        <translation type="vanished">Extradata-Länge:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Extra data :</source>
-        <translation>Extradata:</translation>
+        <translation type="vanished">Extradata:</translation>
     </message>
 </context>
 <context>
@@ -10286,8 +10315,23 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <source>Yes</source>
         <translation type="unfinished">Ja</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
@@ -10306,94 +10350,55 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation type="unfinished">Stereo</translation>
     </message>
     <message>
-        <location line="+46"/>
-        <source>Video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Codec 4CC:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Auflösung:	</translation>
+        <translation type="vanished">Auflösung:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>Seitenverhältnis:</translation>
+        <translation type="vanished">Seitenverhältnis:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Bildrate:	</translation>
+        <translation type="vanished">Bildrate:	</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Gesamtdauer:	</translation>
+        <translation type="vanished">Gesamtdauer:	</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>Zusätzliche Video-Eigenschaften</translation>
+        <translation type="vanished">Zusätzliche Video-Eigenschaften</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>ExtraData-Länge:</translation>
+        <translation type="vanished">ExtraData-Länge:</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Extra data:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Audio</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Codec:		</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Kanäle:		</translation>
+        <translation type="vanished">Kanäle:		</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <source>Bitrate:	</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Abtastrate:	</translation>
+        <translation type="vanished">Abtastrate:	</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+87"/>
         <source>No Audio</source>
         <translation>Kein Ton</translation>
     </message>
     <message>
-        <location line="-170"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d,%03d</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-120"/>
         <source>%s (%u:%u)</source>
         <translation type="unfinished"></translation>
     </message>

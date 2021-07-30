@@ -9165,7 +9165,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Помилка читання заголовків SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation>Декодування типу кадрів</translation>
@@ -9756,33 +9756,31 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>propsDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+169"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+183"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location line="-149"/>
+        <location line="-163"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+236"/>
         <source>Bitrate:</source>
         <translation>Бітрейт:</translation>
     </message>
     <message>
-        <location line="-83"/>
         <source>Extra data :</source>
-        <translation>Додаткові дані:</translation>
+        <translation type="vanished">Додаткові дані:</translation>
     </message>
     <message>
-        <location line="-42"/>
         <source>Extra Video Properties</source>
-        <translation>Додаткові властивості відео</translation>
+        <translation type="vanished">Додаткові властивості відео</translation>
     </message>
     <message>
-        <location line="-52"/>
-        <location line="+135"/>
+        <location line="-184"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Загальна тривалість:</translation>
     </message>
@@ -9792,32 +9790,68 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Кодек:</translation>
     </message>
     <message>
-        <location line="-125"/>
         <source>ExtraDataSize:</source>
-        <translation>Розмір додаткових даних:</translation>
+        <translation type="vanished">Розмір додаткових даних:</translation>
     </message>
     <message>
-        <location line="-131"/>
+        <location line="-270"/>
         <source>Properties</source>
         <translation>Властивості</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+30"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-212"/>
         <source>Image Size:</source>
         <translation>Розмір картинки:</translation>
     </message>
     <message>
-        <location line="+218"/>
+        <location line="+49"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+159"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-260"/>
+        <location line="-239"/>
         <source>Frame Rate:</source>
         <translation>Частота кадрів:</translation>
     </message>
     <message>
-        <location line="+170"/>
+        <location line="+149"/>
         <source>Variable Bitrate:</source>
         <translation>Змінна частота:</translation>
     </message>
@@ -9837,7 +9871,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Частота вибірки:</translation>
     </message>
     <message>
-        <location line="-100"/>
+        <location line="-142"/>
         <source>Codec 4CC:</source>
         <translation>Кодек 4СС:</translation>
     </message>
@@ -9847,13 +9881,8 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Співвідношення сторін:</translation>
     </message>
     <message>
-        <location line="-35"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Текстова мітка</translation>
+        <translation type="vanished">Текстова мітка</translation>
     </message>
 </context>
 <context>
@@ -10418,83 +10447,88 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Так</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <location line="+90"/>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-79"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+60"/>
         <source>Mono</source>
         <translation>Моно</translation>
     </message>
     <message>
-        <location line="+76"/>
         <source>Audio</source>
-        <translation>Звук</translation>
+        <translation type="vanished">Звук</translation>
     </message>
     <message>
-        <location line="-27"/>
         <source>Video</source>
-        <translation>Відео</translation>
+        <translation type="vanished">Відео</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Image Size:	</source>
-        <translation>Розмір картинки:</translation>
+        <translation type="vanished">Розмір картинки:</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+90"/>
         <source>No Audio</source>
         <translation>Без звуку</translation>
     </message>
     <message>
-        <location line="-38"/>
         <source>Frame Rate:	</source>
-        <translation>Частота кадрів:	</translation>
+        <translation type="vanished">Частота кадрів:	</translation>
     </message>
     <message>
-        <location line="-132"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f кадрів/с</translation>
     </message>
     <message>
-        <location line="+144"/>
         <source>Extra data:	</source>
-        <translation>Додаткові дані:</translation>
+        <translation type="vanished">Додаткові дані:</translation>
     </message>
     <message>
-        <location line="-14"/>
         <source>Aspect Ratio:	</source>
-        <translation>Співвідношення сторін:</translation>
+        <translation type="vanished">Співвідношення сторін:</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra Video Properties</source>
-        <translation>Додаткові властивості відео</translation>
+        <translation type="vanished">Додаткові властивості відео</translation>
     </message>
     <message>
-        <location line="+23"/>
         <source>Channels:	</source>
-        <translation>Канали:	</translation>
+        <translation type="vanished">Канали:	</translation>
     </message>
     <message>
-        <location line="-33"/>
         <source>Codec 4CC:	</source>
-        <translation>Кодек 4CC:	</translation>
+        <translation type="vanished">Кодек 4CC:	</translation>
     </message>
     <message>
-        <location line="-48"/>
+        <location line="+102"/>
         <source>Stereo</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location line="+79"/>
         <source>Codec:		</source>
-        <translation>Кодек:		</translation>
+        <translation type="vanished">Кодек:		</translation>
     </message>
     <message numerus="yes">
-        <location line="-118"/>
+        <location line="-39"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
@@ -10504,30 +10538,25 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-43"/>
+        <location line="-67"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+163"/>
         <source>Bitrate:	</source>
-        <translation>Бітрейт:	</translation>
+        <translation type="vanished">Бітрейт:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Частота вибірки:</translation>
+        <translation type="vanished">Частота вибірки:</translation>
     </message>
     <message>
-        <location line="-27"/>
         <source>ExtraDataSize:	</source>
-        <translation>Розмір додаткових даних:</translation>
+        <translation type="vanished">Розмір додаткових даних:</translation>
     </message>
     <message>
-        <location line="-4"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Тривалість:</translation>
+        <translation type="vanished">Тривалість:</translation>
     </message>
 </context>
 <context>

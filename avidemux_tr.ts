@@ -9162,7 +9162,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>SVQ3 başlıklarını okumada sorun</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation>Çözme çerçeve tipi</translation>
@@ -9779,18 +9779,35 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Kare hızı:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Toplam Süre:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>En Boy Oranı:</translation>
     </message>
@@ -9805,7 +9822,27 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Codec 4CC:</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
@@ -9835,31 +9872,23 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Kod Çözücü:</translation>
     </message>
     <message>
-        <location line="-226"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>MetinEtiketi</translation>
+        <translation type="vanished">MetinEtiketi</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Extra Video Properties</source>
-        <translation>Ekstra Video Özellikleri</translation>
+        <translation type="vanished">Ekstra Video Özellikleri</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>ExtraDataSize:</source>
-        <translation>EkstraVeriBoyutu:</translation>
+        <translation type="vanished">EkstraVeriBoyutu:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Extra data :</source>
-        <translation>Ekstra veri :</translation>
+        <translation type="vanished">Ekstra veri :</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+12"/>
         <source>Copy to Clipboard</source>
         <translation>Panoya kopyala</translation>
     </message>
@@ -10404,8 +10433,23 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <source>Yes</source>
         <translation>Evet</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
@@ -10423,94 +10467,79 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Stereo</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Video</source>
-        <translation>Video</translation>
+        <translation type="vanished">Video</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Codec 4CC:	</source>
-        <translation>Codec 4CC:	</translation>
+        <translation type="vanished">Codec 4CC:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Görüntü boyutu:	</translation>
+        <translation type="vanished">Görüntü boyutu:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>En Boy Oranı:	</translation>
+        <translation type="vanished">En Boy Oranı:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Kare hızı:	</translation>
+        <translation type="vanished">Kare hızı:	</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Toplam Süre:	</translation>
+        <translation type="vanished">Toplam Süre:	</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>Ekstra Video Özellikleri</translation>
+        <translation type="vanished">Ekstra Video Özellikleri</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>EkstraVeriBoyutu:	</translation>
+        <translation type="vanished">EkstraVeriBoyutu:	</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra data:	</source>
-        <translation>EkstraVeri:	</translation>
+        <translation type="vanished">EkstraVeri:	</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Audio</source>
-        <translation>Ses</translation>
+        <translation type="vanished">Ses</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Codec:		</source>
-        <translation>Kodlayıcı:		</translation>
+        <translation type="vanished">Kodlayıcı:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Kanallar:	</translation>
+        <translation type="vanished">Kanallar:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation>Bit hızı:	</translation>
+        <translation type="vanished">Bit hızı:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Sıklık:	</translation>
+        <translation type="vanished">Sıklık:	</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+87"/>
         <source>No Audio</source>
         <translation>Ses Yok</translation>
     </message>
     <message>
-        <location line="-170"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-120"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>

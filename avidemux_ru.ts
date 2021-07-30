@@ -9110,7 +9110,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Ошибка чтения заголовков SVQ3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+502"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation>Декодирование типа кадров</translation>
@@ -9695,18 +9695,35 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+66"/>
         <source>Frame Rate:</source>
         <translation>Частота кадров:</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <location line="+135"/>
+        <location line="-14"/>
+        <location line="+142"/>
         <source>Total Duration:</source>
         <translation>Общая длительность:</translation>
     </message>
     <message>
-        <location line="-121"/>
+        <location line="-170"/>
+        <location line="+14"/>
+        <location line="+35"/>
+        <location line="+7"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+55"/>
+        <location line="+21"/>
+        <location line="+14"/>
+        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-226"/>
         <source>Aspect Ratio:</source>
         <translation>Соотношение сторон:</translation>
     </message>
@@ -9721,7 +9738,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Кодек 4СС:</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+35"/>
+        <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Video Codec Extradata</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
+        <source>Size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Extradata:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
         <source>Audio</source>
         <translation>Аудио</translation>
     </message>
@@ -9751,31 +9788,23 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Кодек:</translation>
     </message>
     <message>
-        <location line="-226"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
-        <location line="+14"/>
         <source>TextLabel</source>
-        <translation>Текстовая метка</translation>
+        <translation type="vanished">Текстовая метка</translation>
     </message>
     <message>
-        <location line="+17"/>
         <source>Extra Video Properties</source>
-        <translation>Дополнительные свойства видео</translation>
+        <translation type="vanished">Дополнительные свойства видео</translation>
     </message>
     <message>
-        <location line="+28"/>
         <source>ExtraDataSize:</source>
-        <translation>Размер дополнительных данных:</translation>
+        <translation type="vanished">Размер дополнительных данных:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Extra data :</source>
-        <translation>Дополнительные данные:</translation>
+        <translation type="vanished">Дополнительные данные:</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+12"/>
         <source>Copy to Clipboard</source>
         <translation>Копировать в буфер обмена</translation>
     </message>
@@ -10322,8 +10351,23 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Yes</source>
         <translation>Да</translation>
     </message>
+    <message>
+        <location line="+39"/>
+        <source>n/a</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>%d kbps</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>(+%d bytes)</source>
+        <translation type="unfinished"></translation>
+    </message>
     <message numerus="yes">
-        <location line="+72"/>
+        <location line="+24"/>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
@@ -10343,94 +10387,79 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location line="+46"/>
         <source>Video</source>
-        <translation>Видео</translation>
+        <translation type="vanished">Видео</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Codec 4CC:	</source>
-        <translation>Кодек 4CC:	</translation>
+        <translation type="vanished">Кодек 4CC:	</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Image Size:	</source>
-        <translation>Размер картинки:</translation>
+        <translation type="vanished">Размер картинки:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Aspect Ratio:	</source>
-        <translation>Соотношение сторон:</translation>
+        <translation type="vanished">Соотношение сторон:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Frame Rate:	</source>
-        <translation>Частота выборки:</translation>
+        <translation type="vanished">Частота выборки:</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location line="+33"/>
         <source>Total Duration:	</source>
-        <translation>Общая длительность:</translation>
+        <translation type="vanished">Общая длительность:</translation>
     </message>
     <message>
-        <location line="-31"/>
         <source>Extra Video Properties</source>
-        <translation>Дополнительные свойства видео</translation>
+        <translation type="vanished">Дополнительные свойства видео</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>ExtraDataSize:	</source>
-        <translation>Размер дополнительных данных:</translation>
+        <translation type="vanished">Размер дополнительных данных:</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Extra data:	</source>
-        <translation>Дополнительные данные:</translation>
+        <translation type="vanished">Дополнительные данные:</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>Audio</source>
-        <translation>Звук</translation>
+        <translation type="vanished">Звук</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>Codec:		</source>
-        <translation>Кодек:		</translation>
+        <translation type="vanished">Кодек:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Channels:	</source>
-        <translation>Каналы:		</translation>
+        <translation type="vanished">Каналы:		</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Bitrate:	</source>
-        <translation>Битрейт:	</translation>
+        <translation type="vanished">Битрейт:	</translation>
     </message>
     <message>
-        <location line="+4"/>
         <source>Frequency:	</source>
-        <translation>Частота выборки:</translation>
+        <translation type="vanished">Частота выборки:</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+87"/>
         <source>No Audio</source>
         <translation>Без звука</translation>
     </message>
     <message>
-        <location line="-170"/>
+        <location line="-189"/>
         <source>%2.3f fps</source>
         <translation>%2.3f кадров/с</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+90"/>
+        <location line="+13"/>
+        <location line="+105"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d,%03d</translation>
     </message>
     <message>
-        <location line="-96"/>
+        <location line="-120"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
