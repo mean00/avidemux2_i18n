@@ -278,7 +278,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/T_index_pg.cpp" line="64"/>
         <source>Indexing</source>
-        <translation>Dizinleme</translation>
+        <translation>İndeksleme</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/T_index_pg.cpp" line="65"/>
@@ -499,32 +499,32 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="475"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="644"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="476"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="645"/>
         <source>Copy</source>
         <translation>Kopya</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="350"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="492"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="661"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="842"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="351"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="493"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="662"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="843"/>
         <source>Configure</source>
         <translation>Yapılandır</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="508"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="677"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="509"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="678"/>
         <source>Filters</source>
         <translation>Filtreler</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="704"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="705"/>
         <source>&amp;Shift:</source>
-        <translation>&amp;Çalışma:</translation>
+        <translation>&amp;Shift:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1318"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1319"/>
         <source>Time:</source>
         <translation>Zaman:</translation>
     </message>
@@ -539,17 +539,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Vi&amp;deo</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="161"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="162"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ses</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="166"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="167"/>
         <source>&amp;File</source>
         <translation>&amp;Dosya</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="156"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="157"/>
         <source>&amp;Tools</source>
         <translation>&amp;Araçlar</translation>
     </message>
@@ -564,95 +564,115 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Görünüm</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="146"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="147"/>
         <source>&amp;Custom</source>
         <translation>&amp;Özel</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="151"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="152"/>
         <source>&amp;Go</source>
         <translation>&amp;Git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="559"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="560"/>
         <source> (0 tracks)</source>
         <translation> (0 parçalar)</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1763"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1143"/>
+        <source>Go to previous cut point [SHIFT+DOWN]</source>
+        <translation>Önceki kesme noktasına git [SHIFT+AŞAĞI]</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1166"/>
+        <source>Go to next cut point [SHIFT+UP]</source>
+        <translation>Sonraki kesme noktasına git [SHIFT+YUKARI]</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1764"/>
         <source>&amp;Open...</source>
         <translation>&amp;Açılıyor...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1775"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1776"/>
         <source>&amp;Information...</source>
         <translation>&amp;Bilgi...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1784"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1785"/>
         <source>Save &amp;Video...</source>
         <translation>&amp;Video Kaydediliyor...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1787"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1790"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1788"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1791"/>
         <source>Save Video</source>
         <translation>Video Kaydet</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1811"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1812"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Proje Yüklenip/Çalıştırılıyor...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1814"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1817"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1815"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1818"/>
         <source>Load/Run Project</source>
         <translation>Proje Yükle/Çalıştır</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1826"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1827"/>
         <source>Save &amp;Project</source>
         <translation>Kaydet &amp;Yansıt</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1829"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1832"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1830"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1833"/>
         <source>Save Project</source>
         <translation>Projeyi Kaydet</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1847"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1848"/>
         <source>&amp;Input</source>
         <translation>&amp;Giriş</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1859"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1860"/>
         <source>&amp;Output</source>
         <translation>&amp;Çıktı</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1965"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1927"/>
+        <source>&amp;Toolbar</source>
+        <translation>&amp;Araç çubuğu</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1930"/>
+        <source>Ctrl+Alt+B</source>
+        <translation>Ctrl+Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1980"/>
         <source>Si&amp;de</source>
         <translation>Y&amp;an</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1953"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1968"/>
         <source>&amp;Top</source>
         <translation>&amp;Üst</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="250"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="251"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video Kod Çözücü&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1388"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1389"/>
         <source>Frame type:</source>
         <translation>Çerçeve tipi:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1941"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1956"/>
         <source>&amp;Separate</source>
         <translation>&amp;Ayrı</translation>
     </message>
@@ -667,260 +687,258 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Araç çubukları</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="141"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="142"/>
         <source>&amp;Auto</source>
         <translation>&amp;Oto</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="171"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="172"/>
         <source>&amp;Recent</source>
         <translation>&amp;Son</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="217"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="218"/>
         <source>Codec O&amp;ptions</source>
         <translation>Kodlayıcı &amp;Seçenekleri</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="325"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="332"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="326"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="333"/>
         <source>XXXX</source>
         <translation>XXXX</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="389"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="390"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video Çıkışı &lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="549"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="550"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;Ses Çıkışı&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="736"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="737"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="771"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="772"/>
         <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
         <translation>&lt;b&gt;Çıktı Formatı&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="897"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1884"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="898"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1885"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Gezinme</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="972"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="973"/>
         <source>Play [SPACE]</source>
         <translation>Oynat [BOŞLUK]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="975"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="976"/>
         <source>Play</source>
         <translation>Oynat</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="981"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1004"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1027"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1050"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1073"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1096"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1119"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1145"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1168"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1191"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1214"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1237"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1263"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1636"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="982"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1005"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1028"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1051"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1074"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1097"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1120"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1146"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1169"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1192"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1215"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1238"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1264"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1637"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1001"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1002"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Önceki kareye git [SOL]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1024"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1025"/>
         <source>Go to next frame [RIGHT]</source>
         <translation>Sonraki kareye git [SAĞ]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1047"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1048"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>Önceki ana kareye git [AŞAĞI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1070"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1071"/>
         <source>Go to next keyframe [UP]</source>
         <translation>Sonraki ana kareye git [YUKARI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1093"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1094"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>Başlangıç işaretleyicisini ayarla [CTRL+SAYFA YUKARI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1116"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1117"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
         <translation>Bitiş işaretleyicisini ayarla [CTRL+SAYFA AŞAĞI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1142"/>
-        <source>Search previous black frame</source>
-        <translation>Önceki siyah karede ara</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1165"/>
-        <source>Search next black frame</source>
-        <translation>Sonraki siyah karede ara</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1188"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1189"/>
         <source>Go to first frame [HOME]</source>
         <translation>İlk kareye git [EV]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1211"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1212"/>
         <source>Go to last frame [END]</source>
         <translation>Son kareye git [SON]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1234"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1235"/>
         <source>Backward one minute [CTRL+DOWN]</source>
         <translation>Bir dakika geri git [CTRL+AŞAĞI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1257"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1258"/>
         <source>Forward one minute [CTRL+UP]</source>
         <translation>Bir dakika ileri git [CTRL+YUKARI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1260"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1261"/>
         <source>Forward one minute</source>
         <translation>Bir dakika ileri sar</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1337"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1338"/>
         <source>00:00:00.000</source>
         <translation>00:00:00.000</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1359"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1360"/>
         <source>/ 00:00:00.000</source>
         <translation>/ 00:00:00.000</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1401"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1402"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1451"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1452"/>
         <source>Se&amp;lection</source>
         <translation>&amp;Seçim</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1508"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1509"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1515"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1516"/>
         <source>B:</source>
         <translation>B:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1528"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1529"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>A işaretçisine gidin [SAYFA YUKARI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1531"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1547"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1532"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1548"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1544"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1545"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation>İşaretçi B&apos;ye gidin [SAYFA AŞAĞI]</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1802"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1803"/>
         <source>Play filtered</source>
         <translation>Filtrelenmiş oynat</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1603"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1604"/>
         <source>Vol&amp;ume</source>
         <translation>Se&amp;s</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1566"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1567"/>
         <source>Selection: 000000</source>
         <translation>Seçim:000000</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1716"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1717"/>
         <source>Audio &amp;Metre</source>
         <translation>Ses &amp;Ölçer</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1766"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1767"/>
         <source>Open Video</source>
         <translation>Video aç</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1870"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1871"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Kodlayıcı Seçenekleri</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1873"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1874"/>
         <source>Ctrl+Alt+C</source>
         <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1887"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1888"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1898"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1899"/>
         <source>&amp;Selection</source>
         <translation>&amp;Seçim</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1901"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1902"/>
         <source>Ctrl+Alt+S</source>
         <translation>Ctrl+Alt+S</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1912"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1913"/>
         <source>&amp;Volume</source>
         <translation>&amp;Ses</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1915"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1916"/>
         <source>Ctrl+Alt+V</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1926"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1941"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Ses Ölçer</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1929"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="1944"/>
         <source>Ctrl+Alt+M</source>
         <translation>Ctrl+Alt+M</translation>
+    </message>
+    <message>
+        <source>Search previous black frame</source>
+        <translation type="vanished">Önceki siyah karede ara</translation>
+    </message>
+    <message>
+        <source>Search next black frame</source>
+        <translation type="vanished">Sonraki siyah karede ara</translation>
     </message>
     <message>
         <source>&amp;Calculator...</source>
@@ -1074,245 +1092,250 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="240"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="237"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="241"/>
         <source>Ignore driver blacklist (Intel)</source>
         <translation>Sürücü kara listesini yoksay (Intel)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="238"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="242"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
         <translation>Kodlayıcı kara listesini yoksay (Intel, HEVC 10bit)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="248"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="252"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="251"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="255"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="252"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="256"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Video yüklemesinde kaydedilmiş varsayılan çıkış ayarlarına geri dön</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="253"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="257"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>_ Alternatif klavye kısayollarını etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="254"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="258"/>
         <source>Re_verse UP and DOWN arrow keys for navigation</source>
         <translation>Gezinme için YUKARI ve AŞAĞI ok tuşlarını ters çevirin</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="255"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="259"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation>_Videoda A işaretçisi B işaretini veya B işaretini A&apos;dan önce geçiyorsa işaretçileri değiştirin</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="261"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="265"/>
         <source>Enable all SIMD</source>
         <translation>Tüm SIMD&apos;yi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="262"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="266"/>
         <source>Enable MMX</source>
         <translation>MMX&apos;i etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="263"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="267"/>
         <source>Enable MMXEXT</source>
         <translation>MMXEXT&apos;yi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="264"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="268"/>
         <source>Enable 3DNOW</source>
         <translation>3DNOW&apos;u etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="265"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="269"/>
         <source>Enable 3DNOWEXT</source>
         <translation>3DNOWEXT&apos;yi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="266"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="270"/>
         <source>Enable SSE</source>
         <translation>SSE&apos;yi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="267"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="271"/>
         <source>Enable SSE2</source>
         <translation>SSE2&apos;yi etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="268"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="272"/>
         <source>Enable SSE3</source>
         <translation>SSE3&apos;ü etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="269"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="273"/>
         <source>Enable SSSE3</source>
         <translation>SSSE3&apos;ü etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="290"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="294"/>
         <source>_lavc threads:</source>
         <translation>_Lavc İş Parçacığı:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="293"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="297"/>
         <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
         <translation>HW hızlandırmalı kod çözme etkinleştirilirse çoklu iş parçacığı dahili olarak devre dışı bırakılır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="296"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="300"/>
         <source>Multi-threading</source>
         <translation>Çoklu-iş parçası</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="301"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="305"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="47"/>
         <source>High</source>
         <translation>Yüksek</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="302"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="306"/>
         <source>Above normal</source>
         <translation>Normalin üstünde</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="303"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="307"/>
         <source>Normal</source>
         <translation>Normal</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="304"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="308"/>
         <source>Below normal</source>
         <translation>Normalin altında</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="305"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="309"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="45"/>
         <source>Low</source>
         <translation>Düşük</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="307"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="311"/>
         <source>_Encoding priority:</source>
         <translation>_ Kodlama önceliği:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="308"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="312"/>
         <source>_Indexing/unpacking priority:</source>
         <translation>_Dizin oluşturma/açma önceliği:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="309"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="313"/>
         <source>_Playback priority:</source>
         <translation>_Oynatma önceliği:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="311"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="315"/>
         <source>Prioritisation</source>
         <translation>Önceliklendirme</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="316"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="320"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>_Kaydedilmek için son okunan dosyanın dizinine varsayılan</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="318"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="321"/>
+        <source>De_lete first pass log files by default</source>
+        <translation>Va_rsayılan olarak ilk geçiş günlük dosyalarını sil</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="323"/>
         <source>Auto-Append Settings</source>
         <translation>Otomatik Ekleme Ayarları</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="319"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="324"/>
         <source>_Use custom fragment size for auto-append of MPEG-TS files</source>
         <translation>_MPEG-TS dosyalarının otomatik olarak eklenmesi için özel parça boyutunu kullanın</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="320"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="325"/>
         <source>_Fragment size:</source>
         <translation>_Parça boyutu:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="327"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="332"/>
         <source>Use _shared cache</source>
         <translation>_Paylaşılan önbelleği kullan</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="334"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="339"/>
         <source>XVideo (best)</source>
         <translation>XVideo (en iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="340"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="345"/>
         <source>DXVA2 (best)</source>
         <translation>DXVA2 (en iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="351"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="356"/>
         <source>SDL (good)</source>
         <translation>SDL (iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="354"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="359"/>
         <source>Video _display:</source>
         <translation>Video_görüntüleme:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="383"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="388"/>
         <source>No alerts</source>
         <translation>Uyarı yok</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="384"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="389"/>
         <source>Display only error alerts</source>
         <translation>Yalnızca hata uyarılarını görüntüle</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="385"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="390"/>
         <source>Display all alerts</source>
         <translation>Tüm uyarıları görüntüle</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="387"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="392"/>
         <source>_Message level:</source>
         <translation>_Mesaj seviyesi:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="393"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="398"/>
         <source>Master</source>
         <translation>Usta</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="394"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="399"/>
         <source>_Volume control:</source>
         <translation>_Ses kontrol:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="399"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="404"/>
         <source>No downmixing</source>
         <translation>Karıştırma yok</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="49"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="400"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="405"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="404"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="409"/>
         <source>_Local playback downmixing:</source>
         <translation>_Yerel oynatım karıştırma:</translation>
     </message>
@@ -1323,13 +1346,13 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="39"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="421"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="426"/>
         <source>_Horizontal deblocking</source>
         <translation>_Yatay engelleme</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="40"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="422"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="427"/>
         <source>_Vertical deblocking</source>
         <translation>_Dikey blok çözme</translation>
     </message>
@@ -1339,45 +1362,45 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Görüntü_ayrıştırma (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="425"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="430"/>
         <source>Default Postprocessing</source>
         <translation>Varsayılan Rötuş</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="470"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="475"/>
         <source>User Interface</source>
         <translation>Kullanıcı arayüzü</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="477"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="482"/>
         <source>Output</source>
         <translation>Çıktı</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="80"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="483"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="486"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="488"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="491"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="496"/>
         <location filename="../../common/gui_save.cpp" line="58"/>
         <location filename="../../common/gui_save.cpp" line="68"/>
         <location filename="../../common/gui_save.cpp" line="340"/>
         <location filename="../../common/gui_save.cpp" line="355"/>
         <location filename="../../common/gui_save.cpp" line="374"/>
         <location filename="../../common/gui_save.cpp" line="381"/>
-        <location filename="../../common/gui_savenew.cpp" line="432"/>
+        <location filename="../../common/gui_savenew.cpp" line="436"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="193"/>
-        <location filename="../../common/gui_savenew.cpp" line="363"/>
-        <location filename="../../common/gui_savenew.cpp" line="375"/>
-        <location filename="../../common/gui_savenew.cpp" line="391"/>
+        <location filename="../../common/gui_savenew.cpp" line="195"/>
+        <location filename="../../common/gui_savenew.cpp" line="367"/>
+        <location filename="../../common/gui_savenew.cpp" line="379"/>
+        <location filename="../../common/gui_savenew.cpp" line="395"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="533"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="538"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -1387,8 +1410,8 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Te&amp;rcihler</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="544"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="547"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="549"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="552"/>
         <source>Preferences</source>
         <translation>Tercihler</translation>
     </message>
@@ -1434,12 +1457,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Sonraki İç Çerçeve</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="135"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="137"/>
         <source>Previous Black Frame</source>
         <translation>Önceki Siyah Çerçeve</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="136"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="138"/>
         <source>Next Black Frame</source>
         <translation>Sonraki Siyah Kare</translation>
     </message>
@@ -1537,19 +1560,19 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Codec Hatası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="370"/>
+        <location filename="../../common/gui_main.cpp" line="369"/>
         <source>Not coded in this version</source>
         <translation>Bu sürümde kodlanmamış</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="593"/>
+        <location filename="../../common/gui_main.cpp" line="592"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Bu video, anahtar kareler olarak IDR yerine IDR olmayan kurtarma noktaları kullanıyor. Video akışındaki resim yeniden sıralama bilgileri IDR olmayan karelerde sıfırlanmaz. Yapıştırılan seçimin kesme noktaları, kopyalama modunda kaydedildiyse çerçevelerin ters görüntülenme sırası nedeniyle oynatma kesintisine neden olabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="600"/>
+        <location filename="../../common/gui_main.cpp" line="599"/>
         <source>Codec or codec settings across a cut point of the pasted video do not match.
 Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
@@ -1558,34 +1581,34 @@ Kopyalama modunda kaydedilen videonun oynatılması bu noktada durabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="605"/>
+        <location filename="../../common/gui_main.cpp" line="604"/>
         <source>Cut points of the pasted video could not be checked. This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Try anyway?</source>
         <translation>Yapıştırılan videonun kesme noktaları kontrol edilemedi. Bu, kaynak videodaki bir sorunu, düzenleme durumunu veya programdaki bir hatayı gösterir. Ayrıntılar için lütfen uygulama günlük dosyasına veya konsol çıkışına bakın.
 Yine de dene?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="684"/>
+        <location filename="../../common/gui_main.cpp" line="683"/>
         <source>Are you sure?</source>
         <translation>Emin misiniz?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="732"/>
+        <location filename="../../common/gui_main.cpp" line="731"/>
         <source>It is impossible to cut out the entire video. Please recheck the position of markers A and B.</source>
         <translation>Tüm videoyu kesmek imkansız. Lütfen A ve B işaretlerinin konumunu tekrar kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="735"/>
+        <location filename="../../common/gui_main.cpp" line="734"/>
         <source>Deleting</source>
         <translation>Siliniyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="736"/>
+        <location filename="../../common/gui_main.cpp" line="735"/>
         <source>It is impossible to delete the entire video. Please recheck the position of markers A and B.</source>
         <translation>Tüm videoyu silmek mümkün değildir. Lütfen A ve B işaretlerinin konumunu tekrar kontrol edin.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="766"/>
+        <location filename="../../common/gui_main.cpp" line="765"/>
         <source>The end point of the cut is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -1594,7 +1617,7 @@ Kopyalama modunda kaydedilen video bu noktada bozulur.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="770"/>
+        <location filename="../../common/gui_main.cpp" line="769"/>
         <source>The end point of the deletion is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -1603,35 +1626,35 @@ Kopyalama modunda kaydedilen video bu noktada bozulur.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="776"/>
+        <location filename="../../common/gui_main.cpp" line="775"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the cut may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Bu video, anahtar kareler olarak IDR yerine IDR olmayan kurtarma noktaları kullanıyor. Video akışındaki resim yeniden sıralama bilgileri IDR olmayan karelerde sıfırlanmaz. Kesimin seçilen başlangıç ve bitiş noktaları, kopyalama modunda kaydedildiyse çerçevelerin ters görüntülenme sırası nedeniyle oynatma kesintisine neden olabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="782"/>
+        <location filename="../../common/gui_main.cpp" line="781"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the deletion may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Bu video, anahtar kareler olarak IDR yerine IDR olmayan kurtarma noktaları kullanıyor. Video akışındaki resim yeniden sıralama bilgileri IDR olmayan karelerde sıfırlanmaz. Silme işleminin seçilen başlangıç ve bitiş noktaları, kopyalama modunda kaydedildiyse çerçevelerin ters görüntülenme sırası nedeniyle oynatma kesintisine neden olabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="790"/>
+        <location filename="../../common/gui_main.cpp" line="789"/>
         <source>Codec or codec settings across the cut do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Kesimdeki kodek veya kodek ayarları uyuşmuyor. Kopyalama modunda kaydedilen videonun oynatılması bu noktada durabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="794"/>
+        <location filename="../../common/gui_main.cpp" line="793"/>
         <source>Codec or codec settings across the deletion do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Silme işlemi boyunca kodek veya kodek ayarları uyuşmuyor. Kopyalama modunda kaydedilen videonun oynatılması bu noktada durabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="799"/>
+        <location filename="../../common/gui_main.cpp" line="798"/>
         <source>Cut points could not be checked.
 This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Proceed anyway?</source>
@@ -1640,134 +1663,134 @@ Bu, kaynak videodaki bir sorunu, düzenleme durumunu veya programdaki bir hatay�
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="912"/>
+        <location filename="../../common/gui_main.cpp" line="911"/>
         <source>Permission error</source>
         <translation>İzin Hatası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="912"/>
+        <location filename="../../common/gui_main.cpp" line="911"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>&quot;%s&quot; açılamıyor.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="916"/>
+        <location filename="../../common/gui_main.cpp" line="915"/>
         <source>File error</source>
         <translation>Dosya hatası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="916"/>
+        <location filename="../../common/gui_main.cpp" line="915"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; mevcut değil.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="952"/>
+        <location filename="../../common/gui_main.cpp" line="951"/>
         <source>Cannot open project using the video loader.</source>
         <translation>Video yükleyici kullanılarak proje açılamıyor.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="953"/>
+        <location filename="../../common/gui_main.cpp" line="952"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
         <translation>Seçeneğini deneyin Dosya&apos; -&gt; &apos;Proje Yükle / Çalıştır ...&apos;</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="957"/>
+        <location filename="../../common/gui_main.cpp" line="956"/>
         <source>Could not open the file</source>
         <translation>Dosya açılamadı</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1012"/>
+        <location filename="../../common/gui_main.cpp" line="1011"/>
         <source>Multiple Audio Tracks</source>
         <translation>Çoklu Ses Parçaları</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1012"/>
+        <location filename="../../common/gui_main.cpp" line="1011"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Yeni yüklediğiniz dosya birkaç ses parçası içeriyor.
 Etkin olanı seçmek için Ses-&gt; Ana Parça&apos;ya gidin.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1118"/>
+        <location filename="../../common/gui_main.cpp" line="1117"/>
         <source>Something failed when appending</source>
         <translation>Eklerken bir şey başarısız oldu</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1438"/>
+        <location filename="../../common/gui_main.cpp" line="1437"/>
         <source>Something bad happened (II)</source>
         <translation>Kötü bir şey oldu (II)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1236"/>
-        <location filename="../../common/gui_main.cpp" line="1279"/>
+        <location filename="../../common/gui_main.cpp" line="1235"/>
+        <location filename="../../common/gui_main.cpp" line="1278"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation>Tinypy eklentisi eksik.
 Sorunlar bekliyoruz.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1382"/>
+        <location filename="../../common/gui_main.cpp" line="1381"/>
         <source>Checking video</source>
         <translation>Video kontrol ediliyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1398"/>
+        <location filename="../../common/gui_main.cpp" line="1397"/>
         <source>No error found</source>
         <translation>Hata bulunamadı</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1402"/>
+        <location filename="../../common/gui_main.cpp" line="1401"/>
         <source>Errors found in %u frames</source>
         <translation>% U karesinde bulunan hatalar</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1418"/>
+        <location filename="../../common/gui_main.cpp" line="1417"/>
         <source>Marker A &gt; B</source>
         <translation>İşaretçi A&gt; B</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1418"/>
+        <location filename="../../common/gui_main.cpp" line="1417"/>
         <source>Cannot delete the selection.</source>
         <translation>Seçim silinemiyor.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1423"/>
+        <location filename="../../common/gui_main.cpp" line="1422"/>
         <source>You can&apos;t remove all frames</source>
         <translation>Tüm kareleri kaldıramazsınız</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1431"/>
+        <location filename="../../common/gui_main.cpp" line="1430"/>
         <source>Something bad happened</source>
         <translation>Kötü bir şey oldu</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1519"/>
+        <location filename="../../common/gui_main.cpp" line="1518"/>
         <source>_Track from video:</source>
         <translation>_Videodan izleme:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1522"/>
+        <location filename="../../common/gui_main.cpp" line="1521"/>
         <source>Main Audio Track</source>
         <translation>Ana Ses Parçası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1786"/>
+        <location filename="../../common/gui_main.cpp" line="1784"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Avsproxy&apos;ye bağlanılamadı.
 Çalışıyor mu?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1826"/>
+        <location filename="../../common/gui_main.cpp" line="1824"/>
         <source>Frame type:</source>
         <translation>Çerçeve tipi:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1827"/>
+        <location filename="../../common/gui_main.cpp" line="1825"/>
         <source>Frame size:</source>
         <translation>Çerçeve boyutu:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1829"/>
+        <location filename="../../common/gui_main.cpp" line="1827"/>
         <source>Frame Hex Dump</source>
         <translation>Çerçeve Altıgen Dökümü</translation>
     </message>
@@ -1840,11 +1863,11 @@ Is it running ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="134"/>
-        <location filename="../../common/gui_main.cpp" line="1578"/>
-        <location filename="../../common/gui_main.cpp" line="1605"/>
-        <location filename="../../common/gui_main.cpp" line="1629"/>
-        <location filename="../../common/gui_main.cpp" line="1637"/>
-        <location filename="../../common/gui_main.cpp" line="1641"/>
+        <location filename="../../common/gui_main.cpp" line="1577"/>
+        <location filename="../../common/gui_main.cpp" line="1604"/>
+        <location filename="../../common/gui_main.cpp" line="1628"/>
+        <location filename="../../common/gui_main.cpp" line="1636"/>
+        <location filename="../../common/gui_main.cpp" line="1640"/>
         <location filename="../../common/gui_save.cpp" line="586"/>
         <location filename="../../common/gui_save.cpp" line="678"/>
         <location filename="../../common/gui_save.cpp" line="685"/>
@@ -2035,7 +2058,7 @@ Is it running ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="529"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="534"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2125,146 +2148,146 @@ Is it running ?</source>
         <translation>_Halka azaltma</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="242"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="246"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>VDPAU (NVIDIA) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="243"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="247"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>LIBVA (INTEL) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="240"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="244"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>VideoToolbox (macOS) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="250"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="254"/>
         <source>Enable openGl support</source>
         <translation>OpenGl desteğini etkinleştir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="246"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="250"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="256"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="260"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="263"/>
         <source>SIMD</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="325"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="330"/>
         <source>Caching of decoded pictures</source>
         <translation>Çözülmüş resimlerin önbelleğe alınması</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="326"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="331"/>
         <source>_Cache size:</source>
         <translation>_Önbellek boyutu:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="337"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="342"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (en iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="343"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="348"/>
         <source>OpenGL (best)</source>
         <translation>OpenGL (en iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="346"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="351"/>
         <source>LIBVA (best)</source>
         <translation>LIBVA (en iyi)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="374"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="377"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="379"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="382"/>
         <source>Sdl driver</source>
         <translation>Sdl sürücüsü</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="392"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="397"/>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="217"/>
         <source>PCM</source>
         <translation>PCM</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="401"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="406"/>
         <source>Pro Logic</source>
         <translation>Pro Logic</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="402"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="407"/>
         <source>Pro Logic II</source>
         <translation>Pro Logic II</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="418"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="423"/>
         <source>_AudioDevice</source>
         <translation>_SesAygıtı</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="423"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="428"/>
         <source>De_ringing</source>
         <translation>Ça_lıyor</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="424"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="429"/>
         <source>_Strength:</source>
         <translation>_Sertlik:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="437"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="442"/>
         <source>System language</source>
         <translation>Sistem dili</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="462"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="467"/>
         <source>_Language</source>
         <translation>_Dil</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="496"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="501"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Yenileme Hızını Sınırla</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="497"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="502"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>Yenileme Hızı Sınırı (ms)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="498"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="503"/>
         <source>GUI Rendering Options</source>
         <translation>GUI Oluşturma Seçenekleri</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="514"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="519"/>
         <source>Display</source>
         <translation>Görüntüleme</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="518"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="521"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="524"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="523"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="526"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="529"/>
         <source>HW Accel</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="536"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="541"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="537"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="542"/>
         <source>Default port to use</source>
         <translation>Kullanılacak varsayılan bağlantı noktası</translation>
     </message>
@@ -2447,52 +2470,62 @@ Is it running ?</source>
         <translation>Sonraki Kare</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="137"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="135"/>
+        <source>Previous Cut Point</source>
+        <translation>Önceki Kesim Noktası</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="136"/>
+        <source>Next Cut Point</source>
+        <translation>Sonraki Kesim Noktası</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="139"/>
         <source>First Frame</source>
         <translation>İlk Kare</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="138"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="140"/>
         <source>Last Frame</source>
         <translation>Son Kare</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="140"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="142"/>
         <source>Go To Marker A</source>
         <translation>A İşaretine Git</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="141"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="143"/>
         <source>Go To Marker B</source>
         <translation>B İşaretine Git</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="143"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="145"/>
         <source>Go To Time</source>
         <translation>Zamana Git</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="150"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="152"/>
         <source>Zoom 1:4</source>
         <translation>Yaklaştır 1:4</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="151"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="153"/>
         <source>Zoom 1:2</source>
         <translation>Yaklaştır 1:2</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="152"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="154"/>
         <source>Zoom 1:1</source>
         <translation>Yaklaştır 1:1</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="153"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="155"/>
         <source>Zoom 2:1</source>
         <translation>Yaklaştır 2:1</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="155"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="157"/>
         <source>Fit to window</source>
         <translation>Pencereye sığdır</translation>
     </message>
@@ -2608,28 +2641,28 @@ PSP uyumlu video oluşturmak gerekir.</translation>
         <translation>Son kullanılan dosyaların ve projelerin listesini silmek üzeresiniz. Bu geri alınamaz. İlerlemek?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="381"/>
-        <location filename="../../common/gui_main.cpp" line="454"/>
+        <location filename="../../common/gui_main.cpp" line="380"/>
+        <location filename="../../common/gui_main.cpp" line="453"/>
         <source>Select Video File...</source>
         <translation>Video Dosyası Seçin ...</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="406"/>
+        <location filename="../../common/gui_main.cpp" line="405"/>
         <source>No engine</source>
         <translation>Motor yok</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="406"/>
+        <location filename="../../common/gui_main.cpp" line="405"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>tinyPy betiği bu derlemede etkin değil</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="457"/>
+        <location filename="../../common/gui_main.cpp" line="456"/>
         <source>Select Video File to Append...</source>
         <translation>Eklenecek Video Dosyasını Seçin ...</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="588"/>
+        <location filename="../../common/gui_main.cpp" line="587"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2638,69 +2671,69 @@ Kopyalama modunda kaydedilen video bu noktalarda bozulur.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="731"/>
-        <location filename="../../common/gui_main.cpp" line="752"/>
+        <location filename="../../common/gui_main.cpp" line="730"/>
+        <location filename="../../common/gui_main.cpp" line="751"/>
         <source>Cutting</source>
         <translation>Kesme</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="752"/>
+        <location filename="../../common/gui_main.cpp" line="751"/>
         <source>Error while cutting out.</source>
         <translation>Keserken hata.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1551"/>
-        <location filename="../../common/gui_main.cpp" line="1558"/>
+        <location filename="../../common/gui_main.cpp" line="1550"/>
+        <location filename="../../common/gui_main.cpp" line="1557"/>
         <source>Invalid audio index given</source>
         <translation>Geçersiz ses dizini verildi</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1578"/>
+        <location filename="../../common/gui_main.cpp" line="1577"/>
         <source>Cannot use that file as audio track</source>
         <translation>Bu dosya ses parçası olarak kullanılamaz</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1606"/>
+        <location filename="../../common/gui_main.cpp" line="1605"/>
         <source>Audio file not found in list, even though it should be there. Create a bug report!</source>
         <translation>Ses dosyası listede olmasına rağmen listede bulunamadı. Hata raporu oluşturun!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1630"/>
+        <location filename="../../common/gui_main.cpp" line="1629"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>Ses dili ayarlanamıyor: Henüz video yüklenmedi!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1638"/>
+        <location filename="../../common/gui_main.cpp" line="1637"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
         <translation>Verilen parça dizini için dilin ayarlanması mümkün değil: Videonun ses dosyası yok!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1642"/>
+        <location filename="../../common/gui_main.cpp" line="1641"/>
         <source>Setting the language for the given track index is not possible: Invalid track index!</source>
         <translation>Belirli bir iz dizininin dilini ayarlamak mümkün değildir: Geçersiz iz dizini!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1786"/>
+        <location filename="../../common/gui_main.cpp" line="1784"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1791"/>
+        <location filename="../../common/gui_main.cpp" line="1789"/>
         <source>avsproxy</source>
         <translation>avsproxy</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1940"/>
+        <location filename="../../common/gui_main.cpp" line="1938"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="1940"/>
+        <location filename="../../common/gui_main.cpp" line="1938"/>
         <source>This function is disabled or no longer valid</source>
         <translation>Bu işlev devre dışı veya artık geçerli değil</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="446"/>
+        <location filename="../../common/gui_play.cpp" line="453"/>
         <source>Trouble initializing audio device</source>
         <translation>Ses cihazını başlatma sorunu</translation>
     </message>
@@ -2823,29 +2856,29 @@ Yine de devam edilsin mi?</translation>
         <translation>%s işi eklenemiyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="181"/>
+        <location filename="../../common/gui_savenew.cpp" line="183"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
         <translation>Önceki ilk geçiş verileri yeniden kullanılsın mı?
 Uyarı, ayarların yakın olması gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="363"/>
+        <location filename="../../common/gui_savenew.cpp" line="367"/>
         <source>Cannot instantiate video chain</source>
         <translation>Video zinciri başlatılamıyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="375"/>
+        <location filename="../../common/gui_savenew.cpp" line="379"/>
         <source>Cannot create encoder</source>
         <translation>Kodlayıcı oluşturulamıyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="432"/>
+        <location filename="../../common/gui_savenew.cpp" line="436"/>
         <source>Cannot setup audio encoder, make sure your stream is compatible with audio encoder (number of channels, bitrate, format)</source>
         <translation>Ses kodlayıcı ayarlanamıyor, akışınızın ses kodlayıcı ile uyumlu olduğundan emin olun (kanal sayısı, bit hızı, biçim)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="460"/>
+        <location filename="../../common/gui_savenew.cpp" line="464"/>
         <source>The video is in copy mode but the cut points are not on keyframes.
 The video will be saved but there will be corruption at cut point(s).
 Do you want to continue anyway ?</source>
@@ -2854,51 +2887,51 @@ Video kaydedilecek, ancak kesme noktalarında bozulma olacak.
 Yine de devam etmek istiyor musun ?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="203"/>
-        <location filename="../../common/gui_savenew.cpp" line="493"/>
-        <location filename="../../common/gui_savenew.cpp" line="519"/>
+        <location filename="../../common/gui_savenew.cpp" line="205"/>
+        <location filename="../../common/gui_savenew.cpp" line="497"/>
+        <location filename="../../common/gui_savenew.cpp" line="523"/>
         <source>Muxer</source>
         <translation>Çoklayıcı</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="193"/>
+        <location filename="../../common/gui_savenew.cpp" line="195"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation>İlk geçiş için kodlayıcı kurulamıyor. Kodlayıcıya sağlanan konfigürasyon uyumsuz olabilir veya kodlayıcı bu sistemde bulunmayan özelliklere bağlı olabilir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="203"/>
-        <location filename="../../common/gui_savenew.cpp" line="493"/>
+        <location filename="../../common/gui_savenew.cpp" line="205"/>
+        <location filename="../../common/gui_savenew.cpp" line="497"/>
         <source>Cannot instantiate muxer</source>
         <translation>Çoklayıcı somutlaştırılamıyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="391"/>
+        <location filename="../../common/gui_savenew.cpp" line="395"/>
         <source>Cannot set up encoder. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation>Kodlayıcı kurulamıyor. Kodlayıcıya sağlanan konfigürasyon uyumsuz olabilir veya kodlayıcı bu sistemde bulunmayan özelliklere bağlı olabilir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="465"/>
+        <location filename="../../common/gui_savenew.cpp" line="469"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The choice of cut points may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Do you want to continue anyway?</source>
         <translation>Bu video, anahtar kareler olarak IDR yerine IDR olmayan kurtarma noktaları kullanıyor. Video akışındaki resim yeniden sıralama bilgileri IDR olmayan karelerde sıfırlanmaz. Yapıştırılan seçimin kesme noktaları, kopyalama modunda kaydedildiyse çerçevelerin ters görüntülenme sırası nedeniyle oynatma kesintisine neden olabilir.
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="472"/>
+        <location filename="../../common/gui_savenew.cpp" line="476"/>
         <source>Codec or codec settings across a cut point do not match. Playback of the video saved in copy mode may stop at this point.
 Do you want to continue anyway?</source>
         <translation>Bir kesme noktasındaki kodek veya kodek ayarları uyuşmuyor. Kopyalama modunda kaydedilen videonun oynatılması bu noktada durabilir.
 Yine de devam etmek istiyor musun?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="477"/>
+        <location filename="../../common/gui_savenew.cpp" line="481"/>
         <source>Cut points could not be checked. This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Try anyway?</source>
         <translation>Kesme noktaları kontrol edilemedi. Bu, kaynak videodaki bir sorunu, düzenleme durumunu veya programdaki bir hatayı gösterir. Ayrıntılar için lütfen uygulama günlük dosyasına veya konsol çıkışına bakın.
 Yine de denemek ister misiniz?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_savenew.cpp" line="519"/>
+        <location filename="../../common/gui_savenew.cpp" line="523"/>
         <source>Cannot open </source>
         <translation>Açılamaz </translation>
     </message>
@@ -3169,86 +3202,91 @@ Yine de denemek ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="221"/>
+        <source>WMA Lossless</source>
+        <translation>WMA Kayıpsız</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="222"/>
         <source>WMA</source>
         <translation>WMA</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="222"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="223"/>
         <source>LPCM</source>
         <translation>LPCM</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="223"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="224"/>
         <source>AC3</source>
         <translation>AC3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="224"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="225"/>
         <source>OPUS</source>
         <translation>Opus</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="225"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="226"/>
         <source>FLAC</source>
         <translation>FLAC</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="226"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="227"/>
         <source>E-AC3</source>
         <translation>E-AC3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="227"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="228"/>
         <source>Float PCM</source>
         <translation>Float PCM</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="228"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="229"/>
         <source>Ogg Vorbis</source>
         <translation>Ogg Vorbis</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="229"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="230"/>
         <source>MP4</source>
         <translation>MP4</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="231"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="232"/>
         <source>AAC</source>
         <translation>AAC</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="232"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="233"/>
         <source>QDM2</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="233"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="234"/>
         <source>AMR-NB</source>
         <translation>AMR-NB</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="234"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="235"/>
         <source>MSADPCM</source>
         <translation>MSADPCM</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="235"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="236"/>
         <source>ULAW</source>
         <translation>ULAW</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="236"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="237"/>
         <source>IMA ADPCM</source>
         <translation>IMA ADPCM</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="237"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="238"/>
         <source>8-bit PCM</source>
         <translation>8-bit PCM</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="240"/>
+        <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="241"/>
         <source>Unknown codec</source>
         <translation>Bilinmeyen kodek</translation>
     </message>
@@ -3503,7 +3541,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/ADM_vidAnalyzer.cpp" line="32"/>
         <source>Analyzer</source>
-        <translation>Analizör</translation>
+        <translation>Çözümleyici</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/ADM_vidAnalyzer.cpp" line="33"/>
@@ -3516,7 +3554,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui" line="14"/>
         <source>Analyzer</source>
-        <translation>Analizör</translation>
+        <translation>Çözümleyici</translation>
     </message>
 </context>
 <context>
@@ -3639,7 +3677,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/qt4/artChromaHold.ui" line="236"/>
         <source>Distance</source>
-        <translation>Uzaklık</translation>
+        <translation>Mesafe</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/qt4/artChromaHold.ui" line="246"/>
@@ -3740,7 +3778,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/artChromaKey.ui" line="360"/>
         <source>Distance</source>
-        <translation>Uzaklık</translation>
+        <translation>Mesafe</translation>
     </message>
 </context>
 <context>
@@ -3872,12 +3910,12 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/qt4/artDynThreshold.ui" line="71"/>
         <source>Levels</source>
-        <translation>Seviyeler</translation>
+        <translation>Düzeyler</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/qt4/artDynThreshold.ui" line="91"/>
         <source>Offset</source>
-        <translation>Uzaklık</translation>
+        <translation>Ofset</translation>
     </message>
 </context>
 <context>
@@ -3916,7 +3954,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.cpp" line="41"/>
         <source>Mirror</source>
-        <translation>Ayna</translation>
+        <translation>Aynala</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.cpp" line="42"/>
@@ -3929,7 +3967,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui" line="14"/>
         <source>Mirror</source>
-        <translation>Ayna</translation>
+        <translation>Aynala</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui" line="101"/>
@@ -4011,7 +4049,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/qt4/artPosterize.ui" line="76"/>
         <source>Levels</source>
-        <translation>Seviyeler</translation>
+        <translation>Düzeyler</translation>
     </message>
 </context>
 <context>
@@ -5086,36 +5124,37 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>crop</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="56"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="58"/>
         <source>Crop</source>
         <translation>Kes</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="57"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="59"/>
         <source>Crop filter</source>
         <translation>Kesme filtresi</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="78"/>
         <source>Warning Cropping too much width ! Width reseted !
 </source>
         <translation>Uyarı Çok fazla kırpma! Genişlik sıfırlandı!
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="86"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="83"/>
         <source>Warning Cropping too much height ! Height reseted !
 </source>
         <translation>Uyarı Çok fazla yükseklik kırpma! Yükseklik sıfırlandı !
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="541"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="563"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="921"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="615"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="685"/>
         <source>Auto Crop</source>
         <translation>Otomatik Kesme</translation>
     </message>
@@ -5140,86 +5179,86 @@ Yüklemek istiyor musunuz  ?
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="52"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="52"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="59"/>
         <source>Right:</source>
         <translation>Sağ:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="59"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="80"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="126"/>
         <source>Top:</source>
         <translation>Üst:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="123"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="87"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="66"/>
         <source>Bottom:</source>
         <translation>Alt:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="130"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="59"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="52"/>
         <source>Left:</source>
         <translation>Sol:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="172"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="243"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="182"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="136"/>
         <source>&amp;Hide Rubber Band</source>
         <translation>Lastik Bandı &amp;Gizle</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="189"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="193"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="182"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="186"/>
         <source>Do not lock</source>
         <translation>Kilitleme</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="198"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="191"/>
         <source>Current selection</source>
         <translation>Geçerli seçim</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="203"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="196"/>
         <source>Source</source>
         <translation>Kaynak</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="208"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="201"/>
         <source>21:9</source>
         <translation>21:9</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="213"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="206"/>
         <source>18:9</source>
         <translation>18:9</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="218"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="211"/>
         <source>16:9</source>
         <translation>16:9</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="223"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="216"/>
         <source>4:3</source>
         <translation>4:3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="228"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="221"/>
         <source>1:1</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="233"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="226"/>
         <source>9:16</source>
         <translation>9:16</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="241"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="96"/>
         <source>Lock Aspect Ratio:</source>
         <translation>En Boy Oranını Kilitle:</translation>
     </message>
@@ -5441,7 +5480,7 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/delogoHQ.ui" line="97"/>
         <source>Gradient</source>
-        <translation>Değişim</translation>
+        <translation>Renk Geçişi</translation>
     </message>
 </context>
 <context>
@@ -5529,6 +5568,19 @@ Yüklemek istiyor musunuz  ?
     </message>
 </context>
 <context>
+    <name>dummyMuxer</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="28"/>
+        <source>Simulated muxing</source>
+        <translation>Simüle edilmiş muxing</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="29"/>
+        <source>(None)</source>
+        <translation>(Yok)</translation>
+    </message>
+</context>
+<context>
     <name>dv</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffDv/ADM_ffDv.cpp" line="79"/>
@@ -5544,142 +5596,152 @@ Yüklemek istiyor musunuz  ?
         <translation>Kodlanıyor...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="81"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="57"/>
         <source>Phase:</source>
         <translation>Evre:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="321"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="353"/>
         <source>Audio Codec:</source>
         <translation>Ses Kod Çözücü:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="342"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="374"/>
         <source>Container:</source>
         <translation>Konteyner:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="349"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="381"/>
         <source>Video Codec:</source>
         <translation>Video Kod Çözücü:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="67"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="314"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="335"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="50"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="346"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="367"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="74"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="328"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="360"/>
         <source>Unknown</source>
         <translation>Bilinmeyen</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="392"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="424"/>
         <source>Audio Size:</source>
         <translation>Ses Boyutu:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="473"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="505"/>
         <source>Average Bitrate:</source>
         <translation>Ortalama Bit hızı:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="480"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="511"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="571"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="512"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="543"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="603"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="50"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="81"/>
         <source>Time Remaining:</source>
         <translation>Kalan Süre:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="399"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="431"/>
         <source>Total Size:</source>
         <translation>Toplam Boyut:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="420"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="452"/>
         <source>Video Size:</source>
         <translation>Video Boyutu:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="108"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="92"/>
         <source>Shut down computer when finished</source>
         <translation>İşlem bittiğinde bilgisayarı kapat</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="128"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="112"/>
         <source>Priority:</source>
         <translation>Öncelik:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="139"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="123"/>
         <source>High</source>
         <translation>Yüksek</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="144"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="128"/>
         <source>Above Normal</source>
         <translation>Normalin üstünde</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="149"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="133"/>
         <source>Normal</source>
         <translation>Normal</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="154"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="138"/>
         <source>Below Normal</source>
         <translation>Normalin altında</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="159"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="143"/>
         <source>Low</source>
         <translation>Düşük</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="171"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="155"/>
         <source>Keep dialog open when finished</source>
         <translation>İşlem bittiğinde iletişim kutusunu açık tut</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="208"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="179"/>
+        <source>Delete first pass log files</source>
+        <translation>İlk geçiş günlük dosyalarını sil</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="209"/>
+        <source>Output File:</source>
+        <translation>Çıktı Dosyası:</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="240"/>
         <source>Minimize to Tray</source>
         <translation>Tepsiye Küçült</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="228"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="260"/>
         <source>Pause / Abort</source>
         <translation>Duraklat / Durdur</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="241"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="273"/>
         <source>Advanced</source>
         <translation>Gelişmiş</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="490"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="522"/>
         <source>Processed Frames:</source>
         <translation>İşlenmiş Kareler:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="497"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="529"/>
         <source>Quantiser:</source>
         <translation>Niceleme:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="554"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="586"/>
         <source>Elapsed:</source>
         <translation>Geçen:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="578"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="610"/>
         <source>Frames/sec:</source>
         <translation>Kareler/san:</translation>
     </message>
@@ -5689,19 +5751,19 @@ Yüklemek istiyor musunuz  ?
         <translation>Ana</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="406"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="413"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="427"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="438"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="445"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="459"/>
         <source>0 MB</source>
         <translation>0 MB</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="504"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="536"/>
         <source>0 kB/s</source>
         <translation>0 kB/s</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="561"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="593"/>
         <source>00:00:00</source>
         <translation>00:00:00</translation>
     </message>
@@ -6777,61 +6839,61 @@ Yüklemek istiyor musunuz  ?
         <translation>[Uyumsuzluk]</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="163"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="164"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>MPEG PS (ff) kaydetme</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="208"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="209"/>
         <source> video not compatible
 </source>
         <translation> video uyumlu değil
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="217"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="218"/>
         <source> Bad width/height for VCD
 </source>
         <translation> VCD için hatalı genişlik/yükseklik
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="223"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="224"/>
         <source> Bad width/height for SVCD
 </source>
         <translation> SVCD için hatalı genişlik/yükseklik
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="229"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="230"/>
         <source> Bad width/height for DVD
 </source>
         <translation> DVD için bozuk genişlik/yükseklik
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="246"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="247"/>
         <source> VCD : only MP2 audio accepted
 </source>
         <translation> VCD: sadece MP2 ses kabul edilir
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="251"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="252"/>
         <source> VCD : only 44.1 khz audio accepted
 </source>
         <translation> VCD: sadece 44,1 kHz ses kabul edilir
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="258"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="259"/>
         <source> DVD : only 48 khz audio accepted
 </source>
         <translation> DVD: sadece 48 khz ses kabul edildi
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="264"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="265"/>
         <source>[ffPS] DVD : only MP2/AC3/DTS audio accepted
 </source>
         <translation>[ffPS] DVD: yalnızca MP2 / AC3 / DTS ses kabul edildir
@@ -6881,7 +6943,7 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="161"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="162"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Mpeg TS&apos;yi kaydetme (ff)</translation>
     </message>
@@ -6967,57 +7029,57 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="159"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="155"/>
         <source>Baseline</source>
         <translation>Temel</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="160"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="156"/>
         <source>Main</source>
         <translation>Ana</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="161"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="157"/>
         <source>High</source>
         <translation>Yüksek</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="166"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="162"/>
         <source>Profile:</source>
         <translation>Profil:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="167"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="163"/>
         <source>GOP Size:</source>
         <translation>GOP Boyutu:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="168"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="164"/>
         <source>Maximum Consecutive B-Frames:</source>
         <translation>Azami Ardışık B Çerçevesi:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="169"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="165"/>
         <source>Bitrate (kbps):</source>
         <translation>Bit hızı (kbps):</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="170"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="166"/>
         <source>Max Bitrate (kbps):</source>
         <translation>Maks Bit Hızı (kbps):</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="171"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="167"/>
         <source>Rate Control</source>
         <translation>Hız Kontrolü</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="172"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="168"/>
         <source>Frame Control</source>
         <translation>Çerçeve Kontrolü</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="183"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="179"/>
         <source>VideoToolbox H.264 Encoder Configuration</source>
         <translation>Video Araç kutusu H.264 Kodlayıcı Yapılandırması</translation>
     </message>
@@ -7183,7 +7245,7 @@ Değiştirmek istiyor musun?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/fitToSize.ui" line="441"/>
         <source>Details</source>
-        <translation>Ayrıntılar</translation>
+        <translation>Detaylar</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/fitToSize.ui" line="463"/>
@@ -7751,6 +7813,82 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stackField/hzStackField.cpp" line="53"/>
         <source>Put fields side by side.</source>
         <translation>Alanları yan yana koyun.</translation>
+    </message>
+</context>
+<context>
+    <name>imageStab</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.cpp" line="41"/>
+        <source>Image stabilizer</source>
+        <translation>Görüntü sabitleyici</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.cpp" line="42"/>
+        <source>Reduce camera shakiness.</source>
+        <translation>Kamera titremesini azaltın.</translation>
+    </message>
+</context>
+<context>
+    <name>imageStabDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="14"/>
+        <source>Image stabilizer</source>
+        <translation>Görüntü sabitleyici</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="37"/>
+        <source>Smoothing</source>
+        <translation>Düzleme</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="54"/>
+        <source>Gravity</source>
+        <translation>Çekimi</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="75"/>
+        <source>Interpolation</source>
+        <translation>Aradeğerleme</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="89"/>
+        <source>Bilinear</source>
+        <translation>İki çizgili</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="94"/>
+        <source>Bicubic</source>
+        <translation>Bikübik</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="102"/>
+        <source>Motion estimation</source>
+        <translation>Hareket tahmini</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="110"/>
+        <source>accurate</source>
+        <translation>kesin</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="115"/>
+        <source>fast</source>
+        <translation>hızlı</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="136"/>
+        <source>Auto Gravity</source>
+        <translation>Otomatik Yerçekimi</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="160"/>
+        <source>Scene threshold</source>
+        <translation>Sahne eşiği</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="167"/>
+        <source>Zoom</source>
+        <translation>Yakınlaştırma</translation>
     </message>
 </context>
 <context>
@@ -8608,12 +8746,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="222"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="223"/>
         <source>Saving WebM</source>
         <translation>WebM&apos;yi Kaydetme</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="224"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="225"/>
         <source>Saving Mkv</source>
         <translation>Mkv kaydediliyor</translation>
     </message>
@@ -8984,13 +9122,13 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="1065"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="1069"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 başlıklarını okumada sorun</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="502"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="613"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="509"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="620"/>
         <source>Decoding frame type</source>
         <translation>Çözme çerçeve tipi</translation>
     </message>
@@ -9033,19 +9171,24 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Ses için yalnızca AAC, AC3, DTS, E-AC3, MP2, MP3 ve Vorbis desteklenir</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="353"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="354"/>
         <source>Saving mp4</source>
         <translation>MP4 kaydediliyor</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="354"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="355"/>
         <source>Saving PSP</source>
         <translation>PSP Kaydedildi</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="356"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="357"/>
         <source>Saving mov</source>
         <translation>Film kaydediliyor</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="370"/>
+        <source>Optimizing...</source>
+        <translation>Optimize ediliyor...</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="38"/>
@@ -9210,32 +9353,37 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4v2muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="181"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="180"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="181"/>
         <source>Audio format not supported, only AAC/MP3/AC3</source>
         <translation>Ses formatı desteklenmiyor, sadece AAC / MP3 / AC3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="226"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="227"/>
         <source>Saving</source>
         <translation>Tasarruf</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="240"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="241"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="240"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="241"/>
         <source>Video does not have enough timing information. Are you copying from AVI?</source>
         <translation>Videoda yeterli zamanlama bilgisi yok. AVI&apos;dan mı kopyalama yapıyorsunuz?</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="305"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="302"/>
+        <source>Optimizing</source>
+        <translation>Optimize ediliyor</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2.cpp" line="306"/>
         <source>Cannot rename file (optimize)</source>
         <translation>Dosya yeniden adlandırılamıyor (optimize et)</translation>
     </message>
@@ -9384,22 +9532,22 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="235"/>
+        <location filename="../../common/gui_navigate.cpp" line="241"/>
         <source>Cannot go to next keyframe</source>
         <translation>Bir sonraki ana kareye gidilemiyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="303"/>
+        <location filename="../../common/gui_navigate.cpp" line="307"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Önceki ana kareye gidilemiyor</translation>
     </message>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="494"/>
+        <location filename="../../common/gui_navigate.cpp" line="637"/>
         <source>Seek</source>
         <translation>Araştırma</translation>
     </message>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="573"/>
+        <location filename="../../common/gui_navigate.cpp" line="724"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
@@ -9508,9 +9656,9 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>opendmldemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="321"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="397"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="665"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="322"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="398"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="667"/>
         <source>Malformed header</source>
         <translation>Hatalı biçimlendirilmiş başlık</translation>
     </message>
@@ -9596,94 +9744,123 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="51"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="86"/>
         <source>Frame Rate:</source>
         <translation>Kare hızı:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="65"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="200"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="72"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="214"/>
         <source>Total Duration:</source>
         <translation>Toplam Süre:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="79"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="44"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="58"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="93"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="100"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="107"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="121"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="152"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="207"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="228"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="242"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="249"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="263"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="277"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="51"/>
         <source>Aspect Ratio:</source>
         <translation>En Boy Oranı:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="93"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="65"/>
         <source>Image Size:</source>
         <translation>Görüntü boyutu:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="107"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="79"/>
         <source>Codec 4CC:</source>
         <translation>Codec 4CC:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="169"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="114"/>
+        <source>Average Bitrate:</source>
+        <translation>Ortalama Bit Hızı:</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="131"/>
+        <source>Video Codec Extradata</source>
+        <translation>Video Kodec Ekstra Verisi</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="159"/>
+        <source>Size:</source>
+        <translation>Boyut:</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="166"/>
+        <source>Extradata:</source>
+        <translation>Ekstra veriler:</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="183"/>
         <source>Audio</source>
         <translation>Ses</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="207"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="221"/>
         <source>Frequency:</source>
         <translation>Sıklık:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="221"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="235"/>
         <source>Variable Bitrate:</source>
         <translation>Değişken bit hızı:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="242"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="256"/>
         <source>Bitrate:</source>
         <translation>Bit hızı:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="256"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="270"/>
         <source>Channels:</source>
         <translation>Kanallar:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="270"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="284"/>
         <source>Codec:</source>
         <translation>Kod Çözücü:</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="44"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="58"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="72"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="86"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="100"/>
-        <source>TextLabel</source>
-        <translation>MetinEtiketi</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="117"/>
-        <source>Extra Video Properties</source>
-        <translation>Ekstra Video Özellikleri</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="145"/>
-        <source>ExtraDataSize:</source>
-        <translation>EkstraVeriBoyutu:</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="159"/>
-        <source>Extra data :</source>
-        <translation>Ekstra veri :</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="282"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="296"/>
         <source>Copy to Clipboard</source>
         <translation>Panoya kopyala</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="311"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="325"/>
         <source>OK</source>
         <translation>TAMAM</translation>
+    </message>
+    <message>
+        <source>TextLabel</source>
+        <translation type="vanished">MetinEtiketi</translation>
+    </message>
+    <message>
+        <source>Extra Video Properties</source>
+        <translation type="vanished">Ekstra Video Özellikleri</translation>
+    </message>
+    <message>
+        <source>ExtraDataSize:</source>
+        <translation type="vanished">EkstraVeriBoyutu:</translation>
+    </message>
+    <message>
+        <source>Extra data :</source>
+        <translation type="vanished">Ekstra veri :</translation>
     </message>
 </context>
 <context>
@@ -9770,34 +9947,38 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bu işlemi gerçekleştirmek için kök ayrıcalıkları gerekir.</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="213"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="228"/>
         <source>First Pass</source>
         <translation>İlk Geçiş</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="214"/>
-        <source>Pass 1</source>
-        <translation>Geçiş 1</translation>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="235"/>
+        <source>Second Pass</source>
+        <translation>İkinci Geçiş</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="218"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="236"/>
         <source>Encoding...</source>
         <translation>Kodlanıyor...</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="405"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="468"/>
         <source>The encoding is paused. Do you want to resume or abort?</source>
         <translation>Kodlama duraklatıldı. Devam etmek veya iptal etmek istiyor musunuz?</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="406"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="469"/>
         <source>Resume</source>
         <translation>Devam et</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="406"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="469"/>
         <source>Abort</source>
         <translation>İptal</translation>
+    </message>
+    <message>
+        <source>Pass 1</source>
+        <translation type="vanished">Geçiş 1</translation>
     </message>
 </context>
 <context>
@@ -9828,110 +10009,125 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="499"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="599"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="500"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="600"/>
         <source>Recent Projects</source>
         <translation>Son Projeler</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1092"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="626"/>
+        <source>Restore defaults</source>
+        <translation>Varsayılanları geri yükle</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1200"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1306"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1422"/>
         <source>Play/Stop</source>
         <translation>Oynat/Durdur</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1310"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1426"/>
         <source>Go to previous frame</source>
         <translation>Önceki kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1314"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1430"/>
         <source>Go to next frame</source>
         <translation>Sonraki kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1318"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1434"/>
         <source>Go to previous keyframe</source>
         <translation>Önceki ana kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1322"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1438"/>
         <source>Go to next keyframe</source>
         <translation>Sonraki ana kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1326"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1442"/>
         <source>Set start marker</source>
         <translation>Başlangıç işaretleyicisini ayarla</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1330"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1446"/>
         <source>Set end marker</source>
         <translation>Bitiş işaretini ayarla</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1336"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1450"/>
+        <source>Go to previous cut point</source>
+        <translation>Önceki kesme noktasına git</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1454"/>
+        <source>Go to next cut point</source>
+        <translation>Sonraki kesme noktasına git</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1460"/>
         <source>Go to first frame</source>
         <translation>İlk kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1340"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1464"/>
         <source>Go to last frame</source>
         <translation>Son kareye git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1344"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1468"/>
         <source>Go to marker A</source>
         <translation>A İşaretine Git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1348"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1472"/>
         <source>Go to marker B</source>
         <translation>B İşaretine Git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1367"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1491"/>
         <source>Backward one minute</source>
         <translation>Bir dakika geri git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1370"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="1494"/>
         <source>Forward one minute</source>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2064"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2248"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
 Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2305"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2489"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2307"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2491"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2377"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2569"/>
         <source>Selection: </source>
         <translation>Seçim: </translation>
     </message>
     <message numerus="yes">
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2682"/>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2684"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2895"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="2897"/>
         <source> (%n track(s))</source>
         <translation>
             <numerusform> (%n parça(l))</numerusform>
@@ -10086,33 +10282,33 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="464"/>
         <source>Partial</source>
         <translation>Kısmi</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="463"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="464"/>
         <source>This filter cannot be made partial</source>
         <translation>Bu filtre kısmi yapılamaz</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="762"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="763"/>
         <source>Add</source>
         <translation>Ekle</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="629"/>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="767"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="630"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="768"/>
         <source>Remove</source>
         <translation>Kaldır</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="628"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="629"/>
         <source>Configure</source>
         <translation>Yapılandır</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="626"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="627"/>
         <source>Move up</source>
         <translation>Yukarı git</translation>
     </message>
@@ -10127,42 +10323,42 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>DEVRE DIŞI </translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="627"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="628"/>
         <source>Move down</source>
         <translation>Aşağı in</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="630"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="631"/>
         <source>Make partial</source>
         <translation>Kısmi yap</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="631"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="632"/>
         <source>Enable/Disable</source>
         <translation>Etkin/Devre dışı</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="699"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="700"/>
         <source>Disable</source>
         <translation>Devre Dışı</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="700"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="701"/>
         <source>Enable</source>
         <translation>Etkin</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="833"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="834"/>
         <source>Press %s to accept the dialog</source>
         <translation>Diyaloğu kabul etmek için %s tuşuna basın</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="955"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="956"/>
         <source>Load video filters..</source>
         <translation>Video filtrelerini yükleyin..</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="970"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="971"/>
         <source>Save video filters..</source>
         <translation>Video filtrelerini kaydedin..</translation>
     </message>
@@ -10202,115 +10398,115 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <source>Yes</source>
         <translation>Evet</translation>
     </message>
-    <message numerus="yes">
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="98"/>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="65"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="69"/>
+        <source>%d kbps</source>
+        <translation>%d kbps</translation>
+    </message>
+    <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="100"/>
+        <source>(+%d bytes)</source>
+        <translation>(+%d bayt)</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="124"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="126"/>
         <source>Audio (%n active track(s))</source>
         <translation>
             <numerusform>Ses (%n aktif parça(l))</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="160"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="137"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="163"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="183"/>
-        <source>Video</source>
-        <translation>Video</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="185"/>
-        <source>Codec 4CC:	</source>
-        <translation>Codec 4CC:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="187"/>
-        <source>Image Size:	</source>
-        <translation>Görüntü boyutu:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="189"/>
-        <source>Aspect Ratio:	</source>
-        <translation>En Boy Oranı:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="191"/>
-        <source>Frame Rate:	</source>
-        <translation>Kare hızı:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="193"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="226"/>
-        <source>Total Duration:	</source>
-        <translation>Toplam Süre:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="195"/>
-        <source>Extra Video Properties</source>
-        <translation>Ekstra Video Özellikleri</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="197"/>
-        <source>ExtraDataSize:	</source>
-        <translation>EkstraVeriBoyutu:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="203"/>
-        <source>Extra data:	</source>
-        <translation>EkstraVeri:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="210"/>
-        <source>Audio</source>
-        <translation>Ses</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="216"/>
-        <source>Codec:		</source>
-        <translation>Kodlayıcı:		</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="218"/>
-        <source>Channels:	</source>
-        <translation>Kanallar:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="220"/>
-        <source>Bitrate:	</source>
-        <translation>Bit hızı:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="224"/>
-        <source>Frequency:	</source>
-        <translation>Sıklık:	</translation>
-    </message>
-    <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="229"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="250"/>
         <source>No Audio</source>
         <translation>Ses Yok</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="59"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="61"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fps</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="63"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="153"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="74"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="179"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="57"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_props.cpp" line="59"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
+    </message>
+    <message>
+        <source>Video</source>
+        <translation type="vanished">Video</translation>
+    </message>
+    <message>
+        <source>Codec 4CC:	</source>
+        <translation type="vanished">Codec 4CC:	</translation>
+    </message>
+    <message>
+        <source>Image Size:	</source>
+        <translation type="vanished">Görüntü boyutu:	</translation>
+    </message>
+    <message>
+        <source>Aspect Ratio:	</source>
+        <translation type="vanished">En Boy Oranı:	</translation>
+    </message>
+    <message>
+        <source>Frame Rate:	</source>
+        <translation type="vanished">Kare hızı:	</translation>
+    </message>
+    <message>
+        <source>Total Duration:	</source>
+        <translation type="vanished">Toplam Süre:	</translation>
+    </message>
+    <message>
+        <source>Extra Video Properties</source>
+        <translation type="vanished">Ekstra Video Özellikleri</translation>
+    </message>
+    <message>
+        <source>ExtraDataSize:	</source>
+        <translation type="vanished">EkstraVeriBoyutu:	</translation>
+    </message>
+    <message>
+        <source>Extra data:	</source>
+        <translation type="vanished">EkstraVeri:	</translation>
+    </message>
+    <message>
+        <source>Audio</source>
+        <translation type="vanished">Ses</translation>
+    </message>
+    <message>
+        <source>Codec:		</source>
+        <translation type="vanished">Kodlayıcı:		</translation>
+    </message>
+    <message>
+        <source>Channels:	</source>
+        <translation type="vanished">Kanallar:	</translation>
+    </message>
+    <message>
+        <source>Bitrate:	</source>
+        <translation type="vanished">Bit hızı:	</translation>
+    </message>
+    <message>
+        <source>Frequency:	</source>
+        <translation type="vanished">Sıklık:	</translation>
     </message>
 </context>
 <context>
@@ -10389,6 +10585,63 @@ Hazır.
     </message>
 </context>
 <context>
+    <name>quadTrans</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.cpp" line="42"/>
+        <source>Quadrilateral transformation</source>
+        <translation>Dörtgen dönüşüm</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.cpp" line="43"/>
+        <source>Four point transform.</source>
+        <translation>Dört nokta dönüşümü.</translation>
+    </message>
+</context>
+<context>
+    <name>quadTransDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="14"/>
+        <source>Quadrilateral transformation</source>
+        <translation>Dörtgen dönüşüm</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="67"/>
+        <source>Bilinear</source>
+        <translation>İki çizgili</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="72"/>
+        <source>Bicubic</source>
+        <translation>Bikübik</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="93"/>
+        <source>Interpolation:</source>
+        <translation>Aradeğerleme:</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="100"/>
+        <source>Zoom:</source>
+        <translation>Yakınlaştır:</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="134"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="161"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="235"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="269"/>
+        <source>Δy:</source>
+        <translation>Δy:</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="154"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="168"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="218"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="252"/>
+        <source>Δx:</source>
+        <translation>Δx:</translation>
+    </message>
+</context>
+<context>
     <name>qvobsub</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_vobsub.cpp" line="88"/>
@@ -10409,12 +10662,12 @@ Hazır.
         <translation>Yalnızca Video Çoklayıcı Ayarları</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="82"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="83"/>
         <source>Saving raw video</source>
         <translation>Ham video kaydetme</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="83"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="84"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
@@ -10470,80 +10723,95 @@ Hazır.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="407"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="446"/>
         <source>_Mode:</source>
         <translation>_Kip:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="408"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="447"/>
         <source>_New frame rate:</source>
         <translation>_Yeni kare hızı:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="409"/>
-        <source>Blend frames</source>
-        <translation>Çerçeveleri karıştır</translation>
-    </message>
-    <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="415"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="454"/>
         <source>Resample fps</source>
         <translation>Fps&apos;yi yeniden örnekle</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="43"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="44"/>
         <source>Custom</source>
         <translation>Özel</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="45"/>
         <source>25  (PAL)</source>
         <translation>25  (PAL)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="45"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="46"/>
         <source>23.976 (Film)</source>
         <translation>23.976 (Film)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="46"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="47"/>
         <source>29.97 (NTSC)</source>
         <translation>29.97 (NTSC)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="47"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="48"/>
         <source>50 (Pal)</source>
         <translation>50 (Pal)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="48"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="49"/>
         <source>59.94  (NTSC)</source>
         <translation>59.93  (NTSC)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="83"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="85"/>
         <source>Resample FPS</source>
         <translation>FPS&apos;yi yeniden örnekle</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="84"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="86"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
         <translation>FPS&apos;yi değiştirin ve uygulayın. Süreyi ve senkronizasyonu koru.</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="438"/>
+        <source>none</source>
+        <translation>yok</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="439"/>
+        <source>Blend</source>
+        <translation>Harman</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="440"/>
+        <source>Motion compensation</source>
+        <translation>Hareket Telafisi</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="448"/>
+        <source>_Interpolation:</source>
+        <translation>_Aradeğerleme:</translation>
     </message>
 </context>
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="335"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="424"/>
         <source>Width and height cannot be odd</source>
         <translation>Genişlik ve yükseklik garip olamaz</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="82"/>
         <source>swsResize</source>
         <translation>sws Yeniden Boyutlandırma</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="82"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="83"/>
         <source>swScale Resizer.</source>
         <translation>swScale Düzenleyici.</translation>
     </message>
@@ -10572,7 +10840,7 @@ Hazır.
         <translation>Hedef NOKTA:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="548"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="575"/>
         <source>Bicubic</source>
         <translation>Bikübik</translation>
     </message>
@@ -10647,24 +10915,39 @@ Hazır.
         <translation>0.00 / 0.00</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="535"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="508"/>
+        <source>0.0000</source>
+        <translation>0.0000</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="515"/>
+        <source>(00:00)</source>
+        <translation>(00:00)</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="562"/>
         <source>Resize Method:</source>
         <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="543"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="570"/>
         <source>Bilinear</source>
         <translation>İki çizgili</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="553"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="580"/>
         <source>Lanczos-3</source>
         <translation>Lanczos-3</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="558"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="585"/>
         <source>Spline</source>
         <translation>Spline</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/resizing.ui" line="590"/>
+        <source>Nearest neighbor</source>
+        <translation>En yakın komşu</translation>
     </message>
     <message>
         <source>Source:</source>
@@ -11744,7 +12027,7 @@ Dosya yeniden endekslenmelidir. devam edilsinmi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/qt4/waveletSharp.ui" line="49"/>
         <source>Strength</source>
-        <translation>Sertlik</translation>
+        <translation>Kuvvet</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/qt4/waveletSharp.ui" line="56"/>
