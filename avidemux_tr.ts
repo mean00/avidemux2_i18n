@@ -6968,7 +6968,7 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffv1/ADM_ffv1Encoder.cpp" line="126"/>
         <source>Golomb-Rice</source>
-        <translation>Golomb-Pirinç</translation>
+        <translation>Golomb-Rice</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffv1/ADM_ffv1Encoder.cpp" line="127"/>
