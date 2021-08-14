@@ -4,17 +4,17 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+124"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+125"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
         <translation>Denne video indeholder B-frames, men præsentationstidsstemplerne (PTS) findes enten ikke eller øges monotont. Avidemux kan forsøge at rekonstruere de korrekte PTS&apos;er ved at dekodere hele videoen. Dette kan tage lang tid. Fortsæt?</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+34"/>
         <source>Decoding video...</source>
         <translation>Dekoderer video...</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+163"/>
         <source>Some timing information are incorrect.
 It happens with some capture software.
 If you re encode video we should drop these informations,
@@ -103,7 +103,7 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-193"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-244"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Tjekker om tidsstempler er gyldige...</translation>
     </message>
@@ -1470,7 +1470,7 @@ Drop timinginformationer?</translation>
         <translation>Manuel (dB)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Gain mode:</source>
         <translation>_Forstærkningstilstand:</translation>
     </message>
@@ -2200,7 +2200,7 @@ Gå til Lyd-&gt;Hovedspor for at vælge det aktive.</translation>
         <translation>Noget fejlede ved tilføjelse til slutning</translation>
     </message>
     <message>
-        <location line="+320"/>
+        <location line="+322"/>
         <source>Something bad happened (II)</source>
         <translation>Noget gik galt (II)</translation>
     </message>
@@ -2379,7 +2379,7 @@ Kører den?</translation>
         <translation>Gemte %d billeder.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+760"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+809"/>
         <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2864,7 +2864,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1484"/>
+        <location filename="../../common/gui_main.cpp" line="-1486"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2919,7 +2919,7 @@ Expect problems.</source>
 Forvent problemer.</translation>
     </message>
     <message>
-        <location line="+272"/>
+        <location line="+274"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Ugyldigt lydindeks givet</translation>
@@ -2950,7 +2950,7 @@ Forvent problemer.</translation>
         <translation>Indstilling af sproget til det givne sporindeks er ikke muligt: ugyldigt sporindeks!</translation>
     </message>
     <message>
-        <location line="+297"/>
+        <location line="+299"/>
         <source>Oops</source>
         <translation>Ups</translation>
     </message>
@@ -3417,7 +3417,7 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+177"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+179"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -4208,12 +4208,12 @@ Try anyway?</source>
         <translation>_Nederste margen</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+12"/>
         <source>ASS</source>
         <translation>ASS</translation>
     </message>
     <message>
-        <location line="-142"/>
+        <location line="-148"/>
         <source>SSA/ASS/SRT</source>
         <translation>SSA/ASS/SRT</translation>
     </message>
@@ -4233,12 +4233,12 @@ Try anyway?</source>
         <translation>Er du sikkert på, at dette er en ASS-/SSA-fil?</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+46"/>
         <source>Do not adjust</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <source>Adjust for display aspect ratio:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4318,6 +4318,26 @@ Denne meddelelse vil ikke blive vist igen.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerAvi/muxerAviConfig.cpp" line="+25"/>
+        <source>AVI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Start as legacy AVI and switch to OpenDML mode when approaching the 4 GiB file size limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>OpenDML</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Muxing Format</source>
         <translation>Muxing-format</translation>
     </message>
@@ -4470,7 +4490,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
 <context>
     <name>blacken</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/ADM_vidBlackBorder.h" line="+41"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/ADM_vidBlackBorder.h" line="+43"/>
         <source>Blacken Borders</source>
         <translation>Mørke kanter</translation>
     </message>
@@ -4658,7 +4678,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>50 (PAL)</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+189"/>
         <source>Source Fps:</source>
         <translation>Kilde billeder/sekund:</translation>
     </message>
@@ -4688,7 +4708,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>Ugyldig billeder/sekund</translation>
     </message>
     <message>
-        <location line="-180"/>
+        <location line="-175"/>
         <source>Change FPS</source>
         <translation>Skift billeder/sekund</translation>
     </message>
@@ -4703,7 +4723,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>Gør videoen hurtigere/langsommere som ved ændring af billeder/sekund. Dette filtre ændrer varighed.</translation>
     </message>
     <message>
-        <location line="+179"/>
+        <location line="+174"/>
         <source>Error</source>
         <translation>Fejl</translation>
     </message>
@@ -5094,7 +5114,7 @@ Vil du indlæse den?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+563"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+564"/>
         <location line="+358"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
@@ -6048,7 +6068,7 @@ Vil du indlæse den?
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+251"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+264"/>
         <source>Normal (4:3)</source>
         <translation>Normal (4:3)</translation>
     </message>
@@ -6251,7 +6271,7 @@ Vil du indlæse den?
 <context>
     <name>ffmpeg4</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+187"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+198"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
@@ -6825,12 +6845,12 @@ Vil du indlæse den?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPSConfig.cpp" line="+51"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPSConfig.cpp" line="+54"/>
         <source>Free</source>
         <translation>Ledig</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Muxing Format</source>
         <translation>Muxing-format</translation>
     </message>
@@ -6891,7 +6911,7 @@ Vil du indlæse den?
 <context>
     <name>ffv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffv1/ADM_ffv1Encoder.cpp" line="+126"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffv1/ADM_ffv1Encoder.cpp" line="+139"/>
         <source>Golomb-Rice</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6901,7 +6921,7 @@ Vil du indlæse den?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>Small</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6911,7 +6931,7 @@ Vil du indlæse den?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
         <source>1</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6926,7 +6946,7 @@ Vil du indlæse den?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+3"/>
         <source>Coder:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6954,7 +6974,7 @@ Vil du indlæse den?
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+155"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+157"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7191,7 +7211,7 @@ Vil du erstatte den?</translation>
 <context>
     <name>flip</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/ADM_vidFlip.cpp" line="+35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/ADM_vidFlip.cpp" line="+36"/>
         <source>Flip</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7738,7 +7758,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
 <context>
     <name>huff</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/huff/ADM_huffEncoder.cpp" line="+104"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/huff/ADM_huffEncoder.cpp" line="+108"/>
         <source>HUFFYUV</source>
         <translation>HUFFYUV</translation>
     </message>
@@ -7748,7 +7768,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>FF HUFFYUV</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+3"/>
         <source>Type:</source>
         <translation>Type:</translation>
     </message>
@@ -7900,8 +7920,8 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+4"/>
+        <location line="+3"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>Full</source>
         <translation>Fuld</translation>
     </message>
@@ -7918,8 +7938,8 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>Meget hurtig</translation>
     </message>
     <message>
-        <location line="+5"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+5"/>
+        <location line="+3"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>_Frame rate change:</source>
         <translation>Ændring af _billedhastighed:</translation>
     </message>
@@ -8095,7 +8115,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
 <context>
     <name>jpeg</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/jpeg/ADM_jpegEncoder.cpp" line="+90"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/jpeg/ADM_jpegEncoder.cpp" line="+95"/>
         <source>YUV422</source>
         <translation>YUV422</translation>
     </message>
@@ -8105,7 +8125,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>YUV420</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+3"/>
         <source>_Quantizer:</source>
         <translation>_Quantiser:</translation>
     </message>
@@ -9457,7 +9477,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Kan ikke gå til det forrige nøglebillede</translation>
     </message>
     <message>
-        <location line="+330"/>
+        <location line="+358"/>
         <source>Seek</source>
         <translation>Søg</translation>
     </message>
@@ -9571,7 +9591,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>opendmldemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="+322"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDML.cpp" line="+342"/>
         <location line="+76"/>
         <location line="+269"/>
         <source>Malformed header</source>
@@ -9914,7 +9934,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+249"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+250"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
@@ -10282,7 +10302,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         <translation>Ukendt</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+96"/>
         <source>_Resume</source>
         <translation>_Genoptag</translation>
     </message>
@@ -10310,7 +10330,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         <translation>Ja</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>%2.3f fps</source>
         <translation>%2.3f billeder/sekund</translation>
     </message>
@@ -10345,12 +10365,12 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         </translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+189"/>
         <source>No Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-191"/>
+        <location line="-256"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
@@ -10601,7 +10621,7 @@ Ready.
         <translation>50 (PAL)</translation>
     </message>
     <message>
-        <location line="+390"/>
+        <location line="+387"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10636,7 +10656,7 @@ Ready.
         <translation>Gensample billeder/sekund</translation>
     </message>
     <message>
-        <location line="-369"/>
+        <location line="-366"/>
         <source>Resample FPS</source>
         <translation>Gensample billeder/sekund</translation>
     </message>
@@ -10664,7 +10684,7 @@ Ready.
         <translation>sw skalering tilpas størrelse.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+424"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+434"/>
         <source>Width and height cannot be odd</source>
         <translation>Bredde og højde kan ikke være ulige</translation>
     </message>
@@ -10827,17 +10847,17 @@ Ready.
     <name>rotate</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+52"/>
-        <location line="+163"/>
+        <location line="+161"/>
         <source>Rotate</source>
         <translation>Rotér</translation>
     </message>
     <message>
-        <location line="-162"/>
+        <location line="-160"/>
         <source>Rotate the image by 90/180/270 degrees.</source>
         <translation>Rotér billedet med 90/180/270 grader.</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+153"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
@@ -10845,6 +10865,11 @@ Ready.
         <location line="+1"/>
         <source>90 degrees</source>
         <translation>90 grader</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>90° clockwise</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10857,24 +10882,26 @@ Ready.
         <translation>270 grader</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source>90° contraclockwise</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>_Angle:</source>
         <translation>_Vinkel:</translation>
     </message>
     <message>
-        <location line="-4"/>
         <source>90°</source>
-        <translation>90°</translation>
+        <translation type="vanished">90°</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>180°</source>
-        <translation>180°</translation>
+        <translation type="vanished">180°</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>270°</source>
-        <translation>270°</translation>
+        <translation type="vanished">270°</translation>
     </message>
 </context>
 <context>
@@ -11188,7 +11215,7 @@ Ready.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+351"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+424"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14665,6 +14692,164 @@ Hvis det er en systemprofil, så vil den blive genskabt næste gang.</translatio
         <location line="+3"/>
         <source>yadif</source>
         <translation>yadif</translation>
+    </message>
+</context>
+<context>
+    <name>zoom</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+68"/>
+        <source>Zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Partializable crop filter.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+485"/>
+        <location line="+316"/>
+        <source>Selection: </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>zoomDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui" line="+14"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+14"/>
+        <source>Zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+105"/>
+        <source>Right:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+42"/>
+        <source>Top:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
+        <source>Reset</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-28"/>
+        <source>Bottom:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+45"/>
+        <source>Left:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
+        <source>Resize Method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Lanczos-3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Spline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+63"/>
+        <source>Lock Aspect Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>&amp;Hide Rubber Band</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <source>Selection: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
+        <location line="+4"/>
+        <source>Do not lock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Current selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Source</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>21:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>18:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>16:9</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>4:3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>1:1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>9:16</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Padding:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>black bars</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>echo</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 </TS>

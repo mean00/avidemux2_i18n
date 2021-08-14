@@ -310,6 +310,7 @@ HEADERS = \
 ../../../avidemux/qt4/ADM_UIs/include/DIA_flyDialogQt4_template.h \ 
 ../../../avidemux/qt4/ADM_UIs/include/ADM_UIQT46_export.h \ 
 ../../../avidemux/qt4/ADM_UIs/include/ADM_toolkitQt.h \ 
+../../../avidemux/qt4/ADM_UIs/include/ADM_QSettings.h \ 
 ../../../avidemux/qt4/ADM_UIs/include/ADM_dialogFactoryQt4.h \ 
 ../../../avidemux/qt4/ADM_UIs/include/DIA_flyDialogQt4.h \ 
 ../../../avidemux/qt4/ADM_UIs/include/T_openGLFilter.h \ 
@@ -588,6 +589,11 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/DIA_flyArtVHS.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/Q_artVHS.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/Q_zoom.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/Q_zoom.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/DIA_flyZoom.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/zoom.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/ADM_vidAsharp.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/DIA_flyAsharp.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/Q_asharp.h \ 
@@ -1556,6 +1562,13 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/artVHS_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/artVHS_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/Q_zoom.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/zoom_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/DIA_flyZoom.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/Q_zoom.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/zoom_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/Q_asharp.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/DIA_flyAsharp.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/asharp_json.cpp \ 
@@ -2035,6 +2048,8 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/asharp/qt4/asharp.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/hue/qt4/hue.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/chromaShift/qt4/chromashift.ui \ 
