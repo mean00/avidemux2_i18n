@@ -429,6 +429,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsproxy_net.h \ 
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsproxy_internal.h \ 
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsproxy.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/DIA_flyFadeInOut.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/fadeInOut.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeInOut.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/logo.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/DIA_flyLogo.h \ 
@@ -490,6 +494,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/delogoHQ.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/removePlane/rplane.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/fadeFromImage.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/DIA_flyFadeFromImage.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/qt4/Q_artCartoon.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/qt4/DIA_flyArtCartoon.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/artCartoon.h \ 
@@ -555,6 +563,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/Q_artColorEffect.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/artColorEffect.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/DIA_flyFadeThrough.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/fadeThrough.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avspipecomm.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/strnew.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/cdebug.h \ 
@@ -1325,6 +1337,13 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsproxy.cpp \ 
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsproxyAudio.cpp \ 
 ../../../avidemux_plugins/ADM_demuxers/AvsProxy/ADM_avsPlugin.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeIn.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeInOut.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/fadeInOut_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/DIA_flyFadeInOut.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/fadeInOut_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeOut.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/logo_desc.cpp \ 
@@ -1410,6 +1429,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/removePlane/rplane_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/removePlane/rplane_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/removePlane/removePlane.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/fadeFromImage_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/DIA_flyFadeFromImage.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/fadeFromImage_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/lumaOnly/lumaOnly.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/artCartoon_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/ADM_vidArtCartoon.cpp \ 
@@ -1507,6 +1531,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/artColorEffect_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/artColorEffect_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/fadeThrough_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/DIA_flyFadeThrough.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/fadeThrough_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/horizontalFlip/horizontalFlip.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/verticalFlip/verticalFlip.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/avsfilter/cdebug.cpp \ 
@@ -2017,6 +2046,7 @@ SOURCES = \
 
 FORMS = \
 ../../../avidemux_plugins/ADM_demuxers/VapourSynth/qt4/vs.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/fadeInOut.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/logo.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui \ 
@@ -2029,6 +2059,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/qt4/waveletSharp.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/waveletDenoise/qt4/waveletDenoise.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/delogoHQ.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/qt4/artCartoon.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/eq2.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/qt4/artChromaHold.ui \ 
@@ -2043,6 +2074,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/qt4/artDynThreshold.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVignette/qt4/artVignette.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/artColorEffect.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/fadeThrough.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui \ 

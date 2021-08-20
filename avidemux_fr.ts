@@ -2835,12 +2835,12 @@ Voulez-vous continuer ?</translation>
     <message>
         <location line="-259"/>
         <location line="+292"/>
-        <location line="+26"/>
+        <location line="+25"/>
         <source>Muxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-328"/>
+        <location line="-327"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2874,7 +2874,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+41"/>
         <source>Cannot open </source>
         <translation type="unfinished">Ne peut pas ouvrir</translation>
     </message>
@@ -5764,6 +5764,473 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>fadeFromImage</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.cpp" line="+38"/>
+        <source>Fade from first image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Use image at start time for fading.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
+        <source>_Start time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_End time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+76"/>
+        <location line="+19"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-16"/>
+        <location line="+22"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fadeFromImageDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui" line="+14"/>
+        <source>Fade from first image</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Set from A-B markers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Effect:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Linear blend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Slide</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Wipe</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Push</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Luma dissolve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Inverse luma dissolve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Static random dissolve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Dynamic random dissolve</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Up</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Down</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Start preview play before time scope, if you see green.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fadeInOut</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeIn.cpp" line="+24"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
+        <source>Fade in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade in from color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeOut.cpp" line="+24"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+2"/>
+        <source>Fade out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade out to color.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
+        <source>_Start time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_End time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+99"/>
+        <location line="+29"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-26"/>
+        <location line="+32"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fadeInOutDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/fadeInOut.ui" line="+14"/>
+        <source>Fade in/out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Set from A-B markers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
+        <source>Pick color:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fadeThrough</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp" line="+44"/>
+        <source>Fade through</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade through combination of multiple effects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+132"/>
+        <source>_Start time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_End time:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>Not possible!
+Start and/or end time would be out of range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+167"/>
+        <location line="+183"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-180"/>
+        <location line="+190"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
+        <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>fadeThroughDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/fadeThrough.ui" line="+20"/>
+        <source>Fade through</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Time scope: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Duration: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Manual time entry</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Set from A-B markers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Set center as A marker, duration is 2*|A-B|</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <location line="+19"/>
+        <source>Brightness</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-11"/>
+        <location line="+128"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+126"/>
+        <location line="+131"/>
+        <source>Enable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-790"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+131"/>
+        <location line="+126"/>
+        <location line="+200"/>
+        <source>Transient</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-896"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+131"/>
+        <location line="+126"/>
+        <location line="+200"/>
+        <source>Raised cosine</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-905"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+131"/>
+        <location line="+126"/>
+        <location line="+200"/>
+        <source>Ramp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-905"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+131"/>
+        <location line="+126"/>
+        <location line="+200"/>
+        <source>Quadratic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-905"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+131"/>
+        <location line="+126"/>
+        <location line="+200"/>
+        <source>Inverse quadratic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-905"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+257"/>
+        <location line="+200"/>
+        <source>Exponential</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-902"/>
+        <location line="+128"/>
+        <location line="+200"/>
+        <location line="+125"/>
+        <location line="+126"/>
+        <location line="+131"/>
+        <location line="+200"/>
+        <source>duration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-880"/>
+        <location line="+19"/>
+        <source>Saturation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+109"/>
+        <source>Color blend</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <location line="+582"/>
+        <source>Pick color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-516"/>
+        <source>Peak amount</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+103"/>
+        <source>Blur</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Blur radius</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+106"/>
+        <source>Rotate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Peak angle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+107"/>
+        <source>Zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+19"/>
+        <source>Peak zoom</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+112"/>
+        <source>Vignette</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+97"/>
+        <source>Peak opening</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>fadeTo</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeTo/ADM_vidFadeTo.cpp" line="+59"/>
@@ -8419,7 +8886,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">Gestionnaire de filtres videos</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+219"/>
         <source>&lt;big&gt;&lt;b&gt;Active Filters&lt;/b&gt;&lt;/big&gt;</source>
         <translation type="unfinished">&lt;big&gt;&lt;b&gt;Filtres Actifs&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
@@ -8429,9 +8896,14 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">&lt;big&gt;&lt;b&gt;Filtres disponibles&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-99"/>
         <source>Transform</source>
         <translation type="unfinished">Transformation</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Transition</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+9"/>
