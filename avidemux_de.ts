@@ -4021,7 +4021,7 @@ Nichtübereinstimmende Installation</translation>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+39"/>
         <source>VHS</source>
         <translation>VHS</translation>
     </message>
@@ -4039,34 +4039,39 @@ Nichtübereinstimmende Installation</translation>
         <translation>VHS</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+132"/>
         <source>Luma bandwidth</source>
         <translation>Luminanz-Bandbreite</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="-90"/>
         <source>Chroma bandwidth</source>
         <translation>Chrominanz-Bandbreite</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+83"/>
         <source>Sync error</source>
         <translation>Synchronisationsfehler</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="-76"/>
         <source>Use zero delay filter for chroma</source>
         <translation>Chrominanz nicht verzögern</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-14"/>
         <source>Use zero delay filter for luma</source>
         <translation>Luminanz nicht verzögern</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+70"/>
         <source>Sync error filter</source>
         <translation>Synchronisationsfilter</translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Noise</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

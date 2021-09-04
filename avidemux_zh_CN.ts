@@ -4018,7 +4018,7 @@ Expect problems.</source>
 <context>
     <name>artVHS</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+39"/>
         <source>VHS</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4036,33 +4036,38 @@ Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+132"/>
         <source>Luma bandwidth</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="-90"/>
         <source>Chroma bandwidth</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+83"/>
         <source>Sync error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="-76"/>
         <source>Use zero delay filter for chroma</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-14"/>
         <source>Use zero delay filter for luma</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+70"/>
         <source>Sync error filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+34"/>
+        <source>Noise</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
