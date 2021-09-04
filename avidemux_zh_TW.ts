@@ -19,7 +19,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+491"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+496"/>
         <source>width</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1186,7 +1186,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+534"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+550"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1352,7 +1352,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1942"/>
+        <location filename="../../common/gui_main.cpp" line="+1946"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1362,7 +1362,7 @@ Drop timing informations ?</source>
         <translation>開啟</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-42"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-54"/>
         <source>SIMD</source>
         <translation>SIMD</translation>
     </message>
@@ -1440,7 +1440,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-86"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+225"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+237"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="-606"/>
@@ -1472,7 +1472,7 @@ It is needed to create FLV  video.</source>
         <translation>只顯示錯誤警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+809"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
         <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -1606,7 +1606,7 @@ Installation mismatch</source>
         <translation>解碼器選項(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-138"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-150"/>
         <source>Enable 3DNOWEXT</source>
         <translation>啟用 3DNOWEXT</translation>
     </message>
@@ -1635,7 +1635,7 @@ Installation mismatch</source>
         <translation>位移音量 (ms):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-772"/>
+        <location filename="../../common/gui_main.cpp" line="-776"/>
         <source>Error while cutting out.</source>
         <translation>剪下時發生錯誤.</translation>
     </message>
@@ -1650,7 +1650,7 @@ Installation mismatch</source>
         <translation>不能增加工作 %s</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+137"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+149"/>
         <source>Pro Logic</source>
         <translation>定向邏輯</translation>
     </message>
@@ -1665,7 +1665,7 @@ Installation mismatch</source>
         <translation>太短</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+668"/>
+        <location filename="../../common/gui_main.cpp" line="+672"/>
         <source>Marker A &gt; B</source>
         <translation>標記 A &gt; B</translation>
     </message>
@@ -1743,7 +1743,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1762"/>
+        <location filename="../../common/gui_main.cpp" line="-1766"/>
         <source>Select script to run</source>
         <translation>選擇腳本去執行</translation>
     </message>
@@ -1753,7 +1753,7 @@ Installation mismatch</source>
         <translation>沒降混合</translation>
     </message>
     <message>
-        <location line="-133"/>
+        <location line="-145"/>
         <source>Enable SSE2</source>
         <translation>啟用 SSE2</translation>
     </message>
@@ -1798,7 +1798,7 @@ Installation mismatch</source>
         <translation>外掛-音訊裝置(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1252"/>
+        <location filename="../../common/gui_main.cpp" line="+1256"/>
         <source>Something bad happened</source>
         <translation>有些事發生問題</translation>
     </message>
@@ -1818,7 +1818,7 @@ Installation mismatch</source>
         <translation>多音軌</translation>
     </message>
     <message>
-        <location line="-424"/>
+        <location line="-428"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -1904,7 +1904,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+319"/>
+        <location line="+323"/>
         <source>Something failed when appending</source>
         <translation>當增加時某些事情失敗</translation>
     </message>
@@ -1919,7 +1919,7 @@ Proceed anyway?</source>
         <translation>反轉向上和向下方向鍵進行導航</translation>
     </message>
     <message>
-        <location line="+98"/>
+        <location line="+110"/>
         <source>SDL (good)</source>
         <translation>SDL (好)</translation>
     </message>
@@ -1986,7 +1986,7 @@ Warning, the settings must be close.</source>
         <translation>高於一般</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-929"/>
+        <location filename="../../common/gui_main.cpp" line="-933"/>
         <source>Select script to save</source>
         <translation>選擇腳本去儲存</translation>
     </message>
@@ -2008,7 +2008,7 @@ Warning, the settings must be close.</source>
         <translation>選擇影片去附加合併(二影片寬高比要一致)...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-33"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-45"/>
         <source>Enable SSSE3</source>
         <translation>啟用 SSSE3</translation>
     </message>
@@ -2023,7 +2023,7 @@ Warning, the settings must be close.</source>
         <translation>外掛-影片解碼器(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1175"/>
+        <location filename="../../common/gui_main.cpp" line="+1179"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>無法設置音訊語言：仍然未載入影片！</translation>
     </message>
@@ -2033,7 +2033,7 @@ Warning, the settings must be close.</source>
         <translation>選擇音訊音軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+35"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+47"/>
         <source>Below normal</source>
         <translation>低於一般</translation>
     </message>
@@ -2053,7 +2053,7 @@ Warning, the settings must be close.</source>
         <translation>杜比定向邏輯</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-43"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-55"/>
         <source>Enable 3DNOW</source>
         <translation>啟用 3DNOW</translation>
     </message>
@@ -2150,7 +2150,7 @@ Installation mismatch</source>
         <translation>設定語言提供跟蹤索引是不可能的：影片有沒有音訊檔！</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+80"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+92"/>
         <source>OpenGL (best)</source>
         <translation>OpenGL (最好)</translation>
     </message>
@@ -2183,7 +2183,7 @@ Installation mismatch</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1270"/>
+        <location filename="../../common/gui_main.cpp" line="-1274"/>
         <source>Not coded in this version</source>
         <translation>沒有編進這個版本</translation>
     </message>
@@ -2208,7 +2208,7 @@ Installation mismatch</source>
         <translation>忽略</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1030"/>
+        <location filename="../../common/gui_main.cpp" line="+1034"/>
         <source>No error found</source>
         <translation>沒有找到錯誤</translation>
     </message>
@@ -2275,7 +2275,7 @@ Installation mismatch</source>
         <translation>清除最近使用的 檔案 及 專案</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-67"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-79"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>解碼影片使用 DXVA2 (windows)</translation>
     </message>
@@ -2285,7 +2285,7 @@ Installation mismatch</source>
         <translation>運動搜索精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+242"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Output</source>
         <translation>輸出</translation>
     </message>
@@ -2295,7 +2295,7 @@ Installation mismatch</source>
         <translation>不能建立流</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-217"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-229"/>
         <source>Enable all SIMD</source>
         <translation>啟用所有 SIMD</translation>
     </message>
@@ -2313,7 +2313,7 @@ Installation mismatch</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+158"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+170"/>
         <source>_AudioDevice</source>
         <translation>音訊裝置</translation>
     </message>
@@ -2339,7 +2339,7 @@ Installation mismatch</source>
         <translation>廣泛搜尋</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1215"/>
+        <location filename="../../common/gui_main.cpp" line="-1219"/>
         <source>Select script to debug</source>
         <translation>選擇腳本去除錯</translation>
     </message>
@@ -2374,7 +2374,7 @@ Installation mismatch</source>
         <translation>轉到第一幀(開始)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+727"/>
+        <location filename="../../common/gui_main.cpp" line="+731"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>無法開啟 &quot;%s&quot;。</translation>
     </message>
@@ -2493,7 +2493,7 @@ Installation mismatch</source>
         <translation>沒有改變</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-656"/>
+        <location filename="../../common/gui_main.cpp" line="-660"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>你是要清除最近使用的檔和專案的清單，這不&apos;能撤銷，是否繼續？</translation>
     </message>
@@ -2509,7 +2509,7 @@ Installation mismatch</source>
         <translation>沒有引擎</translation>
     </message>
     <message>
-        <location line="+510"/>
+        <location line="+514"/>
         <source>&quot;%s&quot; does not exist.</source>
         <translation>&quot;%s&quot; 不存在。</translation>
     </message>
@@ -2524,7 +2524,7 @@ Installation mismatch</source>
         <translation>建立時間軸</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-136"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-148"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>解碼影片使用 VDPAU (NVIDIA)</translation>
     </message>
@@ -2555,7 +2555,7 @@ It is needed to create PSP compatible video.</source>
         <translation>外掛程式(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+96"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+108"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (最好)</translation>
     </message>
@@ -2630,7 +2630,7 @@ Do you want to continue anyway ?</source>
         <translation>另存 %s 為 BMP 檔失敗。</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-173"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-185"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>啟用備用的鍵盤快速鍵</translation>
     </message>
@@ -2645,7 +2645,7 @@ Do you want to continue anyway ?</source>
         <translation>使用影片載入器時無法開啟專案。</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+104"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+116"/>
         <source>LIBVA (best)</source>
         <translation>LIBVA (最好)</translation>
     </message>
@@ -2732,12 +2732,32 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>儲存工作</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-169"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-181"/>
         <source>_Check for new release</source>
         <translation>檢查有新版本</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+14"/>
+        <source>Enable SSE4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4.2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+32"/>
         <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2807,7 +2827,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>關鍵幀提高(%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-162"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
         <source>Enable MMX</source>
         <translation>啟用 MMX</translation>
     </message>
@@ -2828,14 +2848,14 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>檔系統已滿</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+285"/>
         <location line="+3"/>
         <location line="+3"/>
         <source>HW Accel</source>
         <translation>HW 硬體加速器</translation>
     </message>
     <message>
-        <location line="-274"/>
+        <location line="-286"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>同意在 DVD 使用非標準的音訊頻率</translation>
     </message>
@@ -2875,7 +2895,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>不能使用該檔作為音訊軌道</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+48"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+60"/>
         <source>Prioritisation</source>
         <translation>優化</translation>
     </message>
@@ -2895,7 +2915,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>非常高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1423"/>
+        <location filename="../../common/gui_main.cpp" line="-1427"/>
         <source>Select script/project to run</source>
         <translation>選擇要執行的腳本/專案</translation>
     </message>
@@ -2957,7 +2977,7 @@ Installation mismatch</source>
         <translation>去除垂直方向塊狀色斑</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1247"/>
+        <location filename="../../common/gui_main.cpp" line="+1251"/>
         <source>Errors found in %u frames</source>
         <translation>在 %u 幀中發現錯誤</translation>
     </message>
@@ -2987,7 +3007,7 @@ Installation mismatch</source>
         <translation>自由型 2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-673"/>
+        <location filename="../../common/gui_main.cpp" line="-677"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>剪下</translation>
@@ -3073,7 +3093,7 @@ Installation mismatch</source>
         <translation>訊息等級:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+673"/>
+        <location filename="../../common/gui_main.cpp" line="+677"/>
         <source>You can&apos;t remove all frames</source>
         <translation>你不&apos;能移除所有的幀</translation>
     </message>
@@ -3083,12 +3103,12 @@ Installation mismatch</source>
         <translation>進階(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-138"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-150"/>
         <source>Enable openGl support</source>
         <translation>啟用openGl支援</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1019"/>
+        <location filename="../../common/gui_main.cpp" line="-1023"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>在生成中未啟用 tinyPy 腳本</translation>
     </message>
@@ -3134,7 +3154,7 @@ Installation mismatch</source>
         <translation>取消編輯(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1333"/>
+        <location filename="../../common/gui_main.cpp" line="+1337"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>無法連線到 avs代理，
@@ -3168,7 +3188,7 @@ Install lame plugin</source>
         <translation>另存圖片(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+295"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+307"/>
         <location line="+3"/>
         <source>Preferences</source>
         <translation>首選項-偏好設定</translation>
@@ -3428,7 +3448,7 @@ Expect problems.</source>
         <translation>內部開啟錯誤中 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-924"/>
+        <location filename="../../common/gui_main.cpp" line="-928"/>
         <source>Are you sure?</source>
         <translation>確定嗎?</translation>
     </message>
@@ -6036,7 +6056,7 @@ Do you want to load it  ?
 <context>
     <name>fadeThrough</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6046,7 +6066,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+132"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6067,20 +6087,42 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+167"/>
-        <location line="+183"/>
+        <location line="+170"/>
+        <location line="+186"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-180"/>
-        <location line="+190"/>
+        <location line="-183"/>
+        <location line="+196"/>
         <source>Duration: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-5"/>
         <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <source>Fade in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade in from combination of multiple effects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
+        <source>Fade out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade out to combination of multiple effects.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6118,7 +6160,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Set center as A marker, duration is 2*|A-B|</source>
+        <source>Set center as A marker, duration is 2×|A-B|</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9929,7 +9971,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+665"/>
+        <location filename="../../common/gui_navigate.cpp" line="+698"/>
         <source>Seek</source>
         <translation>尋求</translation>
     </message>
@@ -10068,7 +10110,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+391"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10400,12 +10442,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2492"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2504"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1049"/>
+        <location line="-1061"/>
         <source>Set start marker</source>
         <translation>設定開始標記</translation>
     </message>
@@ -10415,14 +10457,14 @@ The file must be re-indexed. Proceed?</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1648"/>
+        <location line="+1660"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
 當前編輯已保儲存, 將在下一開始重新載入</translation>
     </message>
     <message>
-        <location line="-814"/>
+        <location line="-826"/>
         <source>Go to previous keyframe</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
@@ -10467,7 +10509,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分鐘</translation>
     </message>
     <message>
-        <location line="+998"/>
+        <location line="+1010"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10477,7 +10519,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+326"/>
+        <location line="+336"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
@@ -10485,7 +10527,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1437"/>
+        <location line="-1459"/>
         <source>Go to first frame</source>
         <translation>轉到第一幀</translation>
     </message>
@@ -12392,17 +12434,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+124"/>
         <source>Strength</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Noise cutoff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-54"/>
         <source>Radius</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+20"/>
         <source>High quality</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12462,17 +12509,17 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+656"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+730"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location line="-478"/>
+        <location line="-480"/>
         <source>none</source>
         <translation>無</translation>
     </message>
     <message>
-        <location line="+629"/>
+        <location line="+631"/>
         <location line="+70"/>
         <location line="+14"/>
         <source>Error</source>
@@ -12511,12 +12558,12 @@ Do you wish to continue?</source>
         <translation>刪除</translation>
     </message>
     <message>
-        <location line="-668"/>
+        <location line="-665"/>
         <source>Custom</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location line="+648"/>
+        <location line="+645"/>
         <source>Cannot save preset</source>
         <translation>無法儲存預設定</translation>
     </message>
@@ -12526,7 +12573,7 @@ Do you wish to continue?</source>
         <translation>量化器:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+199"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
         <source>Not coded</source>
         <translation>不編碼</translation>
     </message>
@@ -12574,7 +12621,17 @@ Do you wish to continue?</source>
         <translation>複寫</translation>
     </message>
     <message>
-        <location line="-134"/>
+        <location line="-693"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+557"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>

@@ -31,7 +31,7 @@ Hvis du blot kopierer videoen uden genkodning,
 Drop timinginformationer?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+425"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+430"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Kan ikke finde en demuxer for %s</translation>
     </message>
@@ -1205,7 +1205,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+549"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+565"/>
         <location line="+3"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
@@ -1671,7 +1671,7 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-242"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-254"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
@@ -1746,7 +1746,27 @@ Drop timinginformationer?</translation>
         <translation>Aktivér SSSE3</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+1"/>
+        <source>Enable SSE4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4.2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>_lavc threads:</source>
         <translation>_lavc-tråde:</translation>
     </message>
@@ -2148,7 +2168,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+117"/>
         <source>Permission error</source>
         <translation>Tilladelsesfejl</translation>
     </message>
@@ -2379,7 +2399,7 @@ Kører den?</translation>
         <translation>Gemte %d billeder.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+809"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
         <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2669,7 +2689,7 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-298"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-310"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
@@ -2719,7 +2739,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+82"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2864,7 +2884,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1486"/>
+        <location filename="../../common/gui_main.cpp" line="-1490"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2911,7 +2931,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Fejl under udklipning.</translation>
     </message>
     <message>
-        <location line="+484"/>
+        <location line="+488"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -6045,7 +6065,7 @@ Vil du indlæse den?
 <context>
     <name>fadeThrough</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6055,7 +6075,7 @@ Vil du indlæse den?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+132"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6076,20 +6096,42 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+167"/>
-        <location line="+183"/>
+        <location line="+170"/>
+        <location line="+186"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-180"/>
-        <location line="+190"/>
+        <location line="-183"/>
+        <location line="+196"/>
         <source>Duration: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-5"/>
         <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <source>Fade in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade in from combination of multiple effects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
+        <source>Fade out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade out to combination of multiple effects.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6127,7 +6169,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Set center as A marker, duration is 2*|A-B|</source>
+        <source>Set center as A marker, duration is 2×|A-B|</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9939,7 +9981,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+241"/>
+        <location filename="../../common/gui_navigate.cpp" line="+274"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kan ikke gå til det næste nøglebillede</translation>
     </message>
@@ -10078,7 +10120,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+391"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10506,7 +10548,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Fremad ét minut</translation>
     </message>
     <message>
-        <location line="+754"/>
+        <location line="+766"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Programmet er stødt på et fatalt problem
@@ -10528,7 +10570,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+326"/>
+        <location line="+336"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -12336,17 +12378,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+124"/>
         <source>Strength</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Noise cutoff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-54"/>
         <source>Radius</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+20"/>
         <source>High quality</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12408,7 +12455,7 @@ Understøtter kun VP8-/VP9-video og Vorbis-/Opus-lyd</translation>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+199"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
         <source>Not coded</source>
         <translation>Ikke kodet</translation>
     </message>
@@ -12420,17 +12467,27 @@ Understøtter kun VP8-/VP9-video og Vorbis-/Opus-lyd</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>none</source>
         <translation>intet</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+1"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>Custom</source>
         <translation>Brugerdefineret</translation>
     </message>
     <message>
-        <location line="+412"/>
+        <location line="+409"/>
         <source>Target Bitrate:</source>
         <translation>Ønsket bithastighed:</translation>
     </message>

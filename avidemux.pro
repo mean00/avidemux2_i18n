@@ -1532,8 +1532,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/artColorEffect_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/fadeThrough_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/DIA_flyFadeThrough.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/fadeThrough_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/horizontalFlip/horizontalFlip.cpp \ 

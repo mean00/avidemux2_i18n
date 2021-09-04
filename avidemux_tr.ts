@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+461"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+466"/>
         <source>Attempt to open %s failed!</source>
         <translation>%s açma girişimi başarısız oldu!</translation>
     </message>
@@ -1092,7 +1092,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1182,7 +1182,27 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>SSSE3&apos;ü etkinleştir</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+1"/>
+        <source>Enable SSE4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4.2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>_lavc threads:</source>
         <translation>_Lavc İş Parçacığı:</translation>
     </message>
@@ -1663,7 +1683,7 @@ Bu, kaynak videodaki bir sorunu, düzenleme durumunu veya programdaki bir hatay�
 Yine de devam edilsin mi?</translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+117"/>
         <source>Permission error</source>
         <translation>İzin Hatası</translation>
     </message>
@@ -1857,7 +1877,7 @@ Is it running ?</source>
         <translation>%d resimi kaydedildi.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+809"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
         <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2148,7 +2168,7 @@ Is it running ?</source>
         <translation>_Halka azaltma</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-288"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-300"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>VDPAU (NVIDIA) kullanarak video kodunu çözme</translation>
     </message>
@@ -2183,7 +2203,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+79"/>
         <source>Caching of decoded pictures</source>
         <translation>Çözülmüş resimlerin önbelleğe alınması</translation>
     </message>
@@ -2616,7 +2636,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1486"/>
+        <location filename="../../common/gui_main.cpp" line="-1490"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -2682,7 +2702,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Keserken hata.</translation>
     </message>
     <message>
-        <location line="+801"/>
+        <location line="+805"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Geçersiz ses dizini verildi</translation>
@@ -6103,7 +6123,7 @@ Yüklemek istiyor musunuz  ?
 <context>
     <name>fadeThrough</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6113,7 +6133,7 @@ Yüklemek istiyor musunuz  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+132"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6134,20 +6154,42 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+167"/>
-        <location line="+183"/>
+        <location line="+170"/>
+        <location line="+186"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-180"/>
-        <location line="+190"/>
+        <location line="-183"/>
+        <location line="+196"/>
         <source>Duration: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-5"/>
         <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <source>Fade in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade in from combination of multiple effects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
+        <source>Fade out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade out to combination of multiple effects.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6185,7 +6227,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Set center as A marker, duration is 2*|A-B|</source>
+        <source>Set center as A marker, duration is 2×|A-B|</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10059,7 +10101,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+241"/>
+        <location filename="../../common/gui_navigate.cpp" line="+274"/>
         <source>Cannot go to next keyframe</source>
         <translation>Bir sonraki ana kareye gidilemiyor</translation>
     </message>
@@ -10198,7 +10240,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+391"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation>&quot;%s&quot; yi kısmi hale getirin</translation>
     </message>
@@ -10631,7 +10673,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+754"/>
+        <location line="+766"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
@@ -10653,7 +10695,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Seçim: </translation>
     </message>
     <message numerus="yes">
-        <location line="+326"/>
+        <location line="+336"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -12559,17 +12601,22 @@ Dosya yeniden endekslenmelidir. devam edilsinmi?</translation>
         <translation>Dalgacık Kalemtıraş</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+124"/>
         <source>Strength</source>
         <translation>Kuvvet</translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Noise cutoff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-54"/>
         <source>Radius</source>
         <translation>Yarıçap</translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+20"/>
         <source>High quality</source>
         <translation>Yüksek kalite</translation>
     </message>
@@ -12631,7 +12678,7 @@ Yalnızca VP8 / VP9 video ve Vorbis / Opus ses desteklenir</translation>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+199"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
         <source>Not coded</source>
         <translation>Kodlanmamış</translation>
     </message>
@@ -12643,17 +12690,27 @@ Yalnızca VP8 / VP9 video ve Vorbis / Opus ses desteklenir</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>none</source>
         <translation>hiçbiri</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+1"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>Custom</source>
         <translation>Özel</translation>
     </message>
     <message>
-        <location line="+412"/>
+        <location line="+409"/>
         <source>Target Bitrate:</source>
         <translation>Hedef bit hızı:</translation>
     </message>

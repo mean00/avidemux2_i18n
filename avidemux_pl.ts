@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+461"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+466"/>
         <source>Attempt to open %s failed!</source>
         <translation>Nie udało się otworzyć %s!</translation>
     </message>
@@ -1093,7 +1093,7 @@ Porzucić informacje dotyczące czasu?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekoduj wideo używając DXVA2 (windows)</translation>
     </message>
@@ -1188,7 +1188,27 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>Włącz obsługę instrukcji SSSE3 procesora</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+1"/>
+        <source>Enable SSE4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4.2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
         <source>_lavc threads:</source>
         <translation>Wątki _lavc:</translation>
     </message>
@@ -1782,7 +1802,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+113"/>
+        <location line="+117"/>
         <source>Permission error</source>
         <translation>Błąd: Brak uprawnień</translation>
     </message>
@@ -1991,7 +2011,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Zapisano %d obrazów.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+809"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
         <location line="+49"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -2146,7 +2166,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Multipleksery</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-306"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-318"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Dekoduj wideo używając VDPAU (NVIDIA)</translation>
     </message>
@@ -2176,7 +2196,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Sprawdź czy jest nowe wydanie</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="+82"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2612,7 +2632,7 @@ It is needed to create PSP compatible video.</source>
 Jest on wymagany do tworzenia wideo kompatybilnego z PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1486"/>
+        <location filename="../../common/gui_main.cpp" line="-1490"/>
         <source>Select script/project to run</source>
         <translation>Wybierz skrypt/projekt do uruchomienia</translation>
     </message>
@@ -2678,7 +2698,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Błąd podczas wycinania.</translation>
     </message>
     <message>
-        <location line="+801"/>
+        <location line="+805"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Podano nieprawidłowy indeks audio</translation>
@@ -6043,7 +6063,7 @@ Czy chcesz go wczytać ?
 <context>
     <name>fadeThrough</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.cpp" line="+44"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6053,7 +6073,7 @@ Czy chcesz go wczytać ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+132"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6074,20 +6094,42 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+167"/>
-        <location line="+183"/>
+        <location line="+170"/>
+        <location line="+186"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-180"/>
-        <location line="+190"/>
+        <location line="-183"/>
+        <location line="+196"/>
         <source>Duration: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-5"/>
         <source>Center: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <source>Fade in</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade in from combination of multiple effects.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
+        <source>Fade out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Fade out to combination of multiple effects.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6125,7 +6167,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>Set center as A marker, duration is 2*|A-B|</source>
+        <source>Set center as A marker, duration is 2×|A-B|</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9937,7 +9979,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+241"/>
+        <location filename="../../common/gui_navigate.cpp" line="+274"/>
         <source>Cannot go to next keyframe</source>
         <translation>Nie można przejść do następnej klatki kluczowej</translation>
     </message>
@@ -10076,7 +10118,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+391"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10508,7 +10550,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Do przodu jedna minuta</translation>
     </message>
     <message>
-        <location line="+754"/>
+        <location line="+766"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikacja napotkała fatalny problem!
@@ -10530,7 +10572,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+326"/>
+        <location line="+336"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
@@ -12393,17 +12435,22 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+124"/>
         <source>Strength</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+7"/>
+        <source>Noise cutoff</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-54"/>
         <source>Radius</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+62"/>
+        <location line="+20"/>
         <source>High quality</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12445,7 +12492,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+199"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
         <source>Not coded</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12457,17 +12504,27 @@ The file must be re-indexed. Proceed?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+178"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>none</source>
         <translation>brak</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+1"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>Custom</source>
         <translation>Własne</translation>
     </message>
     <message>
-        <location line="+412"/>
+        <location line="+409"/>
         <source>Target Bitrate:</source>
         <translation>Docelowa przepływność:</translation>
     </message>
