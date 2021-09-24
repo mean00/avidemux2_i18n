@@ -1092,7 +1092,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1202,7 +1202,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>_Lavc İş Parçacığı:</translation>
     </message>
@@ -1244,7 +1244,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Düşük</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>_ Kodlama önceliği:</translation>
     </message>
@@ -1274,7 +1274,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Va_rsayılan olarak ilk geçiş günlük dosyalarını sil</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation>Otomatik Ekleme Ayarları</translation>
     </message>
@@ -1289,7 +1289,22 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>_Parça boyutu:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use _shared cache</source>
         <translation>_Paylaşılan önbelleği kullan</translation>
     </message>
@@ -1387,12 +1402,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Varsayılan Rötuş</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Kullanıcı arayüzü</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Çıktı</translation>
     </message>
@@ -1425,18 +1440,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>İş parçası</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+84"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+86"/>
         <source>Pr&amp;eferences</source>
         <translation>Te&amp;rcihler</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+11"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+9"/>
         <source>Preferences</source>
         <translation>Tercihler</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-35"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-37"/>
         <source>Connect to avsproxy</source>
         <translation>Avsproxy&apos;ye bağlan</translation>
     </message>
@@ -1456,7 +1470,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>İşaretçi B&apos;yi ayarla</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+20"/>
         <location line="+9"/>
         <source>Filters</source>
         <translation>Filtreler</translation>
@@ -1585,7 +1599,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Bu sürümde kodlanmamış</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+239"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Bu video, anahtar kareler olarak IDR yerine IDR olmayan kurtarma noktaları kullanıyor. Video akışındaki resim yeniden sıralama bilgileri IDR olmayan karelerde sıfırlanmaz. Yapıştırılan seçimin kesme noktaları, kopyalama modunda kaydedildiyse çerçevelerin ters görüntülenme sırası nedeniyle oynatma kesintisine neden olabilir.
@@ -2078,7 +2092,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-18"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-13"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2168,7 +2182,7 @@ Is it running ?</source>
         <translation>_Halka azaltma</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-300"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-326"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>VDPAU (NVIDIA) kullanarak video kodunu çözme</translation>
     </message>
@@ -2203,7 +2217,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+104"/>
         <source>Caching of decoded pictures</source>
         <translation>Çözülmüş resimlerin önbelleğe alınması</translation>
     </message>
@@ -2275,7 +2289,12 @@ Is it running ?</source>
         <translation>_Dil</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Yenileme Hızını Sınırla</translation>
     </message>
@@ -2302,7 +2321,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-206"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -2312,7 +2331,7 @@ Is it running ?</source>
         <translation>Kullanılacak varsayılan bağlantı noktası</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-102"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-104"/>
         <source>Open</source>
         <translation>Aç</translation>
     </message>
@@ -2410,6 +2429,16 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+5"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation>İşaretleyicileri Sıfırla</translation>
     </message>
@@ -2636,7 +2665,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -2682,7 +2711,7 @@ PSP uyumlu video oluşturmak gerekir.</translation>
         <translation>Eklenecek Video Dosyasını Seçin ...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5319,6 +5348,42 @@ Yüklemek istiyor musunuz  ?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>DcaEnc Yapılandırması</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9208,12 +9273,12 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Matroska Görüntüleri</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Matroska kümeleri</translation>
     </message>
@@ -10245,7 +10310,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation>&quot;%s&quot; yi kısmi hale getirin</translation>
     </message>
@@ -10598,12 +10663,12 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Varsayılanları geri yükle</translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Oynat/Durdur</translation>
     </message>

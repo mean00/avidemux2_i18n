@@ -509,6 +509,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/decimate/decimate.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/decimate/dec.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/lavDeint/lav.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/DIA_flyDeband.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/Q_deband.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/deband.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide_debug.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/telec.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide.h \ 
@@ -1451,6 +1455,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/decimate/decimate_util.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/lavDeint/lavDeint.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/lavDeint/lav_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/Q_deband.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/DIA_flyDeband.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/deband_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/deband_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide_utils.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide_getFrame.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide.cpp \ 
@@ -2065,6 +2074,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCartoon/qt4/artCartoon.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/eq2.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/qt4/artChromaHold.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/fitToSize.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui \ 

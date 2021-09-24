@@ -1084,7 +1084,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1194,7 +1194,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>_Потоки декодера libavcodec:</translation>
     </message>
@@ -1236,7 +1236,7 @@ Drop timing informations ?</source>
         <translation>Низкий</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>_Приоритет кодирования:</translation>
     </message>
@@ -1266,7 +1266,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation>Автоматическое объединение расчленённых потоков</translation>
     </message>
@@ -1281,7 +1281,22 @@ Drop timing informations ?</source>
         <translation>Размер _фрагментов:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1383,12 +1398,12 @@ Drop timing informations ?</source>
         <translation>Постобработка по умолчанию</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Интерфейс</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Вывод</translation>
     </message>
@@ -1421,18 +1436,17 @@ Drop timing informations ?</source>
         <translation>Многопоточность</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+84"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+86"/>
         <source>Pr&amp;eferences</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+11"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+9"/>
         <source>Preferences</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-35"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-37"/>
         <source>Connect to avsproxy</source>
         <translation>Соединиться с AvsProxy</translation>
     </message>
@@ -1452,7 +1466,7 @@ Drop timing informations ?</source>
         <translation>Поставить метку B</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+20"/>
         <location line="+9"/>
         <source>Filters</source>
         <translation>Фильтры</translation>
@@ -1581,7 +1595,7 @@ Drop timing informations ?</source>
         <translation>Нет в этой версии</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+239"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Это видео использует кадры прямого доступа без мгновенного обновления декодирования (non-IDR). Счётчик очерёдности показа изображений (POC) на таких ключевых кадрах не сбрасывается. Образовавшиеся точки разреза вставки при сохранении видео в режиме копирования могут привести к задержке воспроизведения из-за нарушенного порядка показа изображений.
@@ -2070,7 +2084,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-18"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-13"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2160,7 +2174,7 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-300"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-326"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
@@ -2195,7 +2209,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+104"/>
         <source>Caching of decoded pictures</source>
         <translation>Кэширование декодированных кадров</translation>
     </message>
@@ -2267,7 +2281,12 @@ Is it running ?</source>
         <translation>_Язык</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Ограничение частоты обновления</translation>
     </message>
@@ -2294,7 +2313,7 @@ Is it running ?</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-206"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -2304,7 +2323,7 @@ Is it running ?</source>
         <translation>Порт по умолчанию</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-102"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-104"/>
         <source>Open</source>
         <translation>&amp;Открыть...</translation>
     </message>
@@ -2402,6 +2421,16 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+5"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation>Сбросить метки выборки</translation>
     </message>
@@ -2628,7 +2657,7 @@ It is needed to create PSP compatible video.</source>
 Он требуется для создания видео, совместимого с PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Выбрать скрипт/проект для запуска</translation>
     </message>
@@ -2674,7 +2703,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Выбрать файл видео для присоединения...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5280,6 +5309,42 @@ Do you want to load it  ?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>Настройки DcaEnc</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9156,12 +9221,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Изображения Matroska</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Кластеры Matroska</translation>
     </message>
@@ -10161,7 +10226,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation>Частичное наложение «%s»</translation>
     </message>
@@ -10514,12 +10579,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>

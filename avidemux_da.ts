@@ -1205,13 +1205,12 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+565"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+599"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+16"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+18"/>
         <source>Decoder Option</source>
         <translation>Dekoder-valgmuligheder</translation>
     </message>
@@ -1410,7 +1409,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-147"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-143"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1556,7 +1555,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+129"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1671,7 +1670,7 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-254"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-280"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
@@ -1766,7 +1765,7 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>_lavc-tråde:</translation>
     </message>
@@ -1808,7 +1807,7 @@ Drop timinginformationer?</translation>
         <translation>Lav</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>_Kodningsprioritet:</translation>
     </message>
@@ -1838,7 +1837,7 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1853,7 +1852,22 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1981,12 +1995,12 @@ Drop timinginformationer?</translation>
         <translation>Standard efterbehandling</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Brugerflade</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Output</translation>
     </message>
@@ -2077,7 +2091,7 @@ Det er nødvendigt for at kunne oprette PSP-kompatibel video.</translation>
         <translation>Ikke kodet i denne version</translation>
     </message>
     <message>
-        <location line="+218"/>
+        <location line="+234"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2689,7 +2703,7 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-310"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-336"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
@@ -2739,7 +2753,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+107"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2775,7 +2789,12 @@ Kører den?</translation>
         <translation>_Sprog</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Begræns opdateringshastighed</translation>
     </message>
@@ -2802,7 +2821,7 @@ Kører den?</translation>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-206"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -2812,12 +2831,22 @@ Kører den?</translation>
         <translation>Standardport som skal bruges</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-88"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-90"/>
         <source>Redo</source>
         <translation>Omgør</translation>
     </message>
     <message>
         <location line="+13"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2884,7 +2913,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2920,7 +2949,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Vælg videofil som skal føjes til slutning...</translation>
     </message>
     <message>
-        <location line="+274"/>
+        <location line="+290"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Klipper</translation>
@@ -5265,6 +5294,42 @@ Vil du indlæse den?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>DcaEnc-konfiguration</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9129,12 +9194,12 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Matroska-billeder</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Matroska-klynger</translation>
     </message>
@@ -10125,7 +10190,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10473,12 +10538,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Afspil/stop</translation>
     </message>

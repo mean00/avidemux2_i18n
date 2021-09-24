@@ -1098,7 +1098,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση DXVA2 (windows)</translation>
     </message>
@@ -1208,7 +1208,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>_Νήματα lavc:</translation>
     </message>
@@ -1250,7 +1250,7 @@ Drop timing informations ?</source>
         <translation>Χαμηλή</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>Προτεραιότητα της _κωδικοποίησης:</translation>
     </message>
@@ -1280,7 +1280,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation>Ρυθμίσεις αυτόματης προσάρτησης</translation>
     </message>
@@ -1295,7 +1295,22 @@ Drop timing informations ?</source>
         <translation>_Μέγεθος τμήματος:</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Caching of decoded pictures</source>
         <translation>Προσωρινή μνήμη αποκωδικοποιημένων εικόνων</translation>
     </message>
@@ -1407,12 +1422,12 @@ Drop timing informations ?</source>
         <translation>Προεπιλεγμένη μεταεπεξεργασία</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Περιβάλλον χρήστη</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Έξοδος</translation>
     </message>
@@ -1446,8 +1461,7 @@ Drop timing informations ?</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+15"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+13"/>
         <source>Preferences</source>
         <translation>Προτιμήσεις</translation>
     </message>
@@ -1472,7 +1486,7 @@ Drop timing informations ?</source>
         <translation>Ορίστε τον σημαδευτή Β</translation>
     </message>
     <message>
-        <location line="+18"/>
+        <location line="+20"/>
         <location line="+9"/>
         <source>Filters</source>
         <translation>Μεταμορφωτές</translation>
@@ -1661,7 +1675,7 @@ Drop timing informations ?</source>
         <translation>Δεν κωδικοποιήθηκε σε αυτή την έκδοση</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+239"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Αυτό το βίντεο χρησιμοποιεί μη IDR σημεία επαναφοράς αντί για IDR ως κλειδοστιγμιότυπα. Η επαναταξινόμηση εικόνων στη ροή του βίντεο δεν είναι αρχικοποιημένη σε μη IDR στιγμιότυπα. Τα σημεία αποκοπής της επικολλημένης επιλογής μπορεί να προκαλέσουν διακοπές στην αναπαραγωγή λόγω της αντιστραμμένης σειράς προβολής των στιγμιότυπων αν αποθηκευθεί σε λειτουργία αντιγραφής.
@@ -2181,7 +2195,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-126"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <source>_Horizontal deblocking</source>
         <translation>Ορι_ζόντια αφαίρεση τμημάτων (deblocking)</translation>
     </message>
@@ -2202,7 +2216,7 @@ Is it running ?</source>
         <translation>_Απόπλεξη (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-193"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VDPAU (NVIDIA)</translation>
     </message>
@@ -2237,7 +2251,7 @@ Is it running ?</source>
         <translation>Έλεγ_χος για νέα έκδοση</translation>
     </message>
     <message>
-        <location line="+94"/>
+        <location line="+119"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (κάλλιστη)</translation>
     </message>
@@ -2273,7 +2287,12 @@ Is it running ?</source>
         <translation>_Γλώσσα</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Περιορισμός του ρυθμού ανανέωσης</translation>
     </message>
@@ -2305,7 +2324,7 @@ Is it running ?</source>
         <translation>Νημάτωση</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-215"/>
         <source>_Always ask which port to use</source>
         <translation>_Πάντα ερώτηση για το ποια θύρα θα χρησιμοποιηθεί</translation>
     </message>
@@ -2315,7 +2334,7 @@ Is it running ?</source>
         <translation>Προεπιλεγμένη θύρα προς χρήση</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-102"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-104"/>
         <source>Open</source>
         <translation>Άνοιγμα</translation>
     </message>
@@ -2413,6 +2432,16 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+5"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation>Επαναφορά των σημαδευτών</translation>
     </message>
@@ -2654,7 +2683,7 @@ It is needed to create PSP compatible video.</source>
 Είναι απαραίτητο για τη δημιουργία βίντεο συμβατό με PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Επιλέξτε σενάριο ή εργασία για εκτέλεση</translation>
     </message>
@@ -2703,7 +2732,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Επιλέξτε ένα αρχείο βίντεο για προσάρτηση...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5319,6 +5348,42 @@ Do you want to load it  ?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>Ρύθμιση DcaEnc</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9195,12 +9260,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Εικόνες Matroska</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Συστάδες Matroska</translation>
     </message>
@@ -10211,7 +10276,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10564,12 +10629,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Εκτέλεση/Διακοπή</translation>
     </message>

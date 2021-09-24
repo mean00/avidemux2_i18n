@@ -1202,6 +1202,16 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation>Vynulovať značky</translation>
     </message>
@@ -1366,7 +1376,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+421"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+456"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1522,7 +1532,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+129"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1662,7 +1672,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-70"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
         <source>_Horizontal deblocking</source>
         <translation>_Horizontálne odstránenie blokových artefaktov (deblocking)</translation>
     </message>
@@ -1683,7 +1693,7 @@ Vypustiť časové údaje?</translation>
         <translation>Ro_zkladač (ffmpedeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-199"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-224"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekódovať video použitím DXVA2 (Windows)</translation>
     </message>
@@ -1828,7 +1838,7 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>Vlákna _LAV kodeku:</translation>
     </message>
@@ -1870,7 +1880,7 @@ Vypustiť časové údaje?</translation>
         <translation>Nízka</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>Priorita _kódovania:</translation>
     </message>
@@ -1900,7 +1910,7 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation>Nastavenia automatického pripájania</translation>
     </message>
@@ -1915,7 +1925,22 @@ Vypustiť časové údaje?</translation>
         <translation>_Veľkosť fragmentu:</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Caching of decoded pictures</source>
         <translation>Zásobník dekódovaných obrázkov</translation>
     </message>
@@ -2057,12 +2082,17 @@ Vypustiť časové údaje?</translation>
         <translation>_Jazyk</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>User Interface</source>
         <translation>Užívateľské rozhranie</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Output</source>
         <translation>Výstup</translation>
     </message>
@@ -2099,7 +2129,7 @@ Vypustiť časové údaje?</translation>
         <translation>Vláknenie</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-215"/>
         <source>_Always ask which port to use</source>
         <translation>_Vždy sa opýtať, ktorý port sa má použiť</translation>
     </message>
@@ -2109,13 +2139,12 @@ Vypustiť časové údaje?</translation>
         <translation>Predvolený port na použitie</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+3"/>
+        <location line="+223"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-116"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-118"/>
         <source>Save as BMP</source>
         <translation>Uložiť ako BMP</translation>
     </message>
@@ -2135,7 +2164,7 @@ Vypustiť časové údaje?</translation>
         <translation>Späť</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+18"/>
         <source>Pr&amp;eferences</source>
         <translation>Pre&amp;dvoľby</translation>
     </message>
@@ -2196,7 +2225,7 @@ Vypustiť časové údaje?</translation>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1583"/>
+        <location filename="../../common/gui_main.cpp" line="+1599"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2307,7 +2336,7 @@ It is needed to create PSP compatible video.</source>
 To je potrebný na vytvorenie PSP kompatibilného videa.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Vyberte skript/projekt na spustenie</translation>
     </message>
@@ -2359,7 +2388,7 @@ Pokračovať?</translation>
         <translation>Vybrať video na pripojenie...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5299,6 +5328,42 @@ Chcete ho načítať?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>Konfigurácia DcaEnc</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9175,12 +9240,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Matroska obrázky</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Matroska klustery</translation>
     </message>
@@ -10187,7 +10252,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10540,12 +10605,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Pre&amp;hrať/Zastaviť</translation>
     </message>

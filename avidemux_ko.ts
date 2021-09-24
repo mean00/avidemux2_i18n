@@ -1191,6 +1191,16 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Reset Markers</source>
         <translation>표시 초기화</translation>
     </message>
@@ -1355,7 +1365,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+421"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+456"/>
         <source>Stereo</source>
         <translation>스테레오</translation>
     </message>
@@ -1511,7 +1521,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+129"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1647,7 +1657,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-70"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
         <source>_Horizontal deblocking</source>
         <translation>수평 깍두기 제거 (deblocking)</translation>
     </message>
@@ -1668,7 +1678,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-199"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-224"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -1813,7 +1823,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>lavc 쓰레드:</translation>
     </message>
@@ -1855,7 +1865,7 @@ Drop timing informations ?</source>
         <translation>낮음</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>인코딩 우선권:</translation>
     </message>
@@ -1885,7 +1895,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1900,7 +1910,22 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2042,12 +2067,17 @@ Drop timing informations ?</source>
         <translation>언어</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>User Interface</source>
         <translation>사용자 인터페이스</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Output</source>
         <translation>출력</translation>
     </message>
@@ -2084,7 +2114,7 @@ Drop timing informations ?</source>
         <translation>쓰레딩</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-215"/>
         <source>_Always ask which port to use</source>
         <translation>사용할 포트 항상 묻기</translation>
     </message>
@@ -2094,13 +2124,12 @@ Drop timing informations ?</source>
         <translation>기본 사용 포트</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+3"/>
+        <location line="+223"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-116"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-118"/>
         <source>Save as BMP</source>
         <translation>BMP로 저장</translation>
     </message>
@@ -2120,7 +2149,7 @@ Drop timing informations ?</source>
         <translation>실행 취소</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+18"/>
         <source>Pr&amp;eferences</source>
         <translation>환경 설정</translation>
     </message>
@@ -2181,7 +2210,7 @@ Drop timing informations ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1583"/>
+        <location filename="../../common/gui_main.cpp" line="+1599"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2288,7 +2317,7 @@ It is needed to create PSP compatible video.</source>
         <translation>FAAC 코덱이 없습니다! PSP 호환 비디오를 만들 때 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>실행할 스크립트/프로젝트 선택</translation>
     </message>
@@ -2339,7 +2368,7 @@ It is needed to create PSP compatible video.</source>
         <translation>덧붙일 비디오 파일 선택...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5248,6 +5277,42 @@ Do you want to load it  ?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>DcaEnc 설정</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9104,12 +9169,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Matroska 이미지</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Matroska 클러스터</translation>
     </message>
@@ -10099,7 +10164,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10451,12 +10516,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>재생/정지</translation>
     </message>

@@ -1083,7 +1083,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1198,7 +1198,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>Lavc szálak:</translation>
     </message>
@@ -1228,7 +1228,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Normál alatti</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Encoding priority:</source>
         <translation>Kódolási prioritás:</translation>
     </message>
@@ -1258,7 +1258,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1273,7 +1273,22 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1369,12 +1384,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Alapértelmezett utómunkálatok</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Kezelőfelület</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Kimenet</translation>
     </message>
@@ -1413,18 +1428,17 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Szálak</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+84"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+86"/>
         <source>Pr&amp;eferences</source>
         <translation>Beállítások</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+11"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+9"/>
         <source>Preferences</source>
         <translation>Beállítások</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-48"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-50"/>
         <source>Open</source>
         <translation>Megnyitás</translation>
     </message>
@@ -1539,6 +1553,16 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <location line="+1"/>
         <source>Set Marker B</source>
         <translation>»B« jelző beállítása</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1986,12 +2010,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Bővítmények infó</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-310"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-331"/>
         <source>Enable openGl support</source>
         <translation>OpenGL engedélyezés</translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+73"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>High</source>
         <translation>Magas</translation>
@@ -2003,7 +2027,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Alacsony</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+48"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (legjobb)</translation>
     </message>
@@ -2114,7 +2138,7 @@ A PSP kompatibilis videóhoz szükséges.</translation>
         <translation>Nem kódolt ebben a verzióban</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+239"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -2726,7 +2750,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-195"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2751,7 +2775,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+107"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2782,7 +2806,12 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2809,7 +2838,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-206"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2860,7 +2889,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2901,7 +2930,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5215,6 +5244,42 @@ Be akarja tölteni?
     <message>
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9053,12 +9118,12 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10040,7 +10105,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10384,12 +10449,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>

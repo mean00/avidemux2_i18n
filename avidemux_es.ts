@@ -1089,7 +1089,7 @@ Si solo copia el vídeo sin recodificarlo,
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+244"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Decodificar vídeos usando DXVA2 (windows)</translation>
     </message>
@@ -1204,7 +1204,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+39"/>
         <source>_lavc threads:</source>
         <translation>Subprocesos de _lavc:</translation>
     </message>
@@ -1246,7 +1246,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Baja</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Encoding priority:</source>
         <translation>Prioridad d_e codificación:</translation>
     </message>
@@ -1276,7 +1276,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Auto-Append Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1291,7 +1291,22 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>Pictures</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Avisynth</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1415,12 +1430,12 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Posprocesamiento por defecto</translation>
     </message>
     <message>
-        <location line="+45"/>
+        <location line="+43"/>
         <source>User Interface</source>
         <translation>Interfaz de usuario</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+10"/>
         <source>Output</source>
         <translation>Salida</translation>
     </message>
@@ -1459,18 +1474,17 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Subprocesos</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+84"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+86"/>
         <source>Pr&amp;eferences</source>
         <translation>Pr&amp;eferencias</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+11"/>
-        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+9"/>
         <source>Preferences</source>
         <translation>Preferencias</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-48"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-50"/>
         <source>Open</source>
         <translation>Abrir</translation>
     </message>
@@ -1585,6 +1599,16 @@ Si solo copia el vídeo sin recodificarlo,
         <location line="+1"/>
         <source>Set Marker B</source>
         <translation>Establecer el marcador B</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reset Marker B</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1925,12 +1949,12 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Guardar tarea</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-310"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-331"/>
         <source>Enable openGl support</source>
         <translation>Activar el soporte para openGL</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+125"/>
         <source>VDPAU (best)</source>
         <translation>VDPAU (mejor)</translation>
     </message>
@@ -2008,7 +2032,7 @@ Se necesita para crear vídeos compatibles con PSP.</translation>
         <translation>Sin codificar en esta versión</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+239"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -2655,7 +2679,7 @@ Is it running ?</source>
         <translation>Información de complementos</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-114"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-139"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Decodificar vídeos usando VDPAU (NVIDIA)</translation>
     </message>
@@ -2680,7 +2704,7 @@ Is it running ?</source>
         <translation>_Comprobar si hay versiones nuevas</translation>
     </message>
     <message>
-        <location line="+82"/>
+        <location line="+107"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2716,7 +2740,12 @@ Is it running ?</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+12"/>
+        <source>Import</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Limitar la tasa de refresco</translation>
     </message>
@@ -2743,7 +2772,7 @@ Is it running ?</source>
         <translation>Aceleración hardware</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-206"/>
         <source>_Always ask which port to use</source>
         <translation>Pregunt_ar siempre por el puerto a usar</translation>
     </message>
@@ -2808,7 +2837,7 @@ Instalación incongruente</translation>
         <translation>No se puede seleccionar el códec MPEG-4 SP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1490"/>
+        <location filename="../../common/gui_main.cpp" line="-1506"/>
         <source>Select script/project to run</source>
         <translation>Seleccionar script/proyecto a ejecutar</translation>
     </message>
@@ -2849,7 +2878,7 @@ Instalación incongruente</translation>
         <translation>Seleccionar archivo de vídeo a anexar...</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -5269,6 +5298,42 @@ Do you want to load it  ?
         <location line="+6"/>
         <source>DcaEnc Configuration</source>
         <translation>Configuración de DcaEnc</translation>
+    </message>
+</context>
+<context>
+    <name>deband</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reduce banding artifacts.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>debandDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
+        <source>Deband</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+55"/>
+        <source>Chroma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Luma threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Range</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9134,12 +9199,12 @@ Se asume que tiene y se intenta continuar.</translation>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+47"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
         <source>Matroska Images</source>
         <translation>Imágenes Matroska</translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+586"/>
         <source>Matroska clusters</source>
         <translation>Clústeres Matroska</translation>
     </message>
@@ -10134,7 +10199,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>partial</name>
     <message>
-        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+390"/>
+        <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10486,12 +10551,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+574"/>
+        <location line="+581"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+222"/>
+        <location line="+230"/>
         <source>Play/Stop</source>
         <translation>Reproducir/Detener</translation>
     </message>
