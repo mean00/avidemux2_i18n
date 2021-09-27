@@ -1325,22 +1325,39 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>XVideo (best)</source>
-        <translation>XVideo (κάλλιστη)</translation>
+        <location line="+5"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>DXVA2 (best)</source>
-        <translation>DXVA2 (κάλλιστη)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>SDL (good)</source>
-        <translation>SDL (καλή)</translation>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XVideo (best)</source>
+        <translation type="vanished">XVideo (κάλλιστη)</translation>
+    </message>
+    <message>
+        <source>DXVA2 (best)</source>
+        <translation type="vanished">DXVA2 (κάλλιστη)</translation>
+    </message>
+    <message>
+        <source>SDL (good)</source>
+        <translation type="vanished">SDL (καλή)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Video _display:</source>
         <translation>_Προβολή του βίντεο:</translation>
     </message>
@@ -1620,11 +1637,13 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-192"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation>XVideo</translation>
     </message>
@@ -2096,6 +2115,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+4"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation>VDPAU</translation>
     </message>
@@ -2195,7 +2215,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+82"/>
         <source>_Horizontal deblocking</source>
         <translation>Ορι_ζόντια αφαίρεση τμημάτων (deblocking)</translation>
     </message>
@@ -2216,7 +2236,7 @@ Is it running ?</source>
         <translation>_Απόπλεξη (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-216"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VDPAU (NVIDIA)</translation>
     </message>
@@ -2251,22 +2271,19 @@ Is it running ?</source>
         <translation>Έλεγ_χος για νέα έκδοση</translation>
     </message>
     <message>
-        <location line="+119"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (κάλλιστη)</translation>
+        <translation type="vanished">VDPAU (κάλλιστη)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (κάλλιστη)</translation>
+        <translation type="vanished">OpenGL (κάλλιστη)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>LIBVA (best)</source>
-        <translation>LIBVA (κάλλιστη)</translation>
+        <translation type="vanished">LIBVA (κάλλιστη)</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+154"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation>Οδηγός Sdl</translation>
@@ -2324,7 +2341,7 @@ Is it running ?</source>
         <translation>Νημάτωση</translation>
     </message>
     <message>
-        <location line="-215"/>
+        <location line="-213"/>
         <source>_Always ask which port to use</source>
         <translation>_Πάντα ερώτηση για το ποια θύρα θα χρησιμοποιηθεί</translation>
     </message>
@@ -10491,7 +10508,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation>Επιλέξτε αρχείο ήχου</translation>
     </message>
@@ -10512,7 +10529,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Κάποια κανάλια χρησιμοποιούνται πολλαπλές φορές</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation>Κανάλι </translation>
     </message>
@@ -10527,7 +10544,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Αρχείο </translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation>.... Προσθήκη καναλιού ήχου</translation>
     </message>

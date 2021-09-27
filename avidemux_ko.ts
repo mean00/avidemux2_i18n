@@ -1365,7 +1365,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+456"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+454"/>
         <source>Stereo</source>
         <translation>스테레오</translation>
     </message>
@@ -1491,16 +1491,19 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-49"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation>XVideo</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation>VDPAU</translation>
     </message>
@@ -1521,7 +1524,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1678,7 +1681,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-224"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -1940,37 +1943,31 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>XVideo (best)</source>
-        <translation>XVideo (최상)</translation>
+        <translation type="vanished">XVideo (최상)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (최상)</translation>
+        <translation type="vanished">VDPAU (최상)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>DXVA2 (best)</source>
-        <translation>DXVA2 (최상)</translation>
+        <translation type="vanished">DXVA2 (최상)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (최상)</translation>
+        <translation type="vanished">OpenGL (최상)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>LIBVA (best)</source>
-        <translation>LIBVA (최상)</translation>
+        <translation type="vanished">LIBVA (최상)</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>SDL (good)</source>
-        <translation>SDL (좋음)</translation>
+        <translation type="vanished">SDL (좋음)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+25"/>
         <source>Video _display:</source>
         <translation>비디오 디스플레이:</translation>
     </message>
@@ -2114,7 +2111,7 @@ Drop timing informations ?</source>
         <translation>쓰레딩</translation>
     </message>
     <message>
-        <location line="-215"/>
+        <location line="-213"/>
         <source>_Always ask which port to use</source>
         <translation>사용할 포트 항상 묻기</translation>
     </message>
@@ -2124,7 +2121,27 @@ Drop timing informations ?</source>
         <translation>기본 사용 포트</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+12"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+195"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
@@ -10378,7 +10395,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation>오디오 파일 선택</translation>
     </message>
@@ -10399,7 +10416,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>몇몇 트랙이 중복 사용되었습니다</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation>트랙</translation>
     </message>
@@ -10414,7 +10431,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>파일</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation>... 오디오 트랙 추가</translation>
     </message>

@@ -1293,22 +1293,35 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>XVideo (best)</source>
-        <translation>XVideo (legjobb)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>DXVA2 (best)</source>
+        <location line="+5"/>
+        <source>This renderer provides no hardware acceleration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>SDL (good)</source>
-        <translation>SDL (jó)</translation>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XVideo (best)</source>
+        <translation type="vanished">XVideo (legjobb)</translation>
+    </message>
+    <message>
+        <source>SDL (good)</source>
+        <translation type="vanished">SDL (jó)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Video _display:</source>
         <translation>Vi_deó megjelenítés:</translation>
     </message>
@@ -1886,16 +1899,19 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-192"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation>XVideo</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation>VDPAU</translation>
     </message>
@@ -2010,7 +2026,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Bővítmények infó</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-331"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <source>Enable openGl support</source>
         <translation>OpenGL engedélyezés</translation>
     </message>
@@ -2027,17 +2043,15 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Alacsony</translation>
     </message>
     <message>
-        <location line="+48"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (legjobb)</translation>
+        <translation type="vanished">VDPAU (legjobb)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (legjobb)</translation>
+        <translation type="vanished">OpenGL (legjobb)</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+101"/>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="+217"/>
         <source>PCM</source>
         <translation>PCM</translation>
@@ -2750,7 +2764,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2785,12 +2799,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>LIBVA (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+28"/>
+        <location line="+46"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation type="unfinished"></translation>
@@ -2838,7 +2847,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-206"/>
+        <location line="-204"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10315,7 +10324,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10336,7 +10345,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation type="unfinished"></translation>
     </message>
@@ -10351,7 +10360,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation type="unfinished"></translation>
     </message>

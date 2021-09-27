@@ -1126,7 +1126,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+456"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+454"/>
         <source>Stereo</source>
         <translation>Estereoa</translation>
     </message>
@@ -1247,16 +1247,19 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-49"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation>XVideo</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation>VDPAU</translation>
     </message>
@@ -1277,7 +1280,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1434,7 +1437,7 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-224"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1671,32 +1674,43 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>XVideo (best)</source>
-        <translation>XVideo (hoberena)</translation>
+        <location line="+5"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <source>VDPAU (best)</source>
-        <translation>VDPAU (hoberena)</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>DXVA2 (best)</source>
+        <location line="+8"/>
+        <source>DXVA2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>OpenGL (best)</source>
-        <translation>OpenGL (hoberena)</translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>SDL (good)</source>
-        <translation>SDL (ona)</translation>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XVideo (best)</source>
+        <translation type="vanished">XVideo (hoberena)</translation>
+    </message>
+    <message>
+        <source>VDPAU (best)</source>
+        <translation type="vanished">VDPAU (hoberena)</translation>
+    </message>
+    <message>
+        <source>OpenGL (best)</source>
+        <translation type="vanished">OpenGL (hoberena)</translation>
+    </message>
+    <message>
+        <source>SDL (good)</source>
+        <translation type="vanished">SDL (ona)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Video _display:</source>
         <translation>Bideo _erakuspena:</translation>
     </message>
@@ -2768,7 +2782,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-339"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-337"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2793,12 +2807,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+128"/>
-        <source>LIBVA (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+28"/>
+        <location line="+154"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation type="unfinished"></translation>
@@ -2841,7 +2850,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-206"/>
+        <location line="-204"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10321,7 +10330,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10342,7 +10351,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation type="unfinished"></translation>
     </message>
@@ -10357,7 +10366,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1295,22 +1295,35 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>XVideo (best)</source>
-        <translation type="unfinished">Xv (millor)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>DXVA2 (best)</source>
+        <location line="+5"/>
+        <source>This renderer provides no hardware acceleration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>SDL (good)</source>
-        <translation type="unfinished">SDL (bona)</translation>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XVideo (best)</source>
+        <translation type="obsolete">Xv (millor)</translation>
+    </message>
+    <message>
+        <source>SDL (good)</source>
+        <translation type="obsolete">SDL (bona)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Video _display:</source>
         <translation type="unfinished">_Visualització vídeo: </translation>
     </message>
@@ -1643,11 +1656,13 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-192"/>
         <source>SDL</source>
         <translation type="unfinished">SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation type="unfinished">XVideo</translation>
     </message>
@@ -2186,6 +2201,7 @@ Segur que està funcionant?</translation>
     </message>
     <message>
         <location line="+4"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2225,7 +2241,7 @@ Segur que està funcionant?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-339"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-133"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2265,22 +2281,7 @@ Segur que està funcionant?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>VDPAU (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>OpenGL (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>LIBVA (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+28"/>
+        <location line="+46"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation type="unfinished"></translation>
@@ -2328,7 +2329,7 @@ Segur que està funcionant?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-206"/>
+        <location line="-204"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10302,7 +10303,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10323,7 +10324,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation type="unfinished"></translation>
     </message>
@@ -10338,7 +10339,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation type="unfinished"></translation>
     </message>

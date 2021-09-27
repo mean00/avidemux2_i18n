@@ -1297,32 +1297,27 @@ Ignorer les informations de timing ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>XVideo (best)</source>
-        <translation>Xvideo (rapide)</translation>
+        <translation type="vanished">Xvideo (rapide)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (très rapide)</translation>
+        <translation type="vanished">VDPAU (très rapide)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>DXVA2 (best)</source>
-        <translation>DXVA2 (très rapide)</translation>
+        <translation type="vanished">DXVA2 (très rapide)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (rapide)</translation>
+        <translation type="vanished">OpenGL (rapide)</translation>
     </message>
     <message>
-        <location line="+8"/>
         <source>SDL (good)</source>
-        <translation>SDL (moyen)</translation>
+        <translation type="vanished">SDL (moyen)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+25"/>
         <source>Video _display:</source>
         <translation>Affichage vidéo :</translation>
     </message>
@@ -1933,16 +1928,19 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-49"/>
         <source>SDL</source>
         <translation></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation></translation>
     </message>
@@ -1963,7 +1961,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>CPU</source>
         <translation></translation>
     </message>
@@ -2093,7 +2091,7 @@ It is needed to create FLV  video.</source>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-288"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-286"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
@@ -2138,12 +2136,7 @@ It is needed to create FLV  video.</source>
         <translation>_Taille du cache :</translation>
     </message>
     <message>
-        <location line="+20"/>
-        <source>LIBVA (best)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+28"/>
+        <location line="+46"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation></translation>
@@ -2222,7 +2215,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-215"/>
+        <location line="-213"/>
         <source>_Always ask which port to use</source>
         <translation>Toujours demander le port à utiliser</translation>
     </message>
@@ -2232,7 +2225,27 @@ It is needed to create FLV  video.</source>
         <translation>Port par défaut</translation>
     </message>
     <message>
-        <location line="+223"/>
+        <location line="+12"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+195"/>
         <source>Preferences</source>
         <translation>Préférences</translation>
     </message>
@@ -10269,7 +10282,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation>Sélectionner un fichier audio</translation>
     </message>
@@ -10290,7 +10303,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Certaines pistes sont utilisées plusieurs fois</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation>Piste </translation>
     </message>
@@ -10305,7 +10318,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Fichier </translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation>... Ajouter une piste audio</translation>
     </message>

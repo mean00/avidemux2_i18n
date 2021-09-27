@@ -287,7 +287,7 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+25"/>
         <source>Track 1</source>
-        <translation type="unfinished">Tonspur 1</translation>
+        <translation>Tonspur 1</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -300,22 +300,22 @@ Drop timing informations ?</source>
     <message>
         <location line="-105"/>
         <source>Track 2</source>
-        <translation type="unfinished">Tonspur 2</translation>
+        <translation>Tonspur 2</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Track 3</source>
-        <translation type="unfinished">Tonspur 3</translation>
+        <translation>Tonspur 3</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Track 4</source>
-        <translation type="unfinished">Tonspur 4</translation>
+        <translation>Tonspur 4</translation>
     </message>
     <message>
         <location line="-134"/>
         <source>Audio Tracks Configuration</source>
-        <translation type="unfinished">Tonspureinstellungen</translation>
+        <translation>Tonspureinstellungen</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -856,12 +856,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+167"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
-        <translation type="unfinished"></translation>
+        <translation>Springe zum vorherigen Schnittpunkt [Umschalt + Pfeiltaste runter]</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Go to next cut point [SHIFT+UP]</source>
-        <translation type="unfinished"></translation>
+        <translation>Springe zum nächsten Schnittpunkt [Umschalt + Pfeiltaste hoch]</translation>
     </message>
     <message>
         <location line="+95"/>
@@ -927,12 +927,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>&amp;Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Toolbar</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Strg+Alt+B</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -976,12 +976,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+12"/>
         <source>Select VS file</source>
-        <translation type="unfinished"></translation>
+        <translation>VS-Datei wählen</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Port to use: </source>
-        <translation type="unfinished"></translation>
+        <translation>Port:</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -991,7 +991,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+7"/>
         <source>Run!</source>
-        <translation type="unfinished"></translation>
+        <translation>Start!</translation>
     </message>
 </context>
 <context>
@@ -1106,72 +1106,72 @@ Drop timing informations ?</source>
     <message>
         <location line="+4"/>
         <source>SIMD</source>
-        <translation type="unfinished">Befehlssatzerweiterungen der Prozessoren(SIMD)</translation>
+        <translation>Befehlssatzerweiterungen (SIMD)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Enable all SIMD</source>
-        <translation type="unfinished">benutze _alle verfügbaren Befehlssatzerweiterungen</translation>
+        <translation>_Alle verfügbaren Befehlssatzerweiterungen verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable MMX</source>
-        <translation type="unfinished">benutze MMX</translation>
+        <translation>MMX verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable MMXEXT</source>
-        <translation type="unfinished">benutze MMXEXT</translation>
+        <translation>MMXEXT verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable 3DNOW</source>
-        <translation type="unfinished">benutze 3DNOW</translation>
+        <translation>3DNOW verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable 3DNOWEXT</source>
-        <translation type="unfinished">benutze 3DNOWEXT</translation>
+        <translation>3DNOWEXT verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE</source>
-        <translation type="unfinished">benutze SSE</translation>
+        <translation>SSE verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE2</source>
-        <translation type="unfinished">benutze SSE2</translation>
+        <translation>SSE2 verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE3</source>
-        <translation type="unfinished">benutze SSE3</translation>
+        <translation>SSE3 verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSSE3</source>
-        <translation type="unfinished">benutze SSSE3</translation>
+        <translation>SSSE3 verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE4</source>
-        <translation type="unfinished"></translation>
+        <translation>SSE4 verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE4.2</source>
-        <translation type="unfinished"></translation>
+        <translation>SSE4.2 verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX</source>
-        <translation type="unfinished"></translation>
+        <translation>AVX verwenden</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX2</source>
-        <translation type="unfinished"></translation>
+        <translation>AVX2 verwenden</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1231,7 +1231,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>De_lete first pass log files by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Logdateien vom ersten Durchgang standardmäßig löschen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1251,12 +1251,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+6"/>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden von Bildern</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Load sequentially named pictures in reverse order</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortlaufend nummerierte Bilder in umgekehrter Reihenfolge _laden</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1276,25 +1276,18 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Use _shared cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Gemeinsamen Cache verwenden</translation>
     </message>
     <message>
-        <location line="+7"/>
         <source>XVideo (best)</source>
-        <translation type="unfinished">XVideo (bestens)</translation>
+        <translation type="obsolete">XVideo (bestens)</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>DXVA2 (best)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
         <source>SDL (good)</source>
-        <translation type="unfinished">SDL (gut)</translation>
+        <translation type="obsolete">SDL (gut)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+25"/>
         <source>Video _display:</source>
         <translation>Video-_Anzeige:</translation>
     </message>
@@ -1316,7 +1309,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>_Message level:</source>
-        <translation type="unfinished">_Anzeigestufe für Meldungen:</translation>
+        <translation>_Anzeigestufe für Meldungen:</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -1342,12 +1335,12 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Pro Logic</source>
-        <translation type="unfinished">Dolby ProLogic</translation>
+        <translation>Dolby ProLogic</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pro Logic II</source>
-        <translation type="unfinished">Dolby ProLogic II</translation>
+        <translation>Dolby ProLogic II</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1377,7 +1370,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+6"/>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Import</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1411,15 +1404,15 @@ Drop timing informations ?</source>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+38"/>
         <source>CPU</source>
-        <translation type="unfinished">Prozessor</translation>
+        <translation>Prozessor</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
         <source>Threading</source>
-        <translation type="unfinished">Mehrkernprozessoren</translation>
+        <translation>Multi-Threading</translation>
     </message>
     <message>
-        <location line="-215"/>
+        <location line="-213"/>
         <source>_Always ask which port to use</source>
         <translation>_Immer fragen, welcher Port benutzt werden soll</translation>
     </message>
@@ -1434,7 +1427,7 @@ Drop timing informations ?</source>
         <translation>&amp;Einstellungen</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+223"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+221"/>
         <source>Preferences</source>
         <translation>Einstellungen</translation>
     </message>
@@ -1496,7 +1489,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Connect to avsproxy</source>
-        <translation type="unfinished">Verbinde mit avsproxy</translation>
+        <translation>Verbindung zu avsproxy</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1548,22 +1541,22 @@ Drop timing informations ?</source>
     <message>
         <location line="+3"/>
         <source>Set Marker A</source>
-        <translation>Setze Markierung &amp;A</translation>
+        <translation>&amp;A-Markierung setzen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Set Marker B</source>
-        <translation>Setze Markierung &amp;B</translation>
+        <translation>&amp;B-Markierung setzen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Marker A</source>
-        <translation type="unfinished"></translation>
+        <translation>A-Markierung zurücksetzen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation type="unfinished"></translation>
+        <translation>B-Markierung zurücksetzen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1630,22 +1623,22 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Previous Intra Frame</source>
-        <translation>Ein I-Frame zurück</translation>
+        <translation>Ein Keyframe zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next Intra Frame</source>
-        <translation>Ein I-Frame vor</translation>
+        <translation>Ein Keyframe vor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Previous Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum vorherigen Schnittpunkt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum nächsten Schnittpunkt</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1670,17 +1663,17 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Go To Marker A</source>
-        <translation>Springe zur Markierung A</translation>
+        <translation>Zur Markierung A springen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go To Marker B</source>
-        <translation>Springe zur Markierung B</translation>
+        <translation>Zur Markierung B springen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Go To Time</source>
-        <translation type="unfinished">Gehe zum Zeitpunkt</translation>
+        <translation>Zeit wählen</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1858,12 +1851,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Audiogeräte</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-331"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-329"/>
         <source>Enable openGl support</source>
         <translation>OpenG_L benutzen</translation>
     </message>
     <message>
-        <location line="+285"/>
+        <location line="+283"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Bildwiederholungsfrequenz begrenzen</translation>
     </message>
@@ -1873,7 +1866,7 @@ Drop timing informations ?</source>
         <translation>Bild _neu aufbauen nicht häufiger als nach (ms)</translation>
     </message>
     <message>
-        <location line="-213"/>
+        <location line="-211"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Hoch</translation>
@@ -1905,14 +1898,12 @@ Drop timing informations ?</source>
         <translation>Niedrig</translation>
     </message>
     <message>
-        <location line="+48"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (bestens)</translation>
+        <translation type="vanished">VDPAU (bestens)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (bestens)</translation>
+        <translation type="vanished">OpenGL (bestens)</translation>
     </message>
     <message>
         <source>The options above are effective only for MPEG and DivX with software decoding</source>
@@ -1925,7 +1916,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+78"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
         <source>_Horizontal deblocking</source>
         <translation type="unfinished">_Horizontales Deblocking</translation>
     </message>
@@ -2324,7 +2315,7 @@ Läuft er?</translation>
         <translation type="unfinished">2. Durchlauf</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Video mittels _VDPAU dekodieren</translation>
     </message>
@@ -2344,12 +2335,11 @@ Läuft er?</translation>
         <translation>Bei aktivierter Dekodierung in Hardware ist es ratsam, die entsprechende Video-Anzeige zu verwenden</translation>
     </message>
     <message>
-        <location line="+138"/>
         <source>LIBVA (best)</source>
-        <translation type="unfinished">libVA (bestens)</translation>
+        <translation type="obsolete">libVA (bestens)</translation>
     </message>
     <message>
-        <location line="+116"/>
+        <location line="+252"/>
         <source>_Language</source>
         <translation>_Sprache</translation>
     </message>
@@ -2359,12 +2349,32 @@ Läuft er?</translation>
         <translation>Systemvorgabe</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-217"/>
         <source>_Check for new release</source>
         <translation>Auf _Update überprüfen</translation>
     </message>
     <message>
-        <location line="+281"/>
+        <location line="+114"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+151"/>
         <source>GUI Rendering Options</source>
         <translation>Darstellungsoptionen der grafischen Oberfläche</translation>
     </message>
@@ -2559,16 +2569,19 @@ Trotzdem fortsetzen?</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2653,7 +2666,7 @@ Trotzdem fortsetzen?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-151"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+35"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation type="unfinished"></translation>
@@ -5631,12 +5644,12 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
         <source>Simulated muxing</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiplexing-Simulation</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>(None)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Keine)</translation>
     </message>
 </context>
 <context>
@@ -5697,32 +5710,32 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+20"/>
         <source>Priority:</source>
-        <translation type="unfinished">Priorität:</translation>
+        <translation>Priorität:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>High</source>
-        <translation type="unfinished">Hoch</translation>
+        <translation>Hoch</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Above Normal</source>
-        <translation type="unfinished">Über Normal</translation>
+        <translation>Über Normal</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Normal</source>
-        <translation type="unfinished">Normal</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Below Normal</source>
-        <translation type="unfinished">Unter Normal</translation>
+        <translation>Unter Normal</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Low</source>
-        <translation type="unfinished">Niedrig</translation>
+        <translation>Niedrig</translation>
     </message>
     <message>
         <location line="+117"/>
@@ -5752,12 +5765,12 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+24"/>
         <source>Delete first pass log files</source>
-        <translation type="unfinished"></translation>
+        <translation>Logdateien vom ersten Durchgang löschen</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Output File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgabedatei:</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -5799,7 +5812,7 @@ Soll dieses jetzt geladen werden ?
         <location line="+31"/>
         <location line="+60"/>
         <source>0</source>
-        <translation type="unfinished">0</translation>
+        <translation>0</translation>
     </message>
     <message>
         <location line="-81"/>
@@ -5819,7 +5832,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+7"/>
         <source>00:00:00</source>
-        <translation type="unfinished">00:00:00</translation>
+        <translation>00:00:00</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7791,12 +7804,12 @@ Möchten Sie es ersetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/ADM_vidFlip.cpp" line="+36"/>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Spiegeln</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Vertically/Horizontally flip the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild horizontal oder vertikal spiegeln.</translation>
     </message>
 </context>
 <context>
@@ -7804,17 +7817,17 @@ Möchten Sie es ersetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/qt4/flip.ui" line="+14"/>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Spiegeln</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Horizontal flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Horizontal spiegeln</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vertical flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal spiegeln</translation>
     </message>
 </context>
 <context>
@@ -9130,7 +9143,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+9"/>
         <source>Transition</source>
-        <translation type="unfinished"></translation>
+        <translation>Übergang</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -10332,27 +10345,27 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
-        <translation type="unfinished"></translation>
+        <translation>nicht verfügbar</translation>
     </message>
     <message>
         <location line="-163"/>
         <source>Average Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittlere Bitrate:</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Video Codec Extradata</source>
-        <translation type="unfinished"></translation>
+        <translation>Extradata des Video-Codecs</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Extradata:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hex:</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -10410,7 +10423,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10431,7 +10444,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation type="unfinished"></translation>
     </message>
@@ -10446,7 +10459,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10478,12 +10491,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Second Pass</source>
-        <translation type="unfinished"></translation>
+        <translation>Zweiter Durchgang</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Encoding...</source>
-        <translation type="unfinished"></translation>
+        <translation>Encodierung...</translation>
     </message>
     <message>
         <location line="+232"/>
@@ -10536,7 +10549,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+26"/>
         <source>Restore defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Auf Vorgabe zurücksetzen</translation>
     </message>
     <message>
         <location line="+581"/>
@@ -10561,12 +10574,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Go to previous keyframe</source>
-        <translation>Ein I-Frame zurück</translation>
+        <translation>Ein Keyframe zurück</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to next keyframe</source>
-        <translation>Ein I-Frame vor</translation>
+        <translation>Ein Keyframe vor</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10581,12 +10594,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Go to previous cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Einen Schnittpunkt zurück</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to next cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Einen Schnittpunkt vor</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -10621,7 +10634,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1007"/>
         <source>%c-%s</source>
-        <translation type="unfinished"></translation>
+        <translation>%c-%s</translation>
     </message>
     <message>
         <location line="+80"/>
@@ -10652,7 +10665,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+243"/>
         <source>%c-%s (%02d)</source>
-        <translation type="unfinished"></translation>
+        <translation>%c-%s (%02d)</translation>
     </message>
 </context>
 <context>
@@ -10856,17 +10869,17 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+1"/>
         <source>Enable/Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren/Deaktivieren</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktivieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren</translation>
     </message>
     <message>
         <location line="+133"/>

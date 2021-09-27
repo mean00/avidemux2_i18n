@@ -1301,22 +1301,39 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
-        <source>XVideo (best)</source>
-        <translation>XVideo (лучший)</translation>
+        <location line="+5"/>
+        <source>This renderer provides no hardware acceleration</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>DXVA2 (best)</source>
-        <translation>DXVA2 (лучший)</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>SDL (good)</source>
-        <translation>SDL (хороший)</translation>
+        <location line="+8"/>
+        <source>DXVA2</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
+        <source>OpenGL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>LibVA</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>XVideo (best)</source>
+        <translation type="vanished">XVideo (лучший)</translation>
+    </message>
+    <message>
+        <source>DXVA2 (best)</source>
+        <translation type="vanished">DXVA2 (лучший)</translation>
+    </message>
+    <message>
+        <source>SDL (good)</source>
+        <translation type="vanished">SDL (хороший)</translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>Video _display:</source>
         <translation>_Метод вывода видео:</translation>
     </message>
@@ -2059,16 +2076,19 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-192"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-15"/>
         <source>XVideo</source>
         <translation>XVideo</translation>
     </message>
     <message>
         <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>VDPAU</source>
         <translation>VDPAU</translation>
     </message>
@@ -2084,7 +2104,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-13"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2174,7 +2194,7 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-326"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-324"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
@@ -2219,22 +2239,19 @@ Is it running ?</source>
         <translation>Разм_ер кэша:</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>VDPAU (best)</source>
-        <translation>VDPAU (лучший)</translation>
+        <translation type="vanished">VDPAU (лучший)</translation>
     </message>
     <message>
-        <location line="+6"/>
         <source>OpenGL (best)</source>
-        <translation>OpenGL (лучший)</translation>
+        <translation type="vanished">OpenGL (лучший)</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>LIBVA (best)</source>
-        <translation>LIBVA (лучший)</translation>
+        <translation type="vanished">LIBVA (лучший)</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+46"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation>Драйвер SDL</translation>
@@ -2313,7 +2330,7 @@ Is it running ?</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-206"/>
+        <location line="-204"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -10441,7 +10458,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
         <source>Select audio file</source>
         <translation>Выбрать файл аудио</translation>
     </message>
@@ -10462,7 +10479,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Некоторые дорожки использованы несколько раз</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+128"/>
         <source>Track </source>
         <translation>Дорожка </translation>
     </message>
@@ -10477,7 +10494,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Файл </translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+35"/>
         <source>.... Add audio track</source>
         <translation>.... Добавить аудиодорожку</translation>
     </message>
