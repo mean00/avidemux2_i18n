@@ -325,7 +325,7 @@ Drop timing informations ?</source>
         <location line="+41"/>
         <location line="+41"/>
         <source>Enabled</source>
-        <translation>Включена</translation>
+        <translation>Включить</translation>
     </message>
     <message>
         <location line="-89"/>
@@ -581,12 +581,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+583"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к предыдущему разрезу [SHIFT+DOWN]</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Go to next cut point [SHIFT+UP]</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к следующему разрезу [SHIFT+UP]</translation>
     </message>
     <message>
         <location line="+598"/>
@@ -927,12 +927,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>&amp;Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Панель</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+B</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1176,22 +1176,22 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Enable SSE4</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить SSE4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE4.2</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить SSE4.2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить AVX</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX2</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить AVX2</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1263,7 +1263,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>De_lete first pass log files by default</source>
-        <translation type="unfinished"></translation>
+        <translation>_Удалять файлы статистики от первого прохода по умолчанию</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1283,42 +1283,42 @@ Drop timing informations ?</source>
     <message>
         <location line="+6"/>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузка изображений</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Load sequentially named pictures in reverse order</source>
-        <translation type="unfinished"></translation>
+        <translation>Загружать последовательно именованные файлы в обратном порядке</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Avisynth</source>
-        <translation type="unfinished"></translation>
+        <translation>Avisynth</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Use _shared cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Использовать _общий кэш</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This renderer provides no hardware acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Этот вывод видео лишён аппаратного ускорения</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>DXVA2</source>
-        <translation type="unfinished"></translation>
+        <translation>DXVA2</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>OpenGL</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>LibVA</source>
-        <translation type="unfinished"></translation>
+        <translation>LibVA</translation>
     </message>
     <message>
         <source>XVideo (best)</source>
@@ -2300,7 +2300,7 @@ Is it running ?</source>
     <message>
         <location line="+12"/>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Импорт</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -2439,12 +2439,12 @@ Is it running ?</source>
     <message>
         <location line="+5"/>
         <source>Reset Marker A</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить метку A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation type="unfinished"></translation>
+        <translation>Сбросить метку B</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2530,12 +2530,12 @@ Is it running ?</source>
     <message>
         <location line="+3"/>
         <source>Previous Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к предыдущему разрезу</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к следующему разрезу</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3262,7 +3262,7 @@ Try anyway?</source>
     <message>
         <location line="+1"/>
         <source>WMA Lossless</source>
-        <translation type="unfinished"></translation>
+        <translation>WMA Lossless</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7832,12 +7832,12 @@ Do you want to replace it?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/ADM_vidFlip.cpp" line="+36"/>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Отражение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Vertically/Horizontally flip the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Горизонтально или вертикально отразить изображение.</translation>
     </message>
 </context>
 <context>
@@ -9167,7 +9167,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+9"/>
         <source>Transition</source>
-        <translation type="unfinished"></translation>
+        <translation>Переход</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -9792,7 +9792,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+13"/>
         <source>Optimizing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Оптимизация...</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -9952,7 +9952,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+61"/>
         <source>Optimizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Оптимизация</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10341,7 +10341,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
-        <translation type="unfinished"></translation>
+        <translation>нет информации</translation>
     </message>
     <message>
         <location line="-226"/>
@@ -10361,7 +10361,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+35"/>
         <source>Average Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Средний битрейт:</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -10530,7 +10530,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Second Pass</source>
-        <translation type="unfinished"></translation>
+        <translation>Второй проход</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10593,7 +10593,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+26"/>
         <source>Restore defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Восстановить стандартный набор</translation>
     </message>
     <message>
         <location line="+581"/>
@@ -10638,12 +10638,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Go to previous cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к предыдущему разрезу</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to next cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к следующему разрезу</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -10685,7 +10685,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+241"/>
         <source>%c-%s</source>
-        <translation type="unfinished"></translation>
+        <translation>%c-%s</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10909,17 +10909,17 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+1"/>
         <source>Enable/Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить / выключить</translation>
     </message>
     <message>
         <location line="+68"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Отключить</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить</translation>
     </message>
     <message>
         <location line="+133"/>
