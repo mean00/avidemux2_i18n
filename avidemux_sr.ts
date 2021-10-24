@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+466"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+469"/>
         <source>Attempt to open %s failed!</source>
         <translation type="unfinished">Покушај да отворим %s није успео!</translation>
     </message>
@@ -1061,7 +1061,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+261"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1278,7 +1278,22 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+7"/>
+        <source>HDR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+9"/>
+        <source>Default _tone mapping method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Target peak luminance (nits):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1469,7 +1484,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Без измене</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+30"/>
         <location line="+9"/>
         <source>Filters</source>
         <translation type="unfinished">Филтери</translation>
@@ -1640,7 +1655,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Није кодирано у овој верзији</translation>
     </message>
     <message>
-        <location line="+239"/>
+        <location line="+242"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -1823,7 +1838,7 @@ Expect problems.</source>
         <translation type="unfinished">Нешто лоше се десило</translation>
     </message>
     <message>
-        <location line="+88"/>
+        <location line="+106"/>
         <source>_Track from video:</source>
         <translation type="unfinished">_Узми звук из видео датотеке:</translation>
     </message>
@@ -2133,7 +2148,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-133"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-148"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2163,7 +2178,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+107"/>
+        <location line="+122"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2226,7 +2241,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-219"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2236,7 +2251,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-74"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-75"/>
         <source>Open</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2386,6 +2401,11 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>PostProcessing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>HDR tone mapping</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2608,7 +2628,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1506"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2654,7 +2674,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+150"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2672,7 +2692,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+805"/>
+        <location line="+823"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>
@@ -3274,6 +3294,11 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>TrueHD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+3"/>
         <source>Unknown codec</source>
         <translation type="unfinished"></translation>
@@ -3299,7 +3324,7 @@ Try anyway?</source>
         <translation type="unfinished">Грешка у меморији</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+510"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
         <source>Saving</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3406,7 +3431,7 @@ Try anyway?</source>
         <translation type="unfinished">1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+179"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+187"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -3452,6 +3477,56 @@ Installation mismatch</source>
     <message>
         <location line="+0"/>
         <source>Script &quot;%s&quot; does not exist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
+        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+7"/>
+        <source>disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Fast YUV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Reinhard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Hable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>_Tone mapping:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Saturation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Boost (level multiplier):</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8593,7 +8668,7 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>_ColorSpace:</source>
+        <source>_Pixel format:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9558,7 +9633,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+156"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+157"/>
         <source>Unsupported</source>
         <translation type="unfinished">Није подржано</translation>
     </message>
@@ -10389,7 +10464,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+231"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>

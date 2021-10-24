@@ -117,6 +117,7 @@ HEADERS = \
 ../../../avidemux_core/ADM_coreImage/include/ADM_videoFilter_iface.h \ 
 ../../../avidemux_core/ADM_coreImage/include/ADM_imageResizer.h \ 
 ../../../avidemux_core/ADM_coreImage/include/ADM_image.h \ 
+../../../avidemux_core/ADM_coreImage/include/ADM_toneMapper.h \ 
 ../../../avidemux_core/ADM_coreImage/include/ADM_print_priv.h \ 
 ../../../avidemux_core/ADM_coreUI/include/DIA_uiTypes.h \ 
 ../../../avidemux_core/ADM_coreUI/include/DIA_audioTracks.h \ 
@@ -994,6 +995,7 @@ SOURCES = \
 ../../../avidemux_core/ADM_coreImage/src/ADM_imageUtils.cpp \ 
 ../../../avidemux_core/ADM_coreImage/src/ADM_colorspace.cpp \ 
 ../../../avidemux_core/ADM_coreImage/src/ADM_imageOperation.cpp \ 
+../../../avidemux_core/ADM_coreImage/src/ADM_toneMapper.cpp \ 
 ../../../avidemux_core/ADM_coreUI/src/DIA_factory.cpp \ 
 ../../../avidemux_core/ADM_coreUI/src/DIA_working.cpp \ 
 ../../../avidemux_core/ADM_coreUI/src/DIA_fileSel.cpp \ 
@@ -1252,6 +1254,7 @@ SOURCES = \
 ../../../avidemux/common/ADM_commonUI/DIA_builtin.cpp \ 
 ../../../avidemux/common/ADM_commonUI/DIA_audioFilter.cpp \ 
 ../../../avidemux/common/ADM_commonUI/DIA_jobs_save.cpp \ 
+../../../avidemux/common/ADM_commonUI/DIA_HDRConfig.cpp \ 
 ../../../avidemux/common/ADM_commonUI/DIA_gototime.cpp \ 
 ../../../avidemux/common/ADM_commonUI/DIA_prefs.cpp \ 
 ../../../avidemux/common/ADM_commonUI/DIA_plugins.cpp \ 
@@ -1687,6 +1690,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoEncoder/jpeg/jpegPlugin.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/jpeg/jpeg_encoder_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/jpeg/ADM_jpegEncoder.cpp \ 
+../../../avidemux_plugins/ADM_videoEncoder/jpeg/jpeg_encoder_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ffvtenc_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ffvtenc_json.cpp \ 

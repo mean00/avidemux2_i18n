@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+466"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+469"/>
         <source>Attempt to open %s failed!</source>
         <translation>Ошибка при открытии %s!</translation>
     </message>
@@ -1084,7 +1084,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+254"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+261"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1296,7 +1296,22 @@ Drop timing informations ?</source>
         <translation>Avisynth</translation>
     </message>
     <message>
+        <location line="+7"/>
+        <source>HDR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+9"/>
+        <source>Default _tone mapping method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Target peak luminance (nits):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Use _shared cache</source>
         <translation>Использовать _общий кэш</translation>
     </message>
@@ -1483,7 +1498,7 @@ Drop timing informations ?</source>
         <translation>Поставить метку B</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+21"/>
         <location line="+9"/>
         <source>Filters</source>
         <translation>Фильтры</translation>
@@ -1612,7 +1627,7 @@ Drop timing informations ?</source>
         <translation>Нет в этой версии</translation>
     </message>
     <message>
-        <location line="+239"/>
+        <location line="+242"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Это видео использует кадры прямого доступа без мгновенного обновления декодирования (non-IDR). Счётчик очерёдности показа изображений (POC) на таких ключевых кадрах не сбрасывается. Образовавшиеся точки разреза вставки при сохранении видео в режиме копирования могут привести к задержке воспроизведения из-за нарушенного порядка показа изображений.
@@ -1806,7 +1821,7 @@ Expect problems.</source>
         <translation>Ошибка при открытии файла для записи</translation>
     </message>
     <message>
-        <location line="+88"/>
+        <location line="+106"/>
         <source>_Track from video:</source>
         <translation>_Дорожка из видео:</translation>
     </message>
@@ -2194,7 +2209,7 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-324"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-339"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
@@ -2229,7 +2244,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+119"/>
         <source>Caching of decoded pictures</source>
         <translation>Кэширование декодированных кадров</translation>
     </message>
@@ -2330,7 +2345,7 @@ Is it running ?</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-219"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -2340,7 +2355,7 @@ Is it running ?</source>
         <translation>Порт по умолчанию</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-104"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-105"/>
         <source>Open</source>
         <translation>&amp;Открыть...</translation>
     </message>
@@ -2471,6 +2486,11 @@ Is it running ?</source>
         <location line="+1"/>
         <source>PostProcessing</source>
         <translation>Постобработка</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2674,7 +2694,7 @@ It is needed to create PSP compatible video.</source>
 Он требуется для создания видео, совместимого с PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1506"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Выбрать скрипт/проект для запуска</translation>
     </message>
@@ -2720,7 +2740,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Выбрать файл видео для присоединения...</translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+150"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2739,7 +2759,7 @@ Proceed anyway?</source>
         <translation>Ошибка обрезки.</translation>
     </message>
     <message>
-        <location line="+805"/>
+        <location line="+823"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Неверный индекс аудио</translation>
@@ -3345,6 +3365,11 @@ Try anyway?</source>
         <translation>8-битный PCM</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>TrueHD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+3"/>
         <source>Unknown codec</source>
         <translation>Неизвестный кодек</translation>
@@ -3370,7 +3395,7 @@ Try anyway?</source>
         <translation>Ошибка выделения памяти</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+510"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
         <source>Saving</source>
         <translation>Сохранение</translation>
     </message>
@@ -3483,7 +3508,7 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+179"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+187"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -3531,6 +3556,56 @@ Installation mismatch</source>
         <location line="+0"/>
         <source>Script &quot;%s&quot; does not exist.</source>
         <translation>Скрипт «%s» не существует.</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
+        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+7"/>
+        <source>disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Fast YUV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Reinhard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Hable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>_Tone mapping:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Saturation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8754,8 +8829,12 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>_Pixel format:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>_ColorSpace:</source>
-        <translation>_Цветовое пространство:</translation>
+        <translation type="vanished">_Цветовое пространство:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9740,7 +9819,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+156"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+157"/>
         <source>Unsupported</source>
         <translation>Не поддерживается</translation>
     </message>
@@ -10601,7 +10680,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+231"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>

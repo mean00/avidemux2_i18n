@@ -31,7 +31,7 @@ Hvis du blot kopierer videoen uden genkodning,
 Drop timinginformationer?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+430"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+433"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Kan ikke finde en demuxer for %s</translation>
     </message>
@@ -1205,7 +1205,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+597"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+619"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
@@ -1218,6 +1218,11 @@ Drop timinginformationer?</translation>
         <location line="+1"/>
         <source>PostProcessing</source>
         <translation>Efterbehandling</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1673,7 +1678,7 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-278"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-293"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
@@ -1870,7 +1875,22 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+7"/>
+        <source>HDR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+9"/>
+        <source>Default _tone mapping method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Target peak luminance (nits):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2110,7 +2130,7 @@ Det er nødvendigt for at kunne oprette PSP-kompatibel video.</translation>
         <translation>Ikke kodet i denne version</translation>
     </message>
     <message>
-        <location line="+234"/>
+        <location line="+237"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2293,7 +2313,7 @@ Gå til Lyd-&gt;Hovedspor for at vælge det aktive.</translation>
         <translation>Noget gik galt</translation>
     </message>
     <message>
-        <location line="+88"/>
+        <location line="+106"/>
         <source>_Track from video:</source>
         <translation>_Spor fra video:</translation>
     </message>
@@ -2722,7 +2742,7 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-334"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-349"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
@@ -2772,7 +2792,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+107"/>
+        <location line="+122"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2838,7 +2858,7 @@ Kører den?</translation>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-219"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -2848,7 +2868,7 @@ Kører den?</translation>
         <translation>Standardport som skal bruges</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-90"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-91"/>
         <source>Redo</source>
         <translation>Omgør</translation>
     </message>
@@ -2930,7 +2950,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1506"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2966,7 +2986,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Vælg videofil som skal føjes til slutning...</translation>
     </message>
     <message>
-        <location line="+290"/>
+        <location line="+293"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Klipper</translation>
@@ -2985,7 +3005,7 @@ Expect problems.</source>
 Forvent problemer.</translation>
     </message>
     <message>
-        <location line="+274"/>
+        <location line="+292"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Ugyldigt lydindeks givet</translation>
@@ -3345,6 +3365,11 @@ Try anyway?</source>
         <translation>8-bit PCM</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>TrueHD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+3"/>
         <source>Unknown codec</source>
         <translation>Ukendt codec</translation>
@@ -3370,7 +3395,7 @@ Try anyway?</source>
         <translation>Hukommelsesfejl</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+510"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
         <source>Saving</source>
         <translation>Gemmer</translation>
     </message>
@@ -3483,7 +3508,7 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+179"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+187"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -3524,6 +3549,56 @@ Try anyway?</source>
         <location line="+0"/>
         <source>Script &quot;%s&quot; does not exist.</source>
         <translation>Script &quot;%s&quot; eksisterer ikke.</translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
+        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+7"/>
+        <source>disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Fast YUV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Reinhard</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB Hable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>_Tone mapping:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Saturation:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8727,8 +8802,12 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
     </message>
     <message>
         <location line="+1"/>
+        <source>_Pixel format:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>_ColorSpace:</source>
-        <translation>_Farverum:</translation>
+        <translation type="vanished">_Farverum:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9708,7 +9787,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4muxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+156"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="+157"/>
         <source>Unsupported</source>
         <translation>Understøttes ikke</translation>
     </message>
@@ -10560,7 +10639,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+230"/>
+        <location line="+231"/>
         <source>Play/Stop</source>
         <translation>Afspil/stop</translation>
     </message>
