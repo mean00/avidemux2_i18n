@@ -513,7 +513,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1509"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1557"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -523,7 +523,7 @@ Drop timing informations ?</source>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="-779"/>
+        <location line="-827"/>
         <source>ms</source>
         <translation>мс</translation>
     </message>
@@ -533,12 +533,12 @@ Drop timing informations ?</source>
         <translation>Пере&amp;хід</translation>
     </message>
     <message>
-        <location line="+1816"/>
+        <location line="+1864"/>
         <source>&amp;Top</source>
         <translation>&amp;Зверху</translation>
     </message>
     <message>
-        <location line="-1492"/>
+        <location line="-1540"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Копіювати</translation>
@@ -594,6 +594,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -603,7 +605,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-494"/>
+        <location line="-542"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -613,7 +615,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+172"/>
+        <location line="+220"/>
         <source>00:00:00.000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -690,21 +692,22 @@ Drop timing informations ?</source>
         <translation>Завантажити/запустити проект</translation>
     </message>
     <message>
+        <location line="-652"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Наступний чорний кадр</translation>
+        <translation>Наступний чорний кадр</translation>
     </message>
     <message>
-        <location line="-629"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Перший кадр [HOME]</translation>
     </message>
     <message>
-        <location line="-118"/>
+        <location line="-166"/>
         <source>Go to next keyframe [UP]</source>
         <translation>Наступний ключовий кадр [UP]</translation>
     </message>
     <message>
-        <location line="+458"/>
+        <location line="+506"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>Перейти до маркера A [PAGE UP]</translation>
     </message>
@@ -715,12 +718,12 @@ Drop timing informations ?</source>
         <translation>Зберегти проект</translation>
     </message>
     <message>
-        <location line="-1671"/>
+        <location line="-1719"/>
         <source>&amp;Audio</source>
         <translation>&amp;Аудіо</translation>
     </message>
     <message>
-        <location line="+1686"/>
+        <location line="+1734"/>
         <source>&amp;Input</source>
         <translation>&amp;Вхід</translation>
     </message>
@@ -730,27 +733,27 @@ Drop timing informations ?</source>
         <translation>&amp;Вибір</translation>
     </message>
     <message>
-        <location line="-1742"/>
+        <location line="-1790"/>
         <source>&amp;Tools</source>
         <translation>&amp;Інструменти</translation>
     </message>
     <message>
-        <location line="+1295"/>
+        <location line="+1343"/>
         <source>Se&amp;lection</source>
         <translation>&amp;Вибір</translation>
     </message>
     <message>
-        <location line="-335"/>
+        <location line="-383"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
         <translation>Поставити маркер B [CTRL + PAGEDOWN]</translation>
     </message>
     <message>
-        <location line="+824"/>
+        <location line="+872"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Аудіометр</translation>
     </message>
     <message>
-        <location line="-1590"/>
+        <location line="-1638"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -768,17 +771,17 @@ Drop timing informations ?</source>
         <translation>Відтворити [SPACE]</translation>
     </message>
     <message>
-        <location line="+744"/>
+        <location line="+792"/>
         <source>Audio &amp;Metre</source>
         <translation>&amp;Аудіометр</translation>
     </message>
     <message>
-        <location line="-1588"/>
+        <location line="-1636"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
     <message>
-        <location line="+1635"/>
+        <location line="+1683"/>
         <source>&amp;Open...</source>
         <translation>&amp;Відкрити...</translation>
     </message>
@@ -799,11 +802,12 @@ Drop timing informations ?</source>
         <translation>Зберегти &amp;Відео...</translation>
     </message>
     <message>
+        <location line="-642"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Попередній чорний кадр</translation>
+        <translation>Попередній чорний кадр</translation>
     </message>
     <message>
-        <location line="-783"/>
+        <location line="-189"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Попередній кадр [LEFT]</translation>
     </message>
@@ -813,7 +817,7 @@ Drop timing informations ?</source>
         <translation>На&amp;лаштування кодека</translation>
     </message>
     <message>
-        <location line="+1585"/>
+        <location line="+1633"/>
         <source>Play filtered</source>
         <translation>Увімкнути фільтр</translation>
     </message>
@@ -823,22 +827,22 @@ Drop timing informations ?</source>
         <translation>Перейти до маркера B [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="-995"/>
+        <location line="-1043"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt; Аудіо на виході &lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1017"/>
+        <location line="+1065"/>
         <source>Selection: 000000</source>
         <translation>Вибірка: 000000</translation>
     </message>
     <message>
-        <location line="-795"/>
+        <location line="-843"/>
         <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
         <translation>&lt;b&gt;Вихідний формат&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1040"/>
+        <location line="+1088"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Завантажити / Запустити проект...</translation>
     </message>
@@ -848,27 +852,27 @@ Drop timing informations ?</source>
         <translation>Останній кадр [END]</translation>
     </message>
     <message>
-        <location line="-1065"/>
+        <location line="-1113"/>
         <source>&amp;Custom</source>
         <translation>Вла&amp;сне</translation>
     </message>
     <message>
-        <location line="+1713"/>
+        <location line="+1761"/>
         <source>&amp;Output</source>
         <translation>&amp;Вихід</translation>
     </message>
     <message>
-        <location line="-1688"/>
+        <location line="-1736"/>
         <source>&amp;Recent</source>
         <translation>&amp;Нещодавне</translation>
     </message>
     <message>
-        <location line="+1089"/>
+        <location line="+1137"/>
         <source>Forward one minute</source>
         <translation>Вперед на 1 хвилину</translation>
     </message>
     <message>
-        <location line="-556"/>
+        <location line="-604"/>
         <source>&amp;Shift:</source>
         <translation>Зсу&amp;в:</translation>
     </message>
@@ -878,7 +882,7 @@ Drop timing informations ?</source>
         <translation>(0 доріжок)</translation>
     </message>
     <message>
-        <location line="+1353"/>
+        <location line="+1401"/>
         <source>&amp;Volume</source>
         <translation>&amp;Гучність</translation>
     </message>
@@ -898,7 +902,7 @@ Drop timing informations ?</source>
         <translation>&amp;Відокремити</translation>
     </message>
     <message>
-        <location line="-862"/>
+        <location line="-910"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>Поставити маркер A [CTRL + PAGEUP]</translation>
     </message>
@@ -909,12 +913,12 @@ Drop timing informations ?</source>
         <translation>Фільтри</translation>
     </message>
     <message>
-        <location line="+926"/>
+        <location line="+974"/>
         <source>Vol&amp;ume</source>
         <translation>&amp;Гучність</translation>
     </message>
     <message>
-        <location line="-1353"/>
+        <location line="-1401"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt; Декодер відео &lt;/b&gt;</translation>
     </message>
@@ -924,7 +928,7 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt; Відео на виході &lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1437"/>
+        <location line="+1485"/>
         <source>Save &amp;Project</source>
         <translation>Зберегти &amp;Проект</translation>
     </message>
@@ -934,23 +938,23 @@ Drop timing informations ?</source>
         <translation>&amp;Інформація...</translation>
     </message>
     <message>
-        <location line="-751"/>
+        <location line="-799"/>
         <source>Go to next frame [RIGHT]</source>
         <translation>Наступний кадр [RIGHT]</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Backward one minute [CTRL+DOWN]</source>
         <translation>Назад на 1 хвилину [CTRL + DOWN]</translation>
     </message>
     <message>
-        <location line="-187"/>
+        <location line="-235"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>Попередній ключовий кадр [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навігація</translation>
     </message>
@@ -2954,7 +2958,7 @@ Proceed anyway?</source>
         <translation>Сцени з низьким бітрейтом (%)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Проблема при ініціалізації аудіопристрою.</translation>
     </message>
@@ -4717,19 +4721,18 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Чорний кадр</translation>
+        <translation type="vanished">Чорний кадр</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Пошук чорного кадру...</translation>
     </message>
     <message>
-        <location line="-22"/>
         <source>This function is unsupported at the moment</source>
-        <translation>В даний момент ця функція не підтримується</translation>
+        <translation type="vanished">В даний момент ця функція не підтримується</translation>
     </message>
 </context>
 <context>
@@ -10734,27 +10737,27 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2520"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2530"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2270"/>
+        <location line="-2280"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1209"/>
+        <location line="+1213"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-862"/>
         <source>Recent Projects</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1676"/>
+        <location line="+1680"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
@@ -10766,7 +10769,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
     <message>
-        <location line="-851"/>
+        <location line="-855"/>
         <source>Recent Files</source>
         <translation>Попередні файли</translation>
     </message>
@@ -10776,7 +10779,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10825,7 +10828,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1029"/>
+        <location line="+1035"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10835,7 +10838,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1135"/>
+        <location line="-1141"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -10850,7 +10853,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1491"/>
+        <location line="+1497"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10860,7 +10863,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1489"/>
+        <location line="-1495"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>

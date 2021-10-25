@@ -527,6 +527,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -562,7 +564,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">000000</translation>
     </message>
     <message>
-        <location line="-1438"/>
+        <location line="-1486"/>
         <source>&amp;Help</source>
         <translation type="unfinished">Náp&amp;ověda</translation>
     </message>
@@ -622,7 +624,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+598"/>
+        <location line="+646"/>
         <source>&amp;Open...</source>
         <translation type="unfinished">&amp;Otevřít...</translation>
     </message>
@@ -689,12 +691,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">&amp;Na sebe</translation>
     </message>
     <message>
-        <location line="-1717"/>
+        <location line="-1765"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video dekodér&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1138"/>
+        <location line="+1186"/>
         <source>Frame type:</source>
         <translation type="unfinished">Typ snímku:</translation>
     </message>
@@ -704,12 +706,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">S&amp;amostatně</translation>
     </message>
     <message>
-        <location line="-1219"/>
+        <location line="-1267"/>
         <source>ms</source>
         <translation type="unfinished">ms</translation>
     </message>
     <message>
-        <location line="+772"/>
+        <location line="+820"/>
         <source>A:</source>
         <translation type="unfinished">A:</translation>
     </message>
@@ -719,7 +721,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">B:</translation>
     </message>
     <message>
-        <location line="-1387"/>
+        <location line="-1435"/>
         <source>&amp;Toolbars</source>
         <translation>Nás&amp;trojové lišty</translation>
     </message>
@@ -761,12 +763,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigace</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -806,15 +808,17 @@ Drop timing informations ?</source>
         <translation>Nastavit koncovou značku [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Hledat předchozí černý snímek</translation>
+        <translation>Hledat předchozí černý snímek</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Hledat další černý snímek</translation>
+        <translation>Hledat další černý snímek</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Přejít na první snímek [HOME]</translation>
     </message>
@@ -2957,7 +2961,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Chyba inicializace zvukového zařízení</translation>
     </message>
@@ -4633,17 +4637,8 @@ Nicméně chcete pokračovat?</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10531,7 +10526,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10617,7 +10612,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

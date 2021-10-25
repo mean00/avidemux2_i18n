@@ -518,7 +518,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Филтери</translation>
     </message>
     <message>
-        <location line="+660"/>
+        <location line="+708"/>
         <source>00:00:00.000</source>
         <translation type="unfinished">00:00:00.000</translation>
     </message>
@@ -549,7 +549,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Тип кадра:</translation>
     </message>
     <message>
-        <location line="-1279"/>
+        <location line="-1327"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
@@ -646,12 +646,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -670,6 +670,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -679,7 +681,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -709,7 +711,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+74"/>
+        <source>Search previous black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Search next black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -769,7 +781,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-1044"/>
+        <location line="-1092"/>
         <source> (0 tracks)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -784,7 +796,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2733,7 +2745,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Проблеми при покретању звучне картице</translation>
     </message>
@@ -4606,17 +4618,8 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10459,7 +10462,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10545,7 +10548,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

@@ -533,6 +533,8 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -542,7 +544,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>…</translation>
     </message>
     <message>
-        <location line="-494"/>
+        <location line="-542"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -552,7 +554,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+201"/>
         <source>Time:</source>
         <translation>Idő:</translation>
     </message>
@@ -578,7 +580,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-1438"/>
+        <location line="-1486"/>
         <source>&amp;Help</source>
         <translation>&amp;Súgó</translation>
     </message>
@@ -623,7 +625,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>U&amp;grás</translation>
     </message>
     <message>
-        <location line="+1415"/>
+        <location line="+1463"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -688,12 +690,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-1165"/>
+        <location line="-1213"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location line="+772"/>
+        <location line="+820"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -733,7 +735,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>&amp;Szeparált</translation>
     </message>
     <message>
-        <location line="-1827"/>
+        <location line="-1875"/>
         <source>&amp;Toolbars</source>
         <translation>Eszköz&amp;tárak</translation>
     </message>
@@ -769,7 +771,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>&lt;b&gt;Kimeneti formátum&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1099"/>
+        <location line="+1147"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Kódek beállítás</translation>
     </message>
@@ -779,8 +781,8 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Alt+Ctrl+C</translation>
     </message>
     <message>
-        <location line="-976"/>
-        <location line="+987"/>
+        <location line="-1024"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigálás</translation>
     </message>
@@ -825,7 +827,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
-        <location line="-1726"/>
+        <location line="-1774"/>
         <source>Codec O&amp;ptions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -880,7 +882,17 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+74"/>
+        <source>Search previous black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Search next black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3018,7 +3030,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Probléma a hangeszköz inicializálásánál</translation>
     </message>
@@ -4641,17 +4653,8 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10537,7 +10540,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10623,7 +10626,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

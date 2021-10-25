@@ -532,6 +532,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -567,7 +569,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">000000</translation>
     </message>
     <message>
-        <location line="-1438"/>
+        <location line="-1486"/>
         <source>&amp;Help</source>
         <translation type="unfinished">Aj&amp;uda</translation>
     </message>
@@ -617,7 +619,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1204"/>
+        <location line="+1252"/>
         <source>&amp;Open...</source>
         <translation type="unfinished">&amp;Obre</translation>
     </message>
@@ -702,12 +704,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Sepa&amp;rades</translation>
     </message>
     <message>
-        <location line="-1219"/>
+        <location line="-1267"/>
         <source>ms</source>
         <translation type="unfinished">ms</translation>
     </message>
     <message>
-        <location line="+772"/>
+        <location line="+820"/>
         <source>A:</source>
         <translation type="unfinished">A:</translation>
     </message>
@@ -722,7 +724,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Tipus fotograma: </translation>
     </message>
     <message>
-        <location line="-1260"/>
+        <location line="-1308"/>
         <source>&amp;Toolbars</source>
         <translation type="unfinished"></translation>
     </message>
@@ -764,12 +766,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -809,7 +811,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+74"/>
+        <source>Search previous black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Search next black frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -859,7 +871,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-461"/>
+        <location line="-509"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -869,7 +881,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2785,7 +2797,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">S&apos;ha produït un problema en inicialitzar el dispositiu d&apos;àudio</translation>
     </message>
@@ -4626,17 +4638,8 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10512,7 +10515,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10598,7 +10601,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

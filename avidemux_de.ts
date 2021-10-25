@@ -529,6 +529,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -548,7 +550,7 @@ Drop timing informations ?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="-1292"/>
+        <location line="-1340"/>
         <source>&amp;Help</source>
         <translation>&amp;Hilfe</translation>
     </message>
@@ -593,7 +595,7 @@ Drop timing informations ?</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="+1612"/>
+        <location line="+1660"/>
         <source>&amp;Open...</source>
         <translation>&amp;Öffnen...</translation>
     </message>
@@ -644,12 +646,12 @@ Drop timing informations ?</source>
         <translation type="obsolete">F7</translation>
     </message>
     <message>
-        <location line="-1096"/>
+        <location line="-1144"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location line="+772"/>
+        <location line="+820"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -689,7 +691,7 @@ Drop timing informations ?</source>
         <translation>Ab&amp;trennen</translation>
     </message>
     <message>
-        <location line="-1827"/>
+        <location line="-1875"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkzeugleisten</translation>
     </message>
@@ -719,7 +721,7 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;Ausgabeformat&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1099"/>
+        <location line="+1147"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Codec-Einstellungen</translation>
     </message>
@@ -749,7 +751,7 @@ Drop timing informations ?</source>
         <translation>Videodatei öffnen</translation>
     </message>
     <message>
-        <location line="-794"/>
+        <location line="-842"/>
         <source>Play [SPACE]</source>
         <translation>Wiedergabe/Stopp [Leertaste]</translation>
     </message>
@@ -784,15 +786,17 @@ Drop timing informations ?</source>
         <translation>Endmarkierung setzen [Strg + Bild runter]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Ein schwarzes Frame rückwärts suchen</translation>
+        <translation>Ein schwarzes Frame rückwärts suchen</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Ein schwarzes Frame vorwärts suchen</translation>
+        <translation>Ein schwarzes Frame vorwärts suchen</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Zum ersten Frame gehen [Pos 1]</translation>
     </message>
@@ -822,7 +826,7 @@ Drop timing informations ?</source>
         <translation>Springe zur Markierung B [Bild runter]</translation>
     </message>
     <message>
-        <location line="-1327"/>
+        <location line="-1375"/>
         <source>Codec O&amp;ptions</source>
         <translation>&amp;Codec-Einstellungen</translation>
     </message>
@@ -844,12 +848,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+338"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="-909"/>
+        <location line="-957"/>
         <source>Play</source>
         <translation>Wiedergabe</translation>
     </message>
@@ -864,7 +868,7 @@ Drop timing informations ?</source>
         <translation>Springe zum nächsten Schnittpunkt [Umschalt + Pfeiltaste hoch]</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+143"/>
         <source>Forward one minute</source>
         <translation>Eine Minute vor</translation>
     </message>
@@ -2822,7 +2826,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation type="unfinished">Probleme beim Initialisieren des Audio-Gerätes</translation>
     </message>
@@ -4679,17 +4683,8 @@ Trotzdem fortsetzen?</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10627,7 +10622,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Auf Vorgabe zurücksetzen</translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10707,7 +10702,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+1007"/>
+        <location line="+1013"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>
@@ -10726,19 +10721,19 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2686"/>
+        <location line="-2696"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+2027"/>
+        <location line="+2031"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
 Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendungsstart geladen.</translation>
     </message>
     <message>
-        <location line="+243"/>
+        <location line="+249"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>

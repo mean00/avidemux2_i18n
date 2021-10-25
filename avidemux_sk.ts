@@ -626,12 +626,12 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigácia</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Prehrať [medzerník]</translation>
     </message>
@@ -650,6 +650,8 @@ Vypustiť časové údaje?</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -659,7 +661,7 @@ Vypustiť časové údaje?</translation>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Prejsť na predošlú snímku [šípka vľavo]</translation>
     </message>
@@ -689,15 +691,17 @@ Vypustiť časové údaje?</translation>
         <translation>Nastaviť značku konca [Ctrl+Page Down]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Nájsť predošlú čiernu snímku</translation>
+        <translation>Nájsť predošlú čiernu snímku</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Nájsť ďalšiu čiernu snímku</translation>
+        <translation>Nájsť ďalšiu čiernu snímku</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Prejsť na prvú snímku [Home]</translation>
     </message>
@@ -788,7 +792,7 @@ Vypustiť časové údaje?</translation>
         <translation>Hlasi&amp;tosť</translation>
     </message>
     <message>
-        <location line="-1044"/>
+        <location line="-1092"/>
         <source> (0 tracks)</source>
         <translation> (0 stôp)</translation>
     </message>
@@ -803,7 +807,7 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation>Vybrané: 000000</translation>
     </message>
@@ -2726,7 +2730,7 @@ Je spustené?</translation>
         <translation>Táto funkcia je vypnutá alebo je už neplatná</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Chyba inicializácie audio zariadenia</translation>
     </message>
@@ -4726,17 +4730,16 @@ Táto správa sa znova nezobrazí.</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Čierne snímky</translation>
+        <translation type="vanished">Čierne snímky</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>Táto funkcia momentálne nie je podporovaná</translation>
+        <translation type="vanished">Táto funkcia momentálne nie je podporovaná</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Vyhľadávanie čiernej snímky.</translation>
     </message>
@@ -10701,7 +10704,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10788,7 +10791,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

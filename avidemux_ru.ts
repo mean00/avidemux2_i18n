@@ -524,12 +524,12 @@ Drop timing informations ?</source>
         <translation>Сдв&amp;иг:</translation>
     </message>
     <message>
-        <location line="+614"/>
+        <location line="+662"/>
         <source>Time:</source>
         <translation>Время:</translation>
     </message>
     <message>
-        <location line="-1209"/>
+        <location line="-1257"/>
         <source>&amp;Help</source>
         <translation>Сп&amp;равка</translation>
     </message>
@@ -589,7 +589,7 @@ Drop timing informations ?</source>
         <translation>Перейти к следующему разрезу [SHIFT+UP]</translation>
     </message>
     <message>
-        <location line="+598"/>
+        <location line="+646"/>
         <source>&amp;Open...</source>
         <translation>&amp;Открыть...</translation>
     </message>
@@ -656,12 +656,12 @@ Drop timing informations ?</source>
         <translation>&amp;Сверху</translation>
     </message>
     <message>
-        <location line="-1717"/>
+        <location line="-1765"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Декодер видео&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1138"/>
+        <location line="+1186"/>
         <source>Frame type:</source>
         <translation>Тип кадра:</translation>
     </message>
@@ -671,7 +671,7 @@ Drop timing informations ?</source>
         <translation>&amp;Отделить</translation>
     </message>
     <message>
-        <location line="-1941"/>
+        <location line="-1989"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -723,12 +723,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Воспроизвести [SPACE]</translation>
     </message>
@@ -747,6 +747,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -756,7 +758,7 @@ Drop timing informations ?</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Предыдущий кадр [LEFT]</translation>
     </message>
@@ -786,15 +788,17 @@ Drop timing informations ?</source>
         <translation>Поставить метку конца [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Предыдущий чёрный кадр</translation>
+        <translation>Предыдущий чёрный кадр</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Следующий чёрный кадр</translation>
+        <translation>Следующий чёрный кадр</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Первый кадр [HOME]</translation>
     </message>
@@ -2810,7 +2814,7 @@ Proceed anyway?</source>
         <translation>Функция отключена или более недействительна</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Проблема при инициализации аудиоустройства</translation>
     </message>
@@ -4703,17 +4707,16 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Чёрный кадр</translation>
+        <translation type="vanished">Чёрный кадр</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>В данный момент эта функция не поддерживается</translation>
+        <translation type="vanished">В данный момент эта функция не поддерживается</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Поиск чёрного кадра...</translation>
     </message>
@@ -10675,7 +10678,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Восстановить стандартный набор</translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10762,7 +10765,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Ход текущего редактирования сохранён и будет загружен при следующем запуске</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>

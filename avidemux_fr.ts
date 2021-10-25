@@ -575,7 +575,7 @@ Ignorer les informations de timing ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -652,7 +652,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Cot&amp;e à cote</translation>
     </message>
     <message>
-        <location line="-1865"/>
+        <location line="-1913"/>
         <source>Vi&amp;deo</source>
         <translation>Vidéo</translation>
     </message>
@@ -714,12 +714,12 @@ Ignorer les informations de timing ?</translation>
     </message>
     <message>
         <location line="+161"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Lire [ESPACE]</translation>
     </message>
@@ -738,6 +738,8 @@ Ignorer les informations de timing ?</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -747,7 +749,7 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation type="unfinished">Image précédente [GAUCHE]</translation>
     </message>
@@ -777,15 +779,17 @@ Ignorer les informations de timing ?</translation>
         <translation>Mettre le marqueur B [CTRL+PAGE SUIVANTE]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Chercher l&apos;image noire précédente</translation>
+        <translation>Chercher l&apos;image noire précédente</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Chercher l&apos;image noire suivante</translation>
+        <translation>Chercher l&apos;image noire suivante</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Aller au début [DEBUT]</translation>
     </message>
@@ -2673,7 +2677,7 @@ Is it running ?</source>
         <translation>Cette fonction est désactivée ou plus disponible.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Le device audio ne peut pas être initialisé</translation>
     </message>
@@ -4648,17 +4652,8 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
-        <source>BlackFrame</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>This function is unsupported at the moment</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10491,7 +10486,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10578,7 +10573,7 @@ The current editing has been saved and will be reloaded at next start</source>
 L&apos;édition en cours a été enregistrée et sera rechargée au prochain démarrage</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

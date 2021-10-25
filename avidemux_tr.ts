@@ -524,12 +524,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Shift:</translation>
     </message>
     <message>
-        <location line="+614"/>
+        <location line="+662"/>
         <source>Time:</source>
         <translation>Zaman:</translation>
     </message>
     <message>
-        <location line="-1209"/>
+        <location line="-1257"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
@@ -589,7 +589,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Sonraki kesme noktasına git [SHIFT+YUKARI]</translation>
     </message>
     <message>
-        <location line="+598"/>
+        <location line="+646"/>
         <source>&amp;Open...</source>
         <translation>&amp;Açılıyor...</translation>
     </message>
@@ -662,12 +662,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Üst</translation>
     </message>
     <message>
-        <location line="-1717"/>
+        <location line="-1765"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video Kod Çözücü&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1138"/>
+        <location line="+1186"/>
         <source>Frame type:</source>
         <translation>Çerçeve tipi:</translation>
     </message>
@@ -677,7 +677,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Ayrı</translation>
     </message>
     <message>
-        <location line="-1941"/>
+        <location line="-1989"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -729,12 +729,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Gezinme</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Oynat [BOŞLUK]</translation>
     </message>
@@ -753,6 +753,8 @@ Bırakma zamanlaması bilgileri?</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -762,7 +764,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Önceki kareye git [SOL]</translation>
     </message>
@@ -792,7 +794,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Bitiş işaretleyicisini ayarla [CTRL+SAYFA AŞAĞI]</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+120"/>
         <source>Go to first frame [HOME]</source>
         <translation>İlk kareye git [EV]</translation>
     </message>
@@ -933,12 +935,14 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
+        <location line="-801"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Önceki siyah karede ara</translation>
+        <translation>Önceki siyah karede ara</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Sonraki siyah karede ara</translation>
+        <translation>Sonraki siyah karede ara</translation>
     </message>
     <message>
         <source>&amp;Calculator...</source>
@@ -2819,7 +2823,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Bu işlev devre dışı veya artık geçerli değil</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Ses cihazını başlatma sorunu</translation>
     </message>
@@ -4746,17 +4750,16 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Siyah Kare</translation>
+        <translation type="vanished">Siyah Kare</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>Bu işlev şu anda desteklenmiyor</translation>
+        <translation type="vanished">Bu işlev şu anda desteklenmiyor</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Sonraki siyah karede ara.</translation>
     </message>
@@ -10759,7 +10762,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Varsayılanları geri yükle</translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10846,7 +10849,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>

@@ -495,7 +495,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1402"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1450"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -514,7 +514,7 @@ Drop timing informations ?</source>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-779"/>
+        <location line="-827"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
@@ -533,6 +533,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -547,7 +549,7 @@ Drop timing informations ?</source>
         <translation>上下並排(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1492"/>
+        <location line="-1540"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>複製</translation>
@@ -589,7 +591,7 @@ Drop timing informations ?</source>
         <translation>檢視(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1642"/>
+        <location line="+1690"/>
         <source>Open Video</source>
         <translation>開啟影片</translation>
     </message>
@@ -614,16 +616,17 @@ Drop timing informations ?</source>
         <translation>載入/執行專案</translation>
     </message>
     <message>
+        <location line="-652"/>
         <source>Search next black frame</source>
-        <translation type="vanished">搜尋下一幀黑框</translation>
+        <translation>搜尋下一幀黑框</translation>
     </message>
     <message>
-        <location line="-629"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>轉到第一幀 [HOME]</translation>
     </message>
     <message>
-        <location line="-118"/>
+        <location line="-166"/>
         <source>Go to next keyframe [UP]</source>
         <translation>轉到下一幀(關鍵幀或I幀) [UP]</translation>
     </message>
@@ -632,7 +635,7 @@ Drop timing informations ?</source>
         <translation type="vanished">計算機(&amp;C)...</translation>
     </message>
     <message>
-        <location line="+458"/>
+        <location line="+506"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>轉到標記 A [PAGE UP]</translation>
     </message>
@@ -643,12 +646,12 @@ Drop timing informations ?</source>
         <translation>儲存專案</translation>
     </message>
     <message>
-        <location line="-1671"/>
+        <location line="-1719"/>
         <source>&amp;Audio</source>
         <translation>音訊(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1686"/>
+        <location line="+1734"/>
         <source>&amp;Input</source>
         <translation>輸入(&amp;I)</translation>
     </message>
@@ -658,22 +661,22 @@ Drop timing informations ?</source>
         <translation>標誌區段(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1742"/>
+        <location line="-1790"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1295"/>
+        <location line="+1343"/>
         <source>Se&amp;lection</source>
         <translation>標誌區間段(&amp;L)</translation>
     </message>
     <message>
-        <location line="-335"/>
+        <location line="-383"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
         <translation>設定結束標記 [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
-        <location line="+415"/>
+        <location line="+463"/>
         <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
@@ -684,7 +687,7 @@ Drop timing informations ?</source>
         <translation>音訊畫面(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1590"/>
+        <location line="-1638"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -702,17 +705,17 @@ Drop timing informations ?</source>
         <translation>播放 [SPACE]</translation>
     </message>
     <message>
-        <location line="+744"/>
+        <location line="+792"/>
         <source>Audio &amp;Metre</source>
         <translation>音訊畫面(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1588"/>
+        <location line="-1636"/>
         <source>&amp;Toolbars</source>
         <translation>工具列(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1635"/>
+        <location line="+1683"/>
         <source>&amp;Open...</source>
         <translation>開啟檔案(&amp;O)...</translation>
     </message>
@@ -733,11 +736,12 @@ Drop timing informations ?</source>
         <translation>儲存影片&amp;V)...</translation>
     </message>
     <message>
+        <location line="-642"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">搜尋上一幀黑框</translation>
+        <translation>搜尋上一幀黑框</translation>
     </message>
     <message>
-        <location line="-783"/>
+        <location line="-189"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>轉到上一幀 [LEFT]</translation>
     </message>
@@ -747,7 +751,7 @@ Drop timing informations ?</source>
         <translation>編解碼器選項(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1585"/>
+        <location line="+1633"/>
         <source>Play filtered</source>
         <translation>濾鏡播放(&amp;P)</translation>
     </message>
@@ -757,7 +761,7 @@ Drop timing informations ?</source>
         <translation>轉到標記 B [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="-995"/>
+        <location line="-1043"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;輸出音訊編碼佳AC3/Mp3&lt;/b&gt;</translation>
     </message>
@@ -767,7 +771,7 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;影片輸出格式(容器)佳Mp4/Mkv&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1040"/>
+        <location line="+1088"/>
         <source>&amp;Load/Run Project...</source>
         <translation>載入/執行專案(&amp;L)...</translation>
     </message>
@@ -777,32 +781,32 @@ Drop timing informations ?</source>
         <translation>G轉到最後一幀 [END]</translation>
     </message>
     <message>
-        <location line="-1065"/>
+        <location line="-1113"/>
         <source>&amp;Custom</source>
         <translation>自訂(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1713"/>
+        <location line="+1761"/>
         <source>&amp;Output</source>
         <translation>輸出(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1688"/>
+        <location line="-1736"/>
         <source>&amp;Recent</source>
         <translation>最近(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1089"/>
+        <location line="+1137"/>
         <source>Forward one minute</source>
         <translation>前進一分鐘</translation>
     </message>
     <message>
-        <location line="-556"/>
+        <location line="-604"/>
         <source>&amp;Shift:</source>
         <translation>位移(±)(&amp;S):</translation>
     </message>
     <message>
-        <location line="+1208"/>
+        <location line="+1256"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -822,7 +826,7 @@ Drop timing informations ?</source>
         <translation>分離視窗(&amp;S)</translation>
     </message>
     <message>
-        <location line="-862"/>
+        <location line="-910"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>設定開始標記 [CTRL+PAGEUP]</translation>
     </message>
@@ -838,12 +842,12 @@ Drop timing informations ?</source>
         <translation>濾鏡器-特效</translation>
     </message>
     <message>
-        <location line="+926"/>
+        <location line="+974"/>
         <source>Vol&amp;ume</source>
         <translation>音量(&amp;U)</translation>
     </message>
     <message>
-        <location line="-1353"/>
+        <location line="-1401"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;解碼器.顏色.不編碼直選COPY&lt;/b&gt;</translation>
     </message>
@@ -868,7 +872,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+172"/>
+        <location line="+220"/>
         <source>00:00:00.000</source>
         <translation>00:00:00.000</translation>
     </message>
@@ -893,12 +897,12 @@ Drop timing informations ?</source>
         <translation>屬性(&amp;I)...</translation>
     </message>
     <message>
-        <location line="-751"/>
+        <location line="-799"/>
         <source>Go to next frame [RIGHT]</source>
         <translation>轉到下一幀</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+258"/>
         <source>Backward one minute [CTRL+DOWN]</source>
         <translation>倒退一分鐘 [CTRL+DOWN]</translation>
     </message>
@@ -938,13 +942,13 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="-868"/>
+        <location line="-916"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>轉到上一幀(關鍵幀或I幀) [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>影片導航欄(&amp;N)</translation>
     </message>
@@ -3023,7 +3027,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>低位元率的場景（%）</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>音訊裝置初始化時發生問題</translation>
     </message>
@@ -4683,19 +4687,18 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>黑幀</translation>
+        <translation type="vanished">黑幀</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>搜尋黑幀.</translation>
     </message>
     <message>
-        <location line="-22"/>
         <source>This function is unsupported at the moment</source>
-        <translation>此函數不受支援的那一刻</translation>
+        <translation type="vanished">此函數不受支援的那一刻</translation>
     </message>
 </context>
 <context>
@@ -10608,22 +10611,22 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2520"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2530"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1061"/>
+        <location line="-1067"/>
         <source>Set start marker</source>
         <translation>設定開始標記</translation>
     </message>
     <message>
-        <location line="-858"/>
+        <location line="-862"/>
         <source>Recent Projects</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1676"/>
+        <location line="+1680"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
@@ -10635,7 +10638,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
     <message>
-        <location line="-1201"/>
+        <location line="-1205"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10650,7 +10653,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10675,7 +10678,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分鐘</translation>
     </message>
     <message>
-        <location line="+1010"/>
+        <location line="+1016"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10693,7 +10696,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1459"/>
+        <location line="-1465"/>
         <source>Go to first frame</source>
         <translation>轉到第一幀</translation>
     </message>

@@ -536,6 +536,8 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -571,7 +573,7 @@ Drop timing informations ?</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-1438"/>
+        <location line="-1486"/>
         <source>&amp;Help</source>
         <translation>Βοή&amp;θεια</translation>
     </message>
@@ -621,7 +623,7 @@ Drop timing informations ?</source>
         <translation> (0 κανάλια)</translation>
     </message>
     <message>
-        <location line="+1204"/>
+        <location line="+1252"/>
         <source>&amp;Open...</source>
         <translation>Άν&amp;οιγμα...</translation>
     </message>
@@ -681,12 +683,12 @@ Drop timing informations ?</source>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-1165"/>
+        <location line="-1213"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location line="+772"/>
+        <location line="+820"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -716,12 +718,12 @@ Drop timing informations ?</source>
         <translation>&amp;Κορυφή</translation>
     </message>
     <message>
-        <location line="-1717"/>
+        <location line="-1765"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Αποκωδικοποιητής βίντεο&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1138"/>
+        <location line="+1186"/>
         <source>Frame type:</source>
         <translation>Τύπος στιγμιότυπου:</translation>
     </message>
@@ -731,7 +733,7 @@ Drop timing informations ?</source>
         <translation>Δια&amp;χωρισμός</translation>
     </message>
     <message>
-        <location line="-1827"/>
+        <location line="-1875"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Εργαλειοθήκες</translation>
     </message>
@@ -773,12 +775,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Πλοήγηση</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Αναπαραγωγή [ΔΙΑΣΤΗΜΑ]</translation>
     </message>
@@ -818,15 +820,17 @@ Drop timing informations ?</source>
         <translation>Ορίστε τον σημαδευτή τέλους [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Αναζήτηση προηγούμενου μαύρου στιγμιότυπου</translation>
+        <translation>Αναζήτηση προηγούμενου μαύρου στιγμιότυπου</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Αναζήτηση επόμενου μαύρου στιγμιότυπου</translation>
+        <translation>Αναζήτηση επόμενου μαύρου στιγμιότυπου</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Μετάβαση στο πρώτο στιγμιότυπο [HOME]</translation>
     </message>
@@ -876,7 +880,7 @@ Drop timing informations ?</source>
         <translation>Έντασ&amp;η</translation>
     </message>
     <message>
-        <location line="-461"/>
+        <location line="-509"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -886,7 +890,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation>Επιλογή: 000000</translation>
     </message>
@@ -2837,7 +2841,7 @@ Proceed anyway?</source>
         <translation>Αυτή η λειτουργία είναι απενεργοποιημένη ή δεν ισχύει πια</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Πρόβλημα στην αρχικοποίηση της συσκευής ήχου</translation>
     </message>
@@ -4738,17 +4742,16 @@ This message will not be displayed again.</source>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Μαύρο στιγμιότυπο</translation>
+        <translation type="vanished">Μαύρο στιγμιότυπο</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>Αυτή η λειτουργία δεν υποστηρίζεται για την ώρα</translation>
+        <translation type="vanished">Αυτή η λειτουργία δεν υποστηρίζεται για την ώρα</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Αναζήτηση μαύρου στιγμιότυπου...</translation>
     </message>
@@ -10725,7 +10728,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10812,7 +10815,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Η τρέχουσα επεξεργασία έχει αποθηκευθεί και θα ξαναφορτωθεί στην επόμενη εκκίνηση</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

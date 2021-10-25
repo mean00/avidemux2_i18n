@@ -541,7 +541,7 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+172"/>
+        <location line="+220"/>
         <source>00:00:00.000</source>
         <translation>00:00:00.000</translation>
     </message>
@@ -567,7 +567,7 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>Typ klatki:</translation>
     </message>
     <message>
-        <location line="-1279"/>
+        <location line="-1327"/>
         <source>&amp;Help</source>
         <translation>Po&amp;moc</translation>
     </message>
@@ -659,12 +659,12 @@ Porzucić informacje dotyczące czasu?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>Nawigacja</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Odtwórz [SPACJA]</translation>
     </message>
@@ -683,6 +683,8 @@ Porzucić informacje dotyczące czasu?</translation>
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -692,7 +694,7 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>...</translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Poprzednia klatka [STRZAŁKA W LEWO]</translation>
     </message>
@@ -722,15 +724,17 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>Ustaw znacznik końcowy [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Wyszukaj poprzednią czarną klatkę</translation>
+        <translation>Wyszukaj poprzednią czarną klatkę</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Wyszukaj następną czarną klatkę</translation>
+        <translation>Wyszukaj następną czarną klatkę</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Pierwsza klatka [HOME]</translation>
     </message>
@@ -795,12 +799,12 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>Głośność</translation>
     </message>
     <message>
-        <location line="-1044"/>
+        <location line="-1092"/>
         <source> (0 tracks)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1007"/>
+        <location line="+1055"/>
         <source>Selection: 000000</source>
         <translation>Zaznaczenie: 000000</translation>
     </message>
@@ -2805,7 +2809,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Ta funkcja jest wyłączona lub nie jest już obowiązująca</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Problem z zainicjowaniem urządzenia audio</translation>
     </message>
@@ -4692,17 +4696,16 @@ Czy pomimo tego chcesz kontynuować?</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Czarna klatka</translation>
+        <translation type="vanished">Czarna klatka</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>Ta funkcja nie jest wspierana w tej chwili</translation>
+        <translation type="vanished">Ta funkcja nie jest wspierana w tej chwili</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Wyszukiwanie czarnej klatki...</translation>
     </message>
@@ -10636,7 +10639,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10723,7 +10726,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następnym uruchomieniu</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>

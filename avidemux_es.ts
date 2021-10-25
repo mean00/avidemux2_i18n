@@ -526,7 +526,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Filtros</translation>
     </message>
     <message>
-        <location line="+660"/>
+        <location line="+708"/>
         <source>00:00:00.000</source>
         <translation></translation>
     </message>
@@ -557,7 +557,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Tipo de fotograma:</translation>
     </message>
     <message>
-        <location line="-1279"/>
+        <location line="-1327"/>
         <source>&amp;Help</source>
         <translation>A&amp;yuda</translation>
     </message>
@@ -654,12 +654,12 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location line="+126"/>
-        <location line="+987"/>
+        <location line="+1035"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navegación</translation>
     </message>
     <message>
-        <location line="-912"/>
+        <location line="-960"/>
         <source>Play [SPACE]</source>
         <translation>Reproducir [ESPACIO]</translation>
     </message>
@@ -678,6 +678,8 @@ Si solo copia el vídeo sin recodificarlo,
         <location line="+23"/>
         <location line="+26"/>
         <location line="+23"/>
+        <location line="+25"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -687,7 +689,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-635"/>
+        <location line="-683"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>Ir al fotograma anterior [IZQUIERDA]</translation>
     </message>
@@ -717,15 +719,17 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Establecer el marcador de fin [CTRL+Av Pág]</translation>
     </message>
     <message>
+        <location line="+74"/>
         <source>Search previous black frame</source>
-        <translation type="vanished">Buscar el fotograma en negro anterior</translation>
+        <translation>Buscar el fotograma en negro anterior</translation>
     </message>
     <message>
+        <location line="+23"/>
         <source>Search next black frame</source>
-        <translation type="vanished">Buscar el fotograma en negro siguiente</translation>
+        <translation>Buscar el fotograma en negro siguiente</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+23"/>
         <source>Go to first frame [HOME]</source>
         <translation>Ir al primer fotograma [INICIO]</translation>
     </message>
@@ -785,7 +789,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Vol&amp;umen</translation>
     </message>
     <message>
-        <location line="-1044"/>
+        <location line="-1092"/>
         <source> (0 tracks)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -800,7 +804,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+449"/>
         <source>Selection: 000000</source>
         <translation>Selección: 000000</translation>
     </message>
@@ -2972,7 +2976,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Esta función esta deshabilitada o ya no es válida</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+453"/>
+        <location filename="../../common/gui_play.cpp" line="+455"/>
         <source>Trouble initializing audio device</source>
         <translation>Problemas al inicializar el dispositivo de audio</translation>
     </message>
@@ -4692,17 +4696,16 @@ Este mensaje no se mostrará de nuevo.</translation>
 <context>
     <name>blackframes</name>
     <message>
-        <location filename="../../common/gui_blackframes.cpp" line="+105"/>
         <source>BlackFrame</source>
-        <translation>Fotograma en negro</translation>
+        <translation type="vanished">Fotograma en negro</translation>
     </message>
     <message>
-        <location line="+0"/>
         <source>This function is unsupported at the moment</source>
-        <translation>Esta función no está soportada por el momento</translation>
+        <translation type="vanished">Esta función no está soportada por el momento</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location filename="../../common/gui_blackframes.cpp" line="+113"/>
+        <location line="+75"/>
         <source>Searching black frame..</source>
         <translation>Buscando fotograma en negro..</translation>
     </message>
@@ -10643,7 +10646,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+585"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10730,7 +10733,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
