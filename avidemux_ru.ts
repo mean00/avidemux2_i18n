@@ -1088,7 +1088,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+261"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+598"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1108,7 +1108,7 @@ Drop timing informations ?</source>
         <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуск приложения</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-350"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Разрешать нестандартную частоту звука для DVD</translation>
     </message>
@@ -1300,12 +1300,12 @@ Drop timing informations ?</source>
         <translation>Avisynth</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+187"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-3"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1315,7 +1315,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-176"/>
         <source>Use _shared cache</source>
         <translation>Использовать _общий кэш</translation>
     </message>
@@ -1331,11 +1331,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
+        <location line="+178"/>
         <source>OpenGL</source>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-175"/>
         <source>LibVA</source>
         <translation>LibVA</translation>
     </message>
@@ -1413,7 +1414,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+17"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+80"/>
         <source>_Horizontal deblocking</source>
         <translation>_Горизонтальный деблокинг</translation>
     </message>
@@ -1429,12 +1430,12 @@ Drop timing informations ?</source>
         <translation>_Деинтерлейсинг (ffmpegdeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
         <source>Default Postprocessing</source>
         <translation>Постобработка по умолчанию</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="-33"/>
         <source>User Interface</source>
         <translation>Интерфейс</translation>
     </message>
@@ -1467,7 +1468,7 @@ Drop timing informations ?</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+42"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+112"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
@@ -1477,7 +1478,7 @@ Drop timing informations ?</source>
         <translation>&amp;Настройки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+9"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+18"/>
         <source>Preferences</source>
         <translation>Настройки</translation>
     </message>
@@ -1626,12 +1627,12 @@ Drop timing informations ?</source>
         <translation>Ошибка кодека</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+369"/>
+        <location filename="../../common/gui_main.cpp" line="+370"/>
         <source>Not coded in this version</source>
         <translation>Нет в этой версии</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+243"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Это видео использует кадры прямого доступа без мгновенного обновления декодирования (non-IDR). Счётчик очерёдности показа изображений (POC) на таких ключевых кадрах не сбрасывается. Образовавшиеся точки разреза вставки при сохранении видео в режиме копирования могут привести к задержке воспроизведения из-за нарушенного порядка показа изображений.
@@ -1825,7 +1826,7 @@ Expect problems.</source>
         <translation>Ошибка при открытии файла для записи</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+108"/>
         <source>_Track from video:</source>
         <translation>_Дорожка из видео:</translation>
     </message>
@@ -1919,8 +1920,8 @@ Is it running ?</source>
         <translation>Сохранено изображений: %d.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+812"/>
+        <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
@@ -2095,7 +2096,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-192"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
@@ -2123,7 +2124,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2213,7 +2214,7 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-339"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-29"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
@@ -2228,17 +2229,17 @@ Is it running ?</source>
         <translation>Декодировать видео с помощью VideoToolbox (macOS)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-38"/>
         <source>Enable openGl support</source>
         <translation>Включить поддержку OpenGL</translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="+44"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>При включении аппаратного ускорения лучше использовать соответствующий вывод видео</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-343"/>
         <source>_Check for new release</source>
         <translation>_Проверять обновления</translation>
     </message>
@@ -2248,7 +2249,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+119"/>
+        <location line="+104"/>
         <source>Caching of decoded pictures</source>
         <translation>Кэширование декодированных кадров</translation>
     </message>
@@ -2297,7 +2298,7 @@ Is it running ?</source>
         <translation>_Аудиоустройство</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+68"/>
         <source>De_ringing</source>
         <translation>_Дерингинг</translation>
     </message>
@@ -2307,7 +2308,7 @@ Is it running ?</source>
         <translation>_Уровень:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="-62"/>
         <source>System language</source>
         <translation>Системный</translation>
     </message>
@@ -2322,7 +2323,12 @@ Is it running ?</source>
         <translation>Импорт</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+50"/>
+        <source>Post-Processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Ограничение частоты обновления</translation>
     </message>
@@ -2332,24 +2338,27 @@ Is it running ?</source>
         <translation>Интервал частоты обновления (мс)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
+        <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>GUI Rendering Options</source>
         <translation>Отрисовка графической оболочки</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+21"/>
         <source>Display</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+35"/>
         <source>HW Accel</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-262"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -2587,6 +2596,46 @@ Is it running ?</source>
         <translation>Перейти ко времени</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Backward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+7"/>
         <source>Zoom 1:4</source>
         <translation>Масштаб 1:4</translation>
@@ -2612,8 +2661,8 @@ Is it running ?</source>
         <translation>Подогнать под размер окна</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-49"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-50"/>
+        <location line="+50"/>
         <source>You cannot remove *all* the video
 </source>
         <translation>Нельзя удалить *все* видео
@@ -2698,7 +2747,7 @@ It is needed to create PSP compatible video.</source>
 Он требуется для создания видео, совместимого с PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1527"/>
+        <location filename="../../common/gui_main.cpp" line="-1530"/>
         <source>Select script/project to run</source>
         <translation>Выбрать скрипт/проект для запуска</translation>
     </message>
@@ -2724,7 +2773,7 @@ It is needed to create PSP compatible video.</source>
     </message>
     <message>
         <location line="+125"/>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Select Video File...</source>
         <translation>Выбрать файл видео...</translation>
     </message>
@@ -2744,7 +2793,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Выбрать файл видео для присоединения...</translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2763,7 +2812,7 @@ Proceed anyway?</source>
         <translation>Ошибка обрезки.</translation>
     </message>
     <message>
-        <location line="+823"/>
+        <location line="+825"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Неверный индекс аудио</translation>
@@ -3019,12 +3068,14 @@ Try anyway?</source>
         <translation>Невозможно открыть </translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Отключены</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Auto-detect</source>
         <translation>Автоматически</translation>
     </message>
@@ -3562,18 +3613,12 @@ Installation mismatch</source>
         <translation>Скрипт «%s» не существует.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
-        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
+        <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+7"/>
-        <source>disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
         <translation type="unfinished"></translation>
@@ -3609,6 +3654,11 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4716,7 +4766,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
-        <location line="+75"/>
+        <location line="+155"/>
         <source>Searching black frame..</source>
         <translation>Поиск чёрного кадра...</translation>
     </message>
@@ -4931,6 +4981,16 @@ This message will not be displayed again.</source>
         <source>Adjust shadow, midtone and highlight.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
+        <source>Peek Ranges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>colorBalanceDialog</name>
@@ -4966,16 +5026,6 @@ This message will not be displayed again.</source>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+179"/>
-        <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9808,7 +9858,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1069"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Ошибка чтения заголовков SVQ3</translation>
     </message>
@@ -10186,7 +10236,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+274"/>
+        <location filename="../../common/gui_navigate.cpp" line="+367"/>
         <source>Cannot go to next keyframe</source>
         <translation>Невозможно перейти к следующему ключевому кадру</translation>
     </message>
@@ -10658,12 +10708,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+250"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+350"/>
+        <location line="+380"/>
         <source>Recent Files</source>
         <translation>Предыдущие файлы</translation>
     </message>
@@ -10683,7 +10733,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+240"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>
@@ -10758,7 +10808,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Вперёд на 1 минуту</translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+775"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой
@@ -11685,7 +11735,7 @@ Ready.
         <translation>Предпросмотр</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+108"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11695,7 +11745,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+16"/>
         <source>Back one minute</source>
         <translation>Назад на 1 мин</translation>
     </message>
@@ -15712,6 +15762,11 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+5"/>
         <source>echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>none (stretch)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

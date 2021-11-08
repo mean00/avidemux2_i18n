@@ -1317,6 +1317,46 @@ Vypustiť časové údaje?</translation>
         <translation>Prejsť na čas</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Backward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+7"/>
         <source>Zoom 1:4</source>
         <translation>Priblíženie 1:4</translation>
@@ -1385,7 +1425,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+476"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+445"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1544,7 +1584,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1590,7 +1630,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-46"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-116"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -1684,7 +1724,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
         <source>_Horizontal deblocking</source>
         <translation>_Horizontálne odstránenie blokových artefaktov (deblocking)</translation>
     </message>
@@ -1705,7 +1745,7 @@ Vypustiť časové údaje?</translation>
         <translation>Ro_zkladač (ffmpedeint)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-237"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+68"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekódovať video použitím DXVA2 (Windows)</translation>
     </message>
@@ -1725,12 +1765,12 @@ Vypustiť časové údaje?</translation>
         <translation>Dekódovať video použitím VideoToolbox (macOS)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-38"/>
         <source>Enable openGl support</source>
         <translation>Povoliť OpenGL podporu</translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="+44"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Ak použijete hardvérové dekódovanie, je lepšie použiť pripôsobený ovládač zobrazovania</translation>
     </message>
@@ -1750,7 +1790,7 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-350"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Akceptovať neštandardnú frekvenciu zvuku pre DVD</translation>
     </message>
@@ -1952,12 +1992,12 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+187"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-3"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1967,7 +2007,7 @@ Vypustiť časové údaje?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-178"/>
         <source>Caching of decoded pictures</source>
         <translation>Zásobník dekódovaných obrázkov</translation>
     </message>
@@ -2078,7 +2118,7 @@ Vypustiť časové údaje?</translation>
         <translation>_Audio zariadenie</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+68"/>
         <source>De_ringing</source>
         <translation>Od_stránenie zvlnenia okolo hrán (deringing)</translation>
     </message>
@@ -2088,12 +2128,12 @@ Vypustiť časové údaje?</translation>
         <translation>_Sila:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Default Postprocessing</source>
         <translation>Východzie dodatočné spracovanie</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-64"/>
         <source>System language</source>
         <translation>Jazyk systému</translation>
     </message>
@@ -2118,7 +2158,12 @@ Vypustiť časové údaje?</translation>
         <translation>Výstup</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+46"/>
+        <source>Post-Processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Obmedziť obnovovací kmitočet</translation>
     </message>
@@ -2128,19 +2173,22 @@ Vypustiť časové údaje?</translation>
         <translation>Strop obnovovacej frekvencie [ms]</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
+        <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>GUI Rendering Options</source>
         <translation>Grafické užívateľské prostredie volieb prevodu</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+21"/>
         <source>Display</source>
         <translation>Zobrazenie</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+35"/>
         <source>HW Accel</source>
         <translation>HW akcelerácia</translation>
     </message>
@@ -2150,7 +2198,7 @@ Vypustiť časové údaje?</translation>
         <translation>Vláknenie</translation>
     </message>
     <message>
-        <location line="-228"/>
+        <location line="-271"/>
         <source>_Always ask which port to use</source>
         <translation>_Vždy sa opýtať, ktorý port sa má použiť</translation>
     </message>
@@ -2160,7 +2208,7 @@ Vypustiť časové údaje?</translation>
         <translation>Predvolený port na použitie</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+12"/>
         <source>This renderer provides no hardware acceleration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2171,21 +2219,22 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+3"/>
+        <location line="+178"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-175"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+195"/>
+        <location line="+262"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-119"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-128"/>
         <source>Save as BMP</source>
         <translation>Uložiť ako BMP</translation>
     </message>
@@ -2260,13 +2309,13 @@ Vypustiť časové údaje?</translation>
         <translation>&amp;Nasledujúca čierna snímka</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+812"/>
+        <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1620"/>
+        <location filename="../../common/gui_main.cpp" line="+1624"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2280,8 +2329,8 @@ Vypustiť časové údaje?</translation>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location line="-49"/>
-        <location line="+49"/>
+        <location line="-50"/>
+        <location line="+50"/>
         <source>You cannot remove *all* the video
 </source>
         <translation>Nemôžete odstrániť *všetky* videá
@@ -2377,7 +2426,7 @@ It is needed to create PSP compatible video.</source>
 To je potrebný na vytvorenie PSP kompatibilného videa.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1527"/>
+        <location filename="../../common/gui_main.cpp" line="-1530"/>
         <source>Select script/project to run</source>
         <translation>Vyberte skript/projekt na spustenie</translation>
     </message>
@@ -2409,7 +2458,7 @@ Pokračovať?</translation>
     </message>
     <message>
         <location line="+11"/>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Select Video File...</source>
         <translation>Vyberte video súbor...</translation>
     </message>
@@ -2429,7 +2478,7 @@ Pokračovať?</translation>
         <translation>Vybrať video na pripojenie...</translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2647,7 +2696,7 @@ Očakávajte problémy.</translation>
         <translation>Prihodilo sa niečo zlé</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+108"/>
         <source>_Track from video:</source>
         <translation>_Stopa z videa:</translation>
     </message>
@@ -3022,12 +3071,14 @@ Skúsiť to znovu?</translation>
         <translation>Nemožno otvoriť </translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-113"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>Vypnuté</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Auto-detect</source>
         <translation>Automatické zisťovanie</translation>
     </message>
@@ -3589,18 +3640,12 @@ Installation mismatch</source>
         <translation>Skript &quot;%s&quot; neexistuje.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
-        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
+        <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-229"/>
-        <source>disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
         <translation type="unfinished"></translation>
@@ -3636,6 +3681,11 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4739,7 +4789,7 @@ Táto správa sa znova nezobrazí.</translation>
     </message>
     <message>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
-        <location line="+75"/>
+        <location line="+155"/>
         <source>Searching black frame..</source>
         <translation>Vyhľadávanie čiernej snímky.</translation>
     </message>
@@ -4954,6 +5004,16 @@ Táto správa sa znova nezobrazí.</translation>
         <source>Adjust shadow, midtone and highlight.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
+        <source>Peek Ranges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>colorBalanceDialog</name>
@@ -4989,16 +5049,6 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+179"/>
-        <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9826,7 +9876,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1069"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Chyba čítania hlavičky SVQ3</translation>
     </message>
@@ -10212,7 +10262,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+274"/>
+        <location filename="../../common/gui_navigate.cpp" line="+367"/>
         <source>Cannot go to next keyframe</source>
         <translation>Nemožno prejsť ďalšiu snímku</translation>
     </message>
@@ -10684,12 +10734,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+250"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Dostupná nová verzia&lt;/b&gt;&lt;br&gt; verzia %1&lt;br&gt;uvoľnená od %2.&lt;br&gt;Môžete si ju stiahnuť tu&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Automatickú aktualizáciu môžete zakázať v predvoľbách.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+350"/>
+        <location line="+380"/>
         <source>Recent Files</source>
         <translation>Nedávne &amp;súbory</translation>
     </message>
@@ -10709,7 +10759,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+240"/>
         <source>Play/Stop</source>
         <translation>Pre&amp;hrať/Zastaviť</translation>
     </message>
@@ -10784,7 +10834,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Vpred o 1 minútu</translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+775"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikácia sa stretla s fatálnym problémom
@@ -11727,7 +11777,7 @@ Pripravený.
         <translation>Náhľad</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+108"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11737,7 +11787,7 @@ Pripravený.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+16"/>
         <source>Back one minute</source>
         <translation>Späť o jednu minútu</translation>
     </message>
@@ -15865,6 +15915,11 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+5"/>
         <source>echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>none (stretch)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

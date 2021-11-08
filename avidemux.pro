@@ -302,6 +302,7 @@ HEADERS = \
 ../../../avidemux/qt4/ADM_UIs/src/T_filesel.h \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_slider.h \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_menu.h \ 
+../../../avidemux/qt4/ADM_UIs/src/T_floatResettable.h \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_threadCount.h \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_notch.h \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_toggle.h \ 
@@ -587,7 +588,6 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/artMirror.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/Q_analyzer.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/DIA_flyAnalyzer.h \ 
-../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/vectorscope_scale.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/ADM_vidAnalyzer.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/Q_colorTemp.h \ 
@@ -1131,6 +1131,7 @@ SOURCES = \
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_shell/qt4Shell.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_ocr/Q_ocr.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_dialogFactory.cpp \ 
+../../../avidemux/qt4/ADM_UIs/src/T_floatResettable.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/FAC_integer.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_menu.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/FAC_aspectRatio.cpp \ 

@@ -1306,6 +1306,46 @@ Drop timing informations ?</source>
         <translation>시간으로 이동</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Backward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+7"/>
         <source>Zoom 1:4</source>
         <translation>배율 1:4</translation>
@@ -1374,7 +1414,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+476"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+445"/>
         <source>Stereo</source>
         <translation>스테레오</translation>
     </message>
@@ -1533,7 +1573,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1579,7 +1619,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-46"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-116"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -1669,7 +1709,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
         <source>_Horizontal deblocking</source>
         <translation>수평 깍두기 제거 (deblocking)</translation>
     </message>
@@ -1690,7 +1730,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-237"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+68"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -1710,12 +1750,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="-38"/>
         <source>Enable openGl support</source>
         <translation>OpenGL 지원 활성화하기</translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="+44"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>하드웨어 디코딩시, 일치하는 디스플레이 드라이버 사용</translation>
     </message>
@@ -1735,7 +1775,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-350"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD에 대해 비표준 오디오 주파수 받아들이기 </translation>
     </message>
@@ -1937,12 +1977,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+187"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-3"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1952,7 +1992,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-178"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2063,7 +2103,7 @@ Drop timing informations ?</source>
         <translation>오디오 장치</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+68"/>
         <source>De_ringing</source>
         <translation>물결현상 제거 (Deringing)</translation>
     </message>
@@ -2073,12 +2113,12 @@ Drop timing informations ?</source>
         <translation>강도:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Default Postprocessing</source>
         <translation>기본 후처리</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="-64"/>
         <source>System language</source>
         <translation>시스템 언어</translation>
     </message>
@@ -2103,7 +2143,12 @@ Drop timing informations ?</source>
         <translation>출력</translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+46"/>
+        <source>Post-Processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Limit Refresh Rate</source>
         <translation>갱신 속도 제한</translation>
     </message>
@@ -2113,19 +2158,22 @@ Drop timing informations ?</source>
         <translation>갱신 속도 한도 (ms)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
+        <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>GUI Rendering Options</source>
         <translation>GUI 렌더링 옵션</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+21"/>
         <source>Display</source>
         <translation>디스플레이</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+35"/>
         <source>HW Accel</source>
         <translation>HW 가속</translation>
     </message>
@@ -2135,7 +2183,7 @@ Drop timing informations ?</source>
         <translation>쓰레딩</translation>
     </message>
     <message>
-        <location line="-228"/>
+        <location line="-271"/>
         <source>_Always ask which port to use</source>
         <translation>사용할 포트 항상 묻기</translation>
     </message>
@@ -2145,7 +2193,7 @@ Drop timing informations ?</source>
         <translation>기본 사용 포트</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+12"/>
         <source>This renderer provides no hardware acceleration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2156,21 +2204,22 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
+        <location line="+178"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-175"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+195"/>
+        <location line="+262"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-119"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-128"/>
         <source>Save as BMP</source>
         <translation>BMP로 저장</translation>
     </message>
@@ -2245,13 +2294,13 @@ Drop timing informations ?</source>
         <translation>다음 검정 프레임</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+812"/>
+        <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1620"/>
+        <location filename="../../common/gui_main.cpp" line="+1624"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2265,8 +2314,8 @@ Drop timing informations ?</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location line="-49"/>
-        <location line="+49"/>
+        <location line="-50"/>
+        <location line="+50"/>
         <source>You cannot remove *all* the video
 </source>
         <translation>*모든* 비디오를 삭제할 수는 없습니다</translation>
@@ -2358,7 +2407,7 @@ It is needed to create PSP compatible video.</source>
         <translation>FAAC 코덱이 없습니다! PSP 호환 비디오를 만들 때 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1527"/>
+        <location filename="../../common/gui_main.cpp" line="-1530"/>
         <source>Select script/project to run</source>
         <translation>실행할 스크립트/프로젝트 선택</translation>
     </message>
@@ -2389,7 +2438,7 @@ It is needed to create PSP compatible video.</source>
     </message>
     <message>
         <location line="+11"/>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Select Video File...</source>
         <translation>비디오 파일 선택...</translation>
     </message>
@@ -2409,7 +2458,7 @@ It is needed to create PSP compatible video.</source>
         <translation>덧붙일 비디오 파일 선택...</translation>
     </message>
     <message>
-        <location line="+150"/>
+        <location line="+147"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2610,7 +2659,7 @@ Expect problems.</source>
         <translation>잘못된 일이 발생했습니다</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+108"/>
         <source>_Track from video:</source>
         <translation>비디오의 트랙:</translation>
     </message>
@@ -2979,12 +3028,14 @@ Try anyway?</source>
         <translation>열 수 없습니다</translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-113"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>비활성화</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Auto-detect</source>
         <translation>자동 감지</translation>
     </message>
@@ -3541,18 +3592,12 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
-        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
+        <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-229"/>
-        <source>disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
         <translation type="unfinished"></translation>
@@ -3588,6 +3633,11 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4690,7 +4740,7 @@ This message will not be displayed again.</source>
     </message>
     <message>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
-        <location line="+75"/>
+        <location line="+155"/>
         <source>Searching black frame..</source>
         <translation>검정 프레임 찾는 중..</translation>
     </message>
@@ -4905,6 +4955,16 @@ This message will not be displayed again.</source>
         <source>Adjust shadow, midtone and highlight.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
+        <source>Peek Ranges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>colorBalanceDialog</name>
@@ -4940,16 +5000,6 @@ This message will not be displayed again.</source>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+179"/>
-        <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9751,7 +9801,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1069"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 헤더를 읽는 중 문제 발생</translation>
     </message>
@@ -10124,7 +10174,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+274"/>
+        <location filename="../../common/gui_navigate.cpp" line="+367"/>
         <source>Cannot go to next keyframe</source>
         <translation>다음 키프레임으로 이동할 수 없습니다</translation>
     </message>
@@ -10595,12 +10645,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+250"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;새 버전이 나왔습니다!&lt;/b&gt;&lt;br&gt; 버전 %1&lt;br&gt;%2에 배포.&lt;br&gt;여기에서 다운로드할 수 있습니다&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; 자동 업데이트는 환경 설정에서 끌 수 있습니다.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+350"/>
+        <location line="+380"/>
         <source>Recent Files</source>
         <translation>최근 파일</translation>
     </message>
@@ -10620,7 +10670,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+240"/>
         <source>Play/Stop</source>
         <translation>재생/정지</translation>
     </message>
@@ -10695,7 +10745,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>1분 앞으로</translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+775"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>프로그램에서 치명적인 문제가 발생했습니다
@@ -11624,7 +11674,7 @@ Ready.
         <translation>미리보기</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+108"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11634,7 +11684,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+16"/>
         <source>Back one minute</source>
         <translation>1분 뒤로</translation>
     </message>
@@ -15755,6 +15805,11 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+5"/>
         <source>echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>none (stretch)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

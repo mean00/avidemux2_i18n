@@ -1209,7 +1209,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+619"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+655"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
@@ -1350,6 +1350,46 @@ Drop timinginformationer?</translation>
         <translation>Gå til tid</translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Backward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Backward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward one minute</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+7"/>
         <source>Zoom 1:4</source>
         <translation type="unfinished"></translation>
@@ -1418,7 +1458,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-143"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-210"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1567,7 +1607,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1603,7 +1643,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-46"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-116"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -1682,12 +1722,12 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-293"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+39"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-304"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Acceptér ikke-standard lydfrekvens for DVD</translation>
     </message>
@@ -1879,12 +1919,12 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+187"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="-3"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1894,7 +1934,7 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-176"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1910,11 +1950,12 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+3"/>
+        <location line="+178"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="-175"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2007,7 +2048,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+66"/>
         <source>_Horizontal deblocking</source>
         <translation>_Vandret deblocking</translation>
     </message>
@@ -2033,12 +2074,12 @@ Drop timinginformationer?</translation>
         <translation>_Styrke:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Default Postprocessing</source>
         <translation>Standard efterbehandling</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="-33"/>
         <source>User Interface</source>
         <translation>Brugerflade</translation>
     </message>
@@ -2056,7 +2097,7 @@ Drop timinginformationer?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+56"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+126"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -2119,7 +2160,7 @@ It is needed to create PSP compatible video.</source>
 Det er nødvendigt for at kunne oprette PSP-kompatibel video.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+188"/>
+        <location filename="../../common/gui_main.cpp" line="+189"/>
         <source>Select script to save</source>
         <translation>Vælg script som skal gemmes</translation>
     </message>
@@ -2134,7 +2175,7 @@ Det er nødvendigt for at kunne oprette PSP-kompatibel video.</translation>
         <translation>Ikke kodet i denne version</translation>
     </message>
     <message>
-        <location line="+237"/>
+        <location line="+238"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2317,7 +2358,7 @@ Gå til Lyd-&gt;Hovedspor for at vælge det aktive.</translation>
         <translation>Noget gik galt</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+108"/>
         <source>_Track from video:</source>
         <translation>_Spor fra video:</translation>
     </message>
@@ -2456,8 +2497,8 @@ Kører den?</translation>
         <translation>Gemte %d billeder.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+811"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+812"/>
+        <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
@@ -2746,7 +2787,7 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-349"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-39"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
@@ -2786,7 +2827,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="-349"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Tilbagefør til gemte standardoutputindstillinger når video indlæses</translation>
     </message>
@@ -2796,7 +2837,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+107"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2820,7 +2861,7 @@ Kører den?</translation>
         <translation>Sdl-driver</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+48"/>
         <source>System language</source>
         <translation>Systemets sprog</translation>
     </message>
@@ -2835,7 +2876,12 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+50"/>
+        <source>Post-Processing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Begræns opdateringshastighed</translation>
     </message>
@@ -2845,24 +2891,27 @@ Kører den?</translation>
         <translation>Opdateringshastighed cap (ms)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
+        <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>GUI Rendering Options</source>
         <translation>Renderingsvalgmuligheder for brugerflade</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+21"/>
         <source>Display</source>
         <translation>Visning</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+35"/>
         <source>HW Accel</source>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="-219"/>
+        <location line="-262"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -2872,7 +2921,7 @@ Kører den?</translation>
         <translation>Standardport som skal bruges</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-91"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-100"/>
         <source>Redo</source>
         <translation>Omgør</translation>
     </message>
@@ -2908,8 +2957,8 @@ Kører den?</translation>
         <translation>Indlæs gemte indstillinger</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-49"/>
-        <location line="+49"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-50"/>
+        <location line="+50"/>
         <source>You cannot remove *all* the video
 </source>
         <translation>Du kan ikke fjerne *hele* videoen
@@ -2954,7 +3003,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1527"/>
+        <location filename="../../common/gui_main.cpp" line="-1530"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -2970,7 +3019,7 @@ Uoverensstemmelse i installation</translation>
     </message>
     <message>
         <location line="+196"/>
-        <location line="+73"/>
+        <location line="+77"/>
         <source>Select Video File...</source>
         <translation>Vælg videofil...</translation>
     </message>
@@ -2990,7 +3039,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Vælg videofil som skal føjes til slutning...</translation>
     </message>
     <message>
-        <location line="+293"/>
+        <location line="+290"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Klipper</translation>
@@ -3009,7 +3058,7 @@ Expect problems.</source>
 Forvent problemer.</translation>
     </message>
     <message>
-        <location line="+292"/>
+        <location line="+294"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Ugyldigt lydindeks givet</translation>
@@ -3229,12 +3278,14 @@ Try anyway?</source>
         <translation>Kan ikke åbne </translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>Deaktiveret</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Auto-detect</source>
         <translation>Automatisk registrering</translation>
     </message>
@@ -3555,18 +3606,12 @@ Try anyway?</source>
         <translation>Script &quot;%s&quot; eksisterer ikke.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+16"/>
-        <source>The options above are not immediately effective on cached and displayed frames</source>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
+        <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+7"/>
-        <source>disabled</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
         <translation type="unfinished"></translation>
@@ -3602,6 +3647,11 @@ Try anyway?</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -4705,7 +4755,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
     </message>
     <message>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
-        <location line="+75"/>
+        <location line="+155"/>
         <source>Searching black frame..</source>
         <translation>Søger efter sort billede..</translation>
     </message>
@@ -4920,6 +4970,16 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <source>Adjust shadow, midtone and highlight.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
+        <source>Peek Ranges</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>colorBalanceDialog</name>
@@ -4955,16 +5015,6 @@ Denne meddelelse vil ikke blive vist igen.</translation>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+179"/>
-        <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -9776,7 +9826,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1069"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Problem ved læsning af SVQ3-hoveder</translation>
     </message>
@@ -10150,7 +10200,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+274"/>
+        <location filename="../../common/gui_navigate.cpp" line="+367"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kan ikke gå til det næste nøglebillede</translation>
     </message>
@@ -10617,12 +10667,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+250"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+350"/>
+        <location line="+380"/>
         <source>Recent Files</source>
         <translation>Seneste filer</translation>
     </message>
@@ -10642,7 +10692,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+231"/>
+        <location line="+240"/>
         <source>Play/Stop</source>
         <translation>Afspil/stop</translation>
     </message>
@@ -10717,7 +10767,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Fremad ét minut</translation>
     </message>
     <message>
-        <location line="+766"/>
+        <location line="+775"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Programmet er stødt på et fatalt problem
@@ -11595,7 +11645,7 @@ Ready.
         <translation>Forhåndsvis</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+94"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+108"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11605,7 +11655,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+16"/>
         <source>Back one minute</source>
         <translation type="unfinished">Baglæns ét minut</translation>
     </message>
@@ -15547,6 +15597,11 @@ Hvis det er en systemprofil, så vil den blive genskabt næste gang.</translatio
     <message>
         <location line="+5"/>
         <source>echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>none (stretch)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
