@@ -1265,22 +1265,22 @@ Drop timing informations ?</source>
     <message>
         <location line="+4"/>
         <source>Avisynth</source>
-        <translation type="unfinished"></translation>
+        <translation>AviSynth</translation>
     </message>
     <message>
         <location line="+187"/>
         <source>HDR</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Default _tone mapping method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardmäßiges _Tone Mapping-Verfahren:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Target peak luminance (nits):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ziel-Spitzenluminanz (cd/m²):</translation>
     </message>
     <message>
         <location line="-178"/>
@@ -1606,7 +1606,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR Tone Mapping</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1702,42 +1702,42 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Sekunde zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Sekunde vor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwei Sekunden zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwei Sekunden vor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 Sekunden zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 Sekunden vor</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Minute zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Minute vor</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3629,22 +3629,22 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location line="+4"/>
         <source>_Tone mapping:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Tone Mapping:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Saturation:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Sättigung:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
-        <translation type="unfinished"></translation>
+        <translation>_Verstärkung (Multiplikator):</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurücksetzen</translation>
     </message>
 </context>
 <context>
@@ -4242,7 +4242,7 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location line="+34"/>
         <source>Noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Rauschen</translation>
     </message>
 </context>
 <context>
@@ -4965,36 +4965,36 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/colorBalance.ui" line="+20"/>
         <source>Color balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbbalance</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Highlight</source>
-        <translation type="unfinished"></translation>
+        <translation>Highlights</translation>
     </message>
     <message>
         <location line="+60"/>
         <location line="+132"/>
         <location line="+106"/>
         <source>Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Sättigung</translation>
     </message>
     <message>
         <location line="-199"/>
         <location line="+106"/>
         <location line="+106"/>
         <source>Chroma shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbverschiebung</translation>
     </message>
     <message>
         <location line="-202"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Schatten</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitteltöne</translation>
     </message>
 </context>
 <context>
@@ -9705,7 +9705,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+1"/>
         <source>Matrix Coefficients:</source>
-        <translation type="unfinished"></translation>
+        <translation>Matrixkoeffizienten:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9715,12 +9715,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+1"/>
         <source>Transfer Characteristic:</source>
-        <translation type="unfinished"></translation>
+        <translation>Übertragungs-Charakteristik:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Primärfarben:</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -10990,7 +10990,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+2"/>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplizieren</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11016,7 +11016,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+3"/>
         <source>Make global</source>
-        <translation type="unfinished"></translation>
+        <translation>Auf das ganze Video anwenden</translation>
     </message>
     <message>
         <location line="+146"/>
@@ -11072,7 +11072,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+40"/>
         <source>n/a</source>
-        <translation type="unfinished"></translation>
+        <translation>nicht verfügbar</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -11082,7 +11082,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+31"/>
         <source>(+%d bytes)</source>
-        <translation type="unfinished"></translation>
+        <translation>(+%d Bytes)</translation>
     </message>
     <message numerus="yes">
         <location line="+24"/>
@@ -11096,12 +11096,12 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+34"/>
         <source>Mono</source>
-        <translation type="unfinished">Mono</translation>
+        <translation>Mono</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Stereo</source>
-        <translation type="unfinished">Stereo</translation>
+        <translation>Stereo</translation>
     </message>
     <message>
         <source>Image Size:	</source>
@@ -11197,26 +11197,26 @@ Bereit.
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+33"/>
         <source>Alert</source>
-        <translation type="unfinished">Meldung</translation>
+        <translation>Meldung</translation>
     </message>
     <message>
         <location line="+6"/>
         <location line="+25"/>
         <location line="+25"/>
         <source>Info</source>
-        <translation type="unfinished">Hinweis</translation>
+        <translation>Hinweis</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+31"/>
         <source>Confirmation</source>
-        <translation type="unfinished">Bestätigung</translation>
+        <translation>Bestätigung</translation>
     </message>
     <message>
         <location line="+21"/>
         <location line="+33"/>
         <source>Question</source>
-        <translation type="unfinished">Frage</translation>
+        <translation>Frage</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -15615,18 +15615,18 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+68"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Partializable crop filter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrand entfernen. Dieser Filter kann abschnittsweise angewendet werden.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+485"/>
         <location line="+316"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl: </translation>
     </message>
 </context>
 <context>
@@ -15635,142 +15635,142 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+14"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+105"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+42"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oben:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Zurücksetzen</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-28"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Unten:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+45"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Methode zur Größenänderung:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubisch</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Spline</translation>
     </message>
     <message>
         <location line="+63"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitenverhältnis:</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Auswahlrahmen verstecken</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl: </translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Frei</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Wie aktuelle Auswahl</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Wie Quelle</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>21:9</source>
-        <translation type="unfinished"></translation>
+        <translation>21:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>18:9</source>
-        <translation type="unfinished"></translation>
+        <translation>18:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1:1</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>9:16</source>
-        <translation type="unfinished"></translation>
+        <translation>9:16</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Auffüllung:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Balken</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Echo</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>none (stretch)</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine (Strecken)</translation>
     </message>
 </context>
 </TS>
