@@ -10190,7 +10190,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+367"/>
+        <location filename="../../common/gui_navigate.cpp" line="+374"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kann nicht zum nächsten Keyframe wechseln</translation>
     </message>
@@ -10200,7 +10200,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Kann nicht zum vorhergehenden Keyframe wechseln</translation>
     </message>
     <message>
-        <location line="+358"/>
+        <location line="+406"/>
         <source>Seek</source>
         <translation type="unfinished">Navigation</translation>
     </message>
@@ -10657,7 +10657,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+637"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+709"/>
         <source>Recent Files</source>
         <translation>Zuletzt verwendete &amp;Dateien</translation>
     </message>
@@ -10667,12 +10667,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Zuletzt verwendete &amp;Projekte</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+30"/>
         <source>Restore defaults</source>
         <translation>Auf Vorgabe zurücksetzen</translation>
     </message>
     <message>
-        <location line="+585"/>
+        <location line="+591"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10752,7 +10752,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+1022"/>
+        <location line="+1030"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>
@@ -10771,12 +10771,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2744"/>
+        <location line="-2831"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+2079"/>
+        <location line="+2166"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -10936,28 +10936,29 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+500"/>
+        <location line="+28"/>
         <source>Partial</source>
         <translation>Teilanwendung</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-28"/>
         <source>This filter cannot be made partial</source>
         <translation>Dieser Filter kann nicht abschnittsweise angewendet werden</translation>
     </message>
     <message>
-        <location line="+299"/>
+        <location line="+344"/>
         <source>Add</source>
         <translation>Hinzufügen</translation>
     </message>
     <message>
-        <location line="-133"/>
-        <location line="+138"/>
+        <location line="-149"/>
+        <location line="+154"/>
         <source>Remove</source>
         <translation>Entfernen</translation>
     </message>
     <message>
-        <location line="-139"/>
+        <location line="-156"/>
         <source>Configure</source>
         <translation>Konfigurieren</translation>
     </message>
@@ -10967,7 +10968,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation>Nach oben verschieben</translation>
     </message>
     <message>
-        <location line="-341"/>
+        <location line="-405"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10977,22 +10978,33 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+339"/>
+        <location line="+239"/>
+        <source>This filter is not partial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+164"/>
         <source>Move down</source>
         <translation>Nach unten verschieben</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Duplicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+80"/>
         <source>Make partial</source>
         <translation>Abschnittsweise anwenden</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-79"/>
         <source>Enable/Disable</source>
         <translation>Aktivieren/Deaktivieren</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+74"/>
         <source>Disable</source>
         <translation>Deaktivieren</translation>
     </message>
@@ -11002,12 +11014,17 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <translation>Aktivieren</translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+3"/>
+        <source>Make global</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+146"/>
         <source>Press %s to accept the dialog</source>
         <translation>Konfiguration bestätigen und Dialog schließen mit %s</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+148"/>
         <source>Load video filters..</source>
         <translation type="unfinished"></translation>
     </message>

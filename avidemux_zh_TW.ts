@@ -10190,7 +10190,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+791"/>
+        <location filename="../../common/gui_navigate.cpp" line="+846"/>
         <source>Seek</source>
         <translation>尋求</translation>
     </message>
@@ -10200,7 +10200,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location line="-445"/>
+        <location line="-493"/>
         <source>Cannot go to previous keyframe</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
@@ -10661,49 +10661,49 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2585"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2675"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1076"/>
+        <location line="-1084"/>
         <source>Set start marker</source>
         <translation>設定開始標記</translation>
     </message>
     <message>
-        <location line="-871"/>
+        <location line="-881"/>
         <source>Recent Projects</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1698"/>
+        <location line="+1716"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
 當前編輯已保儲存, 將在下一開始重新載入</translation>
     </message>
     <message>
-        <location line="-835"/>
+        <location line="-843"/>
         <source>Go to previous keyframe</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
     <message>
-        <location line="-1244"/>
+        <location line="-1323"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+380"/>
+        <location line="+449"/>
         <source>Recent Files</source>
         <translation>最近使用的 檔案(&amp;F)</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+31"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+585"/>
+        <location line="+591"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10728,7 +10728,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分鐘</translation>
     </message>
     <message>
-        <location line="+1025"/>
+        <location line="+1033"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10746,7 +10746,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1474"/>
+        <location line="-1482"/>
         <source>Go to first frame</source>
         <translation>轉到第一幀</translation>
     </message>
@@ -10939,22 +10939,23 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+763"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+844"/>
         <source>Add</source>
         <translation>加入</translation>
     </message>
     <message>
-        <location line="+208"/>
+        <location line="+240"/>
         <source>Save video filters..</source>
         <translation>儲存影片濾鏡器..</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-388"/>
+        <location line="+80"/>
         <source>Make partial</source>
         <translation>局部</translation>
     </message>
     <message>
-        <location line="-345"/>
+        <location line="-490"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10964,7 +10965,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+402"/>
         <source>Move up</source>
         <translation>向上移動</translation>
     </message>
@@ -10974,15 +10975,21 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>配置</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <location line="+138"/>
+        <location line="+2"/>
+        <location line="+154"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <location line="-304"/>
+        <location line="-349"/>
+        <location line="+28"/>
         <source>Partial</source>
         <translation>區段</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>This filter is not partial</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+164"/>
@@ -10990,12 +10997,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>向下移動</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
+        <source>Duplicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Enable/Disable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+74"/>
         <source>Disable</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11005,17 +11017,22 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+3"/>
+        <source>Make global</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+146"/>
         <source>Press %s to accept the dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+148"/>
         <source>Load video filters..</source>
         <translation>載入影片濾鏡器..</translation>
     </message>
     <message>
-        <location line="-492"/>
+        <location line="-569"/>
         <source>This filter cannot be made partial</source>
         <translation>無法將此濾鏡器局部播放</translation>
     </message>

@@ -10236,7 +10236,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+367"/>
+        <location filename="../../common/gui_navigate.cpp" line="+374"/>
         <source>Cannot go to next keyframe</source>
         <translation>Невозможно перейти к следующему ключевому кадру</translation>
     </message>
@@ -10246,7 +10246,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Невозможно перейти к предыдущему ключевому кадру</translation>
     </message>
     <message>
-        <location line="+358"/>
+        <location line="+406"/>
         <source>Seek</source>
         <translation>Поиск</translation>
     </message>
@@ -10708,12 +10708,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+260"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+380"/>
+        <location line="+449"/>
         <source>Recent Files</source>
         <translation>Предыдущие файлы</translation>
     </message>
@@ -10723,12 +10723,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Предыдущие проекты</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+30"/>
         <source>Restore defaults</source>
         <translation>Восстановить стандартный набор</translation>
     </message>
     <message>
-        <location line="+585"/>
+        <location line="+591"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10808,7 +10808,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Вперёд на 1 минуту</translation>
     </message>
     <message>
-        <location line="+775"/>
+        <location line="+783"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой
@@ -10988,28 +10988,29 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+500"/>
+        <location line="+28"/>
         <source>Partial</source>
         <translation>Частичное наложение</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-28"/>
         <source>This filter cannot be made partial</source>
         <translation>Этот фильтр нельзя применить только к части видео</translation>
     </message>
     <message>
-        <location line="+299"/>
+        <location line="+344"/>
         <source>Add</source>
         <translation>Добавить</translation>
     </message>
     <message>
-        <location line="-133"/>
-        <location line="+138"/>
+        <location line="-149"/>
+        <location line="+154"/>
         <source>Remove</source>
         <translation>Удалить</translation>
     </message>
     <message>
-        <location line="-139"/>
+        <location line="-156"/>
         <source>Configure</source>
         <translation>Настройки</translation>
     </message>
@@ -11019,7 +11020,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Переместить вверх</translation>
     </message>
     <message>
-        <location line="-341"/>
+        <location line="-405"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11029,22 +11030,33 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+339"/>
+        <location line="+239"/>
+        <source>This filter is not partial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+164"/>
         <source>Move down</source>
         <translation>Переместить вниз</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Duplicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+80"/>
         <source>Make partial</source>
         <translation>Сделать частичным</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-79"/>
         <source>Enable/Disable</source>
         <translation>Включить / выключить</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+74"/>
         <source>Disable</source>
         <translation>Отключить</translation>
     </message>
@@ -11054,12 +11066,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Включить</translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+3"/>
+        <source>Make global</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+146"/>
         <source>Press %s to accept the dialog</source>
         <translation>Применить конфигурацию и закрыть диалог: %s</translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+148"/>
         <source>Load video filters..</source>
         <translation>Загрузить фильтры видео...</translation>
     </message>

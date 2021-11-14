@@ -10307,7 +10307,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+791"/>
+        <location filename="../../common/gui_navigate.cpp" line="+846"/>
         <source>Seek</source>
         <translation>Пошук</translation>
     </message>
@@ -10317,7 +10317,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location line="-445"/>
+        <location line="-493"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Неможливо перейти до попереднього ключового кадру</translation>
     </message>
@@ -10787,49 +10787,49 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2585"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2675"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2328"/>
+        <location line="-2415"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1252"/>
+        <location line="+1331"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
     <message>
-        <location line="-871"/>
+        <location line="-881"/>
         <source>Recent Projects</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1698"/>
+        <location line="+1716"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-835"/>
+        <location line="-843"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
     <message>
-        <location line="-864"/>
+        <location line="-874"/>
         <source>Recent Files</source>
         <translation>Попередні файли</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+31"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+585"/>
+        <location line="+591"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10878,7 +10878,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+1044"/>
+        <location line="+1052"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10888,7 +10888,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1150"/>
+        <location line="-1158"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -10903,7 +10903,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1506"/>
+        <location line="+1514"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10913,7 +10913,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1504"/>
+        <location line="-1512"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>
@@ -11083,22 +11083,23 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+763"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+844"/>
         <source>Add</source>
         <translation>Додати</translation>
     </message>
     <message>
-        <location line="+208"/>
+        <location line="+240"/>
         <source>Save video filters..</source>
         <translation>Зберегти фільтри відео...</translation>
     </message>
     <message>
-        <location line="-340"/>
+        <location line="-388"/>
+        <location line="+80"/>
         <source>Make partial</source>
         <translation>Зробити частковим</translation>
     </message>
     <message>
-        <location line="-345"/>
+        <location line="-490"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11108,7 +11109,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+338"/>
+        <location line="+239"/>
+        <source>This filter is not partial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+163"/>
         <source>Move up</source>
         <translation>Перемістити вгору</translation>
     </message>
@@ -11119,17 +11125,22 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+138"/>
+        <source>Duplicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location line="+154"/>
         <source>Remove</source>
         <translation>Видалити</translation>
     </message>
     <message>
-        <location line="-136"/>
+        <location line="-152"/>
         <source>Enable/Disable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+74"/>
         <source>Disable</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11139,12 +11150,18 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+3"/>
+        <source>Make global</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+146"/>
         <source>Press %s to accept the dialog</source>
         <translation>Натисніть %s, щоб прийняти діалогове вікно</translation>
     </message>
     <message>
-        <location line="-370"/>
+        <location line="-421"/>
+        <location line="+28"/>
         <source>Partial</source>
         <translation>Часткове накладення</translation>
     </message>
@@ -11154,12 +11171,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перемістити вниз</translation>
     </message>
     <message>
-        <location line="+328"/>
+        <location line="+377"/>
         <source>Load video filters..</source>
         <translation>Завантажити фільтри відео...</translation>
     </message>
     <message>
-        <location line="-492"/>
+        <location line="-569"/>
         <source>This filter cannot be made partial</source>
         <translation>Цей фільтр не може бути застосований тільки до частини відео</translation>
     </message>

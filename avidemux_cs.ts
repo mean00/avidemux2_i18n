@@ -10101,7 +10101,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+367"/>
+        <location filename="../../common/gui_navigate.cpp" line="+374"/>
         <source>Cannot go to next keyframe</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10111,7 +10111,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+358"/>
+        <location line="+406"/>
         <source>Seek</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10556,12 +10556,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+257"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+260"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+380"/>
+        <location line="+449"/>
         <source>Recent Files</source>
         <translation type="unfinished">Nedávné soubory</translation>
     </message>
@@ -10571,12 +10571,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Nedávné projekty</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+30"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+585"/>
+        <location line="+591"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10656,7 +10656,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+775"/>
+        <location line="+783"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
@@ -10835,28 +10835,29 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+464"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+500"/>
+        <location line="+28"/>
         <source>Partial</source>
         <translation type="unfinished">Částečný</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="-28"/>
         <source>This filter cannot be made partial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+299"/>
+        <location line="+344"/>
         <source>Add</source>
         <translation type="unfinished">Přidat</translation>
     </message>
     <message>
-        <location line="-133"/>
-        <location line="+138"/>
+        <location line="-149"/>
+        <location line="+154"/>
         <source>Remove</source>
         <translation type="unfinished">Odstranit</translation>
     </message>
     <message>
-        <location line="-139"/>
+        <location line="-156"/>
         <source>Configure</source>
         <translation type="unfinished">Nastavit</translation>
     </message>
@@ -10866,7 +10867,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-341"/>
+        <location line="-405"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10876,22 +10877,33 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+339"/>
+        <location line="+239"/>
+        <source>This filter is not partial</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+164"/>
         <source>Move down</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Duplicate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+80"/>
         <source>Make partial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-79"/>
         <source>Enable/Disable</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+74"/>
         <source>Disable</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10901,12 +10913,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+3"/>
+        <source>Make global</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+146"/>
         <source>Press %s to accept the dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+122"/>
+        <location line="+148"/>
         <source>Load video filters..</source>
         <translation type="unfinished"></translation>
     </message>
