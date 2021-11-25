@@ -10200,7 +10200,7 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
         <translation>Kann nicht zum vorhergehenden Keyframe wechseln</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation type="unfinished">Navigation</translation>
     </message>
@@ -11964,7 +11964,7 @@ Bereit.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12742,7 +12742,7 @@ Nur Vorbis und Opus sind zulässig.</translation>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation type="unfinished">Ziel-Bitrate:</translation>
     </message>
@@ -12778,7 +12778,7 @@ Nur Vorbis und Opus sind zulässig.</translation>
         <translation type="unfinished">Durchschnittliche Bitrate:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14100,7 +14100,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>Ziel-Bitrate:</translation>
     </message>

@@ -10188,7 +10188,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+846"/>
+        <location filename="../../common/gui_navigate.cpp" line="+839"/>
         <source>Seek</source>
         <translation>寻求</translation>
     </message>
@@ -10198,7 +10198,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-493"/>
+        <location line="-486"/>
         <source>Cannot go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
@@ -11993,7 +11993,7 @@ Ready.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12735,17 +12735,17 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+730"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+745"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location line="-480"/>
+        <location line="-495"/>
         <source>none</source>
         <translation>无</translation>
     </message>
     <message>
-        <location line="+631"/>
+        <location line="+652"/>
         <location line="+70"/>
         <location line="+14"/>
         <source>Error</source>
@@ -12764,12 +12764,12 @@ Do you wish to continue?</source>
         <translation>保存配置文件</translation>
     </message>
     <message>
-        <location line="-167"/>
+        <location line="-173"/>
         <source>Target Video Size:</source>
         <translation>目标视频大小:</translation>
     </message>
     <message>
-        <location line="+240"/>
+        <location line="+246"/>
         <source>Do you really want to delete the </source>
         <translation>你准备希望删除这 </translation>
     </message>
@@ -12784,17 +12784,17 @@ Do you wish to continue?</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location line="-665"/>
+        <location line="-686"/>
         <source>Custom</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location line="+645"/>
+        <location line="+666"/>
         <source>Cannot save preset</source>
         <translation>无法保存默认定</translation>
     </message>
     <message>
-        <location line="-231"/>
+        <location line="-237"/>
         <source>Quantiser:</source>
         <translation>量化器:</translation>
     </message>
@@ -12810,12 +12810,12 @@ Do you wish to continue?</source>
         <translation>kbit/s</translation>
     </message>
     <message>
-        <location line="+207"/>
+        <location line="+213"/>
         <source>Replace the following preset ?:</source>
         <translation>替代以下的默认定吗?:</translation>
     </message>
     <message>
-        <location line="-227"/>
+        <location line="-233"/>
         <source>Target Bitrate:</source>
         <translation>目标比特速率：</translation>
     </message>
@@ -12837,7 +12837,7 @@ Do you wish to continue?</source>
         <translation>品质:</translation>
     </message>
     <message>
-        <location line="+241"/>
+        <location line="+247"/>
         <source>Cannot delete custom profile</source>
         <translation>不能删除自定义的配置文件</translation>
     </message>
@@ -12847,7 +12847,7 @@ Do you wish to continue?</source>
         <translation>复写</translation>
     </message>
     <message>
-        <location line="-693"/>
+        <location line="-714"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12857,7 +12857,7 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+557"/>
+        <location line="+578"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14085,17 +14085,17 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>x265</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+714"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+732"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
-        <location line="-424"/>
+        <location line="-442"/>
         <source>none</source>
         <translation>无</translation>
     </message>
     <message>
-        <location line="+609"/>
+        <location line="+627"/>
         <location line="+67"/>
         <location line="+17"/>
         <source>Error</source>
@@ -14134,12 +14134,12 @@ Do you wish to continue?</source>
         <translation>删除</translation>
     </message>
     <message>
-        <location line="-624"/>
+        <location line="-642"/>
         <source>Custom</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location line="+601"/>
+        <location line="+619"/>
         <source>Cannot save preset</source>
         <translation>无法保存默认定</translation>
     </message>
@@ -14197,7 +14197,7 @@ Do you wish to continue?</source>
         <translation>复写</translation>
     </message>
     <message>
-        <location line="-672"/>
+        <location line="-690"/>
         <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14212,7 +14212,7 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+554"/>
+        <location line="+572"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>

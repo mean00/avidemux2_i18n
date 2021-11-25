@@ -10210,7 +10210,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Kan ikke gå til det forrige nøglebillede</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation>Søg</translation>
     </message>
@@ -11947,7 +11947,7 @@ Ready.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12723,7 +12723,7 @@ Understøtter kun VP8-/VP9-video og Vorbis-/Opus-lyd</translation>
         <translation>Brugerdefineret</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation>Ønsket bithastighed:</translation>
     </message>
@@ -12759,7 +12759,7 @@ Understøtter kun VP8-/VP9-video og Vorbis-/Opus-lyd</translation>
         <translation>Gennemsnitlig bithastighed:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14082,7 +14082,7 @@ Hvis det er en systemprofil, så vil den blive genskabt næste gang.</translatio
         <translation>Brugerdefineret</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>Ønsket bithastighed:</translation>
     </message>

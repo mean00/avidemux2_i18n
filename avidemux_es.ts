@@ -10215,7 +10215,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>No se puede ir al fotograma anterior</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation>Buscar</translation>
     </message>
@@ -11989,7 +11989,7 @@ Ready.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12765,7 +12765,7 @@ Solo se admite vídeo VP8/VP9 y audio Vorbis/Opus</translation>
         <translation>Personalizado</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation>Tasa de bits objetivo:</translation>
     </message>
@@ -12801,7 +12801,7 @@ Solo se admite vídeo VP8/VP9 y audio Vorbis/Opus</translation>
         <translation>Tasa de bits media:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14124,7 +14124,7 @@ Si es un perfil del sistema se volverá a crear la próxima vez.</translation>
         <translation>Personalizado</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>Tasa de bits objetivo:</translation>
     </message>

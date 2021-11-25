@@ -10184,7 +10184,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>이전 키프레임으로 이동할 수 없습니다</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation>탐색</translation>
     </message>
@@ -11976,7 +11976,7 @@ Ready.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12751,7 +12751,7 @@ VP8/VP9 비디오와 Vorbis/Opus 오디오만 지원합니다</translation>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>
@@ -12787,7 +12787,7 @@ VP8/VP9 비디오와 Vorbis/Opus 오디오만 지원합니다</translation>
         <translation>평균 비트레이트:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14109,7 +14109,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>사용자 정의</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>대상 비트레이트:</translation>
     </message>

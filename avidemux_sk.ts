@@ -10272,7 +10272,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Nemožno prejsť na predošlú snímku</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation>Hľadať</translation>
     </message>
@@ -12079,7 +12079,7 @@ Pripravený.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation> h</translation>
     </message>
@@ -12856,7 +12856,7 @@ Podporované audio len VP8/VP9 video a Vorbis/Opus</translation>
         <translation>Vlastné</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation>Cieľová prenosová rýchlosť [kB/s]:</translation>
     </message>
@@ -12892,7 +12892,7 @@ Podporované audio len VP8/VP9 video a Vorbis/Opus</translation>
         <translation>Priemerná prenosová rýchlosť:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14215,7 +14215,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <translation>Vlastné</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>Cieľová prenosová rýchlosť:</translation>
     </message>

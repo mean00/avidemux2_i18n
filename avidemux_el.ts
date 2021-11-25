@@ -10296,7 +10296,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Αδυναμία μετάβασης στο προηγούμενο κλειδοστιγμιότυπο</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+399"/>
         <source>Seek</source>
         <translation>Αναζήτηση</translation>
     </message>
@@ -12101,7 +12101,7 @@ Ready.
 <context>
     <name>timestamp</name>
     <message>
-        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+187"/>
+        <location filename="../ADM_UIs/src/T_timeStamp.cpp" line="+198"/>
         <source> h</source>
         <translation> ώ</translation>
     </message>
@@ -12882,7 +12882,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
         <translation>Προσαρμοσμένο</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+424"/>
         <source>Target Bitrate:</source>
         <translation>Δυφιορυθμός προορισμού:</translation>
     </message>
@@ -12918,7 +12918,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
         <translation>Μέσος δυφιορυθμός:</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+80"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
@@ -14243,7 +14243,7 @@ If it is a system profile it will be recreated next time.</source>
         <translation>Προσαρμοσμένο</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+351"/>
         <source>Target Bitrate:</source>
         <translation>Δυφιορυθμός προορισμού:</translation>
     </message>
