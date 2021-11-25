@@ -13115,7 +13115,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+7"/>
         <source>Constrained Intra Prediction</source>
-        <translation>I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
+        <translation>Nur Bild-intern kodierte MB für Bild-interne Vorhersage nutzen [constrained-intra]</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -13176,7 +13176,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="-1294"/>
         <source>Threshold:</source>
-        <translation type="unfinished">Schwellwert:</translation>
+        <translation>Schwellenwert:</translation>
     </message>
     <message>
         <location line="+124"/>
@@ -13226,12 +13226,12 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+10"/>
         <source>I-frames</source>
-        <translation type="unfinished">I-Bilder (unabhängige Vollbilder, u.a.wichtig für einen späteren Videoschnitt)</translation>
+        <translation>Schlüsselbilder</translation>
     </message>
     <message>
         <location line="+82"/>
         <source>I-frame Threshold:</source>
-        <translation type="unfinished">Bildveränderungsschwellwert (%) der zum Setzen eines I-Bildes führt [scenecut]:</translation>
+        <translation>Schwellenwert der Bildveränderungen (%) zum Setzen eines Schlüsselbildes [scenecut]:</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -14554,7 +14554,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <message>
         <location line="+31"/>
         <source>Constrained Intra Prediction</source>
-        <translation type="unfinished">I-Bildvorhersage beschränken (mindert die Kompression) [constrained-intra]</translation>
+        <translation>Nur Bild-intern kodierte MB für Bild-interne Vorhersage nutzen [constrained-intra]</translation>
     </message>
     <message>
         <location line="+41"/>
