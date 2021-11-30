@@ -10787,39 +10787,39 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2720"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2737"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2460"/>
+        <location line="-2477"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1334"/>
+        <location line="+1335"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
     <message>
-        <location line="-883"/>
+        <location line="-884"/>
         <source>Recent Projects</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1760"/>
+        <location line="+1777"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-885"/>
+        <location line="-901"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
     <message>
-        <location line="-876"/>
+        <location line="-877"/>
         <source>Recent Files</source>
         <translation>Попередні файли</translation>
     </message>
@@ -10829,7 +10829,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+591"/>
+        <location line="+592"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10878,12 +10878,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+437"/>
+        <location line="+439"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+657"/>
+        <location line="+671"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10893,7 +10893,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1200"/>
+        <location line="-1216"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -10908,7 +10908,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1564"/>
+        <location line="+1580"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10918,7 +10918,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1562"/>
+        <location line="-1578"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>

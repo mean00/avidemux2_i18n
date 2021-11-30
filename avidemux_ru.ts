@@ -10729,7 +10729,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Восстановить стандартный набор</translation>
     </message>
     <message>
-        <location line="+591"/>
+        <location line="+592"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10809,12 +10809,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Вперёд на 1 минуту</translation>
     </message>
     <message>
-        <location line="+415"/>
+        <location line="+417"/>
         <source>Zoom: </source>
         <translation>Масштаб: </translation>
     </message>
     <message>
-        <location line="+410"/>
+        <location line="+424"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой

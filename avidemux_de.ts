@@ -10672,7 +10672,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Auf Vorgabe zurücksetzen</translation>
     </message>
     <message>
-        <location line="+591"/>
+        <location line="+592"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10752,12 +10752,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Eine Minute vor</translation>
     </message>
     <message>
-        <location line="+415"/>
+        <location line="+417"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+657"/>
+        <location line="+671"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>
@@ -10776,12 +10776,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-2884"/>
+        <location line="-2901"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+2211"/>
+        <location line="+2228"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.

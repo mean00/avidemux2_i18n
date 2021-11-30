@@ -10661,34 +10661,34 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2720"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2737"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1126"/>
+        <location line="-1142"/>
         <source>Set start marker</source>
         <translation>設定開始標記</translation>
     </message>
     <message>
-        <location line="-883"/>
+        <location line="-884"/>
         <source>Recent Projects</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1760"/>
+        <location line="+1777"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
 當前編輯已保儲存, 將在下一開始重新載入</translation>
     </message>
     <message>
-        <location line="-885"/>
+        <location line="-901"/>
         <source>Go to previous keyframe</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
     <message>
-        <location line="-1326"/>
+        <location line="-1327"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10703,7 +10703,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+591"/>
+        <location line="+592"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10728,12 +10728,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分鐘</translation>
     </message>
     <message>
-        <location line="+418"/>
+        <location line="+420"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+657"/>
+        <location line="+671"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10751,7 +10751,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1532"/>
+        <location line="-1548"/>
         <source>Go to first frame</source>
         <translation>轉到第一幀</translation>
     </message>

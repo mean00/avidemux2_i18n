@@ -10820,7 +10820,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Varsayılanları geri yükle</translation>
     </message>
     <message>
-        <location line="+591"/>
+        <location line="+592"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -10900,12 +10900,12 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bir dakika ileri git</translation>
     </message>
     <message>
-        <location line="+415"/>
+        <location line="+417"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+410"/>
+        <location line="+424"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
