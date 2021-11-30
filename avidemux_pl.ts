@@ -1965,7 +1965,7 @@ Spodziewaj się problemów.</translation>
         <translation>Główna ścieżka dźwiękowa</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+264"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2070,7 +2070,7 @@ Czy jest on uruchomiony?</translation>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-250"/>
+        <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2848,7 +2848,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Ustawienie języka dla podanego indeksu ścieżki nie jest możliwe: Nieprawidłowy indeks ścieżki!</translation>
     </message>
     <message>
-        <location line="+299"/>
+        <location line="+300"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -2858,7 +2858,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Ta funkcja jest wyłączona lub nie jest już obowiązująca</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Problem z zainicjowaniem urządzenia audio</translation>
     </message>
@@ -10674,7 +10674,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Dostępna jest nowa wersja&lt;/b&gt;&lt;br&gt;Wersja %1&lt;br&gt;Wydana %2&lt;br&gt;Możesz pobrać ją tutaj:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Możesz wyłączyć automatyczne aktualizacje w preferencjach.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Ostatnie pliki</translation>
     </message>
@@ -10684,7 +10684,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Ostatnie projekty</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10769,7 +10769,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Do przodu jedna minuta</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikacja napotkała fatalny problem!
@@ -10791,7 +10796,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">

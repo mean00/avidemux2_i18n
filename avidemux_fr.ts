@@ -2685,7 +2685,7 @@ Expect problems.</source>
         <translation>Impossible de choisir la langue, piste audio invalide</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation></translation>
     </message>
@@ -2726,7 +2726,7 @@ Is it running ?</source>
         <translation>Cette fonction est désactivée ou plus disponible.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Le device audio ne peut pas être initialisé</translation>
     </message>
@@ -10521,7 +10521,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Nouvelle version disponible&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Publié le %2.&lt;br&gt;Vous pouvez la télécharger ici&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Vous pouvez désactiver autoupdate dans les préférences.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Fichiers Récents</translation>
     </message>
@@ -10531,7 +10531,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Projets Récents</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10616,7 +10616,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avancer d&apos;une minute</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>L&apos;application a rencontré un problème fatal
@@ -10638,7 +10643,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>

@@ -1927,7 +1927,7 @@ Expect problems.</source>
         <translation>Κύριο κανάλι ήχου</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+264"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2023,7 +2023,7 @@ Is it running ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-248"/>
+        <location filename="../../common/gui_main.cpp" line="-249"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2875,7 +2875,7 @@ Proceed anyway?</source>
         <translation>Ο ορισμός της γλώσσας για τα περιεχόμενα του δοθέντος καναλιού δεν είναι εφικτός: Μη έγκυρα περιεχόμενα καναλιού!</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+187"/>
         <source>Frame Hex Dump</source>
         <translation>Δεκαεξαδική αποτύπωση στιγμιότυπων</translation>
     </message>
@@ -2890,7 +2890,7 @@ Proceed anyway?</source>
         <translation>Αυτή η λειτουργία είναι απενεργοποιημένη ή δεν ισχύει πια</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Πρόβλημα στην αρχικοποίηση της συσκευής ήχου</translation>
     </message>
@@ -10763,7 +10763,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Διαθέσιμη νέα έκδοση&lt;/b&gt;&lt;br&gt; Έκδοση %1&lt;br&gt;Εκδόθηκε στις %2.&lt;br&gt;Μπορείτε να την κάνετε λήψη από εδώ&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Μπορείτε να απενεργοποιήσετε την αυτόματη ενημέρωση από τις προτιμήσεις.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Πρόσφατα αρχεία</translation>
     </message>
@@ -10773,7 +10773,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Πρόσφατες εργασίες</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10858,7 +10858,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Προς τα εμπρός, κατά ένα λεπτό</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Η εφαρμογή αντιμετώπισε ένα μοιραίο πρόβλημα
@@ -10880,7 +10885,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Επιλογή: </translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>

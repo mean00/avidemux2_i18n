@@ -2308,7 +2308,7 @@ Espere problemas.</translation>
         <translation>Pista de audio principal</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+264"/>
         <source>AvsProxy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2438,7 +2438,7 @@ Is it running ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-250"/>
+        <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -3015,7 +3015,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>No es posible establecer el idioma para la pista del índice dado: ¡índice de pista no válido!</translation>
     </message>
     <message>
-        <location line="+299"/>
+        <location line="+300"/>
         <source>Oops</source>
         <translation>Huy</translation>
     </message>
@@ -3025,7 +3025,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Esta función esta deshabilitada o ya no es válida</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Problemas al inicializar el dispositivo de audio</translation>
     </message>
@@ -10681,7 +10681,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Nueva versión disponible&lt;/b&gt;&lt;br&gt; Versión %1&lt;br&gt;Publicada el %2.&lt;br&gt;Puede descargarla aquí&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Puede deshabilitar las actualizaciones automáticas en Preferencias.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Archivos recientes</translation>
     </message>
@@ -10691,7 +10691,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Proyectos recientes</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10776,7 +10776,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Avanzar un minuto</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>La aplicación ha encontrado un problema fatal.
@@ -10798,7 +10803,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">

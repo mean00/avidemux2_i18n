@@ -1836,7 +1836,7 @@ Expect problems.</source>
         <translation>Главная звуковая дорожка</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+264"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Невозможно соединиться с AvsProxy.
@@ -1926,7 +1926,7 @@ Is it running ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-250"/>
+        <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2843,7 +2843,7 @@ Proceed anyway?</source>
         <translation>Установка языка дорожки невозможна: неверный индекс дорожки!</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2863,7 +2863,7 @@ Proceed anyway?</source>
         <translation>Функция отключена или более недействительна</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Проблема при инициализации аудиоустройства</translation>
     </message>
@@ -10714,7 +10714,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Предыдущие файлы</translation>
     </message>
@@ -10724,7 +10724,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Предыдущие проекты</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation>Восстановить стандартный набор</translation>
     </message>
@@ -10809,7 +10809,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Вперёд на 1 минуту</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation>Масштаб: </translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой
@@ -10831,7 +10836,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Выборка: </translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>

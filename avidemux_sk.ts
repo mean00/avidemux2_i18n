@@ -2737,7 +2737,7 @@ Očakávajte problémy.</translation>
         <translation>Nastavený jazyk pre daný index stopy nie je vhodný: Neplatný index stopy!</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2779,7 +2779,7 @@ Je spustené?</translation>
         <translation>Táto funkcia je vypnutá alebo je už neplatná</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>Chyba inicializácie audio zariadenia</translation>
     </message>
@@ -10739,7 +10739,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>&lt;b&gt;Dostupná nová verzia&lt;/b&gt;&lt;br&gt; verzia %1&lt;br&gt;uvoľnená od %2.&lt;br&gt;Môžete si ju stiahnuť tu&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Automatickú aktualizáciu môžete zakázať v predvoľbách.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>Nedávne &amp;súbory</translation>
     </message>
@@ -10749,7 +10749,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Nedávne &amp;projekty</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10834,7 +10834,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Vpred o 1 minútu</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Aplikácia sa stretla s fatálnym problémom
@@ -10856,7 +10861,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <translation>Výber: </translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>

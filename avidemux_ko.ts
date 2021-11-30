@@ -2700,7 +2700,7 @@ Expect problems.</source>
         <translation>주어진 트릭 인덱스의 언어를 설정할 수 없습니다: 무효한 트랙 인덱스!</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+144"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -2741,7 +2741,7 @@ Is it running ?</source>
         <translation>이 기능이 비활성화되었거나 더 이상 유효하지 않습니다</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>오디오 장치 초기화 중 문제 발생</translation>
     </message>
@@ -10650,7 +10650,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;새 버전이 나왔습니다!&lt;/b&gt;&lt;br&gt; 버전 %1&lt;br&gt;%2에 배포.&lt;br&gt;여기에서 다운로드할 수 있습니다&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; 자동 업데이트는 환경 설정에서 끌 수 있습니다.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>최근 파일</translation>
     </message>
@@ -10660,7 +10660,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>최근 프로젝트</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10745,7 +10745,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>1분 앞으로</translation>
     </message>
     <message>
-        <location line="+783"/>
+        <location line="+415"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+410"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>프로그램에서 치명적인 문제가 발생했습니다
@@ -10767,7 +10772,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>

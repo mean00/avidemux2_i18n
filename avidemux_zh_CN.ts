@@ -1362,7 +1362,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1987"/>
+        <location filename="../../common/gui_main.cpp" line="+1988"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1488,7 +1488,7 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="-363"/>
+        <location filename="../../common/gui_main.cpp" line="-364"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -1705,7 +1705,7 @@ Installation mismatch</source>
         <translation>不能安装复合器</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+543"/>
+        <location filename="../../common/gui_main.cpp" line="+544"/>
         <source>This function is disabled or no longer valid</source>
         <translation>此功能被禁用或不再有效</translation>
     </message>
@@ -1756,7 +1756,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1806"/>
+        <location filename="../../common/gui_main.cpp" line="-1807"/>
         <source>Select script to run</source>
         <translation>选择脚本去执行</translation>
     </message>
@@ -2126,7 +2126,7 @@ Installation mismatch</source>
         <translation>发现没有 AAC 音频编码器插件程序。</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+897"/>
+        <location filename="../../common/gui_main.cpp" line="+898"/>
         <source>Frame Hex Dump</source>
         <translation>帧十六进制转储</translation>
     </message>
@@ -2151,7 +2151,7 @@ Installation mismatch</source>
         <translation>AMR-NB</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-938"/>
+        <location filename="../../common/gui_main.cpp" line="-939"/>
         <source>Permission error</source>
         <translation>权限许可错误</translation>
     </message>
@@ -2616,7 +2616,7 @@ It is needed to create PSP compatible video.</source>
         <translation>加载保存设定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+932"/>
+        <location filename="../../common/gui_main.cpp" line="+933"/>
         <source>Frame size:</source>
         <translation>帧大小:</translation>
     </message>
@@ -2655,7 +2655,7 @@ Do you want to continue anyway ?</source>
 您要继续吗 ?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-931"/>
+        <location filename="../../common/gui_main.cpp" line="-932"/>
         <source>File error</source>
         <translation>文件错误</translation>
     </message>
@@ -3078,7 +3078,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>低比特率的场景（%）</translation>
     </message>
     <message>
-        <location filename="../../common/gui_play.cpp" line="+455"/>
+        <location filename="../../common/gui_play.cpp" line="+460"/>
         <source>Trouble initializing audio device</source>
         <translation>音频装置初始化时发生问题</translation>
     </message>
@@ -3282,7 +3282,7 @@ Installation mismatch</source>
         <translation>取消编辑(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1373"/>
+        <location filename="../../common/gui_main.cpp" line="+1374"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>无法联机到 avs代理，
@@ -3321,7 +3321,7 @@ Install lame plugin</source>
         <translation>首选项-偏好设定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-266"/>
+        <location filename="../../common/gui_main.cpp" line="-267"/>
         <source>_Track from video:</source>
         <translation>视频中的轨道:</translation>
     </message>
@@ -3410,7 +3410,7 @@ Install lame plugin</source>
         <translation>转到上一帧</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+227"/>
+        <location filename="../../common/gui_main.cpp" line="+228"/>
         <source>AvsProxy</source>
         <translation>AvsProxy</translation>
     </message>
@@ -3456,7 +3456,7 @@ Install lame plugin</source>
         <translation>2通</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-855"/>
+        <location filename="../../common/gui_main.cpp" line="-856"/>
         <source>Could not open the file</source>
         <translation>无法开启此文件</translation>
     </message>
@@ -10659,44 +10659,44 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2675"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2720"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1084"/>
+        <location line="-1126"/>
         <source>Set start marker</source>
         <translation>设定开始标记</translation>
     </message>
     <message>
-        <location line="-881"/>
+        <location line="-883"/>
         <source>Recent Projects</source>
         <translation>最近使用的 项目(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1716"/>
+        <location line="+1760"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>应用程序遇到了一个致命的问题
 当前编辑已保保存, 将在下一开始重载</translation>
     </message>
     <message>
-        <location line="-843"/>
+        <location line="-885"/>
         <source>Go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
     <message>
-        <location line="-1323"/>
+        <location line="-1326"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+449"/>
+        <location line="+450"/>
         <source>Recent Files</source>
         <translation>最近使用的 文件(&amp;F)</translation>
     </message>
     <message>
-        <location line="+31"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10726,7 +10726,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>倒退一分钟</translation>
     </message>
     <message>
-        <location line="+1033"/>
+        <location line="+418"/>
+        <source>Zoom: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+657"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10736,7 +10741,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
-        <location line="+336"/>
+        <location line="+344"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation type="unfinished">
@@ -10744,7 +10749,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1482"/>
+        <location line="-1532"/>
         <source>Go to first frame</source>
         <translation>转到第一帧</translation>
     </message>
