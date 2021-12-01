@@ -1536,12 +1536,12 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-15"/>
         <source>R_esampling (Hz):</source>
-        <translation>Преобразование частоты (Hz):</translation>
+        <translation>Передискретизация (Гц):</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Resampling frequency (Hz)</source>
-        <translation>Новая частота (Hz)</translation>
+        <translation>Новая частота (Гц)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1992,7 +1992,7 @@ Is it running ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
         <source>Gain</source>
-        <translation>Уровень нормализации</translation>
+        <translation>Усилитель</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -2042,7 +2042,7 @@ Is it running ?</source>
     <message>
         <location line="+3"/>
         <source>DRC</source>
-        <translation>DRC</translation>
+        <translation>Сжатие динамического диапазона (DRC)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2062,7 +2062,7 @@ Is it running ?</source>
     <message>
         <location line="+11"/>
         <source>Remix:</source>
-        <translation>Ремикс:</translation>
+        <translation>Ремикшировать:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -4401,7 +4401,7 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Line spacing:</source>
-        <translation>М_еждустрочный интервал:</translation>
+        <translation>_Межстрочный интервал:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4984,7 +4984,7 @@ This message will not be displayed again.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
         <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
+        <translation>Пиковые диапазоны</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6083,7 +6083,7 @@ Do you want to load it  ?
     <message>
         <location line="+1"/>
         <source>Use image at start time for fading.</source>
-        <translation>Использовать изображение во время начала для исчезнования.</translation>
+        <translation>Использовать изображение во время начала для исчезновения.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
@@ -6138,7 +6138,7 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation>Установить из маркеров A-B</translation>
+        <translation>Установить из меток A-B</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -6288,7 +6288,7 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation>Установить из маркеров A-B</translation>
+        <translation>Установить из меток A-B</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -6400,12 +6400,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation>Установить из маркеров A-B</translation>
+        <translation>Установить из меток A-B</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set center as A marker, duration is 2×|A-B|</source>
-        <translation>Установить центром маркер A, длительность — 2×|A-B|</translation>
+        <translation>Установить центром метку A, длительность: 2×|A-B|</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -7820,7 +7820,7 @@ Do you want to replace it?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/ADM_vidFitToSize.cpp" line="+58"/>
         <source>Fit to size</source>
-        <translation>Подогон под размер</translation>
+        <translation>Подгон под размер</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10415,7 +10415,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Output format:</source>
-        <translation>Формат на выход:</translation>
+        <translation>Формат на выходе:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10474,7 +10474,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
-        <translation>нет информации</translation>
+        <translation>н/д</translation>
     </message>
     <message>
         <location line="-226"/>
@@ -11700,7 +11700,7 @@ Ready.
     <message>
         <location line="-7"/>
         <source>None</source>
-        <translation>Не нужно</translation>
+        <translation>Нет</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12697,7 +12697,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Denoise chroma</source>
-        <translation>Шумоподваление цветности</translation>
+        <translation>Шумоподавление цветности</translation>
     </message>
 </context>
 <context>
@@ -14542,7 +14542,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+5"/>
         <source>Star Search</source>
-        <translation>Звездообразный поиск</translation>
+        <translation>Звёздчатый поиск</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -15129,7 +15129,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+9"/>
         <source>Custom Threaded Lookahead Buffer:</source>
-        <translation>Ручной многопоточный буфер предвидения:</translation>
+        <translation>Ручной многопоточный буфер предсказания:</translation>
     </message>
     <message>
         <source>Output 1</source>
