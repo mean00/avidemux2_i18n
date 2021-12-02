@@ -4984,7 +4984,7 @@ This message will not be displayed again.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
         <source>Peek Ranges</source>
-        <translation>Пиковые диапазоны</translation>
+        <translation>Показать зоны</translation>
     </message>
     <message>
         <location line="+1"/>
