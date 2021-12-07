@@ -6924,8 +6924,8 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
-        <translation>İkili İş Parçacığı)</translation>
+        <source>Two threads</source>
+        <translation>İkili İş Parçacığı</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7112,8 +7112,8 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
-        <translation>İkili İş Parçacığı)</translation>
+        <source>Two threads</source>
+        <translation>İkili İş Parçacığı</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -14435,7 +14435,7 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     <name>x265ConfigDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+15"/>
-        <source>x265 Configuraton</source>
+        <source>x265 Configuration</source>
         <translation>x265 Yapılandırması</translation>
     </message>
     <message>
@@ -15717,8 +15717,8 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
-        <translation>İkili İş Parçacığı)</translation>
+        <source>Two threads</source>
+        <translation>İkili İş Parçacığı</translation>
     </message>
     <message>
         <location line="+1"/>

@@ -6806,7 +6806,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6974,7 +6974,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14043,7 +14043,7 @@ If it is a system profile it will be recreated next time.</source>
     <name>x265ConfigDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+15"/>
-        <source>x265 Configuraton</source>
+        <source>x265 Configuration</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -15302,7 +15302,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -6853,7 +6853,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>Zwei Threads</translation>
     </message>
     <message>
@@ -7031,7 +7031,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -14222,7 +14222,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     <name>x265ConfigDialog</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265ConfigDialog.ui" line="+15"/>
-        <source>x265 Configuraton</source>
+        <source>x265 Configuration</source>
         <translation>x265 HEVC Encoder konfigurieren</translation>
     </message>
     <message>
@@ -15453,7 +15453,7 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
     </message>
     <message>
         <location line="+1"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

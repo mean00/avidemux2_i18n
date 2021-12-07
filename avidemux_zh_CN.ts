@@ -6907,7 +6907,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="-58"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>两个线程</translation>
     </message>
     <message>
@@ -7085,7 +7085,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="-21"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>两个线程</translation>
     </message>
     <message>
@@ -15125,7 +15125,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="-2966"/>
-        <source>x265 Configuraton</source>
+        <source>x265 Configuration</source>
         <translation>x265 配置</translation>
     </message>
     <message>
@@ -15563,7 +15563,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Two threads)</source>
+        <source>Two threads</source>
         <translation>两个线程</translation>
     </message>
     <message>
