@@ -2004,7 +2004,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>Valore ritardo (ms):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Filtri audio</translation>
     </message>
@@ -2369,19 +2369,19 @@ Vai a &apos;Audio&apos; -&gt; &apos;Traccia principale&apos; per selezionare la 
         <translation>Errore durante l&apos;aggiunta</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>C&apos;è stato qualche errore (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Verifica video in corso</translation>
     </message>
@@ -2600,7 +2600,7 @@ Is it running ?</source>
         <translation>Il file %s NON è stato salvato correttamente.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation type="unfinished">Amplificazione</translation>
     </message>
@@ -2787,7 +2787,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2846,7 +2846,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

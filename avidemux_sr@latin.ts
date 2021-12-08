@@ -1600,7 +1600,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">_Mikseta:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation type="unfinished">Zvučni filteri</translation>
     </message>
@@ -1804,19 +1804,19 @@ Idite u „Zvuk -&gt; Glavna staza“ i izaberite jednu aktivnu stazu.</translat
         <translation type="unfinished">Nešto nije uspelo prilikom dodavanja</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation type="unfinished">Nešto loše se desilo (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation type="unfinished">Proveravam video</translation>
     </message>
@@ -2010,7 +2010,7 @@ Da li je on pokrenut ?</translation>
         <translation type="unfinished">Srednje</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation type="unfinished">Pojačaj</translation>
     </message>
@@ -2689,7 +2689,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2753,7 +2753,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

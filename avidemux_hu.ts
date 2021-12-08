@@ -1951,7 +1951,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Eltolás mértéke (ms):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Hangszűrők</translation>
     </message>
@@ -2361,19 +2361,19 @@ Nyissa meg az &apos;Hang&apos; -&gt; &apos;Fő hangsáv&apos; menüt és válass
         <translation>A hozzáfűzésnél valami nem sikerült</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Valami rossz történt (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Videó ellenőrzés</translation>
     </message>
@@ -2827,7 +2827,7 @@ El lett indítva ?</translation>
         <translation>Xvid4 beállítás</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2979,7 +2979,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3038,7 +3038,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

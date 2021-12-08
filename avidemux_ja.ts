@@ -1618,7 +1618,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">ミキサー(_M):</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation type="unfinished">音声フィルタ</translation>
     </message>
@@ -1822,19 +1822,19 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished">追加時に何かが失敗しました</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation type="unfinished">何か悪いことが起きました (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation type="unfinished">映像をチェック中</translation>
     </message>
@@ -2028,7 +2028,7 @@ Is it running ?</source>
         <translation type="unfinished">中くらい</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation type="unfinished">利得</translation>
     </message>
@@ -2707,7 +2707,7 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2771,7 +2771,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

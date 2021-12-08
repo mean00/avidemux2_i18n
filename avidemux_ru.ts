@@ -1586,7 +1586,7 @@ Drop timing informations ?</source>
         <translation>_Микшер:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>Фильтры аудио</translation>
     </message>
@@ -1778,12 +1778,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Ошибка при добавлении видео</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Ошибка при обновлении видео (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -1791,7 +1791,7 @@ Expect problems.</source>
 Возможны проблемы.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Проверка видео</translation>
     </message>
@@ -1990,7 +1990,7 @@ Is it running ?</source>
         <translation>Широкий поиск</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Усилитель</translation>
     </message>
@@ -2747,7 +2747,7 @@ It is needed to create PSP compatible video.</source>
 Он требуется для создания видео, совместимого с PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Выбрать скрипт/проект для запуска</translation>
     </message>
@@ -2812,7 +2812,7 @@ Proceed anyway?</source>
         <translation>Ошибка обрезки.</translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Неверный индекс аудио</translation>

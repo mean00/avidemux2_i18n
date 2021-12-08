@@ -1855,7 +1855,7 @@ Drop timing informations ?</source>
         <translation>_Modus:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation type="unfinished">Audio Filter</translation>
     </message>
@@ -2163,19 +2163,19 @@ Wählen Sie unter &apos;Audio&apos; -&gt; &apos;Tonspur wählen&apos; die aktive
         <translation type="unfinished">Beim Anhängen ging irgendetwas schief</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation type="unfinished">Irgendetwas Schlimmes ist passiert (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation type="unfinished">Das Video wird geprüft</translation>
     </message>
@@ -2472,7 +2472,7 @@ Läuft er?</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1306"/>
+        <location filename="../../common/gui_main.cpp" line="-1303"/>
         <location line="+77"/>
         <source>Select Video File...</source>
         <translation>Videodatei wählen...</translation>
@@ -2483,7 +2483,7 @@ Läuft er?</translation>
         <translation>Videodatei zum Anfügen wählen...</translation>
     </message>
     <message>
-        <location line="+1136"/>
+        <location line="+1133"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished">Ungültige Liste der Tonspuren</translation>
@@ -2499,7 +2499,7 @@ Läuft er?</translation>
         <translation>Das gespeicherte Video ist unvollständig. Der Fehler ereignete sich bei %s (%d%%). Dies kann eine Folge ungültiger Zeitstempel im Video sein.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1447"/>
+        <location filename="../../common/gui_main.cpp" line="-1444"/>
         <source>Select script/project to run</source>
         <translation>Skript/Projekt zum Ausführen wählen</translation>
     </message>
@@ -2549,7 +2549,7 @@ Trotzdem fortsetzen?</translation>
         <translation>Fehler beim Ausschneiden.</translation>
     </message>
     <message>
-        <location line="+852"/>
+        <location line="+849"/>
         <source>Cannot use that file as audio track</source>
         <translation>Kann diese Datei nicht als Tonspur verwenden</translation>
     </message>
@@ -2584,7 +2584,7 @@ Trotzdem fortsetzen?</translation>
         <translation>wenige Sekunden</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-55"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-56"/>
         <location line="+25"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-78"/>
         <source>None</source>
@@ -2855,12 +2855,12 @@ It is needed to create PSP compatible video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1499"/>
+        <location filename="../../common/gui_main.cpp" line="-1496"/>
         <source>Select script to save</source>
         <translation>Dateinamen für Skript wählen</translation>
     </message>
     <message>
-        <location line="+1268"/>
+        <location line="+1265"/>
         <source>Something bad happened</source>
         <translation type="unfinished"></translation>
     </message>

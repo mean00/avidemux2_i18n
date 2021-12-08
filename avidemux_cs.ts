@@ -1634,7 +1634,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">_Mixér:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>Zvukové filtry</translation>
     </message>
@@ -1918,19 +1918,19 @@ V nabídce Audio-&gt;Hlavní stopa vyberte tu aktivní.</translation>
         <translation type="unfinished">Při připojování něco selhalo</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation type="unfinished">Přihodilo se něco zlého (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation type="unfinished">Kontroluji video</translation>
     </message>
@@ -2339,7 +2339,7 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-55"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-56"/>
         <location line="+25"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-85"/>
         <source>None</source>
@@ -2890,7 +2890,7 @@ Install lame plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2969,7 +2969,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+620"/>
+        <location line="+617"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

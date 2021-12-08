@@ -1553,7 +1553,7 @@ Drop timinginformationer?</translation>
         <translation>Forskydningsværdi (ms):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Lydfiltre</translation>
     </message>
@@ -2318,7 +2318,7 @@ Gå til Lyd-&gt;Hovedspor for at vælge det aktive.</translation>
         <translation>Noget fejlede ved tilføjelse til slutning</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Noget gik galt (II)</translation>
     </message>
@@ -2777,7 +2777,7 @@ Kører den?</translation>
         <translation>Xvid4-konfiguration</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Forstærkning</translation>
     </message>
@@ -3003,7 +3003,7 @@ Uoverensstemmelse i installation</translation>
         <translation>Kan ikke vælge MPEG-4 SP-codec.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Vælg script/projekt som skal køre</translation>
     </message>
@@ -3058,7 +3058,7 @@ Expect problems.</source>
 Forvent problemer.</translation>
     </message>
     <message>
-        <location line="+294"/>
+        <location line="+291"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Ugyldigt lydindeks givet</translation>

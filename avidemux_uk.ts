@@ -1173,7 +1173,7 @@ Drop timing informations ?</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1988"/>
+        <location filename="../../common/gui_main.cpp" line="+1985"/>
         <source>Oops</source>
         <translation>Попередження</translation>
     </message>
@@ -1383,7 +1383,7 @@ Installation mismatch</source>
         <translation>Увімкнути 3DNOWEXT</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-873"/>
+        <location filename="../../common/gui_main.cpp" line="-870"/>
         <source>Codec or codec settings across the deletion do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
@@ -1404,7 +1404,7 @@ Proceed anyway?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+754"/>
+        <location filename="../../common/gui_main.cpp" line="+751"/>
         <source>Main Audio Track</source>
         <translation>Головна звукова доріжка</translation>
     </message>
@@ -1414,7 +1414,7 @@ Proceed anyway?</source>
         <translation>Значення зсуву (мс):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-796"/>
+        <location filename="../../common/gui_main.cpp" line="-793"/>
         <source>Error while cutting out.</source>
         <translation>Помилка обрізки</translation>
     </message>
@@ -1439,7 +1439,7 @@ Proceed anyway?</source>
         <translation>Занадто коротко</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+672"/>
+        <location filename="../../common/gui_main.cpp" line="+669"/>
         <source>Marker A &gt; B</source>
         <translation>Мітка A&gt; B</translation>
     </message>
@@ -1523,7 +1523,7 @@ It is needed to create PSP compatible video.</source>
         <translation>__невідомо__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1807"/>
+        <location filename="../../common/gui_main.cpp" line="-1804"/>
         <source>Select script to run</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
@@ -1563,7 +1563,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Додатки аудіопристроїв</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1276"/>
+        <location filename="../../common/gui_main.cpp" line="+1273"/>
         <source>Something bad happened</source>
         <translation>Помилка при відкритті файлу для запису</translation>
     </message>
@@ -1573,7 +1573,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Неможливо видалити виділене.</translation>
     </message>
     <message>
-        <location line="-408"/>
+        <location line="-405"/>
         <source>Multiple Audio Tracks</source>
         <translation>Кілька звукових доріжок</translation>
     </message>
@@ -1583,7 +1583,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Помилка при додаванні відео</translation>
     </message>
     <message>
-        <location line="+690"/>
+        <location line="+687"/>
         <source>AvsProxy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1618,7 +1618,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Перевищена квота</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1224"/>
+        <location filename="../../common/gui_main.cpp" line="-1221"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Утворилися точки розрізу вставки при збереженні відео в режимі копіювання можуть призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1724,7 +1724,7 @@ Warning, the settings must be close.</source>
         <translation>Додатки декодерів відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1215"/>
+        <location filename="../../common/gui_main.cpp" line="+1212"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>Неможливо встановити мову аудіо: відео не завантажене!</translation>
     </message>
@@ -1788,7 +1788,7 @@ Installation mismatch</source>
         <translation>Не вдається встановити кодер для першого проходу. Конфігурація, надана кодеру, може бути несумісною, або кодер може залежати від функцій, недоступних у цій системі.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-857"/>
+        <location filename="../../common/gui_main.cpp" line="-854"/>
         <source>Cut points could not be checked.
 This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Proceed anyway?</source>
@@ -1816,7 +1816,7 @@ Proceed anyway?</source>
         <translation>Не знайдено плагін аудиокодека AAC.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+898"/>
+        <location filename="../../common/gui_main.cpp" line="+895"/>
         <source>Frame Hex Dump</source>
         <translation>Дамп кадру</translation>
     </message>
@@ -1836,12 +1836,12 @@ Proceed anyway?</source>
         <translation>Помилка прав доступу</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+13"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+14"/>
         <source>Audio Filters</source>
         <translation>Фільтри аудіо</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1123"/>
+        <location filename="../../common/gui_main.cpp" line="-1120"/>
         <source>It is impossible to cut out the entire video. Please recheck the position of markers A and B.</source>
         <translation>Вирізати відео цілком неприпустимо. Будь ласка, перевірте положення міток A і B.</translation>
     </message>
@@ -1867,12 +1867,12 @@ Installation mismatch</source>
         <translation type="vanished">Установка мови доріжки неможлива: у відео немає файлу аудіо!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+748"/>
+        <location filename="../../common/gui_main.cpp" line="+745"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
         <translation>Установка мови доріжки неможлива: невірний: Відео не має аудіофайлу!</translation>
     </message>
     <message>
-        <location line="-882"/>
+        <location line="-879"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the deletion may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки видалення при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1949,7 +1949,7 @@ Proceed anyway?</source>
         <translation>Ігнорувати</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+634"/>
+        <location filename="../../common/gui_main.cpp" line="+631"/>
         <source>No error found</source>
         <translation>Помилки не знайдені</translation>
     </message>
@@ -2020,7 +2020,7 @@ Proceed anyway?</source>
         <translation>Назва операції</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-628"/>
+        <location filename="../../common/gui_main.cpp" line="-625"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the cut may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки вирізу при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -2063,7 +2063,7 @@ Proceed anyway?</source>
         <translation>Вихідні дані</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1036"/>
+        <location filename="../../common/gui_main.cpp" line="+1033"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Неможливо з&apos;єднатися з AvsProxy.
@@ -2080,7 +2080,7 @@ Is it running ?</source>
         <translation>Увімкнути всі SIMD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-11"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-12"/>
         <source>Remix</source>
         <translation>Ремікс</translation>
     </message>
@@ -2113,7 +2113,7 @@ Is it running ?</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1224"/>
+        <location filename="../../common/gui_main.cpp" line="-1221"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2373,7 +2373,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Завантажити налаштування виводу за замовчуванням</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+933"/>
+        <location filename="../../common/gui_main.cpp" line="+930"/>
         <source>Frame size:</source>
         <translation>Розмір кадру:</translation>
     </message>
@@ -2410,7 +2410,7 @@ Do you want to continue anyway ?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-932"/>
+        <location filename="../../common/gui_main.cpp" line="-929"/>
         <source>File error</source>
         <translation>Помилка файлу</translation>
     </message>
@@ -2445,7 +2445,7 @@ Do you want to continue anyway ?</source>
         <translation>Вручну (дБ)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+468"/>
+        <location filename="../../common/gui_main.cpp" line="+465"/>
         <source>Checking video</source>
         <translation>Перевірка відео</translation>
     </message>
@@ -2470,7 +2470,7 @@ Do you want to continue anyway ?</source>
         <translation>Зберегти як PNG невдалось</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-432"/>
+        <location filename="../../common/gui_main.cpp" line="-429"/>
         <source>Cannot open project using the video loader.</source>
         <translation>Неможливо відкрити проект за допомогою завантажувача відео.</translation>
     </message>
@@ -2509,7 +2509,7 @@ Do you want to continue anyway ?</source>
         <translation>Нова частота (Hz)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+712"/>
+        <location filename="../../common/gui_main.cpp" line="+709"/>
         <source>Setting the language for the given track index is not possible: Invalid track index!</source>
         <translation>Установка мови доріжки неможлива: невірний Індекс доріжки!</translation>
     </message>
@@ -2533,7 +2533,7 @@ Do you want to continue anyway ?</source>
         <translation>Файл не завантажений</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-652"/>
+        <location filename="../../common/gui_main.cpp" line="-649"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Файл містить кілька звукових доріжок.
@@ -2942,7 +2942,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Для створення файлу даного типу потрібно аудіодоріжка</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+588"/>
+        <location filename="../../common/gui_main.cpp" line="+585"/>
         <source>Cannot use that file as audio track</source>
         <translation>Неможливо використовувати файл для аудіодоріжки</translation>
     </message>
@@ -2967,7 +2967,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Дуже високий</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1467"/>
+        <location filename="../../common/gui_main.cpp" line="-1464"/>
         <source>Select script/project to run</source>
         <translation>Вибрати скрипт/проект для запуску</translation>
     </message>
@@ -3037,7 +3037,7 @@ Installation mismatch</source>
         <translation>_Вертикальний деблокинг</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+618"/>
+        <location filename="../../common/gui_main.cpp" line="+615"/>
         <source>Errors found in %u frames</source>
         <translation>Знайдено помилки в %u кадрах</translation>
     </message>
@@ -3072,7 +3072,7 @@ Installation mismatch</source>
         <translation>Ці параметри діють тільки для програмного декодування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-677"/>
+        <location filename="../../common/gui_main.cpp" line="-674"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Обрізка</translation>
@@ -3187,7 +3187,7 @@ Installation mismatch</source>
         <translation>Рівень повідомлень:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+677"/>
+        <location filename="../../common/gui_main.cpp" line="+674"/>
         <source>You can&apos;t remove all frames</source>
         <translation>Ви не можете видалити всі кадри.</translation>
     </message>
@@ -3202,7 +3202,7 @@ Installation mismatch</source>
         <translation>Увімкнути підтримку OpenGL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1039"/>
+        <location filename="../../common/gui_main.cpp" line="-1036"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>Скрипт tinyPy не увімкнений в цю збірку</translation>
     </message>
@@ -3287,7 +3287,7 @@ Install lame plugin</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1107"/>
+        <location filename="../../common/gui_main.cpp" line="+1104"/>
         <source>_Track from video:</source>
         <translation>Доріжка:</translation>
     </message>
@@ -3365,7 +3365,7 @@ Install lame plugin</source>
         <translation>Режим VHQ</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-818"/>
+        <location filename="../../common/gui_main.cpp" line="-815"/>
         <source>The end point of the cut is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -3538,7 +3538,7 @@ Expect problems.</source>
         <translation>_Максимальне значення:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+161"/>
+        <location filename="../../common/gui_main.cpp" line="+158"/>
         <source>Something bad happened (II)</source>
         <translation>Помилка при оновленні відео</translation>
     </message>
@@ -3600,7 +3600,7 @@ Expect problems.</source>
         <translation>Внутрішня помилка відкриття 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-948"/>
+        <location filename="../../common/gui_main.cpp" line="-945"/>
         <source>Are you sure?</source>
         <translation>Ви впевнені?</translation>
     </message>

@@ -1962,7 +1962,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Valor del desplazamiento (ms):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Filtros de audio</translation>
     </message>
@@ -2250,12 +2250,12 @@ Vaya a Audio-&gt;Pista principal para seleccionar la activa.</translation>
         <translation>Algo ha fallado al anexar</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Algo malo ha sucedido (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -2263,7 +2263,7 @@ Expect problems.</source>
 Espere problemas.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Comprobando el vídeo</translation>
     </message>
@@ -2642,7 +2642,7 @@ Is it running ?</source>
         <translation>Configuración de Xvid4</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Ganancia</translation>
     </message>
@@ -2923,7 +2923,7 @@ Instalación incongruente</translation>
         <translation>No se puede seleccionar el códec MPEG-4 SP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Seleccionar script/proyecto a ejecutar</translation>
     </message>
@@ -2984,7 +2984,7 @@ Los vídeos guardados en modo de copia quedan corruptos en dicho punto.
         <translation>Error al cortar.</translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Se ha dado un índice de audio no válido</translation>

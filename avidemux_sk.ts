@@ -1530,7 +1530,7 @@ Vypustiť časové údaje?</translation>
         <translation>Posun hodnoty [ms]:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Audio filtre</translation>
     </message>
@@ -2315,7 +2315,7 @@ Vypustiť časové údaje?</translation>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1624"/>
+        <location filename="../../common/gui_main.cpp" line="+1621"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2426,7 +2426,7 @@ It is needed to create PSP compatible video.</source>
 To je potrebný na vytvorenie PSP kompatibilného videa.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Vyberte skript/projekt na spustenie</translation>
     </message>
@@ -2648,12 +2648,12 @@ V ponuke Audio-&gt;Hlavná stopa vyberte tu aktívnu.</translation>
         <translation>Pri pripojovaní niečo zlyhalo</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Stalo sa niečo zlé (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -2661,7 +2661,7 @@ Expect problems.</source>
 Očakávajte problémy.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Kontrola videa</translation>
     </message>

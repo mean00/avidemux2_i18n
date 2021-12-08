@@ -1519,7 +1519,7 @@ Drop timing informations ?</source>
         <translation>이동 값 (ms):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>오디오 필터</translation>
     </message>
@@ -2300,7 +2300,7 @@ Drop timing informations ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1624"/>
+        <location filename="../../common/gui_main.cpp" line="+1621"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2407,7 +2407,7 @@ It is needed to create PSP compatible video.</source>
         <translation>FAAC 코덱이 없습니다! PSP 호환 비디오를 만들 때 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>실행할 스크립트/프로젝트 선택</translation>
     </message>
@@ -2612,19 +2612,19 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>덧붙이는 중 뭔가 잘못됐습니다</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>잘못된 일이 발생했습니다 (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation>TinyPY 플러그인이 없습니다. 문제가 생길 수 있습니다.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>비디오 검사 중</translation>
     </message>

@@ -1362,7 +1362,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1988"/>
+        <location filename="../../common/gui_main.cpp" line="+1985"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1648,7 +1648,7 @@ Installation mismatch</source>
         <translation>位移音量 (ms):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-796"/>
+        <location filename="../../common/gui_main.cpp" line="-793"/>
         <source>Error while cutting out.</source>
         <translation>剪下時發生錯誤.</translation>
     </message>
@@ -1678,7 +1678,7 @@ Installation mismatch</source>
         <translation>太短</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+672"/>
+        <location filename="../../common/gui_main.cpp" line="+669"/>
         <source>Marker A &gt; B</source>
         <translation>標記 A &gt; B</translation>
     </message>
@@ -1756,7 +1756,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1807"/>
+        <location filename="../../common/gui_main.cpp" line="-1804"/>
         <source>Select script to run</source>
         <translation>選擇腳本去執行</translation>
     </message>
@@ -1821,7 +1821,7 @@ Installation mismatch</source>
         <translation>外掛-音訊裝置(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1276"/>
+        <location filename="../../common/gui_main.cpp" line="+1273"/>
         <source>Something bad happened</source>
         <translation>有些事發生問題</translation>
     </message>
@@ -1836,7 +1836,7 @@ Installation mismatch</source>
         <translation>無法刪除此選取範圍。</translation>
     </message>
     <message>
-        <location line="-408"/>
+        <location line="-405"/>
         <source>Multiple Audio Tracks</source>
         <translation>多音軌</translation>
     </message>
@@ -2045,7 +2045,7 @@ Warning, the settings must be close.</source>
         <translation>外掛-影片解碼器(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1215"/>
+        <location filename="../../common/gui_main.cpp" line="+1212"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>無法設置音訊語言：仍然未載入影片！</translation>
     </message>
@@ -2116,7 +2116,7 @@ Installation mismatch</source>
         <translation>最小Gop(圖像群組)大小</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-699"/>
+        <location filename="../../common/gui_main.cpp" line="-696"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
         <translation>嘗試 &apos;檔案&apos; -&gt; &apos;載入/執行 專案...&apos;</translation>
     </message>
@@ -2126,7 +2126,7 @@ Installation mismatch</source>
         <translation>發現沒有 AAC 音訊編碼器外掛程式。</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+898"/>
+        <location filename="../../common/gui_main.cpp" line="+895"/>
         <source>Frame Hex Dump</source>
         <translation>幀十六進位轉儲</translation>
     </message>
@@ -2136,7 +2136,7 @@ Installation mismatch</source>
         <translation>混合器:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>音訊濾鏡</translation>
     </message>
@@ -2151,7 +2151,7 @@ Installation mismatch</source>
         <translation>AMR-NB</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-939"/>
+        <location filename="../../common/gui_main.cpp" line="-936"/>
         <source>Permission error</source>
         <translation>權限許可錯誤</translation>
     </message>
@@ -2167,7 +2167,7 @@ Installation mismatch</source>
         <translation>核心已編譯，沒有 LIBVA 的支援，但它已編譯應用程式，安裝不匹配</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+748"/>
+        <location filename="../../common/gui_main.cpp" line="+745"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
         <translation>設定語言提供跟蹤索引是不可能的：影片有沒有音訊檔！</translation>
     </message>
@@ -2204,7 +2204,7 @@ Installation mismatch</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1314"/>
+        <location filename="../../common/gui_main.cpp" line="-1311"/>
         <source>Not coded in this version</source>
         <translation>沒有編進這個版本</translation>
     </message>
@@ -2229,7 +2229,7 @@ Installation mismatch</source>
         <translation>忽略</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1054"/>
+        <location filename="../../common/gui_main.cpp" line="+1051"/>
         <source>No error found</source>
         <translation>沒有找到錯誤</translation>
     </message>
@@ -2321,7 +2321,7 @@ Installation mismatch</source>
         <translation>啟用所有 SIMD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-11"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-12"/>
         <source>Remix</source>
         <translation>重新混合</translation>
     </message>
@@ -2360,7 +2360,7 @@ Installation mismatch</source>
         <translation>廣泛搜尋</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1239"/>
+        <location filename="../../common/gui_main.cpp" line="-1236"/>
         <source>Select script to debug</source>
         <translation>選擇腳本去除錯</translation>
     </message>
@@ -2616,7 +2616,7 @@ It is needed to create PSP compatible video.</source>
         <translation>載入儲存設定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+933"/>
+        <location filename="../../common/gui_main.cpp" line="+930"/>
         <source>Frame size:</source>
         <translation>幀大小:</translation>
     </message>
@@ -2655,7 +2655,7 @@ Do you want to continue anyway ?</source>
 您要繼續嗎 ?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-932"/>
+        <location filename="../../common/gui_main.cpp" line="-929"/>
         <source>File error</source>
         <translation>檔案錯誤</translation>
     </message>
@@ -2695,7 +2695,7 @@ Do you want to continue anyway ?</source>
         <translation>x86-64</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+468"/>
+        <location filename="../../common/gui_main.cpp" line="+465"/>
         <source>Checking video</source>
         <translation>正在檢查影片</translation>
     </message>
@@ -2715,7 +2715,7 @@ Do you want to continue anyway ?</source>
         <translation>解碼影片使用 LIBVA (INTEL)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-432"/>
+        <location filename="../../common/gui_main.cpp" line="-429"/>
         <source>Cannot open project using the video loader.</source>
         <translation>使用影片載入器時無法開啟專案。</translation>
     </message>
@@ -2754,7 +2754,7 @@ Do you want to continue anyway ?</source>
         <translation>重新取樣頻率 (Hz)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+712"/>
+        <location filename="../../common/gui_main.cpp" line="+709"/>
         <source>Setting the language for the given track index is not possible: Invalid track index!</source>
         <translation>設定的語言無法提供跟蹤索引：無效跟蹤指標！</translation>
     </message>
@@ -2774,7 +2774,7 @@ Do you want to continue anyway ?</source>
         <translation>沒有檔案載入</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-652"/>
+        <location filename="../../common/gui_main.cpp" line="-649"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>這檔案剛剛載入包含一些音訊軌道。
@@ -3018,7 +3018,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>音訊軌道有必要建立這樣的檔</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+588"/>
+        <location filename="../../common/gui_main.cpp" line="+585"/>
         <source>Cannot use that file as audio track</source>
         <translation>不能使用該檔作為音訊軌道</translation>
     </message>
@@ -3043,7 +3043,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>非常高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1467"/>
+        <location filename="../../common/gui_main.cpp" line="-1464"/>
         <source>Select script/project to run</source>
         <translation>選擇要執行的腳本/專案</translation>
     </message>
@@ -3105,7 +3105,7 @@ Installation mismatch</source>
         <translation>去除垂直方向塊狀色斑</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1271"/>
+        <location filename="../../common/gui_main.cpp" line="+1268"/>
         <source>Errors found in %u frames</source>
         <translation>在 %u 幀中發現錯誤</translation>
     </message>
@@ -3135,7 +3135,7 @@ Installation mismatch</source>
         <translation>自由型 2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-677"/>
+        <location filename="../../common/gui_main.cpp" line="-674"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>剪下</translation>
@@ -3221,7 +3221,7 @@ Installation mismatch</source>
         <translation>訊息等級:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+677"/>
+        <location filename="../../common/gui_main.cpp" line="+674"/>
         <source>You can&apos;t remove all frames</source>
         <translation>你不&apos;能移除所有的幀</translation>
     </message>
@@ -3236,7 +3236,7 @@ Installation mismatch</source>
         <translation>啟用openGl支援</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1039"/>
+        <location filename="../../common/gui_main.cpp" line="-1036"/>
         <source>tinyPy script is not enabled in this build</source>
         <translation>在生成中未啟用 tinyPy 腳本</translation>
     </message>
@@ -3282,7 +3282,7 @@ Installation mismatch</source>
         <translation>取消編輯(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1374"/>
+        <location filename="../../common/gui_main.cpp" line="+1371"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>無法連線到 avs代理，
@@ -3456,7 +3456,7 @@ Install lame plugin</source>
         <translation>2通</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-856"/>
+        <location filename="../../common/gui_main.cpp" line="-853"/>
         <source>Could not open the file</source>
         <translation>無法開啟此檔案</translation>
     </message>
@@ -3517,7 +3517,7 @@ Expect problems.</source>
         <translation>音訊編碼器</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+161"/>
+        <location filename="../../common/gui_main.cpp" line="+158"/>
         <source>Something bad happened (II)</source>
         <translation>不幸的事情發生 (II)</translation>
     </message>
@@ -3574,7 +3574,7 @@ Expect problems.</source>
         <translation>內部開啟錯誤中 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-948"/>
+        <location filename="../../common/gui_main.cpp" line="-945"/>
         <source>Are you sure?</source>
         <translation>確定嗎?</translation>
     </message>

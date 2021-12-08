@@ -1853,7 +1853,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Valeur (ms) :</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Filtres audio</translation>
     </message>
@@ -1926,7 +1926,7 @@ It is needed to create FLV  video.</source>
         <translation>Plusieurs pistes audios</translation>
     </message>
     <message>
-        <location line="+421"/>
+        <location line="+418"/>
         <source>Something bad happened</source>
         <translation>Quelque chose d&apos;anormal c&apos;est produit</translation>
     </message>
@@ -1936,7 +1936,7 @@ It is needed to create FLV  video.</source>
         <translation>Manuel</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-45"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-46"/>
         <source>Mono</source>
         <translation></translation>
     </message>
@@ -2428,7 +2428,7 @@ It is needed to create PSP compatible video.</source>
 Il est nécessaire pour créer un fichier compatible PSP</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Choisir un script ou projet à lancer</translation>
     </message>
@@ -2602,19 +2602,19 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Quelque chose a échoué lors de l&apos;ajout</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Quelque chose d&apos;horrible est arrivé (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Vérification de la vidéo</translation>
     </message>
@@ -15017,11 +15017,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation>Un thread</translation>
     </message>
     <message>
+        <location line="+1"/>
         <source>Two threads</source>
-        <translation type="vanished">Deux threads</translation>
+        <translation>Deux threads</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Three threads</source>
         <translation>Trois threads</translation>
     </message>
@@ -15086,12 +15087,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
-        <source>Two threads</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
+        <location line="+7"/>
         <source>Auto (#cpu)</source>
         <translation type="unfinished"></translation>
     </message>

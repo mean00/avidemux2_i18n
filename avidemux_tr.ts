@@ -1590,7 +1590,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>_Karıştırıcı:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>Ses Filtreleri</translation>
     </message>
@@ -1786,12 +1786,12 @@ Etkin olanı seçmek için Ses-&gt; Ana Parça&apos;ya gidin.</translation>
         <translation>Eklerken bir şey başarısız oldu</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Kötü bir şey oldu (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -1799,7 +1799,7 @@ Expect problems.</source>
 Sorunlar bekliyoruz.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Video kontrol ediliyor</translation>
     </message>
@@ -1998,7 +1998,7 @@ Is it running ?</source>
         <translation>Geniş Arama</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Kazanç</translation>
     </message>
@@ -2755,7 +2755,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -2821,7 +2821,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Keserken hata.</translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Geçersiz ses dizini verildi</translation>

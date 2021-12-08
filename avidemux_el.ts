@@ -1641,7 +1641,7 @@ Drop timing informations ?</source>
         <translation>_Μείκτης:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>Μεταμορφωτές ήχου</translation>
     </message>
@@ -1869,12 +1869,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Κάτι απέτυχε στην προσάρτηση</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Κάτι στραβό συνέβη (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -1882,7 +1882,7 @@ Expect problems.</source>
 Αναμένονται προβλήματα.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Ελέγχεται το βίντεο</translation>
     </message>
@@ -2072,7 +2072,7 @@ Is it running ?</source>
         <translation>Μεσαίο</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Απολαβή</translation>
     </message>
@@ -2773,7 +2773,7 @@ It is needed to create PSP compatible video.</source>
 Είναι απαραίτητο για τη δημιουργία βίντεο συμβατό με PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Επιλέξτε σενάριο ή εργασία για εκτέλεση</translation>
     </message>
@@ -2844,7 +2844,7 @@ Proceed anyway?</source>
         <translation>Σφάλμα κατά την αποκοπή.</translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Μη έγκυρο δοθέν ευρετήριο ήχου</translation>

@@ -1238,7 +1238,7 @@ Erori denborapen argibideak?</translation>
         <translation>Aldatu Balioa (sm):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Audio Filters</source>
         <translation>Audio Iragazkiak</translation>
     </message>
@@ -2394,19 +2394,19 @@ Joan Audio-&gt;Bide Nagusia gaituriko bat hautatzeko.</translation>
         <translation>Zerbaitek huts egin du eransterakoan</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Zerbait gaitza gertatu da (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Bideoa aztertzen</translation>
     </message>
@@ -2850,7 +2850,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-8"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-9"/>
         <source>Mixer</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2987,7 +2987,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3046,7 +3046,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>

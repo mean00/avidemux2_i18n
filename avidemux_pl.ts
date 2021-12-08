@@ -1644,7 +1644,7 @@ Porzucić informacje dotyczące czasu?</translation>
         <translation>_Mikser dźwięku:</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+14"/>
         <source>Audio Filters</source>
         <translation>Filtry dźwięku</translation>
     </message>
@@ -1907,12 +1907,12 @@ Przejdź do Dźwięk-&gt;Główna ścieżka, aby wybrać aktywną ścieżkę.</t
         <translation>Dołączanie się nie powiodło</translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+319"/>
         <source>Something bad happened (II)</source>
         <translation>Stało się coś złego (II)</translation>
     </message>
     <message>
-        <location line="-204"/>
+        <location line="-201"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -1920,7 +1920,7 @@ Expect problems.</source>
 Spodziewaj się problemów.</translation>
     </message>
     <message>
-        <location line="+105"/>
+        <location line="+102"/>
         <source>Checking video</source>
         <translation>Sprawdzanie wideo</translation>
     </message>
@@ -2119,7 +2119,7 @@ Czy jest on uruchomiony?</translation>
         <translation>Średni</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
         <source>Gain</source>
         <translation>Wzmocnienie</translation>
     </message>
@@ -2751,7 +2751,7 @@ It is needed to create PSP compatible video.</source>
 Jest on wymagany do tworzenia wideo kompatybilnego z PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1530"/>
+        <location filename="../../common/gui_main.cpp" line="-1527"/>
         <source>Select script/project to run</source>
         <translation>Wybierz skrypt/projekt do uruchomienia</translation>
     </message>
@@ -2817,7 +2817,7 @@ Czy kontynuować mimo to?</translation>
         <translation>Błąd podczas wycinania.</translation>
     </message>
     <message>
-        <location line="+825"/>
+        <location line="+822"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Podano nieprawidłowy indeks audio</translation>
