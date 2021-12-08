@@ -1839,8 +1839,8 @@ Ignorer les informations de timing ?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Remixer :</translation>
+        <source>Remix</source>
+        <translation>Remixer</translation>
     </message>
     <message>
         <location line="+8"/>

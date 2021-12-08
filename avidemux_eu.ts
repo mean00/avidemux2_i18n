@@ -1224,8 +1224,8 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Bernahastu:</translation>
+        <source>Remix</source>
+        <translation>Bernahastu</translation>
     </message>
     <message>
         <location line="+8"/>

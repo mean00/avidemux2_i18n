@@ -1990,8 +1990,8 @@ Eliminare le informazioni temporali?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Remix:</translation>
+        <source>Remix</source>
+        <translation>Remix</translation>
     </message>
     <message>
         <location line="+8"/>

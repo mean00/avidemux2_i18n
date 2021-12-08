@@ -1777,17 +1777,17 @@ Drop timing informations ?</source>
     <message>
         <location line="+5"/>
         <source>Film to PAL</source>
-        <translation type="unfinished">23.976Hz (Film) zu 25Hz (PAL)</translation>
+        <translation>23,976 Hz (Film) zu 25 Hz (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>PAL to Film</source>
-        <translation type="unfinished">25Hz (PAL) zu 23.976Hz (Film)</translation>
+        <translation>25 Hz (PAL) zu 23,976 Hz (Film)</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>_Frame rate change:</source>
-        <translation type="unfinished">_Bildfrequenz ändern:</translation>
+        <translation>_Geschwindigkeit ändern:</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1852,7 +1852,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+10"/>
         <source>_Mixer:</source>
-        <translation>_Kanalmixer:</translation>
+        <translation>_Modus:</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -2290,7 +2290,7 @@ Läuft er?</translation>
     <message>
         <location line="+327"/>
         <source>Maximum number of 99999 images reached.</source>
-        <translation type="unfinished"></translation>
+        <translation>Höchstzahl von 99999 Bildern erreicht.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2446,7 +2446,7 @@ Läuft er?</translation>
     <message>
         <location line="+8"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
-        <translation type="unfinished"></translation>
+        <translation>Für OpenGL-Anzeige und -Filter muss OpenGL bereits beim Start der Anwendung aktiviert und funktionsfähig sein</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2593,7 +2593,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="-3"/>
         <source>DRC</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamikkompression</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2608,7 +2608,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="+3"/>
         <source>Gain</source>
-        <translation type="unfinished"></translation>
+        <translation>Verstärkung</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2617,13 +2617,13 @@ Trotzdem fortsetzen?</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Remix:</source>
-        <translation type="unfinished"></translation>
+        <source>Remix</source>
+        <translation>Remix</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Mixer</source>
-        <translation type="unfinished"></translation>
+        <translation>Mischer</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2666,7 +2666,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_gototime.cpp" line="-3"/>
         <source>TimeStamp:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeit:</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-109"/>
@@ -2857,7 +2857,7 @@ It is needed to create PSP compatible video.</source>
     <message>
         <location filename="../../common/gui_main.cpp" line="-1499"/>
         <source>Select script to save</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateinamen für Skript wählen</translation>
     </message>
     <message>
         <location line="+1268"/>

@@ -1511,8 +1511,8 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Premiešanie:</translation>
+        <source>Remix</source>
+        <translation>Premiešanie</translation>
     </message>
     <message>
         <location line="+3"/>

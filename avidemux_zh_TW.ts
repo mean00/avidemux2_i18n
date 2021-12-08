@@ -2322,8 +2322,8 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-11"/>
-        <source>Remix:</source>
-        <translation>重新混合:</translation>
+        <source>Remix</source>
+        <translation>重新混合</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-50"/>

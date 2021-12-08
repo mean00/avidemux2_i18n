@@ -1476,7 +1476,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
+        <source>Remix</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

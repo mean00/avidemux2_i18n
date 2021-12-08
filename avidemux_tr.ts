@@ -2069,8 +2069,8 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Remix:</source>
-        <translation>Remix:</translation>
+        <source>Remix</source>
+        <translation>Remix</translation>
     </message>
     <message>
         <location line="+3"/>

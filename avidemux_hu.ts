@@ -1937,8 +1937,8 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Újrakeverő:</translation>
+        <source>Remix</source>
+        <translation>Újrakeverő</translation>
     </message>
     <message>
         <location line="+8"/>

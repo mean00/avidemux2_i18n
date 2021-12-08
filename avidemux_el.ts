@@ -2110,8 +2110,8 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+11"/>
-        <source>Remix:</source>
-        <translation>Επανα-μείξη:</translation>
+        <source>Remix</source>
+        <translation>Επανα-μείξη</translation>
     </message>
     <message>
         <location line="+3"/>

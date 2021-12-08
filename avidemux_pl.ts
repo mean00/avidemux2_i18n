@@ -2155,7 +2155,7 @@ Czy jest on uruchomiony?</translation>
     </message>
     <message>
         <location line="+11"/>
-        <source>Remix:</source>
+        <source>Remix</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

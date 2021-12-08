@@ -2081,8 +2081,8 @@ Is it running ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-11"/>
-        <source>Remix:</source>
-        <translation>Ремікс:</translation>
+        <source>Remix</source>
+        <translation>Ремікс</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="-50"/>

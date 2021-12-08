@@ -1500,8 +1500,8 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>리믹스:</translation>
+        <source>Remix</source>
+        <translation>리믹스</translation>
     </message>
     <message>
         <location line="+3"/>

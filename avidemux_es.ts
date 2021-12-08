@@ -1948,8 +1948,8 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location line="+2"/>
-        <source>Remix:</source>
-        <translation>Remezcla:</translation>
+        <source>Remix</source>
+        <translation>Remezcla</translation>
     </message>
     <message>
         <location line="+8"/>
