@@ -3325,12 +3325,12 @@ Skúsiť to znovu?</translation>
     <message>
         <location filename="../../../avidemux_core/ADM_core/src/ADM_prettyPrint.cpp" line="+23"/>
         <source>%d minute(s)</source>
-        <translation>%n minút</translation>
+        <translation>%d minút</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>%d hour(s)</source>
-        <translation>%n hodín</translation>
+        <translation>%d hodín</translation>
     </message>
     <message>
         <location line="+18"/>
