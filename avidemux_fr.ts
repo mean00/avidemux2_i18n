@@ -10523,17 +10523,17 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+453"/>
         <source>Recent Files</source>
-        <translation>Fichiers Récents</translation>
+        <translation>Fichiers récents</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Recent Projects</source>
-        <translation>Projets Récents</translation>
+        <translation>Projets récents</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Restore defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser</translation>
     </message>
     <message>
         <location line="+592"/>
@@ -10543,7 +10543,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+240"/>
         <source>Play/Stop</source>
-        <translation type="unfinished"></translation>
+        <translation type="Lire/Arrêter"></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10578,12 +10578,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Go to previous cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Point de coupe précédent</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to next cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Point de coupe suivant</translation>
     </message>
     <message>
         <location line="+6"/>
