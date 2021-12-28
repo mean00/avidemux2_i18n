@@ -535,7 +535,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-453"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Sortie Vidéo&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Sortie vidéo&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+86"/>
@@ -552,7 +552,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-128"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Sortie Audio&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Sortie audio&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+155"/>
@@ -4428,7 +4428,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+9"/>
         <source>Cannot save converted file.</source>
-        <translation>Impossible d'enregistrer le fichier converti.</translation>
+        <translation>Impossible d&apos;enregistrer le fichier converti.</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -4440,7 +4440,7 @@ Incompatibilité d&apos;installation</translation>
         <source>Preparing the fonts can take a few minutes the first time.
 This message will not be displayed again.</source>
         <translation>La préparation des fontes peut prendre plusieurs minutes la premère fois.
-Ce message n'apparaitra pas la prochaine fois.</translation>
+Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     </message>
     <message>
         <location line="+89"/>
@@ -4464,7 +4464,7 @@ Ce message n'apparaitra pas la prochaine fois.</translation>
         <location line="+0"/>
         <source>Using H264/H265 in AVI is a bad idea, MKV is better for that.
  Do you want to continue anyway?</source>
-        <translation>L'utilisation de H264/H265 avec AVI n'est pas conseillé, MKV est mieux pour cela.
+        <translation>L&apos;utilisation de H264/H265 avec AVI n&apos;est pas conseillé, MKV est mieux pour cela.
  Voulez-vous continuer malgré tout ?</translation>
     </message>
     <message>
@@ -5869,7 +5869,7 @@ Do you want to load it  ?
     <message>
         <location line="+50"/>
         <source>Shut down computer when finished</source>
-        <translation>Arrêter l'ordinateur une fois terminé</translation>
+        <translation>Arrêter l&apos;ordinateur une fois terminé</translation>
     </message>
     <message>
         <location line="+148"/>
@@ -6452,7 +6452,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+106"/>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotation</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -7760,7 +7760,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+40"/>
         <source>No rounding</source>
-        <translation>Pas d'arrondi</translation>
+        <translation>Pas d&apos;arrondi</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -9799,7 +9799,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+6"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>D&apos;après la largeur d&apos;affichage</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9809,12 +9809,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Display Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Largeur d&apos;affichage</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Do not rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Pas de rotation</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9834,7 +9834,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Rotate video</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotation vidéo</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -10652,7 +10652,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+78"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Sélection :</translation>
     </message>
     <message numerus="yes">
         <location line="+344"/>
@@ -12205,17 +12205,17 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-4"/>
         <source>_Deint Mode:</source>
-        <translation>Mode de &amp;deentrelacement:</translation>
+        <translation>Mode de &amp;désentrelacement :</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Width:</source>
-        <translation>Largeur:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Height:</source>
-        <translation>Hauteur:</translation>
+        <translation>Hauteur :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12238,12 +12238,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+131"/>
         <source>Width:</source>
-        <translation>Largeur:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Height:</source>
-        <translation>Hauteur:</translation>
+        <translation>Hauteur :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12284,7 +12284,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Language :</source>
-        <translation type="unfinished"></translation>
+        <translation>Langue</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -12297,7 +12297,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/vorbis/audioencoder_vorbis.cpp" line="+350"/>
         <source>_Quality:</source>
-        <translation>&amp;Qualité:</translation>
+        <translation>&amp;Qualité :</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -12317,7 +12317,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+14"/>
         <source>_Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Débit :</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -12335,12 +12335,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>Good quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Bonne qualité</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Best quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Meilleur qualité</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12355,7 +12355,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitesse</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12380,7 +12380,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+2"/>
         <source>Encoding Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Mode d&apos;encodage</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12390,12 +12390,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+6"/>
         <source>Keyframes</source>
-        <translation type="unfinished"></translation>
+        <translation>Images clés</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Divers</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12542,12 +12542,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>aucun</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Inconnu</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -12557,7 +12557,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+424"/>
         <source>Target Bitrate:</source>
-        <translation>Bitrate cible :</translation>
+        <translation>Débit cible :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12568,27 +12568,27 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-15"/>
         <source>Quantiser:</source>
-        <translation>Quantisation:</translation>
+        <translation>Quantisation :</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Quality:</source>
-        <translation>Qualité:</translation>
+        <translation>Qualité :</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Target Video Size:</source>
-        <translation>Taille vidéo cible:</translation>
+        <translation>Taille vidéo cible :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>MB</source>
-        <translation type="unfinished"></translation>
+        <translation>Mo</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Average Bitrate:</source>
-        <translation>Bitrate moyen:</translation>
+        <translation>Débit moyen :</translation>
     </message>
     <message>
         <location line="+80"/>
@@ -12628,7 +12628,7 @@ Voulez vous procéder ?</translation>
     <message>
         <location line="+46"/>
         <source>Overwrite</source>
-        <translation type="unfinished"></translation>
+        <translation>Remplacer</translation>
     </message>
     <message>
         <location line="+0"/>
