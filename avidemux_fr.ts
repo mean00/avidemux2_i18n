@@ -2761,7 +2761,7 @@ Is it running ?</source>
     <message>
         <location line="+7"/>
         <source>Output file</source>
-        <translation>Fichier de sortie</translation>
+        <translation>Fichier de destination</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2874,7 +2874,7 @@ Is it running ?</source>
     <message>
         <location line="+7"/>
         <source>Output file not specified</source>
-        <translation type="unfinished"></translation>
+        <translation>Le fichier de destination n'est pas indiqué</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -5238,7 +5238,7 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/ADM_vidCrop.cpp" line="+58"/>
         <source>Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrer</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5261,12 +5261,12 @@ Do you want to load it  ?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+564"/>
         <location line="+358"/>
         <source>Size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Taille :</translation>
     </message>
     <message>
         <location line="-236"/>
         <source>Auto Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrage automatique</translation>
     </message>
 </context>
 <context>
@@ -5275,51 +5275,51 @@ Do you want to load it  ?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt4/crop.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+14"/>
         <source>Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrer</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+45"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Droite :</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+67"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Haut :</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-60"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas :</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="-14"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gauche :</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Auto Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrage automatique</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
         <source>Size: </source>
-        <translation type="unfinished"></translation>
+        <translation>Taille :</translation>
     </message>
     <message>
         <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+46"/>
@@ -5634,12 +5634,12 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/dgBob/ADM_vidDGbob.cpp" line="+72"/>
         <source>Keep nb of frames and fps</source>
-        <translation type="unfinished">Garder les images et le nombre d&apos;i/s</translation>
+        <translation>Garder le nombre d&apos;images et le nombre d&apos;i/s</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Double nb of frames and fps</source>
-        <translation type="unfinished">Doubler les images et le nombre d&apos;i/s</translation>
+        <translation>Doubler le nombre d&apos;images et le nombre d&apos;i/s</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8207,37 +8207,37 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+178"/>
         <source>Keep Top Field</source>
-        <translation type="unfinished">Garder le champs supérieur</translation>
+        <translation>Garder le champs supérieur</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keep Bottom Field</source>
-        <translation type="unfinished">Garder le champs inférieur</translation>
+        <translation>Garder le champs inférieur</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Double framerate</source>
-        <translation type="unfinished">Doubler le nombre d&apos;image par seconde</translation>
+        <translation>Doubler le nombre d&apos;image par seconde</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>_Resize:</source>
-        <translation type="unfinished">_Redimensionner</translation>
+        <translation>_Redimensionner</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Deint Mode:</source>
-        <translation type="unfinished">Mode de _deentrelacement:</translation>
+        <translation>Mode de _désentrelacement :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Width :</source>
-        <translation type="unfinished">Largeur:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Height :</source>
-        <translation type="unfinished">Hauteur:</translation>
+        <translation>Hauteur :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8286,7 +8286,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+182"/>
         <source>Temporal &amp; spatial check</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrôle temporel et spacial</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8296,7 +8296,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Skip spatial temporal check</source>
-        <translation type="unfinished"></translation>
+        <translation>Passer le contrôle temporel et spacial</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8306,12 +8306,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>Bottom field first</source>
-        <translation type="unfinished"></translation>
+        <translation>Trame inférieure en premier</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Top field first</source>
-        <translation type="unfinished"></translation>
+        <translation>Trame supérieure en premier</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -8321,7 +8321,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>_Order:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Ordre :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -11259,7 +11259,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
-        <translation>Change la fréquence d&apos;images conserve la synchronisation et la durée</translation>
+        <translation>Change la fréquence d&apos;images. Conserve la synchronisation et la durée</translation>
     </message>
     <message>
         <location line="+349"/>
@@ -12513,7 +12513,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+14"/>
         <source>Time Remaining:</source>
-        <translation>Temps Restant:</translation>
+        <translation>Temps restant :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -12526,7 +12526,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
         <source>Not coded</source>
-        <translation type="unfinished"></translation>
+        <translation>Non codé</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -12537,7 +12537,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
