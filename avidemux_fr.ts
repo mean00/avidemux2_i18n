@@ -1004,7 +1004,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/about.ui" line="+14"/>
         <source>About Avidemux</source>
-        <translation>A propos d&apos;Avidemux</translation>
+        <translation>À propos d&apos;Avidemux</translation>
     </message>
     <message>
         <location line="+112"/>
@@ -2585,7 +2585,7 @@ Proceed anyway?</source>
     <message>
         <location line="+1"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
-        <translation>Essayer &quot;Fichier -&gt; lancer un projet…&quot;</translation>
+        <translation>Essayer le menu &quot;Fichier -&gt; lancer un projet…&quot;</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2597,7 +2597,7 @@ Proceed anyway?</source>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Le fichier que vous venez de charger contient plusieurs pistes audio.
-Allez dans Audio -&gt; Choisir les pistes pour sélectionner celle qui est active.</translation>
+Allez dans le menu &quot;Audio -&gt; Choisir les pistes&quot; pour sélectionner celle qui est active.</translation>
     </message>
     <message>
         <location line="+106"/>
@@ -10684,7 +10684,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+5"/>
         <source>&amp;Debug Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Projet de débogage…</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10694,22 +10694,22 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+20"/>
         <source>Scripting Shell</source>
-        <translation type="unfinished"></translation>
+        <translation>Console de script</translation>
     </message>
     <message>
         <location line="+4"/>
         <source> Shell</source>
-        <translation type="unfinished"></translation>
+        <translation> Console</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Scripting Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Référence de script</translation>
     </message>
     <message>
         <location line="+4"/>
         <source> Reference</source>
-        <translation type="unfinished"></translation>
+        <translation>Référence</translation>
     </message>
     <message>
         <location line="+176"/>
