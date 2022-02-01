@@ -1091,12 +1091,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Ignore driver blacklist (Intel)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer la liste noire des pilotes (Intel)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorer la liste noire des codecs (Intel, HEVC 10bit) </translation>
     </message>
     <message>
         <location line="+10"/>
@@ -4706,7 +4706,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="-30"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Masquer la sélection</translation>
     </message>
 </context>
 <context>
@@ -4715,7 +4715,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
         <location line="+155"/>
         <source>Searching black frame..</source>
-        <translation type="unfinished"></translation>
+        <translation>Chercher les images noires</translation>
     </message>
 </context>
 <context>
@@ -4789,7 +4789,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location line="+7"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Masquer la sélection</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -5324,7 +5324,7 @@ Do you want to load it  ?
     <message>
         <location line="-107"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation></translation>
+        <translation>&amp;Masquer la sélection</translation>
     </message>
     <message>
         <location line="+46"/>
@@ -5375,7 +5375,7 @@ Do you want to load it  ?
     <message>
         <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished">Verrouiller le format d&apos;image :</translation>
+        <translation>Verrouiller le format d&apos;image :</translation>
     </message>
 </context>
 <context>
@@ -11355,7 +11355,7 @@ Ready.
     <message>
         <location line="+21"/>
         <source>Lock Aspect Ratio</source>
-        <translation>Verrouiller le rapport h/l</translation>
+        <translation>Verrouiller le format d&apos;image</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -14895,7 +14895,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+23"/>
         <source>Colour Primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Couleur primaires</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -14915,22 +14915,22 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+71"/>
         <source>HRD Parameters:</source>
-        <translation type="unfinished"></translation>
+        <translation>Paramètres HRD :</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>None</source>
-        <translation type="unfinished">Aucun</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>VBR</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+5"/>
         <source>CBR</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+23"/>
@@ -14953,7 +14953,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+16"/>
         <source>Intra 4x4</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+28"/>
@@ -14961,28 +14961,28 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+446"/>
         <location line="+703"/>
         <source>Luma:</source>
-        <translation type="unfinished"></translation>
+        <translation>Luminance :</translation>
     </message>
     <message>
         <location line="-1385"/>
         <location line="+446"/>
         <source>Chroma U/V:</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="-238"/>
         <source>Inter 4x4</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+446"/>
         <source>Intra 8x8</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+703"/>
         <source>Inter 8x8</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+727"/>
@@ -14992,7 +14992,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+10"/>
@@ -15046,72 +15046,72 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+6"/>
         <source>4:3 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>4:3 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>16:9 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>16:9 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
-        <translation>Rapport h/l :</translation>
+        <translation>Rapport d'image :</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Aspect Ratio</source>
-        <translation>Rapport hauteur/largeur</translation>
+        <translation>Rapport d'image</translation>
     </message>
     <message>
         <location line="-111"/>
         <source>H.263</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>MPEG</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+17"/>
         <source>DCT</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Qpel16</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Qpel8</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Square</source>
-        <translation type="unfinished"></translation>
+        <translation>Carré</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Auto (#cpu)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+4"/>
         <source>1:1 (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+13"/>
@@ -15121,17 +15121,17 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+2"/>
         <source>Mi_n. quantizer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantificateur min. :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ma_x. quantizer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantificateur max. :</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>_Trellis quantization</source>
-        <translation type="unfinished"></translation>
+        <translation>Quantification par treillis</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15141,17 +15141,17 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+2"/>
         <source>_Drop identical frames (this disables B-frames)</source>
-        <translation type="unfinished"></translation>
+        <translation>Supprimez les images identiques (cela désactive les images B) </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Framedrop _Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapport de perte d'image :</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Quantization type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Type de quantification</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -15166,17 +15166,17 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+10"/>
         <source>_Gop Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Taille GOP :</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Use XVID fcc (else DIVX)</source>
-        <translation type="unfinished"></translation>
+        <translation>Utiliser XVID FCC (sinon DIVX)</translation>
     </message>
     <message>
         <location line="-32"/>
         <source>Motion Estimation</source>
-        <translation type="unfinished"></translation>
+        <translation>Estimation du mouvement</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -15187,12 +15187,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-13"/>
         <source>Frame Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Paramètres d'image</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Divers</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -15212,7 +15212,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+3"/>
         <source>Xvid4 MPEG-4 ASP configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Configuration Xvid4 MPEG-4 ASP</translation>
     </message>
 </context>
 <context>
@@ -15220,7 +15220,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/yadif/ADM_vidYadif.cpp" line="+132"/>
         <source>Yadif</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15270,7 +15270,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+5"/>
         <source>_Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Mode :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15280,12 +15280,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>_Order:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Ordre :</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>yadif</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -15293,18 +15293,18 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+68"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Partializable crop filter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Recadrage partialisable</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+485"/>
         <location line="+316"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Sélection :</translation>
     </message>
 </context>
 <context>
@@ -15313,56 +15313,56 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+14"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+105"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Droit :</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+42"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Haut :</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Réinitialiser</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-28"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas :</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+45"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gauche :</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Méthode de redimensionnement :</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinéaire</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bicubique</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -15372,12 +15372,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+63"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verrouiller le format d&apos;image :</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Masquer la sélection</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -15438,17 +15438,17 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+8"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>barres noires</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>écho</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>none (stretch)</source>
-        <translation type="unfinished"></translation>
+        <translation>aucun (étiré)</translation>
     </message>
 </context>
 </TS>
