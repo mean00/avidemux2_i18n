@@ -3620,7 +3620,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+1"/>
         <source>_Saturation:</source>
-        <translation>-Saturation</translation>
+        <translation>_Saturation :</translation>
     </message>
     <message>
         <location line="+1"/>
