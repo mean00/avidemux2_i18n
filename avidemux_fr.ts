@@ -1536,7 +1536,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation>&gt;Réinitialiser le marqueur B</translation>
+        <translation>Réinitialiser le marqueur B</translation>
     </message>
     <message>
         <location line="+1"/>
