@@ -1101,7 +1101,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+10"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
-        <translation>L'activation du décodage HW désactive le multithreading, redémarrez l'application pour appliquer les modifications</translation>
+        <translation>L&apos;activation du décodage HW désactive le multithreading, redémarrez l&apos;application pour appliquer les modifications</translation>
     </message>
     <message>
         <location line="-46"/>
@@ -1536,7 +1536,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation>>Réinitialiser le marqueur B</translation>
+        <translation>&gt;Réinitialiser le marqueur B</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2167,7 +2167,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="-3"/>
         <source>Decode video using VideoToolbox (macOS)</source>
-        <translation>Décoder la vidéo à l'aide de VideoToolbox (macOS)</translation>
+        <translation>Décoder la vidéo à l&apos;aide de VideoToolbox (macOS)</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -2533,15 +2533,13 @@ Try anyway?</source>
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
-																
-						 
     </message>
     <message>
         <location line="+4"/>
         <source>The end point of the deletion is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
-        <translation>Le point final de la coupe n'est pas sur une image clé.
+        <translation>Le point final de la coupe n&apos;est pas sur une image clé.
 La vidéo enregistrée en mode copie sera corrompue.
 Continuer ?</translation>
     </message>
@@ -2807,7 +2805,7 @@ Is it running ?</source>
     <message>
         <location line="+6"/>
         <source>Select PNG to Save</source>
-        <translation>>Choisir l&apos;image PNG à enregistrer</translation>
+        <translation>Choisir l&apos;image PNG à enregistrer</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -2859,7 +2857,7 @@ Is it running ?</source>
     <message>
         <location line="+4"/>
         <source>Saving images failed.</source>
-	<translation>Échec de l'enregistrement des images.</translation>
+        <translation>Échec de l&apos;enregistrement des images.</translation>
     </message>
     <message>
         <location line="+25"/>
@@ -2869,17 +2867,17 @@ Is it running ?</source>
     <message>
         <location line="+0"/>
         <source>Failed to save as PNG</source>
-	<translation>Échec de l'enregistrement au format PNG</translation>
+        <translation>Échec de l&apos;enregistrement au format PNG</translation>
     </message>
     <message>
         <location line="+67"/>
         <source>Cannot get tinyPy script engine</source>
-        <translation>Impossible d'obtenir le moteur de script tinyPy</translation>
+        <translation>Impossible d&apos;obtenir le moteur de script tinyPy</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Output file not specified</source>
-        <translation>Le fichier de destination n'est pas indiqué</translation>
+        <translation>Le fichier de destination n&apos;est pas indiqué</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -3828,7 +3826,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+287"/>
         <source>Select Background Image</source>
-        <translation>Sélectionner l'image d'arrière-plan</translation>
+        <translation>Sélectionner l&apos;image d&apos;arrière-plan</translation>
     </message>
 </context>
 <context>
@@ -3992,7 +3990,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+5"/>
         <source>Yellow-blue</source>
-        <translationJaune-bleu></translation>
+        <translation>Jaune-bleu</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4110,7 +4108,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+5"/>
         <source>Vertical - keep top</source>
-       <translation>Vertical, garder le haut</translation>
+        <translation>Vertical, garder le haut</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4167,7 +4165,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/qt4/artPosterize.ui" line="+14"/>
         <source>Posterize</source>
-       <translation>Postériser</translation>
+        <translation>Postériser</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -4386,7 +4384,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+0"/>
         <source>Are you sure this is an ASS/SSA file ?</source>
-        <translation>Êtes-vous sûr qu'il s'agit d'un fichier ASS/SSA ?</translation>
+        <translation>Êtes-vous sûr qu&apos;il s&apos;agit d&apos;un fichier ASS/SSA ?</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -4401,7 +4399,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+6"/>
         <source>Adjust for display aspect ratio:</source>
-        <translation>Ajustez le format d'affichage : </translation>
+        <translation>Ajustez le format d&apos;affichage : </translation>
     </message>
     <message>
         <location line="+4"/>
@@ -4411,7 +4409,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+7"/>
         <source>This is a SRT file. Convert to SSA ?</source>
-        <translation>Il s'agit d'un fichier SRT. Convertir en SSA ? </translation>
+        <translation>Il s&apos;agit d&apos;un fichier SRT. Convertir en SSA ? </translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4715,7 +4713,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <location filename="../../common/gui_blackframes.cpp" line="+113"/>
         <location line="+155"/>
         <source>Searching black frame..</source>
-        <translation>Recherche d'image noire.</translation>
+        <translation>Recherche d&apos;image noire.</translation>
     </message>
 </context>
 <context>
@@ -4751,7 +4749,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location line="+1"/>
         <source>Blur selected area.</source>
-        <translation>Zone d'estompage</translation>
+        <translation>Zone d&apos;estompage</translation>
     </message>
 </context>
 <context>
@@ -6575,7 +6573,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>_Start time:</source>
-       <translation>_Début :</translation>
+        <translation>_Début :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10560,7 +10558,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+240"/>
         <source>Play/Stop</source>
-        <translation type="Lire/Arrêter"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10689,7 +10687,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+5"/>
         <source>&amp;Debug Project...</source>
-         <translation>Projet de &amp;débogage…</translation>
+        <translation>Projet de &amp;débogage…</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -11639,7 +11637,7 @@ Ready.
     <message>
         <location line="+186"/>
         <source>_Start time:</source>
-       <translation>_Début :</translation>
+        <translation>_Début :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15066,12 +15064,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
-        <translation>Rapport d'image :</translation>
+        <translation>Rapport d&apos;image :</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Aspect Ratio</source>
-        <translation>Rapport d'image</translation>
+        <translation>Rapport d&apos;image</translation>
     </message>
     <message>
         <location line="-111"/>
@@ -15146,7 +15144,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+1"/>
         <source>Framedrop _Ratio:</source>
-        <translation>Rapport de perte d'image :</translation>
+        <translation>Rapport de perte d&apos;image :</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -15187,7 +15185,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-13"/>
         <source>Frame Settings</source>
-        <translation>Paramètres d'image</translation>
+        <translation>Paramètres d&apos;image</translation>
     </message>
     <message>
         <location line="+9"/>
