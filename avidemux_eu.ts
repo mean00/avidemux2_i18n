@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+433"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+452"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Ezin da desmultiplexatzailea aurkitu %s-rako</translation>
     </message>
@@ -67,7 +67,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+125"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+127"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -101,7 +101,7 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-244"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-246"/>
         <source>Checking if timestamps are valid..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -499,7 +499,7 @@ Erori denborapen argibideak?</translation>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+461"/>
+        <location line="+467"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopiatu</translation>
@@ -611,7 +611,7 @@ Erori denborapen argibideak?</translation>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="-1449"/>
+        <location line="-1455"/>
         <source>Vi&amp;deo</source>
         <translation>&amp;Bideoa</translation>
     </message>
@@ -621,7 +621,7 @@ Erori denborapen argibideak?</translation>
         <translation>&amp;Tresnabarrak</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+19"/>
         <source>&amp;Auto</source>
         <translation>&amp;Berez</translation>
     </message>
@@ -631,7 +631,7 @@ Erori denborapen argibideak?</translation>
         <translation>A&amp;udioa</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-48"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editatu</translation>
     </message>
@@ -641,7 +641,7 @@ Erori denborapen argibideak?</translation>
         <translation>&amp;Ikusi</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+28"/>
         <source>&amp;Custom</source>
         <translation>&amp;Norbererara</translation>
     </message>
@@ -656,12 +656,12 @@ Erori denborapen argibideak?</translation>
         <translation>&amp;Agiria</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-63"/>
         <source>&amp;Help</source>
         <translation>&amp;Laguntza</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+53"/>
         <source>&amp;Tools</source>
         <translation>&amp;Tresnak</translation>
     </message>
@@ -832,7 +832,12 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="-84"/>
+        <source>T&amp;heme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+117"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1138,7 +1143,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+445"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+464"/>
         <source>Stereo</source>
         <translation>Estereoa</translation>
     </message>
@@ -1417,7 +1422,7 @@ Erori denborapen argibideak?</translation>
         <translation>Plugin Argibideak</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+27"/>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+25"/>
         <source>_Filter strength:</source>
         <translation>_Iragazki indarra:</translation>
     </message>
@@ -1449,6 +1454,11 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+2"/>
+        <source>Deblocking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+68"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
@@ -1474,7 +1484,7 @@ Erori denborapen argibideak?</translation>
         <translation>Gaitu openGl sostengua</translation>
     </message>
     <message>
-        <location line="-304"/>
+        <location line="-316"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Onartu audio maiztasun ez-estandarra DVD-rako</translation>
     </message>
@@ -1491,6 +1501,11 @@ Erori denborapen argibideak?</translation>
     <message>
         <location line="+1"/>
         <source>Re_verse UP and DOWN arrow keys for navigation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reverse mouse _wheel for navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1666,7 +1681,47 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
+        <source>23.976 (Film)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>25 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>29.970 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>30</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>50 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>59.940 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>60</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Assign following standard frame rate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Avisynth</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2005,12 +2060,17 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Filters</source>
         <translation>Iragazkiak</translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-9"/>
+        <source>Add partialized filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Play filtered</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2248,7 +2308,7 @@ It is needed to create PSP compatible video.</source>
 Hau beharrezkoa da PSP bateragarri bideoa sortzeko.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+189"/>
+        <location filename="../../common/gui_main.cpp" line="+190"/>
         <source>Select script to save</source>
         <translation>Hautatu gordetzeko eskripta</translation>
     </message>
@@ -2258,7 +2318,7 @@ Hau beharrezkoa da PSP bateragarri bideoa sortzeko.</translation>
         <translation>Kodeatu gabe bertsio honetan</translation>
     </message>
     <message>
-        <location line="+243"/>
+        <location line="+240"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation type="unfinished"></translation>
@@ -2342,7 +2402,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+120"/>
         <source>Permission error</source>
         <translation>Baimen akatsa</translation>
     </message>
@@ -2441,7 +2501,7 @@ Expect problems.</source>
         <translation>Zerbait gaitza gertatu da</translation>
     </message>
     <message>
-        <location line="+108"/>
+        <location line="+115"/>
         <source>_Track from video:</source>
         <translation>_Bidea bideotik:</translation>
     </message>
@@ -2875,12 +2935,12 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-343"/>
+        <location line="-354"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+154"/>
+        <location line="+165"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation type="unfinished"></translation>
@@ -2941,7 +3001,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-83"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-84"/>
         <source>Pr&amp;eferences</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2987,7 +3047,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1527"/>
+        <location filename="../../common/gui_main.cpp" line="-1534"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3028,7 +3088,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+144"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -3046,7 +3106,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+822"/>
+        <location line="+832"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>
@@ -3386,6 +3446,11 @@ Try anyway?</source>
     </message>
     <message>
         <location line="+1"/>
+        <source>A-law</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>ULAW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3425,7 +3490,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+235"/>
+        <location line="+246"/>
         <source>Memory error</source>
         <translation type="unfinished">Oroimen akatsa</translation>
     </message>
@@ -5378,6 +5443,125 @@ Hau gertatzea nahi duzu  ?
     </message>
 </context>
 <context>
+    <name>cubicLUT</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp" line="+50"/>
+        <source>3D LUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Apply cubic lookup table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+72"/>
+        <source>Width must match height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+2"/>
+        <source>Invalid resolution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <location line="+72"/>
+        <source>Invalid file size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
+        <location line="+72"/>
+        <source>File open error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
+        <location line="+72"/>
+        <source>File read error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-65"/>
+        <source>Can&apos;t find decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Decoding error. Only 8-bit PNG files are supported.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <location line="+82"/>
+        <source>Memory error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-12"/>
+        <location line="+3"/>
+        <location line="+6"/>
+        <source>Malformed header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+51"/>
+        <source>Incomplete file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
+        <source>Load HaldCLUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Load Cube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <location line="+26"/>
+        <source>Load failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>LUT file is not specified!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>cubicLUTDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui" line="+14"/>
+        <source>3D LUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Load HaldCLUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Load Cube</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dcaenc</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/dcaenc/audioencoder_dcaenc.cpp" line="+272"/>
@@ -5535,7 +5719,7 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Save failed!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5623,12 +5807,12 @@ Hau gertatzea nahi duzu  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+13"/>
         <source>Blur</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>Gradient</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9265,13 +9449,8 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+48"/>
-        <source>Matroska Images</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+586"/>
-        <source>Matroska clusters</source>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
+        <source>Indexing Matroska Video Track</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10113,7 +10292,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+374"/>
+        <location filename="../../common/gui_navigate.cpp" line="+378"/>
         <source>Cannot go to next keyframe</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10330,23 +10509,23 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Frame Neurria:</translation>
     </message>
     <message>
-        <location line="-14"/>
-        <location line="+142"/>
+        <location line="+28"/>
+        <location line="+226"/>
         <source>Total Duration:</source>
         <translation>Iraupena Guztira:</translation>
     </message>
     <message>
-        <location line="-163"/>
+        <location line="-268"/>
         <source>Aspect Ratio:</source>
         <translation>Ikuspegi Maila:</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="-14"/>
         <source>Image Size:</source>
         <translation>Irudi Neurria:</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="-14"/>
         <source>Codec 4CC:</source>
         <translation>4 CC Kodeka:</translation>
     </message>
@@ -10363,7 +10542,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="vanished">Gain datuak :</translation>
     </message>
     <message>
-        <location line="+217"/>
+        <location line="+315"/>
         <source>Copy to Clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10373,30 +10552,59 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Ongi</translation>
     </message>
     <message>
-        <location line="-142"/>
+        <location line="-128"/>
         <source>Audio</source>
         <translation>Audioa</translation>
     </message>
     <message>
-        <location line="-139"/>
+        <location line="-209"/>
         <location line="+14"/>
-        <location line="+35"/>
-        <location line="+7"/>
-        <location line="+7"/>
         <location line="+14"/>
-        <location line="+31"/>
-        <location line="+55"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+14"/>
         <location line="+21"/>
         <location line="+14"/>
-        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+62"/>
+        <location line="+14"/>
+        <location line="+14"/>
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-163"/>
+        <location line="-247"/>
         <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Pixel format:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color range:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color primaries:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Transfer characteristics:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color space:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10410,32 +10618,31 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>Extradata:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+55"/>
+        <location line="+76"/>
         <source>Frequency:</source>
         <translation>Maiztasuna:</translation>
     </message>
     <message>
-        <location line="+14"/>
         <source>Variable Bitrate:</source>
-        <translation>Bitneurri Aldakorra:</translation>
+        <translation type="vanished">Bitneurri Aldakorra:</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="-14"/>
         <source>Bitrate:</source>
         <translation>Bitneurria:</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="-14"/>
         <source>Channels:</source>
         <translation>Bideak:</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="-14"/>
         <source>Codec:</source>
         <translation>Kodeka:</translation>
     </message>
@@ -10576,12 +10783,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+260"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+271"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+453"/>
+        <location line="+460"/>
         <source>Recent Files</source>
         <translation type="unfinished">Azken Agiriak</translation>
     </message>
@@ -10596,12 +10803,27 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+592"/>
+        <location line="+16"/>
+        <source>Default theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Light theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Dark theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+597"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+240"/>
+        <location line="+242"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10676,18 +10898,18 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+417"/>
+        <location line="+578"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+424"/>
+        <location line="+440"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+252"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10859,7 +11081,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+500"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+501"/>
         <location line="+28"/>
         <source>Partial</source>
         <translation type="unfinished"></translation>
@@ -10871,11 +11093,12 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+344"/>
+        <location line="+450"/>
         <source>Add</source>
         <translation type="unfinished">Gehitu</translation>
     </message>
     <message>
-        <location line="-149"/>
+        <location line="-599"/>
         <location line="+154"/>
         <source>Remove</source>
         <translation type="unfinished">Kendu</translation>
@@ -10956,6 +11179,16 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Save video filters..</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location line="+348"/>
+        <source>Can not add partial filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>A selection by markers has to be made.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>qprocessing</name>
@@ -10993,28 +11226,309 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Bai</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+37"/>
         <source>%2.3f fps</source>
         <translation>%2.3f fs-ko</translation>
     </message>
     <message>
         <location line="+4"/>
+        <location line="+171"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
         <source>n/a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="-171"/>
         <source>%d kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+105"/>
+        <location line="+269"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation>%02d:%02d:%02d.%03d</translation>
     </message>
     <message>
-        <location line="-79"/>
+        <location line="-254"/>
+        <source>RGB, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Planar RGB, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>RGBA, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>RGB, 5-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0 (NV12), 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+2"/>
+        <source>Packed YUV 4:2:2, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:2, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:1:1, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Grayscale Y, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0 (P010), 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 12-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:2, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 12-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+9"/>
+        <location line="+26"/>
+        <location line="+37"/>
+        <location line="+31"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-98"/>
+        <source>Limited (MPEG)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Full (JPEG)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <location line="+26"/>
+        <location line="+39"/>
+        <source>BT.709</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-63"/>
+        <location line="+26"/>
+        <source>BT.470 System M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-24"/>
+        <source>BT.601 PAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>BT.601 NTSC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Generic film</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>XYZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>DCI P3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Display P3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>EBU Tech. 3213</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <location line="+39"/>
+        <source>BT.470 System B/G</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <location line="+39"/>
+        <source>BT.601</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <location line="+39"/>
+        <source>SMPTE 240M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <source>Linear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Logarithmic (100:1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Logarithmic (316.227:1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>xvYCC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.1361</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>sRGB/sYCC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 (10-bit)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 (12-bit)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>PQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>SMPTE 428M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>HLG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>sRGB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>FCC 73.682</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>YCgCo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 non-constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Y&apos;D&apos;zD&apos;x</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Chromaticity-derived non-constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Chromaticity-derived constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>ICtCp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
         <source>(+%d bytes)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11028,17 +11542,17 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="+189"/>
+        <location line="+198"/>
         <source>No Audio</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-256"/>
+        <location line="-431"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
     <message>
-        <location line="+101"/>
+        <location line="+267"/>
         <source>Mono</source>
         <translation>Monoa</translation>
     </message>
@@ -11051,7 +11565,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+58"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+62"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation type="unfinished"></translation>
@@ -11171,6 +11685,29 @@ Ready.
         <location line="+50"/>
         <location line="+34"/>
         <source>Δx:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>quickFilterDialog</name>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_filters/quickfilter.ui" line="+20"/>
+        <source>Add Partial Video Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
+        <source>Type to narrow the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -11572,7 +12109,7 @@ Ready.
         <translation>Aurreikuspena</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+108"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

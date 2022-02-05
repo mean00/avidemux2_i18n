@@ -593,6 +593,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/Q_colorTemp.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/DIA_flyColorTemp.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/colorTemp.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/cubicLUT.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/DIA_flyCubicLUT.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/blend/blend.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/yadif/yadif.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.h \ 
@@ -1579,6 +1583,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/Q_colorTemp.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/colorTemp_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/colorTemp_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/cubicLUT_json.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/DIA_flyCubicLUT.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/cubicLUT_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/blend/ADM_vidBlendFrames.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/blend/blend_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/blend/blend_json.cpp \ 
@@ -2016,6 +2025,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_opus/ADM_opus.cpp \ 
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_dca/ADM_dca.cpp \ 
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_ima_adpcm/ADM_ad_ima_adpcm.cpp \ 
+../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_alaw/ADM_ad_alaw.cpp \ 
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_opencore_amrwb/ADM_ad_opencore_amrwb.cpp \ 
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_ac3/ADM_ad_a52.cpp \ 
 ../../../avidemux_plugins/ADM_audioDecoders/ADM_ad_ac3/ADM_liba52/parse.c \ 
@@ -2097,6 +2107,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui \ 
@@ -2115,6 +2126,7 @@ FORMS = \
 ../../../avidemux/qt4/ADM_jobs/src/uiJobs.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_filters/mainfilter.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_filters/seekablePreview.ui \ 
+../../../avidemux/qt4/ADM_userInterfaces/ADM_filters/quickfilter.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/processing.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/license.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/vobsub.ui \ 

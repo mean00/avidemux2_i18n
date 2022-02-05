@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+510"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+529"/>
         <source> is </source>
         <translation> відмінна </translation>
     </message>
@@ -43,7 +43,7 @@
         <translation>Помилка при відкритті %s!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+81"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+83"/>
         <source>Decoding video...</source>
         <translation>Декодирую відео...</translation>
     </message>
@@ -513,7 +513,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1557"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1563"/>
         <source>A:</source>
         <translation>A:</translation>
     </message>
@@ -554,17 +554,17 @@ Drop timing informations ?</source>
         <translation>Ав&amp;то</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-28"/>
         <source>&amp;Edit</source>
         <translation>&amp;Правка</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+53"/>
         <source>&amp;File</source>
         <translation>&amp;Файл</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-63"/>
         <source>&amp;Help</source>
         <translation>Довід&amp;ка</translation>
     </message>
@@ -579,7 +579,12 @@ Drop timing informations ?</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location line="+201"/>
+        <location line="+15"/>
+        <source>T&amp;heme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+192"/>
         <location line="+7"/>
         <source>XXXX</source>
         <translation type="unfinished"></translation>
@@ -761,12 +766,12 @@ Drop timing informations ?</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location line="-728"/>
+        <location line="-734"/>
         <source>Vi&amp;deo</source>
         <translation>Ві&amp;део</translation>
     </message>
     <message>
-        <location line="+858"/>
+        <location line="+864"/>
         <source>Play [SPACE]</source>
         <translation>Відтворити [SPACE]</translation>
     </message>
@@ -776,12 +781,12 @@ Drop timing informations ?</source>
         <translation>&amp;Аудіометр</translation>
     </message>
     <message>
-        <location line="-1636"/>
+        <location line="-1642"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Панелі</translation>
     </message>
     <message>
-        <location line="+1683"/>
+        <location line="+1689"/>
         <source>&amp;Open...</source>
         <translation>&amp;Відкрити...</translation>
     </message>
@@ -1123,7 +1128,7 @@ Drop timing informations ?</source>
         <translation>Операція</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+336"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+344"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+45"/>
         <source>Low</source>
         <translation>Низький</translation>
@@ -1173,7 +1178,7 @@ Drop timing informations ?</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1985"/>
+        <location filename="../../common/gui_main.cpp" line="+1993"/>
         <source>Oops</source>
         <translation>Попередження</translation>
     </message>
@@ -1241,13 +1246,13 @@ It is needed to create FLV  video.</source>
         <translation>Файл &quot;%s&quot; збережений некоректно.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+58"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+59"/>
         <source>About</source>
         <translation>Про програму...</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-86"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+185"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+196"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="-606"/>
@@ -1261,7 +1266,7 @@ It is needed to create FLV  video.</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-81"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-82"/>
         <source>Close</source>
         <translation>&amp;Закрити файл</translation>
     </message>
@@ -1378,19 +1383,19 @@ Installation mismatch</source>
         <translation>Не вдається виділити достатньо пам’яті</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-268"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-279"/>
         <source>Enable 3DNOWEXT</source>
         <translation>Увімкнути 3DNOWEXT</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-870"/>
+        <location filename="../../common/gui_main.cpp" line="-880"/>
         <source>Codec or codec settings across the deletion do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+41"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+42"/>
         <source>Previous Black Frame</source>
         <translation>Попередній чорний кадр</translation>
     </message>
@@ -1404,7 +1409,7 @@ Proceed anyway?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+751"/>
+        <location filename="../../common/gui_main.cpp" line="+761"/>
         <source>Main Audio Track</source>
         <translation>Головна звукова доріжка</translation>
     </message>
@@ -1414,7 +1419,7 @@ Proceed anyway?</source>
         <translation>Значення зсуву (мс):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-793"/>
+        <location filename="../../common/gui_main.cpp" line="-803"/>
         <source>Error while cutting out.</source>
         <translation>Помилка обрізки</translation>
     </message>
@@ -1429,7 +1434,7 @@ Proceed anyway?</source>
         <translation>Неможливо додати операцію %s</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+99"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+110"/>
         <source>_Cache size:</source>
         <translation>Розм_ір кешу:</translation>
     </message>
@@ -1439,7 +1444,7 @@ Proceed anyway?</source>
         <translation>Занадто коротко</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+669"/>
+        <location filename="../../common/gui_main.cpp" line="+672"/>
         <source>Marker A &gt; B</source>
         <translation>Мітка A&gt; B</translation>
     </message>
@@ -1450,7 +1455,7 @@ Proceed anyway?</source>
         <translation>Будь ласка, звільніть місце і натисніть RETRY, щоб спробувати заново.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-91"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-92"/>
         <source>Connect to avsproxy</source>
         <translation>Помилка з&apos;єднання з AvsProxy</translation>
     </message>
@@ -1466,7 +1471,7 @@ Proceed anyway?</source>
         <translation>Не вдається створити екземпляр мультиплексора</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+544"/>
+        <location filename="../../common/gui_main.cpp" line="+551"/>
         <source>This function is disabled or no longer valid</source>
         <translation>Функція вимкнена або більше недійсна</translation>
     </message>
@@ -1491,7 +1496,7 @@ Proceed anyway?</source>
         <translation>Стерео + центр + об&apos;ємний звук</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+68"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+69"/>
         <source>Build Option</source>
         <translation>Опції збірки...</translation>
     </message>
@@ -1512,9 +1517,14 @@ It is needed to create PSP compatible video.</source>
 Це потрібно для створення відео, сумісного з PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+27"/>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+25"/>
         <source>_Filter strength:</source>
         <translation>_Рівень фільтрації:</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Deblocking</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUtils/src/ADM_quota.cpp" line="-2"/>
@@ -1523,7 +1533,7 @@ It is needed to create PSP compatible video.</source>
         <translation>__невідомо__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1804"/>
+        <location filename="../../common/gui_main.cpp" line="-1811"/>
         <source>Select script to run</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
@@ -1533,17 +1543,17 @@ It is needed to create PSP compatible video.</source>
         <translation>Без змішування</translation>
     </message>
     <message>
-        <location line="-168"/>
+        <location line="-179"/>
         <source>Enable SSE2</source>
         <translation>Увімкнути SSE2</translation>
     </message>
     <message>
-        <location line="+334"/>
+        <location line="+345"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-346"/>
+        <location line="-357"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1553,7 +1563,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Увімкнути SSE3</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-17"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Скинення налаштувань виведення при завантаженні відео на збереження</translation>
     </message>
@@ -1583,7 +1593,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Помилка при додаванні відео</translation>
     </message>
     <message>
-        <location line="+687"/>
+        <location line="+694"/>
         <source>AvsProxy</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1618,14 +1628,14 @@ It is needed to create PSP compatible video.</source>
         <translation>Перевищена квота</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1221"/>
+        <location filename="../../common/gui_main.cpp" line="-1231"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The cut points of the pasted selection may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Утворилися точки розрізу вставки при збереженні відео в режимі копіювання можуть призвести до затримки відтворення через порушений порядок показу зображень.
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+238"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+250"/>
         <source>User Interface</source>
         <translation>Інтерфейс</translation>
     </message>
@@ -1682,12 +1692,12 @@ Warning, the settings must be close.</source>
         <translation>В&amp;ідкрити папку з даними програми</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-168"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-179"/>
         <source>Above normal</source>
         <translation>Вище нормального</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-424"/>
+        <location filename="../../common/gui_main.cpp" line="-421"/>
         <source>Select script to save</source>
         <translation>Вибрати скрипт для збереження</translation>
     </message>
@@ -1724,7 +1734,7 @@ Warning, the settings must be close.</source>
         <translation>Додатки декодерів відео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1212"/>
+        <location filename="../../common/gui_main.cpp" line="+1219"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>Неможливо встановити мову аудіо: відео не завантажене!</translation>
     </message>
@@ -1788,7 +1798,7 @@ Installation mismatch</source>
         <translation>Не вдається встановити кодер для першого проходу. Конфігурація, надана кодеру, може бути несумісною, або кодер може залежати від функцій, недоступних у цій системі.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-854"/>
+        <location filename="../../common/gui_main.cpp" line="-864"/>
         <source>Cut points could not be checked.
 This indicates an issue with a source video, the state of editing or a bug in the program. Please check the application log file or console output for details.
 Proceed anyway?</source>
@@ -1806,7 +1816,7 @@ Proceed anyway?</source>
         <translation>Розмір GOP</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+158"/>
+        <location filename="../../common/gui_main.cpp" line="+161"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
         <translation>Спробуйте &quot;Файл-&gt;Завантажити/Запустити проект...&quot;</translation>
     </message>
@@ -1816,7 +1826,7 @@ Proceed anyway?</source>
         <translation>Не знайдено плагін аудиокодека AAC.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+895"/>
+        <location filename="../../common/gui_main.cpp" line="+902"/>
         <source>Frame Hex Dump</source>
         <translation>Дамп кадру</translation>
     </message>
@@ -1841,12 +1851,12 @@ Proceed anyway?</source>
         <translation>Фільтри аудіо</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1120"/>
+        <location filename="../../common/gui_main.cpp" line="-1130"/>
         <source>It is impossible to cut out the entire video. Please recheck the position of markers A and B.</source>
         <translation>Вирізати відео цілком неприпустимо. Будь ласка, перевірте положення міток A і B.</translation>
     </message>
     <message>
-        <location line="+184"/>
+        <location line="+187"/>
         <source>Permission error</source>
         <translation>Помилка прав доступу</translation>
     </message>
@@ -1867,12 +1877,12 @@ Installation mismatch</source>
         <translation type="vanished">Установка мови доріжки неможлива: у відео немає файлу аудіо!</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+745"/>
+        <location filename="../../common/gui_main.cpp" line="+752"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
         <translation>Установка мови доріжки неможлива: невірний: Відео не має аудіофайлу!</translation>
     </message>
     <message>
-        <location line="-879"/>
+        <location line="-889"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the deletion may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки видалення при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -1888,7 +1898,7 @@ Proceed anyway?</source>
         <translation>Виберіть файл для збереження</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-72"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-73"/>
         <source>Append</source>
         <translation>&amp;Приєднати...</translation>
     </message>
@@ -1900,7 +1910,7 @@ Proceed anyway?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+15"/>
+        <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-2"/>
         <source>De_interlacing (ffmpegdeint)</source>
         <translation>_Деінтерлейсінг (ffmpegdeint)</translation>
     </message>
@@ -1916,7 +1926,7 @@ Proceed anyway?</source>
         <translation>Вручну</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-432"/>
+        <location filename="../../common/gui_main.cpp" line="-429"/>
         <source>Not coded in this version</source>
         <translation>Ні в цій версії</translation>
     </message>
@@ -1936,7 +1946,7 @@ Proceed anyway?</source>
         <translation>Вихідний _файл:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+420"/>
+        <location filename="../../common/gui_main.cpp" line="+417"/>
         <source>The end point of the deletion is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -1949,12 +1959,12 @@ Proceed anyway?</source>
         <translation>Ігнорувати</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+631"/>
+        <location filename="../../common/gui_main.cpp" line="+634"/>
         <source>No error found</source>
         <translation>Помилки не знайдені</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+60"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+61"/>
         <source>Next Intra Frame</source>
         <translation>Наступний ключовий кадр</translation>
     </message>
@@ -1975,7 +1985,7 @@ Proceed anyway?</source>
         <translation>Внутрішня помилка пошуку кодека 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+165"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+176"/>
         <source>Master</source>
         <translation>Майстер</translation>
     </message>
@@ -2020,7 +2030,7 @@ Proceed anyway?</source>
         <translation>Назва операції</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-625"/>
+        <location filename="../../common/gui_main.cpp" line="-628"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the cut may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
         <translation>Це відео використовує кадри прямого доступу без миттєвого оновлення декодування (non-IDR). Лічильник черговості показу зображень (POC) на таких ключових кадрах не скидається. Вибрані кінцеві точки вирізу при збереження відео в режимі копіювання може призвести до затримки відтворення через порушений порядок показу зображень.
@@ -2037,18 +2047,18 @@ Proceed anyway?</source>
         <translation>Збережено зображень: %d</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-104"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-115"/>
         <source>Normal</source>
         <translation>Нормально</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-78"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-79"/>
         <location line="+2"/>
         <source>Clear recent items</source>
         <translation>Очистити список</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+264"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+275"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодувати відео за допомогою DXVA2 (Windows)</translation>
     </message>
@@ -2063,7 +2073,7 @@ Proceed anyway?</source>
         <translation>Вихідні дані</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1033"/>
+        <location filename="../../common/gui_main.cpp" line="+1043"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>Неможливо з&apos;єднатися з AvsProxy.
@@ -2075,7 +2085,7 @@ Is it running ?</source>
         <translation>Неможливо створити потік</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-241"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-252"/>
         <source>Enable all SIMD</source>
         <translation>Увімкнути всі SIMD</translation>
     </message>
@@ -2092,7 +2102,7 @@ Is it running ?</source>
         <translation>Не можна видалити всі відео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+204"/>
         <source>_AudioDevice</source>
         <translation>_Аудіопристрій</translation>
     </message>
@@ -2113,7 +2123,7 @@ Is it running ?</source>
         <translation>Стерео</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1221"/>
+        <location filename="../../common/gui_main.cpp" line="-1231"/>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
@@ -2126,7 +2136,7 @@ Proceed anyway?</source>
         <translation>Широкий пошук</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-423"/>
+        <location filename="../../common/gui_main.cpp" line="-420"/>
         <source>Select script to debug</source>
         <translation>Вибрати скрипт для налагодження</translation>
     </message>
@@ -2148,7 +2158,7 @@ Try anyway?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+98"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+99"/>
         <source>First Frame</source>
         <translation>Перший кадр</translation>
     </message>
@@ -2198,7 +2208,7 @@ Try anyway?</source>
         <translation>Масштаб 1:2</translation>
     </message>
     <message>
-        <location line="-83"/>
+        <location line="-84"/>
         <source>Reset Marker A</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2213,7 +2223,12 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+2"/>
+        <source>Add partialized filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+36"/>
         <source>Previous Cut Point</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2320,12 +2335,12 @@ Try anyway?</source>
         <translation>Ви намагаєтеся очистити список недавно відкритих файлів і проектів. Цей крок незворотній. Продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-76"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-87"/>
         <source>Auto-Append Settings</source>
         <translation>Автоматичне об&apos;єднання розчленованих потоків</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+78"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation>Драйвер SDL</translation>
@@ -2341,7 +2356,7 @@ Try anyway?</source>
         <translation>&quot;%s&quot; не існує.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-126"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-127"/>
         <source>Save as BMP</source>
         <translation>Зберегти бітовою матрицею (BMP)</translation>
     </message>
@@ -2373,7 +2388,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Завантажити налаштування виводу за замовчуванням</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+930"/>
+        <location filename="../../common/gui_main.cpp" line="+937"/>
         <source>Frame size:</source>
         <translation>Розмір кадру:</translation>
     </message>
@@ -2383,7 +2398,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Тип кадру:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+25"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+26"/>
         <source>Plugins</source>
         <translation>Плагіни...</translation>
     </message>
@@ -2410,7 +2425,7 @@ Do you want to continue anyway ?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-929"/>
+        <location filename="../../common/gui_main.cpp" line="-936"/>
         <source>File error</source>
         <translation>Помилка файлу</translation>
     </message>
@@ -2455,12 +2470,12 @@ Do you want to continue anyway ?</source>
         <translation>Помилка збереження &quot;%s&quot;як BMP.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-272"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-284"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>_Увімкнути альтернативні гарячі клавіші</translation>
     </message>
     <message>
-        <location line="+343"/>
+        <location line="+355"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Декодувати відео за допомогою LIBVA (INTEL)</translation>
     </message>
@@ -2509,7 +2524,7 @@ Do you want to continue anyway ?</source>
         <translation>Нова частота (Hz)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+709"/>
+        <location filename="../../common/gui_main.cpp" line="+716"/>
         <source>Setting the language for the given track index is not possible: Invalid track index!</source>
         <translation>Установка мови доріжки неможлива: невірний Індекс доріжки!</translation>
     </message>
@@ -2518,12 +2533,12 @@ Do you want to continue anyway ?</source>
         <translation type="vanished">Ці параметри діють тільки для MPEG і DivX без апаратного прискорення декодування</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-212"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-223"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>_Зберігати відео в папці з останнім прочитаним файлом за замовчуванням</translation>
     </message>
     <message>
-        <location line="+147"/>
+        <location line="+158"/>
         <source>_Language</source>
         <translation>_Мова</translation>
     </message>
@@ -2533,7 +2548,7 @@ Do you want to continue anyway ?</source>
         <translation>Файл не завантажений</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-649"/>
+        <location filename="../../common/gui_main.cpp" line="-656"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Файл містить кілька звукових доріжок.
@@ -2565,7 +2580,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Збереження завдання</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-267"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-278"/>
         <source>_Check for new release</source>
         <translation>_Перевіряти оновлення</translation>
     </message>
@@ -2620,7 +2635,47 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
+        <source>23.976 (Film)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>25 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>29.970 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>30</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>50 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>59.940 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>60</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Assign following standard frame rate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Avisynth</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2645,7 +2700,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="-122"/>
+        <source>Reverse mouse _wheel for navigation</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+127"/>
         <source>This renderer provides no hardware acceleration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2788,6 +2848,11 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+1"/>
+        <source>A-law</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>ULAW</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2832,7 +2897,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Прискорення ключових кадрів (%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-236"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-247"/>
         <source>Enable MMX</source>
         <translation>Увімкнути MMX</translation>
     </message>
@@ -2842,7 +2907,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Увімкнути SSE</translation>
     </message>
     <message>
-        <location line="+282"/>
+        <location line="+293"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2873,17 +2938,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Апаратне прискорення</translation>
     </message>
     <message>
-        <location line="-368"/>
+        <location line="-380"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Дозволяти нестандартну частоту звуку для DVD</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>Enable MMXEXT</source>
         <translation>Увімкнути MMXEXT</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-56"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-57"/>
         <source>Information</source>
         <translation>Власт&amp;ивості</translation>
     </message>
@@ -2899,7 +2964,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+124"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+135"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2942,12 +3007,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Для створення файлу даного типу потрібно аудіодоріжка</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+585"/>
+        <location filename="../../common/gui_main.cpp" line="+592"/>
         <source>Cannot use that file as audio track</source>
         <translation>Неможливо використовувати файл для аудіодоріжки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-290"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-301"/>
         <source>Prioritisation</source>
         <translation>Пріоритет</translation>
     </message>
@@ -2967,17 +3032,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Дуже високий</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1464"/>
+        <location filename="../../common/gui_main.cpp" line="-1471"/>
         <source>Select script/project to run</source>
         <translation>Вибрати скрипт/проект для запуску</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+34"/>
         <source>_Always ask which port to use</source>
         <translation>_Завжди вибирати порт</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+98"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+99"/>
         <source>Go To Marker A</source>
         <translation>Перейти до маркера A</translation>
     </message>
@@ -2992,12 +3057,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Стерео (передній) + стерео (задній)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-60"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-61"/>
         <source>Pr&amp;eferences</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+653"/>
+        <location filename="../../common/gui_main.cpp" line="+650"/>
         <source>Codec or codec settings across the cut do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
@@ -3037,7 +3102,7 @@ Installation mismatch</source>
         <translation>_Вертикальний деблокинг</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+615"/>
+        <location filename="../../common/gui_main.cpp" line="+618"/>
         <source>Errors found in %u frames</source>
         <translation>Знайдено помилки в %u кадрах</translation>
     </message>
@@ -3072,7 +3137,7 @@ Installation mismatch</source>
         <translation>Ці параметри діють тільки для програмного декодування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-674"/>
+        <location filename="../../common/gui_main.cpp" line="-677"/>
         <location line="+21"/>
         <source>Cutting</source>
         <translation>Обрізка</translation>
@@ -3088,7 +3153,7 @@ Installation mismatch</source>
         <translation>Кілька секунд</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+83"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+84"/>
         <source>Fit to window</source>
         <translation>Підігнати під розмір вікна</translation>
     </message>
@@ -3133,7 +3198,7 @@ Installation mismatch</source>
         <translation>Перейти до часу...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-266"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-277"/>
         <source>Multi-threading</source>
         <translation>Використовувати багатопотоковість</translation>
     </message>
@@ -3163,7 +3228,7 @@ Installation mismatch</source>
         <translation>З PAL у Фільм</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-64"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-65"/>
         <source>Reset Markers</source>
         <translation>Скидання маркерів</translation>
     </message>
@@ -3177,7 +3242,7 @@ Installation mismatch</source>
         <translation type="vanished">Неможливо підключитися до бази даних. У вас увімкнено управління операціями?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+40"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+51"/>
         <source>Default port to use</source>
         <translation>Порт за замовчуванням</translation>
     </message>
@@ -3187,12 +3252,12 @@ Installation mismatch</source>
         <translation>Рівень повідомлень:</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+674"/>
+        <location filename="../../common/gui_main.cpp" line="+677"/>
         <source>You can&apos;t remove all frames</source>
         <translation>Ви не можете видалити всі кадри.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+37"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+38"/>
         <source>&amp;Advanced</source>
         <translation>&amp;Додатково</translation>
     </message>
@@ -3207,7 +3272,7 @@ Installation mismatch</source>
         <translation>Скрипт tinyPy не увімкнений в цю збірку</translation>
     </message>
     <message>
-        <location line="+345"/>
+        <location line="+342"/>
         <source>Deleting</source>
         <translation>Видалення</translation>
     </message>
@@ -3217,7 +3282,7 @@ Installation mismatch</source>
         <translation>Вихідний файл</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-374"/>
+        <location filename="../../common/gui_main.cpp" line="-371"/>
         <location line="+77"/>
         <source>Select Video File...</source>
         <translation>Вибрати файл відео...</translation>
@@ -3249,7 +3314,7 @@ Installation mismatch</source>
         <translation>Невідомий</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-51"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-52"/>
         <source>Reset Edit</source>
         <translation>Скидання</translation>
     </message>
@@ -3287,7 +3352,7 @@ Install lame plugin</source>
         <translation>Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1104"/>
+        <location filename="../../common/gui_main.cpp" line="+1111"/>
         <source>_Track from video:</source>
         <translation>Доріжка:</translation>
     </message>
@@ -3307,7 +3372,7 @@ Install lame plugin</source>
         <translation>_Режим інтерлейсингу</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+82"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+83"/>
         <source>Open Application &amp;Log</source>
         <translation>&amp;Відкрити журнал програми</translation>
     </message>
@@ -3318,13 +3383,13 @@ Install lame plugin</source>
         <translation>Функція не включена</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-20"/>
-        <location line="+9"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-21"/>
+        <location line="+10"/>
         <source>Filters</source>
         <translation>Фільтр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-334"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-345"/>
         <source>_lavc threads:</source>
         <translation>_lavc</translation>
     </message>
@@ -3339,12 +3404,12 @@ Install lame plugin</source>
         <translation>_Відтінки сірого</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+240"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+251"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>Інтервал частоти оновлення (мс)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-31"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-32"/>
         <source>Set Marker A</source>
         <translation>Встановити маркер А</translation>
     </message>
@@ -3365,7 +3430,7 @@ Install lame plugin</source>
         <translation>Режим VHQ</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-815"/>
+        <location filename="../../common/gui_main.cpp" line="-825"/>
         <source>The end point of the cut is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
@@ -3388,12 +3453,12 @@ Proceed anyway?</source>
         <translation>Зберегти як JPEG невдалось</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+53"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+54"/>
         <source>Previous Frame</source>
         <translation>Попередній кадр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-231"/>
         <source>_Playback priority:</source>
         <translation>_Відтворення:</translation>
     </message>
@@ -3409,7 +3474,7 @@ Proceed anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+176"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+187"/>
         <source>_Horizontal deblocking</source>
         <translation>_Горизонтальний деблокинг</translation>
     </message>
@@ -3424,7 +3489,7 @@ Proceed anyway?</source>
         <translation>Змінити частоту:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-91"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-92"/>
         <source>Save as JPEG</source>
         <translation>Зберегти як JPEG</translation>
     </message>
@@ -3442,7 +3507,7 @@ Proceed anyway?</source>
         <translation>Межа в 99999 кадрів досягнута.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-175"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-186"/>
         <source>_Fragment size:</source>
         <translation>Розмір _фрагментів:</translation>
     </message>
@@ -3457,12 +3522,12 @@ Proceed anyway?</source>
         <translation>2 проходи</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+361"/>
+        <location filename="../../common/gui_main.cpp" line="+364"/>
         <source>Could not open the file</source>
         <translation>Неможливо відкрити файл</translation>
     </message>
     <message>
-        <location line="-225"/>
+        <location line="-228"/>
         <source>It is impossible to delete the entire video. Please recheck the position of markers A and B.</source>
         <translation>Видалити Відео цілком неприпустимо. Будь ласка, перевірте позиції міток A і B.</translation>
     </message>
@@ -3472,7 +3537,7 @@ Proceed anyway?</source>
         <translation>Квантування Трелліса</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+235"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+246"/>
         <source>Memory error</source>
         <translation>Помилка виділення пам&apos;яті</translation>
     </message>
@@ -3494,12 +3559,12 @@ Do you want to continue anyway?</source>
         <translation>.. зменшено на (%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+93"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+94"/>
         <source>Previous Intra Frame</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+116"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+127"/>
         <source>System language</source>
         <translation>Системнна мова</translation>
     </message>
@@ -3520,7 +3585,7 @@ Try anyway?</source>
         <translation type="vanished">XVideo (найкраще)</translation>
     </message>
     <message>
-        <location line="+635"/>
+        <location line="+638"/>
         <location line="+43"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
@@ -3555,12 +3620,12 @@ Expect problems.</source>
         <translation>Виберіть файл для збереження звуку</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+188"/>
+        <location filename="../../common/gui_main.cpp" line="+195"/>
         <source>Audio file not found in list, even though it should be there. Create a bug report!</source>
         <translation>Файл аудіо не знайдено у списку, хоча він повинен був там бути. Створіть звіт про помилку!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-36"/>
+        <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-37"/>
         <source>PostProcessing</source>
         <translation>Постпроцесинг</translation>
     </message>
@@ -3600,7 +3665,7 @@ Expect problems.</source>
         <translation>Внутрішня помилка відкриття 0x%x</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-945"/>
+        <location filename="../../common/gui_main.cpp" line="-955"/>
         <source>Are you sure?</source>
         <translation>Ви впевнені?</translation>
     </message>
@@ -5454,6 +5519,125 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>cubicLUT</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp" line="+50"/>
+        <source>3D LUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Apply cubic lookup table.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+72"/>
+        <source>Width must match height</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+2"/>
+        <source>Invalid resolution</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <location line="+72"/>
+        <source>Invalid file size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
+        <location line="+72"/>
+        <source>File open error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-68"/>
+        <location line="+72"/>
+        <source>File read error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-65"/>
+        <source>Can&apos;t find decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Decoding error. Only 8-bit PNG files are supported.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <location line="+82"/>
+        <source>Memory error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-12"/>
+        <location line="+3"/>
+        <location line="+6"/>
+        <source>Malformed header</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+51"/>
+        <source>Incomplete file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Invalid file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
+        <source>Load HaldCLUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <source>Load Cube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+29"/>
+        <location line="+26"/>
+        <source>Load failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+53"/>
+        <source>LUT file is not specified!</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>cubicLUTDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui" line="+14"/>
+        <source>3D LUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Mask</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Load HaldCLUT</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
+        <source>Load Cube</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>dcaenc</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/dcaenc/audioencoder_dcaenc.cpp" line="+272"/>
@@ -5611,7 +5795,7 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Save failed!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5699,12 +5883,12 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+13"/>
         <source>Blur</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-7"/>
         <source>Gradient</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9426,14 +9610,17 @@ I will assume it has and try to continue</source>
 <context>
     <name>matroskademuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+634"/>
         <source>Matroska clusters</source>
-        <translation>Кластери Matroska</translation>
+        <translation type="vanished">Кластери Matroska</translation>
     </message>
     <message>
-        <location line="-586"/>
         <source>Matroska Images</source>
-        <translation>Зображення Matroska</translation>
+        <translation type="vanished">Зображення Matroska</translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
+        <source>Indexing Matroska Video Track</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10307,7 +10494,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+839"/>
+        <location filename="../../common/gui_navigate.cpp" line="+843"/>
         <source>Seek</source>
         <translation>Пошук</translation>
     </message>
@@ -10509,17 +10696,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>propsDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+183"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+260"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location line="-163"/>
+        <location line="-240"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location line="+236"/>
+        <location line="+292"/>
         <source>Bitrate:</source>
         <translation>Бітрейт:</translation>
     </message>
@@ -10532,13 +10719,13 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="vanished">Додаткові властивості відео</translation>
     </message>
     <message>
-        <location line="-184"/>
-        <location line="+142"/>
+        <location line="-198"/>
+        <location line="+226"/>
         <source>Total Duration:</source>
         <translation>Загальна тривалість:</translation>
     </message>
     <message>
-        <location line="+70"/>
+        <location line="-56"/>
         <source>Codec:</source>
         <translation>Кодек:</translation>
     </message>
@@ -10552,30 +10739,59 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Властивості</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+37"/>
         <location line="+14"/>
-        <location line="+35"/>
-        <location line="+7"/>
-        <location line="+7"/>
         <location line="+14"/>
-        <location line="+31"/>
-        <location line="+55"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+14"/>
         <location line="+21"/>
         <location line="+14"/>
-        <location line="+7"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+62"/>
+        <location line="+14"/>
+        <location line="+14"/>
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-212"/>
+        <location line="-289"/>
         <source>Image Size:</source>
         <translation>Розмір картинки:</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+42"/>
         <source>Average Bitrate:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Pixel format:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color range:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color primaries:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Transfer characteristics:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Color space:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10589,47 +10805,46 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+14"/>
         <source>Extradata:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+159"/>
+        <location line="+138"/>
         <source>OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-239"/>
+        <location line="-302"/>
         <source>Frame Rate:</source>
         <translation>Частота кадрів:</translation>
     </message>
     <message>
-        <location line="+149"/>
         <source>Variable Bitrate:</source>
-        <translation>Змінна частота:</translation>
+        <translation type="vanished">Змінна частота:</translation>
     </message>
     <message>
-        <location line="+61"/>
+        <location line="+273"/>
         <source>Copy to Clipboard</source>
         <translation>Скопіювати в буфер обміну</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-61"/>
         <source>Channels:</source>
         <translation>Канал:</translation>
     </message>
     <message>
-        <location line="-49"/>
+        <location line="+28"/>
         <source>Frequency:</source>
         <translation>Частота вибірки:</translation>
     </message>
     <message>
-        <location line="-142"/>
+        <location line="-282"/>
         <source>Codec 4CC:</source>
         <translation>Кодек 4СС:</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="+28"/>
         <source>Aspect Ratio:</source>
         <translation>Співвідношення сторін:</translation>
     </message>
@@ -10787,39 +11002,39 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2740"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2976"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2480"/>
+        <location line="-2705"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1338"/>
+        <location line="+1381"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
     <message>
-        <location line="-884"/>
+        <location line="-920"/>
         <source>Recent Projects</source>
         <translation>Попередні проекти</translation>
     </message>
     <message>
-        <location line="+1777"/>
+        <location line="+1990"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Додаток зіткнувся з критичною проблемою
 Хід поточного редагування збережений і буде завантажений при наступному запуску</translation>
     </message>
     <message>
-        <location line="-901"/>
+        <location line="-1078"/>
         <source>Go to previous keyframe</source>
         <translation>Попередній ключовий кадр</translation>
     </message>
     <message>
-        <location line="-877"/>
+        <location line="-913"/>
         <source>Recent Files</source>
         <translation>Попередні файли</translation>
     </message>
@@ -10829,12 +11044,27 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+592"/>
+        <location line="+16"/>
+        <source>Default theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Light theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Dark theme</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+597"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+258"/>
         <source>Go to next keyframe</source>
         <translation>Наступний ключовий кадр</translation>
     </message>
@@ -10878,12 +11108,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location line="+439"/>
+        <location line="+600"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+671"/>
+        <location line="+692"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10893,7 +11123,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Вибірка: </translation>
     </message>
     <message>
-        <location line="-1216"/>
+        <location line="-1398"/>
         <source>Set end marker</source>
         <translation>Поставити маркер B</translation>
     </message>
@@ -10908,7 +11138,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Попередній кадр</translation>
     </message>
     <message numerus="yes">
-        <location line="+1580"/>
+        <location line="+1762"/>
         <location line="+2"/>
         <source> (%n track(s))</source>
         <translation>
@@ -10918,7 +11148,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1578"/>
+        <location line="-1760"/>
         <source>Go to next frame</source>
         <translation>Наступний кадр</translation>
     </message>
@@ -11088,12 +11318,13 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+844"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+845"/>
+        <location line="+450"/>
         <source>Add</source>
         <translation>Додати</translation>
     </message>
     <message>
-        <location line="+240"/>
+        <location line="-210"/>
         <source>Save video filters..</source>
         <translation>Зберегти фільтри відео...</translation>
     </message>
@@ -11165,7 +11396,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Натисніть %s, щоб прийняти діалогове вікно</translation>
     </message>
     <message>
-        <location line="-421"/>
+        <location line="+511"/>
+        <source>Can not add partial filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>A selection by markers has to be made.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-932"/>
         <location line="+28"/>
         <source>Partial</source>
         <translation>Часткове накладення</translation>
@@ -11222,23 +11463,304 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>Так</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+41"/>
+        <location line="+171"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
+        <location line="+1"/>
         <source>n/a</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="-171"/>
         <source>%d kbps</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
-        <location line="+105"/>
+        <location line="+269"/>
         <source>%02d:%02d:%02d.%03d</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-79"/>
+        <location line="-254"/>
+        <source>RGB, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Planar RGB, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>RGBA, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>RGB, 5-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0 (NV12), 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+2"/>
+        <source>Packed YUV 4:2:2, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:2, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:1:1, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Grayscale Y, 8-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0 (P010), 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:0, 12-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:2:2, 10-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>YUV 4:4:4, 12-bit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <location line="+9"/>
+        <location line="+26"/>
+        <location line="+37"/>
+        <location line="+31"/>
+        <source>Unknown</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-98"/>
+        <source>Limited (MPEG)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Full (JPEG)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <location line="+26"/>
+        <location line="+39"/>
+        <source>BT.709</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-63"/>
+        <location line="+26"/>
+        <source>BT.470 System M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-24"/>
+        <source>BT.601 PAL</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>BT.601 NTSC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Generic film</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>XYZ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>DCI P3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Display P3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>EBU Tech. 3213</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <location line="+39"/>
+        <source>BT.470 System B/G</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <location line="+39"/>
+        <source>BT.601</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <location line="+39"/>
+        <source>SMPTE 240M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-37"/>
+        <source>Linear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Logarithmic (100:1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Logarithmic (316.227:1)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>xvYCC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.1361</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>sRGB/sYCC</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 (10-bit)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 (12-bit)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>PQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>SMPTE 428M</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>HLG</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>sRGB</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>FCC 73.682</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>YCgCo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 non-constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>BT.2020 constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Y&apos;D&apos;zD&apos;x</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Chromaticity-derived non-constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Chromaticity-derived constant</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>ICtCp</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
         <source>(+%d bytes)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11260,7 +11782,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="vanished">Розмір картинки:</translation>
     </message>
     <message>
-        <location line="+155"/>
+        <location line="+164"/>
         <source>No Audio</source>
         <translation>Без звуку</translation>
     </message>
@@ -11269,7 +11791,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="vanished">Частота кадрів:	</translation>
     </message>
     <message>
-        <location line="-254"/>
+        <location line="-429"/>
         <source>%2.3f fps</source>
         <translation>%2.3f кадрів/с</translation>
     </message>
@@ -11294,7 +11816,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="vanished">Кодек 4CC:	</translation>
     </message>
     <message>
-        <location line="+102"/>
+        <location line="+268"/>
         <source>Stereo</source>
         <translation>Стерео</translation>
     </message>
@@ -11313,7 +11835,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-67"/>
+        <location line="-233"/>
         <source>%s (%u:%u)</source>
         <translation>%s (%u:%u)</translation>
     </message>
@@ -11337,7 +11859,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+59"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+63"/>
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
@@ -11463,6 +11985,29 @@ Ready.
         <location line="+50"/>
         <location line="+34"/>
         <source>Δx:</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>quickFilterDialog</name>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_filters/quickfilter.ui" line="+20"/>
+        <source>Add Partial Video Filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
+        <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+64"/>
+        <source>Type to narrow the list</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>&amp;Close</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -11843,7 +12388,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+127"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+128"/>
         <source>Play</source>
         <translation>Відтворити</translation>
     </message>
