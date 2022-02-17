@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sk_SK">
+<TS version="2.1" language="sk_SK">
+    <extra-po-header-language>sk_SK</extra-po-header-language>
+    <extra-po-header-language_team></extra-po-header-language_team>
+    <extra-po-header-last_translator>Jozef Matta &lt;jozef.m923@gmail.com&gt;</extra-po-header-last_translator>
+    <extra-po-header-po_revision_date></extra-po-header-po_revision_date>
+    <extra-po-header-pot_creation_date></extra-po-header-pot_creation_date>
+    <extra-po-header-project_id_version></extra-po-header-project_id_version>
+    <extra-po-header-x_generator>Poedit 3.0.1</extra-po-header-x_generator>
+    <extra-po-headers>Project-Id-Version,POT-Creation-Date,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,Plural-Forms,X-Language,X-Source-Language,X-Qt-Contexts,X-Generator</extra-po-headers>
 <context>
     <name>CloseButton</name>
     <message>
@@ -536,15 +544,15 @@
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>Nemôžem odstrániť zdrojový súbor</translation>
+        <translation>Nemožno odstrániť zdrojový súbor</translation>
     </message>
     <message>
         <source>Cannot open %1 for input</source>
-        <translation>%1 sa nepodarilo otvoriť pre čítanie</translation>
+        <translation>Nemožno otvoriť %1 alebo vstup</translation>
     </message>
     <message>
         <source>Cannot open for output</source>
-        <translation>Nemôžem otvoriť pre výstup</translation>
+        <translation>Nemožno otvoriť pre výstup</translation>
     </message>
     <message>
         <source>Failure to write block</source>
@@ -670,7 +678,7 @@
     </message>
     <message>
         <source>Show </source>
-        <translation>Zobraziť</translation>
+        <translation>Zobraziť </translation>
     </message>
     <message>
         <source>&amp;Rename</source>
@@ -797,7 +805,7 @@ Chcete ho aj tak zmazať?</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB</translation>
+        <translation>%1 kB</translation>
     </message>
     <message>
         <source>%1 bytes</source>
@@ -1499,7 +1507,7 @@ Chcete ho aj tak zmazať?</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation>Zn&amp;ovu</translation>
+        <translation>&amp;Vpred</translation>
     </message>
     <message>
         <source>Cu&amp;t</source>
@@ -1511,7 +1519,7 @@ Chcete ho aj tak zmazať?</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>V&amp;ložiť</translation>
+        <translation>Prilepiť</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -1780,7 +1788,7 @@ Chcete ho aj tak zmazať?</translation>
     </message>
     <message>
         <source>About Qt</source>
-        <translation>O Qt</translation>
+        <translation>O aplikácii Qt</translation>
     </message>
 </context>
 <context>
@@ -2832,7 +2840,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>spätné vyhľadávanie (lookbehind) nie je podporované, pozri QTBUG-2371 </translation>
+        <translation>spätné vyhľadávanie (lookbehind) nie je podporované, pozri QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
@@ -3051,7 +3059,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation>Príliš veľa pomenovaných podvzoriek (maximum je 10000)</translation>
+        <translation>Príliš veľa pomenovaných pod-vzoriek (maximum je 10000)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
@@ -3433,19 +3441,19 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation>Vľavo</translation>
+        <translation>←</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation>Hore</translation>
+        <translation>↓</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation>Vpravo</translation>
+        <translation>→</translation>
     </message>
     <message>
         <source>Down</source>
-        <translation>Dole</translation>
+        <translation>↓</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -3469,7 +3477,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Menu</source>
-        <translation>Menu</translation>
+        <translation>Ponuka</translation>
     </message>
     <message>
         <source>Help</source>
@@ -4039,7 +4047,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Zmazať</translation>
+        <translation>Odstrániť</translation>
     </message>
     <message>
         <source>Escape</source>
@@ -4059,19 +4067,19 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Context1</source>
-        <translation>Context1</translation>
+        <translation>Kontext1</translation>
     </message>
     <message>
         <source>Context2</source>
-        <translation>Context2</translation>
+        <translation>Kontext2</translation>
     </message>
     <message>
         <source>Context3</source>
-        <translation>Context3</translation>
+        <translation>Kontext3</translation>
     </message>
     <message>
         <source>Context4</source>
-        <translation>Context4</translation>
+        <translation>Kontext4</translation>
     </message>
     <message>
         <source>Call</source>
@@ -4202,7 +4210,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Hangul Hanja</source>
-        <translation>Hangul Hanja </translation>
+        <translation>Hangul Hanja</translation>
     </message>
     <message>
         <source>Hangul Jamo</source>
@@ -4507,11 +4515,11 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Application Data</source>
-        <translation>Dáta aplikácií</translation>
+        <translation>Údaje aplikácií</translation>
     </message>
     <message>
         <source>Cache</source>
-        <translation>Vyrovnávacia pamäť</translation>
+        <translation>Zásobník</translation>
     </message>
     <message>
         <source>Shared Data</source>
@@ -4519,7 +4527,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Runtime</source>
-        <translation>Runtime</translation>
+        <translation>Prebiehajúce</translation>
     </message>
     <message>
         <source>Configuration</source>
@@ -4527,7 +4535,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Shared Cache</source>
-        <translation>Zdielaná vyrovnávacia pamäť</translation>
+        <translation>Zdieľaný zásobník</translation>
     </message>
     <message>
         <source>Download</source>
@@ -4546,8 +4554,7 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translatorcomment>Žiadny spoločný predok pre ciele a zdroje prechodu zo stavu &apos;%1&apos;</translatorcomment>
-        <translation></translation>
+        <translation>Žiadny spoločný predok pre ciele a zdroj prechodu zo stavu &apos;%1&apos;</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -4740,11 +4747,11 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
-        <translation>&amp;Vložiť</translation>
+        <translation>&amp;Prilepiť</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Zmazať</translation>
+        <translation>Odstrániť</translation>
     </message>
     <message>
         <source>Select All</source>
@@ -4791,11 +4798,11 @@ Má sa prepísať?</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Pomocník</translation>
+        <translation>Pomoc</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Pomocník</translation>
+        <translation>&amp;Pomoc</translation>
     </message>
 </context>
 <context>
