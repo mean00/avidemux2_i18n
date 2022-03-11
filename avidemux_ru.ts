@@ -683,7 +683,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>T&amp;heme</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Тема</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -1135,7 +1135,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Reverse mouse _wheel for navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Обратить направление _колеса мыши при навигации</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1307,42 +1307,42 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>23.976 (Film)</source>
-        <translation type="unfinished"></translation>
+        <translation>23,976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>25 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>25 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.970 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>29,970 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>30</source>
-        <translation type="unfinished"></translation>
+        <translation>30</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>50 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>50 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>59.940 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>59,940 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>60</source>
-        <translation type="unfinished"></translation>
+        <translation>60</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Assign following standard frame rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Назначить следующее стандартной частотой кадров:</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1482,7 +1482,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Deblocking</source>
-        <translation type="unfinished"></translation>
+        <translation>Деблокинг</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
@@ -2563,7 +2563,7 @@ Is it running ?</source>
     <message>
         <location line="+2"/>
         <source>Add partialized filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить частичный фильтр</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3132,7 +3132,7 @@ Try anyway?</source>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
-        <translation>Отключены</translation>
+        <translation>Отключено</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
@@ -3467,7 +3467,7 @@ Try anyway?</source>
     <message>
         <location line="+1"/>
         <source>A-law</source>
-        <translation type="unfinished"></translation>
+        <translation>A-закон</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5513,95 +5513,95 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp" line="+50"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Apply cubic lookup table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Применить кубическую таблицу поиска.</translation>
     </message>
     <message>
         <location line="+72"/>
         <source>Width must match height</source>
-        <translation type="unfinished"></translation>
+        <translation>Ширина должна соответствовать высоте</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+2"/>
         <source>Invalid resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Недопустимое разрешение</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+72"/>
         <source>Invalid file size</source>
-        <translation type="unfinished"></translation>
+        <translation>Неверный размер файла</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File open error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка открытия файла</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File read error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка чтения файла</translation>
     </message>
     <message>
         <location line="-65"/>
         <source>Can&apos;t find decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно найти декодер</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Decoding error. Only 8-bit PNG files are supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка декодирования. Поддерживаются только 8-битные файлы PNG.</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+82"/>
         <source>Memory error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка памяти</translation>
     </message>
     <message>
         <location line="-12"/>
         <location line="+3"/>
         <location line="+6"/>
         <source>Malformed header</source>
-        <translation type="unfinished"></translation>
+        <translation>Неправильный заголовок</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Incomplete file</source>
-        <translation type="unfinished"></translation>
+        <translation>Неполный файл</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Invalid file</source>
-        <translation type="unfinished"></translation>
+        <translation>Неверный файл</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить HaldCLUT</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить Cube</translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+26"/>
         <source>Load failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка загрузки</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>LUT file is not specified!</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл LUT не указан!</translation>
     </message>
 </context>
 <context>
@@ -5609,22 +5609,22 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui" line="+14"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Маска</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить HaldCLUT</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Загрузить Cube</translation>
     </message>
 </context>
 <context>
@@ -6232,7 +6232,7 @@ Do you want to load it  ?
     <message>
         <location line="+76"/>
         <source>Green</source>
-        <translation>Зеленый</translation>
+        <translation>Зелёный</translation>
     </message>
     <message>
         <source>Show full preview</source>
@@ -6896,7 +6896,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+5"/>
         <source>Maximum Consecutive B-Frames:</source>
-        <translation>Макс. число последовательных B-кадров:</translation>
+        <translation>Максимум последовательных B-кадров:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6939,7 +6939,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Maximum Consecutive B-Frames:</source>
-        <translation>Макс. число последовательных B-кадров:</translation>
+        <translation>Максимум последовательных B-кадров:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -7631,7 +7631,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Maximum Consecutive B-Frames:</source>
-        <translation>Макс. число последовательных B-кадров:</translation>
+        <translation>Максимум последовательных B-кадров:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7759,7 +7759,7 @@ Start and/or end time would be out of range</source>
         <location line="+5"/>
         <source> VCD : only 44.1 khz audio accepted
 </source>
-        <translation>VCD: подходит только аудио 44.1 кГц
+        <translation>VCD: подходит только аудио 44,1 кГц
 </translation>
     </message>
     <message>
@@ -7933,7 +7933,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Maximum Consecutive B-Frames:</source>
-        <translation>Макс. число последовательных B-кадров:</translation>
+        <translation>Максимум последовательных B-кадров:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9565,7 +9565,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
         <source>Indexing Matroska Video Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Индексация видеодорожки Matroska</translation>
     </message>
 </context>
 <context>
@@ -9706,7 +9706,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+22"/>
         <location line="+21"/>
         <source>1: ITU-R BT.709</source>
-        <translation>1: ITU-R BT.709</translation>
+        <translation>1: МСЭ-R BT.709</translation>
     </message>
     <message>
         <location line="-42"/>
@@ -9730,7 +9730,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>5: ITU-R BT.470BG</source>
-        <translation>5: ITU-R BT.470BG</translation>
+        <translation>5: МСЭ-R BT.470BG</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9778,7 +9778,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>14: ITU-R BT.2100-0</source>
-        <translation>14: ITU-R BT.2100-0</translation>
+        <translation>14: МСЭ-R BT.2100-0</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -9834,7 +9834,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>12: ITU-R BT.1361 Extended Colour Gamut</source>
-        <translation>12: ITU-R BT.1361 Расширенная цветовая гамма</translation>
+        <translation>12: МСЭ-R BT.1361 Расширенная цветовая гамма</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9844,17 +9844,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>14: ITU-R BT.2020 10 bit</source>
-        <translation>14: ITU-R BT.2020 10 bit</translation>
+        <translation>14: МСЭ-R BT.2020 10 bit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>15: ITU-R BT.2020 12 bit</source>
-        <translation>15: ITU-R BT.2020 12 bit</translation>
+        <translation>15: МСЭ-R BT.2020 12 bit</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>16: ITU-R BT.2100 Perceptual Quantization</source>
-        <translation>16: ITU-R BT.2100 Перцептивное квантование</translation>
+        <translation>16: МСЭ-R BT.2100 Перцептивное квантование</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9869,17 +9869,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+7"/>
         <source>4: ITU-R BT.470M</source>
-        <translation>4: ITU-R BT.470M</translation>
+        <translation>4: МСЭ-R BT.470M</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5: ITU-R BT.470BG - BT.601 625</source>
-        <translation>5: ITU-R BT.470BG - BT.601 625</translation>
+        <translation>5: МСЭ-R BT.470BG - BT.601 625</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>6: ITU-R BT.601 525 - SMPTE 170M</source>
-        <translation>6: ITU-R BT.601 525 - SMPTE 170M</translation>
+        <translation>6: МСЭ-R BT.601 525 - SMPTE 170M</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9889,7 +9889,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>9: ITU-R BT.2020</source>
-        <translation>9: ITU-R BT.2020</translation>
+        <translation>9: МСЭ-R BT.2020</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10690,27 +10690,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+35"/>
         <source>Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат пикселей:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветовой диапазон:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Первичные цвета:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Transfer characteristics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Характеристики перехода:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color space:</source>
-        <translation type="unfinished"></translation>
+        <translation>Цветовое пространство:</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -10946,17 +10946,17 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+16"/>
         <source>Default theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартная тема</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Light theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Светлая тема</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dark theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Тёмная тема</translation>
     </message>
     <message>
         <location line="+597"/>
@@ -11325,12 +11325,12 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+348"/>
         <source>Can not add partial filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно добавить частичный фильтр</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A selection by markers has to be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Необходимо создать выборку с помощью меток.</translation>
     </message>
 </context>
 <context>
@@ -11386,88 +11386,88 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+20"/>
         <source>RGB, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Planar RGB, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Planar RGB, 8 бит</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>RGBA, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGBA, 8 бит</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>RGB, 5-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 5 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (NV12), 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (NV12), 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+2"/>
         <source>Packed YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Packed YUV 4:2:2, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:1:1, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:1:1, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Grayscale Y, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Grayscale Y, 8 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 10 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (P010), 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (P010), 10 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 10 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 12 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 10 бит</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 12 бит</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11476,188 +11476,188 @@ The current editing has been saved and will be reloaded at next start</source>
         <location line="+37"/>
         <location line="+31"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Неизвестно</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Limited (MPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограниченное (MPEG)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Full (JPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Полное (JPEG)</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+26"/>
         <location line="+39"/>
         <source>BT.709</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.709</translation>
     </message>
     <message>
         <location line="-63"/>
         <location line="+26"/>
         <source>BT.470 System M</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 System M</translation>
     </message>
     <message>
         <location line="-24"/>
         <source>BT.601 PAL</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 PAL</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>BT.601 NTSC</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 NTSC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Generic film</source>
-        <translation type="unfinished"></translation>
+        <translation>Generic film</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>XYZ</source>
-        <translation type="unfinished"></translation>
+        <translation>XYZ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>DCI P3</source>
-        <translation type="unfinished"></translation>
+        <translation>DCI P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Display P3</source>
-        <translation type="unfinished"></translation>
+        <translation>Display P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>EBU Tech. 3213</source>
-        <translation type="unfinished"></translation>
+        <translation>EBU Tech. 3213</translation>
     </message>
     <message>
         <location line="+11"/>
         <location line="+39"/>
         <source>BT.470 System B/G</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 System B/G</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>BT.601</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>SMPTE 240M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 240M</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Линейный</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (100:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Логарифмический (100:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (316.227:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Логарифмический (316.227:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>xvYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>xvYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.1361</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.1361</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>sRGB/sYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB/sYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (10-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (10 бит)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (12-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (12 бит)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>PQ</source>
-        <translation type="unfinished"></translation>
+        <translation>PQ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>SMPTE 428M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 428M</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>HLG</source>
-        <translation type="unfinished"></translation>
+        <translation>HLG</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>sRGB</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>FCC 73.682</source>
-        <translation type="unfinished"></translation>
+        <translation>FCC 73.682</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>YCgCo</source>
-        <translation type="unfinished"></translation>
+        <translation>YCgCo</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 non-constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 non-constant</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 constant</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Y&apos;D&apos;zD&apos;x</source>
-        <translation type="unfinished"></translation>
+        <translation>Y&apos;D&apos;zD&apos;x</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Chromaticity-derived non-constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Непостоянная, полученная из цветности</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Chromaticity-derived constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Постоянная, полученная из цветности</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>ICtCp</source>
-        <translation type="unfinished"></translation>
+        <translation>ICtCp</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -11899,22 +11899,22 @@ Ready.
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/quickfilter.ui" line="+20"/>
         <source>Add Partial Video Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить частичный видеофильтр</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;big&gt;&lt;b&gt;Доступные фильтры&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Type to narrow the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Начните писать, чтобы сузить список</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закрыть</translation>
     </message>
 </context>
 <context>
@@ -12482,7 +12482,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>If still combed</source>
-        <translation>Если  «гребень» остался</translation>
+        <translation>Если «гребень» остался</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13639,7 +13639,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-664"/>
         <source>1.1</source>
-        <translation></translation>
+        <translation>1.1</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -13649,7 +13649,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+5"/>
         <source>1.3</source>
-        <translation></translation>
+        <translation>1.3</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -16167,7 +16167,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1"/>
         <source>_Order:</source>
-        <translation>Порядок:</translation>
+        <translation>_Порядок:</translation>
     </message>
     <message>
         <location line="+3"/>
