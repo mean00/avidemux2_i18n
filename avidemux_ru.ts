@@ -1342,7 +1342,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>_Assign following standard frame rate:</source>
-        <translation>_Назначить следующее стандартной частотой кадров:</translation>
+        <translation>_Назначить следующую стандартную частоту кадров:</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -9565,7 +9565,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
         <source>Indexing Matroska Video Track</source>
-        <translation>Индексация видеодорожки Matroska</translation>
+        <translation>Индексация дорожки видео из Matroska</translation>
     </message>
 </context>
 <context>
@@ -10705,7 +10705,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+14"/>
         <source>Transfer characteristics:</source>
-        <translation>Характеристики перехода:</translation>
+        <translation>Функция преобразования:</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -11476,17 +11476,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <location line="+37"/>
         <location line="+31"/>
         <source>Unknown</source>
-        <translation>Неизвестно</translation>
+        <translation>Неизвестный</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Limited (MPEG)</source>
-        <translation>Ограниченное (MPEG)</translation>
+        <translation>Ограниченный (MPEG)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Full (JPEG)</source>
-        <translation>Полное (JPEG)</translation>
+        <translation>Полный (JPEG)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -11670,7 +11670,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <source>Audio (%n active track(s))</source>
         <translation>
             <numerusform>Аудио (%n включённая дорожка)</numerusform>
-            <numerusform>Аудио (%n включённой дорожки)</numerusform>
+            <numerusform>Аудио (%n включённые дорожки)</numerusform>
             <numerusform>Аудио (%n включённых дорожек)</numerusform>
         </translation>
     </message>
