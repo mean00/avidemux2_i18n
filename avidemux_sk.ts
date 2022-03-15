@@ -31,26 +31,26 @@
     <message>
         <location line="+3"/>
         <source>%sdifferent between first and this video stream</source>
-        <translation>%srozdiel medzi prvým a týmto video tokom</translation>
+        <translation>%s prvého a tohto videa je rozdielna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source> are </source>
-        <translation> sú </translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+0"/>
         <source> is </source>
-        <translation> je </translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+2"/>
         <source>You cannot mix different video dimensions yet. Using the partial video filter later, will not work around this problem. The workaround is:
 1.) &quot;resize&quot; / &quot;add border&quot; / &quot;crop&quot; each stream to the same resolution
 2.) concatenate them together</source>
-        <translation>Nemôžete zmiešať rozdielne rozmery videa. Pomocou čiastkového filtra videa sa neskôr tento problém nevyrieši. Tu je riešenie:
-1.) &quot;zmeniť veľkosť&quot; / &quot;pridať okraje&quot; / &quot;orezať&quot; každý tok na rovnaké rozlíšenie
-2.) spojiť ich dohromady</translation>
+        <translation>Nemôžete miešať videá s rozdielnymi rozmermi. Pomocou čiastkového filtra videa sa neskôr tento problém nevyrieši. Tu je riešenie:
+1.) použite &quot;zmena rozmerov&quot; / &quot;pridanie okrajov&quot; / &quot;orezanie&quot; pre každý prúd pri použití rovnakého rozlíšenia
+2.) spojte ich dokopy</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -536,7 +536,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+11"/>
         <source>T&amp;heme</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Motív</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -595,7 +595,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="-453"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Výstupné video&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Video výstup&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+86"/>
@@ -718,12 +718,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+23"/>
         <source>Backward one minute [CTRL+DOWN]</source>
-        <translation>Späť o 1 minútu [Ctrl+šípka dole]</translation>
+        <translation>Dozadu o jednu minútu [Ctrl+šípka dole]</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Forward one minute [CTRL+UP]</source>
-        <translation>Vpred o 1 minútu [Ctrl+šípka hore]</translation>
+        <translation>Dopredu o jednu minútu [Ctrl+šípka hore]</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -804,12 +804,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+583"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
-        <translation type="unfinished"></translation>
+        <translation>Prejsť na predchádzajúci bod rezu [SHIFT+šípka dole]</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Go to next cut point [SHIFT+UP]</source>
-        <translation type="unfinished"></translation>
+        <translation>Prejsť na ďalší bod rezu [SHIFT+šípka hore]</translation>
     </message>
     <message>
         <location line="+449"/>
@@ -834,7 +834,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+9"/>
         <source>&amp;Information...</source>
-        <translation>&amp;Informácia...</translation>
+        <translation>&amp;Informácie...</translation>
     </message>
     <message>
         <source>Alt+Return</source>
@@ -929,12 +929,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nástrojová lišta</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+B</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+B</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1040,7 +1040,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+10"/>
         <source>© 2001 - 2021  Mean / eumagga0x2a</source>
-        <translation type="unfinished"></translation>
+        <translation>© 2001 - 2021  Mean / eumagga0x2a</translation>
     </message>
     <message>
         <source>© 2001 - 2020  Mean / Eumagga0x2a</source>
@@ -1092,7 +1092,7 @@ Vypustiť časové údaje?</translation>
         <location line="+3"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/addBorder/ADM_vidAddBorder.h" line="+42"/>
         <source>Add Borders</source>
-        <translation>Pridať okraje</translation>
+        <translation>Pridanie okrajov</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1155,7 +1155,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+2"/>
         <source>Information</source>
-        <translation>&amp;Informácia</translation>
+        <translation>&amp;Informácie</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -1176,7 +1176,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Reset Edit</source>
-        <translation>&amp;Vynulovať úpravy</translation>
+        <translation>&amp;Vynulovať úpravu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1212,12 +1212,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Reset Marker A</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynulovať značku A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynulovať značku B</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1243,12 +1243,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>PostProcessing</source>
-        <translation>Následné spracovanie</translation>
+        <translation>Dodatočné spracovanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapovanie HDR tónov</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1259,7 +1259,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="-9"/>
         <source>Add partialized filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridať čiastočný filter</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1279,7 +1279,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+7"/>
         <source>Build Option</source>
-        <translation>&amp;Možnosti zostavy</translation>
+        <translation>&amp;Možnosti zostavenia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1294,12 +1294,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+12"/>
         <source>Previous Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Predchádzajúci bod rezu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next Cut Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Ďalší bod rezu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1329,42 +1329,42 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+2"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozadu o 1 sekundu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredu o 1 sekundu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozadu o 2 sekundy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredu o 2 sekundy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozadu o 4 sekundy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredu o 4 sekundy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Dozadu o jednu minútu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredu o jednu minútu</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1406,7 +1406,7 @@ Vypustiť časové údaje?</translation>
         <location line="+25"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+43"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="-24"/>
@@ -1730,7 +1730,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="-1"/>
         <source>The options above are effective only for software decoding</source>
-        <translation>Vyššie uvedené možnosti sú efektívne iba s dekódovaním softvéru</translation>
+        <translation>Vyššie uvedené možnosti sú efektívne iba so softvérovým dekódovaním</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1757,7 +1757,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+2"/>
         <source>Deblocking</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstránenie blokových artefaktov (deblocking)</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+68"/>
@@ -1802,7 +1802,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+10"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolením hardvérového dekódovania dôjde k vypnutiu multi-threadingu (viacvláknového spracovanie), na potvrdenie zmien je potrebné reštartovať aplikáciu</translation>
     </message>
     <message>
         <location line="-362"/>
@@ -1827,12 +1827,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Reverse mouse _wheel for navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť smer _kolieska myši pri navigácií</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
-        <translation type="unfinished"></translation>
+        <translation>_Prehodiť značky, ak je vo videu značka A nastavená za značkou B alebo značka B pred značkou A</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1892,22 +1892,22 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Enable SSE4</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť SSE4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE4.2</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť SSE4.2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť AVX</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX2</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť AVX2</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1917,7 +1917,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+3"/>
         <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Viacvláknové spracovanie je interne vypnuté, ak je zapnutá hardvérová akcelerácia, pre potvrdenie zmien reštartujte aplikáciu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1969,7 +1969,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+2"/>
         <source>Prioritisation</source>
-        <translation>Uprednostňovanie</translation>
+        <translation>Priority</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1979,7 +1979,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>De_lete first pass log files by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Š_tandardne odstraňovať protokolové súbory z prvého prechodu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1989,7 +1989,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>_Use custom fragment size for auto-append of MPEG-TS files</source>
-        <translation>_Pre automatické pripojenie súborov MPEG-TS použije vlastnú veľkosť fragmentu</translation>
+        <translation>_Pri automatickom pripájaní súborov MPEG-TS použiť vlastnú veľkosť fragmentu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1999,72 +1999,72 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+6"/>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Load sequentially named pictures in reverse order</source>
-        <translation type="unfinished"></translation>
+        <translation>_Načítať sekvenciu pomenovaných obrázkov v opačnom poradí</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>23.976 (Film)</source>
-        <translation type="unfinished"></translation>
+        <translation>23.976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>25 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>25 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.970 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>29.970 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>30</source>
-        <translation type="unfinished"></translation>
+        <translation>30</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>50 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>50 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>59.940 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>59.940 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>60</source>
-        <translation type="unfinished"></translation>
+        <translation>60</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Assign following standard frame rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Priradiť nasledujúcu štandarnú snímkovú frekvenciu:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Avisynth</source>
-        <translation type="unfinished"></translation>
+        <translation>Avisynth</translation>
     </message>
     <message>
         <location line="+187"/>
         <source>HDR</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR</translation>
     </message>
     <message>
         <location line="-3"/>
         <source>Default _tone mapping method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pred_volená metóda mapovania tónov:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Target peak luminance (nits):</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum cieľového jasu (cd/m2):</translation>
     </message>
     <message>
         <location line="-178"/>
@@ -2079,7 +2079,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Use _shared cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť _zdieľaný zásobník</translation>
     </message>
     <message>
         <source>XVideo (best)</source>
@@ -2190,7 +2190,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+2"/>
         <source>Default Postprocessing</source>
-        <translation>Východzie dodatočné spracovanie</translation>
+        <translation>Predvolené dodatočné spracovanie</translation>
     </message>
     <message>
         <location line="-64"/>
@@ -2210,7 +2210,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+6"/>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importovať</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2220,12 +2220,12 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+46"/>
         <source>Post-Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatočné spracovanie</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>_Limit Refresh Rate</source>
-        <translation>_Obmedziť obnovovací kmitočet</translation>
+        <translation>_Obmedziť obnovovaciu frekvenciu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2235,7 +2235,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+4"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazenie videa pomocou OpenGL a OpenGL filtre vyžadujú fungujúce a zapnuté OpenGL pri štarte aplikácie</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2270,23 +2270,23 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+12"/>
         <source>This renderer provides no hardware acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento vykresľovač nepodporuje hardvérovú akceleráciu</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>DXVA2</source>
-        <translation type="unfinished"></translation>
+        <translation>DXVA2</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+178"/>
         <source>OpenGL</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL</translation>
     </message>
     <message>
         <location line="-175"/>
         <source>LibVA</source>
-        <translation type="unfinished"></translation>
+        <translation>LibVA</translation>
     </message>
     <message>
         <location line="+262"/>
@@ -2622,7 +2622,7 @@ Napriek tomu pokračovať?</translation>
         <location line="+6"/>
         <source>This video uses non-IDR recovery points instead of IDR as keyframes. Picture reordering information in the video stream is not reset at non-IDR frames. The chosen start and end points of the cut may result in playback interruption due to reversed display order of frames if saved in copy mode.
 Proceed anyway?</source>
-        <translation>Toto video používa ako kľúčové snímky obnovovacie body bez IDR namiesto IDR. Informácie o zmene poradia obrázkov vo video toku sa nevynulujú v snímkach bez IDR. Zvolené začiatočné a koncové body rezu môžu mať za následok prerušenie prehrávania v dôsledku obráteného poradia zobrazovania snímok, ak sa uložia v režime kopírovania.
+        <translation>Toto video používa ako kľúčové snímky obnovovacie body bez IDR namiesto IDR. Informácie o zmene poradia obrázkov vo video prúde sa nevynulujú v snímkach bez IDR. Zvolené začiatočné a koncové body rezu môžu mať za následok prerušenie prehrávania v dôsledku obráteného poradia zobrazovania snímok, ak sa uložia v režime kopírovania.
 Napriek tomu pokračovať?</translation>
     </message>
     <message>
@@ -2705,7 +2705,7 @@ V ponuke Audio-&gt;Hlavná stopa vyberte tu aktívnu.</translation>
     <message>
         <location line="+106"/>
         <source>Something failed when appending</source>
-        <translation>Pri pripojovaní niečo zlyhalo</translation>
+        <translation>Počas pripájania sa niečo pokazilo</translation>
     </message>
     <message>
         <location line="+319"/>
@@ -3290,7 +3290,7 @@ Skúsiť to znovu?</translation>
     <message>
         <location line="+1"/>
         <source>GOP Size</source>
-        <translation>Veľkosť skupiny obrázkov</translation>
+        <translation>Veľkosť skupiny obrázkov (GOP)</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -3310,7 +3310,7 @@ Skúsiť to znovu?</translation>
     <message>
         <location line="+1"/>
         <source>Quantization Matrix</source>
-        <translation>Kvantifikačná matrica</translation>
+        <translation>Kvantifikačná matica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3425,7 +3425,7 @@ Skúsiť to znovu?</translation>
     <message>
         <location line="+1"/>
         <source>WMA Lossless</source>
-        <translation type="unfinished"></translation>
+        <translation>WMA bezstratové</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3495,7 +3495,7 @@ Skúsiť to znovu?</translation>
     <message>
         <location line="+1"/>
         <source>A-law</source>
-        <translation type="unfinished"></translation>
+        <translation>A-law</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3515,7 +3515,7 @@ Skúsiť to znovu?</translation>
     <message>
         <location line="+1"/>
         <source>TrueHD</source>
-        <translation type="unfinished"></translation>
+        <translation>TrueHD</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3707,51 +3707,51 @@ Installation mismatch</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
         <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ak zmeníte jednu z vyššie uvedených možností, editor skočí na najbližšiu predchádzajúcu kľúčovú snímku.</translation>
     </message>
     <message>
         <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
-        <translation type="unfinished"></translation>
+        <translation>Rýchle YUV</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Orezanie RGB</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Reinhard</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Hable</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Hable</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>_Tone mapping:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Mapovanie tónov:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Saturation:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Nasýtenie:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
-        <translation type="unfinished"></translation>
+        <translation>_Zosilnenie (násobič úrovní):</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynulovať</translation>
     </message>
 </context>
 <context>
@@ -3785,12 +3785,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/ADM_vidAnalyzer.cpp" line="+32"/>
         <source>Analyzer</source>
-        <translation type="unfinished"></translation>
+        <translation>Analýza</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Null filter. Vectorscope, Waveform scopes and Histograms in Preview.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nulový filter. Vektorová sonda, zobrazenie kriviek a histogramov v náhľade.</translation>
     </message>
 </context>
 <context>
@@ -3798,7 +3798,7 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui" line="+14"/>
         <source>Analyzer</source>
-        <translation type="unfinished"></translation>
+        <translation>Analýza</translation>
     </message>
 </context>
 <context>
@@ -3806,12 +3806,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCartoon/ADM_vidArtCartoon.cpp" line="+44"/>
         <source>Cartoon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kresba</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portované od frei0ra.</translation>
     </message>
 </context>
 <context>
@@ -3819,22 +3819,22 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCartoon/qt4/artCartoon.ui" line="+14"/>
         <source>Cartoon</source>
-        <translation type="unfinished"></translation>
+        <translation>Kresba</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozptyl</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Color level</source>
-        <translation type="unfinished"></translation>
+        <translation>Úroveň farby</translation>
     </message>
 </context>
 <context>
@@ -3842,12 +3842,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/ADM_vidArtCharcoal.cpp" line="+41"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Uhlík / Tabuľa</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from MLT.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portované z MLT.</translation>
     </message>
 </context>
 <context>
@@ -3855,32 +3855,32 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/artCharcoal.ui" line="+14"/>
         <source>Charcoal / Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Uhlík / Tabuľa</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Intensity</source>
-        <translation type="unfinished"></translation>
+        <translation>Intenzita</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Farba</translation>
     </message>
     <message>
         <location line="+29"/>
         <source>Vertical scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvislý rozptyl</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Horizontal scatter</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovný rozptyl</translation>
     </message>
     <message>
         <location line="+66"/>
         <source>Chalkboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabuľa</translation>
     </message>
 </context>
 <context>
@@ -3888,12 +3888,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/ADM_vidArtChromaHold.cpp" line="+41"/>
         <source>Chroma Hold</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponechanie farebnosti</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Monochrome effect with kept color(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Monochromatický efekt s ponechanou farbou/farbami.</translation>
     </message>
 </context>
 <context>
@@ -3901,37 +3901,37 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaHold/qt4/artChromaHold.ui" line="+14"/>
         <source>Chroma Hold</source>
-        <translation type="unfinished"></translation>
+        <translation>Ponechanie farebnosti</translation>
     </message>
     <message>
         <location line="+97"/>
         <source>Tertiary</source>
-        <translation type="unfinished"></translation>
+        <translation>Terciálna</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Secondary</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekundárna</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Primary</source>
-        <translation type="unfinished"></translation>
+        <translation>Primárna</translation>
     </message>
     <message>
         <location line="+108"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdialenosť</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Cutoff slope</source>
-        <translation type="unfinished"></translation>
+        <translation>Orezanie nábehu</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Pick Chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte farebnosť</translation>
     </message>
 </context>
 <context>
@@ -3939,17 +3939,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/ADM_vidArtChromaKey.cpp" line="+42"/>
         <source>Chroma Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Kľúčovanie farbou</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Replace &quot;green screen&quot; with an image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nahradí &quot;zelené plátno&quot; obrázkom.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+287"/>
         <source>Select Background Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte obrázok s pozadím</translation>
     </message>
 </context>
 <context>
@@ -3957,72 +3957,72 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/artChromaKey.ui" line="+14"/>
         <source>Chroma Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Kľúčovanie farbou</translation>
     </message>
     <message>
         <location line="+49"/>
         <source>Primary</source>
-        <translation type="unfinished"></translation>
+        <translation>Primárna</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>Tertiary</source>
-        <translation type="unfinished"></translation>
+        <translation>Terciálna</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Secondary</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekundárna</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Cutoff slope</source>
-        <translation type="unfinished"></translation>
+        <translation>Odrezať nábeh</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Pick Chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte farebnosť</translation>
     </message>
     <message>
         <location line="+54"/>
         <source>Select image</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte obrázok</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Show calibration background</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte pozadie na kalibráciu</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>No spill control</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez kontroly rozliatia</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Weighted alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Vážená alfa</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>AVG alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>AVG alfa</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>RMS alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>RMS alfa</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>MIN alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>MIN alfa</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Distance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vzdialenosť</translation>
     </message>
 </context>
 <context>
@@ -4030,12 +4030,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/ADM_vidArtColorEffect.cpp" line="+33"/>
         <source>Color Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Farebný efekt</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portované od frei0ra.</translation>
     </message>
 </context>
 <context>
@@ -4043,92 +4043,92 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artColorEffect/qt4/artColorEffect.ui" line="+14"/>
         <source>Color Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Farebný efekt</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Efekt</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Sepia</source>
-        <translation type="unfinished"></translation>
+        <translation>Sépia</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vivid</source>
-        <translation type="unfinished"></translation>
+        <translation>Živé (Vivid)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>RGB</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Heat</source>
-        <translation type="unfinished"></translation>
+        <translation>Žiara</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Radium</source>
-        <translation type="unfinished"></translation>
+        <translation>Rádium</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Red-green</source>
-        <translation type="unfinished"></translation>
+        <translation>Červeno-zelená</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Monochrome</source>
-        <translation type="unfinished"></translation>
+        <translation>Monochromatické</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Old photo</source>
-        <translation type="unfinished"></translation>
+        <translation>Stará fotografia</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Night vision</source>
-        <translation type="unfinished"></translation>
+        <translation>Nočné videnie</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>X-ray</source>
-        <translation type="unfinished"></translation>
+        <translation>Röntgen</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Shades</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiene</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>XPRO</source>
-        <translation type="unfinished"></translation>
+        <translation>XPRO</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Yellow-blue</source>
-        <translation type="unfinished"></translation>
+        <translation>Žlto-modrá</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Yellow-bluish</source>
-        <translation type="unfinished"></translation>
+        <translation>Žlto-modravá</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Chrome</source>
-        <translation type="unfinished"></translation>
+        <translation>Farebnosť</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Esses</source>
-        <translation type="unfinished"></translation>
+        <translation>Esíčka</translation>
     </message>
 </context>
 <context>
@@ -4136,12 +4136,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/ADM_vidArtDynThreshold.cpp" line="+41"/>
         <source>Dynamic Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamický prah</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Adaptive luma thresholding </source>
-        <translation type="unfinished"></translation>
+        <translation>Adaptívny prah jasu </translation>
     </message>
 </context>
 <context>
@@ -4149,17 +4149,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artDynThreshold/qt4/artDynThreshold.ui" line="+14"/>
         <source>Dynamic Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Dynamický prah</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Úrovne</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Posun</translation>
     </message>
 </context>
 <context>
@@ -4167,12 +4167,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artGrid/ADM_vidArtGrid.cpp" line="+35"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Mriežka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Video wall effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Efekt videosteny.</translation>
     </message>
 </context>
 <context>
@@ -4180,17 +4180,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/artGrid.ui" line="+14"/>
         <source>Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Mriežka</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Grid size</source>
-        <translation type="unfinished"></translation>
+        <translation>Jemnosť mriežky</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Roll previous frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvinúť predchádzajúce snímky</translation>
     </message>
 </context>
 <context>
@@ -4198,12 +4198,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.cpp" line="+41"/>
         <source>Mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrkadlenie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mirror horizontally or vertically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvislé alebo vodorovné zrkadlenie.</translation>
     </message>
 </context>
 <context>
@@ -4211,32 +4211,32 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui" line="+14"/>
         <source>Mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrkadlenie</translation>
     </message>
     <message>
         <location line="+87"/>
         <source>Displacement</source>
-        <translation type="unfinished"></translation>
+        <translation>Posunutie</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Horizontal - keep left</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovné - zachovať ľavý</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Horizontal - keep right</source>
-        <translation type="unfinished"></translation>
+        <translation>Vodorovné - zachovať pravý</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vertical - keep top</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvislé - zachovať vrchný</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vertical - keep bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvislé - zachovať spodný</translation>
     </message>
 </context>
 <context>
@@ -4244,12 +4244,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/ADM_vidArtPixelize.cpp" line="+59"/>
         <source>Pixelize</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixelizovať</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pixelize image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozštvorčekuje obraz.</translation>
     </message>
 </context>
 <context>
@@ -4257,17 +4257,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPixelize/qt4/artPixelize.ui" line="+14"/>
         <source>Pixelize</source>
-        <translation type="unfinished"></translation>
+        <translation>Štvorčekovať</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Pixel size</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľkosť štvorčekov</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
 </context>
 <context>
@@ -4275,12 +4275,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/ADM_vidArtPosterize.cpp" line="+44"/>
         <source>Posterize</source>
-        <translation type="unfinished"></translation>
+        <translation>Posterizácia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Portované od frei0ra.</translation>
     </message>
 </context>
 <context>
@@ -4288,12 +4288,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/qt4/artPosterize.ui" line="+14"/>
         <source>Posterize</source>
-        <translation type="unfinished"></translation>
+        <translation>Posterizácia</translation>
     </message>
     <message>
         <location line="+62"/>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Úrovne</translation>
     </message>
 </context>
 <context>
@@ -4301,12 +4301,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/ADM_vidArtVHS.cpp" line="+39"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>VHS effect. Most authentic at lower resolutions.</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS efekt. Najuveriteľnejší je pri nízkych rozlíšeniach.</translation>
     </message>
 </context>
 <context>
@@ -4314,42 +4314,42 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVHS/qt4/artVHS.ui" line="+14"/>
         <source>VHS</source>
-        <translation type="unfinished"></translation>
+        <translation>VHS</translation>
     </message>
     <message>
         <location line="+132"/>
         <source>Luma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka pásma svetelnej zložky</translation>
     </message>
     <message>
         <location line="-90"/>
         <source>Chroma bandwidth</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka pásma farebnej zložky</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Sync error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba synchronizácie</translation>
     </message>
     <message>
         <location line="-76"/>
         <source>Use zero delay filter for chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť dvojité filtrovanie farebnosti</translation>
     </message>
     <message>
         <location line="-14"/>
         <source>Use zero delay filter for luma</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť dvojité filtrovanie jasu</translation>
     </message>
     <message>
         <location line="+70"/>
         <source>Sync error filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter chýb synchronizácie</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Šum</translation>
     </message>
 </context>
 <context>
@@ -4357,12 +4357,12 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/ADM_vidArtVignette.cpp" line="+43"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinetácia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lens vignetting effect, ported from frei0r.</source>
-        <translation type="unfinished"></translation>
+        <translation>Efekt vinetácie šošovky, portované od frei0ora.</translation>
     </message>
 </context>
 <context>
@@ -4370,22 +4370,22 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artVignette/qt4/artVignette.ui" line="+14"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinetácia</translation>
     </message>
     <message>
         <location line="+73"/>
         <source>Size of the unaffected center</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľkosť neovplyvneného stredu</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>Softness</source>
-        <translation type="unfinished"></translation>
+        <translation>Sila</translation>
     </message>
     <message>
         <location line="-23"/>
         <source>Aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomer strán</translation>
     </message>
 </context>
 <context>
@@ -4393,7 +4393,7 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/asciiView/ADM_vidAscii.cpp" line="+64"/>
         <source>Ascii View</source>
-        <translation>Zobraziť Ascii znaky</translation>
+        <translation>Zobrazenie Ascii znakov</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4444,17 +4444,17 @@ Installation mismatch</source>
     <message>
         <location line="+127"/>
         <source>High quality block filtering</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysokokvalitné blokové filtrovanie</translation>
     </message>
     <message>
         <location line="-96"/>
         <source>Adaptive strength</source>
-        <translation type="unfinished"></translation>
+        <translation>Adaptívna sila</translation>
     </message>
     <message>
         <location line="+85"/>
         <source>Block adaptive</source>
-        <translation type="unfinished"></translation>
+        <translation>Adaptívny blok</translation>
     </message>
     <message>
         <source>Strength</source>
@@ -4618,22 +4618,22 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerAvi/muxerAviConfig.cpp" line="+25"/>
         <source>AVI</source>
-        <translation type="unfinished"></translation>
+        <translation>AVI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticky</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start as legacy AVI and switch to OpenDML mode when approaching the 4 GiB file size limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Začať ako legacy AVI a prepnúť do režimu OpenDML, keď sa priblížite ku 4 GiB limitu veľkosti súboru</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OpenDML</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenDML</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -4791,7 +4791,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/ADM_vidBlackBorder.h" line="+43"/>
         <source>Blacken Borders</source>
-        <translation>Začiernené okraje</translation>
+        <translation>Začiernenie okrajov</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4805,7 +4805,7 @@ Táto správa sa znova nezobrazí.</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt4/blackenBorders.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blackenBorder/qt5/blackenBorders.ui" line="+14"/>
         <source>Blacken Borders</source>
-        <translation>Začiernené okraje</translation>
+        <translation>Začierniť okraje</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -4864,7 +4864,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blend/ADM_vidBlendFrames.cpp" line="+50"/>
         <source>Blend Frames</source>
-        <translation>Snímky zmiešavania</translation>
+        <translation>Zmiešanie snímok</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4887,12 +4887,12 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blur/ADM_vidBlur.cpp" line="+44"/>
         <source>Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozostrenie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Blur selected area.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozostrí vybranú oblasť.</translation>
     </message>
 </context>
 <context>
@@ -4900,52 +4900,52 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/blur/qt4/blur.ui" line="+14"/>
         <source>Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozostriť</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>radius</source>
-        <translation type="unfinished"></translation>
+        <translation>polomer</translation>
     </message>
     <message>
         <location line="+46"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vľavo:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hore:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dole:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vpravo:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skryť gumičku</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Box blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Štvorcové rozostrenie</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Near Gaussian</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaussove</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Gaussian 2 pass</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaussove 2 prechody</translation>
     </message>
 </context>
 <context>
@@ -4983,7 +4983,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+32"/>
         <source>Change FPS</source>
-        <translation>Zmeniť snímkovú frekvenciu</translation>
+        <translation>Zmena snímkovej frekvencie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5062,22 +5062,22 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/ADM_vidColorBalance.cpp" line="+42"/>
         <source>Color balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyváženie farieb</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Adjust shadow, midtone and highlight.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraví tiene, stredné tóny a svetlá.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
         <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhľad na rozsahy</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobrazí tiene, stredné tóny a svetlé oblasti čiernou, šedou a bielou farbou</translation>
     </message>
 </context>
 <context>
@@ -5085,36 +5085,36 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/colorBalance.ui" line="+20"/>
         <source>Color balance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyváženie farieb</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Highlight</source>
-        <translation type="unfinished"></translation>
+        <translation>Svetlá</translation>
     </message>
     <message>
         <location line="+60"/>
         <location line="+132"/>
         <location line="+106"/>
         <source>Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Nasýtenie</translation>
     </message>
     <message>
         <location line="-199"/>
         <location line="+106"/>
         <location line="+106"/>
         <source>Chroma shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Posun farebnosti</translation>
     </message>
     <message>
         <location line="-202"/>
         <source>Shadow</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiene</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>Midtone</source>
-        <translation type="unfinished"></translation>
+        <translation>Stredné tóny</translation>
     </message>
 </context>
 <context>
@@ -5122,12 +5122,12 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/ADM_vidColorTemp.cpp" line="+41"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Teplota farieb</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Adjust color temperature.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraví teplotu farieb.</translation>
     </message>
 </context>
 <context>
@@ -5135,17 +5135,17 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorTemp/qt4/colorTemp.ui" line="+14"/>
         <source>Color Temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Teplota farieb</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Color temperature</source>
-        <translation type="unfinished"></translation>
+        <translation>Teplota farieb</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Chroma shift angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Uhol posunu farebnosti</translation>
     </message>
 </context>
 <context>
@@ -5178,7 +5178,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5350,12 +5350,12 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+0"/>
         <source>Process luma plane</source>
-        <translation>Spracovanie roviny jasu</translation>
+        <translation>Spracovať zložku jasu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>P_rocess chroma</source>
-        <translation>Priebeh _farebnej zložky</translation>
+        <translation>Spracovať _farebnú zložku</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5395,7 +5395,7 @@ Chcete ho načítať?
     <message>
         <location line="+1"/>
         <source>Crop filter</source>
-        <translation>Filter orezávania</translation>
+        <translation>Filter orezania.</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -5420,7 +5420,7 @@ Chcete ho načítať?
     <message>
         <location line="-236"/>
         <source>Auto Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatické orezanie</translation>
     </message>
 </context>
 <context>
@@ -5479,52 +5479,52 @@ Chcete ho načítať?
         <location line="+46"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Nezamykať</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuálny výber</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdroj</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>21:9</source>
-        <translation type="unfinished"></translation>
+        <translation>21:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>18:9</source>
-        <translation type="unfinished"></translation>
+        <translation>18:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1:1</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>9:16</source>
-        <translation type="unfinished"></translation>
+        <translation>9:16</translation>
     </message>
     <message>
         <location line="-130"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uzamknúť pomer strán:</translation>
     </message>
 </context>
 <context>
@@ -5532,95 +5532,95 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp" line="+50"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Apply cubic lookup table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť kubickú vyhľadávaciu tabuľku.</translation>
     </message>
     <message>
         <location line="+72"/>
         <source>Width must match height</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka musí sedieť s výškou</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+2"/>
         <source>Invalid resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatné rozlíšenie</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+72"/>
         <source>Invalid file size</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatná veľkosť súboru</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File open error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba pri otváraní súboru</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File read error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba pri čítaní súboru</translation>
     </message>
     <message>
         <location line="-65"/>
         <source>Can&apos;t find decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodarilo sa nájsť dekodér</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Decoding error. Only 8-bit PNG files are supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba dekódovania. Podporované sú iba 8-bitové PNG súbory.</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+82"/>
         <source>Memory error</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba pamäte</translation>
     </message>
     <message>
         <location line="-12"/>
         <location line="+3"/>
         <location line="+6"/>
         <source>Malformed header</source>
-        <translation type="unfinished"></translation>
+        <translation>Poškodená hlavička</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Incomplete file</source>
-        <translation type="unfinished"></translation>
+        <translation>Neúplný súbor</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Invalid file</source>
-        <translation type="unfinished"></translation>
+        <translation>Neplatný súbor</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať HaldCLUT</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať Cube</translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+26"/>
         <source>Load failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba pri načítavaní</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>LUT file is not specified!</source>
-        <translation type="unfinished"></translation>
+        <translation>LUT súbor nie je zadaný!</translation>
     </message>
 </context>
 <context>
@@ -5628,22 +5628,22 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui" line="+14"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Maska</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať HaldCLUT</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať Cube</translation>
     </message>
 </context>
 <context>
@@ -5664,12 +5664,12 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
         <source>Deband</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reduce banding artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmierniť efekt debandingu.</translation>
     </message>
 </context>
 <context>
@@ -5677,22 +5677,22 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
         <source>Deband</source>
-        <translation type="unfinished"></translation>
+        <translation>Debanding</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>Chroma threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah farebnosti</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Luma threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah jasu</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozsah</translation>
     </message>
 </context>
 <context>
@@ -5791,77 +5791,77 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/ADM_vidDelogoHQ.cpp" line="+44"/>
         <source>DelogoHQ</source>
-        <translation type="unfinished"></translation>
+        <translation>DelogoHQ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Clean up arbitrary shaped logo.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstráni logo akéhokoľvek tvaru.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/DIA_flyDelogoHQ.cpp" line="+41"/>
         <source>The selected image has different width/height.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybraný obrázok má rozdielnu šírku/výšku.</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Save failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Uloženie skončilo s chybou!</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+105"/>
         <source>Find a frame in the preview with the logo clearly visible and not blending into the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavte v náhľade snímku s jasne viditeľným logom, ktoré je možné ľahko odlíšiť od pozadia.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Save this frame as a PNG image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložte túto snímku ako obrázok PNG.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Use an appropriate image editor to paint the area of the logo of any shape white and everything else solid black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použite vhodný editor obrázkov a vyfarbite oblasť loga bielou farbou, všetko ostatné bude čierne.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>This black and white image will serve as a mask where white pixels correspond to the logo to be removed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento čiernobiely obrázok poslúži ako maska, kde biele pixely zodpovedajúce logu budú odstránené.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>If the logo has fully transparent areas, it is recommended to exclude them from the mask by making them black.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ak logo obsahuje priesvitné oblasti, odporúčame vám ich z masky odstrániť tak, že ich prefarbíte načierno.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Load the mask image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať obrázok s maskou.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Note: To remove multiple distant logos (e.g. opposite corners), using separate filter instances for each logo will be much faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Poznámka: Pre odstránenie viacerých log vzdialených ďalej od seba (napr. v protiľahlých rohoch), bude použitie samostatnej inštancie pre každé jednotlivé logo oveľa rýchlejsie.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>How to use DelogoHQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako použiť DelogoHQ</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Save selected frame...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložiť vybranú snímku...</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Load mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať masku</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Load failed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítanie skončilo s chybou!</translation>
     </message>
 </context>
 <context>
@@ -5869,37 +5869,37 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/delogoHQ.ui" line="+14"/>
         <source>DelogoHQ</source>
-        <translation type="unfinished"></translation>
+        <translation>DelogoHQ</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Maska</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Save current frame...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložiť aktuálnu snímku...</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Load mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Načítať masku</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Post-processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatočné spracovanie</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozostriť</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>Gradient</source>
-        <translation type="unfinished"></translation>
+        <translation>Prechod</translation>
     </message>
 </context>
 <context>
@@ -5978,12 +5978,12 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/dummy/dummyVideoFilter.cpp" line="+44"/>
         <source>Dummy</source>
-        <translation>Zdanlivý</translation>
+        <translation>Nulový</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Null filter, it does nothing at all.</source>
-        <translation>Nulový filter, nič to nerobí.</translation>
+        <translation>Nulový filter, vôbec nič nerobí.</translation>
     </message>
 </context>
 <context>
@@ -5991,12 +5991,12 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerDummy/ADM_dummy.cpp" line="+28"/>
         <source>Simulated muxing</source>
-        <translation type="unfinished"></translation>
+        <translation>Simulované zmiešavanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>(None)</source>
-        <translation type="unfinished"></translation>
+        <translation>(Žiadne)</translation>
     </message>
 </context>
 <context>
@@ -6030,7 +6030,7 @@ Chcete ho načítať?
         <location line="+296"/>
         <location line="+21"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="-310"/>
@@ -6085,12 +6085,12 @@ Chcete ho načítať?
     <message>
         <location line="+24"/>
         <source>Delete first pass log files</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstrániť protokolové súbory z prvého prechodu</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Output File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Výstupný súbor:</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -6241,7 +6241,7 @@ Chcete ho načítať?
     <message>
         <location line="+7"/>
         <source>Initial</source>
-        <translation>Východzia</translation>
+        <translation>Predvolená</translation>
     </message>
     <message>
         <location line="-69"/>
@@ -6277,39 +6277,39 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.cpp" line="+38"/>
         <source>Fade from first image</source>
-        <translation type="unfinished"></translation>
+        <translation>Prechod z prvého obrázka</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use image at start time for fading.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť obrázok na začiatku prechodu.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _štartu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _konca:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+76"/>
         <location line="+19"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="-16"/>
         <location line="+22"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
 </context>
 <context>
@@ -6317,97 +6317,97 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui" line="+14"/>
         <source>Fade from first image</source>
-        <translation type="unfinished"></translation>
+        <translation>Prechod z prvého obrázka</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaviť zo značiek A-B</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Efekt:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Linear blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineárne zmiešať</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Slide</source>
-        <translation type="unfinished"></translation>
+        <translation>Odkryť</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Wipe</source>
-        <translation type="unfinished"></translation>
+        <translation>Prekryť</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>Odsunúť</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Luma dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozpustiť jas</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Inverse luma dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozpustiť jas (inv)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Static random dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhodne rozpustiť (statické)</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Dynamic random dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhodne rozpustiť (dynamické)</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Hore</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Doprava</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Dole</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Doľava</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Start preview play before time scope, if you see green.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustite prehrávanie ukážky pred časovým ohraničením, ak vidíte zelenú.</translation>
     </message>
 </context>
 <context>
@@ -6416,50 +6416,50 @@ Chcete ho načítať?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeIn.cpp" line="+24"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
         <source>Fade in</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjavovanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade in from color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjavovanie z farby.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeOut.cpp" line="+24"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+2"/>
         <source>Fade out</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytrácanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade out to color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytrácanie do farby.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _štartu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _konca:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+99"/>
         <location line="+29"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="-26"/>
         <location line="+32"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
 </context>
 <context>
@@ -6467,32 +6467,32 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/fadeInOut.ui" line="+14"/>
         <source>Fade in/out</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjavovanie/Vytrácanie</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaviť zo značiek A-B</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Pick color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte farbu:</translation>
     </message>
 </context>
 <context>
@@ -6500,72 +6500,73 @@ Chcete ho načítať?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
-        <translation type="unfinished"></translation>
+        <translation>Prelínanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade through combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prelínať cez kombináciu viacerých efektov.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _štartu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas _konca:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Not possible!
 Start and/or end time would be out of range</source>
-        <translation type="unfinished"></translation>
+        <translation>Toto sa nedá!
+Čas štartu a/alebo koncu je mimo rozsahu</translation>
     </message>
     <message>
         <location line="+170"/>
         <location line="+186"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="-183"/>
         <location line="+196"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
     <message>
         <location line="-5"/>
         <source>Center: </source>
-        <translation type="unfinished"></translation>
+        <translation>Stred: </translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
         <source>Fade in</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjavovanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade in from combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zjavovanie z kombinácie viacerých efektov.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
         <source>Fade out</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytrácanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade out to combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vytrácanie do kombinácie viacerých efektov.</translation>
     </message>
 </context>
 <context>
@@ -6573,43 +6574,43 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/fadeThrough.ui" line="+20"/>
         <source>Fade through</source>
-        <translation type="unfinished"></translation>
+        <translation>Prelínať</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Časové ohraničenie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Center: </source>
-        <translation type="unfinished"></translation>
+        <translation>Stred: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuálne zadanie času</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaviť zo značiek A-B</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set center as A marker, duration is 2×|A-B|</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaviť stred ako značku A, trvanie je 2x|A-B|</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+19"/>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Jas</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -6620,7 +6621,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+131"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť</translation>
     </message>
     <message>
         <location line="-790"/>
@@ -6631,7 +6632,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Transient</source>
-        <translation type="unfinished"></translation>
+        <translation>Prechod</translation>
     </message>
     <message>
         <location line="-896"/>
@@ -6642,7 +6643,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Raised cosine</source>
-        <translation type="unfinished"></translation>
+        <translation>Stúpajúci kosínus</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -6653,7 +6654,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrchol</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -6664,7 +6665,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvadratický</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -6675,7 +6676,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Inverse quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>Inverzne kvadratický</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -6685,7 +6686,7 @@ Start and/or end time would be out of range</source>
         <location line="+257"/>
         <location line="+200"/>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponenciálny</translation>
     </message>
     <message>
         <location line="-902"/>
@@ -6696,69 +6697,69 @@ Start and/or end time would be out of range</source>
         <location line="+131"/>
         <location line="+200"/>
         <source>duration</source>
-        <translation type="unfinished"></translation>
+        <translation>trvanie</translation>
     </message>
     <message>
         <location line="-880"/>
         <location line="+19"/>
         <source>Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Nasýtenie</translation>
     </message>
     <message>
         <location line="+109"/>
         <source>Color blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Miešanie farieb</translation>
     </message>
     <message>
         <location line="+31"/>
         <location line="+582"/>
         <source>Pick color</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyberte farbu</translation>
     </message>
     <message>
         <location line="-516"/>
         <source>Peak amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Úroveň v maxime</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozostrenie</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Blur radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Polomer rozostrenia</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Otočiť</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Peak angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Uhol v špičke</translation>
     </message>
     <message>
         <location line="+107"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Peak zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie v špičke</translation>
     </message>
     <message>
         <location line="+112"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinetácia</translation>
     </message>
     <message>
         <location line="+97"/>
         <source>Peak opening</source>
-        <translation type="unfinished"></translation>
+        <translation>Úvodná špička</translation>
     </message>
 </context>
 <context>
@@ -6767,12 +6768,12 @@ Start and/or end time would be out of range</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeTo/ADM_vidFadeTo.cpp" line="+59"/>
         <location line="+23"/>
         <source>Fade</source>
-        <translation>Vytrácanie</translation>
+        <translation>Zjavovanie/Vytrácanie</translation>
     </message>
     <message>
         <location line="-22"/>
         <source>Fade.</source>
-        <translation>Vytrácanie obrazu.</translation>
+        <translation>Zjavovanie/Vytrácanie obrazu.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -6816,12 +6817,12 @@ Start and/or end time would be out of range</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeToBlack/ADM_vidFade.cpp" line="+55"/>
         <location line="+20"/>
         <source>Fade to black</source>
-        <translation>Zčernanie</translation>
+        <translation>Vytrácanie do čiernej</translation>
     </message>
     <message>
         <location line="-19"/>
         <source>Fade to black in/out.</source>
-        <translation>Zčernanie od/do.</translation>
+        <translation>Vytratiť do čiernej od/do.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -7022,7 +7023,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+5"/>
         <source>Default</source>
-        <translation>Východzie</translation>
+        <translation>Predvolené</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7147,7 +7148,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Matrices:</source>
-        <translation>Matrice:</translation>
+        <translation>Matice:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7363,7 +7364,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMsMpeg4/ADM_ffMsMp4.cpp" line="+224"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7539,52 +7540,52 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-26"/>
         <source>Constant Quantizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Konštantný kvantifikátor</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Predvolený</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Slow</source>
-        <translation type="unfinished"></translation>
+        <translation>Pomalý</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Stredný</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fast</source>
-        <translation type="unfinished"></translation>
+        <translation>Rýchly</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>High Performance</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysoký výkon</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Low Latency (HP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nízka odozva (HP)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Lossless</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezstratové</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lossless (HP)</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezstratové (HP)</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Main10</source>
-        <translation type="unfinished"></translation>
+        <translation>Main10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7594,7 +7595,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+5"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Vypnuté</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7604,7 +7605,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+2"/>
         <source>Middle</source>
-        <translation type="unfinished"></translation>
+        <translation>Stredný</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7624,7 +7625,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Use B-Frames as References:</source>
-        <translation type="unfinished"></translation>
+        <translation>Použiť B snímky ako referencie:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7654,42 +7655,42 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+2"/>
         <source>Lookahead:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredné vyhľadávanie:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>AQ Strength:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sila AQ:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Spatial AQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Priestorová AQ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Temporal AQ</source>
-        <translation type="unfinished"></translation>
+        <translation>Dočasná AQ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Weighted Prediction</source>
-        <translation type="unfinished"></translation>
+        <translation>Predvídanie záťaže</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Even with HEVC encoding support present, lossless presets and B-frames may be unavailable with older hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>Napriek dostupnosti enkódovacích predvolieb HEVC nemusia byť predvoľby bezstratového enkódovania a B-snímkov dostupné na staršom hardvéri</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Even with H.264 encoding support present, lossless presets may be unavailable with older hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>Napriek dostupnosti enkódovacích predvolieb H.264 nemusia byť predvoľby bezstratového enkódovania a B-snímkov dostupné na staršom hardvéri</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Lookahead and Adaptive Quantization may be unavailable with older hardware</source>
-        <translation type="unfinished"></translation>
+        <translation>Dopredné vyhľadávanie a adaptívna kvantizácia (AQ) nemusí byť dostupná na staršom hardvéri</translation>
     </message>
     <message>
         <source>2-Pass Mode</source>
@@ -7712,12 +7713,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+26"/>
         <source>Basic Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Základné nastavenia</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozšírené nastavenia</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7811,7 +7812,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Allow non compliant stream</source>
-        <translation>Povoliť nezhodný tok</translation>
+        <translation>Povoliť nezhodný prúd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7867,62 +7868,62 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffv1/ADM_ffv1Encoder.cpp" line="+139"/>
         <source>Golomb-Rice</source>
-        <translation type="unfinished"></translation>
+        <translation>Golomb-Rice</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range Coder</source>
-        <translation type="unfinished"></translation>
+        <translation>Kódovač rozsahu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Malé</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľké</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Coder:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kódovač:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Context:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontext:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threads:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlákna:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Error correction/detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Oprava/detekcia chýb</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>FFV1 Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurácia FFV1</translation>
     </message>
 </context>
 <context>
@@ -8026,17 +8027,17 @@ Chcete ho nahradiť?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/ADM_vidFitToSize.cpp" line="+58"/>
         <source>Fit to size</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmena rozmerov</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Resize and pad to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mení veľkosť a vyplní prázdne miesto.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+186"/>
         <source>Width and height cannot be odd</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka a výška nemôžu byť nepárne</translation>
     </message>
 </context>
 <context>
@@ -8044,122 +8045,122 @@ Chcete ho nahradiť?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/fitToSize.ui" line="+14"/>
         <source>Fit to size</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmena rozmerov</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Output settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastavenia výstupu</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka:</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Výška:</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>No rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez zaokrúhľovania</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 16</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrúhliť na najbližší násobok 16</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrúhliť na najbližší násobok 8</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrúhliť na najbližší násobok 4</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Metóda zmeny veľkosti:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilineárna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubická</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Krivka</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Aspect ratio tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>Tolerancia pomeru strán</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>0%</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Percent</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+20"/>
         <source>100%</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Padding</source>
-        <translation type="unfinished"></translation>
+        <translation>Výplň:</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>čierne okraje</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>rozostriť</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Podrobnosti</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Current input dimensions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozmery aktuálneho vstupu:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Resized to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmena veľkosti na:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Required padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Požadovaná výplň:</translation>
     </message>
 </context>
 <context>
@@ -8167,12 +8168,12 @@ Chcete ho nahradiť?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/ADM_vidFlip.cpp" line="+36"/>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevrátenie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Vertically/Horizontally flip the image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zvisle/vodorovne prevráti obraz.</translation>
     </message>
 </context>
 <context>
@@ -8180,17 +8181,17 @@ Chcete ho nahradiť?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flip/qt4/flip.ui" line="+14"/>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevrátenie</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Horizontal flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevrátiť vodorovne</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Vertical flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Prevrátiť zvisle</translation>
     </message>
 </context>
 <context>
@@ -8368,7 +8369,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Check how fast readback is.</source>
-        <translation>Kontroluje aké rýchle je spätné čítanie.</translation>
+        <translation>Skontroluje, aké rýchle je spätné čítanie.</translation>
     </message>
 </context>
 <context>
@@ -8407,7 +8408,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Resize using openGl.</source>
-        <translation>Zmení použitie OpenGL.</translation>
+        <translation>Zmení veľkosť pomocou OpenGL.</translation>
     </message>
     <message>
         <location line="+146"/>
@@ -8435,7 +8436,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Rotate image by a small amount.</source>
-        <translation>Krátko pootočí obrázok.</translation>
+        <translation>Mierne pootočí obrázok.</translation>
     </message>
     <message>
         <location line="+118"/>
@@ -8517,7 +8518,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Keep Bottom Field</source>
-        <translation>Dodržať dolnú polsnímku</translation>
+        <translation>Zachovať dolnú polsnímku</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8568,12 +8569,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_distort/sampleGl.cpp" line="+59"/>
         <source>OpenGl wave </source>
-        <translation>Kmitočet OpenGL </translation>
+        <translation>OpenGL vlnenie </translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Simple wave filter.</source>
-        <translation>Jednoduchý filter kmitočtu.</translation>
+        <translation>Jednoduchý vlnový filter.</translation>
     </message>
 </context>
 <context>
@@ -8742,7 +8743,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Put fields side by side.</source>
-        <translation>Pokladať polia vedľa seba.</translation>
+        <translation>Poukladať polia vedľa seba.</translation>
     </message>
 </context>
 <context>
@@ -8750,12 +8751,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/ADM_vidImageStab.cpp" line="+41"/>
         <source>Image stabilizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilizácia obrazu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reduce camera shakiness.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmierniť nestabilitu fotoaparátu.</translation>
     </message>
 </context>
 <context>
@@ -8763,62 +8764,62 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/imageStab/qt4/imageStab.ui" line="+14"/>
         <source>Image stabilizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilizácia obrazu</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Smoothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyhladenie</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Gravity</source>
-        <translation type="unfinished"></translation>
+        <translation>Váha</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolácia</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilineárna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubická</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Motion estimation</source>
-        <translation type="unfinished"></translation>
+        <translation>Odhad pohybu</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>accurate</source>
-        <translation type="unfinished"></translation>
+        <translation>presná</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>rýchla</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Auto Gravity</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatická váha</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Scene threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah scény</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie</translation>
     </message>
 </context>
 <context>
@@ -8965,77 +8966,77 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="-121"/>
         <source>Job</source>
-        <translation type="unfinished"></translation>
+        <translation>Úloha</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Výstup</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Stav</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas štartu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>End Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas konca</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Duration</source>
-        <translation type="unfinished"></translation>
+        <translation>Trvanie</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Pripravený</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Running....</source>
-        <translation type="unfinished"></translation>
+        <translation>Beží...</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Úspech</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>???</source>
-        <translation type="unfinished"></translation>
+        <translation>???</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstrániť</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run Now</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustiť teraz</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to success</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynútiť stav úspechu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynútiť stav pripravenosti</translation>
     </message>
 </context>
 <context>
@@ -9086,7 +9087,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>_Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>For_mát pixelov:</translation>
     </message>
     <message>
         <source>_ColorSpace:</source>
@@ -9108,7 +9109,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Port of Donald Graft Kernel Deinterlacer.</source>
-        <translation>Rozkladač matrice jadra portovaný od Donalda Grafta.</translation>
+        <translation>Rozkladač matice jadra portovaný od Donalda Grafta.</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -9168,7 +9169,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+4"/>
         <source>KernelDeint</source>
-        <translation>Rozklad matrice Kernel</translation>
+        <translation>Rozklad matice Kernel</translation>
     </message>
 </context>
 <context>
@@ -9219,22 +9220,22 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Median filter on 5x5 matrix.</source>
-        <translation>Filter Median s matricou 5x5.</translation>
+        <translation>Filter Median s maticou 5x5.</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>_Process luma</source>
-        <translation>Priebeh _jasovej zložky</translation>
+        <translation>Spracovať zložku _jasu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Process luma plane</source>
-        <translation>Spracovanie roviny jasu</translation>
+        <translation>Spracovať zložku jasu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>P_rocess chroma</source>
-        <translation>Priebeh _farebnej zložky</translation>
+        <translation>Spracovať _farebnú zložku</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9278,7 +9279,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+116"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9339,22 +9340,22 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
         <source>Add logo</source>
-        <translation>Pridať logo</translation>
+        <translation>Pridanie loga</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Put a logo on top of video, with alpha blending.</source>
-        <translation>Vloží logo na vrchol videa metódou alfa zmiešavania.</translation>
+        <translation>Vloží logo nad video, používa zmešanie alfy.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
         <source>Image:</source>
-        <translation type="unfinished"></translation>
+        <translation>Obrázok:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>No image selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Nebol vybraný obrázok</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -9385,12 +9386,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+8"/>
         <source>Select Image...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrať obrázok...</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>No image selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Nebol vybraný obrázok</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -9423,12 +9424,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/lumaStab/ADM_vidLumaStab.cpp" line="+41"/>
         <source>Luma stabilizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilizátor svetelnosti</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reduce flickering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zníži blikanie.</translation>
     </message>
 </context>
 <context>
@@ -9436,42 +9437,42 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/lumaStab/qt4/lumaStab.ui" line="+14"/>
         <source>Luma stabilizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Stabilizátor svetelnosti</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Filter length</source>
-        <translation type="unfinished"></translation>
+        <translation>Dĺžka filtra</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Scene threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah scény</translation>
     </message>
     <message>
         <location line="+33"/>
         <source>frames</source>
-        <translation type="unfinished"></translation>
+        <translation>snímky</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Adjust chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraviť farebnosť</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Adjust target</source>
-        <translation type="unfinished"></translation>
+        <translation>Upraviť cieľ</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Prefer contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Uprednostniť kontrast</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Prefer brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Uprednostniť jas</translation>
     </message>
 </context>
 <context>
@@ -9507,12 +9508,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="-99"/>
         <source>Transform</source>
-        <translation>Transformovanie</translation>
+        <translation>Transformácia</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Transition</source>
-        <translation type="unfinished"></translation>
+        <translation>Prechod</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -9547,7 +9548,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+9"/>
         <source>Artistic</source>
-        <translation type="unfinished"></translation>
+        <translation>Umenie</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -9557,7 +9558,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+111"/>
         <source>Press Ctrl + Enter to accept the dialog</source>
-        <translation>Stlačte Ctrl + Enter pre akceptáciu dialógu</translation>
+        <translation>Stlačte Ctrl + Enter pre potvrdenie nastavení</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -9583,7 +9584,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
         <source>Indexing Matroska Video Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Indexujem video stopu Matroska</translation>
     </message>
 </context>
 <context>
@@ -9684,12 +9685,13 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkv.cpp" line="+84"/>
         <source>Unsupported Video.
 Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodporované video.
+Podporované je iba VP8/VP9/AV1 video a zvuk Vorbis/Opus audio</translation>
     </message>
     <message>
         <location line="+139"/>
         <source>Saving WebM</source>
-        <translation type="unfinished"></translation>
+        <translation>Uloženie WebM</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9711,217 +9713,217 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkvConfig.cpp" line="+33"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>Odvodené od šírky zobrazenia</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>0: sRGB</source>
-        <translation type="unfinished"></translation>
+        <translation>0: sRGB</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <location line="+21"/>
         <source>1: ITU-R BT.709</source>
-        <translation type="unfinished"></translation>
+        <translation>1: ITU-R BT.709</translation>
     </message>
     <message>
         <location line="-42"/>
         <location line="+22"/>
         <location line="+21"/>
         <source>2: Unspecified</source>
-        <translation type="unfinished"></translation>
+        <translation>2: Neurčené</translation>
     </message>
     <message>
         <location line="-42"/>
         <location line="+22"/>
         <location line="+21"/>
         <source>3: Reserved</source>
-        <translation type="unfinished"></translation>
+        <translation>3: Rezervované</translation>
     </message>
     <message>
         <location line="-42"/>
         <source>4: US FCC 73.682</source>
-        <translation type="unfinished"></translation>
+        <translation>4: US FCC 73.682</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5: ITU-R BT.470BG</source>
-        <translation type="unfinished"></translation>
+        <translation>5: ITU-R BT.470BG</translation>
     </message>
     <message>
         <location line="+1"/>
         <location line="+22"/>
         <source>6: SMPTE 170M</source>
-        <translation type="unfinished"></translation>
+        <translation>6: SMPTE 170M</translation>
     </message>
     <message>
         <location line="-21"/>
         <location line="+22"/>
         <location line="+21"/>
         <source>7: SMPTE 240M</source>
-        <translation type="unfinished"></translation>
+        <translation>7: SMPTE 240M</translation>
     </message>
     <message>
         <location line="-42"/>
         <source>8: YCoCg</source>
-        <translation type="unfinished"></translation>
+        <translation>8: YCoCg</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>9: BT2020 Non-constant Luminance</source>
-        <translation type="unfinished"></translation>
+        <translation>9: BT2020 Nestály jas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>10: BT2020 Constant Luminance</source>
-        <translation type="unfinished"></translation>
+        <translation>10: BT2020 Stály jas</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>11: SMPTE ST 2085</source>
-        <translation type="unfinished"></translation>
+        <translation>11: SMPTE ST 2085</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>12: Chroma-derived Non-constant Luminance</source>
-        <translation type="unfinished"></translation>
+        <translation>12: Nekonštatný jas odvodený od farebnosti</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>13: Chroma-derived Constant Luminance</source>
-        <translation type="unfinished"></translation>
+        <translation>13: Konštatný jas odvodený od farebnosti</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>14: ITU-R BT.2100-0</source>
-        <translation type="unfinished"></translation>
+        <translation>14: ITU-R BT.2100-0</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>0: Unspecified</source>
-        <translation type="unfinished"></translation>
+        <translation>0: Neurčené</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>1: Limited</source>
-        <translation type="unfinished"></translation>
+        <translation>1: Obmedzené</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2: Full</source>
-        <translation type="unfinished"></translation>
+        <translation>2: Plné</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+21"/>
         <source>0: Reserved</source>
-        <translation type="unfinished"></translation>
+        <translation>0: Rezervované</translation>
     </message>
     <message>
         <location line="-17"/>
         <source>4: Gamma 2.2 curve - BT.470M</source>
-        <translation type="unfinished"></translation>
+        <translation>4: Gamma 2.2 krivka - BT.470M</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5: Gamma 2.8 curve - BT.470BG</source>
-        <translation type="unfinished"></translation>
+        <translation>5: Gamma 2.8 krivka - BT.470BG</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>8: Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>8: Lineárne</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>9: Logarithmic (100:1 range)</source>
-        <translation type="unfinished"></translation>
+        <translation>9: Logaritmické (rozsah 100:1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>10: Logarithmic (100 * Sqrt(10) : 1 range)</source>
-        <translation type="unfinished"></translation>
+        <translation>10: Logaritmické (rozsah 100 * Sqrt(10) : 1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>11: IEC 61966-2-4</source>
-        <translation type="unfinished"></translation>
+        <translation>11: IEC 61966-2-4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>12: ITU-R BT.1361 Extended Colour Gamut</source>
-        <translation type="unfinished"></translation>
+        <translation>12: ITU-R BT.1361 Rozšírený farebný gamut</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>13: IEC 61966-2-1</source>
-        <translation type="unfinished"></translation>
+        <translation>13: IEC 61966-2-1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>14: ITU-R BT.2020 10 bit</source>
-        <translation type="unfinished"></translation>
+        <translation>14: ITU-R BT.2020 10bitové</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>15: ITU-R BT.2020 12 bit</source>
-        <translation type="unfinished"></translation>
+        <translation>15: ITU-R BT.2020 12bitové</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>16: ITU-R BT.2100 Perceptual Quantization</source>
-        <translation type="unfinished"></translation>
+        <translation>16: ITU-R BT.2100 Perceptuálna kvantizácia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>17: SMPTE ST 428-1</source>
-        <translation type="unfinished"></translation>
+        <translation>17: SMPTE ST 428-1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>18: ARIB STD-B67 (HLG)</source>
-        <translation type="unfinished"></translation>
+        <translation>18: ARIB STD-B67 (HLG)</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>4: ITU-R BT.470M</source>
-        <translation type="unfinished"></translation>
+        <translation>4: ITU-R BT.470M</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5: ITU-R BT.470BG - BT.601 625</source>
-        <translation type="unfinished"></translation>
+        <translation>5: ITU-R BT.470BG - BT.601 625</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>6: ITU-R BT.601 525 - SMPTE 170M</source>
-        <translation type="unfinished"></translation>
+        <translation>6: ITU-R BT.601 525 - SMPTE 170M</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>8: Film</source>
-        <translation type="unfinished"></translation>
+        <translation>8: Film</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>9: ITU-R BT.2020</source>
-        <translation type="unfinished"></translation>
+        <translation>9: ITU-R BT.2020</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>10: SMPTE ST 428-1</source>
-        <translation type="unfinished"></translation>
+        <translation>10: SMPTE ST 428-1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>11: SMPTE RP 431-2</source>
-        <translation type="unfinished"></translation>
+        <translation>11: SMPTE RP 431-2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>12: SMPTE EG 432-2</source>
-        <translation type="unfinished"></translation>
+        <translation>12: SMPTE EG 432-2</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9931,57 +9933,57 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+8"/>
         <source>Force aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynútený pomer strán</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Display width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka zobrazenia:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Aspect Ratio (DAR):</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspect Ratio (DAR):</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Add color info</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridať informáciu o farbách</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Matrix Coefficients:</source>
-        <translation type="unfinished"></translation>
+        <translation>Koeficienty matice:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozsah:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Transfer Characteristic:</source>
-        <translation type="unfinished"></translation>
+        <translation>Charakteristika prevodu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Color Primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Primárne farby:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Basic Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Základné nastavenia</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Advanced Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozšírené nastavenia</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>WebM Muxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmiešavač WebM</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10092,7 +10094,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-49"/>
         <source>Video track is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Video stopa nie je kompatibilná</translation>
     </message>
     <message>
         <source>Only MPEG-1/2/4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
@@ -10101,12 +10103,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+21"/>
         <source>Audio track %d out of %u is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio stopa %d z %u nie je kompatibilná</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Only MPEG-4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video podporuje iba MPEG-4, H264, H265, AV1, DNxHD a ProRes</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10141,7 +10143,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+13"/>
         <source>Optimizing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Prebieha optimalizácia...</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4Config.cpp" line="+38"/>
@@ -10178,7 +10180,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+6"/>
         <source>Derived from display width</source>
-        <translation type="unfinished"></translation>
+        <translation>Odvodené od šírky zobrazenia</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10188,7 +10190,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>Display Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Šírka zobrazenia</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10213,7 +10215,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Rotate video</source>
-        <translation>Otáčať video</translation>
+        <translation>Otočiť video</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -10263,7 +10265,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+8"/>
         <source>MOV Muxer</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmiešavač MOV</translation>
     </message>
     <message>
         <location line="-3"/>
@@ -10301,7 +10303,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+61"/>
         <source>Optimizing</source>
-        <translation type="unfinished"></translation>
+        <translation>Prebieha optimalizácia</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -10443,7 +10445,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-14"/>
         <source>Process chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Spracovať farebnosť</translation>
     </message>
 </context>
 <context>
@@ -10474,47 +10476,47 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
         <source>Negative</source>
-        <translation type="unfinished"></translation>
+        <translation>Negatív</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invert Y,U or V plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť úroveň Y, U alebo V</translation>
     </message>
     <message>
         <location line="+112"/>
         <source>Invert Y Plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť úroveň Y</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Process luma plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Spracovať úroveň jasu</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invert U Plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť úroveň U</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Process chromaU plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Spracovať úroveň farebnej zložky U</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Invert V Plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť úroveň V</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Process chromaV plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Spracovať úroveň farebnej zložky V</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Invert plane</source>
-        <translation type="unfinished"></translation>
+        <translation>Prehodiť úroveň</translation>
     </message>
 </context>
 <context>
@@ -10590,7 +10592,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../common/ADM_videoFilter2/src/ADM_vidPartial.cpp" line="+388"/>
         <source>Partialize &quot;%s&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Obmedziť &quot;%s&quot;</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -10617,22 +10619,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_audioEncoders/pcm/audioencoder_pcm.cpp" line="+205"/>
         <source>PCM</source>
-        <translation type="unfinished"></translation>
+        <translation>PCM</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>LPCM</source>
-        <translation type="unfinished"></translation>
+        <translation>LPCM</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Output format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Formát výstupu:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>PCM Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>PCM konfigurácia</translation>
     </message>
 </context>
 <context>
@@ -10640,7 +10642,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/printInfo/printInfo.cpp" line="+44"/>
         <source>PrintInfo</source>
-        <translation>Tlačové informácie</translation>
+        <translation>Zobraziť informácie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10694,7 +10696,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+14"/>
         <location line="+14"/>
         <source>n/a</source>
-        <translation type="unfinished"></translation>
+        <translation>nedostupné</translation>
     </message>
     <message>
         <location line="-275"/>
@@ -10726,47 +10728,47 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+56"/>
         <source>Average Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priemerná prenosová rýchlosť:</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Formát pixelov:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rozsah farieb:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Primárne farby:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Transfer characteristics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Charakteristika prevodu:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color space:</source>
-        <translation type="unfinished"></translation>
+        <translation>Farebný priestor:</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Video Codec Extradata</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatočné údaje videokodeku</translation>
     </message>
     <message>
         <location line="+28"/>
         <source>Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľkosť:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Extradata:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatočné údaje:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -10903,7 +10905,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+7"/>
         <source>Second Pass</source>
-        <translation type="unfinished"></translation>
+        <translation>Druhý prechod</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10966,22 +10968,22 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+32"/>
         <source>Restore defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnoviť predvolené</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Default theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Predvolený motív</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Light theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Svetlý motív</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dark theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Tmavý motív</translation>
     </message>
     <message>
         <location line="+597"/>
@@ -11026,12 +11028,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+4"/>
         <source>Go to previous cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Prejsť na predchádzajúci bod rezu</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Go to next cut point</source>
-        <translation type="unfinished"></translation>
+        <translation>Prejsť na ďalší bod rezu</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -11066,7 +11068,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+578"/>
         <source>Zoom: </source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie: </translation>
     </message>
     <message>
         <location line="+440"/>
@@ -11078,7 +11080,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+252"/>
         <source>%c-%s</source>
-        <translation type="unfinished"></translation>
+        <translation>%c-%s</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11279,63 +11281,63 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="-2"/>
         <source>Move up</source>
-        <translation>Posunúť hore</translation>
+        <translation>Posunúť vyššie</translation>
     </message>
     <message>
         <location line="-405"/>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Náhľad</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>DISABLED </source>
-        <translation type="unfinished"></translation>
+        <translation>VYPNUTÉ </translation>
     </message>
     <message>
         <location line="+239"/>
         <source>This filter is not partial</source>
-        <translation type="unfinished"></translation>
+        <translation>Tento filter nie je čiastočný</translation>
     </message>
     <message>
         <location line="+164"/>
         <source>Move down</source>
-        <translation>Posunúť dole</translation>
+        <translation>Posunúť nižšie</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Klonovať</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+80"/>
         <source>Make partial</source>
-        <translation>Vytvoriť čiastočný</translation>
+        <translation>Ako čiastočný</translation>
     </message>
     <message>
         <location line="-79"/>
         <source>Enable/Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť/Zakázať</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>Disable</source>
-        <translation type="unfinished"></translation>
+        <translation>Zakázať</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Povoliť</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Make global</source>
-        <translation type="unfinished"></translation>
+        <translation>Ako globálny</translation>
     </message>
     <message>
         <location line="+146"/>
         <source>Press %s to accept the dialog</source>
-        <translation>Stlačte %s pre akceptáciu dialógu</translation>
+        <translation>Stlačte %s pre použitie nastavení</translation>
     </message>
     <message>
         <location line="+148"/>
@@ -11350,12 +11352,12 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+348"/>
         <source>Can not add partial filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Nepodarilo sa pridať čiastočný filter</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A selection by markers has to be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musíte urobiť výber pomocou značiek.</translation>
     </message>
 </context>
 <context>
@@ -11406,12 +11408,12 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <location line="+1"/>
         <location line="+1"/>
         <source>n/a</source>
-        <translation type="unfinished"></translation>
+        <translation>nedostupné</translation>
     </message>
     <message>
         <location line="-171"/>
         <source>%d kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>%d kbps</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -11422,7 +11424,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="-254"/>
         <source>RGB, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 8bitový</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11432,78 +11434,78 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+3"/>
         <source>RGBA, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGBA, 8bitové</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>RGB, 5-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 5bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (NV12), 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (NV12), 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+2"/>
         <source>Packed YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Packed YUV 4:2:2, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:1:1, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:1:1, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Grayscale Y, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtiene sivej Y, 8bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 10bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (P010), 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (P010), 10bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 10bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 12bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 10bitové</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 12bitové</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11512,173 +11514,173 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
         <location line="+37"/>
         <location line="+31"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznáme</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Limited (MPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Obmedzené (MPEG)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Full (JPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Plné (JPEG)</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+26"/>
         <location line="+39"/>
         <source>BT.709</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.709</translation>
     </message>
     <message>
         <location line="-63"/>
         <location line="+26"/>
         <source>BT.470 System M</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 System M</translation>
     </message>
     <message>
         <location line="-24"/>
         <source>BT.601 PAL</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 PAL</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>BT.601 NTSC</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 NTSC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Generic film</source>
-        <translation type="unfinished"></translation>
+        <translation>Generický film</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>XYZ</source>
-        <translation type="unfinished"></translation>
+        <translation>XYZ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>DCI P3</source>
-        <translation type="unfinished"></translation>
+        <translation>DCI P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Display P3</source>
-        <translation type="unfinished"></translation>
+        <translation>Display P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>EBU Tech. 3213</source>
-        <translation type="unfinished"></translation>
+        <translation>EBU Tech. 3213</translation>
     </message>
     <message>
         <location line="+11"/>
         <location line="+39"/>
         <source>BT.470 System B/G</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 System B/G</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>BT.601</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>SMPTE 240M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 240M</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Lineárne</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (100:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logaritmické (100:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (316.227:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logaritmické (316.227:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>xvYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>xvYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.1361</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.1361</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>sRGB/sYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB/sYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (10-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (10bitové)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (12-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (12bitové)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>PQ</source>
-        <translation type="unfinished"></translation>
+        <translation>PQ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>SMPTE 428M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 428M</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>HLG</source>
-        <translation type="unfinished"></translation>
+        <translation>HLG</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>sRGB</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>FCC 73.682</source>
-        <translation type="unfinished"></translation>
+        <translation>FCC 73.682</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>YCgCo</source>
-        <translation type="unfinished"></translation>
+        <translation>YCgCo</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 non-constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 nestále</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 stále</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Y&apos;D&apos;zD&apos;x</source>
-        <translation type="unfinished"></translation>
+        <translation>Y&apos;D&apos;zD&apos;x</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11693,12 +11695,12 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+2"/>
         <source>ICtCp</source>
-        <translation type="unfinished"></translation>
+        <translation>ICtCp</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>(+%d bytes)</source>
-        <translation type="unfinished"></translation>
+        <translation>(+%d bajtov)</translation>
     </message>
     <message numerus="yes">
         <location line="+24"/>
@@ -11769,7 +11771,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     <message>
         <location line="+198"/>
         <source>No Audio</source>
-        <translation>Žiadne audio</translation>
+        <translation>Bez zvuku</translation>
     </message>
     <message>
         <location line="-431"/>
@@ -11867,12 +11869,12 @@ Pripravený.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/ADM_vidQuadTrans.cpp" line="+42"/>
         <source>Quadrilateral transformation</source>
-        <translation type="unfinished"></translation>
+        <translation>Štvorbodová transformácia</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Four point transform.</source>
-        <translation type="unfinished"></translation>
+        <translation>Transformácia pomocou štyroch bodov.</translation>
     </message>
 </context>
 <context>
@@ -11880,27 +11882,27 @@ Pripravený.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/quadTrans/qt4/quadTrans.ui" line="+14"/>
         <source>Quadrilateral transformation</source>
-        <translation type="unfinished"></translation>
+        <translation>Štvorbodová transformácia</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilineárna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubická</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolácia:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Zoom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie:</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -11908,7 +11910,7 @@ Pripravený.
         <location line="+74"/>
         <location line="+34"/>
         <source>Δy:</source>
-        <translation type="unfinished"></translation>
+        <translation>Δy:</translation>
     </message>
     <message>
         <location line="-115"/>
@@ -11916,7 +11918,7 @@ Pripravený.
         <location line="+50"/>
         <location line="+34"/>
         <source>Δx:</source>
-        <translation type="unfinished"></translation>
+        <translation>Δx:</translation>
     </message>
 </context>
 <context>
@@ -11924,22 +11926,22 @@ Pripravený.
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/quickfilter.ui" line="+20"/>
         <source>Add Partial Video Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Pridať čiastočný filter videa</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;big&gt;&lt;b&gt;Dostupné filtre&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Type to narrow the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Písaním konkretizujete výber</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zavrieť</translation>
     </message>
 </context>
 <context>
@@ -11955,12 +11957,12 @@ Pripravený.
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRawConfig.cpp" line="+29"/>
         <source>Prefer Annex B type stream</source>
-        <translation>Preferujte tok typu B uvedený v prílohe B</translation>
+        <translation>Uprednostňovať prúd typu B uvedený v prílohe B</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Video Only Muxer Settings</source>
-        <translation>Nastavenia len video zmiešavača</translation>
+        <translation>Nastavenia zmiešavača Video Only</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerRaw/muxerRaw.cpp" line="+83"/>
@@ -11970,7 +11972,7 @@ Pripravený.
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadne</translation>
     </message>
 </context>
 <context>
@@ -12056,27 +12058,27 @@ Pripravený.
     <message>
         <location line="+36"/>
         <source>Resample FPS</source>
-        <translation>Prevzorkovať snímkovanie</translation>
+        <translation>Prevzorkovanie snímkovania</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
-        <translation>Mení a vynucuje snímkovanie. Udržuje dobu trvanie a synchronizáciu.</translation>
+        <translation>Mení a vynucuje snímkovanie. Zachováva dĺžku videa a synchronizáciu.</translation>
     </message>
     <message>
         <location line="+349"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>žiadna</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmiešavanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Motion compensation</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompenzácia pohybu</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -12091,12 +12093,12 @@ Pripravený.
     <message>
         <location line="+1"/>
         <source>_Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Interpolácia:</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Resample fps</source>
-        <translation>Prevzorkovať snímkovanie</translation>
+        <translation>Prevzorkovanie snímkovania</translation>
     </message>
 </context>
 <context>
@@ -12114,7 +12116,7 @@ Pripravený.
     <message>
         <location line="+1"/>
         <source>swScale Resizer.</source>
-        <translation>Softvérový menič mierky.</translation>
+        <translation>Softvérová zmena veľkosti.</translation>
     </message>
 </context>
 <context>
@@ -12177,7 +12179,7 @@ Pripravený.
     <message>
         <location line="+34"/>
         <source>Resize Dimensions</source>
-        <translation>Zmena rozmenrov</translation>
+        <translation>Zmena rozmerov</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -12192,7 +12194,7 @@ Pripravený.
     <message>
         <location line="+40"/>
         <source>No rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Bez zaokrúhľovania</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -12202,12 +12204,12 @@ Pripravený.
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrúhliť na najbližší násobok 8</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrúhliť na najbližší násobok 4</translation>
     </message>
     <message>
         <location line="+94"/>
@@ -12237,12 +12239,12 @@ Pripravený.
     <message>
         <location line="+33"/>
         <source>0.0000</source>
-        <translation type="unfinished"></translation>
+        <translation>0.0000</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>(00:00)</source>
-        <translation type="unfinished"></translation>
+        <translation>(00:00)</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -12267,12 +12269,12 @@ Pripravený.
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Krivka</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Nearest neighbor</source>
-        <translation type="unfinished"></translation>
+        <translation>Najbližší sused</translation>
     </message>
 </context>
 <context>
@@ -12291,7 +12293,7 @@ Pripravený.
     <message>
         <location line="+153"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadna</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12301,12 +12303,12 @@ Pripravený.
     <message>
         <location line="+0"/>
         <source>90° clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>90° v smere hodinových ručičiek</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>90° contraclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>90°proti smeru hodinových ručičiek</translation>
     </message>
     <message>
         <source>90°</source>
@@ -12346,12 +12348,12 @@ Pripravený.
     <message>
         <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
         <source>Peek Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Pohľad na originál</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show unprocessed input</source>
-        <translation type="unfinished"></translation>
+        <translation>Zobraziť nespracovaný vstup</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -12447,7 +12449,7 @@ Pripravený.
     <message>
         <location line="-190"/>
         <source>Duplicate frames for a given duration.</source>
-        <translation>Duplikuje snímky pre danú dobu trvania.</translation>
+        <translation>Duplikuje snímku pre danú dobu trvania.</translation>
     </message>
     <message>
         <location line="+186"/>
@@ -12533,7 +12535,7 @@ Pripravený.
     <message>
         <location line="+4"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadne</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12649,17 +12651,17 @@ Pripravený.
     <message>
         <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+426"/>
         <source>Save File</source>
-        <translation type="unfinished"></translation>
+        <translation>Uložiť súbor</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>Open File</source>
-        <translation type="unfinished"></translation>
+        <translation>Otvoriť súbor</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Select Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Vybrať adresár</translation>
     </message>
 </context>
 <context>
@@ -12687,7 +12689,7 @@ Pripravený.
     <message>
         <location line="+1"/>
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported, stopping here.</source>
-        <translation>Veľkosť videa sa mení v snímke %u z %ux%u na %ux%u. Toto nie je podporované, tu sa to zastaví.</translation>
+        <translation>Veľkosť videa sa mení v snímke %u z %ux%u na %ux%u. Toto nie je podporované, tu končím.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -12695,7 +12697,9 @@ Pripravený.
         <source>The size of the video changes at frame %u from %ux%u to %ux%u. This is unsupported and will result in a crash.
 Proceed nevertheless?
 This warning won&apos;t be shown again for this video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veľkosť videa sa mení v snímke %u z %ux%u na %ux%u. Toto nie je podporované a skončí pádom.
+Napriek tomu pokračovať?
+Toto upozornenie už sa pri tomto videu nebude viac zobrazovať.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+84"/>
@@ -12774,7 +12778,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffUtVideo/ADM_utvideoEncoder.cpp" line="+108"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadny</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12989,7 +12993,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+1"/>
         <source>Keep Bottom Field</source>
-        <translation>Dodržať dolnú polsnímku</translation>
+        <translation>Zachovať dolnú polsnímku</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13240,12 +13244,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletDenoise/ADM_vidWaveletDenoise.cpp" line="+42"/>
         <source>Wavelet denoiser</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlnkový odšumovač</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Based on Marco Rossini&apos;s denoiser.</source>
-        <translation type="unfinished"></translation>
+        <translation>Založený na odšumovači od Marca Rossiniho.</translation>
     </message>
 </context>
 <context>
@@ -13253,27 +13257,27 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletDenoise/qt4/waveletDenoise.ui" line="+14"/>
         <source>Wavelet Denoiser</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlnkový odšumovač</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Prah</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Softness</source>
-        <translation type="unfinished"></translation>
+        <translation>Jemnosť</translation>
     </message>
     <message>
         <location line="+62"/>
         <source>High quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysoká kvalita</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Denoise chroma</source>
-        <translation type="unfinished"></translation>
+        <translation>Odšumiť farebnú zložku</translation>
     </message>
 </context>
 <context>
@@ -13281,12 +13285,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/ADM_vidWaveletSharp.cpp" line="+42"/>
         <source>Wavelet sharpener</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlnkový doostrovač</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Based on Marco Rossini&apos;s sharpener.</source>
-        <translation type="unfinished"></translation>
+        <translation>Založený na doostrovači od Marca Rossiniho.</translation>
     </message>
 </context>
 <context>
@@ -13294,27 +13298,27 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/waveletSharp/qt4/waveletSharp.ui" line="+14"/>
         <source>Wavelet Sharpener</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlnkový doostrovač</translation>
     </message>
     <message>
         <location line="+124"/>
         <source>Strength</source>
-        <translation type="unfinished"></translation>
+        <translation>Sila</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Noise cutoff</source>
-        <translation type="unfinished"></translation>
+        <translation>Orezanie šumu</translation>
     </message>
     <message>
         <location line="-54"/>
         <source>Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Polomer</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>High quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Vysoká kvalita</translation>
     </message>
 </context>
 <context>
@@ -13388,7 +13392,7 @@ Podporované audio len VP8/VP9 video a Vorbis/Opus</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Automaticky</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13398,7 +13402,7 @@ Podporované audio len VP8/VP9 video a Vorbis/Opus</translation>
     <message>
         <location line="+1"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Neznáme</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -14188,22 +14192,22 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+66"/>
         <source>Quantisation Matrix</source>
-        <translation>Kvantifikačná matrica</translation>
+        <translation>Kvantifikačná matica</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Flat Matrix</source>
-        <translation>Plochá matrica</translation>
+        <translation>Plochá matica</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>JVT Matrix</source>
-        <translation>JVT matrica</translation>
+        <translation>JVT matica</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Custom Matrix</source>
-        <translation>Vlastná matrica</translation>
+        <translation>Vlastná matica</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -14625,7 +14629,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+28"/>
         <source>Colour Matrix:</source>
-        <translation>Matrica farieb:</translation>
+        <translation>Matica farieb:</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -14673,7 +14677,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/x264CustomMatrixDialog.ui" line="+16"/>
         <source>x264 Custom Matrix</source>
-        <translation>Vlastná matrica x264</translation>
+        <translation>Vlastná matica x264</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -14752,7 +14756,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+1"/>
         <source>Default</source>
-        <translation>Východzie</translation>
+        <translation>Predvolená</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15493,22 +15497,22 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+10"/>
         <source>Quantisation Matrix</source>
-        <translation>Kvantifikačná matrica</translation>
+        <translation>Kvantifikačná matica</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Flat Matrix</source>
-        <translation>Plochá matrica</translation>
+        <translation>Plochá matica</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>JVT Matrix</source>
-        <translation>JVT matrica</translation>
+        <translation>JVT matica</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Custom Matrix</source>
-        <translation>Vlastná matrica</translation>
+        <translation>Vlastná matica</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -15609,12 +15613,12 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+5"/>
         <source>Auto-Variance Biased</source>
-        <translation type="unfinished"></translation>
+        <translation>Skreslenie automatického rozptylu</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Auto-Variance Edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Hranica automatického rozptylu</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -15937,7 +15941,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+28"/>
         <source>Colour Matrix:</source>
-        <translation>Matrica farieb:</translation>
+        <translation>Matica farieb:</translation>
     </message>
     <message>
         <source>FCC</source>
@@ -15959,7 +15963,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+10"/>
         <source>None</source>
-        <translation>Nie je</translation>
+        <translation>Žiadne</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -15987,7 +15991,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/x265CustomMatrixDialog.ui" line="+14"/>
         <source>x265 Custom Matrix</source>
-        <translation>Vlastná matrica x265</translation>
+        <translation>Vlastná matica x265</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -16332,18 +16336,18 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+68"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Partializable crop filter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter orezania s možnosťou časového ohraničenia.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+485"/>
         <location line="+316"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Výber: </translation>
     </message>
 </context>
 <context>
@@ -16352,142 +16356,142 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+14"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Priblíženie</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+105"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vpravo:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+42"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hore:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Vynulovať</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-28"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dole:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+45"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vľavo:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Metóda zmeny veľkosti:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilineárna</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubická</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Krivka</translation>
     </message>
     <message>
         <location line="+63"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zamknúť pomer strán:</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skryť gumičku</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Výber:</translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Nezamykať</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuálny výber</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Zdroj</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>21:9</source>
-        <translation type="unfinished"></translation>
+        <translation>21:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>18:9</source>
-        <translation type="unfinished"></translation>
+        <translation>18:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1:1</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>9:16</source>
-        <translation type="unfinished"></translation>
+        <translation>9:16</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Výplň:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>čierne okraje</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>rozostriť</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>none (stretch)</source>
-        <translation type="unfinished"></translation>
+        <translation>žiadna (natiahnuť)</translation>
     </message>
 </context>
 </TS>
