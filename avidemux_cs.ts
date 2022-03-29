@@ -283,53 +283,37 @@ Drop timing informations ?</source>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+25"/>
         <source>Track 1</source>
-        <translation>Stopa 1</translation>
+        <translation type="vanished">Stopa 1</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation type="unfinished">Nastavit</translation>
+        <translation type="obsolete">Nastavit</translation>
     </message>
     <message>
-        <location line="-105"/>
         <source>Track 2</source>
-        <translation>Stopa 2</translation>
+        <translation type="vanished">Stopa 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>Stopa 3</translation>
+        <translation type="vanished">Stopa 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>Stopa 4</translation>
+        <translation type="vanished">Stopa 4</translation>
     </message>
     <message>
-        <location line="-93"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation type="unfinished">Filtry</translation>
+        <translation type="obsolete">Filtry</translation>
     </message>
     <message>
-        <location line="-164"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>Nastavení zvukových stop</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>Povolena</translation>
+        <translation type="vanished">Povolena</translation>
     </message>
 </context>
 <context>
@@ -1082,7 +1066,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+617"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1102,7 +1086,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-362"/>
+        <location line="-382"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation type="unfinished">P_ovolit nestandardní frekvenci zvuku pro DVD</translation>
     </message>
@@ -1217,12 +1201,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Vícevláknové zpracování</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+9"/>
         <source>Above normal</source>
         <translation type="unfinished">Vyšší</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Normal</source>
         <translation type="unfinished">Normální</translation>
     </message>
@@ -1232,24 +1216,28 @@ Drop timing informations ?</source>
         <translation type="unfinished">Nižší</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>_Encoding priority:</source>
         <translation type="unfinished">Priorita _kódování:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation type="unfinished">Priorita i_ndexace/rozbalování:</translation>
+        <translation type="obsolete">Priorita i_ndexace/rozbalování:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>_Playback priority:</source>
         <translation type="unfinished">Priorita př_ehrávání:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-6"/>
         <source>Prioritisation</source>
         <translation type="unfinished">Priority</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1332,12 +1320,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+193"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-8"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1347,7 +1340,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-176"/>
+        <location line="-179"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1363,12 +1356,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-175"/>
+        <location line="-184"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1427,7 +1420,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Žádné smixování</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Pro Logic</source>
         <translation type="unfinished">Pro Logic</translation>
     </message>
@@ -1437,7 +1430,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Pro Logic II</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Local playback downmixing:</source>
         <translation type="unfinished">_Lokální smixování přehrávání:</translation>
     </message>
@@ -1523,7 +1516,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+108"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
         <source>CPU</source>
         <translation type="unfinished">CPU</translation>
     </message>
@@ -1635,6 +1628,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Stereo+surround</source>
         <translation type="unfinished">Stereo+surround</translation>
     </message>
@@ -1674,6 +1673,12 @@ Drop timing informations ?</source>
         <translation type="unfinished">Dolby Pro Logic II</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+12"/>
         <source>_Gain mode:</source>
         <translation type="unfinished">Z_výšení hlasitosti:</translation>
@@ -1710,7 +1715,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>SDL</source>
         <translation type="unfinished">SDL</translation>
     </message>
@@ -2020,7 +2025,7 @@ Expect problems.</source>
         <translation type="unfinished">Přihodilo se něco zlého</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+118"/>
         <source>_Track from video:</source>
         <translation type="unfinished">_Stopa z videa:</translation>
     </message>
@@ -2394,20 +2399,20 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-56"/>
-        <location line="+25"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-58"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-85"/>
         <source>None</source>
         <translation>Nic</translation>
     </message>
     <message>
-        <location line="-14"/>
+        <location line="-16"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+64"/>
         <source>Stereo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+13"/>
         <source>DRC</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2493,7 +2498,7 @@ Je spuštěno?</translation>
         <translation>Multiplexery</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+229"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2518,24 +2523,24 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-374"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>High</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>Low</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+54"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2551,7 +2556,7 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+48"/>
+        <location line="+50"/>
         <source>System language</source>
         <translation>Systémový jazyk</translation>
     </message>
@@ -2566,7 +2571,7 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+57"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2601,7 +2606,7 @@ Je spuštěno?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-262"/>
+        <location line="-271"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2950,7 +2955,7 @@ Install lame plugin</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1534"/>
+        <location filename="../../common/gui_main.cpp" line="-1537"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3029,7 +3034,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+624"/>
+        <location line="+627"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>
@@ -3267,7 +3272,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+177"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation type="unfinished">Vypnuto</translation>
@@ -3633,6 +3638,12 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3655,6 +3666,28 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9915,7 +9948,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation type="unfinished">Chyba čtení hlavičky SVQ3</translation>
     </message>
@@ -10657,28 +10690,28 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
         <source>Select audio file</source>
         <translation>Vybrat zvukový soubor</translation>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation type="unfinished">Chyba</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-210"/>
         <source>Cannot use that file as audio track</source>
         <translation>Tento soubor nelze použít jako zvuková stopa</translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Some tracks are used multiple times</source>
         <translation>Některé stopy jsou použity vícekrát</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation>Stopa </translation>
     </message>
@@ -10698,9 +10731,34 @@ The file must be re-indexed. Proceed?</source>
         <translation>.... Přidat zvukovou stopu</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="-83"/>
         <source>copy</source>
         <translation>kopie</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10718,7 +10776,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">K této akci jsou vyžadována práva roota.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10891,7 +10949,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>

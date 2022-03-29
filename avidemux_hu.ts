@@ -289,53 +289,37 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+25"/>
         <source>Track 1</source>
-        <translation>Sáv 1</translation>
+        <translation type="vanished">Sáv 1</translation>
     </message>
     <message>
-        <location line="+23"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation>Beállítás</translation>
+        <translation type="vanished">Beállítás</translation>
     </message>
     <message>
-        <location line="-105"/>
         <source>Track 2</source>
-        <translation>Sáv 2</translation>
+        <translation type="vanished">Sáv 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>Sáv 3</translation>
+        <translation type="vanished">Sáv 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>Sáv 4</translation>
+        <translation type="vanished">Sáv 4</translation>
     </message>
     <message>
-        <location line="-134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>Hangsávok beállítása</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>Engedélyezve</translation>
+        <translation type="vanished">Engedélyezve</translation>
     </message>
     <message>
-        <location line="-100"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation type="unfinished">Szűrők</translation>
+        <translation type="obsolete">Szűrők</translation>
     </message>
 </context>
 <context>
@@ -1100,7 +1084,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+617"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1120,7 +1104,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-362"/>
+        <location line="-382"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>Nem szabványos DVD hangsáv frekvencia elfogadása</translation>
     </message>
@@ -1235,12 +1219,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Többszálas</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+9"/>
         <source>Above normal</source>
         <translation>Normál feletti</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Normal</source>
         <translation>Normál</translation>
     </message>
@@ -1250,24 +1234,28 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Normál alatti</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <source>_Encoding priority:</source>
         <translation>Kódolási prioritás:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>Indexelési/kicsomagolási prioritás:</translation>
+        <translation type="vanished">Indexelési/kicsomagolási prioritás:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>_Playback priority:</source>
         <translation>Visszajátszási prioritás:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-6"/>
         <source>Prioritisation</source>
         <translation>Prioritások beállítása</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1350,12 +1338,17 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+193"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-8"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1365,7 +1358,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-176"/>
+        <location line="-179"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1381,12 +1374,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-175"/>
+        <location line="-184"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1445,7 +1438,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Sztereó</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+2"/>
         <source>Pro Logic</source>
         <translation>Pro Logic</translation>
     </message>
@@ -1455,7 +1448,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Pro Logic II</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Local playback downmixing:</source>
         <translation>Helyi lejátszás lekeverése:</translation>
     </message>
@@ -1509,7 +1502,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+108"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1885,13 +1878,13 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+25"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+43"/>
         <source>None</source>
         <translation>Nincs</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-26"/>
         <source>Film to PAL</source>
         <translation>Film -&gt; PAL</translation>
     </message>
@@ -1917,6 +1910,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+2"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Stereo+surround</source>
         <translation>Sztereó+Surround</translation>
     </message>
@@ -1954,6 +1953,12 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <location line="+1"/>
         <source>Dolby Pro Logic II</source>
         <translation>Dolby Pro Logic II</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2027,7 +2032,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
@@ -2154,18 +2159,18 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation>Bővítmények infó</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+180"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+189"/>
         <source>Enable openGl support</source>
         <translation>OpenGL engedélyezés</translation>
     </message>
     <message>
-        <location line="-243"/>
+        <location line="-260"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>High</source>
         <translation>Magas</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+5"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>Low</source>
         <translation>Alacsony</translation>
@@ -2179,7 +2184,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
         <translation type="vanished">OpenGL (legjobb)</translation>
     </message>
     <message>
-        <location line="+112"/>
+        <location line="+119"/>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="+217"/>
         <source>PCM</source>
         <translation>PCM</translation>
@@ -2191,7 +2196,7 @@ Eldobjuk ezeket az időszinkron adatokat ?</translation>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+92"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+94"/>
         <source>_Horizontal deblocking</source>
         <translation>Vízszintes blokkbontás</translation>
     </message>
@@ -2468,7 +2473,7 @@ Expect problems.</source>
         <translation>Valami rossz történt</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+118"/>
         <source>_Track from video:</source>
         <translation>Sáv videóból:</translation>
     </message>
@@ -2897,7 +2902,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+72"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+79"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2917,12 +2922,12 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-374"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+118"/>
+        <location line="+129"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2938,7 +2943,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+48"/>
+        <location line="+50"/>
         <source>System language</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2953,7 +2958,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+57"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2988,7 +2993,7 @@ El lett indítva ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-262"/>
+        <location line="-271"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3039,7 +3044,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1534"/>
+        <location filename="../../common/gui_main.cpp" line="-1537"/>
         <source>Select script/project to run</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3098,7 +3103,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+832"/>
+        <location line="+835"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation type="unfinished"></translation>
@@ -3311,7 +3316,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+177"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation type="unfinished">Tiltva</translation>
@@ -3662,6 +3667,12 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3684,6 +3695,28 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9913,7 +9946,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation type="unfinished">Probléma a SVQ3 fejek olvasásánál</translation>
     </message>
@@ -10663,28 +10696,28 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
         <source>Select audio file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation type="unfinished">Hiba</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-210"/>
         <source>Cannot use that file as audio track</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Some tracks are used multiple times</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation type="unfinished"></translation>
     </message>
@@ -10704,8 +10737,33 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="-83"/>
         <source>copy</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -10724,7 +10782,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Root jogosultság szükséges a művelet végrehajtásához.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10897,7 +10955,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>

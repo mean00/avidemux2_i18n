@@ -292,53 +292,37 @@ Drop timing informations ?</source>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+48"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation>Διαμόρφωση</translation>
+        <translation type="vanished">Διαμόρφωση</translation>
     </message>
     <message>
-        <location line="-116"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation>Μεταμορφωτές</translation>
+        <translation type="vanished">Μεταμορφωτές</translation>
     </message>
     <message>
-        <location line="-164"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>Ρύθμιση καναλιών ήχου</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Track 1</source>
-        <translation>Κανάλι 1</translation>
+        <translation type="vanished">Κανάλι 1</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>Ενεργό</translation>
+        <translation type="vanished">Ενεργό</translation>
     </message>
     <message>
-        <location line="-89"/>
         <source>Track 2</source>
-        <translation>Κανάλι 2</translation>
+        <translation type="vanished">Κανάλι 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>Κανάλι 3</translation>
+        <translation type="vanished">Κανάλι 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>Κανάλι 4</translation>
+        <translation type="vanished">Κανάλι 4</translation>
     </message>
 </context>
 <context>
@@ -1107,7 +1091,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+617"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση DXVA2 (windows)</translation>
     </message>
@@ -1127,7 +1111,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-361"/>
+        <location line="-381"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Επαναφορά στις προεπιλεγμένες ρυθμίσεις εξόδου του βίντεο, κατά τη φόρτωση του αρχείου</translation>
     </message>
@@ -1237,7 +1221,7 @@ Drop timing informations ?</source>
         <translation>Πολυνημάτωση</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+8"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Υψηλή</translation>
@@ -1248,7 +1232,7 @@ Drop timing informations ?</source>
         <translation>Πάνω από το κανονικό</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Normal</source>
         <translation>Κανονική</translation>
     </message>
@@ -1264,24 +1248,28 @@ Drop timing informations ?</source>
         <translation>Χαμηλή</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Encoding priority:</source>
         <translation>Προτεραιότητα της _κωδικοποίησης:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>Προτεραιότητα της _δεικτοδότησης/αποσυμπίεσης:</translation>
+        <translation type="vanished">Προτεραιότητα της _δεικτοδότησης/αποσυμπίεσης:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>_Playback priority:</source>
         <translation>Προτεραιότητα της _αναπαραγωγής:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-6"/>
         <source>Prioritisation</source>
         <translation>Ορισμός προτεραιοτήτων</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1364,12 +1352,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+193"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-8"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1379,7 +1372,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-178"/>
+        <location line="-181"/>
         <source>Caching of decoded pictures</source>
         <translation>Προσωρινή μνήμη αποκωδικοποιημένων εικόνων</translation>
     </message>
@@ -1405,12 +1398,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-175"/>
+        <location line="-184"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1479,7 +1472,7 @@ Drop timing informations ?</source>
         <translation>Στερεοφωνικός</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+2"/>
         <source>Pro Logic</source>
         <translation>Pro Logic</translation>
     </message>
@@ -1489,7 +1482,7 @@ Drop timing informations ?</source>
         <translation>Pro Logic II</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>_Local playback downmixing:</source>
         <translation>_Σύμπτυξη καναλιών (downmixing) τοπικής αναπαραγωγής:</translation>
     </message>
@@ -1543,7 +1536,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+108"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1605,13 +1598,13 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+25"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>None</source>
         <translation>Καμία</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-26"/>
         <source>Film to PAL</source>
         <translation>Από Ταινία σε PAL</translation>
     </message>
@@ -1637,6 +1630,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Stereo+surround</source>
         <translation>Στερεοφωνικός + περιμετρικός</translation>
     </message>
@@ -1676,6 +1675,12 @@ Drop timing informations ?</source>
         <translation>Dolby Pro Logic II</translation>
     </message>
     <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+12"/>
         <source>_Gain mode:</source>
         <translation>Λειτουργία _απολαβής:</translation>
@@ -1707,7 +1712,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
@@ -1967,7 +1972,7 @@ Expect problems.</source>
         <translation>Κάτι στραβό έγινε</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+118"/>
         <source>_Track from video:</source>
         <translation>_Κανάλι από το βίντεο:</translation>
     </message>
@@ -2285,7 +2290,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+145"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+147"/>
         <source>_Horizontal deblocking</source>
         <translation>Ορι_ζόντια αφαίρεση τμημάτων (deblocking)</translation>
     </message>
@@ -2311,7 +2316,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+74"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+81"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Αποκωδικοποίηση του βίντεο με τη χρήση VDPAU (NVIDIA)</translation>
     </message>
@@ -2336,7 +2341,7 @@ Is it running ?</source>
         <translation>Αν χρησιμοποιείτε την αποκωδικοποίηση μέσω υλικού, είναι καλύτερα να επιλέξετε και τον κατάλληλο οδηγό της συσκευής απεικόνισης</translation>
     </message>
     <message>
-        <location line="-360"/>
+        <location line="-380"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Αποδοχή μη τυπικών συχνοτήτων ήχου για DVD</translation>
     </message>
@@ -2358,13 +2363,13 @@ Is it running ?</source>
         <translation type="vanished">LIBVA (κάλλιστη)</translation>
     </message>
     <message>
-        <location line="+165"/>
+        <location line="+176"/>
         <location line="+3"/>
         <source>Sdl driver</source>
         <translation>Οδηγός Sdl</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+43"/>
         <source>_AudioDevice</source>
         <translation>Συσκευή _ήχου</translation>
     </message>
@@ -2384,7 +2389,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+57"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2424,7 +2429,7 @@ Is it running ?</source>
         <translation>Νημάτωση</translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-280"/>
         <source>_Always ask which port to use</source>
         <translation>_Πάντα ερώτηση για το ποια θύρα θα χρησιμοποιηθεί</translation>
     </message>
@@ -2833,7 +2838,7 @@ It is needed to create PSP compatible video.</source>
 Είναι απαραίτητο για τη δημιουργία βίντεο συμβατό με PSP.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1534"/>
+        <location filename="../../common/gui_main.cpp" line="-1537"/>
         <source>Select script/project to run</source>
         <translation>Επιλέξτε σενάριο ή εργασία για εκτέλεση</translation>
     </message>
@@ -2904,7 +2909,7 @@ Proceed anyway?</source>
         <translation>Σφάλμα κατά την αποκοπή.</translation>
     </message>
     <message>
-        <location line="+832"/>
+        <location line="+835"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Μη έγκυρο δοθέν ευρετήριο ήχου</translation>
@@ -3163,7 +3168,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+177"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Απενεργοποιημένο</translation>
@@ -3736,6 +3741,12 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3758,6 +3769,28 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10083,7 +10116,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Πρόβλημα στην ανάγνωση των κεφαλίδων SVQ3</translation>
     </message>
@@ -10855,28 +10888,28 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
         <source>Select audio file</source>
         <translation>Επιλέξτε αρχείο ήχου</translation>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-210"/>
         <source>Cannot use that file as audio track</source>
         <translation>Αδυναμία χρήσης αυτού του αρχείου σαν κανάλι ήχου</translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Some tracks are used multiple times</source>
         <translation>Κάποια κανάλια χρησιμοποιούνται πολλαπλές φορές</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation>Κανάλι </translation>
     </message>
@@ -10896,9 +10929,34 @@ The file must be re-indexed. Proceed?</source>
         <translation>.... Προσθήκη καναλιού ήχου</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="-83"/>
         <source>copy</source>
         <translation>αντιγραφή</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10916,7 +10974,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Απαιτούνται δικαιώματα υπερχρήστη για να εκτελεστεί αυτή η λειτουργία.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation>Πρώτο πέρασμα</translation>
     </message>
@@ -11093,7 +11151,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Η εφαρμογή αντιμετώπισε ένα μοιραίο πρόβλημα

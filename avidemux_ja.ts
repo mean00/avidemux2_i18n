@@ -291,53 +291,37 @@ Drop timing informations ?</source>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+48"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation>構成</translation>
+        <translation type="vanished">構成</translation>
     </message>
     <message>
-        <location line="-157"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>音声トラックの構成設定</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Track 1</source>
-        <translation>トラック 1</translation>
+        <translation type="vanished">トラック 1</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 2</source>
-        <translation>トラック 2</translation>
+        <translation type="vanished">トラック 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>トラック 3</translation>
+        <translation type="vanished">トラック 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>トラック 4</translation>
+        <translation type="vanished">トラック 4</translation>
     </message>
     <message>
-        <location line="-116"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>有効</translation>
+        <translation type="vanished">有効</translation>
     </message>
     <message>
-        <location line="-100"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation>フィルター</translation>
+        <translation type="vanished">フィルター</translation>
     </message>
 </context>
 <context>
@@ -1101,7 +1085,7 @@ Japanese translated by Tilt</translation>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+55"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+56"/>
         <source>5.1</source>
         <translation>5.1</translation>
     </message>
@@ -1122,12 +1106,12 @@ Japanese translated by Tilt</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+652"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+674"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+5"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+6"/>
         <source>DRC</source>
         <translation>DRC</translation>
     </message>
@@ -1147,7 +1131,7 @@ Japanese translated by Tilt</translation>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-81"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-82"/>
         <source>HDR</source>
         <translation>HDR</translation>
     </message>
@@ -1182,13 +1166,13 @@ Japanese translated by Tilt</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-227"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-242"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-19"/>
         <source>Low</source>
         <translation>低</translation>
     </message>
     <message>
-        <location line="+112"/>
+        <location line="+119"/>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="-23"/>
         <source>PCM</source>
         <translation>PCM</translation>
@@ -1246,7 +1230,7 @@ Japanese translated by Tilt</translation>
         <translation>ゲイン</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-75"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-83"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-45"/>
         <source>High</source>
         <translation>高</translation>
@@ -1272,7 +1256,7 @@ Japanese translated by Tilt</translation>
         <translation>OPUS</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-22"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>
@@ -1283,7 +1267,7 @@ Japanese translated by Tilt</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-10"/>
-        <location line="+25"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-50"/>
         <source>None</source>
         <translation>なし</translation>
@@ -1294,7 +1278,7 @@ Japanese translated by Tilt</translation>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1993"/>
+        <location filename="../../common/gui_main.cpp" line="+1996"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1304,7 +1288,7 @@ Japanese translated by Tilt</translation>
         <translation>開く(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-64"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-67"/>
         <source>SIMD</source>
         <translation>SIMD</translation>
     </message>
@@ -1345,7 +1329,7 @@ Japanese translated by Tilt</translation>
         <translation>音声トラックなし</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-19"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-20"/>
         <source>Stereo+surround</source>
         <translation>ステレオ + サラウンド</translation>
     </message>
@@ -1383,7 +1367,7 @@ FLV ビデオの作成には LAME が必要です.</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-86"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="-606"/>
@@ -1410,7 +1394,7 @@ FLV ビデオの作成には LAME が必要です.</translation>
         <translation>コーデック</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-98"/>
         <source>Display only error alerts</source>
         <translation>エラー警告のみ表示</translation>
     </message>
@@ -1445,7 +1429,7 @@ FLV ビデオの作成には LAME が必要です.</translation>
         <translation>LibVA</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+35"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+36"/>
         <source>Mixer</source>
         <translation>Mixer</translation>
     </message>
@@ -1547,7 +1531,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+158"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+160"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>無効</translation>
@@ -1555,6 +1539,12 @@ Installation mismatch</source>
     <message>
         <location line="+3"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1570,12 +1560,34 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-99"/>
+        <location line="+2"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-108"/>
         <source>Pro Logic II</source>
         <translation>Dolby ProLogic II</translation>
     </message>
     <message>
-        <location line="-73"/>
+        <location line="-74"/>
         <source>Use _shared cache</source>
         <translation>共有キャッシュを使用(_S)</translation>
     </message>
@@ -1595,7 +1607,7 @@ Installation mismatch</source>
         <translation>十分なメモリを割り当てることはできません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-111"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <source>Enable 3DNOWEXT</source>
         <translation>3DNowExt を有効</translation>
     </message>
@@ -1624,12 +1636,12 @@ Installation mismatch</source>
         <translation>値のシフト (ms):</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-803"/>
+        <location filename="../../common/gui_main.cpp" line="-806"/>
         <source>Error while cutting out.</source>
         <translation>カット処理中にエラーが発生.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-56"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-58"/>
         <source>R_esampling (Hz):</source>
         <translation>リサンプリング (Hz):</translation>
     </message>
@@ -1639,12 +1651,12 @@ Installation mismatch</source>
         <translation>ジョブ %s を追加できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+110"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
         <source>_Cache size:</source>
         <translation>キャッシュサイズ(_C):</translation>
     </message>
     <message>
-        <location line="+73"/>
+        <location line="+74"/>
         <source>Pro Logic</source>
         <translation>Dolby ProLogic</translation>
     </message>
@@ -1685,7 +1697,7 @@ Installation mismatch</source>
         <translation>Avsproxy に接続</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+126"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+134"/>
         <source>GUI Rendering Options</source>
         <translation>GUI レンダリング設定</translation>
     </message>
@@ -1696,7 +1708,7 @@ Installation mismatch</source>
         <translation>muxer のインスタンス化に失敗</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+551"/>
+        <location filename="../../common/gui_main.cpp" line="+554"/>
         <source>This function is disabled or no longer valid</source>
         <translation>この機能は無効になっているか現在有効ではありません</translation>
     </message>
@@ -1716,7 +1728,7 @@ Installation mismatch</source>
         <translation>BMP 処理に失敗</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+19"/>
         <source>Stereo+center+surround</source>
         <translation>ステレオ + センター + サラウンド</translation>
     </message>
@@ -1752,17 +1764,17 @@ Installation mismatch</source>
         <translation>__不明__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1811"/>
+        <location filename="../../common/gui_main.cpp" line="-1814"/>
         <source>Select script to run</source>
         <translation>スクリプトを選択して実行</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-155"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-164"/>
         <source>No downmixing</source>
         <translation>ダウンミックスなし</translation>
     </message>
     <message>
-        <location line="-173"/>
+        <location line="-184"/>
         <source>Enable AVX2</source>
         <translation>AVX2 を有効化</translation>
     </message>
@@ -1917,7 +1929,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+128"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+139"/>
         <source>This renderer provides no hardware acceleration</source>
         <translation>このレンダラはハードウェアアクセラレーションを提供しません</translation>
     </message>
@@ -1928,7 +1940,7 @@ Proceed anyway?</source>
         <translation>クォータの超過</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+122"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+124"/>
         <source>User Interface</source>
         <translation>UI 設定</translation>
     </message>
@@ -1938,12 +1950,24 @@ Proceed anyway?</source>
         <translation>開けません </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-1"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-9"/>
         <source>_Tone mapping:</source>
         <translation>トーンマッピング(_T):</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+12"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-57"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Automatic</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1985,7 +2009,7 @@ Warning, the settings must be close.</source>
         <translation>アプリケーション データフォルダを開く(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-179"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-135"/>
         <source>Above normal</source>
         <translation>標準以上</translation>
     </message>
@@ -2017,7 +2041,7 @@ Warning, the settings must be close.</source>
         <translation>追加するビデオファイルを選択...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-55"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-58"/>
         <source>Enable SSSE3</source>
         <translation>SSSE3 を有効</translation>
     </message>
@@ -2032,12 +2056,12 @@ Warning, the settings must be close.</source>
         <translation>映像デコーダ プラグイン</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1219"/>
+        <location filename="../../common/gui_main.cpp" line="+1222"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
         <translation>音声言語を設定できません: 先にビデオを読み込んでください!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+290"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+310"/>
         <source>Post-Processing</source>
         <translation>ポスト プロセッシング</translation>
     </message>
@@ -2047,7 +2071,7 @@ Warning, the settings must be close.</source>
         <translation>トラックを選択</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-233"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-249"/>
         <source>Below normal</source>
         <translation>標準以下</translation>
     </message>
@@ -2057,17 +2081,17 @@ Warning, the settings must be close.</source>
         <translation>自動検出</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+5"/>
         <source>_Encoding priority:</source>
         <translation>エンコードの優先度(_E):</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-34"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-35"/>
         <source>Dolby Pro Logic</source>
         <translation>Dolby Pro Logic</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-66"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
         <source>Enable 3DNOW</source>
         <translation>3DNOW を有効</translation>
     </message>
@@ -2109,7 +2133,7 @@ Installation mismatch</source>
         <translation>GOP サイズ</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-703"/>
+        <location filename="../../common/gui_main.cpp" line="-706"/>
         <source>Try &apos;File&apos; -&gt; &apos;Load/Run Project...&apos;</source>
         <translation>&apos;ファイル&apos; -&gt; &apos;プロジェクト読込/実行...&apos;</translation>
     </message>
@@ -2119,7 +2143,7 @@ Installation mismatch</source>
         <translation>AACオーディオ エンコーダプラグインがみつかりません.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+902"/>
+        <location filename="../../common/gui_main.cpp" line="+905"/>
         <source>Frame Hex Dump</source>
         <translation>フレーム 16進ダンプ</translation>
     </message>
@@ -2144,7 +2168,7 @@ Installation mismatch</source>
         <translation>出力ファイルを作成できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+23"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+24"/>
         <source>_Mixer:</source>
         <translation>ミキサ(_M):</translation>
     </message>
@@ -2169,7 +2193,7 @@ Installation mismatch</source>
         <translation>AMR-NB</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-943"/>
+        <location filename="../../common/gui_main.cpp" line="-946"/>
         <source>Permission error</source>
         <translation>パーミッション エラー</translation>
     </message>
@@ -2186,7 +2210,7 @@ Installation mismatch</source>
 適切なものを再インストールしてください</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+752"/>
+        <location filename="../../common/gui_main.cpp" line="+755"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
         <translation>指定されたトラックの言語を設定できません: ビデオに音声が含まれていません!</translation>
     </message>
@@ -2224,7 +2248,7 @@ Installation mismatch</source>
         <translation>指定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1318"/>
+        <location filename="../../common/gui_main.cpp" line="-1321"/>
         <source>Not coded in this version</source>
         <translation>このバージョンでは対応していません</translation>
     </message>
@@ -2254,7 +2278,7 @@ Installation mismatch</source>
         <translation>エラーはみつかりません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+245"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
         <source>Import</source>
         <translation>インポート</translation>
     </message>
@@ -2280,7 +2304,7 @@ Installation mismatch</source>
         <translation>コーデック 0x%x 検索時の内部エラー</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-69"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
         <source>Master</source>
         <translation>マスタ</translation>
     </message>
@@ -2310,7 +2334,7 @@ Installation mismatch</source>
         <translation>%d 枚の画像を保存.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-115"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <source>Normal</source>
         <translation>標準</translation>
     </message>
@@ -2321,7 +2345,7 @@ Installation mismatch</source>
         <translation>最近使用した項目をクリア</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+275"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+291"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 デコーダ (Windows) を使用して映像をエンコード(_D)</translation>
     </message>
@@ -2331,12 +2355,12 @@ Installation mismatch</source>
         <translation>動き検索の精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-87"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-94"/>
         <source>Output</source>
         <translation>出力</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+415"/>
+        <location filename="../../common/gui_main.cpp" line="+418"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
         <translation>AvsProxy に接続できません、稼働していますか?</translation>
@@ -2347,7 +2371,7 @@ Is it running ?</source>
         <translation>ストリームを作成できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-252"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-265"/>
         <source>Enable all SIMD</source>
         <translation>すべての SIMD を有効化</translation>
     </message>
@@ -2365,7 +2389,7 @@ Is it running ?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+204"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+217"/>
         <source>_AudioDevice</source>
         <translation>音声デバイス(_A)</translation>
     </message>
@@ -2375,8 +2399,8 @@ Is it running ?</source>
         <translation>保存中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-45"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-18"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-47"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-20"/>
         <source>Stereo</source>
         <translation>ステレオ</translation>
     </message>
@@ -2401,7 +2425,7 @@ Is it running ?</source>
         <translation>ワイド検索</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1651"/>
+        <location filename="../../common/gui_main.cpp" line="-1654"/>
         <source>Select script to debug</source>
         <translation>デバッグするスクリプトを選択</translation>
     </message>
@@ -2447,7 +2471,7 @@ Is it running ?</source>
         <translation>開けません &quot;%s&quot;.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-128"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-139"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation>マーカ A がマーカ B より後に設定されている場合、またはマーカ B が A より前に設定 されている場合、マーカーを入れ替える。</translation>
     </message>
@@ -2517,7 +2541,7 @@ Is it running ?</source>
         <translation>音声エンコーダ プラグイン</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
         <source>Caching of decoded pictures</source>
         <translation>デコード済みピクチャのキャッシュ化</translation>
     </message>
@@ -2591,7 +2615,7 @@ Is it running ?</source>
         <translation>タイム マップを構築中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+182"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>映像のデコードに_VDPAU (NVIDIA) を使用</translation>
     </message>
@@ -2612,7 +2636,7 @@ It is needed to create PSP compatible video.</source>
         <translation>保存済みの設定を読み込む(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+937"/>
+        <location filename="../../common/gui_main.cpp" line="+940"/>
         <source>Frame size:</source>
         <translation>フレーム サイズ:</translation>
     </message>
@@ -2652,7 +2676,7 @@ Do you want to continue anyway ?</source>
 このまま続行しますか?</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-936"/>
+        <location filename="../../common/gui_main.cpp" line="-939"/>
         <source>File error</source>
         <translation>ファイル エラー</translation>
     </message>
@@ -2667,12 +2691,12 @@ Do you want to continue anyway ?</source>
         <translation>%d 分</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-165"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
         <source>_Volume control:</source>
         <translation>音量制御(_V):</translation>
     </message>
     <message>
-        <location line="+95"/>
+        <location line="+97"/>
         <source>Default Postprocessing</source>
         <translation>デフォルト ポストプロセッシング</translation>
     </message>
@@ -2682,7 +2706,7 @@ Do you want to continue anyway ?</source>
         <translation>エンコーダの初期化に失敗</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
         <source>Manual (dB)</source>
         <translation>手動 (dB)</translation>
     </message>
@@ -2702,12 +2726,12 @@ Do you want to continue anyway ?</source>
         <translation>%s の BMP ファイル保存に失敗.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-284"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>キーボードの代替ショートカットを使用(_E)</translation>
     </message>
     <message>
-        <location line="+355"/>
+        <location line="+375"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>映像のデコードに_libVA (INTEL) を使用</translation>
     </message>
@@ -2722,7 +2746,7 @@ Do you want to continue anyway ?</source>
         <translation>このビデオ ローダではプロジェクトを開けません.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-26"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-28"/>
         <source>Film to PAL</source>
         <translation>Film から PAL</translation>
     </message>
@@ -2752,17 +2776,17 @@ Do you want to continue anyway ?</source>
         <translation>リサンプリング周波数 (Hz)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+716"/>
+        <location filename="../../common/gui_main.cpp" line="+719"/>
         <source>Setting the language for the given track index is not possible: Invalid track index!</source>
         <translation>指定された言語にトラックを設定できません: トラックのインデックスが無効です!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-223"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-232"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>デフォルトでは最後に読み込まれたファイルのディレクトリに保存されます(_D)</translation>
     </message>
     <message>
-        <location line="+158"/>
+        <location line="+160"/>
         <source>_Language</source>
         <translation>言語(_L)</translation>
     </message>
@@ -2772,13 +2796,13 @@ Do you want to continue anyway ?</source>
         <translation>ファイルが読み込まれていません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-6"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-7"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+49"/>
         <source>RGB clipping</source>
         <translation>RGB クリッピング</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-656"/>
+        <location filename="../../common/gui_main.cpp" line="-659"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>ファイルにはいくつかの音声トラックが含まれています、
@@ -2796,12 +2820,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>映像エンコーダ</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+94"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+101"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
     <message>
-        <location line="-105"/>
+        <location line="-112"/>
         <source>_Strength:</source>
         <translation>強度(_S):</translation>
     </message>
@@ -2816,17 +2840,16 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>ジョブを保存</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-278"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-291"/>
         <source>_Check for new release</source>
         <translation>アップデートの確認(_U)</translation>
     </message>
     <message>
-        <location line="+75"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>インデックス/アンパック処理の優先度(_I):</translation>
+        <translation type="vanished">インデックス/アンパック処理の優先度(_I):</translation>
     </message>
     <message>
-        <location line="+202"/>
+        <location line="+290"/>
         <source>De_ringing</source>
         <translation>リンギング軽減(_R)</translation>
     </message>
@@ -2856,7 +2879,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>キーフレームブースト(%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-261"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-274"/>
         <source>Enable AVX</source>
         <translation>AVX を有効化</translation>
     </message>
@@ -2881,7 +2904,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+30"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
         <source>De_lete first pass log files by default</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2957,12 +2985,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-25"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2972,7 +3000,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+5"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3003,7 +3036,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>HW アクセラレータ</translation>
     </message>
     <message>
-        <location line="-380"/>
+        <location line="-400"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD 規格にない周波数の音声使用を許可(_A)</translation>
     </message>
@@ -3038,7 +3071,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>このファイルを作成するには、音声トラックが必要です</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+592"/>
+        <location filename="../../common/gui_main.cpp" line="+595"/>
         <source>Cannot use that file as audio track</source>
         <translation>音声トラックとして利用できません</translation>
     </message>
@@ -3063,7 +3096,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>最高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1471"/>
+        <location filename="../../common/gui_main.cpp" line="-1474"/>
         <source>Select script/project to run</source>
         <translation>スクリプト/プロジェクトを選択して実行</translation>
     </message>
@@ -3073,7 +3106,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>SSE4.2 を有効化</translation>
     </message>
     <message>
-        <location line="+97"/>
+        <location line="+108"/>
         <source>_Always ask which port to use</source>
         <translation>常に使用ポートをユーザに確認(_A)</translation>
     </message>
@@ -3088,7 +3121,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>マーカ B に移動</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+19"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
         <source>Stereo front+stereo rear</source>
         <translation>ステレオ フロント+ステレオ リア</translation>
     </message>
@@ -3115,7 +3148,7 @@ Proceed anyway?</source>
         <translation>低ビットレート シーン (%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+9"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+10"/>
         <source>_Boost (level multiplier):</source>
         <translation>ブースト - レベル乗算(_B) (множитель уровня):</translation>
     </message>
@@ -3132,7 +3165,7 @@ Installation mismatch</source>
 インストールの不一致</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-15"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-16"/>
         <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation>上記のオプションを変更すると、エディタは最も近い先行キーフレームにジャンプ するようになります。</translation>
     </message>
@@ -3153,7 +3186,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+131"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+133"/>
         <source>_Vertical deblocking</source>
         <translation>垂直デブロッキング(_V)</translation>
     </message>
@@ -3168,12 +3201,12 @@ Installation mismatch</source>
         <translation>ローカル再生ダウンミックス(_L):</translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-21"/>
         <source>Display all alerts</source>
         <translation>全ての警告を表示</translation>
     </message>
     <message>
-        <location line="+172"/>
+        <location line="+181"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>VideoToolbox を使用してビデオをデコード(macOS)</translation>
     </message>
@@ -3299,7 +3332,7 @@ Installation mismatch</source>
         <translation>指定時間に移動</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-277"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
         <source>Multi-threading</source>
         <translation>マルチ スレッディング</translation>
     </message>
@@ -3319,7 +3352,7 @@ Installation mismatch</source>
         <translation>ステレオ+センター</translation>
     </message>
     <message>
-        <location line="-11"/>
+        <location line="-12"/>
         <source>PAL to Film</source>
         <translation>PAL から Film</translation>
     </message>
@@ -3329,7 +3362,7 @@ Installation mismatch</source>
         <translation>マーカをリセット</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+51"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+62"/>
         <source>Default port to use</source>
         <translation>デフォルト ポート</translation>
     </message>
@@ -3354,7 +3387,7 @@ Installation mismatch</source>
         <translation>拡張(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+132"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+141"/>
         <source>Enable openGl support</source>
         <translation>OpenGL 対応を有効化</translation>
     </message>
@@ -3434,7 +3467,7 @@ lame プラグインをインストールしてください</translation>
         <translation>環境設定</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1111"/>
+        <location filename="../../common/gui_main.cpp" line="+1114"/>
         <source>_Track from video:</source>
         <translation>ビデオからトラック(_T):</translation>
     </message>
@@ -3472,7 +3505,7 @@ lame プラグインをインストールしてください</translation>
         <translation>フィルター(_F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-345"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-365"/>
         <source>_lavc threads:</source>
         <translation>lavc スレッド(_L):</translation>
     </message>
@@ -3487,7 +3520,7 @@ lame プラグインをインストールしてください</translation>
         <translation>グレースケール(_G)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+251"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+271"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>リフレッシュレート(ミリ秒)</translation>
     </message>
@@ -3528,7 +3561,7 @@ lame プラグインをインストールしてください</translation>
         <translation>AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-231"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
         <source>_Playback priority:</source>
         <translation>再生の優先度(_P):</translation>
     </message>
@@ -3539,7 +3572,7 @@ lame プラグインをインストールしてください</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="+13"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+199"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+204"/>
         <source>_Horizontal deblocking</source>
         <translation>水平デブロッキング(_H)</translation>
     </message>
@@ -3569,7 +3602,7 @@ lame プラグインをインストールしてください</translation>
         <translation>2 パス</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-860"/>
+        <location filename="../../common/gui_main.cpp" line="-863"/>
         <source>Could not open the file</source>
         <translation>ファイルを開けません</translation>
     </message>
@@ -3584,7 +3617,7 @@ lame プラグインをインストールしてください</translation>
         <translation>メモリ エラー</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+11"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+12"/>
         <source>5 channels</source>
         <translation>5 チャンネル</translation>
     </message>
@@ -3633,7 +3666,7 @@ Expect problems.</source>
         <translation>音声を保存するファイルを選択</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+195"/>
+        <location filename="../../common/gui_main.cpp" line="+198"/>
         <source>Audio file not found in list, even though it should be there. Create a bug report!</source>
         <translation>一覧には存在する音声ファイルが見つかりません、バグ報告を作成してください!</translation>
     </message>
@@ -3673,7 +3706,7 @@ Expect problems.</source>
         <translation>0x%x をオープン中にエラーが発生</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-955"/>
+        <location filename="../../common/gui_main.cpp" line="-958"/>
         <source>Are you sure?</source>
         <translation>よろしいですか?</translation>
     </message>
@@ -9882,7 +9915,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 ヘッダの読み込みに関する問題</translation>
     </message>
@@ -10633,28 +10666,28 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+522"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+487"/>
         <source>copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location line="-366"/>
-        <location line="+161"/>
+        <location line="-333"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location line="+136"/>
+        <location line="+171"/>
         <source>File </source>
         <translation>ファイル </translation>
     </message>
     <message>
-        <location line="-136"/>
+        <location line="-171"/>
         <source>Some tracks are used multiple times</source>
         <translation>一部トラックが重複して使われています</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation>トラック </translation>
     </message>
@@ -10664,7 +10697,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>... 音声トラックを追加</translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-438"/>
         <source>Select audio file</source>
         <translation>音声ファイルを選択</translation>
     </message>
@@ -10674,20 +10707,45 @@ The file must be re-indexed. Proceed?</source>
         <translation>このファイルは音声トラックに使用できません</translation>
     </message>
     <message>
-        <location line="+289"/>
+        <location line="+373"/>
         <source> from video</source>
         <translation> ビデオから</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>qencoding</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+469"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+479"/>
         <source>Abort</source>
         <translation>中断</translation>
     </message>
     <message>
-        <location line="-404"/>
+        <location line="-414"/>
         <location line="+20"/>
         <source>Privileges Required</source>
         <translation>管理者権限が必要</translation>
@@ -10697,18 +10755,18 @@ The file must be re-indexed. Proceed?</source>
         <translation type="vanished">パス 1</translation>
     </message>
     <message>
-        <location line="+384"/>
+        <location line="+394"/>
         <source>Resume</source>
         <translation>再開</translation>
     </message>
     <message>
-        <location line="-404"/>
+        <location line="-414"/>
         <location line="+20"/>
         <source>Root privileges are required to perform this operation.</source>
         <translation>この操作にはルート権限が必要です.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation>最初のパス</translation>
     </message>
@@ -10751,12 +10809,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2976"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2980"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2705"/>
+        <location line="-2709"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;新バージョンが利用可能&lt;/b&gt;&lt;br&gt;バージョン %1&lt;br&gt;リリース %2.&lt;br&gt;ここからダウンロード:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;自動更新は環境設定で無効にできます.&lt;/small&gt;</translation>
     </message>
@@ -10776,14 +10834,14 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>アプリケーションに問題が発生したため終了します
 現在の編集内容は保存され、次の起動時に再読み込みされます</translation>
     </message>
     <message>
-        <location line="-1078"/>
+        <location line="-1082"/>
         <source>Go to previous keyframe</source>
         <translation>前のキーフレームに移動</translation>
     </message>
@@ -10838,7 +10896,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>一分前に戻る</translation>
     </message>
     <message>
-        <location line="+1273"/>
+        <location line="+1277"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10856,7 +10914,7 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1730"/>
+        <location line="-1734"/>
         <source>Go to first frame</source>
         <translation>先頭フレームに移動</translation>
     </message>

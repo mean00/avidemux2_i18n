@@ -290,53 +290,37 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+14"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>Configuration des pistes audios</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Track 1</source>
-        <translation>Piste 1</translation>
+        <translation type="vanished">Piste 1</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>Activée</translation>
+        <translation type="vanished">Activée</translation>
     </message>
     <message>
-        <location line="-107"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation>Configurer</translation>
+        <translation type="vanished">Configurer</translation>
     </message>
     <message>
-        <location line="-116"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation>Filtres</translation>
+        <translation type="vanished">Filtres</translation>
     </message>
     <message>
-        <location line="-112"/>
         <source>Track 2</source>
-        <translation>Piste 2</translation>
+        <translation type="vanished">Piste 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>Piste 3</translation>
+        <translation type="vanished">Piste 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>Piste 4</translation>
+        <translation type="vanished">Piste 4</translation>
     </message>
 </context>
 <context>
@@ -1089,7 +1073,7 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+617"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Utiliser DXVA2 pour décoder (Windows)</translation>
     </message>
@@ -1114,7 +1098,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Activer OpenGL</translation>
     </message>
     <message>
-        <location line="-316"/>
+        <location line="-336"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>Accepter les fréquences non standard pour les DVD</translation>
     </message>
@@ -1219,7 +1203,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Le multithreading est désactivé en interne si le décodage accéléré matériel est activé, redémarrez l&apos;application pour appliquer les modifications </translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+11"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Haute</translation>
@@ -1230,7 +1214,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Plus que normale</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Normal</source>
         <translation>Normale</translation>
     </message>
@@ -1246,24 +1230,28 @@ Ignorer les informations de timing ?</translation>
         <translation>Basse</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Encoding priority:</source>
         <translation>Priorité de l&apos;encodage :</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>Priorité de l&apos;indexation :</translation>
+        <translation type="vanished">Priorité de l&apos;indexation :</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>_Playback priority:</source>
         <translation>Priorité de la lecture :</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-6"/>
         <source>Prioritisation</source>
         <translation>Priorités</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1346,12 +1334,17 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+193"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>HDR</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-8"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1361,7 +1354,7 @@ Ignorer les informations de timing ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-176"/>
+        <location line="-179"/>
         <source>Use _shared cache</source>
         <translation>Utiliser le cache partagé</translation>
     </message>
@@ -1421,7 +1414,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Pas de downmixing</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+7"/>
         <source>_Local playback downmixing:</source>
         <translation>Downmixing pour la lecture :</translation>
     </message>
@@ -1816,13 +1809,13 @@ Ignorer les informations de timing ?</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+25"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-26"/>
         <source>Film to PAL</source>
         <translation>Film vers PAL</translation>
     </message>
@@ -1843,9 +1836,15 @@ Ignorer les informations de timing ?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-66"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-68"/>
         <source>Stereo</source>
         <translation>Stéréo</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1873,7 +1872,13 @@ Ignorer les informations de timing ?</translation>
         <translation>5 canaux</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+4"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>Manual (dB)</source>
         <translation>Manuel (dB)</translation>
     </message>
@@ -1996,12 +2001,12 @@ It is needed to create FLV  video.</source>
         <translation>Manuel</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-46"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-48"/>
         <source>Mono</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>5.1</source>
         <translation></translation>
     </message>
@@ -2016,7 +2021,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>DRC</source>
         <translation></translation>
     </message>
@@ -2052,7 +2057,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-49"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>SDL</source>
         <translation></translation>
     </message>
@@ -2085,7 +2090,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
         <source>CPU</source>
         <translation></translation>
     </message>
@@ -2131,7 +2136,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-116"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-123"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2215,7 +2220,7 @@ It is needed to create FLV  video.</source>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+79"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+86"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
@@ -2235,7 +2240,7 @@ It is needed to create FLV  video.</source>
         <translation>Si vous activez le décodage HW, il est préférable d&apos;utiliser la même méthode d&apos;affichage</translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-374"/>
         <source>_Check for new release</source>
         <translation>Vérifier s&apos;il y a de nouvelle version</translation>
     </message>
@@ -2250,7 +2255,7 @@ It is needed to create FLV  video.</source>
         <translation>Multithreading</translation>
     </message>
     <message>
-        <location line="+56"/>
+        <location line="+67"/>
         <source>Caching of decoded pictures</source>
         <translation>Mise en cache des images décodées</translation>
     </message>
@@ -2277,7 +2282,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Pro Logic</source>
         <translation></translation>
     </message>
@@ -2287,7 +2292,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+84"/>
+        <location line="+85"/>
         <source>De_ringing</source>
         <translation></translation>
     </message>
@@ -2307,7 +2312,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+57"/>
         <source>Post-Processing</source>
         <translation></translation>
     </message>
@@ -2347,7 +2352,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-280"/>
         <source>_Always ask which port to use</source>
         <translation>Toujours demander le port à utiliser</translation>
     </message>
@@ -2368,17 +2373,17 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-175"/>
+        <location line="-184"/>
         <source>LibVA</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+262"/>
+        <location line="+271"/>
         <source>Preferences</source>
         <translation>Préférences</translation>
     </message>
@@ -2421,7 +2426,7 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+174"/>
+        <location filename="../../common/gui_main.cpp" line="+177"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2488,7 +2493,7 @@ It is needed to create PSP compatible video.</source>
 Il est nécessaire pour créer un fichier compatible PSP</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1534"/>
+        <location filename="../../common/gui_main.cpp" line="-1537"/>
         <source>Select script/project to run</source>
         <translation>Choisir un script ou projet à lancer</translation>
     </message>
@@ -2710,7 +2715,7 @@ Attendez-vous à des problèmes.</translation>
         <translation>Vous ne pouvez pas tout supprimer</translation>
     </message>
     <message>
-        <location line="+123"/>
+        <location line="+126"/>
         <source>_Track from video:</source>
         <translation>_Piste venant de la vidéo</translation>
     </message>
@@ -3081,7 +3086,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-113"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-120"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Désactivé</translation>
@@ -3666,6 +3671,12 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3688,6 +3699,28 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9897,7 +9930,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation type="unfinished">Impossible de lire l&apos;entete SVQ3</translation>
     </message>
@@ -10643,28 +10676,28 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
         <source>Select audio file</source>
         <translation>Sélectionner un fichier audio</translation>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation>Erreur</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-210"/>
         <source>Cannot use that file as audio track</source>
         <translation>Impossible d&apos;utiliser ce fichier comme piste audio</translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Some tracks are used multiple times</source>
         <translation>Certaines pistes sont utilisées plusieurs fois</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation>Piste </translation>
     </message>
@@ -10684,9 +10717,34 @@ The file must be re-indexed. Proceed?</source>
         <translation>… Ajouter une piste audio</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="-83"/>
         <source>copy</source>
         <translation>copier</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10704,7 +10762,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Les privilèges root sont requis pour effectuer cette opération.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10877,7 +10935,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>L&apos;application a rencontré un problème fatal

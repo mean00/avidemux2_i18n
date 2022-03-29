@@ -294,53 +294,37 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>DialogAudioTracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+48"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Configure</source>
-        <translation>Yapılandır</translation>
+        <translation type="vanished">Yapılandır</translation>
     </message>
     <message>
-        <location line="-116"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Filters</source>
-        <translation>Filtreler</translation>
+        <translation type="vanished">Filtreler</translation>
     </message>
     <message>
-        <location line="-164"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/audioTracks.ui" line="+20"/>
         <source>Audio Tracks Configuration</source>
         <translation>Ses Parçaları Yapılandırması</translation>
     </message>
     <message>
-        <location line="+11"/>
         <source>Track 1</source>
-        <translation>Parça 1</translation>
+        <translation type="vanished">Parça 1</translation>
     </message>
     <message>
-        <location line="+7"/>
-        <location line="+41"/>
-        <location line="+41"/>
-        <location line="+41"/>
         <source>Enabled</source>
-        <translation>Etkin</translation>
+        <translation type="vanished">Etkin</translation>
     </message>
     <message>
-        <location line="-89"/>
         <source>Track 2</source>
-        <translation>Parça 2</translation>
+        <translation type="vanished">Parça 2</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 3</source>
-        <translation>Parça 3</translation>
+        <translation type="vanished">Parça 3</translation>
     </message>
     <message>
-        <location line="+41"/>
         <source>Track 4</source>
-        <translation>Parça 4</translation>
+        <translation type="vanished">Parça 4</translation>
     </message>
 </context>
 <context>
@@ -1101,7 +1085,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+617"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1121,7 +1105,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location line="-362"/>
+        <location line="-382"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
@@ -1231,7 +1215,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Çoklu-iş parçası</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+8"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Yüksek</translation>
@@ -1242,7 +1226,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Normalin üstünde</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Normal</source>
         <translation>Normal</translation>
     </message>
@@ -1258,24 +1242,28 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Düşük</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Encoding priority:</source>
         <translation>_ Kodlama önceliği:</translation>
     </message>
     <message>
-        <location line="+1"/>
         <source>_Indexing/unpacking priority:</source>
-        <translation>_Dizin oluşturma/açma önceliği:</translation>
+        <translation type="vanished">_Dizin oluşturma/açma önceliği:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+5"/>
         <source>_Playback priority:</source>
         <translation>_Oynatma önceliği:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="-6"/>
         <source>Prioritisation</source>
         <translation>Önceliklendirme</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1358,12 +1346,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+187"/>
+        <location line="+193"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>HDR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-8"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1373,7 +1366,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-176"/>
+        <location line="-179"/>
         <source>Use _shared cache</source>
         <translation>_Paylaşılan önbelleği kullan</translation>
     </message>
@@ -1389,12 +1382,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+178"/>
+        <location line="+187"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-175"/>
+        <location line="-184"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1457,7 +1450,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
         <source>_Local playback downmixing:</source>
         <translation>_Yerel oynatım karıştırma:</translation>
     </message>
@@ -1527,7 +1520,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+112"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -1604,13 +1597,13 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+25"/>
+        <location line="+27"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>None</source>
         <translation>Hiçbiri</translation>
     </message>
     <message>
-        <location line="-20"/>
+        <location line="-22"/>
         <source>_Frame rate change:</source>
         <translation>_ Kare hızı değişikliği:</translation>
     </message>
@@ -1625,12 +1618,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Mono</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>5 channels</source>
         <translation>5 kanallı</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>_Gain mode:</source>
         <translation>_Kazanç modu:</translation>
     </message>
@@ -1889,7 +1882,7 @@ Sorunlar bekliyoruz.</translation>
         <translation>Kötü bir şey oldu</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+118"/>
         <source>_Track from video:</source>
         <translation>_Videodan izleme:</translation>
     </message>
@@ -2058,7 +2051,7 @@ Is it running ?</source>
         <translation>Kazanç</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-31"/>
         <source>Film to PAL</source>
         <translation>Film to PAL</translation>
     </message>
@@ -2069,6 +2062,12 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <source>Stereo headphones</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Stereo+surround</source>
         <translation>Stereo+surround</translation>
     </message>
@@ -2101,6 +2100,12 @@ Is it running ?</source>
         <location line="+1"/>
         <source>Dolby Pro Logic II</source>
         <translation>Dolby Pro Logic II</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
+        <source>Surround headphones</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2159,7 +2164,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-259"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>SDL</source>
         <translation>SDL</translation>
     </message>
@@ -2187,7 +2192,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+249"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2302,7 +2307,7 @@ Is it running ?</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location line="-354"/>
+        <location line="-374"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
@@ -2312,7 +2317,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+115"/>
+        <location line="+126"/>
         <source>Caching of decoded pictures</source>
         <translation>Çözülmüş resimlerin önbelleğe alınması</translation>
     </message>
@@ -2346,7 +2351,7 @@ Is it running ?</source>
         <translation>PCM</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Pro Logic</source>
         <translation>Pro Logic</translation>
     </message>
@@ -2356,7 +2361,7 @@ Is it running ?</source>
         <translation>Pro Logic II</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+17"/>
         <source>_AudioDevice</source>
         <translation>_SesAygıtı</translation>
     </message>
@@ -2386,7 +2391,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+57"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2421,7 +2426,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="-262"/>
+        <location line="-271"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -2815,7 +2820,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1534"/>
+        <location filename="../../common/gui_main.cpp" line="-1537"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -2881,7 +2886,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Keserken hata.</translation>
     </message>
     <message>
-        <location line="+832"/>
+        <location line="+835"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Geçersiz ses dizini verildi</translation>
@@ -3136,7 +3141,7 @@ Yine de denemek ister misiniz?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+175"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+177"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Devre dışı</translation>
@@ -3740,6 +3745,12 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>RGB soft limit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3762,6 +3773,28 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Adaptive RGB tonemappers</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <source>Clipping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>Compression</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_RGB out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -10105,7 +10138,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1076"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 başlıklarını okumada sorun</translation>
     </message>
@@ -10897,28 +10930,28 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+134"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+132"/>
         <source>Select audio file</source>
         <translation>Ses dosyasını Seçin</translation>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
     <message>
-        <location line="-161"/>
+        <location line="-210"/>
         <source>Cannot use that file as audio track</source>
         <translation>Bu dosya ses parçası olarak kullanılamaz</translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+210"/>
         <source>Some tracks are used multiple times</source>
         <translation>Bazı parçalar birden çok kez kullanılıyor</translation>
     </message>
     <message>
-        <location line="+128"/>
+        <location line="+163"/>
         <source>Track </source>
         <translation>Parça </translation>
     </message>
@@ -10938,9 +10971,34 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>... Ses Parçası ekle</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="-83"/>
         <source>copy</source>
         <translation>kopyala</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
+        <source>Track %d</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Configure</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Filters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Duplicate first track&apos;s settings</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10958,7 +11016,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Bu işlemi gerçekleştirmek için kök ayrıcalıkları gerekir.</translation>
     </message>
     <message>
-        <location line="+143"/>
+        <location line="+153"/>
         <source>First Pass</source>
         <translation>İlk Geçiş</translation>
     </message>
@@ -11135,7 +11193,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+440"/>
+        <location line="+444"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Uygulama önemli bir sorunla karşılaştı
