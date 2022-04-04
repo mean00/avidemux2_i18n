@@ -1255,7 +1255,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>Priority can be only lowered and applies to the entire application for the current session</source>
-        <translation type="unfinished"></translation>
+        <translation>Приоритет может быть только понижен и применяется ко всему приложению для текущего сеанса</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1340,7 +1340,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+193"/>
         <source>Default out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартная обработка вне гаммы:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2056,7 +2056,7 @@ Is it running ?</source>
         <location line="+10"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
         <source>Stereo headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Стереонаушники</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2097,7 +2097,7 @@ Is it running ?</source>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>Surround headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Наушники объёмного звучания</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3703,7 +3703,7 @@ Installation mismatch</source>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB soft limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Мягкий предел RGB</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3735,24 +3735,24 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>_Adaptive RGB tonemappers</source>
-        <translation type="unfinished"></translation>
+        <translation>_Адаптивные тональные преобразователи RGB</translation>
     </message>
     <message>
         <location line="+3"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
         <source>Clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Отсечение</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Compression</source>
-        <translation type="unfinished"></translation>
+        <translation>Сжатие</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_RGB out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Обработка RGB вне гаммы:</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
@@ -6096,7 +6096,7 @@ Do you want to load it  ?
     <message>
         <location line="-360"/>
         <source>Shut down computer when finished</source>
-        <translation>Выключить ПК по завершению</translation>
+        <translation>Выключить ПК по завершении</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -6131,7 +6131,7 @@ Do you want to load it  ?
     <message>
         <location line="+12"/>
         <source>Keep dialog open when finished</source>
-        <translation>Не закрывать окно по завершению</translation>
+        <translation>Не закрывать окно по завершении</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -6181,7 +6181,7 @@ Do you want to load it  ?
     <message>
         <location line="-568"/>
         <source>Main</source>
-        <translation>Основной</translation>
+        <translation>Основное</translation>
     </message>
     <message>
         <location line="+396"/>
@@ -10887,27 +10887,27 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
         <source>Track %d</source>
-        <translation type="unfinished"></translation>
+        <translation>Дорожка %d</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Включена</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Configure</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Фильтры</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Duplicate first track&apos;s settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Дублировать настройки первой дорожки</translation>
     </message>
 </context>
 <context>
