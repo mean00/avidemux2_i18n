@@ -3,15 +3,15 @@
 MACRO(FIND_LRELEASE)
     IF(NOT LRELEASE_EXECUTABLE AND NOT LRELEASE_NOT_FOUND)
         FIND_PROGRAM(LRELEASE_EXECUTABLE lrelease PATHS
-            "[HKEY_CURRENT_USER\\Software\\Trolltech\\Qt3Versions\\4.0.0;InstallDir]/bin"
-            "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\4.0.0;InstallDir]/bin"
+#           "[HKEY_CURRENT_USER\\Software\\Trolltech\\Qt3Versions\\4.0.0;InstallDir]/bin"
+#           "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\4.0.0;InstallDir]/bin"
             $ENV{QTDIR}/bin)
 
         IF (NOT LRELEASE_EXECUTABLE) # search again under the name lrelease-qt4
                 FIND_PROGRAM(LRELEASE_EXECUTABLE lrelease-${QT_EXTENSION} PATHS
             $ENV{QTDIR}/bin)
                 IF (NOT LRELEASE_EXECUTABLE) # search again under the name lrelease-qt4
-                    MESSAGE(FATAL_ERROR "${LRELEASE_EXECUTABLE} not found - ts files can't be processed")
+                    MESSAGE(FATAL_ERROR "lrelease executable not found - ts files can't be processed")
                     SET(LRELEASE_NOT_FOUND "1")     # to avoid double checking in one cmake run
                 ENDIF (NOT LRELEASE_EXECUTABLE) # search again under the name lrelease-qt4
         ENDIF (NOT LRELEASE_EXECUTABLE)
