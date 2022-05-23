@@ -1427,7 +1427,7 @@ Vypustiť časové údaje?</translation>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Stereo headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Stereo slúchadlá</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1473,7 +1473,7 @@ Vypustiť časové údaje?</translation>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>Surround headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Slúchadlá s priestorovým zvukom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3768,13 +3768,13 @@ Installation mismatch</source>
         <location line="+3"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
         <source>Clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Orezanie</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Compression</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompresia</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7633,7 +7633,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+2"/>
         <source>Each</source>
-        <translation type="unfinished"></translation>
+        <translation>Každý</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10914,27 +10914,27 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
         <source>Track %d</source>
-        <translation type="unfinished"></translation>
+        <translation>Stopa %d</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Povolené</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Configure</source>
-        <translation type="unfinished"></translation>
+        <translation>Nastaviť</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Duplicate first track&apos;s settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplikovať nastavenia prvej stopy</translation>
     </message>
 </context>
 <context>
@@ -11051,7 +11051,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <message>
         <location line="+242"/>
         <source>Play/Stop</source>
-        <translation>Pre&amp;hrať/Zastaviť</translation>
+        <translation>Prehrať/Zastaviť</translation>
     </message>
     <message>
         <location line="+4"/>
