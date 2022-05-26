@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sk_SK">
+<TS version="2.1" language="sk_SK">
 <context>
     <name>CloseButton</name>
     <message>
@@ -3546,7 +3546,7 @@ Má sa prepísať?</translation>
     <message>
         <source>Media Pause</source>
         <extracomment>Media player pause button</extracomment>
-        <translation>Pozastaviť média</translation>
+        <translation>Pozastaviť médiá</translation>
     </message>
     <message>
         <source>Toggle Media Play/Pause</source>
