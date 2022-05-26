@@ -1134,7 +1134,7 @@ Drop timing informations ?</source>
         <translation>Виконано</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+70"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+116"/>
         <source>Gain</source>
         <translation>Рівень нормалізації</translation>
     </message>
@@ -1145,24 +1145,25 @@ Drop timing informations ?</source>
         <translation>Високий</translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+26"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-7"/>
         <source>Main</source>
         <translation>Головний</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-22"/>
+        <location line="-46"/>
         <source>Mono</source>
         <translation>Моно</translation>
     </message>
     <message>
-        <location line="-10"/>
-        <location line="+27"/>
+        <location line="-25"/>
+        <location line="+40"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+3"/>
         <source>None</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1996"/>
+        <location filename="../../common/gui_main.cpp" line="+2012"/>
         <source>Oops</source>
         <translation>Попередження</translation>
     </message>
@@ -1203,7 +1204,7 @@ Drop timing informations ?</source>
         <translation>Немає звукової доріжки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-18"/>
         <source>Stereo+surround</source>
         <translation>Стерео + об&apos;ємний звук</translation>
     </message>
@@ -1288,7 +1289,7 @@ It is needed to create FLV  video.</source>
         <translation>Помилка</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+36"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
         <source>Mixer</source>
         <translation>Мікшер</translation>
     </message>
@@ -1408,7 +1409,7 @@ Proceed anyway?</source>
         <translation>Помилка обрізки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-58"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-71"/>
         <source>R_esampling (Hz):</source>
         <translation>Перетворення частоти (Hz):</translation>
     </message>
@@ -1475,7 +1476,7 @@ Proceed anyway?</source>
         <translation>Помилка відкриття BMP</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+19"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
         <source>Stereo+center+surround</source>
         <translation>Стерео + центр + об&apos;ємний звук</translation>
     </message>
@@ -1517,7 +1518,7 @@ It is needed to create PSP compatible video.</source>
         <translation>__невідомо__</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1814"/>
+        <location filename="../../common/gui_main.cpp" line="-1828"/>
         <source>Select script to run</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
@@ -1557,7 +1558,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Додатки аудіопристроїв</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1273"/>
+        <location filename="../../common/gui_main.cpp" line="+1287"/>
         <source>Something bad happened</source>
         <translation>Помилка при відкритті файлу для запису</translation>
     </message>
@@ -1629,7 +1630,32 @@ Proceed anyway?</source>
         <translation>Неможливо відкрити</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-3"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-18"/>
+        <source>Tempo multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>A value of 2.0 means twice as fast playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pitch multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Every doubling means one octave upshift</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Frame rate change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-57"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
@@ -1656,19 +1682,308 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+31"/>
+        <source>Shift audio (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enable Compressor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Normalize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Threshold (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Noise floor (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Attack time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Release time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>DRC</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+3"/>
+        <source>Enable Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass/Mid cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid/Treble cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Treble (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel gains</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Channel delays</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Enable Remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-137"/>
         <source>G_ain value:</source>
         <translation>Значення:</translation>
     </message>
     <message>
-        <location line="+20"/>
         <source>Shift audio:</source>
-        <translation>Змінити звук:</translation>
+        <translation type="vanished">Змінити звук:</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-24"/>
@@ -1693,7 +2008,7 @@ Warning, the settings must be close.</source>
         <translation>Вище нормального</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-421"/>
+        <location filename="../../common/gui_main.cpp" line="-435"/>
         <source>Select script to save</source>
         <translation>Вибрати скрипт для збереження</translation>
     </message>
@@ -1710,7 +2025,7 @@ Warning, the settings must be close.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+272"/>
+        <location filename="../../common/gui_main.cpp" line="+286"/>
         <source>Select Video File to Append...</source>
         <translation>Вибрати файл відео для приєднання...</translation>
     </message>
@@ -1832,7 +2147,7 @@ Proceed anyway?</source>
         <translation>Неможливо створити вихідний файл</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-10"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+10"/>
         <source>_Mixer:</source>
         <translation>_Мікшер</translation>
     </message>
@@ -1842,7 +2157,7 @@ Proceed anyway?</source>
         <translation>Помилка прав доступу</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+14"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+142"/>
         <source>Audio Filters</source>
         <translation>Фільтри аудіо</translation>
     </message>
@@ -1917,6 +2232,7 @@ Proceed anyway?</source>
         <translation>Видалити</translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-196"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Custom</source>
         <translation>Вручну</translation>
@@ -2086,7 +2402,7 @@ Is it running ?</source>
         <translation>Увімкнути всі SIMD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-12"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+56"/>
         <source>Remix</source>
         <translation>Ремікс</translation>
     </message>
@@ -2113,7 +2429,7 @@ Is it running ?</source>
         <translation>Зберегти вибірку як послідовність JPEG</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-35"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-33"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-20"/>
         <source>Stereo</source>
         <translation>Стерео</translation>
@@ -2132,7 +2448,7 @@ Proceed anyway?</source>
         <translation>Широкий пошук</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-420"/>
+        <location filename="../../common/gui_main.cpp" line="-434"/>
         <source>Select script to debug</source>
         <translation>Вибрати скрипт для налагодження</translation>
     </message>
@@ -2159,7 +2475,7 @@ Try anyway?</source>
         <translation>Перший кадр</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+751"/>
+        <location filename="../../common/gui_main.cpp" line="+765"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>Неможливо відкрити &quot;%s&quot;.</translation>
     </message>
@@ -2326,7 +2642,7 @@ Try anyway?</source>
         <translation>Без змін</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-680"/>
+        <location filename="../../common/gui_main.cpp" line="-694"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>Ви намагаєтеся очистити список недавно відкритих файлів і проектів. Цей крок незворотній. Продовжити?</translation>
     </message>
@@ -2342,7 +2658,7 @@ Try anyway?</source>
         <translation>Драйвер SDL</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+154"/>
+        <location filename="../../common/gui_main.cpp" line="+168"/>
         <source>No engine</source>
         <translation>Немає рушія</translation>
     </message>
@@ -2451,7 +2767,7 @@ Do you want to continue anyway ?</source>
         <translation>Неможливо створити декодер</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
         <source>Manual (dB)</source>
         <translation>Вручну (дБ)</translation>
     </message>
@@ -2490,7 +2806,7 @@ Do you want to continue anyway ?</source>
         <translation type="vanished">LIBVA (найкраще)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-28"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-41"/>
         <source>Film to PAL</source>
         <translation>З Фільм у PAL</translation>
     </message>
@@ -3037,7 +3353,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Дуже високий</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1474"/>
+        <location filename="../../common/gui_main.cpp" line="-1488"/>
         <source>Select script/project to run</source>
         <translation>Вибрати скрипт/проект для запуску</translation>
     </message>
@@ -3057,7 +3373,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Перейти до маркера B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+35"/>
         <source>Stereo front+stereo rear</source>
         <translation>Стерео (передній) + стерео (задній)</translation>
     </message>
@@ -3067,7 +3383,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>&amp;Налаштування</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+650"/>
+        <location filename="../../common/gui_main.cpp" line="+664"/>
         <source>Codec or codec settings across the cut do not match. Playback of the video saved in copy mode may stop at this point.
 Proceed anyway?</source>
         <translation>Кодек або параметри кодування на точках розрізу не збігаються. Відтворення відео, збереженого в режимі копіювання, може на цих точках обриватися.
@@ -3228,7 +3544,7 @@ Installation mismatch</source>
         <translation>Стерео + центр</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-27"/>
         <source>PAL to Film</source>
         <translation>З PAL у Фільм</translation>
     </message>
@@ -3238,7 +3554,7 @@ Installation mismatch</source>
         <translation>Скидання маркерів</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+26"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+39"/>
         <source>Automatic</source>
         <translation>Автоматично</translation>
     </message>
@@ -3489,7 +3805,7 @@ Proceed anyway?</source>
         <translation>Оновлення тип фрейма</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-23"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-35"/>
         <source>_Frame rate change:</source>
         <translation>Змінити частоту:</translation>
     </message>
@@ -3554,7 +3870,7 @@ Do you want to continue anyway?</source>
 Все одно продовжити?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+12"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+26"/>
         <source>5 channels</source>
         <translation>5 каналів</translation>
     </message>
@@ -3603,7 +3919,7 @@ Expect problems.</source>
         <translation>Аудіокодеки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+16"/>
         <source>_Maximum value:</source>
         <translation>_Максимальне значення:</translation>
     </message>
@@ -3773,7 +4089,7 @@ Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+131"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5798,6 +6114,60 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>decimateFrame</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp" line="+54"/>
+        <location line="+34"/>
+        <source>Decimate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Drop duplicate frames.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Normal mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Evaluation mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Evaluation mode makes possible to examine the video by printing duplicate metric, while omitting frame dropping.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Duplicate threshold:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Consecutive frame drop limit:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Note: this filter won&apos;t change the reported frame rate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>delogo2</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/ADM_vidMPdelogo.cpp" line="+41"/>
@@ -7507,7 +7877,7 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffnvenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+354"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+370"/>
         <source>High</source>
         <translation>Високий</translation>
     </message>
@@ -7532,12 +7902,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+52"/>
         <source>GOP Size:</source>
         <translation>Розмір GOP:</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-51"/>
         <source>Low Latency</source>
         <translation>Низький відгук</translation>
     </message>
@@ -7598,6 +7968,46 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+9"/>
+        <source>Autoselect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7614,6 +8024,11 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+10"/>
         <source>Use B-Frames as References:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum Reference Frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7657,12 +8072,22 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+29"/>
-        <source>Basic Settings</source>
+        <location line="+1"/>
+        <source>Weighted prediction is incompatible with B-frames</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>References</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
+        <source>Basic Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+13"/>
         <source>Advanced Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7672,17 +8097,17 @@ Start and/or end time would be out of range</source>
         <translation>Налаштування NVENC HEVC</translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="-87"/>
         <source>RC Mode:</source>
         <translation>Режим RC:</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+30"/>
         <source>Frame Control</source>
         <translation>Управління кадрами</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-23"/>
         <source>Bitrate (kbps):</source>
         <translation>Бітрейт (Кб/с):</translation>
     </message>
@@ -7692,7 +8117,7 @@ Start and/or end time would be out of range</source>
         <translation>Максимальний бітрейт (Кб/с):</translation>
     </message>
     <message>
-        <location line="-6"/>
+        <location line="-7"/>
         <source>Preset:</source>
         <translation>Передустановки:</translation>
     </message>
@@ -7705,12 +8130,12 @@ Start and/or end time would be out of range</source>
         <translation type="vanished">Передустановки з низькою затримкою завжди використовують 2-прохідний режим</translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+88"/>
         <source>NVENC H.264 configuration</source>
         <translation>Налаштування NVENC H.264</translation>
     </message>
     <message>
-        <location line="-106"/>
+        <location line="-141"/>
         <source>Variable Bitrate</source>
         <translation>Змінний бітрейт</translation>
     </message>
@@ -7724,12 +8149,12 @@ Start and/or end time would be out of range</source>
         <translation type="vanished">Низька якість</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+31"/>
         <source>Profile:</source>
         <translation>Профіль:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>Quality:</source>
         <translation>Якість:</translation>
     </message>
@@ -7739,17 +8164,17 @@ Start and/or end time would be out of range</source>
         <translation>Максимум послідовних B-кадрів:</translation>
     </message>
     <message>
-        <location line="-42"/>
+        <location line="-54"/>
         <source>High Quality</source>
         <translation>Висока якість</translation>
     </message>
     <message>
-        <location line="+59"/>
+        <location line="+72"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
     <message>
-        <location line="-55"/>
+        <location line="-68"/>
         <source>Low Latency (HQ)</source>
         <translation>Низький відгук (висока якість)</translation>
     </message>
@@ -7912,22 +8337,62 @@ Start and/or end time would be out of range</source>
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+29"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+28"/>
+        <source>M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Mux rate (MBits/s)</source>
         <translation>Швидкість мультиплексування (Мбіт/с)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>TS Muxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-6"/>
+        <location line="-7"/>
         <source>VBR muxing</source>
         <translation>Мультиплексування VBR</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+71"/>
+        <source>Video track is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Audio track %d out of %u is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Audio track %d out of %u is incompatible with M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Only MPEG-1/2, VC-1, H264 and HEVC supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Only AC3, E-AC3, DTS and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only MP2, MP3, AC3, E-AC3, DTS, AAC and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+87"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Збереження mpeg TS (ff)</translation>
     </message>
@@ -7998,19 +8463,35 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+159"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+199"/>
         <source>High</source>
         <translation>Високий</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-5"/>
+        <location line="+4"/>
         <source>Main</source>
         <translation>Головний</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="-3"/>
+        <source>Main10</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>GOP Size:</source>
         <translation>Розмір GOP:</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Allow B-frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>On some Macs, disabling B-frames is not possible</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -8028,27 +8509,31 @@ Start and/or end time would be out of range</source>
         <translation>Макс. бітрейт (кб/с):</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+19"/>
+        <source>VideoToolbox HEVC Encoder Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>VideoToolbox H.264 Encoder Configuration</source>
         <translation>Налаштування кодера VideoToolbox H.264</translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-38"/>
         <source>Baseline</source>
         <translation>Базова лінія</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>Profile:</source>
         <translation>Профіль:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>Maximum Consecutive B-Frames:</source>
-        <translation>Максимум послідовних B-кадрів:</translation>
+        <translation type="vanished">Максимум послідовних B-кадрів:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+10"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
@@ -9651,7 +10136,7 @@ I will assume it has and try to continue</source>
         <translation type="vanished">Зображення Matroska</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10133,7 +10618,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1089"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Помилка читання заголовків SVQ3</translation>
     </message>
@@ -10909,13 +11394,13 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+487"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+486"/>
         <source>copy</source>
         <translation>Копіювати</translation>
     </message>
     <message>
-        <location line="-333"/>
-        <location line="+210"/>
+        <location line="-332"/>
+        <location line="+209"/>
         <source>Error</source>
         <translation>Помилка</translation>
     </message>
@@ -10940,7 +11425,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>.... Додати аудіодоріжку</translation>
     </message>
     <message>
-        <location line="-438"/>
+        <location line="-437"/>
         <source>Select audio file</source>
         <translation>Вибрати файл аудіо</translation>
     </message>
@@ -10950,7 +11435,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Неможливо використовувати файл як аудіодоріжку</translation>
     </message>
     <message>
-        <location line="+373"/>
+        <location line="+372"/>
         <source> from video</source>
         <translation> з відео</translation>
     </message>
@@ -12151,17 +12636,17 @@ Ready.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+85"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+86"/>
         <source>Resample FPS</source>
         <translation>Ресемплювати відео</translation>
     </message>
     <message>
-        <location line="+366"/>
+        <location line="+370"/>
         <source>Resample fps</source>
         <translation>Ресемплювати відео</translation>
     </message>
     <message>
-        <location line="-407"/>
+        <location line="-412"/>
         <source>Custom</source>
         <translation>Вручну</translation>
     </message>
@@ -12191,7 +12676,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+386"/>
+        <location line="+391"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12216,12 +12701,12 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-359"/>
+        <location line="-363"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
         <translation>Ресемплювати відео під дану частоту кадрів при збереженні тривалості та синхронізації.</translation>
     </message>
     <message>
-        <location line="+358"/>
+        <location line="+362"/>
         <source>_New frame rate:</source>
         <translation>Нова _частота кадрів:</translation>
     </message>
@@ -12828,7 +13313,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>uisupport</name>
     <message>
-        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+49"/>
+        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+46"/>
         <source>X11</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13079,7 +13564,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+348"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+350"/>
         <source>_IVTC</source>
         <translation>_Зворотний телесін</translation>
     </message>
@@ -13109,12 +13594,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Ширина:</translation>
     </message>
     <message>
-        <location line="-213"/>
+        <location line="-214"/>
         <source>vdpauDeint</source>
         <translation>Деінтерлейсер на основі VDPAU</translation>
     </message>
     <message>
-        <location line="+208"/>
+        <location line="+209"/>
         <source>_Field Order:</source>
         <translation>_Порядок полів:</translation>
     </message>
@@ -13129,12 +13614,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Зберегти нижнє поле</translation>
     </message>
     <message>
-        <location line="-195"/>
+        <location line="-196"/>
         <source>VDPAU deinterlacer (+resize).</source>
         <translation>Усунути черезрядковість і за вибором змінити розмір відео за допомогою VDPAU.</translation>
     </message>
     <message>
-        <location line="+200"/>
+        <location line="+201"/>
         <source>Bottom Field First</source>
         <translation>Спочатку нижнє поле</translation>
     </message>
@@ -13152,27 +13637,27 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpresize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+206"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+205"/>
         <source>vdpau</source>
         <translation>Змінити розмір на основі VDPAU</translation>
     </message>
     <message>
-        <location line="-136"/>
+        <location line="-134"/>
         <source>vdpau: Resize image using vdpau.</source>
         <translation>Змінити розмір за допомогою VDPAU.</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+129"/>
         <source>Width:</source>
         <translation>Ширина:</translation>
     </message>
     <message>
-        <location line="-132"/>
+        <location line="-130"/>
         <source>vdpau: Resize</source>
         <translation>Змінити розмір на основі VDPAU</translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+131"/>
         <source>Height:</source>
         <translation>Висота:</translation>
     </message>

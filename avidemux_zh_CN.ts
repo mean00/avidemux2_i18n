@@ -1158,7 +1158,7 @@ Drop timing informations ?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+56"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+104"/>
         <source>5.1</source>
         <translation>5.1</translation>
     </message>
@@ -1184,7 +1184,7 @@ Drop timing informations ?</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+55"/>
         <source>DRC</source>
         <translation>DRC</translation>
     </message>
@@ -1303,7 +1303,7 @@ Drop timing informations ?</source>
         <translation>完成</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+8"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-43"/>
         <source>Gain</source>
         <translation>增益</translation>
     </message>
@@ -1324,6 +1324,7 @@ Drop timing informations ?</source>
         <translation>Jpeg</translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+26"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-7"/>
         <source>Main</source>
         <translation>主要</translation>
@@ -1334,7 +1335,7 @@ Drop timing informations ?</source>
         <translation>OPUS</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-22"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-46"/>
         <source>Mono</source>
         <translation>单音</translation>
     </message>
@@ -1344,8 +1345,8 @@ Drop timing informations ?</source>
         <translation>Mpeg</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-10"/>
-        <location line="+27"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-25"/>
+        <location line="+40"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-50"/>
         <source>None</source>
         <translation>无</translation>
@@ -1356,7 +1357,7 @@ Drop timing informations ?</source>
         <translation>QDM2</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1996"/>
+        <location filename="../../common/gui_main.cpp" line="+2012"/>
         <source>Oops</source>
         <translation>Oops</translation>
     </message>
@@ -1407,7 +1408,7 @@ Drop timing informations ?</source>
         <translation>没有音轨</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-18"/>
         <source>Stereo+surround</source>
         <translation>立体+环绕</translation>
     </message>
@@ -1501,7 +1502,7 @@ It is needed to create FLV  video.</source>
         <translation>HQ AC</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+36"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
         <source>Mixer</source>
         <translation>混音频</translation>
     </message>
@@ -1647,7 +1648,7 @@ Installation mismatch</source>
         <translation>剪切时发生错误.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-58"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-71"/>
         <source>R_esampling (Hz):</source>
         <translation>重复取样 (Hz):</translation>
     </message>
@@ -1714,7 +1715,7 @@ Installation mismatch</source>
         <translation>BMP 通过失败</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+19"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
         <source>Stereo+center+surround</source>
         <translation>立体+中央+环绕</translation>
     </message>
@@ -1755,7 +1756,7 @@ Installation mismatch</source>
         <translation>未知</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1814"/>
+        <location filename="../../common/gui_main.cpp" line="-1828"/>
         <source>Select script to run</source>
         <translation>选择脚本去执行</translation>
     </message>
@@ -1820,7 +1821,7 @@ Installation mismatch</source>
         <translation>插件-音频装置(ADM)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1273"/>
+        <location filename="../../common/gui_main.cpp" line="+1287"/>
         <source>Something bad happened</source>
         <translation>有些事发生问题</translation>
     </message>
@@ -1961,7 +1962,32 @@ Proceed anyway?</source>
         <translation>不能开启 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-3"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-18"/>
+        <source>Tempo multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>A value of 2.0 means twice as fast playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pitch multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Every doubling means one octave upshift</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Frame rate change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-57"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
@@ -1973,7 +1999,7 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+5"/>
         <source>Automatic</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1988,9 +2014,8 @@ Proceed anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>Shift audio:</source>
-        <translation>转变音频:</translation>
+        <translation type="vanished">转变音频:</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-24"/>
@@ -2019,7 +2044,7 @@ Warning, the settings must be close.</source>
         <translation>高于一般</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-953"/>
+        <location filename="../../common/gui_main.cpp" line="-967"/>
         <source>Select script to save</source>
         <translation>选择脚本去保存</translation>
     </message>
@@ -2036,7 +2061,7 @@ Warning, the settings must be close.</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+272"/>
+        <location filename="../../common/gui_main.cpp" line="+286"/>
         <source>Select Video File to Append...</source>
         <translation>选择视频去附加合并(二视带宽高比要一致)...</translation>
     </message>
@@ -2081,7 +2106,7 @@ Warning, the settings must be close.</source>
         <translation>编码优先次序:</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-35"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-14"/>
         <source>Dolby Pro Logic</source>
         <translation>杜比定向逻辑</translation>
     </message>
@@ -2142,12 +2167,302 @@ Installation mismatch</source>
         <translation>帧十六进制转储</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+24"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+22"/>
         <source>_Mixer:</source>
         <translation>混合器:</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+10"/>
+        <source>Shift audio (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enable Compressor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Normalize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Threshold (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Noise floor (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Attack time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Release time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Enable Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass/Mid cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid/Treble cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Treble (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel gains</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Channel delays</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Enable Remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>Audio Filters</source>
         <translation>音频过滤</translation>
     </message>
@@ -2210,6 +2525,7 @@ Installation mismatch</source>
         <translation>删除</translation>
     </message>
     <message>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-196"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Custom</source>
         <translation>自定义</translation>
@@ -2332,7 +2648,7 @@ Installation mismatch</source>
         <translation>启用所有 SIMD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-12"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+56"/>
         <source>Remix</source>
         <translation>重新混合</translation>
     </message>
@@ -2355,7 +2671,7 @@ Installation mismatch</source>
         <translation>保存中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-35"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-33"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-20"/>
         <source>Stereo</source>
         <translation>立体声</translation>
@@ -2371,7 +2687,7 @@ Installation mismatch</source>
         <translation>广泛搜寻</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1236"/>
+        <location filename="../../common/gui_main.cpp" line="-1250"/>
         <source>Select script to debug</source>
         <translation>选择脚本去调试</translation>
     </message>
@@ -2407,7 +2723,7 @@ Installation mismatch</source>
         <translation>转到第一帧(开始)</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+751"/>
+        <location filename="../../common/gui_main.cpp" line="+765"/>
         <source>Cannot open &quot;%s&quot;.</source>
         <translation>无法开启 &quot;%s&quot;。</translation>
     </message>
@@ -2585,7 +2901,7 @@ Installation mismatch</source>
         <translation>没有改变</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-680"/>
+        <location filename="../../common/gui_main.cpp" line="-694"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>你是要清除最近使用的文件和项目的列表，这不&apos;能撤销，是否继续？</translation>
     </message>
@@ -2596,7 +2912,7 @@ Installation mismatch</source>
         <translation>Sdl 驱动程序r</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+154"/>
+        <location filename="../../common/gui_main.cpp" line="+168"/>
         <source>No engine</source>
         <translation>没有引擎</translation>
     </message>
@@ -2701,7 +3017,7 @@ Do you want to continue anyway ?</source>
         <translation>不能建立编码器</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
         <source>Manual (dB)</source>
         <translation>手册 (dB)</translation>
     </message>
@@ -2740,7 +3056,7 @@ Do you want to continue anyway ?</source>
         <translation type="vanished">LIBVA (最好)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-28"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-41"/>
         <source>Film to PAL</source>
         <translation>Film 转成 PAL</translation>
     </message>
@@ -3113,7 +3429,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>非常高</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1474"/>
+        <location filename="../../common/gui_main.cpp" line="-1488"/>
         <source>Select script/project to run</source>
         <translation>选择要执行的脚本/项目</translation>
     </message>
@@ -3133,7 +3449,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>将标记B(选择结束)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+20"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+35"/>
         <source>Stereo front+stereo rear</source>
         <translation>前段立体+后段立体</translation>
     </message>
@@ -3175,7 +3491,7 @@ Installation mismatch</source>
         <translation>去除垂直方向块状色斑</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+1268"/>
+        <location filename="../../common/gui_main.cpp" line="+1282"/>
         <source>Errors found in %u frames</source>
         <translation>在 %u 帧中发现错误</translation>
     </message>
@@ -3271,7 +3587,7 @@ Installation mismatch</source>
         <translation>立体+中央</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-27"/>
         <source>PAL to Film</source>
         <translation>PAL 转成 Film</translation>
     </message>
@@ -3506,7 +3822,7 @@ Install lame plugin</source>
         <translation>更新帧类型</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+3"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+4"/>
         <source>_Frame rate change:</source>
         <translation>帧率改变:</translation>
     </message>
@@ -3551,7 +3867,7 @@ Install lame plugin</source>
         <translation>内存错误</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+12"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+26"/>
         <source>5 channels</source>
         <translation>5 声道</translation>
     </message>
@@ -3741,7 +4057,7 @@ Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+131"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5762,6 +6078,60 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>decimateFrame</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp" line="+54"/>
+        <location line="+34"/>
+        <source>Decimate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Drop duplicate frames.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Normal mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Evaluation mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Evaluation mode makes possible to examine the video by printing duplicate metric, while omitting frame dropping.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Duplicate threshold:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Consecutive frame drop limit:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Note: this filter won&apos;t change the reported frame rate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>delogo2</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/ADM_vidMPdelogo.cpp" line="+41"/>
@@ -7467,7 +7837,7 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffnvenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+340"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+356"/>
         <source>Low Latency</source>
         <translation>低延迟</translation>
     </message>
@@ -7559,6 +7929,46 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+5"/>
+        <source>Autoselect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7585,6 +7995,11 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Use B-Frames as References:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum Reference Frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7643,12 +8058,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-24"/>
+        <location line="-25"/>
         <source>Preset:</source>
         <translation>默认定:</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>GOP Size:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7658,7 +8073,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+16"/>
+        <source>Weighted prediction is incompatible with B-frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Rate Control</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7668,12 +8088,17 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+1"/>
+        <source>References</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
         <source>Basic Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+13"/>
         <source>Advanced Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7687,7 +8112,7 @@ Start and/or end time would be out of range</source>
         <translation type="vanished">低品质</translation>
     </message>
     <message>
-        <location line="-97"/>
+        <location line="-132"/>
         <source>High Quality</source>
         <translation>高质量</translation>
     </message>
@@ -7701,7 +8126,7 @@ Start and/or end time would be out of range</source>
         <translation type="vanished">低延迟 (LQ)</translation>
     </message>
     <message>
-        <location line="+91"/>
+        <location line="+126"/>
         <source>NVENC HEVC configuration</source>
         <translation>NVENC HEVC 配置</translation>
     </message>
@@ -7818,22 +8243,62 @@ Start and/or end time would be out of range</source>
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+34"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+36"/>
         <source>TS Muxer</source>
         <translation>TS 复合器</translation>
     </message>
     <message>
-        <location line="-5"/>
+        <location line="-6"/>
         <source>Mux rate (MBits/s)</source>
         <translation>复合率 (MBits/s)</translation>
     </message>
     <message>
-        <location line="-1"/>
+        <location line="-2"/>
+        <source>M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>VBR muxing</source>
         <translation>VBR 复合</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+71"/>
+        <source>Video track is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Audio track %d out of %u is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Audio track %d out of %u is incompatible with M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Only MPEG-1/2, VC-1, H264 and HEVC supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Only AC3, E-AC3, DTS and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only MP2, MP3, AC3, E-AC3, DTS, AAC and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+87"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>保存 mpeg TS (ff)</translation>
     </message>
@@ -7904,22 +8369,28 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+157"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+197"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-3"/>
+        <location line="+4"/>
         <source>Main</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-3"/>
+        <source>Main10</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>High</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7929,12 +8400,17 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum Consecutive B-Frames:</source>
+        <location line="+3"/>
+        <source>Allow B-frames</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
+        <source>On some Macs, disabling B-frames is not possible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Bitrate (kbps):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7954,7 +8430,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+17"/>
+        <source>VideoToolbox HEVC Encoder Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>VideoToolbox H.264 Encoder Configuration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9556,7 +10037,7 @@ I will assume it has and try to continue</source>
         <translation type="vanished">Matroska 图像</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10034,7 +10515,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1089"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>读取 SVQ3 档头时发生问题</translation>
     </message>
@@ -10789,13 +11270,13 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qaudiotracks</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+487"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp" line="+486"/>
         <source>copy</source>
         <translation>复制</translation>
     </message>
     <message>
-        <location line="-333"/>
-        <location line="+210"/>
+        <location line="-332"/>
+        <location line="+209"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
@@ -10820,7 +11301,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>....增加音频轨</translation>
     </message>
     <message>
-        <location line="-438"/>
+        <location line="-437"/>
         <source>Select audio file</source>
         <translation>将选择音频文件</translation>
     </message>
@@ -10830,7 +11311,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>不能使用该档作为音频轨道</translation>
     </message>
     <message>
-        <location line="+373"/>
+        <location line="+372"/>
         <source> from video</source>
         <translation> 来至视频</translation>
     </message>
@@ -12020,37 +12501,37 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+37"/>
         <source>Resample FPS</source>
         <translation>1.0-调整帧速度(重新取样)-用在数码转换DVD</translation>
     </message>
     <message>
-        <location line="+366"/>
+        <location line="+370"/>
         <source>Resample fps</source>
         <translation>重新取样 fps</translation>
     </message>
     <message>
-        <location line="-407"/>
+        <location line="-412"/>
         <source>Custom</source>
         <translation>自定义</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+404"/>
         <source>_Mode:</source>
         <translation>模式:</translation>
     </message>
     <message>
-        <location line="-397"/>
+        <location line="-402"/>
         <source>23.976 (Film)</source>
         <translation>23.976 (电影)</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+41"/>
         <source>Change and enforce FPS. Keep duration and sync.</source>
         <translation>结束时间仍然一样，例如15 fps电影从数码转换 DVD，一般PC上看不出来效果。</translation>
     </message>
     <message>
-        <location line="+349"/>
+        <location line="+353"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12692,7 +13173,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>uisupport</name>
     <message>
-        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+49"/>
+        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+46"/>
         <source>X11</source>
         <translation>X11</translation>
     </message>
@@ -12943,7 +13424,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+356"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+358"/>
         <source>vdpau</source>
         <translation>vdpau</translation>
     </message>
@@ -12958,12 +13439,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Ivtc</translation>
     </message>
     <message>
-        <location line="-210"/>
+        <location line="-211"/>
         <source>vdpauDeint</source>
         <translation>vdpau去交错</translation>
     </message>
     <message>
-        <location line="+211"/>
+        <location line="+212"/>
         <source>_Resize</source>
         <translation>重设大小</translation>
     </message>
@@ -12998,12 +13479,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>高:</translation>
     </message>
     <message>
-        <location line="-213"/>
+        <location line="-214"/>
         <source>VDPAU deinterlacer (+resize).</source>
         <translation>VDPAU 去交错化 （+ 重设大小）.</translation>
     </message>
     <message>
-        <location line="+212"/>
+        <location line="+213"/>
         <source>Width:</source>
         <translation>宽:</translation>
     </message>
@@ -13016,12 +13497,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpresize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+206"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+205"/>
         <source>vdpau</source>
         <translation>vdpau</translation>
     </message>
     <message>
-        <location line="-136"/>
+        <location line="-134"/>
         <source>vdpau: Resize image using vdpau.</source>
         <translation>vdpau: 使用vdpau调整图像大小。</translation>
     </message>
@@ -13031,7 +13512,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>vdpau: 重设大小</translation>
     </message>
     <message>
-        <location line="+133"/>
+        <location line="+131"/>
         <source>Height:</source>
         <translation>高:</translation>
     </message>

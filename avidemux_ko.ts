@@ -1365,7 +1365,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+34"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+67"/>
         <source>R_esampling (Hz):</source>
         <translation>리샘플링 (Hz):</translation>
     </message>
@@ -1376,13 +1376,13 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+4"/>
-        <location line="+27"/>
+        <location line="+40"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+43"/>
         <source>None</source>
         <translation>없음</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-39"/>
         <source>Film to PAL</source>
         <translation>Film -&gt; PAL</translation>
     </message>
@@ -1392,12 +1392,37 @@ Drop timing informations ?</source>
         <translation>PAL -&gt; Film</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+4"/>
         <source>_Frame rate change:</source>
         <translation>프레임 속도 변경:</translation>
     </message>
     <message>
+        <location line="+6"/>
+        <source>Tempo multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>A value of 2.0 means twice as fast playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Pitch multiplier:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Every doubling means one octave upshift</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+4"/>
+        <source>Frame rate change</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>No change</source>
         <translation>변경 없음</translation>
     </message>
@@ -1465,12 +1490,52 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+31"/>
+        <source>Shift audio (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Enable Compressor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Normalize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Threshold (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Noise floor (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Attack time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Release time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>DRC</source>
         <translation>DRC</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="-47"/>
         <source>Automatic</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1515,17 +1580,266 @@ Drop timing informations ?</source>
         <translation>믹서</translation>
     </message>
     <message>
-        <location line="+5"/>
         <source>Shift audio:</source>
-        <translation>오디오 이동:</translation>
+        <translation type="vanished">오디오 이동:</translation>
     </message>
     <message>
-        <location line="+0"/>
+        <location line="+5"/>
         <source>Shift Value (ms):</source>
         <translation>이동 값 (ms):</translation>
     </message>
     <message>
+        <location line="+24"/>
+        <source>Enable Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bass/Mid cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Mid/Treble cut-off (Hz):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Treble (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Equalizer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel gains</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Front left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Channel delays</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+4"/>
+        <source>Enable Remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Front left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Front center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Side right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear left to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear right to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rear center to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Low-frequency effects (LFE) to:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Channel remap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
         <source>Audio Filters</source>
         <translation>오디오 필터</translation>
     </message>
@@ -2365,7 +2679,7 @@ Drop timing informations ?</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+1632"/>
+        <location filename="../../common/gui_main.cpp" line="+1648"/>
         <location line="+27"/>
         <location line="+24"/>
         <location line="+8"/>
@@ -2472,7 +2786,7 @@ It is needed to create PSP compatible video.</source>
         <translation>FAAC 코덱이 없습니다! PSP 호환 비디오를 만들 때 필요합니다.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1537"/>
+        <location filename="../../common/gui_main.cpp" line="-1551"/>
         <source>Select script/project to run</source>
         <translation>실행할 스크립트/프로젝트 선택</translation>
     </message>
@@ -2497,7 +2811,7 @@ It is needed to create PSP compatible video.</source>
         <translation>최근 파일과 프로젝트의 목록을 지우려고 합니다. 이 작업은 복구할 수 없습니다. 진행할까요?</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+128"/>
         <source>Not coded in this version</source>
         <translation>이 버전에 코딩되어 있지 않습니다</translation>
     </message>
@@ -3105,7 +3419,8 @@ Try anyway?</source>
         <translation>자동 감지</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="-196"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+1"/>
         <source>Custom</source>
         <translation>사용자 정의</translation>
     </message>
@@ -3135,12 +3450,13 @@ Try anyway?</source>
         <translation>크로마 옵티마이저</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+68"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+2"/>
         <source>Main</source>
         <translation>메인</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>Very Low</source>
         <translation>매우 낮음</translation>
     </message>
@@ -3734,7 +4050,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+128"/>
+        <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+131"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5756,6 +6072,60 @@ Do you want to load it  ?
     </message>
 </context>
 <context>
+    <name>decimateFrame</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp" line="+54"/>
+        <location line="+34"/>
+        <source>Decimate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-33"/>
+        <source>Drop duplicate frames.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Normal mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Evaluation mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Evaluation mode makes possible to examine the video by printing duplicate metric, while omitting frame dropping.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Mode:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Parameters</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Duplicate threshold:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Consecutive frame drop limit:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Note: this filter won&apos;t change the reported frame rate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>delogo2</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/ADM_vidMPdelogo.cpp" line="+41"/>
@@ -7461,7 +7831,7 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffnvenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+326"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffNvEnc/ADM_ffNvEnc.cpp" line="+342"/>
         <source>Controlled by Preset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7571,6 +7941,46 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location line="+5"/>
+        <source>Autoselect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>6</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>7</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Disabled</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7602,6 +8012,11 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Use B-Frames as References:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Maximum Reference Frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7670,6 +8085,11 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location line="+1"/>
+        <source>Weighted prediction is incompatible with B-frames</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+2"/>
         <source>Rate Control</source>
         <translation type="unfinished"></translation>
@@ -7680,12 +8100,17 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+1"/>
+        <source>References</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+38"/>
         <source>Basic Settings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+13"/>
         <source>Advanced Settings</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7804,12 +8229,52 @@ Start and/or end time would be out of range</source>
 <context>
     <name>fftsmuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+71"/>
+        <source>Video track is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
+        <source>Audio track %d out of %u is incompatible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Audio track %d out of %u is incompatible with M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>Only MPEG-1/2, VC-1, H264 and HEVC supported for video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Only AC3, E-AC3, DTS and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Only MP2, MP3, AC3, E-AC3, DTS, AAC and TrueHD supported for audio</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Unsupported</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+87"/>
         <source>Saving mpeg TS (ff)</source>
         <translation>Mpeg TS 저장 중 (ff)</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+28"/>
+        <source>M2TS mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>VBR muxing</source>
         <translation>VBR 먹싱</translation>
     </message>
@@ -7819,7 +8284,7 @@ Start and/or end time would be out of range</source>
         <translation>먹스 속도 (Mbits/s)</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>TS Muxer</source>
         <translation>TS 먹서</translation>
     </message>
@@ -7890,22 +8355,28 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffvtenc</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+157"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffVTEnc/ADM_ffVTEnc.cpp" line="+197"/>
         <source>Baseline</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-3"/>
+        <location line="+4"/>
         <source>Main</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-3"/>
+        <source>Main10</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>High</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+6"/>
         <source>Profile:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7915,12 +8386,17 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Maximum Consecutive B-Frames:</source>
+        <location line="+3"/>
+        <source>Allow B-frames</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
+        <source>On some Macs, disabling B-frames is not possible</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Bitrate (kbps):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7940,7 +8416,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+17"/>
+        <source>VideoToolbox HEVC Encoder Configuration</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>VideoToolbox H.264 Encoder Configuration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9543,7 +10024,7 @@ I will assume it has and try to continue</source>
         <translation type="vanished">Matroska 클러스터</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+630"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10021,7 +10502,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1083"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1089"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 헤더를 읽는 중 문제 발생</translation>
     </message>
@@ -10781,17 +11262,17 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="+22"/>
-        <location line="+210"/>
+        <location line="+209"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location line="-210"/>
+        <location line="-209"/>
         <source>Cannot use that file as audio track</source>
         <translation>그 파일을 오디오 트랙으로 사용할 수 없습니다</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+209"/>
         <source>Some tracks are used multiple times</source>
         <translation>몇몇 트랙이 중복 사용되었습니다</translation>
     </message>
@@ -12013,7 +12494,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+37"/>
         <source>Resample FPS</source>
         <translation>FPS 리샘플</translation>
     </message>
@@ -12023,7 +12504,7 @@ Ready.
         <translation>FPS를 강제로 변경합니다. 재생시간과 싱크를 유지합니다.</translation>
     </message>
     <message>
-        <location line="+349"/>
+        <location line="+353"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12675,7 +13156,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>uisupport</name>
     <message>
-        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+49"/>
+        <location filename="../ADM_userInterfaces/ui_support.cpp" line="+46"/>
         <source>X11</source>
         <translation>X11</translation>
     </message>
@@ -12926,7 +13407,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpaudeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+138"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilterDeint.cpp" line="+139"/>
         <source>vdpauDeint</source>
         <translation>vdpauDeint</translation>
     </message>
@@ -12936,7 +13417,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>VDPAU 디인터레이서 (+크기조절).</translation>
     </message>
     <message>
-        <location line="+194"/>
+        <location line="+195"/>
         <source>Keep Top Field</source>
         <translation>상단 필드 유지</translation>
     </message>
@@ -12999,7 +13480,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vdpresize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+69"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp" line="+70"/>
         <source>vdpau: Resize</source>
         <translation>vdpau: 크기조절</translation>
     </message>
@@ -13009,7 +13490,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>vdpau를 이용해 이미지의 크기를 조절합니다.</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+129"/>
         <source>Width:</source>
         <translation>너비:</translation>
     </message>
