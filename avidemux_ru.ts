@@ -11475,17 +11475,17 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+460"/>
         <source>Recent Files</source>
-        <translation>Предыдущие файлы</translation>
+        <translation>Недавние файлы</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Recent Projects</source>
-        <translation>Предыдущие проекты</translation>
+        <translation>Недавние проекты</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Restore defaults</source>
-        <translation>Восстановить стандартный набор</translation>
+        <translation>Сбросить выбор</translation>
     </message>
     <message>
         <location line="+16"/>
