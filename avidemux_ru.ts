@@ -1636,252 +1636,252 @@ Drop timing informations ?</source>
     <message>
         <location line="+34"/>
         <source>Enable Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить эквалайзер</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Низкие частоты (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass/Mid cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Срез низких/средних частот (Гц):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Средние частоты (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid/Treble cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Срез средних/высоких частот (Гц):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Treble (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Высокие частоты (дБ):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Рекомендуется включить нормализацию при использовании положительных значений усиления&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Эквалайзер</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний левый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний правый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний центральный канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний левый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний правый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний центральный канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой левый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой правый канал (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Канал низкочастотных эффектов (LFE) (дБ):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel gains</source>
-        <translation type="unfinished"></translation>
+        <translation>Усиление каналов</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний левый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний правый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний центральный канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний левый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний правый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний центральный канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой левый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой правый канал (мс):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Канал низкочастотных эффектов (LFE) (мс):</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Конечная задержка будет суммой приведённого выше значения и значения «Сдвига аудио», указанного во вкладке «Основное»&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Channel delays</source>
-        <translation type="unfinished"></translation>
+        <translation>Задержка каналов</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Enable Remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить переназначение</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний левый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний правый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний центральный канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой левый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой правый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний левый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний правый канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний центральный канал</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE)</source>
-        <translation type="unfinished"></translation>
+        <translation>Канал низкочастотных эффектов (LFE)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний левый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний правый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Передний центральный канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой левый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Боковой правый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний левый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний правый канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Задний центральный канал на:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Канал низкочастотных эффектов (LFE) на:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Переназначение не меняет схему каналов, поэтому:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;назначение канала на несуществующий приведёт к его потере&lt;/li&gt;&lt;li&gt;назначение несуществующего канала приведёт к тишине&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Переназначение каналов</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2306,27 +2306,27 @@ Is it running ?</source>
     <message>
         <location line="+10"/>
         <source>Tempo multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Множитель темпа:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A value of 2.0 means twice as fast playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Значение 2,0 означает вдвое более быстрое воспроизведение.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pitch multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Множитель высоты тона:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Every doubling means one octave upshift</source>
-        <translation type="unfinished"></translation>
+        <translation>Каждое удвоение означает сдвиг на одну октаву вверх</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Frame rate change</source>
-        <translation type="unfinished"></translation>
+        <translation>Смена кадровой частоты</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2378,47 +2378,47 @@ Is it running ?</source>
     <message>
         <location line="+31"/>
         <source>Shift audio (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Сдвиг аудио (мс):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enable Compressor</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить компрессор (DRC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Normalize</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормализация</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threshold (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Порог срабатывания (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Noise floor (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Нижний порог шумов (дБ):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Степень сжатия:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attack time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Время атаки (с):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Release time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Время спада (с):</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>DRC</source>
-        <translation>Сжатие динамического диапазона (DRC)</translation>
+        <translation>Компрессор</translation>
     </message>
     <message>
         <location line="-47"/>
@@ -3177,7 +3177,8 @@ It is needed to create PSP compatible video.</source>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
-        <translation>Точки разреза вставленного видео находятся не на ключевых кадрах. Видео, сохранённое в режиме копирования, будет на этих местах повреждено.
+        <translation>Точки разреза вставленного видео находятся не на ключевых кадрах.
+Видео, сохранённое в режиме копирования, будет на этих местах повреждено.
 Всё равно продолжить?</translation>
     </message>
     <message>
@@ -3488,7 +3489,7 @@ Try anyway?</source>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+4"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+2"/>
         <source>Main</source>
-        <translation>Основной</translation>
+        <translation>Основное</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
@@ -6109,52 +6110,52 @@ Do you want to load it  ?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp" line="+54"/>
         <location line="+34"/>
         <source>Decimate</source>
-        <translation type="unfinished"></translation>
+        <translation>Прореживатель</translation>
     </message>
     <message>
         <location line="-33"/>
         <source>Drop duplicate frames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Уборка повторяющихся кадров.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Normal mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Нормальный режим</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Evaluation mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим оценки</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Evaluation mode makes possible to examine the video by printing duplicate metric, while omitting frame dropping.</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим оценки позволяет просматривать видео с выводом метрики повторов без фактической уборки кадров.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметры</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Duplicate threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Порог повторов:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Consecutive frame drop limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Предел уборки последовательных кадров:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Note: this filter won&apos;t change the reported frame rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Примечание: этот фильтр меняет сообщаемую частоту кадров</translation>
     </message>
 </context>
 <context>
@@ -7969,7 +7970,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+6"/>
         <source>Main10</source>
-        <translation>Основной10</translation>
+        <translation>Основной 10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -7979,42 +7980,42 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+5"/>
         <source>Autoselect</source>
-        <translation type="unfinished"></translation>
+        <translation>Автоопределение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>6</source>
-        <translation type="unfinished"></translation>
+        <translation>6</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>7</source>
-        <translation type="unfinished"></translation>
+        <translation>7</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8054,7 +8055,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Maximum Reference Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Максимум опорных кадров:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8089,7 +8090,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>AQ Strength:</source>
-        <translation>Уровень адаптивного квантования (AQ)</translation>
+        <translation>Уровень адаптивного квантования (AQ):</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8124,7 +8125,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Weighted prediction is incompatible with B-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Взвешенное предсказание несовместимо с B-кадрами</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8139,7 +8140,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Опорные</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -8280,37 +8281,37 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+71"/>
         <source>Video track is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Видеодорожка несовместима</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Audio track %d out of %u is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Звуковая дорожка %d из %u несовместима</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Audio track %d out of %u is incompatible with M2TS mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Звуковая дорожка %d из %u несовместима с режимом M2TS</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Only MPEG-1/2, VC-1, H264 and HEVC supported for video</source>
-        <translation type="unfinished"></translation>
+        <translation>Для видео поддерживаются только MPEG-1/2, VC-1, H264 и HEVC</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Only AC3, E-AC3, DTS and TrueHD supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Для аудио поддерживаются только AC3, E-AC3, DTS и TrueHD</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only MP2, MP3, AC3, E-AC3, DTS, AAC and TrueHD supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Для аудио поддерживаются только MP2, MP3, AC3, E-AC3, DTS, AAC и TrueHD</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Не поддерживается</translation>
     </message>
     <message>
         <location line="+87"/>
@@ -8320,7 +8321,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+28"/>
         <source>M2TS mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим M2TS</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8417,7 +8418,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-3"/>
         <source>Main10</source>
-        <translation type="unfinished"></translation>
+        <translation>Основной 10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8437,12 +8438,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+3"/>
         <source>Allow B-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Разрешить B-кадры</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>On some Macs, disabling B-frames is not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>На некоторых устройствах Mac отключение B-кадров невозможно</translation>
     </message>
     <message>
         <source>Maximum Consecutive B-Frames:</source>
@@ -8471,7 +8472,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+17"/>
         <source>VideoToolbox HEVC Encoder Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки кодировщика VideoToolbox HEVC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10595,22 +10596,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+12"/>
         <source>Only MPEG-4, H264, H265, AV1, DNxHD and ProRes supported for video</source>
-        <translation>Только MPEG-4, H264, H265, AV1, DNxHD и ProRes поддерживаются как видео</translation>
+        <translation>Для видео поддерживаются только MPEG-4, H264, H265, AV1, DNxHD и ProRes</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
-        <translation>Только MPEG-1/2/4, H264, H265 и AV1 поддерживаются как видео</translation>
+        <translation>Для видео поддерживаются только MPEG-1/2/4, H264, H265 и AV1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Only AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 and Vorbis supported for audio</source>
-        <translation>Только AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 и Vorbis поддерживаются как аудио</translation>
+        <translation>Для аудио поддерживаются только AAC, AC3, DTS, E-AC3, (L)PCM, MP2, MP3 и Vorbis</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Only AAC, AC3, DTS, E-AC3, MP2, MP3 and Vorbis supported for audio</source>
-        <translation>Только AAC, AC3, DTS, E-AC3, MP2, MP3 и Vorbis поддерживаются как аудио</translation>
+        <translation>Для аудио поддерживаются только AAC, AC3, DTS, E-AC3, MP2, MP3 и Vorbis</translation>
     </message>
     <message>
         <location line="+203"/>
@@ -11474,12 +11475,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+460"/>
         <source>Recent Files</source>
-        <translation>Предыдущие файлы</translation>
+        <translation>Недавние файлы</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Recent Projects</source>
-        <translation>Предыдущие проекты</translation>
+        <translation>Недавние проекты</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -14110,7 +14111,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+595"/>
         <source>Pixel Aspect Ratio</source>
-        <translation>Соотношение сторон:</translation>
+        <translation>Соотношение сторон</translation>
     </message>
     <message>
         <location line="+232"/>
@@ -15938,7 +15939,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+14"/>
         <source>Noise Reduction Inter:</source>
-        <translation>Подавление шума в интер-блоках</translation>
+        <translation>Подавление шума в интер-блоках:</translation>
     </message>
     <message>
         <location line="+34"/>
