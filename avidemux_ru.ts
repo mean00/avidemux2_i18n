@@ -7970,7 +7970,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+6"/>
         <source>Main10</source>
-        <translation>Основной10</translation>
+        <translation>Основной 10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8418,7 +8418,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-3"/>
         <source>Main10</source>
-        <translation>Основной10</translation>
+        <translation>Основной 10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9396,7 +9396,7 @@ I will assume it has and try to continue</source>
         <location line="+3"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>_Frame rate change:</source>
-        <translation>_Смена кадровой частоты:</translation>
+        <translation>_Изменение частоты кадров:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -10601,7 +10601,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Only MPEG-1/2/4, H264, H265 and AV1 supported for video</source>
-        <translation>Для видео поддерживаются только  MPEG-1/2/4, H264, H265 и AV1</translation>
+        <translation>Для видео поддерживаются только MPEG-1/2/4, H264, H265 и AV1</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -11485,7 +11485,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+32"/>
         <source>Restore defaults</source>
-        <translation>Сбросить выбор</translation>
+        <translation>Восстановить стандартный набор</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -13891,8 +13891,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
         <location line="+0"/>
         <source>this mode has not been implemented
 </source>
-        <translation>этот режим ещё не разработан
-</translation>
+        <translation>этот режим ещё не разработан</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
