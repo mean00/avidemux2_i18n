@@ -676,6 +676,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/addBorder/addBorder.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/addBorder/ADM_vidAddBorder.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/decimateFrame.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/rotateSimple/rte.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeTo/fade.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/DIA_flyArtCharcoal.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artCharcoal/qt4/Q_artCharcoal.h \ 
@@ -1723,6 +1724,8 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/decimateFrame_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/decimateFrame_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/rotateSimple/rte_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/rotateSimple/rotate.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/stackField/stackField.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/stackField/unstackField.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/stackField/hzStackField.cpp \ 

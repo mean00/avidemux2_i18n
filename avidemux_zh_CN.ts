@@ -479,7 +479,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1456"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1474"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -498,7 +498,7 @@ Drop timing informations ?</source>
         <translation type="vanished">F7</translation>
     </message>
     <message>
-        <location line="-827"/>
+        <location line="-845"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
@@ -515,9 +515,10 @@ Drop timing informations ?</source>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
-        <location line="+26"/>
         <location line="+23"/>
-        <location line="+25"/>
+        <location line="+23"/>
+        <location line="+23"/>
+        <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -528,12 +529,12 @@ Drop timing informations ?</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="+331"/>
+        <location line="+332"/>
         <source>&amp;Top</source>
         <translation>上下并排(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1540"/>
+        <location line="-1559"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>复制</translation>
@@ -575,7 +576,7 @@ Drop timing informations ?</source>
         <translation>检视(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1696"/>
+        <location line="+1715"/>
         <source>Open Video</source>
         <translation>开启视频</translation>
     </message>
@@ -585,7 +586,7 @@ Drop timing informations ?</source>
         <translation>左右并排(&amp;D</translation>
     </message>
     <message>
-        <location line="-661"/>
+        <location line="-662"/>
         <source>Time:</source>
         <translation>时间:</translation>
     </message>
@@ -594,13 +595,13 @@ Drop timing informations ?</source>
         <translation type="vanished">Alt+Return</translation>
     </message>
     <message>
-        <location line="+496"/>
+        <location line="+497"/>
         <location line="+3"/>
         <source>Load/Run Project</source>
         <translation>加载/执行项目</translation>
     </message>
     <message>
-        <location line="-652"/>
+        <location line="-653"/>
         <source>Search next black frame</source>
         <translation>搜寻下一帧黑框</translation>
     </message>
@@ -610,7 +611,7 @@ Drop timing informations ?</source>
         <translation>转到第一帧 [HOME]</translation>
     </message>
     <message>
-        <location line="-166"/>
+        <location line="-184"/>
         <source>Go to next keyframe [UP]</source>
         <translation>转到下一帧(关键帧或I帧) [UP]</translation>
     </message>
@@ -619,23 +620,23 @@ Drop timing informations ?</source>
         <translation type="vanished">计算器(&amp;C)...</translation>
     </message>
     <message>
-        <location line="+506"/>
+        <location line="+524"/>
         <source>Go to marker A [PAGE UP]</source>
         <translation>转到标记 A [PAGE UP]</translation>
     </message>
     <message>
-        <location line="+301"/>
+        <location line="+302"/>
         <location line="+3"/>
         <source>Save Project</source>
         <translation>保存项目</translation>
     </message>
     <message>
-        <location line="-1719"/>
+        <location line="-1738"/>
         <source>&amp;Audio</source>
         <translation>音频(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1734"/>
+        <location line="+1753"/>
         <source>&amp;Input</source>
         <translation>输入(&amp;I)</translation>
     </message>
@@ -645,33 +646,33 @@ Drop timing informations ?</source>
         <translation>标志区段(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1790"/>
+        <location line="-1809"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1343"/>
+        <location line="+1361"/>
         <source>Se&amp;lection</source>
         <translation>标志区间段(&amp;L)</translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-378"/>
         <source>Set end marker [CTRL+PAGEDOWN]</source>
         <translation>设定结束标记 [CTRL+PAGEDOWN]</translation>
     </message>
     <message>
-        <location line="+463"/>
+        <location line="+458"/>
         <location line="+16"/>
         <source>000000</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="+393"/>
+        <location line="+394"/>
         <source>&amp;Audio Metre</source>
         <translation>音频画面(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1638"/>
+        <location line="-1657"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -689,27 +690,27 @@ Drop timing informations ?</source>
         <translation>播放 [SPACE]</translation>
     </message>
     <message>
-        <location line="+792"/>
+        <location line="+811"/>
         <source>Audio &amp;Metre</source>
         <translation>音频画面(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1642"/>
+        <location line="-1661"/>
         <source>&amp;Toolbars</source>
         <translation>工具栏(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1689"/>
+        <location line="+1708"/>
         <source>&amp;Open...</source>
         <translation>开启文件(&amp;O)...</translation>
     </message>
     <message>
-        <location line="-375"/>
+        <location line="-376"/>
         <source>Frame type:</source>
         <translation>帧类型:</translation>
     </message>
     <message>
-        <location line="+399"/>
+        <location line="+400"/>
         <location line="+3"/>
         <source>Save Video</source>
         <translation>保存视频</translation>
@@ -720,12 +721,12 @@ Drop timing informations ?</source>
         <translation>保存视频&amp;V)...</translation>
     </message>
     <message>
-        <location line="-642"/>
+        <location line="-643"/>
         <source>Search previous black frame</source>
         <translation>搜寻上一帧黑框</translation>
     </message>
     <message>
-        <location line="-189"/>
+        <location line="-207"/>
         <source>Go to previous frame [LEFT]</source>
         <translation>转到上一帧 [LEFT]</translation>
     </message>
@@ -735,17 +736,17 @@ Drop timing informations ?</source>
         <translation>编译码器选项(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1633"/>
+        <location line="+1652"/>
         <source>Play filtered</source>
         <translation>过滤播放(&amp;P)</translation>
     </message>
     <message>
-        <location line="-258"/>
+        <location line="-259"/>
         <source>Go to Marker B [PAGE DOWN]</source>
         <translation>转到标记 B [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="-1043"/>
+        <location line="-1061"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;输出音频编码佳AC3/Mp3&lt;/b&gt;</translation>
     </message>
@@ -755,42 +756,42 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;视频输出格式(容器)佳Mp4/Mkv&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1088"/>
+        <location line="+1107"/>
         <source>&amp;Load/Run Project...</source>
         <translation>加载/执行项目(&amp;L)...</translation>
     </message>
     <message>
-        <location line="-600"/>
+        <location line="-601"/>
         <source>Go to last frame [END]</source>
         <translation>G转到最后一帧 [END]</translation>
     </message>
     <message>
-        <location line="-1113"/>
+        <location line="-1131"/>
         <source>&amp;Custom</source>
         <translation>自定义(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1761"/>
+        <location line="+1780"/>
         <source>&amp;Output</source>
         <translation>输出(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1736"/>
+        <location line="-1755"/>
         <source>&amp;Recent</source>
         <translation>最近(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1137"/>
+        <location line="+1155"/>
         <source>Forward one minute</source>
         <translation>前进一分钟</translation>
     </message>
     <message>
-        <location line="-604"/>
+        <location line="-622"/>
         <source>&amp;Shift:</source>
         <translation>位移(±)(&amp;S):</translation>
     </message>
     <message>
-        <location line="+1256"/>
+        <location line="+1275"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -800,17 +801,17 @@ Drop timing informations ?</source>
         <translation>编译码器选项(&amp;C)</translation>
     </message>
     <message>
-        <location line="-613"/>
+        <location line="-614"/>
         <source>Forward one minute [CTRL+UP]</source>
         <translation>前进一分钟 [CTRL+UP]</translation>
     </message>
     <message>
-        <location line="+698"/>
+        <location line="+699"/>
         <source>&amp;Separate</source>
         <translation>分离窗口(&amp;S)</translation>
     </message>
     <message>
-        <location line="-910"/>
+        <location line="-929"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>设定开始标记 [CTRL+PAGEUP]</translation>
     </message>
@@ -826,12 +827,12 @@ Drop timing informations ?</source>
         <translation>过滤器-特效</translation>
     </message>
     <message>
-        <location line="+974"/>
+        <location line="+992"/>
         <source>Vol&amp;ume</source>
         <translation>音量(&amp;U)</translation>
     </message>
     <message>
-        <location line="-1401"/>
+        <location line="-1419"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;译码器.颜色.不编码直选COPY&lt;/b&gt;</translation>
     </message>
@@ -851,7 +852,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+583"/>
+        <location line="+557"/>
+        <source>Delete selection [DEL]</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+46"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -861,7 +867,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+220"/>
+        <location line="+218"/>
         <source>00:00:00.000</source>
         <translation>00:00:00.000</translation>
     </message>
@@ -876,7 +882,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+260"/>
+        <location line="+261"/>
         <source>Save &amp;Project</source>
         <translation>保存项目(&amp;P)</translation>
     </message>
@@ -886,17 +892,17 @@ Drop timing informations ?</source>
         <translation>属性(&amp;I)...</translation>
     </message>
     <message>
-        <location line="-799"/>
+        <location line="-818"/>
         <source>Go to next frame [RIGHT]</source>
         <translation>转到下一帧</translation>
     </message>
     <message>
-        <location line="+258"/>
+        <location line="+276"/>
         <source>Backward one minute [CTRL+DOWN]</source>
         <translation>倒退一分钟 [CTRL+DOWN]</translation>
     </message>
     <message>
-        <location line="+639"/>
+        <location line="+640"/>
         <source>Ctrl+Alt+C</source>
         <translation>Ctrl+Alt+C</translation>
     </message>
@@ -931,13 +937,13 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="-916"/>
+        <location line="-935"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>转到上一帧(关键帧或I帧) [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+1035"/>
+        <location line="+1054"/>
         <source>&amp;Navigation</source>
         <translation>视频导航栏(&amp;N)</translation>
     </message>
@@ -1001,6 +1007,44 @@ Drop timing informations ?</source>
     </message>
 </context>
 <context>
+    <name>aarotate</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+437"/>
+        <source>Arbitrary Rotate</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Rotate the image by arbitrary angle.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+186"/>
+        <source>Black</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>_Angle:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Padding:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Rotate</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>aboutDialog</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/about.ui" line="+220"/>
@@ -1018,7 +1062,12 @@ Drop timing informations ?</source>
         <translation>关于  Avidemux</translation>
     </message>
     <message>
-        <location line="+112"/>
+        <location line="+92"/>
+        <source>Avidemux</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+18"/>
         <source>Multi-platform Video Editor</source>
         <translation>跨平台视频编辑工具
 
@@ -1031,14 +1080,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
         <source>http://www.avidemux.org</source>
-        <translation>http://www.avidemux.org</translation>
+        <translation type="vanished">http://www.avidemux.org</translation>
     </message>
     <message>
-        <location line="-48"/>
         <source>Avidemux </source>
-        <translation>Avidemux </translation>
+        <translation type="vanished">Avidemux </translation>
     </message>
 </context>
 <context>
@@ -1477,7 +1524,7 @@ It is needed to create FLV  video.</source>
         <translation>只显示错误警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+812"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+830"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -8491,7 +8538,69 @@ Do you want to replace it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+186"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
+        <location line="+146"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Defaults for new filter instances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Resize method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+19"/>
+        <source>Most recently accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-18"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lanczos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Spline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Nearest Neighbor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Padding type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Black Bars</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+57"/>
         <source>Width and height cannot be odd</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10520,7 +10629,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>读取 SVQ3 档头时发生问题</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+509"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+522"/>
         <location line="+111"/>
         <source>Decoding frame type</source>
         <translation type="unfinished"></translation>
@@ -10889,17 +10998,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+843"/>
+        <location filename="../../common/gui_navigate.cpp" line="+845"/>
         <source>Seek</source>
         <translation>寻求</translation>
     </message>
     <message>
-        <location line="+87"/>
+        <location line="+91"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
     <message>
-        <location line="-486"/>
+        <location line="-492"/>
         <source>Cannot go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
@@ -11251,7 +11360,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>psdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+243"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+244"/>
         <source>Indexing</source>
         <translation>正在索引</translation>
     </message>
@@ -11413,39 +11522,39 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+2980"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3082"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-1328"/>
+        <location line="-1410"/>
         <source>Set start marker</source>
         <translation>设定开始标记</translation>
     </message>
     <message>
-        <location line="-920"/>
+        <location line="-930"/>
         <source>Recent Projects</source>
         <translation>最近使用的 项目(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1994"/>
+        <location line="+2067"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>应用程序遇到了一个致命的问题
 当前编辑已保保存, 将在下一开始重载</translation>
     </message>
     <message>
-        <location line="-1082"/>
+        <location line="-1149"/>
         <source>Go to previous keyframe</source>
         <translation>转到上一帧(关键帧或I帧)</translation>
     </message>
     <message>
-        <location line="-1373"/>
+        <location line="-1388"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+460"/>
+        <location line="+469"/>
         <source>Recent Files</source>
         <translation>最近使用的 文件(&amp;F)</translation>
     </message>
@@ -11470,7 +11579,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+597"/>
+        <location line="+603"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11478,6 +11587,11 @@ The current editing has been saved and will be reloaded at next start</source>
         <location line="+258"/>
         <source>Go to next keyframe</source>
         <translation>转到下一帧(关键帧或I帧)</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Delete selection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
@@ -11490,17 +11604,52 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+34"/>
         <source>Backward one minute</source>
         <translation>倒退一分钟</translation>
     </message>
     <message>
-        <location line="+581"/>
+        <location line="+8"/>
+        <source>Backward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 1 second</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Backward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 2 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Backward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Forward 4 seconds</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Rotate mouse wheel to switch mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+611"/>
         <source>Zoom: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+696"/>
+        <location line="+716"/>
         <source>%c-%s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11518,17 +11667,17 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1734"/>
+        <location line="-1816"/>
         <source>Go to first frame</source>
         <translation>转到第一帧</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-42"/>
         <source>Play/Stop</source>
         <translation>播放/停止</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+50"/>
         <source>Go to marker A</source>
         <translation>转到标记A(选择开始)</translation>
     </message>
@@ -11543,12 +11692,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>设定结束标记</translation>
     </message>
     <message>
-        <location line="+48"/>
+        <location line="+43"/>
         <source>Forward one minute</source>
         <translation>前进一分钟</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-67"/>
         <source>Go to previous frame</source>
         <translation>转到上一帧</translation>
     </message>
@@ -11558,7 +11707,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>转到下一帧</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+38"/>
         <source>Go to last frame</source>
         <translation>转到最后一帧</translation>
     </message>
@@ -12559,12 +12708,58 @@ Ready.
 <context>
     <name>resize</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="+83"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="+84"/>
         <source>swScale Resizer.</source>
         <translation>调整比例像素大小。</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+434"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
+        <location line="+137"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Defaults for new filter instances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Resize method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Most recently accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lanczos-3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Spline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Nearest neighbor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+259"/>
         <source>Width and height cannot be odd</source>
         <translation>宽度和高度不能为奇数</translation>
     </message>
@@ -12735,7 +12930,7 @@ Ready.
         <translation type="vanished">90°</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+206"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotateSimple/rotate.cpp" line="+206"/>
         <source>None</source>
         <translation>无</translation>
     </message>
@@ -16772,7 +16967,7 @@ If it is a system profile it will be recreated next time.</source>
 <context>
     <name>zoom</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+68"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+69"/>
         <source>Zoom</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16782,9 +16977,71 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+485"/>
-        <location line="+316"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+488"/>
+        <location line="+425"/>
         <source>Selection: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-326"/>
+        <location line="+184"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Defaults for new filter instances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Resize method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+18"/>
+        <source>Most recently accepted</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-17"/>
+        <source>Bilinear</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bicubic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lanczos</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Spline</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Padding type:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Black Bars</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Echo</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
