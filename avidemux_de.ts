@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+488"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
         <source>Attempt to open %s failed!</source>
         <translation>Der Versuch, %s zu öffnen, ist fehlgeschlagen!</translation>
     </message>
@@ -76,7 +76,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Prüfe Gültigkeit der Zeitstempel...</translation>
     </message>
@@ -479,7 +479,7 @@ Drop timing informations ?</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+467"/>
+        <location line="+468"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopieren</translation>
@@ -535,7 +535,7 @@ Drop timing informations ?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="-1364"/>
+        <location line="-1365"/>
         <source>&amp;Help</source>
         <translation>&amp;Hilfe</translation>
     </message>
@@ -580,7 +580,7 @@ Drop timing informations ?</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="+1679"/>
+        <location line="+1680"/>
         <source>&amp;Open...</source>
         <translation>&amp;Öffnen...</translation>
     </message>
@@ -601,7 +601,7 @@ Drop timing informations ?</source>
         <translation>Video speichern</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+33"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Lade/Starte Projekt...</translation>
     </message>
@@ -631,7 +631,7 @@ Drop timing informations ?</source>
         <translation type="obsolete">F7</translation>
     </message>
     <message>
-        <location line="-1163"/>
+        <location line="-1175"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
@@ -646,7 +646,7 @@ Drop timing informations ?</source>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="+333"/>
+        <location line="+345"/>
         <source>&amp;Input</source>
         <translation>&amp;Original</translation>
     </message>
@@ -666,17 +666,17 @@ Drop timing informations ?</source>
         <translation>&amp;Übereinander</translation>
     </message>
     <message>
-        <location line="-580"/>
+        <location line="-592"/>
         <source>Frame type:</source>
         <translation>Frame-Typ:</translation>
     </message>
     <message>
-        <location line="+568"/>
+        <location line="+580"/>
         <source>&amp;Separate</source>
         <translation>Ab&amp;trennen</translation>
     </message>
     <message>
-        <location line="-1900"/>
+        <location line="-1913"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Werkzeugleisten</translation>
     </message>
@@ -691,7 +691,7 @@ Drop timing informations ?</source>
         <translation>Ve&amp;rlauf</translation>
     </message>
     <message>
-        <location line="+218"/>
+        <location line="+219"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video-Codec&lt;/b&gt;</translation>
     </message>
@@ -706,7 +706,7 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;Ausgabeformat&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1166"/>
+        <location line="+1178"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Codec-Einstellungen</translation>
     </message>
@@ -726,7 +726,7 @@ Drop timing informations ?</source>
         <translation>&amp;Pegelanzeige</translation>
     </message>
     <message>
-        <location line="-138"/>
+        <location line="-150"/>
         <source>Play filtered</source>
         <translation>Filter anwenden</translation>
     </message>
@@ -816,12 +816,12 @@ Drop timing informations ?</source>
         <translation>&amp;Codec-Einstellungen</translation>
     </message>
     <message>
-        <location line="-84"/>
+        <location line="-85"/>
         <source>T&amp;heme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+118"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video-Decoder&lt;/b&gt;</translation>
     </message>
@@ -838,12 +838,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+338"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="-976"/>
+        <location line="-988"/>
         <source>Play</source>
         <translation>Wiedergabe</translation>
     </message>
@@ -904,7 +904,12 @@ Drop timing informations ?</source>
         <translation>Audio&amp;pegel</translation>
     </message>
     <message>
-        <location line="+157"/>
+        <location line="+95"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+74"/>
         <source>Ctrl+Alt+C</source>
         <translation>Strg+Alt+C</translation>
     </message>
@@ -5430,26 +5435,26 @@ Trotzdem fortsetzen?</translation>
         <translation>Highlights</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation>Sättigung</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation>Farbverschiebung</translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation>Schatten</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation>Mitteltöne</translation>
     </message>
@@ -6603,7 +6608,7 @@ Soll dieses jetzt geladen werden ?
         <translation>MPlayer eq2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>Zurücksetzen</translation>
     </message>
@@ -9896,7 +9901,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation>Logo hinzufügen</translation>
     </message>
@@ -9906,7 +9911,7 @@ I will assume it has and try to continue</source>
         <translation>Video mit einem halbtransparenten Logo überlagern.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation>Bilddatei:</translation>
     </message>
@@ -9921,7 +9926,7 @@ I will assume it has and try to continue</source>
         <translation>Bild als Logo auswählen</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation> s</translation>
     </message>
@@ -9937,17 +9942,16 @@ I will assume it has and try to continue</source>
         <translation type="vanished">Wählen...</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/logo.ui" line="+117"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/logo.ui" line="+140"/>
         <source>Fade-in/out</source>
         <translation>Übergang</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>In die Vorschau klicken, um die Position der linken oberen Ecke des Logos festzulegen</translation>
+        <translation type="vanished">In die Vorschau klicken, um die Position der linken oberen Ecke des Logos festzulegen</translation>
     </message>
     <message>
-        <location line="-155"/>
+        <location line="-126"/>
         <source>Logo</source>
         <translation>Logo</translation>
     </message>
@@ -9973,6 +9977,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>Transparenz</translation>
     </message>
@@ -11518,7 +11527,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Zuletzt verwendete &amp;Projekte</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation>Auf Vorgabe zurücksetzen</translation>
     </message>
@@ -11538,12 +11547,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>Wiedergabe/Stopp</translation>
     </message>
@@ -11682,12 +11691,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-3234"/>
+        <location line="-3241"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+2537"/>
+        <location line="+2544"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -12597,7 +12606,7 @@ Bereit.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+448"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+449"/>
         <source>_Mode:</source>
         <translation>_Modus:</translation>
     </message>
@@ -12612,7 +12621,7 @@ Bereit.
         <translation>Bildrate (Hz) ändern</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation>Benutzerdefiniert</translation>
     </message>
@@ -12652,7 +12661,7 @@ Bereit.
         <translation>Bildrate durch Duplizieren oder Weglassen von Frames unter Beibehaltung der Abspieldauer und der Synchronisation ändern.</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12951,7 +12960,7 @@ Bereit.
         <translation>Vorschau</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12968,6 +12977,26 @@ Bereit.
     <message>
         <location line="+1"/>
         <source>&lt;&lt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13046,18 +13075,18 @@ Bereit.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation>Standbild</translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>Ein Frame für angegebene Zeit wiederholen.</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation>_Beginn:</translation>
     </message>

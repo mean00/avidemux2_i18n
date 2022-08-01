@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+452"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+471"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Nemožno nájsť rozkladač videa pre %s</translation>
     </message>
@@ -79,7 +79,7 @@
         <translation>Nepodporovaná veľkosť</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Kontrola platnosti časových údajov.</translation>
     </message>
@@ -553,7 +553,7 @@ Vypustiť časové údaje?</translation>
         <translation>Ne&amp;dávne</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Codec O&amp;ptions</source>
         <translation>Nastavenie &amp;kodeku</translation>
     </message>
@@ -615,12 +615,12 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigácia</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-991"/>
         <source>Play [SPACE]</source>
         <translation>Prehrať [medzerník]</translation>
     </message>
@@ -843,6 +843,11 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+21"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>&amp;Load/Run Project...</source>
         <translation>N&amp;ačítať/spustiť projekt...</translation>
     </message>
@@ -5489,26 +5494,26 @@ Táto správa sa znova nezobrazí.</translation>
         <translation>Svetlá</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation>Nasýtenie</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation>Posun farebnosti</translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation>Tiene</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation>Stredné tóny</translation>
     </message>
@@ -6650,7 +6655,7 @@ Chcete ho načítať?
         <translation>Upraví kontrast, jas, nasýtenie a gama.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>Vynulovať</translation>
     </message>
@@ -9965,7 +9970,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation>Pridanie loga</translation>
     </message>
@@ -9975,7 +9980,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Vloží logo nad video, používa zmešanie alfy.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation>Obrázok:</translation>
     </message>
@@ -9990,7 +9995,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Vybrať obrázok loga</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation> s</translation>
     </message>
@@ -10031,17 +10036,21 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation>Y</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>Fade-in/out</source>
         <translation>Zjavovanie/Vytrácanie</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>Kliknutím na obrázok môžete umiestniť logo</translation>
+        <translation type="vanished">Kliknutím na obrázok môžete umiestniť logo</translation>
     </message>
     <message>
-        <location line="-72"/>
+        <location line="-20"/>
         <source>Alpha</source>
         <translation>Alfa</translation>
     </message>
@@ -11618,7 +11627,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Nedávne &amp;projekty</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation>Obnoviť predvolené</translation>
     </message>
@@ -11638,12 +11647,12 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>Tmavý motív</translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>Prehrať/Zastaviť</translation>
     </message>
@@ -12758,7 +12767,7 @@ Pripravený.
         <translation>Mení a vynucuje snímkovanie. Zachováva dĺžku videa a synchronizáciu.</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation>žiadna</translation>
     </message>
@@ -13084,7 +13093,7 @@ Pripravený.
         <translation>Náhľad</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation>Pohľad na originál</translation>
     </message>
@@ -13102,6 +13111,26 @@ Pripravený.
         <location line="+1"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13179,18 +13208,18 @@ Pripravený.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation>Statický obrázok</translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>Duplikuje snímku pre danú dobu trvania.</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation>Čas _štartu:</translation>
     </message>

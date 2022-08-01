@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>檢查時間戳記是否有效..</translation>
     </message>
@@ -19,7 +19,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+518"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+537"/>
         <source>width</source>
         <translation type="unfinished"></translation>
     </message>
@@ -479,7 +479,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1474"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1475"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -503,12 +503,12 @@ Drop timing informations ?</source>
         <translation>ms</translation>
     </message>
     <message>
-        <location line="-585"/>
+        <location line="-586"/>
         <source>&amp;Go</source>
         <translation>前往(&amp;G)</translation>
     </message>
     <message>
-        <location line="+830"/>
+        <location line="+831"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -529,12 +529,12 @@ Drop timing informations ?</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="+332"/>
+        <location line="+344"/>
         <source>&amp;Top</source>
         <translation>上下並排(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1559"/>
+        <location line="-1571"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>複製</translation>
@@ -551,7 +551,7 @@ Drop timing informations ?</source>
         <translation>XXXX</translation>
     </message>
     <message>
-        <location line="-191"/>
+        <location line="-192"/>
         <source>&amp;Auto</source>
         <translation>自動(&amp;U)</translation>
     </message>
@@ -576,17 +576,17 @@ Drop timing informations ?</source>
         <translation>檢視(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1715"/>
+        <location line="+1716"/>
         <source>Open Video</source>
         <translation>開啟影片</translation>
     </message>
     <message>
-        <location line="+213"/>
+        <location line="+225"/>
         <source>Si&amp;de</source>
         <translation>左右並排(&amp;D</translation>
     </message>
     <message>
-        <location line="-662"/>
+        <location line="-674"/>
         <source>Time:</source>
         <translation>時間:</translation>
     </message>
@@ -595,13 +595,13 @@ Drop timing informations ?</source>
         <translation type="vanished">Alt+Return</translation>
     </message>
     <message>
-        <location line="+497"/>
+        <location line="+509"/>
         <location line="+3"/>
         <source>Load/Run Project</source>
         <translation>載入/執行專案</translation>
     </message>
     <message>
-        <location line="-653"/>
+        <location line="-665"/>
         <source>Search next black frame</source>
         <translation>搜尋下一幀黑框</translation>
     </message>
@@ -625,18 +625,18 @@ Drop timing informations ?</source>
         <translation>轉到標記 A [PAGE UP]</translation>
     </message>
     <message>
-        <location line="+302"/>
+        <location line="+314"/>
         <location line="+3"/>
         <source>Save Project</source>
         <translation>儲存專案</translation>
     </message>
     <message>
-        <location line="-1738"/>
+        <location line="-1751"/>
         <source>&amp;Audio</source>
         <translation>音訊(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1753"/>
+        <location line="+1766"/>
         <source>&amp;Input</source>
         <translation>輸入(&amp;I)</translation>
     </message>
@@ -646,12 +646,12 @@ Drop timing informations ?</source>
         <translation>標誌區段(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1809"/>
+        <location line="-1822"/>
         <source>&amp;Tools</source>
         <translation>工具(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1361"/>
+        <location line="+1362"/>
         <source>Se&amp;lection</source>
         <translation>標誌區間段(&amp;L)</translation>
     </message>
@@ -667,12 +667,12 @@ Drop timing informations ?</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="+394"/>
+        <location line="+406"/>
         <source>&amp;Audio Metre</source>
         <translation>音訊畫面(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1657"/>
+        <location line="-1669"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -680,12 +680,12 @@ Drop timing informations ?</source>
         <translation>配置</translation>
     </message>
     <message>
-        <location line="-734"/>
+        <location line="-735"/>
         <source>Vi&amp;deo</source>
         <translation>影片(&amp;D)</translation>
     </message>
     <message>
-        <location line="+864"/>
+        <location line="+865"/>
         <source>Play [SPACE]</source>
         <translation>播放 [SPACE]</translation>
     </message>
@@ -695,12 +695,12 @@ Drop timing informations ?</source>
         <translation>音訊畫面(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1661"/>
+        <location line="-1662"/>
         <source>&amp;Toolbars</source>
         <translation>工具列(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1708"/>
+        <location line="+1709"/>
         <source>&amp;Open...</source>
         <translation>開啟檔案(&amp;O)...</translation>
     </message>
@@ -756,32 +756,32 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;影片輸出格式(容器)佳Mp4/Mkv&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1107"/>
+        <location line="+1119"/>
         <source>&amp;Load/Run Project...</source>
         <translation>載入/執行專案(&amp;L)...</translation>
     </message>
     <message>
-        <location line="-601"/>
+        <location line="-613"/>
         <source>Go to last frame [END]</source>
         <translation>G轉到最後一幀 [END]</translation>
     </message>
     <message>
-        <location line="-1131"/>
+        <location line="-1132"/>
         <source>&amp;Custom</source>
         <translation>自訂(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1780"/>
+        <location line="+1793"/>
         <source>&amp;Output</source>
         <translation>輸出(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1755"/>
+        <location line="-1768"/>
         <source>&amp;Recent</source>
         <translation>最近(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1155"/>
+        <location line="+1156"/>
         <source>Forward one minute</source>
         <translation>前進一分鐘</translation>
     </message>
@@ -791,7 +791,7 @@ Drop timing informations ?</source>
         <translation>位移(±)(&amp;S):</translation>
     </message>
     <message>
-        <location line="+1275"/>
+        <location line="+1287"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -801,27 +801,27 @@ Drop timing informations ?</source>
         <translation>編解碼器選項(&amp;C)</translation>
     </message>
     <message>
-        <location line="-614"/>
+        <location line="-626"/>
         <source>Forward one minute [CTRL+UP]</source>
         <translation>前進一分鐘 [CTRL+UP]</translation>
     </message>
     <message>
-        <location line="+699"/>
+        <location line="+711"/>
         <source>&amp;Separate</source>
         <translation>分離視窗(&amp;S)</translation>
     </message>
     <message>
-        <location line="-929"/>
+        <location line="-941"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>設定開始標記 [CTRL+PAGEUP]</translation>
     </message>
     <message>
-        <location line="-1085"/>
+        <location line="-1086"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+500"/>
+        <location line="+501"/>
         <location line="+169"/>
         <source>Filters</source>
         <translation>濾鏡器-特效</translation>
@@ -837,12 +837,12 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;解碼器.顏色.不編碼直選COPY&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-117"/>
+        <location line="-118"/>
         <source>T&amp;heme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+257"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;輸出影片編碼佳x264/x265&lt;/b&gt;</translation>
     </message>
@@ -882,12 +882,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+261"/>
+        <location line="+246"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+27"/>
         <source>Save &amp;Project</source>
         <translation>儲存專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="-51"/>
+        <location line="-63"/>
         <source>&amp;Information...</source>
         <translation>屬性(&amp;I)...</translation>
     </message>
@@ -902,7 +907,7 @@ Drop timing informations ?</source>
         <translation>倒退一分鐘 [CTRL+DOWN]</translation>
     </message>
     <message>
-        <location line="+640"/>
+        <location line="+652"/>
         <source>Ctrl+Alt+C</source>
         <translation>Ctrl+Alt+C</translation>
     </message>
@@ -937,13 +942,13 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="-935"/>
+        <location line="-947"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>轉到上一幀(關鍵幀或I幀) [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>影片導航欄(&amp;N)</translation>
     </message>
@@ -5446,26 +5451,26 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6597,7 +6602,7 @@ Do you want to load it  ?
 <context>
     <name>eq2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>重新設定</translation>
     </message>
@@ -9904,7 +9909,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+24"/>
         <source>Put a logo on top of video, with alpha blending.</source>
         <translation>把標誌上方帶有 alpha(半)混合影片.</translation>
     </message>
@@ -9914,7 +9919,7 @@ I will assume it has and try to continue</source>
         <translation>1.0-加入標誌-匯入logo圖片</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9929,7 +9934,7 @@ I will assume it has and try to continue</source>
         <translation>選擇標誌圖像</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9963,6 +9968,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+61"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>Alpha透明</translation>
     </message>
@@ -9980,9 +9990,8 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>您可以按一下圖像去設置近似的標誌</translation>
+        <translation type="vanished">您可以按一下圖像去設置近似的標誌</translation>
     </message>
 </context>
 <context>
@@ -11524,7 +11533,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3082"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3089"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
@@ -11534,12 +11543,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>設定開始標記</translation>
     </message>
     <message>
-        <location line="-930"/>
+        <location line="-937"/>
         <source>Recent Projects</source>
         <translation>最近使用的 專案(&amp;P)</translation>
     </message>
     <message>
-        <location line="+2067"/>
+        <location line="+2074"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>應用程式遇到了一個致命的問題
@@ -11551,7 +11560,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
     <message>
-        <location line="-1388"/>
+        <location line="-1395"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11561,7 +11570,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>最近使用的 檔案(&amp;F)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11581,12 +11590,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+258"/>
+        <location line="+263"/>
         <source>Go to next keyframe</source>
         <translation>轉到下一幀(關鍵幀或I幀)</translation>
     </message>
@@ -12657,22 +12666,22 @@ Ready.
         <translation>1.0-調整幀速度(重新取樣)-用在數碼轉換DVD</translation>
     </message>
     <message>
-        <location line="+370"/>
+        <location line="+371"/>
         <source>Resample fps</source>
         <translation>重新取樣 fps</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation>自訂</translation>
     </message>
     <message>
-        <location line="+404"/>
+        <location line="+405"/>
         <source>_Mode:</source>
         <translation>模式:</translation>
     </message>
     <message>
-        <location line="-402"/>
+        <location line="-403"/>
         <source>23.976 (Film)</source>
         <translation>23.976 (電影)</translation>
     </message>
@@ -12682,7 +12691,7 @@ Ready.
         <translation>結束時間仍然一樣，例如15 fps電影從數碼轉換 DVD，一般PC上看不出來效果。</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12989,17 +12998,17 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+130"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+145"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-7"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>&gt;&gt;</source>
         <translation>&gt;&gt;</translation>
     </message>
@@ -13009,7 +13018,7 @@ Ready.
         <translation>播放/停止</translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-23"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13024,7 +13033,27 @@ Ready.
         <translation>後一分鐘</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Next image</source>
         <translation>下一張圖像</translation>
     </message>
@@ -13089,18 +13118,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>

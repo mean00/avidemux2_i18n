@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+452"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+471"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>%s용 디먹서를 찾을 수 없습니다</translation>
     </message>
@@ -76,7 +76,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>타임스탬프가 유효한지 검사 중..</translation>
     </message>
@@ -550,7 +550,7 @@ Drop timing informations ?</source>
         <translation>최근(&amp;R)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Codec O&amp;ptions</source>
         <translation>코덱 옵션(&amp;P)</translation>
     </message>
@@ -612,12 +612,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>탐색(&amp;N)</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-991"/>
         <source>Play [SPACE]</source>
         <translation>재생 [SPACE]</translation>
     </message>
@@ -840,6 +840,11 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+21"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>&amp;Load/Run Project...</source>
         <translation>프로젝트 불러오기/실행(&amp;L)...</translation>
     </message>
@@ -5440,26 +5445,26 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6599,7 +6604,7 @@ Do you want to load it  ?
         <translation>대비, 밝기, 채도와 감마를 조정합니다.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>초기화</translation>
     </message>
@@ -9889,7 +9894,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation>로고 추가</translation>
     </message>
@@ -9899,7 +9904,7 @@ I will assume it has and try to continue</source>
         <translation>비디오 위에 로고를 알파블렌딩으로 추가합니다.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9914,7 +9919,7 @@ I will assume it has and try to continue</source>
         <translation>로고 이미지 선택</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9956,6 +9961,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>알파</translation>
     </message>
@@ -9965,9 +9975,8 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>로고를 대략 배치하기 위해 이미지에서 클릭할 수 있습니다</translation>
+        <translation type="vanished">로고를 대략 배치하기 위해 이미지에서 클릭할 수 있습니다</translation>
     </message>
 </context>
 <context>
@@ -11523,7 +11532,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>최근 프로젝트</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11543,12 +11552,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>재생/정지</translation>
     </message>
@@ -12653,7 +12662,7 @@ Ready.
         <translation>FPS를 강제로 변경합니다. 재생시간과 싱크를 유지합니다.</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12975,7 +12984,7 @@ Ready.
         <translation>미리보기</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12993,6 +13002,26 @@ Ready.
         <location line="+1"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13070,18 +13099,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1433,6 +1433,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/fadeInOut_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeOut.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/logo/logo_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/logo/logo_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/crop/crop_desc.cpp \ 

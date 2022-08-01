@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+488"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
         <source>Attempt to open %s failed!</source>
         <translation type="unfinished">Pokušaj da otvorim %s nije uspeo!</translation>
     </message>
@@ -74,7 +74,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation type="unfinished"></translation>
     </message>
@@ -457,7 +457,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Video koder</translation>
     </message>
     <message>
-        <location line="+467"/>
+        <location line="+468"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation type="unfinished">Bez izmene</translation>
@@ -513,7 +513,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Tip kadra:</translation>
     </message>
     <message>
-        <location line="-1351"/>
+        <location line="-1352"/>
         <source>&amp;Help</source>
         <translation type="unfinished"></translation>
     </message>
@@ -578,7 +578,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Codec O&amp;ptions</source>
         <translation type="unfinished"></translation>
     </message>
@@ -615,12 +615,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-991"/>
         <source>Play [SPACE]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -808,6 +808,11 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+21"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>&amp;Load/Run Project...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5341,26 +5346,26 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6497,7 +6502,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9748,7 +9753,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9758,7 +9763,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9773,7 +9778,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9806,17 +9811,17 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>Fade-in/out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
-        <source>You can click in the image to approximately position the logo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-72"/>
+        <location line="-20"/>
         <source>Alpha</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11334,7 +11339,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11354,12 +11359,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12371,7 +12376,7 @@ Ready.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+448"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+449"/>
         <source>_Mode:</source>
         <translation type="unfinished">_Režim:</translation>
     </message>
@@ -12381,7 +12386,7 @@ Ready.
         <translation type="unfinished">_Nova učestanost kadrova:</translation>
     </message>
     <message>
-        <location line="-405"/>
+        <location line="-406"/>
         <source>Custom</source>
         <translation type="unfinished">Proizvoljno</translation>
     </message>
@@ -12421,7 +12426,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12725,7 +12730,7 @@ Ready.
         <translation type="unfinished">Pregled</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12742,6 +12747,26 @@ Ready.
     <message>
         <location line="+1"/>
         <source>&lt;&lt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -12820,18 +12845,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>

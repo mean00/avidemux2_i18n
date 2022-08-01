@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>タイムスタンプの有効性を確認..</translation>
     </message>
@@ -19,7 +19,7 @@
         <translation>映像をデコード中...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+518"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+537"/>
         <source>width</source>
         <translation>幅</translation>
     </message>
@@ -483,7 +483,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1474"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1475"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -503,12 +503,12 @@ Drop timing informations ?</source>
         <translation>ミリ秒</translation>
     </message>
     <message>
-        <location line="-585"/>
+        <location line="-586"/>
         <source>&amp;Go</source>
         <translation>移動(&amp;G)</translation>
     </message>
     <message>
-        <location line="+830"/>
+        <location line="+831"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -529,12 +529,12 @@ Drop timing informations ?</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="+332"/>
+        <location line="+344"/>
         <source>&amp;Top</source>
         <translation>上(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1559"/>
+        <location line="-1571"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>コピー</translation>
@@ -551,7 +551,7 @@ Drop timing informations ?</source>
         <translation>XXXX</translation>
     </message>
     <message>
-        <location line="-191"/>
+        <location line="-192"/>
         <source>&amp;Auto</source>
         <translation>自動(&amp;U)</translation>
     </message>
@@ -576,28 +576,28 @@ Drop timing informations ?</source>
         <translation>表示(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1715"/>
+        <location line="+1716"/>
         <source>Open Video</source>
         <translation>ビデオを開く</translation>
     </message>
     <message>
-        <location line="+213"/>
+        <location line="+225"/>
         <source>Si&amp;de</source>
         <translation>側面(&amp;D)</translation>
     </message>
     <message>
-        <location line="-662"/>
+        <location line="-674"/>
         <source>Time:</source>
         <translation>時間:</translation>
     </message>
     <message>
-        <location line="+497"/>
+        <location line="+509"/>
         <location line="+3"/>
         <source>Load/Run Project</source>
         <translation>プロジェクト読込/実行</translation>
     </message>
     <message>
-        <location line="-653"/>
+        <location line="-665"/>
         <source>Search next black frame</source>
         <translation>次の黒ベタフレームを検索</translation>
     </message>
@@ -617,18 +617,18 @@ Drop timing informations ?</source>
         <translation>マーカ A に移動 [PAGE UP]</translation>
     </message>
     <message>
-        <location line="+302"/>
+        <location line="+314"/>
         <location line="+3"/>
         <source>Save Project</source>
         <translation>プロジェクトを保存</translation>
     </message>
     <message>
-        <location line="-1738"/>
+        <location line="-1751"/>
         <source>&amp;Audio</source>
         <translation>音声(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1753"/>
+        <location line="+1766"/>
         <source>&amp;Input</source>
         <translation>入力(&amp;I)</translation>
     </message>
@@ -638,12 +638,12 @@ Drop timing informations ?</source>
         <translation>選択範囲(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1809"/>
+        <location line="-1822"/>
         <source>&amp;Tools</source>
         <translation>ツール(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1361"/>
+        <location line="+1362"/>
         <source>Se&amp;lection</source>
         <translation>選択範囲(&amp;L)</translation>
     </message>
@@ -659,12 +659,12 @@ Drop timing informations ?</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="+394"/>
+        <location line="+406"/>
         <source>&amp;Audio Metre</source>
         <translation>音声メーター(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1657"/>
+        <location line="-1669"/>
         <location line="+142"/>
         <location line="+169"/>
         <location line="+181"/>
@@ -672,12 +672,12 @@ Drop timing informations ?</source>
         <translation>構成</translation>
     </message>
     <message>
-        <location line="-734"/>
+        <location line="-735"/>
         <source>Vi&amp;deo</source>
         <translation>映像(&amp;D)</translation>
     </message>
     <message>
-        <location line="+864"/>
+        <location line="+865"/>
         <source>Play [SPACE]</source>
         <translation>再生 [SPACE]</translation>
     </message>
@@ -687,12 +687,12 @@ Drop timing informations ?</source>
         <translation>音声メーター(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1661"/>
+        <location line="-1662"/>
         <source>&amp;Toolbars</source>
         <translation>ツールバー(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1708"/>
+        <location line="+1709"/>
         <source>&amp;Open...</source>
         <translation>開く(&amp;O)...</translation>
     </message>
@@ -748,32 +748,32 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;出力形式&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1107"/>
+        <location line="+1119"/>
         <source>&amp;Load/Run Project...</source>
         <translation>プロジェクト読込/実行(&amp;L)...</translation>
     </message>
     <message>
-        <location line="-601"/>
+        <location line="-613"/>
         <source>Go to last frame [END]</source>
         <translation>末尾のフレームに移動 [END]</translation>
     </message>
     <message>
-        <location line="-1131"/>
+        <location line="-1132"/>
         <source>&amp;Custom</source>
         <translation>カスタム(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1780"/>
+        <location line="+1793"/>
         <source>&amp;Output</source>
         <translation>出力(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1755"/>
+        <location line="-1768"/>
         <source>&amp;Recent</source>
         <translation>履歴(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1155"/>
+        <location line="+1156"/>
         <source>Forward one minute</source>
         <translation>1 分前へ移動</translation>
     </message>
@@ -788,7 +788,7 @@ Drop timing informations ?</source>
         <translation> (0 トラック)</translation>
     </message>
     <message>
-        <location line="+1420"/>
+        <location line="+1432"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -798,27 +798,27 @@ Drop timing informations ?</source>
         <translation>コーデック設定(&amp;C)</translation>
     </message>
     <message>
-        <location line="-614"/>
+        <location line="-626"/>
         <source>Forward one minute [CTRL+UP]</source>
         <translation>1 分前へ移動 [CTRL+UP]</translation>
     </message>
     <message>
-        <location line="+699"/>
+        <location line="+711"/>
         <source>&amp;Separate</source>
         <translation>区切り(&amp;S)</translation>
     </message>
     <message>
-        <location line="-929"/>
+        <location line="-941"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>開始マーカをセット [CTRL+PAGEUP]</translation>
     </message>
     <message>
-        <location line="-1085"/>
+        <location line="-1086"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+500"/>
+        <location line="+501"/>
         <location line="+169"/>
         <source>Filters</source>
         <translation>フィルター</translation>
@@ -834,12 +834,12 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;映像デコーダ&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-117"/>
+        <location line="-118"/>
         <source>T&amp;heme</source>
         <translation>テーマ(&amp;h)</translation>
     </message>
     <message>
-        <location line="+256"/>
+        <location line="+257"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;映像出力&lt;/b&gt;</translation>
     </message>
@@ -874,12 +874,17 @@ Drop timing informations ?</source>
         <translation>選択: 000000</translation>
     </message>
     <message>
-        <location line="+261"/>
+        <location line="+246"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+27"/>
         <source>Save &amp;Project</source>
         <translation>プロジェクト保存(&amp;P)</translation>
     </message>
     <message>
-        <location line="-51"/>
+        <location line="-63"/>
         <source>&amp;Information...</source>
         <translation>情報(&amp;I)...</translation>
     </message>
@@ -894,7 +899,7 @@ Drop timing informations ?</source>
         <translation>1 分先へ移動 [CTRL+DOWN]</translation>
     </message>
     <message>
-        <location line="+640"/>
+        <location line="+652"/>
         <source>Ctrl+Alt+C</source>
         <translation>Ctrl+Alt+C</translation>
     </message>
@@ -929,13 +934,13 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+V</translation>
     </message>
     <message>
-        <location line="-935"/>
+        <location line="-947"/>
         <source>Go to previous keyframe [DOWN]</source>
         <translation>前のキーフレームに移動 [DOWN]</translation>
     </message>
     <message>
         <location line="-150"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>ナビゲーション(&amp;N)</translation>
     </message>
@@ -5421,26 +5426,26 @@ This message will not be displayed again.</source>
         <translation>ハイライト</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation>彩度</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation>色差シフト</translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation>影</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation>ミッドストーン</translation>
     </message>
@@ -6568,7 +6573,7 @@ Do you want to load it  ?
 <context>
     <name>eq2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>リセット</translation>
     </message>
@@ -9829,7 +9834,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+24"/>
         <source>Put a logo on top of video, with alpha blending.</source>
         <translation>ビデオに半透明のロゴをオーバーレイで配置します.</translation>
     </message>
@@ -9839,7 +9844,7 @@ I will assume it has and try to continue</source>
         <translation>ロゴを追加</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation>画像:</translation>
     </message>
@@ -9854,7 +9859,7 @@ I will assume it has and try to continue</source>
         <translation>ロゴ画像を選択</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation> s</translation>
     </message>
@@ -9888,6 +9893,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+61"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>アルファ</translation>
     </message>
@@ -9897,9 +9907,8 @@ I will assume it has and try to continue</source>
         <translation>フェード イン/アウト</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>画像をクリックで、ロゴを配置できます</translation>
+        <translation type="vanished">画像をクリックで、ロゴを配置できます</translation>
     </message>
 </context>
 <context>
@@ -11430,27 +11439,27 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3082"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3089"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2810"/>
+        <location line="-2817"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;新バージョンが利用可能&lt;/b&gt;&lt;br&gt;バージョン %1&lt;br&gt;リリース %2.&lt;br&gt;ここからダウンロード:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;自動更新は環境設定で無効にできます.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1400"/>
+        <location line="+1407"/>
         <source>Set start marker</source>
         <translation>開始マーカをセット</translation>
     </message>
     <message>
-        <location line="-930"/>
+        <location line="-937"/>
         <source>Recent Projects</source>
         <translation>最近使用したプロジェクト</translation>
     </message>
     <message>
-        <location line="+1622"/>
+        <location line="+1629"/>
         <source>Zoom: </source>
         <translation>拡大: </translation>
     </message>
@@ -11467,12 +11476,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>前のキーフレームに移動</translation>
     </message>
     <message>
-        <location line="-919"/>
+        <location line="-926"/>
         <source>Recent Files</source>
         <translation>最近使用したファイル</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Restore defaults</source>
         <translation>既定値に戻す</translation>
     </message>
@@ -11492,12 +11501,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>ダークテーマ</translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+258"/>
+        <location line="+263"/>
         <source>Go to next keyframe</source>
         <translation>次のキーフレームに移動</translation>
     </message>
@@ -12513,7 +12522,7 @@ Ready.
         <translation>FPS リサンプル</translation>
     </message>
     <message>
-        <location line="+354"/>
+        <location line="+355"/>
         <source>none</source>
         <translation>なし</translation>
     </message>
@@ -12538,17 +12547,17 @@ Ready.
         <translation>FPS リサンプル</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation>カスタム</translation>
     </message>
     <message>
-        <location line="+404"/>
+        <location line="+405"/>
         <source>_Mode:</source>
         <translation>モード:</translation>
     </message>
     <message>
-        <location line="-402"/>
+        <location line="-403"/>
         <source>23.976 (Film)</source>
         <translation>23,976 (フィルム)</translation>
     </message>
@@ -12558,7 +12567,7 @@ Ready.
         <translation>再生時間、同期を保持して FPS を変更します.</translation>
     </message>
     <message>
-        <location line="+362"/>
+        <location line="+363"/>
         <source>_New frame rate:</source>
         <translation>新フレームレート(_N):</translation>
     </message>
@@ -12813,17 +12822,17 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+130"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+145"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-7"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+8"/>
         <source>&gt;&gt;</source>
         <translation>&gt;&gt;</translation>
     </message>
@@ -12833,7 +12842,7 @@ Ready.
         <translation>再生</translation>
     </message>
     <message>
-        <location line="-19"/>
+        <location line="-23"/>
         <source>Peek Original</source>
         <translation>ピークオリジナル</translation>
     </message>
@@ -12848,7 +12857,27 @@ Ready.
         <translation>1 分先へ移動</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Next image</source>
         <translation>次のイメージ</translation>
     </message>
@@ -12913,18 +12942,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation>静止画</translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>指定された区画に対してフレームを複製します。</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation>開始時間(_S):</translation>
     </message>

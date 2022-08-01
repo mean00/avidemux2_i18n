@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+488"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
         <source>Attempt to open %s failed!</source>
         <translation>Ошибка при открытии %s!</translation>
     </message>
@@ -79,7 +79,7 @@
         <translation>Неподдерживаемый размер</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Проверка правильности временных меток...</translation>
     </message>
@@ -483,7 +483,7 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+482"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+483"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Копировать</translation>
@@ -513,7 +513,7 @@ Drop timing informations ?</source>
         <translation>Время:</translation>
     </message>
     <message>
-        <location line="-1281"/>
+        <location line="-1282"/>
         <source>&amp;Help</source>
         <translation>Сп&amp;равка</translation>
     </message>
@@ -558,7 +558,7 @@ Drop timing informations ?</source>
         <translation>Перех&amp;од</translation>
     </message>
     <message>
-        <location line="+408"/>
+        <location line="+409"/>
         <source> (0 tracks)</source>
         <translation> (0 дорожек)</translation>
     </message>
@@ -595,6 +595,11 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+21"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Загрузить/запустить проект...</translation>
     </message>
@@ -640,7 +645,7 @@ Drop timing informations ?</source>
         <translation>&amp;Сверху</translation>
     </message>
     <message>
-        <location line="-1784"/>
+        <location line="-1796"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Декодер видео&lt;/b&gt;</translation>
     </message>
@@ -650,12 +655,12 @@ Drop timing informations ?</source>
         <translation>Тип кадра:</translation>
     </message>
     <message>
-        <location line="+568"/>
+        <location line="+580"/>
         <source>&amp;Separate</source>
         <translation>&amp;Отделить</translation>
     </message>
     <message>
-        <location line="-2014"/>
+        <location line="-2027"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -680,7 +685,7 @@ Drop timing informations ?</source>
         <translation>&amp;Недавнее</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Codec O&amp;ptions</source>
         <translation>Па&amp;раметры кодека</translation>
     </message>
@@ -712,12 +717,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-991"/>
         <source>Play [SPACE]</source>
         <translation>Воспроизвести [SPACE]</translation>
     </message>
@@ -889,7 +894,7 @@ Drop timing informations ?</source>
         <translation>Открыть видео</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+116"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Параметры кодека</translation>
     </message>
@@ -5467,26 +5472,26 @@ This message will not be displayed again.</source>
         <translation>Освещённость</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation>Насыщенность</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation>Сдвиг цветности</translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation>Тень</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation>Полутон</translation>
     </message>
@@ -6632,7 +6637,7 @@ Do you want to load it  ?
         <translation>MPlayer eq2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>Сброс</translation>
     </message>
@@ -9947,7 +9952,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation>Добавить логотип</translation>
     </message>
@@ -9957,7 +9962,7 @@ I will assume it has and try to continue</source>
         <translation>Добавить на видео логотип с альфа-наложением.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation>Изображение:</translation>
     </message>
@@ -9972,7 +9977,7 @@ I will assume it has and try to continue</source>
         <translation>Выбрать изображение для логотипа</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation> с</translation>
     </message>
@@ -10014,6 +10019,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>Альфа</translation>
     </message>
@@ -10023,9 +10033,8 @@ I will assume it has and try to continue</source>
         <translation>Появление/исчезание</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>Щёлкните на изображение для примерной установки логотипа</translation>
+        <translation type="vanished">Щёлкните на изображение для примерной установки логотипа</translation>
     </message>
 </context>
 <context>
@@ -11592,7 +11601,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Недавние проекты</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation>Восстановить стандартный набор</translation>
     </message>
@@ -11612,12 +11621,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Тёмная тема</translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>
@@ -12692,7 +12701,7 @@ Ready.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+448"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+449"/>
         <source>_Mode:</source>
         <translation>_Режим:</translation>
     </message>
@@ -12707,7 +12716,7 @@ Ready.
         <translation>Преобразовать кадровую частоту</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation>Вручную</translation>
     </message>
@@ -12747,7 +12756,7 @@ Ready.
         <translation>Преобразовать кадровую частоту при сохранении длительности и синхронизации.</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation>нет</translation>
     </message>
@@ -13042,7 +13051,7 @@ Ready.
         <translation>Предпросмотр</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation>Просмотр оригинала</translation>
     </message>
@@ -13060,6 +13069,26 @@ Ready.
         <location line="+1"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13137,18 +13166,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation>Стоп-кадр</translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>Повторять кадр в течение заданного времени.</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation>_Начало:</translation>
     </message>

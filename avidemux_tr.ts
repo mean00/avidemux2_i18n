@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+488"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
         <source>Attempt to open %s failed!</source>
         <translation>%s açma girişimi başarısız oldu!</translation>
     </message>
@@ -79,7 +79,7 @@
         <translation>Desteklenmeyen boyut</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+78"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Zaman damgalarının geçerli olup olmadığını kontrol ediliyor ..</translation>
     </message>
@@ -483,7 +483,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+482"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+483"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopya</translation>
@@ -513,7 +513,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Zaman:</translation>
     </message>
     <message>
-        <location line="-1281"/>
+        <location line="-1282"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
@@ -558,7 +558,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Git</translation>
     </message>
     <message>
-        <location line="+408"/>
+        <location line="+409"/>
         <source> (0 tracks)</source>
         <translation> (0 parçalar)</translation>
     </message>
@@ -595,6 +595,11 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+21"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Proje Yüklenip/Çalıştırılıyor...</translation>
     </message>
@@ -646,7 +651,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Üst</translation>
     </message>
     <message>
-        <location line="-1784"/>
+        <location line="-1796"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation>&lt;b&gt;Video Kod Çözücü&lt;/b&gt;</translation>
     </message>
@@ -656,12 +661,12 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Çerçeve tipi:</translation>
     </message>
     <message>
-        <location line="+568"/>
+        <location line="+580"/>
         <source>&amp;Separate</source>
         <translation>&amp;Ayrı</translation>
     </message>
     <message>
-        <location line="-2014"/>
+        <location line="-2027"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -686,7 +691,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Son</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+47"/>
         <source>Codec O&amp;ptions</source>
         <translation>Kodlayıcı &amp;Seçenekleri</translation>
     </message>
@@ -718,12 +723,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1054"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Gezinme</translation>
     </message>
     <message>
-        <location line="-979"/>
+        <location line="-991"/>
         <source>Play [SPACE]</source>
         <translation>Oynat [BOŞLUK]</translation>
     </message>
@@ -885,7 +890,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video aç</translation>
     </message>
     <message>
-        <location line="+104"/>
+        <location line="+116"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Kodlayıcı Seçenekleri</translation>
     </message>
@@ -930,7 +935,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
-        <location line="-802"/>
+        <location line="-814"/>
         <source>Search previous black frame</source>
         <translation>Önceki siyah karede ara</translation>
     </message>
@@ -5509,26 +5514,26 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
         <translation>Vurgu</translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation>Doygunluk</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation>Renk kayması</translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation>Gölge</translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation>Orta ton</translation>
     </message>
@@ -6678,7 +6683,7 @@ Yüklemek istiyor musunuz  ?
         <translation>MPlayer eq2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
@@ -10005,7 +10010,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation>Logo ekle</translation>
     </message>
@@ -10015,7 +10020,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Alfa karışımıyla videonun üzerine bir logo koyun.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation>Resim:</translation>
     </message>
@@ -10030,7 +10035,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Logo Resmini Seçin</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation> s</translation>
     </message>
@@ -10064,6 +10069,11 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     </message>
     <message>
         <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>Alfa</translation>
     </message>
@@ -10073,9 +10083,8 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
         <translation>Karartma-aç/kapa</translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>Logoyu yaklaşık olarak konumlandırmak için resmin üzerine tıklayabilirsiniz</translation>
+        <translation type="vanished">Logoyu yaklaşık olarak konumlandırmak için resmin üzerine tıklayabilirsiniz</translation>
     </message>
     <message>
         <source>Image</source>
@@ -11682,7 +11691,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Son Projeler</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation>Varsayılanları geri yükle</translation>
     </message>
@@ -11702,12 +11711,12 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>Oynat/Durdur</translation>
     </message>
@@ -12778,7 +12787,7 @@ Hazır.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+448"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+449"/>
         <source>_Mode:</source>
         <translation>_Kip:</translation>
     </message>
@@ -12793,7 +12802,7 @@ Hazır.
         <translation>Fps&apos;yi yeniden örnekle</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation>Özel</translation>
     </message>
@@ -12833,7 +12842,7 @@ Hazır.
         <translation>FPS&apos;yi değiştirin ve uygulayın. Süreyi ve senkronizasyonu koru.</translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation>yok</translation>
     </message>
@@ -13156,7 +13165,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation>Orijinale Bak</translation>
     </message>
@@ -13174,6 +13183,26 @@ Hazır.
         <location line="+1"/>
         <source>&lt;&lt;</source>
         <translation>&lt;&lt;</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13251,18 +13280,18 @@ Hazır.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation>Hareketsiz görüntü</translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>Belirli bir süre için kareleri çoğaltın.</translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation>_Başlangıç saati:</translation>
     </message>

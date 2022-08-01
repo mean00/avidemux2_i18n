@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+127"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+128"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
         <translation>Denne video indeholder B-frames, men præsentationstidsstemplerne (PTS) findes enten ikke eller øges monotont. Avidemux kan forsøge at rekonstruere de korrekte PTS&apos;er ved at dekodere hele videoen. Dette kan tage lang tid. Fortsæt?</translation>
     </message>
@@ -31,7 +31,7 @@ Hvis du blot kopierer videoen uden genkodning,
 Drop timinginformationer?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+452"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+471"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Kan ikke finde en demuxer for %s</translation>
     </message>
@@ -550,7 +550,7 @@ Drop timinginformationer?</translation>
         <translation>&amp;Seneste</translation>
     </message>
     <message>
-        <location line="+154"/>
+        <location line="+155"/>
         <location line="+7"/>
         <source>XXXX</source>
         <translation>XXXX</translation>
@@ -708,7 +708,7 @@ Drop timinginformationer?</translation>
         <translation>Gem video</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+33"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Indlæs/kør projekt...</translation>
     </message>
@@ -758,18 +758,23 @@ Drop timinginformationer?</translation>
         <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
-        <location line="-1043"/>
-        <location line="+1054"/>
+        <location line="-1055"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="-1701"/>
+        <location line="-1713"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1704"/>
+        <location line="+1628"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+88"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
@@ -829,7 +834,7 @@ Drop timinginformationer?</translation>
         <translation>Si&amp;de</translation>
     </message>
     <message>
-        <location line="-1829"/>
+        <location line="-1841"/>
         <source>Codec O&amp;ptions</source>
         <translation>Codec-&amp;valgmuligheder</translation>
     </message>
@@ -5455,26 +5460,26 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6616,7 +6621,7 @@ Vil du indlæse den?
         <translation>Justér kontrast, lysstyrke, mætning og gamma.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9914,7 +9919,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+24"/>
         <source>Put a logo on top of video, with alpha blending.</source>
         <translation>Sæt et logo på videoen, med alfa-blanding.</translation>
     </message>
@@ -9924,7 +9929,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>Tilføj logo</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9939,7 +9944,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation>Vælg logobillede</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9981,6 +9986,11 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
     </message>
     <message>
         <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
         <source>Alpha</source>
         <translation>Alfa</translation>
     </message>
@@ -9990,9 +10000,8 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
         <source>You can click in the image to approximately position the logo</source>
-        <translation>Du kan klikke på billedet for at placere logoet</translation>
+        <translation type="vanished">Du kan klikke på billedet for at placere logoet</translation>
     </message>
 </context>
 <context>
@@ -11545,7 +11554,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>Seneste projekter</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11565,12 +11574,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation>Afspil/stop</translation>
     </message>
@@ -12609,7 +12618,7 @@ Ready.
         <translation>50 (PAL)</translation>
     </message>
     <message>
-        <location line="+392"/>
+        <location line="+393"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12644,7 +12653,7 @@ Ready.
         <translation>Gensample billeder/sekund</translation>
     </message>
     <message>
-        <location line="-370"/>
+        <location line="-371"/>
         <source>Resample FPS</source>
         <translation>Gensample billeder/sekund</translation>
     </message>
@@ -12946,7 +12955,7 @@ Ready.
         <translation>Forhåndsvis</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12963,6 +12972,26 @@ Ready.
     <message>
         <location line="+1"/>
         <source>&lt;&lt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13041,18 +13070,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>

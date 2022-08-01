@@ -4,7 +4,7 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+488"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
         <source>Attempt to open %s failed!</source>
         <translation>Tentativo di aprire %s fallito!</translation>
     </message>
@@ -62,7 +62,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+127"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+128"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
@@ -483,7 +483,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+467"/>
+        <location line="+468"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Copia</translation>
@@ -565,7 +565,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="-1510"/>
+        <location line="-1511"/>
         <source>&amp;Help</source>
         <translation>A&amp;iuto</translation>
     </message>
@@ -610,7 +610,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>&amp;Vai</translation>
     </message>
     <message>
-        <location line="+1679"/>
+        <location line="+1680"/>
         <source>&amp;Open...</source>
         <translation>&amp;Apri...</translation>
     </message>
@@ -635,7 +635,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>Salva video</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+33"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Carica/esegui progetto...</translation>
     </message>
@@ -690,17 +690,17 @@ Eliminare le informazioni temporali?</translation>
         <translation>Affiancati ver&amp;ticalmente</translation>
     </message>
     <message>
-        <location line="-580"/>
+        <location line="-592"/>
         <source>Frame type:</source>
         <translation>Tipo di fotogramma:</translation>
     </message>
     <message>
-        <location line="+568"/>
+        <location line="+580"/>
         <source>&amp;Separate</source>
         <translation>&amp;Separati</translation>
     </message>
     <message>
-        <location line="-1286"/>
+        <location line="-1298"/>
         <source>ms</source>
         <translation>ms</translation>
     </message>
@@ -715,7 +715,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="-1459"/>
+        <location line="-1460"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barre degli strumenti</translation>
     </message>
@@ -730,7 +730,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>&amp;Recenti</translation>
     </message>
     <message>
-        <location line="+154"/>
+        <location line="+155"/>
         <location line="+7"/>
         <source>XXXX</source>
         <translation>XXXX</translation>
@@ -751,7 +751,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>&lt;b&gt;Contenitore output&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1166"/>
+        <location line="+1178"/>
         <source>&amp;Codec Options</source>
         <translation>Opzioni &amp;codec</translation>
     </message>
@@ -761,18 +761,23 @@ Eliminare le informazioni temporali?</translation>
         <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
-        <location line="-1043"/>
-        <location line="+1054"/>
+        <location line="-1055"/>
+        <location line="+1066"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigazione</translation>
     </message>
     <message>
-        <location line="-319"/>
+        <location line="-331"/>
         <source>Selection: 000000</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+322"/>
+        <location line="+246"/>
+        <source>HDR tone mapping</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+88"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
@@ -812,17 +817,17 @@ Eliminare le informazioni temporali?</translation>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
-        <location line="-1793"/>
+        <location line="-1805"/>
         <source>Codec O&amp;ptions</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-84"/>
+        <location line="-85"/>
         <source>T&amp;heme</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+118"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5410,26 +5415,26 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+60"/>
-        <location line="+132"/>
-        <location line="+106"/>
+        <location line="+63"/>
+        <location line="+135"/>
+        <location line="+109"/>
         <source>Saturation</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+106"/>
-        <location line="+106"/>
+        <location line="-205"/>
+        <location line="+109"/>
+        <location line="+109"/>
         <source>Chroma shift</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-202"/>
+        <location line="-208"/>
         <source>Shadow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+106"/>
+        <location line="+109"/>
         <source>Midtone</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6565,7 +6570,7 @@ Vuoi caricarlo?
         <translation type="unfinished">Regola contrasto, luminosità, saturazione e gamma.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+60"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9842,7 +9847,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>logo</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/ADM_vidLogo.cpp" line="+23"/>
         <source>Add logo</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9852,7 +9857,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+99"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/logo/qt4/Q_logo.cpp" line="+67"/>
         <source>Image:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9867,7 +9872,7 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+70"/>
         <source> s</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9900,17 +9905,17 @@ I will assume it has and try to continue</source>
         <translation type="unfinished">Y</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+20"/>
+        <source>Scaling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+43"/>
         <source>Fade-in/out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
-        <source>You can click in the image to approximately position the logo</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-72"/>
+        <location line="-20"/>
         <source>Alpha</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11444,7 +11449,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished">Progetti recenti</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Restore defaults</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11464,12 +11469,12 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+604"/>
         <source>?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+242"/>
+        <location line="+247"/>
         <source>Play/Stop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12934,7 +12939,7 @@ Ready.
 <context>
     <name>resampleFps</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+448"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/resampleFps/ADM_vidResampleFPS.cpp" line="+449"/>
         <source>_Mode:</source>
         <translation>_Modalità:</translation>
     </message>
@@ -12949,7 +12954,7 @@ Ready.
         <translation>Ricampionamento fps</translation>
     </message>
     <message>
-        <location line="-412"/>
+        <location line="-413"/>
         <source>Custom</source>
         <translation type="unfinished">Personalizzato</translation>
     </message>
@@ -12989,7 +12994,7 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+353"/>
+        <location line="+354"/>
         <source>none</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13296,7 +13301,7 @@ Ready.
         <translation>Anteprima</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+109"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13313,6 +13318,26 @@ Ready.
     <message>
         <location line="+1"/>
         <source>&lt;&lt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>A</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the start of the selection</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>B</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Go to the end of the selection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -13391,18 +13416,18 @@ Ready.
 <context>
     <name>stillimage</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+63"/>
-        <location line="+191"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
+        <location line="+305"/>
         <source>Still Image</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-190"/>
+        <location line="-304"/>
         <source>Duplicate frames for a given duration.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+186"/>
+        <location line="+300"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
