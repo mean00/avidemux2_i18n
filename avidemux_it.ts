@@ -1136,7 +1136,7 @@ Eliminare le informazioni temporali?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1156,7 +1156,7 @@ Eliminare le informazioni temporali?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Accetta frequenze audio non standard per DVD</translation>
     </message>
@@ -1402,7 +1402,7 @@ Eliminare le informazioni temporali?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1412,17 +1412,17 @@ Eliminare le informazioni temporali?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-183"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1448,12 +1448,12 @@ Eliminare le informazioni temporali?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1614,7 +1614,7 @@ Eliminare le informazioni temporali?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+117"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -2045,7 +2045,7 @@ Eliminare le informazioni temporali?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2583,7 +2583,7 @@ Eliminare le informazioni temporali?</translation>
         <translation>Info plugin</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+189"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
         <source>Enable openGl support</source>
         <translation>Attiva supporto OpenGL</translation>
     </message>
@@ -3106,7 +3106,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3132,7 +3132,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3167,7 +3167,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4049,7 +4049,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4070,7 +4070,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5503,7 +5503,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished">Livelli:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation type="unfinished">Amplificazione Y</translation>
     </message>
@@ -5523,7 +5523,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished">Contrasto Y</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation type="unfinished">Amplificazione U</translation>
     </message>
@@ -5538,7 +5538,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished">Contrasto U</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation type="unfinished">Amplificazione V</translation>
     </message>
@@ -5578,7 +5578,7 @@ This message will not be displayed again.</source>
         <translation type="unfinished">colorYuv</translation>
     </message>
     <message>
-        <location line="-57"/>
+        <location line="-73"/>
         <source>Avisynth color filter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7405,7 +7405,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">Prima il semiquadro inferiore</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation type="unfinished">Threading</translation>
     </message>
@@ -7415,7 +7415,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">Dimensione buffer VBV:</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+37"/>
         <source>Interlacing</source>
         <translation type="unfinished">Interlacciamento</translation>
     </message>
@@ -7425,7 +7425,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">Controllo bitrate</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-91"/>
         <source>Normal (4:3)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7485,7 +7485,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7535,7 +7535,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7593,12 +7593,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">MPEG</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>Threading</source>
         <translation type="unfinished">Threading</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+26"/>
         <source>User Interface</source>
         <translation type="unfinished">Interfaccia utente</translation>
     </message>
@@ -7613,7 +7613,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">Controllo bitrate</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-62"/>
         <source>MB comparison</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7648,7 +7648,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7698,7 +7698,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8745,7 +8745,7 @@ Vuoi sostituirlo?</translation>
         <translation type="unfinished">MPEG</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+30"/>
         <source>User Interface</source>
         <translation type="unfinished">Interfaccia utente</translation>
     </message>
@@ -8755,7 +8755,7 @@ Vuoi sostituirlo?</translation>
         <translation type="unfinished">Controllo bitrate</translation>
     </message>
     <message>
-        <location line="-32"/>
+        <location line="-36"/>
         <source>MB comparison</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8770,7 +8770,7 @@ Vuoi sostituirlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8795,7 +8795,7 @@ Vuoi sostituirlo?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11439,7 +11439,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation type="unfinished">File recenti</translation>
     </message>
@@ -12327,7 +12327,7 @@ DEI TERMINI E DELLE CONDIZIONI&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

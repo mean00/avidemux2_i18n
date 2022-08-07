@@ -1250,7 +1250,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+696"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+698"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
@@ -1529,7 +1529,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-219"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-221"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1979,7 +1979,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -2015,7 +2015,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2094,12 +2094,12 @@ Drop timinginformationer?</translation>
         <translation>Pluginsinfo</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+46"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+48"/>
         <source>Enable openGl support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
     <message>
-        <location line="-336"/>
+        <location line="-338"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Acceptér ikke-standard lydfrekvens for DVD</translation>
     </message>
@@ -2340,7 +2340,7 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2350,17 +2350,17 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2376,12 +2376,12 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2528,7 +2528,7 @@ Drop timinginformationer?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+133"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+135"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -3259,7 +3259,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-381"/>
+        <location line="-383"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Tilbagefør til gemte standardoutputindstillinger når video indlæses</translation>
     </message>
@@ -3308,7 +3308,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3343,7 +3343,7 @@ Kører den?</translation>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -4079,7 +4079,7 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4100,7 +4100,7 @@ Try anyway?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5563,7 +5563,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>Niveauer:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Y-forstærkning</translation>
     </message>
@@ -5583,7 +5583,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>Y-kontrast</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>U-forstærkning</translation>
     </message>
@@ -5598,7 +5598,7 @@ Denne meddelelse vil ikke blive vist igen.</translation>
         <translation>U-kontrast</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>V-forstærkning</translation>
     </message>
@@ -7516,7 +7516,7 @@ Start and/or end time would be out of range</source>
         <translation>Nederste felt først</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -7576,7 +7576,7 @@ Start and/or end time would be out of range</source>
         <translation>_Filstørrelse tolerance (kb/Kb/KB/kB):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Quantiser komprimering:</translation>
     </message>
@@ -7679,7 +7679,7 @@ Start and/or end time would be out of range</source>
         <translation>Auto (#cpu)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -7734,7 +7734,7 @@ Start and/or end time would be out of range</source>
         <translation>_Filstørrelse tolerance (kb/Kb/KB/kB):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Quantiser komprimering:</translation>
     </message>
@@ -8827,7 +8827,7 @@ Vil du erstatte den?</translation>
         <translation>Rateforvrængning</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>Mi_n. quantiser:</translation>
     </message>
@@ -8852,7 +8852,7 @@ Vil du erstatte den?</translation>
         <translation>_Filstørrelse tolerance (kb/Kb/KB/kB):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Quantiser komprimering:</translation>
     </message>
@@ -11544,7 +11544,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Seneste filer</translation>
     </message>
@@ -11978,7 +11978,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

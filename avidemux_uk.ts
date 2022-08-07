@@ -1489,7 +1489,7 @@ Proceed anyway?</source>
         <translation>Помилка з&apos;єднання з AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+208"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+210"/>
         <source>GUI Rendering Options</source>
         <translation>Параметри графічного інтерфейсу</translation>
     </message>
@@ -1567,7 +1567,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-164"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
         <source>No downmixing</source>
         <translation>Без змішування</translation>
     </message>
@@ -1577,12 +1577,12 @@ It is needed to create PSP compatible video.</source>
         <translation>Увімкнути SSE2</translation>
     </message>
     <message>
-        <location line="+365"/>
+        <location line="+367"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-377"/>
+        <location line="-379"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2414,7 +2414,7 @@ Proceed anyway?</source>
         <translation>Очистити список</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+291"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+293"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодувати відео за допомогою DXVA2 (Windows)</translation>
     </message>
@@ -2424,7 +2424,7 @@ Proceed anyway?</source>
         <translation>Точність пошуку рухів</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-94"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
         <source>Output</source>
         <translation>Вихідні дані</translation>
     </message>
@@ -2727,7 +2727,7 @@ Try anyway?</source>
         <translation>Створення тимчасової карти</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодувати відео за допомогою VDPAU (NVIDIA)</translation>
     </message>
@@ -2796,7 +2796,7 @@ Do you want to continue anyway ?</source>
         <translation>%d хв.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-176"/>
         <source>_Volume control:</source>
         <translation>Гучність звуку управляється:</translation>
     </message>
@@ -2831,7 +2831,7 @@ Do you want to continue anyway ?</source>
         <translation>_Увімкнути альтернативні гарячі клавіші</translation>
     </message>
     <message>
-        <location line="+375"/>
+        <location line="+377"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Декодувати відео за допомогою LIBVA (INTEL)</translation>
     </message>
@@ -2889,7 +2889,7 @@ Do you want to continue anyway ?</source>
         <translation type="vanished">Ці параметри діють тільки для MPEG і DivX без апаратного прискорення декодування</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-232"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-234"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>_Зберігати відео в папці з останнім прочитаним файлом за замовчуванням</translation>
     </message>
@@ -2916,12 +2916,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Відеокодек</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+149"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+151"/>
         <source>Threading</source>
         <translation>Багатопотоковість</translation>
     </message>
     <message>
-        <location line="-112"/>
+        <location line="-114"/>
         <source>_Strength:</source>
         <translation>Рівень:</translation>
     </message>
@@ -3035,7 +3035,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3045,17 +3045,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3081,12 +3081,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3272,7 +3272,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Увімкнути SSE</translation>
     </message>
     <message>
-        <location line="+313"/>
+        <location line="+315"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3303,7 +3303,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Апаратне прискорення</translation>
     </message>
     <message>
-        <location line="-400"/>
+        <location line="-402"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Дозволяти нестандартну частоту звуку для DVD</translation>
     </message>
@@ -3362,7 +3362,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -3377,7 +3377,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Неможливо використовувати файл для аудіодоріжки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-321"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-323"/>
         <source>Prioritisation</source>
         <translation>Пріоритет</translation>
     </message>
@@ -3482,7 +3482,7 @@ Installation mismatch</source>
         <translation>Всі повідомлення</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+183"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>Декодувати відео за допомогою VideoToolbox (macOS)</translation>
     </message>
@@ -3563,7 +3563,7 @@ Installation mismatch</source>
         <translation>Перейти до часу...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-299"/>
         <source>Multi-threading</source>
         <translation>Використовувати багатопотоковість</translation>
     </message>
@@ -3627,7 +3627,7 @@ Installation mismatch</source>
         <translation>&amp;Додатково</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+141"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+143"/>
         <source>Enable openGl support</source>
         <translation>Увімкнути підтримку OpenGL</translation>
     </message>
@@ -3754,7 +3754,7 @@ Install lame plugin</source>
         <translation>Фільтр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-365"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-367"/>
         <source>_lavc threads:</source>
         <translation>_lavc</translation>
     </message>
@@ -3769,7 +3769,7 @@ Install lame plugin</source>
         <translation>_Відтінки сірого</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+271"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>Інтервал частоти оновлення (мс)</translation>
     </message>
@@ -3823,7 +3823,7 @@ Proceed anyway?</source>
         <translation>Попередній кадр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-245"/>
         <source>_Playback priority:</source>
         <translation>_Відтворення:</translation>
     </message>
@@ -4096,7 +4096,7 @@ Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4117,7 +4117,7 @@ Expect problems.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5540,12 +5540,12 @@ This message will not be displayed again.</source>
         <translation>Немає</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+51"/>
         <source>Flags</source>
         <translation>Прапорці</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-47"/>
         <source>Levels:</source>
         <translation>Рівень:</translation>
     </message>
@@ -5565,12 +5565,12 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+28"/>
         <source>U gain</source>
         <translation>Посилення U</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+14"/>
         <source>V gain</source>
         <translation>Посилення V</translation>
     </message>
@@ -5595,52 +5595,52 @@ This message will not be displayed again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-30"/>
+        <location line="-40"/>
         <source>Y gain</source>
         <translation>Посилення Y</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+30"/>
         <source>V Contrast</source>
         <translation>Контраст V</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-27"/>
         <source>Y Contrast</source>
         <translation>Контраст Y</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+13"/>
         <source>U Contrast</source>
         <translation>Контраст U</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-15"/>
         <source>Y Brightness</source>
         <translation>Яскравість Y</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+27"/>
         <source>V Brightness</source>
         <translation>Яскравість V</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-14"/>
         <source>U Brightness</source>
         <translation>Яскравість U</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-32"/>
         <source>Clip to Tv Range (16-235)</source>
         <translation>Обрізати до діапазону ТВ (16-235)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+20"/>
         <source>Y Gamma</source>
         <translation>Гамма Y</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-22"/>
         <source>AutoWhite</source>
         <translation>Автоматично білий</translation>
     </message>
@@ -7457,7 +7457,7 @@ Start and/or end time would be out of range</source>
         <translation>3 потоки</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+27"/>
         <source>_Trellis quantization</source>
         <translation>Квантування _Трелліса</translation>
     </message>
@@ -7472,17 +7472,17 @@ Start and/or end time would be out of range</source>
         <translation>Розмір буфера:</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>Rate distortion</source>
         <translation>Рівень спотворення (щодо якості)</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+41"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>_Допустимий розмір файлу (Кб)</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+11"/>
         <source>Field Order:</source>
         <translation>Порядок поля:</translation>
     </message>
@@ -7497,7 +7497,7 @@ Start and/or end time would be out of range</source>
         <translation>_Розмір GOP:</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-43"/>
         <source>Auto (#cpu)</source>
         <translation>Автоматично (#cpu)</translation>
     </message>
@@ -7512,37 +7512,37 @@ Start and/or end time would be out of range</source>
         <translation>Спочатку верхнє поле</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+44"/>
         <source>Basic Settings</source>
         <translation>Основні налаштування</translation>
     </message>
     <message>
-        <location line="-61"/>
+        <location line="-65"/>
         <source>Animes</source>
         <translation>Аніме</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Mi_n. quantizer:</source>
         <translation>_Мін. Квантизатор:</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+45"/>
         <source>Quantization</source>
         <translation>Квантування</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-41"/>
         <source>Max bitrate (kb/s):</source>
         <translation>Максимальний бітрейт (Кб/с)</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+49"/>
         <source>libavcodec MPEG-2 configuration</source>
         <translation>Налаштування libavcodec MPEG-2</translation>
     </message>
     <message>
-        <location line="-72"/>
+        <location line="-76"/>
         <source>One thread</source>
         <translation>Один потік</translation>
     </message>
@@ -7567,7 +7567,7 @@ Start and/or end time would be out of range</source>
         <translation>Прогресивна</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>Threading</source>
         <translation>Багатопотоковість</translation>
     </message>
@@ -7577,12 +7577,12 @@ Start and/or end time would be out of range</source>
         <translation>_Кількість кадрів B:</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+32"/>
         <source>Interlacing</source>
         <translation>Черезрядність</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-62"/>
         <source>Two threads</source>
         <translation>2 потоки</translation>
     </message>
@@ -7592,17 +7592,17 @@ Start and/or end time would be out of range</source>
         <translation>За замовчуванням</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+71"/>
         <source>Adv. Settings</source>
         <translation>Додаткові Настройки</translation>
     </message>
     <message>
-        <location line="-73"/>
+        <location line="-77"/>
         <source>Normal (4:3)</source>
         <translation>Нормальне (4: 3)</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+55"/>
         <source>Matrices:</source>
         <translation>Матриці:</translation>
     </message>
@@ -7612,7 +7612,7 @@ Start and/or end time would be out of range</source>
         <translation>_Визначення макроблоків:</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-27"/>
         <source>Interlaced</source>
         <translation>Черезрядна</translation>
     </message>
@@ -7622,27 +7622,27 @@ Start and/or end time would be out of range</source>
         <translation>Спочатку нижнє поле</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+61"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-49"/>
         <source>Ma_x. quantizer:</source>
         <translation>М_акс. квантизатор:</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-28"/>
         <source>Fewest bits (vhq)</source>
         <translation>Кілька бітів (vhq)</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+40"/>
         <source>Aspect ratio:</source>
         <translation>Співвідношення сторін:</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+12"/>
         <source>_Interlaced:</source>
         <translation>_Черезрядність:</translation>
     </message>
@@ -7660,7 +7660,7 @@ Start and/or end time would be out of range</source>
         <translation>Три потоку</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+17"/>
         <source>_Trellis quantization</source>
         <translation>Квантування _Трелліса</translation>
     </message>
@@ -7670,7 +7670,7 @@ Start and/or end time would be out of range</source>
         <translation>_Різниця максимального квантизатора:</translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-26"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7685,7 +7685,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">Рівень спотворення (щодо якості)</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="+21"/>
         <source>4_MV</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7695,7 +7695,7 @@ Start and/or end time would be out of range</source>
         <translation>_Допустимий розмір файлу (КБ):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>_Розмиття квантизації:</translation>
     </message>
@@ -7705,17 +7705,17 @@ Start and/or end time would be out of range</source>
         <translation>Розмір GOP:</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-33"/>
         <source>Auto (#cpu)</source>
         <translation>Автоматично (#cpu)</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>User Interface</source>
         <translation>Інтерфейс</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-25"/>
         <source>Mi_n. quantizer:</source>
         <translation>_Мін. Квантизатор:</translation>
     </message>
@@ -7725,7 +7725,7 @@ Start and/or end time would be out of range</source>
         <translation>_Тип квантування:</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+28"/>
         <source>Quantization</source>
         <translation>Квантизаціяя</translation>
     </message>
@@ -7735,7 +7735,7 @@ Start and/or end time would be out of range</source>
         <translation>Налаштування libavcodec MPEG-4</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-60"/>
         <source>One thread</source>
         <translation>Один потік</translation>
     </message>
@@ -7745,7 +7745,7 @@ Start and/or end time would be out of range</source>
         <translation>Порівняння макроблоків</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Threading</source>
         <translation>Багатопотоковість</translation>
     </message>
@@ -7755,12 +7755,12 @@ Start and/or end time would be out of range</source>
         <translation>К_ількість кадрів B:</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-22"/>
         <source>Two threads</source>
         <translation>Два потоку</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+47"/>
         <source>Motion Estimation</source>
         <translation>Визначення руху</translation>
     </message>
@@ -7770,7 +7770,7 @@ Start and/or end time would be out of range</source>
         <translation>Додатковий простий профіль</translation>
     </message>
     <message>
-        <location line="-13"/>
+        <location line="-16"/>
         <source>_Macroblock decision:</source>
         <translation>В_изначення макроблоків:</translation>
     </message>
@@ -7780,22 +7780,22 @@ Start and/or end time would be out of range</source>
         <translation>_Четверть пікселя</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-42"/>
         <source>Ma_x. quantizer:</source>
         <translation>М_акс. квантизатора:</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>Fewest bits (vhq)</source>
         <translation>Мінімум бітів (vhq)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+37"/>
         <source>_Quantizer compression:</source>
         <translation>Ко_мпрессія квантизації:</translation>
     </message>
@@ -8881,7 +8881,7 @@ Do you want to replace it?</source>
 <context>
     <name>flv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+180"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+181"/>
         <source>_Trellis quantization</source>
         <translation>Квантування _Трелліса</translation>
     </message>
@@ -8891,7 +8891,7 @@ Do you want to replace it?</source>
         <translation>_Різниця макс. квантизатора:</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-18"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8906,12 +8906,12 @@ Do you want to replace it?</source>
         <translation>Рівень спотворення (щодо якості)</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>_Допустимий розмір файлу:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>Ра_змиття квантизатора:</translation>
     </message>
@@ -8926,42 +8926,42 @@ Do you want to replace it?</source>
         <translation>Інтерфейс</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-15"/>
         <source>Mi_n. quantizer:</source>
         <translation>М_ін. квантизатор:</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+20"/>
         <source>Quantization</source>
         <translation>Квантизація</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-31"/>
         <source>MB comparison</source>
         <translation>Порівняння макроблоків</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>Управління бітрейтом</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-24"/>
         <source>Ma_x. quantizer:</source>
         <translation>М_акс. квантизатор:</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+27"/>
         <source>libavcodec FLV1 configuration</source>
         <translation>Налаштування libavcodec FLV1</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-38"/>
         <source>Fewest bits (vhq)</source>
         <translation>Мінімум бітів (vhq)</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+19"/>
         <source>_Quantizer compression:</source>
         <translation>_Стиснення квантизатора:</translation>
     </message>
@@ -11655,17 +11655,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3089"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3091"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2817"/>
+        <location line="-2819"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Нова версія&lt;/b&gt;&lt;br&gt;Версія %1&lt;br&gt;випущена %2.&lt; br&gt;Доступна для завантаження з адреси&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt; &lt;br&gt;&lt;small&gt;Ви можете вимкнути автоматичну перевірку оновлень в Налаштуваннях.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1407"/>
+        <location line="+1409"/>
         <source>Set start marker</source>
         <translation>Поставити маркер A</translation>
     </message>
@@ -12090,7 +12090,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+511"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

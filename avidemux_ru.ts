@@ -1129,7 +1129,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1149,7 +1149,7 @@ Drop timing informations ?</source>
         <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуск приложения</translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Разрешать нестандартную частоту звука для DVD</translation>
     </message>
@@ -1390,7 +1390,7 @@ Drop timing informations ?</source>
         <translation>Avisynth</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation>Стандартная обработка вне гаммы:</translation>
     </message>
@@ -1400,17 +1400,17 @@ Drop timing informations ?</source>
         <translation>HDR</translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation>Стандартный метод _тональной компрессии:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation>Целевая пиковая яркость (ниты):</translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation>Использовать _общий кэш</translation>
     </message>
@@ -1426,12 +1426,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation>LibVA</translation>
     </message>
@@ -1568,7 +1568,7 @@ Drop timing informations ?</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
@@ -2382,7 +2382,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
         <translation>Стереонаушники</translation>
     </message>
@@ -2551,7 +2551,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2666,7 +2666,7 @@ Is it running ?</source>
         <translation>При включении аппаратного ускорения лучше использовать соответствующий вывод видео</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation>_Проверять обновления</translation>
     </message>
@@ -2750,7 +2750,7 @@ Is it running ?</source>
         <translation>Импорт</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation>Постобработка</translation>
     </message>
@@ -2785,7 +2785,7 @@ Is it running ?</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -4087,7 +4087,7 @@ Installation mismatch</source>
         <translation>Хейбл RGB</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation>_Тональная компрессия:</translation>
     </message>
@@ -4108,7 +4108,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation>Отсечение</translation>
     </message>
@@ -5575,7 +5575,7 @@ This message will not be displayed again.</source>
         <translation>Уровни:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Усиление Y</translation>
     </message>
@@ -5595,7 +5595,7 @@ This message will not be displayed again.</source>
         <translation>Контраст Y</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>Усиление U</translation>
     </message>
@@ -5610,7 +5610,7 @@ This message will not be displayed again.</source>
         <translation>Контраст U</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>Усиление V</translation>
     </message>
@@ -7452,12 +7452,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+303"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+304"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+41"/>
         <source>Interlacing</source>
         <translation>Череcстрочность</translation>
     </message>
@@ -7467,7 +7467,7 @@ Start and/or end time would be out of range</source>
         <translation>Управление битрейтом</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-91"/>
         <source>Normal (4:3)</source>
         <translation>Нормальный (4:3)</translation>
     </message>
@@ -7552,7 +7552,7 @@ Start and/or end time would be out of range</source>
         <translation>Сначала нижнее поле</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation>_Мин. квантизатор:</translation>
     </message>
@@ -7607,7 +7607,7 @@ Start and/or end time would be out of range</source>
         <translation>_Допуск размера файла (КБ):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Сжатие квантизатора:</translation>
     </message>
@@ -7655,12 +7655,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg4</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+220"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+221"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+26"/>
         <source>User Interface</source>
         <translation>Интерфейс</translation>
     </message>
@@ -7675,7 +7675,7 @@ Start and/or end time would be out of range</source>
         <translation>Управление битрейтом</translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="-67"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
@@ -7720,7 +7720,7 @@ Start and/or end time would be out of range</source>
         <translation>Автоматически (#cpu)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation>_Мин. квантизатор:</translation>
     </message>
@@ -7770,7 +7770,7 @@ Start and/or end time would be out of range</source>
         <translation>_Допуск размера файла (КБ):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Сжатие квантизатора:</translation>
     </message>
@@ -8831,7 +8831,7 @@ Do you want to replace it?</source>
 <context>
     <name>flv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+189"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+193"/>
         <source>User Interface</source>
         <translation>Интерфейс</translation>
     </message>
@@ -8841,7 +8841,7 @@ Do you want to replace it?</source>
         <translation>Управление битрейтом</translation>
     </message>
     <message>
-        <location line="-37"/>
+        <location line="-41"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
@@ -8866,7 +8866,7 @@ Do you want to replace it?</source>
         <translation>Минимум искажений</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>Ми_н. квантизатор:</translation>
     </message>
@@ -8891,7 +8891,7 @@ Do you want to replace it?</source>
         <translation>_Допуск размера файла (КБ):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Сжатие квантизатора:</translation>
     </message>
@@ -11591,7 +11591,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Недавние файлы</translation>
     </message>
@@ -12026,7 +12026,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation>Невозможно добавить частичный фильтр</translation>
     </message>
     <message>

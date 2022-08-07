@@ -1137,7 +1137,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1157,7 +1157,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
@@ -1398,7 +1398,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1408,17 +1408,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation>_Paylaşılan önbelleği kullan</translation>
     </message>
@@ -1434,12 +1434,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1572,7 +1572,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -2390,7 +2390,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2559,7 +2559,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2674,7 +2674,7 @@ Is it running ?</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
@@ -2758,7 +2758,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2793,7 +2793,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -4129,7 +4129,7 @@ Yine de devam edilsin mi?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4150,7 +4150,7 @@ Yine de devam edilsin mi?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5625,7 +5625,7 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
         <translation>Seviyeler:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Y kazancı</translation>
     </message>
@@ -5645,7 +5645,7 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
         <translation>Y Kontrast</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>U kazancı</translation>
     </message>
@@ -5660,7 +5660,7 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
         <translation>U Kontrast</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>V kazancı</translation>
     </message>
@@ -7497,12 +7497,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+303"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+304"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+41"/>
         <source>Interlacing</source>
         <translation>Karıştır</translation>
     </message>
@@ -7512,7 +7512,7 @@ Start and/or end time would be out of range</source>
         <translation>Hız Kontrolü</translation>
     </message>
     <message>
-        <location line="-87"/>
+        <location line="-91"/>
         <source>Normal (4:3)</source>
         <translation>Normal (4.3)</translation>
     </message>
@@ -7597,7 +7597,7 @@ Start and/or end time would be out of range</source>
         <translation>Önce Alt Alan</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation>Düş_ük. niceleştirici:</translation>
     </message>
@@ -7652,7 +7652,7 @@ Start and/or end time would be out of range</source>
         <translation>_Dosya boyutu toleransı (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Nicelleştirici sıkıştırması:</translation>
     </message>
@@ -7700,12 +7700,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg4</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+220"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+221"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+26"/>
         <source>User Interface</source>
         <translation>Kullanıcı arayüzü</translation>
     </message>
@@ -7720,7 +7720,7 @@ Start and/or end time would be out of range</source>
         <translation>Hız Kontrolü</translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="-67"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
@@ -7765,7 +7765,7 @@ Start and/or end time would be out of range</source>
         <translation>Otomatik (#cpu)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation>Düş_ük. niceleştirici:</translation>
     </message>
@@ -7815,7 +7815,7 @@ Start and/or end time would be out of range</source>
         <translation>_Dosya boyutu toleransı (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Nicelleştirici sıkıştırması:</translation>
     </message>
@@ -8889,7 +8889,7 @@ Değiştirmek istiyor musun?</translation>
 <context>
     <name>flv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+189"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+193"/>
         <source>User Interface</source>
         <translation>Kullanıcı arayüzü</translation>
     </message>
@@ -8899,7 +8899,7 @@ Değiştirmek istiyor musun?</translation>
         <translation>Hız Kontrolü</translation>
     </message>
     <message>
-        <location line="-37"/>
+        <location line="-41"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
@@ -8924,7 +8924,7 @@ Değiştirmek istiyor musun?</translation>
         <translation>Oran bozulması</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>Düş_ük. niceleştirici:</translation>
     </message>
@@ -8949,7 +8949,7 @@ Değiştirmek istiyor musun?</translation>
         <translation>_Dosya boyutu toleransı (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Nicelleştirici sıkıştırması:</translation>
     </message>
@@ -11681,7 +11681,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>&lt;b&gt;Yeni sürüm mevcut&lt;/b&gt;&lt;br&gt; Sürüm %1&lt;br&gt;Tarihinde çıktı %2.&lt;br&gt;Buradan indirebilirsiniz&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Otomatik güncellemeyi devredışı bırakabilirsiniz.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Son Dosyalar</translation>
     </message>
@@ -12114,7 +12114,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

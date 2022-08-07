@@ -1945,7 +1945,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1991,7 +1991,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2107,7 +2107,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+75"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -2152,7 +2152,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD에 대해 비표준 오디오 주파수 받아들이기 </translation>
     </message>
@@ -2403,7 +2403,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2413,17 +2413,17 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-183"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2574,7 +2574,7 @@ Drop timing informations ?</source>
         <translation>출력</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+55"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2614,7 +2614,7 @@ Drop timing informations ?</source>
         <translation>쓰레딩</translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-282"/>
         <source>_Always ask which port to use</source>
         <translation>사용할 포트 항상 묻기</translation>
     </message>
@@ -2635,17 +2635,17 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+271"/>
+        <location line="+273"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
@@ -3460,7 +3460,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-120"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>비활성화</translation>
@@ -4065,7 +4065,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4086,7 +4086,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5548,7 +5548,7 @@ This message will not be displayed again.</source>
         <translation>레벨:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Y 이득</translation>
     </message>
@@ -5568,7 +5568,7 @@ This message will not be displayed again.</source>
         <translation>Y 대비 </translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>U 이득</translation>
     </message>
@@ -5583,7 +5583,7 @@ This message will not be displayed again.</source>
         <translation>U 대비</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>V 이득</translation>
     </message>
@@ -7499,7 +7499,7 @@ Start and/or end time would be out of range</source>
         <translation>하단 필드 먼저</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>쓰레딩</translation>
     </message>
@@ -7559,7 +7559,7 @@ Start and/or end time would be out of range</source>
         <translation>파일 크기 허용 오차 (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>양자화기 압축:</translation>
     </message>
@@ -7662,7 +7662,7 @@ Start and/or end time would be out of range</source>
         <translation>자동 (#cpu)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>쓰레딩</translation>
     </message>
@@ -7717,7 +7717,7 @@ Start and/or end time would be out of range</source>
         <translation>파일 크기 허용 오차 (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>양자화기 압축:</translation>
     </message>
@@ -8802,7 +8802,7 @@ Do you want to replace it?</source>
         <translation>비율 왜곡 Rate distortion</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>최소 양자화기:</translation>
     </message>
@@ -8827,7 +8827,7 @@ Do you want to replace it?</source>
         <translation>파일 크기 허용 오차 (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>양자화기 압축:</translation>
     </message>
@@ -11522,7 +11522,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;새 버전이 나왔습니다!&lt;/b&gt;&lt;br&gt; 버전 %1&lt;br&gt;%2에 배포.&lt;br&gt;여기에서 다운로드할 수 있습니다&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; 자동 업데이트는 환경 설정에서 끌 수 있습니다.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>최근 파일</translation>
     </message>
@@ -11955,7 +11955,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

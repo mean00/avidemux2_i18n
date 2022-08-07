@@ -1231,7 +1231,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+674"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+676"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1296,7 +1296,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-324"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-326"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-19"/>
         <source>Low</source>
         <translation>低</translation>
@@ -1741,7 +1741,7 @@ Installation mismatch</source>
         <translation>連線至 avsproxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+134"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+136"/>
         <source>GUI Rendering Options</source>
         <translation>GUI 渲染選項</translation>
     </message>
@@ -1813,7 +1813,7 @@ Installation mismatch</source>
         <translation>選擇腳本去執行</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-137"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-139"/>
         <source>No downmixing</source>
         <translation>沒降混合</translation>
     </message>
@@ -1823,7 +1823,7 @@ Installation mismatch</source>
         <translation>啟用 SSE2</translation>
     </message>
     <message>
-        <location line="+312"/>
+        <location line="+314"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1853,7 +1853,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-377"/>
+        <location line="-379"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2675,7 +2675,7 @@ Installation mismatch</source>
         <translation>清除最近使用的 檔案 及 專案</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+291"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+293"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>解碼影片使用 DXVA2 (windows)</translation>
     </message>
@@ -2685,7 +2685,7 @@ Installation mismatch</source>
         <translation>運動搜索精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-94"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
         <source>Output</source>
         <translation>輸出</translation>
     </message>
@@ -2984,7 +2984,7 @@ Installation mismatch</source>
         <translation>建立時間軸</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>解碼影片使用 VDPAU (NVIDIA)</translation>
     </message>
@@ -3054,7 +3054,7 @@ Do you want to continue anyway ?</source>
         <translation>%d 分(s)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-176"/>
         <source>_Volume control:</source>
         <translation>音量控制:</translation>
     </message>
@@ -3094,7 +3094,7 @@ Do you want to continue anyway ?</source>
         <translation>啟用備用的鍵盤快速鍵</translation>
     </message>
     <message>
-        <location line="+375"/>
+        <location line="+377"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>解碼影片使用 LIBVA (INTEL)</translation>
     </message>
@@ -3143,7 +3143,7 @@ Do you want to continue anyway ?</source>
         <translation>設定的語言無法提供跟蹤索引：無效跟蹤指標！</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-232"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-234"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>預設為儲存最後讀取檔案的目錄</translation>
     </message>
@@ -3170,12 +3170,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>影片編碼器</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+149"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+151"/>
         <source>Threading</source>
         <translation>線程</translation>
     </message>
     <message>
-        <location line="-112"/>
+        <location line="-114"/>
         <source>_Strength:</source>
         <translation>強度:</translation>
     </message>
@@ -3299,7 +3299,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3309,17 +3309,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-183"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3355,12 +3355,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3405,7 +3405,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>啟用 SSE</translation>
     </message>
     <message>
-        <location line="+364"/>
+        <location line="+366"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>如果你使用硬體解碼，最好使用匹配的顯示驅動程式</translation>
     </message>
@@ -3421,7 +3421,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>HW 硬體加速器</translation>
     </message>
     <message>
-        <location line="-400"/>
+        <location line="-402"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>同意在 DVD 使用非標準的音訊頻率</translation>
     </message>
@@ -3604,7 +3604,7 @@ Installation mismatch</source>
         <translation>轉到下一幀黑框</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+172"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+174"/>
         <source>Display</source>
         <translation>顯示</translation>
     </message>
@@ -3619,7 +3619,7 @@ Installation mismatch</source>
         <translation>前往時間點</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-299"/>
         <source>Multi-threading</source>
         <translation>多線程</translation>
     </message>
@@ -3669,7 +3669,7 @@ Installation mismatch</source>
         <translation>進階(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+141"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+143"/>
         <source>Enable openGl support</source>
         <translation>啟用openGl支援</translation>
     </message>
@@ -3797,7 +3797,7 @@ Install lame plugin</source>
         <translation>濾鏡器(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-365"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-367"/>
         <source>_lavc threads:</source>
         <translation>lavc 線程:</translation>
     </message>
@@ -3812,7 +3812,7 @@ Install lame plugin</source>
         <translation>灰階</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+271"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>重整速率上限 (ms)</translation>
     </message>
@@ -3853,7 +3853,7 @@ Install lame plugin</source>
         <translation>AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-245"/>
         <source>_Playback priority:</source>
         <translation>倒帶優先次序:</translation>
     </message>
@@ -4072,7 +4072,7 @@ Expect problems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4093,7 +4093,7 @@ Expect problems.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5509,7 +5509,7 @@ This message will not be displayed again.</source>
 <context>
     <name>coloryuv</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+115"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+131"/>
         <source>U</source>
         <translation>U</translation>
     </message>
@@ -5524,17 +5524,17 @@ This message will not be displayed again.</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-52"/>
         <source>None</source>
         <translation>無</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+51"/>
         <source>Flags</source>
         <translation>旗標記</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-47"/>
         <source>Levels:</source>
         <translation>等級:</translation>
     </message>
@@ -5549,27 +5549,27 @@ This message will not be displayed again.</source>
         <translation>顏色管理濾鏡器.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+45"/>
         <source>U gain</source>
         <translation>U 增益</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+14"/>
         <source>V gain</source>
         <translation>V 增益</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-42"/>
         <source>TV-&gt;PC</source>
         <translation>TV-&gt;PC</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+15"/>
         <source>Y gain</source>
         <translation>Y 增益</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+40"/>
         <source>colorYuv</source>
         <translation>顏色Yuv</translation>
     </message>
@@ -5579,42 +5579,42 @@ This message will not be displayed again.</source>
         <translation>V 對比</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-27"/>
         <source>Y Contrast</source>
         <translation>Y 對比</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+13"/>
         <source>U Contrast</source>
         <translation>U 對比</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-15"/>
         <source>Y Brightness</source>
         <translation>Y 亮度</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+27"/>
         <source>V Brightness</source>
         <translation>V 亮度</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-14"/>
         <source>U Brightness</source>
         <translation>U 亮度</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-32"/>
         <source>Clip to Tv Range (16-235)</source>
         <translation>剪輯電視系列 (16-235)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+20"/>
         <source>Y Gamma</source>
         <translation>Y 伽馬射線</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-22"/>
         <source>AutoWhite</source>
         <translation>自動白</translation>
     </message>
@@ -7432,7 +7432,7 @@ Start and/or end time would be out of range</source>
         <translation>KVCD</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+38"/>
         <source>_Trellis quantization</source>
         <translation>網格量化</translation>
     </message>
@@ -7447,17 +7447,17 @@ Start and/or end time would be out of range</source>
         <translation>VBV 緩衝容量 :</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>Rate distortion</source>
         <translation>速率失真</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+41"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>容許誤差檔案大小 (kb):</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+11"/>
         <source>Field Order:</source>
         <translation>掃描場順序:</translation>
     </message>
@@ -7472,7 +7472,7 @@ Start and/or end time would be out of range</source>
         <translation>Gop(圖像群組)大小：</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-43"/>
         <source>Auto (#cpu)</source>
         <translation>自動 (#cpu)</translation>
     </message>
@@ -7487,37 +7487,37 @@ Start and/or end time would be out of range</source>
         <translation>頂部首先掃描</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+44"/>
         <source>Basic Settings</source>
         <translation>基本設定</translation>
     </message>
     <message>
-        <location line="-61"/>
+        <location line="-65"/>
         <source>Animes</source>
         <translation>動畫</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量化器:</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+45"/>
         <source>Quantization</source>
         <translation>量化</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-41"/>
         <source>Max bitrate (kb/s):</source>
         <translation>最大位元率 (kb/s):</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+49"/>
         <source>libavcodec MPEG-2 configuration</source>
         <translation>libavcodec MPEG-2 配置</translation>
     </message>
     <message>
-        <location line="-72"/>
+        <location line="-76"/>
         <source>One thread</source>
         <translation>一個線程</translation>
     </message>
@@ -7532,7 +7532,7 @@ Start and/or end time would be out of range</source>
         <translation>漸進的</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>Threading</source>
         <translation>線程</translation>
     </message>
@@ -7542,12 +7542,12 @@ Start and/or end time would be out of range</source>
         <translation>B 幀的數量:</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+32"/>
         <source>Interlacing</source>
         <translation>交錯</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-62"/>
         <source>Two threads</source>
         <translation>兩個線程</translation>
     </message>
@@ -7557,12 +7557,12 @@ Start and/or end time would be out of range</source>
         <translation>預設</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+71"/>
         <source>Adv. Settings</source>
         <translation>Adv. 設定</translation>
     </message>
     <message>
-        <location line="-66"/>
+        <location line="-70"/>
         <source>Tmpgenc</source>
         <translation>Tmpgenc</translation>
     </message>
@@ -7572,7 +7572,7 @@ Start and/or end time would be out of range</source>
         <translation>正常 (4:3)</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+55"/>
         <source>Matrices:</source>
         <translation>矩陣:</translation>
     </message>
@@ -7582,7 +7582,7 @@ Start and/or end time would be out of range</source>
         <translation>宏塊決定:</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-27"/>
         <source>Interlaced</source>
         <translation>交錯</translation>
     </message>
@@ -7592,27 +7592,27 @@ Start and/or end time would be out of range</source>
         <translation>底部首先掃描</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+61"/>
         <source>Rate Control</source>
         <translation>速率控制</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-49"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量化器:</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-28"/>
         <source>Fewest bits (vhq)</source>
         <translation>少位元 (vhq)</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+40"/>
         <source>Aspect ratio:</source>
         <translation>縱橫比例(AR):</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+12"/>
         <source>_Interlaced:</source>
         <translation>交錯：</translation>
     </message>
@@ -7630,42 +7630,42 @@ Start and/or end time would be out of range</source>
         <translation>三個線程</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>4_MV</source>
         <translation>4MV</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-27"/>
         <source>MPEG</source>
         <translation>MPEG</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+28"/>
         <source>_Trellis quantization</source>
         <translation>網格量化</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+26"/>
         <source>Max. quantizer _difference:</source>
         <translation>最大量化器的區別:</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>Rate distortion</source>
         <translation>速率失真</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+31"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>濾鏡大小容許誤差:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>量化器模糊：</translation>
     </message>
@@ -7675,17 +7675,17 @@ Start and/or end time would be out of range</source>
         <translation>Gop 大小:</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-33"/>
         <source>Auto (#cpu)</source>
         <translation>自動 (#cpu)</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>User Interface</source>
         <translation>使用者介面</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-25"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量化器:</translation>
     </message>
@@ -7695,7 +7695,7 @@ Start and/or end time would be out of range</source>
         <translation>量化型式:</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+28"/>
         <source>Quantization</source>
         <translation>量化</translation>
     </message>
@@ -7705,7 +7705,7 @@ Start and/or end time would be out of range</source>
         <translation>libavcodec MPEG-4 配置</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-60"/>
         <source>One thread</source>
         <translation>一個線程</translation>
     </message>
@@ -7715,7 +7715,7 @@ Start and/or end time would be out of range</source>
         <translation>MB 比較</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Threading</source>
         <translation>線程</translation>
     </message>
@@ -7725,12 +7725,12 @@ Start and/or end time would be out of range</source>
         <translation>B幀的數量:</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-22"/>
         <source>Two threads</source>
         <translation>兩個線程</translation>
     </message>
     <message>
-        <location line="+43"/>
+        <location line="+47"/>
         <source>Motion Estimation</source>
         <translation>運動估計</translation>
     </message>
@@ -7740,7 +7740,7 @@ Start and/or end time would be out of range</source>
         <translation>進階簡單設定檔</translation>
     </message>
     <message>
-        <location line="-13"/>
+        <location line="-16"/>
         <source>_Macroblock decision:</source>
         <translation>宏塊決定:</translation>
     </message>
@@ -7750,22 +7750,22 @@ Start and/or end time would be out of range</source>
         <translation>1/4像素</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>速率控制</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-42"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量化器:</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>Fewest bits (vhq)</source>
         <translation>少位元 (vhq)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+37"/>
         <source>_Quantizer compression:</source>
         <translation>濾鏡氣壓縮:</translation>
     </message>
@@ -8798,32 +8798,32 @@ Do you want to replace it?</source>
         <translation>MPEG</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>_Trellis quantization</source>
         <translation>網格量化</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Max. quantizer _difference:</source>
         <translation>最大濾鏡器的區別:</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-11"/>
         <source>Rate distortion</source>
         <translation>速率失真</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>濾鏡大小容許誤差:</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>量化器模糊 :</translation>
     </message>
@@ -8838,42 +8838,42 @@ Do you want to replace it?</source>
         <translation>使用者介面</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-15"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量化器:</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+20"/>
         <source>Quantization</source>
         <translation>量化</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-31"/>
         <source>MB comparison</source>
         <translation>MB 比較</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>速率控制</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-24"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量化器:</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+27"/>
         <source>libavcodec FLV1 configuration</source>
         <translation>libavcodec FLV1 配置</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-38"/>
         <source>Fewest bits (vhq)</source>
         <translation>少位 (vhq)</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+19"/>
         <source>_Quantizer compression:</source>
         <translation>量化器壓縮：</translation>
     </message>
@@ -11533,7 +11533,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3089"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3091"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
@@ -11560,12 +11560,12 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>轉到上一幀(關鍵幀或I幀)</translation>
     </message>
     <message>
-        <location line="-1395"/>
+        <location line="-1397"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>最近使用的 檔案(&amp;F)</translation>
     </message>
@@ -11966,7 +11966,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+363"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

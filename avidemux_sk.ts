@@ -1956,7 +1956,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -2002,7 +2002,7 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2122,7 +2122,7 @@ Vypustiť časové údaje?</translation>
         <translation>Odstránenie blokových artefaktov (deblocking)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+75"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekódovať video použitím DXVA2 (Windows)</translation>
     </message>
@@ -2167,7 +2167,7 @@ Vypustiť časové údaje?</translation>
         <translation>Povolením hardvérového dekódovania dôjde k vypnutiu multi-threadingu (viacvláknového spracovanie), na potvrdenie zmien je potrebné reštartovať aplikáciu</translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Akceptovať neštandardnú frekvenciu zvuku pre DVD</translation>
     </message>
@@ -2418,7 +2418,7 @@ Vypustiť časové údaje?</translation>
         <translation>Avisynth</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2428,17 +2428,17 @@ Vypustiť časové údaje?</translation>
         <translation>HDR</translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation>Pred_volená metóda mapovania tónov:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation>Maximum cieľového jasu (cd/m2):</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-183"/>
         <source>Caching of decoded pictures</source>
         <translation>Zásobník dekódovaných obrázkov</translation>
     </message>
@@ -2589,7 +2589,7 @@ Vypustiť časové údaje?</translation>
         <translation>Výstup</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+55"/>
         <source>Post-Processing</source>
         <translation>Dodatočné spracovanie</translation>
     </message>
@@ -2629,7 +2629,7 @@ Vypustiť časové údaje?</translation>
         <translation>Vláknenie</translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-282"/>
         <source>_Always ask which port to use</source>
         <translation>_Vždy sa opýtať, ktorý port sa má použiť</translation>
     </message>
@@ -2650,17 +2650,17 @@ Vypustiť časové údaje?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation>LibVA</translation>
     </message>
     <message>
-        <location line="+271"/>
+        <location line="+273"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>
@@ -3503,7 +3503,7 @@ Skúsiť to znovu?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-120"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>Vypnuté</translation>
@@ -4113,7 +4113,7 @@ Installation mismatch</source>
         <translation>RGB Hable</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation>_Mapovanie tónov:</translation>
     </message>
@@ -4134,7 +4134,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation>Orezanie</translation>
     </message>
@@ -5597,7 +5597,7 @@ Táto správa sa znova nezobrazí.</translation>
         <translation>Úrovne:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Y zisk</translation>
     </message>
@@ -5617,7 +5617,7 @@ Táto správa sa znova nezobrazí.</translation>
         <translation>Y kontrast</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>U zisk</translation>
     </message>
@@ -5632,7 +5632,7 @@ Táto správa sa znova nezobrazí.</translation>
         <translation>U kontrast</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>V zisk</translation>
     </message>
@@ -7551,7 +7551,7 @@ Start and/or end time would be out of range</source>
         <translation>Najskôr dolná polsnímka</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>Vláknenie</translation>
     </message>
@@ -7611,7 +7611,7 @@ Start and/or end time would be out of range</source>
         <translation>_Tolerancia veľkosti súboru [kB]:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Kompresia kvantifikátorov:</translation>
     </message>
@@ -7714,7 +7714,7 @@ Start and/or end time would be out of range</source>
         <translation>Automaticky (počet CPU)</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>Vláknenie</translation>
     </message>
@@ -7769,7 +7769,7 @@ Start and/or end time would be out of range</source>
         <translation>_Tolerancia veľkosti súboru [kB]:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Kompresia kvantifikátorov:</translation>
     </message>
@@ -8878,7 +8878,7 @@ Chcete ho nahradiť?</translation>
         <translation>Miera skreslenia</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>Mi_n. kvantifikátor:</translation>
     </message>
@@ -8903,7 +8903,7 @@ Chcete ho nahradiť?</translation>
         <translation>_Tolerancia veľkosti súboru [kB]:</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>_Kompresia kvantifikátorov:</translation>
     </message>
@@ -11617,7 +11617,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
         <translation>&lt;b&gt;Dostupná nová verzia&lt;/b&gt;&lt;br&gt; verzia %1&lt;br&gt;uvoľnená od %2.&lt;br&gt;Môžete si ju stiahnuť tu&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Automatickú aktualizáciu môžete zakázať v predvoľbách.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Nedávne &amp;súbory</translation>
     </message>
@@ -12052,7 +12052,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation>Nepodarilo sa pridať čiastočný filter</translation>
     </message>
     <message>

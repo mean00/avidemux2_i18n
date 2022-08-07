@@ -1126,7 +1126,7 @@ Si solo copia el vídeo sin recodificarlo,
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Decodificar vídeos usando DXVA2 (windows)</translation>
     </message>
@@ -1146,7 +1146,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-382"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>Permitir frecuencias de _audio no estándar para DVD</translation>
     </message>
@@ -1392,7 +1392,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1402,17 +1402,17 @@ Si solo copia el vídeo sin recodificarlo,
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1428,12 +1428,12 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1589,7 +1589,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+117"/>
         <source>CPU</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2010,7 +2010,7 @@ Si solo copia el vídeo sin recodificarlo,
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2452,7 +2452,7 @@ Si solo copia el vídeo sin recodificarlo,
         <translation>Guardar tarea</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+192"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+194"/>
         <source>Enable openGl support</source>
         <translation>Activar el soporte para openGL</translation>
     </message>
@@ -3108,7 +3108,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+4"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-189"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-191"/>
         <source>VDPAU</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3183,7 +3183,7 @@ Is it running ?</source>
         <translation>Información de complementos</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+229"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+231"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Decodificar vídeos usando VDPAU (NVIDIA)</translation>
     </message>
@@ -3203,7 +3203,7 @@ Is it running ?</source>
         <translation>Si utiliza la decodificación hardware, es mejor utilizar el controlador de pantalla correspondiente</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation>_Comprobar si hay versiones nuevas</translation>
     </message>
@@ -3248,7 +3248,7 @@ Is it running ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3283,7 +3283,7 @@ Is it running ?</source>
         <translation>Aceleración hardware</translation>
     </message>
     <message>
-        <location line="-271"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation>Pregunt_ar siempre por el puerto a usar</translation>
     </message>
@@ -4071,7 +4071,7 @@ Instalación incongruente</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4092,7 +4092,7 @@ Instalación incongruente</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5545,7 +5545,7 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation>Niveles:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation>Ganancia Y</translation>
     </message>
@@ -5565,7 +5565,7 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation>Contraste Y</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation>Ganancia U</translation>
     </message>
@@ -5580,7 +5580,7 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation>Contraste U</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation>Ganancia V</translation>
     </message>
@@ -5600,7 +5600,7 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation>Indicadores</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-50"/>
         <source>PC-&gt;TV</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5610,7 +5610,7 @@ Este mensaje no se mostrará de nuevo.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+50"/>
         <source>Y</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7488,7 +7488,7 @@ Start and/or end time would be out of range</source>
         <translation>Campo inferior primero</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation>Hilos</translation>
     </message>
@@ -7543,7 +7543,7 @@ Start and/or end time would be out of range</source>
         <translation>Tolerancia del tamaño de archivo (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>Compresión del cuantizador:</translation>
     </message>
@@ -7598,7 +7598,7 @@ Start and/or end time would be out of range</source>
         <translation>Configuración de libavcodec MPEG-2</translation>
     </message>
     <message>
-        <location line="-90"/>
+        <location line="-94"/>
         <source>Normal (4:3)</source>
         <translation>Normal (4:3)</translation>
     </message>
@@ -7618,7 +7618,7 @@ Start and/or end time would be out of range</source>
         <translation>Automático (n.º de cpu)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+34"/>
         <source>Matrices:</source>
         <translation>Matrices:</translation>
     </message>
@@ -7666,7 +7666,7 @@ Start and/or end time would be out of range</source>
         <translation>Tres subprocesos</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Threading</source>
         <translation>Subprocesos</translation>
     </message>
@@ -7711,7 +7711,7 @@ Start and/or end time would be out of range</source>
         <translation>Tolerancia del tamaño de archivo (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>Compresión del cuantizador:</translation>
     </message>
@@ -7756,12 +7756,12 @@ Start and/or end time would be out of range</source>
         <translation>Configuración de libavcodec MPEG-4</translation>
     </message>
     <message>
-        <location line="-53"/>
+        <location line="-57"/>
         <source>Auto (#cpu)</source>
         <translation>Automático (n.º de cpu)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>4_MV</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8824,7 +8824,7 @@ Do you want to replace it?</source>
         <translation>Distorsión de la tasa</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation>Cuantizador mí_nimo:</translation>
     </message>
@@ -8849,7 +8849,7 @@ Do you want to replace it?</source>
         <translation>Tolerancia del tamaño de archivo (kb):</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation>Compresión del cuantizador:</translation>
     </message>
@@ -11549,7 +11549,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Nueva versión disponible&lt;/b&gt;&lt;br&gt; Versión %1&lt;br&gt;Publicada el %2.&lt;br&gt;Puede descargarla aquí&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Puede deshabilitar las actualizaciones automáticas en Preferencias.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Archivos recientes</translation>
     </message>
@@ -11983,7 +11983,7 @@ Se ha guardado la edición actual y se volverá a cargar en el siguiente inicio<
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

@@ -1161,7 +1161,7 @@ Japanese translated by Tilt</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+674"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+676"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1221,7 +1221,7 @@ Japanese translated by Tilt</translation>
         <translation>TrueHD</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-242"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-244"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-19"/>
         <source>Low</source>
         <translation>低</translation>
@@ -1614,7 +1614,7 @@ Installation mismatch</source>
         <translation>RGB Hable</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+8"/>
         <source>_Saturation:</source>
         <translation>飽和(_S):</translation>
     </message>
@@ -1625,7 +1625,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation>クリッピング</translation>
     </message>
@@ -1641,7 +1641,7 @@ Installation mismatch</source>
         <translation>RGB gamut処理範囲外(_R):</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-108"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-110"/>
         <source>Pro Logic II</source>
         <translation>Dolby ProLogic II</translation>
     </message>
@@ -1756,7 +1756,7 @@ Installation mismatch</source>
         <translation>Avsproxy に接続</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+134"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+136"/>
         <source>GUI Rendering Options</source>
         <translation>GUI レンダリング設定</translation>
     </message>
@@ -1828,7 +1828,7 @@ Installation mismatch</source>
         <translation>スクリプトを選択して実行</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-164"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
         <source>No downmixing</source>
         <translation>ダウンミックスなし</translation>
     </message>
@@ -2449,7 +2449,7 @@ Warning, the settings must be close.</source>
         <translation>音声言語を設定できません: 先にビデオを読み込んでください!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+310"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+312"/>
         <source>Post-Processing</source>
         <translation>ポスト プロセッシング</translation>
     </message>
@@ -2459,7 +2459,7 @@ Warning, the settings must be close.</source>
         <translation>トラックを選択</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-249"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-251"/>
         <source>Below normal</source>
         <translation>標準以下</translation>
     </message>
@@ -2734,7 +2734,7 @@ Installation mismatch</source>
         <translation>最近使用した項目をクリア</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+291"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+293"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 デコーダ (Windows) を使用して映像をエンコード(_D)</translation>
     </message>
@@ -2744,7 +2744,7 @@ Installation mismatch</source>
         <translation>動き検索の精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-94"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
         <source>Output</source>
         <translation>出力</translation>
     </message>
@@ -3004,7 +3004,7 @@ Is it running ?</source>
         <translation>タイム マップを構築中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+191"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>映像のデコードに_VDPAU (NVIDIA) を使用</translation>
     </message>
@@ -3080,7 +3080,7 @@ Do you want to continue anyway ?</source>
         <translation>%d 分</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-174"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-176"/>
         <source>_Volume control:</source>
         <translation>音量制御(_V):</translation>
     </message>
@@ -3120,7 +3120,7 @@ Do you want to continue anyway ?</source>
         <translation>キーボードの代替ショートカットを使用(_E)</translation>
     </message>
     <message>
-        <location line="+375"/>
+        <location line="+377"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>映像のデコードに_libVA (INTEL) を使用</translation>
     </message>
@@ -3170,7 +3170,7 @@ Do you want to continue anyway ?</source>
         <translation>指定された言語にトラックを設定できません: トラックのインデックスが無効です!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-232"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-234"/>
         <source>_Default to the directory of the last read file for saving</source>
         <translation>デフォルトでは最後に読み込まれたファイルのディレクトリに保存されます(_D)</translation>
     </message>
@@ -3185,7 +3185,7 @@ Do you want to continue anyway ?</source>
         <translation>ファイルが読み込まれていません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-7"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-10"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+49"/>
         <source>RGB clipping</source>
         <translation>RGB クリッピング</translation>
@@ -3209,12 +3209,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>映像エンコーダ</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+101"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+103"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
     <message>
-        <location line="-112"/>
+        <location line="-114"/>
         <source>_Strength:</source>
         <translation>強度(_S):</translation>
     </message>
@@ -3374,17 +3374,17 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-25"/>
+        <location line="-27"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3425,7 +3425,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>HW アクセラレータ</translation>
     </message>
     <message>
-        <location line="-400"/>
+        <location line="-402"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD 規格にない周波数の音声使用を許可(_A)</translation>
     </message>
@@ -3537,7 +3537,7 @@ Proceed anyway?</source>
         <translation>低ビットレート シーン (%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+10"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+13"/>
         <source>_Boost (level multiplier):</source>
         <translation>ブースト - レベル乗算(_B) (множитель уровня):</translation>
     </message>
@@ -3554,7 +3554,7 @@ Installation mismatch</source>
 インストールの不一致</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-16"/>
+        <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-19"/>
         <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
         <translation>上記のオプションを変更すると、エディタは最も近い先行キーフレームにジャンプ するようになります。</translation>
     </message>
@@ -3595,7 +3595,7 @@ Installation mismatch</source>
         <translation>全ての警告を表示</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+183"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>VideoToolbox を使用してビデオをデコード(macOS)</translation>
     </message>
@@ -3721,7 +3721,7 @@ Installation mismatch</source>
         <translation>指定時間に移動</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-299"/>
         <source>Multi-threading</source>
         <translation>マルチ スレッディング</translation>
     </message>
@@ -3776,7 +3776,7 @@ Installation mismatch</source>
         <translation>拡張(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+141"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+143"/>
         <source>Enable openGl support</source>
         <translation>OpenGL 対応を有効化</translation>
     </message>
@@ -3894,7 +3894,7 @@ lame プラグインをインストールしてください</translation>
         <translation>フィルター(_F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-365"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-367"/>
         <source>_lavc threads:</source>
         <translation>lavc スレッド(_L):</translation>
     </message>
@@ -3909,7 +3909,7 @@ lame プラグインをインストールしてください</translation>
         <translation>グレースケール(_G)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+271"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
         <source>Refresh Rate Cap (ms)</source>
         <translation>リフレッシュレート(ミリ秒)</translation>
     </message>
@@ -3950,7 +3950,7 @@ lame プラグインをインストールしてください</translation>
         <translation>AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-245"/>
         <source>_Playback priority:</source>
         <translation>再生の優先度(_P):</translation>
     </message>
@@ -5484,7 +5484,7 @@ This message will not be displayed again.</source>
 <context>
     <name>coloryuv</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+115"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+131"/>
         <source>U</source>
         <translation>U</translation>
     </message>
@@ -5499,17 +5499,17 @@ This message will not be displayed again.</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-52"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+51"/>
         <source>Flags</source>
         <translation>フラグ</translation>
     </message>
     <message>
-        <location line="-31"/>
+        <location line="-47"/>
         <source>Levels:</source>
         <translation>レベル:</translation>
     </message>
@@ -5524,27 +5524,27 @@ This message will not be displayed again.</source>
         <translation>カラー管理フィルター.</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+45"/>
         <source>U gain</source>
         <translation>U ゲイン</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+14"/>
         <source>V gain</source>
         <translation>V ゲイン</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-42"/>
         <source>TV-&gt;PC</source>
         <translation>TV-&gt;PC</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+15"/>
         <source>Y gain</source>
         <translation>Y ゲイン</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+40"/>
         <source>colorYuv</source>
         <translation>colorYuv</translation>
     </message>
@@ -5554,42 +5554,42 @@ This message will not be displayed again.</source>
         <translation>V コントラスト</translation>
     </message>
     <message>
-        <location line="-17"/>
+        <location line="-27"/>
         <source>Y Contrast</source>
         <translation>Y コントラスト</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+13"/>
         <source>U Contrast</source>
         <translation>U コントラスト</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-15"/>
         <source>Y Brightness</source>
         <translation>Y 明るさ</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+27"/>
         <source>V Brightness</source>
         <translation>V 明るさ</translation>
     </message>
     <message>
-        <location line="-9"/>
+        <location line="-14"/>
         <source>U Brightness</source>
         <translation>U 明るさ</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-32"/>
         <source>Clip to Tv Range (16-235)</source>
         <translation>テレビの範囲にトリミング (16-235)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+20"/>
         <source>Y Gamma</source>
         <translation>Y ガンマ</translation>
     </message>
     <message>
-        <location line="-16"/>
+        <location line="-22"/>
         <source>AutoWhite</source>
         <translation>自動ホワイトバランス</translation>
     </message>
@@ -7403,7 +7403,7 @@ Start and/or end time would be out of range</source>
         <translation>KVCD</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+38"/>
         <source>_Trellis quantization</source>
         <translation>トレリス量子化(_T)</translation>
     </message>
@@ -7418,17 +7418,17 @@ Start and/or end time would be out of range</source>
         <translation>VBV バッファサイズ:</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>Rate distortion</source>
         <translation>歪みレート</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+41"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>ファイルサイズの許容範囲 (kb):</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+11"/>
         <source>Field Order:</source>
         <translation>フィールド順序:</translation>
     </message>
@@ -7443,7 +7443,7 @@ Start and/or end time would be out of range</source>
         <translation>GOP サイズ:</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-43"/>
         <source>Auto (#cpu)</source>
         <translation>自動 (#cpu)</translation>
     </message>
@@ -7458,37 +7458,37 @@ Start and/or end time would be out of range</source>
         <translation>トップフィールドを最初</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+44"/>
         <source>Basic Settings</source>
         <translation>基本設定</translation>
     </message>
     <message>
-        <location line="-61"/>
+        <location line="-65"/>
         <source>Animes</source>
         <translation>アニメ</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+33"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量子化(_N):</translation>
     </message>
     <message>
-        <location line="+42"/>
+        <location line="+45"/>
         <source>Quantization</source>
         <translation>量子化</translation>
     </message>
     <message>
-        <location line="-38"/>
+        <location line="-41"/>
         <source>Max bitrate (kb/s):</source>
         <translation>最大ビットレート (kb/秒):</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+49"/>
         <source>libavcodec MPEG-2 configuration</source>
         <translation>libavcodec MPEG-2 - 構成設定</translation>
     </message>
     <message>
-        <location line="-72"/>
+        <location line="-76"/>
         <source>One thread</source>
         <translation>1 スレッド</translation>
     </message>
@@ -7503,7 +7503,7 @@ Start and/or end time would be out of range</source>
         <translation>プログレッシブ</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
@@ -7513,12 +7513,12 @@ Start and/or end time would be out of range</source>
         <translation>B フレームの数(_N):</translation>
     </message>
     <message>
-        <location line="+29"/>
+        <location line="+32"/>
         <source>Interlacing</source>
         <translation>インターレース</translation>
     </message>
     <message>
-        <location line="-58"/>
+        <location line="-62"/>
         <source>Two threads</source>
         <translation>2 スレッド</translation>
     </message>
@@ -7528,12 +7528,12 @@ Start and/or end time would be out of range</source>
         <translation>既定</translation>
     </message>
     <message>
-        <location line="+67"/>
+        <location line="+71"/>
         <source>Adv. Settings</source>
         <translation>拡張設定</translation>
     </message>
     <message>
-        <location line="-66"/>
+        <location line="-70"/>
         <source>Tmpgenc</source>
         <translation>TMPGenc</translation>
     </message>
@@ -7543,7 +7543,7 @@ Start and/or end time would be out of range</source>
         <translation>標準 (4:3)</translation>
     </message>
     <message>
-        <location line="+54"/>
+        <location line="+55"/>
         <source>Matrices:</source>
         <translation>マトリクス:</translation>
     </message>
@@ -7553,7 +7553,7 @@ Start and/or end time would be out of range</source>
         <translation>マクロブロック判定(_M):</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-27"/>
         <source>Interlaced</source>
         <translation>インターレース</translation>
     </message>
@@ -7563,27 +7563,27 @@ Start and/or end time would be out of range</source>
         <translation>ボトムフィールドを最初</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+61"/>
         <source>Rate Control</source>
         <translation>レート制御</translation>
     </message>
     <message>
-        <location line="-46"/>
+        <location line="-49"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量子化(_X):</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-28"/>
         <source>Fewest bits (vhq)</source>
         <translation>最も少ないビット (vhq)</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+40"/>
         <source>Aspect ratio:</source>
         <translation>アスペクト比:</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+12"/>
         <source>_Interlaced:</source>
         <translation>インターレース(_I):</translation>
     </message>
@@ -7601,42 +7601,42 @@ Start and/or end time would be out of range</source>
         <translation>3 スレッド</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+16"/>
         <source>4_MV</source>
         <translation>4MV</translation>
     </message>
     <message>
-        <location line="-26"/>
+        <location line="-27"/>
         <source>MPEG</source>
         <translation>MPEG</translation>
     </message>
     <message>
-        <location line="+27"/>
+        <location line="+28"/>
         <source>_Trellis quantization</source>
         <translation>トレリス量子化(_T)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+26"/>
         <source>Max. quantizer _difference:</source>
         <translation>最大量子化差異(_D):</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>Rate distortion</source>
         <translation>歪みレート</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+31"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>ファイルサイズの許容範囲 (KB):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>量子化ぼかし(_B):</translation>
     </message>
@@ -7646,17 +7646,17 @@ Start and/or end time would be out of range</source>
         <translation>GOP サイズ:</translation>
     </message>
     <message>
-        <location line="-29"/>
+        <location line="-33"/>
         <source>Auto (#cpu)</source>
         <translation>自動 (#cpu)</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>User Interface</source>
         <translation>ユーザ インターフェース</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-25"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量子化(_N):</translation>
     </message>
@@ -7666,7 +7666,7 @@ Start and/or end time would be out of range</source>
         <translation>量子化の種類(_Q):</translation>
     </message>
     <message>
-        <location line="+25"/>
+        <location line="+28"/>
         <source>Quantization</source>
         <translation>量子化</translation>
     </message>
@@ -7676,7 +7676,7 @@ Start and/or end time would be out of range</source>
         <translation>libavcodec MPEG-4 - 構成設定</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-60"/>
         <source>One thread</source>
         <translation>1 スレッド</translation>
     </message>
@@ -7686,7 +7686,7 @@ Start and/or end time would be out of range</source>
         <translation>MB 比較</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
@@ -7696,22 +7696,22 @@ Start and/or end time would be out of range</source>
         <translation>B フレームの数(_N):</translation>
     </message>
     <message>
-        <location line="+22"/>
+        <location line="+25"/>
         <source>Motion Estimation</source>
         <translation>動き推定</translation>
     </message>
     <message>
-        <location line="-43"/>
+        <location line="-47"/>
         <source>Two threads</source>
         <translation>2 スレッド</translation>
     </message>
     <message>
-        <location line="+37"/>
+        <location line="+41"/>
         <source>Advanced Simple Profile</source>
         <translation>拡張簡易プロファイル</translation>
     </message>
     <message>
-        <location line="-13"/>
+        <location line="-16"/>
         <source>_Macroblock decision:</source>
         <translation>マクロブロック判定(_M):</translation>
     </message>
@@ -7721,22 +7721,22 @@ Start and/or end time would be out of range</source>
         <translation>1/4 ピクセル (Q-pel)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>レート制御</translation>
     </message>
     <message>
-        <location line="-39"/>
+        <location line="-42"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量子化(_X):</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>Fewest bits (vhq)</source>
         <translation>最も少ないビット (vhq)</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+37"/>
         <source>_Quantizer compression:</source>
         <translation>量子化圧縮(_Q):</translation>
     </message>
@@ -8761,32 +8761,32 @@ Do you want to replace it?</source>
         <translation>MPEG</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>_Trellis quantization</source>
         <translation>格子量子化(_T)</translation>
     </message>
     <message>
-        <location line="-18"/>
+        <location line="-19"/>
         <source>H.263</source>
         <translation>H.263</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+18"/>
         <source>Max. quantizer _difference:</source>
         <translation>最大量子化差異(_D):</translation>
     </message>
     <message>
-        <location line="-10"/>
+        <location line="-11"/>
         <source>Rate distortion</source>
         <translation>レート歪み</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+13"/>
         <source>_Filesize tolerance (kb):</source>
         <translation>ファイルサイズ許容量 (kb):</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Quantizer _blur:</source>
         <translation>量子化ぼかし(_B):</translation>
     </message>
@@ -8801,42 +8801,42 @@ Do you want to replace it?</source>
         <translation>ユーザ インターフェース</translation>
     </message>
     <message>
-        <location line="-12"/>
+        <location line="-15"/>
         <source>Mi_n. quantizer:</source>
         <translation>最小量子化(_N):</translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+20"/>
         <source>Quantization</source>
         <translation>量子化</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-31"/>
         <source>MB comparison</source>
         <translation>MB 比較</translation>
     </message>
     <message>
-        <location line="+32"/>
+        <location line="+36"/>
         <source>Rate Control</source>
         <translation>レート制御</translation>
     </message>
     <message>
-        <location line="-21"/>
+        <location line="-24"/>
         <source>Ma_x. quantizer:</source>
         <translation>最大量子化(_X):</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+27"/>
         <source>libavcodec FLV1 configuration</source>
         <translation>libavcodec FLV1 構成設定</translation>
     </message>
     <message>
-        <location line="-34"/>
+        <location line="-38"/>
         <source>Fewest bits (vhq)</source>
         <translation>最小ビット (vhq)</translation>
     </message>
     <message>
-        <location line="+15"/>
+        <location line="+19"/>
         <source>_Quantizer compression:</source>
         <translation>量子化圧縮(_Q):</translation>
     </message>
@@ -11439,17 +11439,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3089"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3091"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2817"/>
+        <location line="-2819"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;新バージョンが利用可能&lt;/b&gt;&lt;br&gt;バージョン %1&lt;br&gt;リリース %2.&lt;br&gt;ここからダウンロード:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;自動更新は環境設定で無効にできます.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1407"/>
+        <location line="+1409"/>
         <source>Set start marker</source>
         <translation>開始マーカをセット</translation>
     </message>
@@ -11835,7 +11835,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+583"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation>部分化フィルターを追加できません</translation>
     </message>
     <message>

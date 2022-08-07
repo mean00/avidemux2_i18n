@@ -1137,12 +1137,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Re_verse UP and DOWN arrow keys for navigation</source>
-        <translation>_Pfeiltasten Auf und Ab zum Navigieren umkehren</translation>
+        <translation>_Pfeiltasten Auf und Ab für Navigation umkehren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reverse mouse _wheel for navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>_Mausrad-Scrollrichtung für Navigation umkehren</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1346,7 +1346,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>_Assign following standard frame rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Folgende Standard-Bildwiederholrate verwenden:</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1354,9 +1354,9 @@ Drop timing informations ?</source>
         <translation>AviSynth</translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardmäßiges Verhalten beim Überschreiten des Farbumfangs:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1364,17 +1364,17 @@ Drop timing informations ?</source>
         <translation>HDR</translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation>Standardmäßiges _Tone Mapping-Verfahren:</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation>Ziel-Spitzenluminanz (cd/m²):</translation>
     </message>
     <message>
-        <location line="-181"/>
+        <location line="-183"/>
         <source>Caching of decoded pictures</source>
         <translation>Zwischenspeicher für dekodierte Frames</translation>
     </message>
@@ -1512,7 +1512,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+115"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+117"/>
         <source>CPU</source>
         <translation>Prozessor</translation>
     </message>
@@ -1522,7 +1522,7 @@ Drop timing informations ?</source>
         <translation>Multi-Threading</translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-282"/>
         <source>_Always ask which port to use</source>
         <translation>_Immer fragen, welcher Port benutzt werden soll</translation>
     </message>
@@ -1537,7 +1537,7 @@ Drop timing informations ?</source>
         <translation>&amp;Einstellungen</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+299"/>
         <source>Preferences</source>
         <translation>Einstellungen</translation>
     </message>
@@ -1703,12 +1703,12 @@ Drop timing informations ?</source>
         <location line="+1"/>
         <location line="+10"/>
         <source>Filters</source>
-        <translation>&amp;Filter</translation>
+        <translation>Filter</translation>
     </message>
     <message>
         <location line="-9"/>
         <source>Add partialized filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Abschnittsweise anwendbaren Filter auswählen</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1888,32 +1888,32 @@ Drop timing informations ?</source>
     <message>
         <location line="+6"/>
         <source>Tempo multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiplikator Geschwindigkeit:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A value of 2.0 means twice as fast playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wert 2.0 entspricht Verdoppelung der Geschwindigkeit.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pitch multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiplikator Tonhöhe:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Every doubling means one octave upshift</source>
-        <translation type="unfinished"></translation>
+        <translation>Jede Verdopplung entspricht Transposition um eine Oktave höher</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Frame rate change</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschwindigkeit</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>No change</source>
-        <translation type="unfinished">Keine Änderung</translation>
+        <translation>Keine Änderung</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1922,7 +1922,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-218"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1990,297 +1990,297 @@ Drop timing informations ?</source>
     <message>
         <location line="+10"/>
         <source>Shift audio (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Tonverzögerung (ms):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enable Compressor</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompressor aktivieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Normalize</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalisieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threshold (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwellenwert (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Noise floor (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundrauschen (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompressionsrate:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attack time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Attack-Zeit (s):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Release time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Release-Zeit (s):</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Enable Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizer aktivieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Bass (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass/Mid cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Bässe/Mitten-Trennfrequenz (Hz):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitten (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid/Treble cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitten/Höhen-Trennfrequenz (Hz):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Treble (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Höhen (dB):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Bei positiven Verstärkungswerten wird dringend empfohlen, Normalisierung zu aktivieren&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizer</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Links (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten links (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten rechts (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte hinten (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich links (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich rechts (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Subwoofer (LFE) (dB):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel gains</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalverstärkung</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Links (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten links (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten rechts (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte hinten (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich links (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich rechts (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Subwoofer (LFE) (ms):</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Die effektive Verzögerung berechnet sich als Summe mit dem im Tab &quot;Allgemein&quot; konfigurierten Wert&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Channel delays</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalverzögerung</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Enable Remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuzuordnung aktivieren</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left</source>
-        <translation type="unfinished"></translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich links</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich rechts</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten links</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten rechts</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte hinten</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE)</source>
-        <translation type="unfinished"></translation>
+        <translation>Subwoofer (LFE)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Links zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich links zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitlich rechts zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten links zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinten rechts zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitte hinten zu:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Subwoofer (LFE) zu:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Neuzuordnung ändert nicht das Layout:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Das Zuordnen zu einem im Layout nicht enthaltenen Kanal führt zum Verlust des Kanals&lt;/li&gt;&lt;li&gt;Das Zuordnen eines im Layout nicht enthaltenen Kanals resultiert in Stille&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalneuzuordnung</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Audio Filters</source>
-        <translation type="unfinished">Audio Filter</translation>
+        <translation>Audiofilter</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="-16"/>
@@ -2338,7 +2338,7 @@ Drop timing informations ?</source>
         <translation type="unfinished">Audiogeräte</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+124"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+126"/>
         <source>Enable openGl support</source>
         <translation>OpenG_L benutzen</translation>
     </message>
@@ -2353,13 +2353,13 @@ Drop timing informations ?</source>
         <translation>Bild _neu aufbauen nicht häufiger als nach (ms)</translation>
     </message>
     <message>
-        <location line="-257"/>
+        <location line="-259"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
         <source>High</source>
         <translation>Hoch</translation>
     </message>
     <message>
-        <location line="+294"/>
+        <location line="+296"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Video mittels _DXVA2 dekodieren (nur Windows)</translation>
     </message>
@@ -2379,7 +2379,7 @@ Drop timing informations ?</source>
         <translation>Bei aktivierter Hardwarebeschleunigung wird Decoder-Multithreading in libavcodec deaktiviert, Änderungen erfordern Neustart der Anwendung</translation>
     </message>
     <message>
-        <location line="-301"/>
+        <location line="-303"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>Low</source>
         <translation>Niedrig</translation>
@@ -2807,7 +2807,7 @@ Läuft er?</translation>
         <translation type="unfinished">2. Durchlauf</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+79"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+81"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Video mittels _VDPAU dekodieren</translation>
     </message>
@@ -2831,7 +2831,7 @@ Läuft er?</translation>
         <translation type="obsolete">libVA (bestens)</translation>
     </message>
     <message>
-        <location line="-120"/>
+        <location line="-122"/>
         <source>_Language</source>
         <translation>_Sprache</translation>
     </message>
@@ -2857,17 +2857,17 @@ Läuft er?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+173"/>
+        <location line="+175"/>
         <source>Post-Processing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3069,7 +3069,7 @@ Trotzdem fortsetzen?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-241"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3551,7 +3551,7 @@ Try anyway?</source>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+68"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+2"/>
         <source>Main</source>
-        <translation type="unfinished"></translation>
+        <translation>Allgemein</translation>
     </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
@@ -4040,34 +4040,34 @@ Nichtübereinstimmende Installation</translation>
         <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
-        <translation type="unfinished"></translation>
+        <translation>Schnelles YUV</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB mit Clipping</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB soft limit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB mit Soft Limit</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Reinhard</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Hable</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Hable</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation>_Tone Mapping:</translation>
     </message>
@@ -4084,24 +4084,24 @@ Nichtübereinstimmende Installation</translation>
     <message>
         <location line="+1"/>
         <source>_Adaptive RGB tonemappers</source>
-        <translation type="unfinished"></translation>
+        <translation>_Dynamisches Tone Mapping</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Clipping</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Compression</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompression</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_RGB out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verhalten beim Überschreiten des _Farbumfangs:</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+131"/>
@@ -5538,7 +5538,7 @@ Trotzdem fortsetzen?</translation>
         <translation type="unfinished">Konversion:</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation type="unfinished">Y Verstärkung</translation>
     </message>
@@ -5558,7 +5558,7 @@ Trotzdem fortsetzen?</translation>
         <translation type="unfinished">Y Kontrast</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation type="unfinished">U Verstärkung</translation>
     </message>
@@ -5573,7 +5573,7 @@ Trotzdem fortsetzen?</translation>
         <translation type="unfinished">U Kontrast</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation type="unfinished">V Verstärkung</translation>
     </message>
@@ -7437,17 +7437,17 @@ Start and/or end time would be out of range</source>
         <translation>Progressiv (Vollbilder)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+15"/>
         <source>Threading</source>
         <translation>Threading</translation>
     </message>
     <message>
-        <location line="+38"/>
+        <location line="+41"/>
         <source>Interlacing</source>
         <translation>Interlacing</translation>
     </message>
     <message>
-        <location line="-77"/>
+        <location line="-81"/>
         <source>Normal (4:3)</source>
         <translation>Normal (4:3)</translation>
     </message>
@@ -7517,7 +7517,7 @@ Start and/or end time would be out of range</source>
         <translation>Unteres Halbbild zuerst</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7572,7 +7572,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7635,17 +7635,17 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished">MPEG</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+22"/>
         <source>Threading</source>
         <translation type="unfinished">Mehrkernprozessoren</translation>
     </message>
     <message>
-        <location line="+23"/>
+        <location line="+26"/>
         <source>User Interface</source>
         <translation type="unfinished">Benutzerschnittstelle</translation>
     </message>
     <message>
-        <location line="-40"/>
+        <location line="-44"/>
         <source>MB comparison</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7680,7 +7680,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+11"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7730,7 +7730,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8795,12 +8795,12 @@ Möchten Sie es ersetzen?</translation>
         <translation type="unfinished">MPEG</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+30"/>
         <source>User Interface</source>
         <translation type="unfinished">Benutzerschnittstelle</translation>
     </message>
     <message>
-        <location line="-22"/>
+        <location line="-26"/>
         <source>MB comparison</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8815,7 +8815,7 @@ Möchten Sie es ersetzen?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8840,7 +8840,7 @@ Möchten Sie es ersetzen?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11517,7 +11517,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+741"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+743"/>
         <source>Recent Files</source>
         <translation>Zuletzt verwendete &amp;Dateien</translation>
     </message>
@@ -11691,12 +11691,12 @@ The file must be re-indexed. Proceed?</source>
         </translation>
     </message>
     <message>
-        <location line="-3241"/>
+        <location line="-3243"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;Neue Version verfügbar&lt;/b&gt;&lt;br&gt;Version %1&lt;br&gt;Freigegeben am %2.&lt;br&gt;Das Update kann hier heruntergeladen werden:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Sie können automatische Überprüfung auf Updates in Einstellungen deaktivieren.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+2544"/>
+        <location line="+2546"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Die Anwendung hat ein schwerwiegendes Problem festgestellt.
@@ -11956,13 +11956,13 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
-        <translation type="unfinished"></translation>
+        <source>Cannot add partial filter</source>
+        <translation>Kann partiellen Filter nicht hinzufügen</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A selection by markers has to be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das ganze Video ist ausgewählt. Bitte mit Markierungen einen Abschnitt auswählen.</translation>
     </message>
 </context>
 <context>

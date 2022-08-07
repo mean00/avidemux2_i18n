@@ -1117,7 +1117,7 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+639"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Utiliser DXVA2 pour décoder (Windows)</translation>
     </message>
@@ -1142,7 +1142,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Activer OpenGL</translation>
     </message>
     <message>
-        <location line="-336"/>
+        <location line="-338"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>Accepter les fréquences non standard pour les DVD</translation>
     </message>
@@ -1378,7 +1378,7 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="+193"/>
+        <location line="+195"/>
         <source>Default out of gamut handling:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1388,17 +1388,17 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="-8"/>
+        <location line="-10"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Target peak luminance (nits):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-179"/>
+        <location line="-181"/>
         <source>Use _shared cache</source>
         <translation>Utiliser le cache partagé</translation>
     </message>
@@ -2449,7 +2449,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation></translation>
     </message>
@@ -2495,7 +2495,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2579,7 +2579,7 @@ It is needed to create FLV  video.</source>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+86"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+88"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
@@ -2599,7 +2599,7 @@ It is needed to create FLV  video.</source>
         <translation>Si vous activez le décodage HW, il est préférable d&apos;utiliser la même méthode d&apos;affichage</translation>
     </message>
     <message>
-        <location line="-374"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation>Vérifier s&apos;il y a de nouvelle version</translation>
     </message>
@@ -2671,7 +2671,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+59"/>
         <source>Post-Processing</source>
         <translation></translation>
     </message>
@@ -2711,7 +2711,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-280"/>
+        <location line="-282"/>
         <source>_Always ask which port to use</source>
         <translation>Toujours demander le port à utiliser</translation>
     </message>
@@ -2732,17 +2732,17 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+187"/>
+        <location line="+189"/>
         <source>OpenGL</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-186"/>
         <source>LibVA</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+271"/>
+        <location line="+273"/>
         <source>Preferences</source>
         <translation>Préférences</translation>
     </message>
@@ -3445,7 +3445,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-120"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Désactivé</translation>
@@ -4047,7 +4047,7 @@ Incompatibilité d&apos;installation</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+7"/>
         <source>_Tone mapping:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4068,7 +4068,7 @@ Incompatibilité d&apos;installation</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+6"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5516,7 +5516,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+13"/>
         <source>Y gain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5536,7 +5536,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+10"/>
         <source>U gain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5551,7 +5551,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+11"/>
         <source>V gain</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7368,12 +7368,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+341"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+345"/>
         <source>Interlacing</source>
         <translation type="unfinished">Entrelacement</translation>
     </message>
     <message>
-        <location line="-77"/>
+        <location line="-81"/>
         <source>Normal (4:3)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7458,7 +7458,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation></translation>
     </message>
@@ -7518,7 +7518,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7571,12 +7571,12 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg4</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+243"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+247"/>
         <source>User Interface</source>
         <translation>Interface utilisateur</translation>
     </message>
     <message>
-        <location line="-45"/>
+        <location line="-49"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7621,7 +7621,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+10"/>
         <source>Threading</source>
         <translation></translation>
     </message>
@@ -7676,7 +7676,7 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8738,12 +8738,12 @@ Do you want to replace it?</source>
 <context>
     <name>flv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+189"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+193"/>
         <source>User Interface</source>
         <translation type="unfinished">Interface Utilisateur</translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-31"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8768,7 +8768,7 @@ Do you want to replace it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+9"/>
         <source>Mi_n. quantizer:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8793,7 +8793,7 @@ Do you want to replace it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+5"/>
         <source>_Quantizer compression:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11411,7 +11411,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Nouvelle version disponible&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Publié le %2.&lt;br&gt;Vous pouvez la télécharger ici&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Vous pouvez désactiver autoupdate dans les préférences.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+469"/>
+        <location line="+471"/>
         <source>Recent Files</source>
         <translation>Fichiers récents</translation>
     </message>
@@ -11845,7 +11845,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     </message>
     <message>
         <location line="+348"/>
-        <source>Can not add partial filter</source>
+        <source>Cannot add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
