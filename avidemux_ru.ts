@@ -596,7 +596,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+21"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Тональная компрессия HDR</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -780,7 +780,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+23"/>
         <source>Delete selection [DEL]</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить выборку [DEL]</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1008,37 +1008,37 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+437"/>
         <source>Arbitrary Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Произвольный поворот</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rotate the image by arbitrary angle.</source>
-        <translation type="unfinished"></translation>
+        <translation>Повернуть изображение на произвольный угол.</translation>
     </message>
     <message>
         <location line="+186"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Зачернить</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхо</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>_Angle:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Угол:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Отступы:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Поворот</translation>
     </message>
 </context>
 <context>
@@ -1051,7 +1051,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+92"/>
         <source>Avidemux</source>
-        <translation type="unfinished"></translation>
+        <translation>Avidemux</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -8586,63 +8586,63 @@ Do you want to replace it?</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
         <location line="+146"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартные значения новых экземпляров фильтра</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+19"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний использованный</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Билинейный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Бикубический</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Ланцош</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплайн</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Nearest Neighbor</source>
-        <translation type="unfinished"></translation>
+        <translation>Ближайший сосед</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип отступов:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Чёрные полосы</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхо</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -8695,7 +8695,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+27"/>
         <source>Resize Method:</source>
-        <translation>Алгоритм изменения размера:</translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -8760,17 +8760,17 @@ Do you want to replace it?</source>
     <message>
         <location line="+22"/>
         <source>Current input dimensions:</source>
-        <translation>Текущие входные величины:</translation>
+        <translation>Текущие входные размеры:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Resized to:</source>
-        <translation>Изменён на:</translation>
+        <translation>Изменение размеров:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Required padding:</source>
-        <translation>Требуемые поля:</translation>
+        <translation>Требуемые отступы:</translation>
     </message>
 </context>
 <context>
@@ -8992,7 +8992,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Run a fragment shader.</source>
-        <translation>Запустите фрагментный шейдер.</translation>
+        <translation>Запустить фрагментный шейдер.</translation>
     </message>
 </context>
 <context>
@@ -9000,12 +9000,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment2/sampleGl.cpp" line="+66"/>
         <source>OpenGl Fragment Shader Sample2</source>
-        <translation>Образец 2 фрагментного шейдера OpenGL</translation>
+        <translation>Второй шаблон фрагментного шейдера OpenGL</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Run a fragment shader.</source>
-        <translation>Запустите фрагментный шейдер.</translation>
+        <translation>Запустить фрагментный шейдер.</translation>
     </message>
 </context>
 <context>
@@ -9082,7 +9082,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Run an external shader program.</source>
-        <translation>Запустите внешнюю программу шейдеров.</translation>
+        <translation>Запустить внешнюю программу шейдеров.</translation>
     </message>
     <message>
         <location line="+192"/>
@@ -10020,7 +10020,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+20"/>
         <source>Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -11653,7 +11653,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Delete selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить выборку</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -11708,37 +11708,37 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад на 1 секунду</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд на 1 секунду</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад на 2 секунды</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд на 2 секунды</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Назад на 4 секунды</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Вперёд на 4 секунды</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Rotate mouse wheel to switch mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Прокрутите колесо мыши для переключения режима</translation>
     </message>
     <message>
         <location line="+611"/>
@@ -12782,47 +12782,47 @@ Ready.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
         <location line="+137"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартные значения новых экземпляров фильтра</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний использованный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Билинейный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Бикубический</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Ланцош-3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплайн</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Nearest neighbor</source>
-        <translation type="unfinished"></translation>
+        <translation>Ближайший сосед</translation>
     </message>
     <message>
         <location line="+259"/>
@@ -12959,7 +12959,7 @@ Ready.
     <message>
         <location line="+47"/>
         <source>Resize Method:</source>
-        <translation>Алгоритм изменения размера:</translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -13073,22 +13073,22 @@ Ready.
     <message>
         <location line="+1"/>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the start of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к началу выборки</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the end of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти к концу выборки</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -16965,63 +16965,63 @@ If it is a system profile it will be recreated next time.</source>
         <location line="-326"/>
         <location line="+184"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартные значения новых экземпляров фильтра</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+18"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Последний использованный</translation>
     </message>
     <message>
         <location line="-17"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Билинейный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Бикубический</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Ланцош</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Сплайн</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип отступов:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Чёрные полосы</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Эхо</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Нет</translation>
     </message>
 </context>
 <context>
@@ -17064,7 +17064,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
         <source>Resize Method:</source>
-        <translation>Алгоритм изменения размера:</translation>
+        <translation>Метод изменения размера:</translation>
     </message>
     <message>
         <location line="+8"/>
