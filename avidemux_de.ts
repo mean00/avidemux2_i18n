@@ -5762,7 +5762,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="-236"/>
         <source>Auto Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatik</translation>
     </message>
 </context>
 <context>
@@ -5805,7 +5805,7 @@ Soll dieses jetzt geladen werden ?
     <message>
         <location line="+30"/>
         <source>Auto Crop</source>
-        <translation>Zuschneideautomatik</translation>
+        <translation>Automatik</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/crop.ui" line="+191"/>
@@ -8491,19 +8491,19 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUI/src/DIA_fileSel.cpp" line="+150"/>
         <source>File error</source>
-        <translation type="unfinished">Dateifehler</translation>
+        <translation>Dateifehler</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Cannot open &quot;%s&quot;.</source>
-        <translation type="unfinished">&quot;%s&quot; kann nicht geöffnet werden.</translation>
+        <translation>&quot;%s&quot; kann nicht geöffnet werden.</translation>
     </message>
     <message>
         <location line="+13"/>
         <source>%s already exists.
 
 Do you want to replace it?</source>
-        <translation type="unfinished">%s existiert bereits.
+        <translation>%s existiert bereits.
 
 Möchten Sie es ersetzen?</translation>
     </message>
@@ -8511,17 +8511,17 @@ Möchten Sie es ersetzen?</translation>
         <location line="+27"/>
         <location line="+14"/>
         <source>It is possible that you are trying to overwrite an input file!</source>
-        <translation type="unfinished">Es ist möglich, dass Sie gerade versuchen die Quelldatei zu überschreiben!</translation>
+        <translation>Sie versuchen möglicherweise die Quelldatei zu überschreiben!</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Cannot write the file</source>
-        <translation type="unfinished">Kann die Datei nicht schreiben</translation>
+        <translation>Kann die Datei nicht schreiben</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>No write access to &quot;%s&quot;.</source>
-        <translation type="unfinished">Keine Schreibrechte für &quot;%s&quot;.</translation>
+        <translation>Keine Schreibrechte für &quot;%s&quot;.</translation>
     </message>
 </context>
 <context>
@@ -8529,54 +8529,54 @@ Möchten Sie es ersetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/ADM_vidFitToSize.cpp" line="+58"/>
         <source>Fit to size</source>
-        <translation type="unfinished"></translation>
+        <translation>Einpassen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Resize and pad to the specified size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild skalieren und bis zur angegebenen Größe auffüllen.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
         <location line="+146"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Voreinstellungen für neue Filterinstanzen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Methode zur Größenänderung:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+19"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuletzt verwendet</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubisch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Spline</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8586,22 +8586,22 @@ Möchten Sie es ersetzen?</translation>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Auffüllung:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Balken</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Echo</translation>
     </message>
     <message>
         <location line="+57"/>
         <source>Width and height cannot be odd</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungerade Werte für Breite oder Höhe sind unzulässig</translation>
     </message>
 </context>
 <context>
@@ -8609,122 +8609,122 @@ Möchten Sie es ersetzen?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/fitToSize.ui" line="+14"/>
         <source>Fit to size</source>
-        <translation type="unfinished"></translation>
+        <translation>Einpassen</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Output settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ausgabe</translation>
     </message>
     <message>
         <location line="+38"/>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Breite:</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höhe:</translation>
     </message>
     <message>
         <location line="+40"/>
         <source>No rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Nicht runden</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 16</source>
-        <translation type="unfinished"></translation>
+        <translation>Runden auf die nächste durch 16 teilbare Zahl</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Runden auf die nächste durch 8 teilbare Zahl</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Round to the Nearest Multiple of 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Runden auf die nächste durch 4 teilbare Zahl</translation>
     </message>
     <message>
         <location line="+27"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Methode zur Größenänderung:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubisch</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Spline</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Aspect ratio tolerance</source>
-        <translation type="unfinished"></translation>
+        <translation>Toleranz beim Seitenverhältnis</translation>
     </message>
     <message>
         <location line="+74"/>
         <source>0%</source>
-        <translation type="unfinished"></translation>
+        <translation>0%</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Percent</source>
-        <translation type="unfinished"></translation>
+        <translation>Prozent</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>100%</source>
-        <translation type="unfinished"></translation>
+        <translation>100%</translation>
     </message>
     <message>
         <location line="+47"/>
         <source>Padding</source>
-        <translation type="unfinished"></translation>
+        <translation>Auffüllung</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Balken</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Echo</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Detailinformationen</translation>
     </message>
     <message>
         <location line="+22"/>
         <source>Current input dimensions:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abmessungen am Filtereingang:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Resized to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skalieren auf:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Required padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Benötigte Auffüllung:</translation>
     </message>
 </context>
 <context>
@@ -9978,7 +9978,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+20"/>
         <source>Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Skalierung</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -10143,7 +10143,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Indexieren der Videospur in Matroska</translation>
     </message>
 </context>
 <context>
@@ -10397,12 +10397,12 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+1"/>
         <source>9: Logarithmic (100:1 range)</source>
-        <translation type="unfinished"></translation>
+        <translation>9: Logarithmisch (Bereich 100:1)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>10: Logarithmic (100 * Sqrt(10) : 1 range)</source>
-        <translation type="unfinished"></translation>
+        <translation>10: Logarithmisch (Bereich 100 * Quadratwurzel von 10 : 1)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -11286,27 +11286,27 @@ Nur VP8, VP9 oder AV1 als Video-Codec und Vorbis oder Opus als Audio-Codec sind 
     <message>
         <location line="+35"/>
         <source>Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixelformat:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbwertebereich:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Primärfarben:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Transfer characteristics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Übertragungs-Charakteristik:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color space:</source>
-        <translation type="unfinished"></translation>
+        <translation>Farbraum:</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -11534,17 +11534,17 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+16"/>
         <source>Default theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorgabe-Theme</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Light theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Helles Theme</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dark theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Dunkles Theme</translation>
     </message>
     <message>
         <location line="+604"/>
@@ -11579,7 +11579,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Delete selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Auswahl löschen</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -11634,42 +11634,42 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Sekunde zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Sekunde vor</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwei Sekunden zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwei Sekunden vor</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 Sekunden zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 Sekunden vor</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Rotate mouse wheel to switch mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktion mit Mausrad umschalten</translation>
     </message>
     <message>
         <location line="+611"/>
         <source>Zoom: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom: </translation>
     </message>
     <message>
         <location line="+716"/>
@@ -12108,17 +12108,17 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
         <location line="+37"/>
         <location line="+31"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbekannt</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Limited (MPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Reduziert (MPEG)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Full (JPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Erweitert (JPEG)</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -12199,12 +12199,12 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     <message>
         <location line="+2"/>
         <source>Logarithmic (100:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarithmisch (100:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (316.227:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarithmisch (316,227 : 1)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -12663,22 +12663,22 @@ Bereit.
     <message>
         <location line="+354"/>
         <source>none</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Mischen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Motion compensation</source>
-        <translation type="unfinished"></translation>
+        <translation>Bewegungskompensation</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>_Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Interpolation:</translation>
     </message>
 </context>
 <context>
@@ -12687,42 +12687,42 @@ Bereit.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
         <location line="+137"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Voreinstellungen für neue Filterinstanzen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Methode zur Größenänderung:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuletzt verwendet</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubisch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Spline</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12853,12 +12853,12 @@ Bereit.
     <message>
         <location line="+33"/>
         <source>0.0000</source>
-        <translation type="unfinished"></translation>
+        <translation>0,0000</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>(00:00)</source>
-        <translation type="unfinished"></translation>
+        <translation>(00:00)</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -12962,67 +12962,67 @@ Bereit.
     <message>
         <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Originalbild</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show unprocessed input</source>
-        <translation type="unfinished"></translation>
+        <translation>Das ungefilterte Bild einblenden</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Back one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Minute zurück</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&lt;&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;&lt;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the start of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum Beginn der Auswahl navigieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the end of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Zum Ende der Auswahl navigieren</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Next image</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächstes Bild</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>&gt;&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;&gt;</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Eine Minute vor</translation>
     </message>
 </context>
 <context>
@@ -16933,63 +16933,63 @@ Wenn dies eine mitgelieferte Konfiguration ist, wird sie nach Neustart der Anwen
         <location line="-326"/>
         <location line="+184"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Voreinstellungen für neue Filterinstanzen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Methode zur Größenänderung:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+18"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuletzt verwendet</translation>
     </message>
     <message>
         <location line="-17"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinear</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikubisch</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Spline</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Auffüllung:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Balken</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Echo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Keine</translation>
     </message>
 </context>
 <context>
