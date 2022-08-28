@@ -1090,7 +1090,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1110,7 +1110,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-386"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation type="unfinished">_Dozvoli nestandardne učestanosti zvuka za DVD</translation>
     </message>
@@ -1392,12 +1392,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1553,7 +1553,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+117"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
         <source>CPU</source>
         <translation type="unfinished">Procesori</translation>
     </message>
@@ -1647,7 +1647,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2560,7 +2560,7 @@ Da li je on pokrenut ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+231"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+233"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2575,17 +2575,17 @@ Da li je on pokrenut ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-38"/>
-        <source>Enable openGl support</source>
+        <location line="-40"/>
+        <source>Enable OpenGL support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2642,11 +2642,16 @@ Da li je on pokrenut ?</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2661,7 +2666,7 @@ Da li je on pokrenut ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3797,17 +3802,17 @@ Try anyway?</source>
         <translation type="unfinished">Greška u memoriji</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12730,7 +12735,7 @@ Ready.
         <translation type="unfinished">Pregled</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

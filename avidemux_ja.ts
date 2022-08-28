@@ -1161,7 +1161,7 @@ Japanese translated by Tilt</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+676"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+682"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1186,7 +1186,7 @@ Japanese translated by Tilt</translation>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-82"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-84"/>
         <source>HDR</source>
         <translation>HDR</translation>
     </message>
@@ -1730,12 +1730,12 @@ Installation mismatch</source>
         <translation>4 秒前に戻る</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+693"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+704"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>保存されたビデオは不完全です。 エラーは at %s (%d%) で発生しました。 これは、ビデオの無効なタイムスタンプの結果として発生する可能性があります。</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>短すぎます</translation>
     </message>
@@ -1756,7 +1756,7 @@ Installation mismatch</source>
         <translation>Avsproxy に接続</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+136"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+138"/>
         <source>GUI Rendering Options</source>
         <translation>GUI レンダリング設定</translation>
     </message>
@@ -1828,7 +1828,7 @@ Installation mismatch</source>
         <translation>スクリプトを選択して実行</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-168"/>
         <source>No downmixing</source>
         <translation>ダウンミックスなし</translation>
     </message>
@@ -2734,7 +2734,7 @@ Installation mismatch</source>
         <translation>最近使用した項目をクリア</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+293"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+295"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 デコーダ (Windows) を使用して映像をエンコード(_D)</translation>
     </message>
@@ -2744,7 +2744,7 @@ Installation mismatch</source>
         <translation>動き検索の精度</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-98"/>
         <source>Output</source>
         <translation>出力</translation>
     </message>
@@ -2783,7 +2783,7 @@ Is it running ?</source>
         <translation>音声デバイス(_A)</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="-187"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="-212"/>
         <source>Saving</source>
         <translation>保存中</translation>
     </message>
@@ -3004,7 +3004,7 @@ Is it running ?</source>
         <translation>タイム マップを構築中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+195"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>映像のデコードに_VDPAU (NVIDIA) を使用</translation>
     </message>
@@ -3080,7 +3080,7 @@ Do you want to continue anyway ?</source>
         <translation>%d 分</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-176"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-178"/>
         <source>_Volume control:</source>
         <translation>音量制御(_V):</translation>
     </message>
@@ -3120,7 +3120,7 @@ Do you want to continue anyway ?</source>
         <translation>キーボードの代替ショートカットを使用(_E)</translation>
     </message>
     <message>
-        <location line="+377"/>
+        <location line="+379"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>映像のデコードに_libVA (INTEL) を使用</translation>
     </message>
@@ -3145,7 +3145,7 @@ Do you want to continue anyway ?</source>
         <translation>保存するファイルを選択</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-45"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-47"/>
         <source>_Limit Refresh Rate</source>
         <translation>リフレッシュレートの制限(_L)</translation>
     </message>
@@ -3209,12 +3209,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>映像エンコーダ</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+103"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+105"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-116"/>
         <source>_Strength:</source>
         <translation>強度(_S):</translation>
     </message>
@@ -3374,12 +3374,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-27"/>
+        <location line="-28"/>
         <source>Default _tone mapping method:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3395,11 +3395,16 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+16"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
         <translation>ブラックリストのコーデックは無視する (Intel, HEVC 10bit)</translation>
     </message>
@@ -3425,7 +3430,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>HW アクセラレータ</translation>
     </message>
     <message>
-        <location line="-402"/>
+        <location line="-404"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD 規格にない周波数の音声使用を許可(_A)</translation>
     </message>
@@ -3595,7 +3600,7 @@ Installation mismatch</source>
         <translation>全ての警告を表示</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+185"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>VideoToolbox を使用してビデオをデコード(macOS)</translation>
     </message>
@@ -3721,7 +3726,7 @@ Installation mismatch</source>
         <translation>指定時間に移動</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-299"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-301"/>
         <source>Multi-threading</source>
         <translation>マルチ スレッディング</translation>
     </message>
@@ -3777,7 +3782,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+143"/>
-        <source>Enable openGl support</source>
+        <source>Enable OpenGL support</source>
         <translation>OpenGL 対応を有効化</translation>
     </message>
     <message>
@@ -3851,7 +3856,7 @@ lame プラグインをインストールしてください</translation>
         <translation>画像を保存(_I)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+91"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+93"/>
         <source>Preferences</source>
         <translation>環境設定</translation>
     </message>
@@ -3894,7 +3899,7 @@ lame プラグインをインストールしてください</translation>
         <translation>フィルター(_F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-367"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-369"/>
         <source>_lavc threads:</source>
         <translation>lavc スレッド(_L):</translation>
     </message>
@@ -12822,7 +12827,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+145"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+148"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>

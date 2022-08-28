@@ -1156,7 +1156,7 @@ Drop timing informations ?</source>
         <translation>Операція</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+350"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+354"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+45"/>
         <source>Low</source>
         <translation>Низький</translation>
@@ -1468,7 +1468,7 @@ Proceed anyway?</source>
         <translation>Розм_ір кешу:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+699"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+720"/>
         <source>Too short</source>
         <translation>Занадто коротко</translation>
     </message>
@@ -1489,7 +1489,7 @@ Proceed anyway?</source>
         <translation>Помилка з&apos;єднання з AvsProxy</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+210"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+212"/>
         <source>GUI Rendering Options</source>
         <translation>Параметри графічного інтерфейсу</translation>
     </message>
@@ -1567,7 +1567,7 @@ It is needed to create PSP compatible video.</source>
         <translation>Вибрати скрипт для запуску</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-166"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-168"/>
         <source>No downmixing</source>
         <translation>Без змішування</translation>
     </message>
@@ -1577,12 +1577,12 @@ It is needed to create PSP compatible video.</source>
         <translation>Увімкнути SSE2</translation>
     </message>
     <message>
-        <location line="+367"/>
+        <location line="+369"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-379"/>
+        <location line="-381"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2414,7 +2414,7 @@ Proceed anyway?</source>
         <translation>Очистити список</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+293"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+295"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодувати відео за допомогою DXVA2 (Windows)</translation>
     </message>
@@ -2424,7 +2424,7 @@ Proceed anyway?</source>
         <translation>Точність пошуку рухів</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-96"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-98"/>
         <source>Output</source>
         <translation>Вихідні дані</translation>
     </message>
@@ -2463,7 +2463,7 @@ Is it running ?</source>
         <translation>_Аудіопристрій</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="-187"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="-212"/>
         <source>Saving</source>
         <translation>Збереження</translation>
     </message>
@@ -2727,7 +2727,7 @@ Try anyway?</source>
         <translation>Створення тимчасової карти</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+193"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+195"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодувати відео за допомогою VDPAU (NVIDIA)</translation>
     </message>
@@ -2796,7 +2796,7 @@ Do you want to continue anyway ?</source>
         <translation>%d хв.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-176"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-178"/>
         <source>_Volume control:</source>
         <translation>Гучність звуку управляється:</translation>
     </message>
@@ -2831,7 +2831,7 @@ Do you want to continue anyway ?</source>
         <translation>_Увімкнути альтернативні гарячі клавіші</translation>
     </message>
     <message>
-        <location line="+377"/>
+        <location line="+379"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Декодувати відео за допомогою LIBVA (INTEL)</translation>
     </message>
@@ -2860,7 +2860,7 @@ Do you want to continue anyway ?</source>
         <translation>Вкажіть файл для збереження</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-45"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-47"/>
         <source>_Limit Refresh Rate</source>
         <translation>_Обмеження частоти оновлення</translation>
     </message>
@@ -2916,12 +2916,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Відеокодек</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+151"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+153"/>
         <source>Threading</source>
         <translation>Багатопотоковість</translation>
     </message>
     <message>
-        <location line="-114"/>
+        <location line="-116"/>
         <source>_Strength:</source>
         <translation>Рівень:</translation>
     </message>
@@ -3081,12 +3081,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3278,11 +3278,16 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+8"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+36"/>
         <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
         <translation>Ігнорувати чорний список кодеків (Intel, HEVC 10bit)</translation>
     </message>
@@ -3303,7 +3308,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Апаратне прискорення</translation>
     </message>
     <message>
-        <location line="-402"/>
+        <location line="-404"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Дозволяти нестандартну частоту звуку для DVD</translation>
     </message>
@@ -3362,7 +3367,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -3377,7 +3382,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>Неможливо використовувати файл для аудіодоріжки</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-323"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-325"/>
         <source>Prioritisation</source>
         <translation>Пріоритет</translation>
     </message>
@@ -3482,7 +3487,7 @@ Installation mismatch</source>
         <translation>Всі повідомлення</translation>
     </message>
     <message>
-        <location line="+183"/>
+        <location line="+185"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>Декодувати відео за допомогою VideoToolbox (macOS)</translation>
     </message>
@@ -3563,7 +3568,7 @@ Installation mismatch</source>
         <translation>Перейти до часу...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-299"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-301"/>
         <source>Multi-threading</source>
         <translation>Використовувати багатопотоковість</translation>
     </message>
@@ -3628,7 +3633,7 @@ Installation mismatch</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+143"/>
-        <source>Enable openGl support</source>
+        <source>Enable OpenGL support</source>
         <translation>Увімкнути підтримку OpenGL</translation>
     </message>
     <message>
@@ -3668,7 +3673,7 @@ Installation mismatch</source>
         <translation>Демультиплексори</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+181"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Збережене відео неповне. Помилка сталася %s (%d%). Це може статися внаслідок недійсних позначок часу у відео.</translation>
     </message>
@@ -3712,7 +3717,7 @@ Install lame plugin</source>
         <translation>Зберегти як &amp;зображення</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+91"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+93"/>
         <source>Preferences</source>
         <translation>Налаштування</translation>
     </message>
@@ -3754,7 +3759,7 @@ Install lame plugin</source>
         <translation>Фільтр</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-367"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-369"/>
         <source>_lavc threads:</source>
         <translation>_lavc</translation>
     </message>
@@ -13127,7 +13132,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+143"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+146"/>
         <source>Play</source>
         <translation>Відтворити</translation>
     </message>

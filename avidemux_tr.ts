@@ -1137,7 +1137,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1157,7 +1157,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-386"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
@@ -1434,12 +1434,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1572,7 +1572,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+123"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -2390,7 +2390,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2559,7 +2559,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2664,17 +2664,17 @@ Is it running ?</source>
         <translation>VideoToolbox (macOS) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location line="-38"/>
-        <source>Enable openGl support</source>
+        <location line="-40"/>
+        <source>Enable OpenGL support</source>
         <translation>OpenGl desteğini etkinleştir</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
@@ -2774,11 +2774,16 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>GUI Oluşturma Seçenekleri</translation>
     </message>
@@ -2793,7 +2798,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -3895,17 +3900,17 @@ Yine de denemek ister misiniz?</translation>
         <translation>Bellek hatası</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Kaydedildi</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Kaydedilen video eksik. Hata %s&apos;de (%d%) oluştu. Bu, videodaki geçersiz zaman damgalarının bir sonucu olabilir.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>Çok kısa</translation>
     </message>
@@ -13165,7 +13170,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation>Orijinale Bak</translation>
     </message>

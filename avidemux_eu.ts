@@ -1204,7 +1204,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+477"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+481"/>
         <source>Stereo</source>
         <translation>Estereoa</translation>
     </message>
@@ -1659,7 +1659,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1705,7 +1705,7 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -1821,7 +1821,7 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+79"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1841,9 +1841,9 @@ Erori denborapen argibideak?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-46"/>
-        <source>Enable openGl support</source>
-        <translation>Gaitu openGl sostengua</translation>
+        <location line="-48"/>
+        <source>Enable OpenGL support</source>
+        <translation>Gaitu OpenGL sostengua</translation>
     </message>
     <message>
         <location line="-338"/>
@@ -2138,12 +2138,12 @@ Erori denborapen argibideak?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2268,7 +2268,7 @@ Erori denborapen argibideak?</translation>
         <translation>Bideoa</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+135"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+137"/>
         <source>Threading</source>
         <translation>Hariak</translation>
     </message>
@@ -3272,12 +3272,12 @@ Ekinean dago ?</translation>
         <translation>Xvid4 Itxurapena</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation type="unfinished">Gordetzen</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3307,7 +3307,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3344,11 +3344,16 @@ Ekinean dago ?</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3363,7 +3368,7 @@ Ekinean dago ?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3868,7 +3873,7 @@ Try anyway?</source>
         <translation type="unfinished">Oroimen akatsa</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+6"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+16"/>
         <source>Too short</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12848,7 +12853,7 @@ Ready.
         <translation>Aurreikuspena</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

@@ -1485,7 +1485,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+477"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+481"/>
         <source>Stereo</source>
         <translation>스테레오</translation>
     </message>
@@ -1945,7 +1945,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1991,7 +1991,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2107,7 +2107,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+77"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+79"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2로 비디오 디코드 (윈도우)</translation>
     </message>
@@ -2127,12 +2127,12 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-38"/>
-        <source>Enable openGl support</source>
+        <location line="-40"/>
+        <source>Enable OpenGL support</source>
         <translation>OpenGL 지원 활성화하기</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>하드웨어 디코딩시, 일치하는 디스플레이 드라이버 사용</translation>
     </message>
@@ -2152,7 +2152,7 @@ Drop timing informations ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-386"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD에 대해 비표준 오디오 주파수 받아들이기 </translation>
     </message>
@@ -2590,11 +2590,16 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>GUI 렌더링 옵션</translation>
     </message>
@@ -2614,7 +2619,7 @@ Drop timing informations ?</source>
         <translation>쓰레딩</translation>
     </message>
     <message>
-        <location line="-282"/>
+        <location line="-284"/>
         <source>_Always ask which port to use</source>
         <translation>사용할 포트 항상 묻기</translation>
     </message>
@@ -2635,17 +2640,17 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+273"/>
+        <location line="+275"/>
         <source>Preferences</source>
         <translation>환경 설정</translation>
     </message>
@@ -3460,7 +3465,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-124"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <source>Disabled</source>
         <translation>비활성화</translation>
@@ -3873,17 +3878,17 @@ Try anyway?</source>
         <translation>메모리 오류</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>저장 중</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>너무 짧음</translation>
     </message>
@@ -12984,7 +12989,7 @@ Ready.
         <translation>미리보기</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

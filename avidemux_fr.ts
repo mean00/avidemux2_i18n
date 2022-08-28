@@ -1117,7 +1117,7 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Utiliser DXVA2 pour décoder (Windows)</translation>
     </message>
@@ -1137,8 +1137,8 @@ Ignorer les informations de timing ?</translation>
         <translation>L&apos;activation du décodage HW désactive le multithreading, redémarrez l&apos;application pour appliquer les modifications</translation>
     </message>
     <message>
-        <location line="-46"/>
-        <source>Enable openGl support</source>
+        <location line="-48"/>
+        <source>Enable OpenGL support</source>
         <translation>Activer OpenGL</translation>
     </message>
     <message>
@@ -2449,7 +2449,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation></translation>
     </message>
@@ -2495,7 +2495,7 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2579,7 +2579,7 @@ It is needed to create FLV  video.</source>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+88"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+90"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
@@ -2599,7 +2599,7 @@ It is needed to create FLV  video.</source>
         <translation>Si vous activez le décodage HW, il est préférable d&apos;utiliser la même méthode d&apos;affichage</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation>Vérifier s&apos;il y a de nouvelle version</translation>
     </message>
@@ -2687,11 +2687,16 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation>L&apos;affichage vidéo et les filtres OpenGL nécessitent qu&apos;OpenGL soit activé et qu&apos;il fonctionne au démarrage de l&apos;application pour être disponible </translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>Options de l&apos;interface lors du rendu</translation>
     </message>
@@ -2711,7 +2716,7 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-282"/>
+        <location line="-284"/>
         <source>_Always ask which port to use</source>
         <translation>Toujours demander le port à utiliser</translation>
     </message>
@@ -2732,17 +2737,17 @@ It is needed to create FLV  video.</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+273"/>
+        <location line="+275"/>
         <source>Preferences</source>
         <translation>Préférences</translation>
     </message>
@@ -3445,7 +3450,7 @@ Try anyway?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-124"/>
         <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
         <source>Disabled</source>
         <translation>Désactivé</translation>
@@ -3852,17 +3857,17 @@ Try anyway?</source>
         <translation type="unfinished">Impossible d&apos;allouer la mémoire</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Enregistrement</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>La vidéo enregistrée est incomplète. L&apos;erreur s&apos;est produite à %s (%d%). Cela peut se produire en raison d&apos;horodatages non valides dans la vidéo.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>Trop court</translation>
     </message>
@@ -12828,7 +12833,7 @@ Ready.
         <translation>Aperçu</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

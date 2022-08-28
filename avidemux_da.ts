@@ -1250,7 +1250,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+698"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+704"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
@@ -1529,7 +1529,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-221"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-223"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1979,7 +1979,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -2015,7 +2015,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2095,7 +2095,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+48"/>
-        <source>Enable openGl support</source>
+        <source>Enable OpenGL support</source>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
     <message>
@@ -2376,12 +2376,12 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2528,7 +2528,7 @@ Drop timinginformationer?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+135"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+137"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -3259,7 +3259,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-383"/>
+        <location line="-385"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Tilbagefør til gemte standardoutputindstillinger når video indlæses</translation>
     </message>
@@ -3324,11 +3324,16 @@ Kører den?</translation>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>Renderingsvalgmuligheder for brugerflade</translation>
     </message>
@@ -3343,7 +3348,7 @@ Kører den?</translation>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -3888,17 +3893,17 @@ Try anyway?</source>
         <translation>Hukommelsesfejl</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Gemmer</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>For kort</translation>
     </message>
@@ -12955,7 +12960,7 @@ Ready.
         <translation>Forhåndsvis</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>

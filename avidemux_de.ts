@@ -1120,7 +1120,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+269"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation type="unfinished">_Erlaube auch nicht DVD-konforme Audiofrequenzen (DVD-konform sind lediglich 48kHz und 96kHz)</translation>
     </message>
@@ -1512,7 +1512,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+117"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
         <source>CPU</source>
         <translation>Prozessor</translation>
     </message>
@@ -1522,7 +1522,7 @@ Drop timing informations ?</source>
         <translation>Multi-Threading</translation>
     </message>
     <message>
-        <location line="-282"/>
+        <location line="-284"/>
         <source>_Always ask which port to use</source>
         <translation>_Immer fragen, welcher Port benutzt werden soll</translation>
     </message>
@@ -1537,7 +1537,7 @@ Drop timing informations ?</source>
         <translation>&amp;Einstellungen</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+299"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+301"/>
         <source>Preferences</source>
         <translation>Einstellungen</translation>
     </message>
@@ -1922,7 +1922,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Stereo headphones</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2339,7 +2339,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+126"/>
-        <source>Enable openGl support</source>
+        <source>Enable OpenGL support</source>
         <translation>OpenG_L benutzen</translation>
     </message>
     <message>
@@ -2359,7 +2359,7 @@ Drop timing informations ?</source>
         <translation>Hoch</translation>
     </message>
     <message>
-        <location line="+296"/>
+        <location line="+298"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Video mittels _DXVA2 dekodieren (nur Windows)</translation>
     </message>
@@ -2379,7 +2379,7 @@ Drop timing informations ?</source>
         <translation>Bei aktivierter Hardwarebeschleunigung wird Decoder-Multithreading in libavcodec deaktiviert, Änderungen erfordern Neustart der Anwendung</translation>
     </message>
     <message>
-        <location line="-303"/>
+        <location line="-305"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
         <source>Low</source>
         <translation>Niedrig</translation>
@@ -2807,7 +2807,7 @@ Läuft er?</translation>
         <translation type="unfinished">2. Durchlauf</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+81"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+83"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Video mittels _VDPAU dekodieren</translation>
     </message>
@@ -2831,7 +2831,7 @@ Läuft er?</translation>
         <translation type="obsolete">libVA (bestens)</translation>
     </message>
     <message>
-        <location line="-122"/>
+        <location line="-124"/>
         <source>_Language</source>
         <translation>_Sprache</translation>
     </message>
@@ -2857,12 +2857,12 @@ Läuft er?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2873,11 +2873,16 @@ Läuft er?</translation>
     </message>
     <message>
         <location line="+8"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation>Für OpenGL-Anzeige und -Filter muss OpenGL bereits beim Start der Anwendung aktiviert und funktionsfähig sein</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>Darstellungsoptionen der grafischen Oberfläche</translation>
     </message>
@@ -2917,12 +2922,12 @@ Läuft er?</translation>
         <translation type="unfinished">Ungültige Liste der Tonspuren</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Speichern</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Das gespeicherte Video ist unvollständig. Der Fehler ereignete sich bei %s (%d%%). Dies kann eine Folge ungültiger Zeitstempel im Video sein.</translation>
     </message>
@@ -3069,7 +3074,7 @@ Trotzdem fortsetzen?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-243"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-245"/>
         <source>SDL</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3879,7 +3884,7 @@ Try anyway?</source>
         <translation type="unfinished">Speicherfehler</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+6"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+16"/>
         <source>Too short</source>
         <translation>Video zu kurz</translation>
     </message>
@@ -12960,7 +12965,7 @@ Bereit.
         <translation>Vorschau</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation>Originalbild</translation>
     </message>

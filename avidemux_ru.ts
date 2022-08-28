@@ -1129,7 +1129,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
     </message>
@@ -1149,7 +1149,7 @@ Drop timing informations ?</source>
         <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуск приложения</translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-386"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Разрешать нестандартную частоту звука для DVD</translation>
     </message>
@@ -1426,12 +1426,12 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation>LibVA</translation>
     </message>
@@ -1568,7 +1568,7 @@ Drop timing informations ?</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+123"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
@@ -2382,7 +2382,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Stereo headphones</source>
         <translation>Стереонаушники</translation>
     </message>
@@ -2551,7 +2551,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2656,17 +2656,17 @@ Is it running ?</source>
         <translation>Декодировать видео с помощью VideoToolbox (macOS)</translation>
     </message>
     <message>
-        <location line="-38"/>
-        <source>Enable openGl support</source>
+        <location line="-40"/>
+        <source>Enable OpenGL support</source>
         <translation>Включить поддержку OpenGL</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+46"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>При включении аппаратного ускорения лучше использовать соответствующий вывод видео</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation>_Проверять обновления</translation>
     </message>
@@ -2766,11 +2766,16 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+4"/>
+        <source>Enable OpenGL display in filter preview dialogs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation>Для отображения видео и фильтров OpenGL требуется, чтобы OpenGL был включён и работал при запуске приложения</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>Отрисовка графической оболочки</translation>
     </message>
@@ -2785,7 +2790,7 @@ Is it running ?</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -3889,17 +3894,17 @@ Try anyway?</source>
         <translation>Ошибка выделения памяти</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Сохранение</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Сохранённое видео незакончено. Ошибка возникла на %s (%d%). Это может происходить в результате недопустимых отметок времени в видео.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>Слишком коротко</translation>
     </message>
@@ -13051,7 +13056,7 @@ Ready.
         <translation>Предпросмотр</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
         <source>Peek Original</source>
         <translation>Просмотр оригинала</translation>
     </message>
