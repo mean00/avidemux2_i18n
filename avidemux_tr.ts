@@ -1137,7 +1137,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1157,7 +1157,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-386"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
@@ -1434,12 +1434,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+189"/>
+        <location line="+190"/>
         <source>OpenGL</source>
         <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="-186"/>
+        <location line="-187"/>
         <source>LibVA</source>
         <translation>LibVA</translation>
     </message>
@@ -1572,7 +1572,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+123"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -2390,7 +2390,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
         <source>Stereo headphones</source>
         <translation>Stereo kulaklık</translation>
     </message>
@@ -2559,7 +2559,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2664,17 +2664,16 @@ Is it running ?</source>
         <translation>VideoToolbox (macOS) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location line="-38"/>
         <source>Enable openGl support</source>
-        <translation>OpenGl desteğini etkinleştir</translation>
+        <translation type="vanished">OpenGl desteğini etkinleştir</translation>
     </message>
     <message>
-        <location line="+44"/>
+        <location line="+6"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location line="-376"/>
+        <location line="-378"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
@@ -2773,17 +2772,22 @@ Is it running ?</source>
         <translation>Yenileme Hızı Sınırı (ms)</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+3"/>
+        <source>Enable OpenGL support</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
         <translation>Filtre önizleme iletişim kutularında OpenGL görüntüsünü etkinleştir</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
         <translation>OpenGL video gösterimi ve filtreleri, OpenGL&apos;nin etkinleştirilmesini ve kullanılabilir olması için uygulama başlangıcında çalışmasını gerektirir</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+8"/>
         <source>GUI Rendering Options</source>
         <translation>GUI Oluşturma Seçenekleri</translation>
     </message>
@@ -2798,7 +2802,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="-273"/>
+        <location line="-275"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -3900,17 +3904,17 @@ Yine de denemek ister misiniz?</translation>
         <translation>Bellek hatası</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
         <source>Saving</source>
         <translation>Kaydedildi</translation>
     </message>
     <message>
-        <location line="+181"/>
+        <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Kaydedilen video eksik. Hata %s&apos;de (%d%) oluştu. Bu, videodaki geçersiz zaman damgalarının bir sonucu olabilir.</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+16"/>
         <source>Too short</source>
         <translation>Çok kısa</translation>
     </message>
@@ -4369,7 +4373,7 @@ Yine de devam edilsin mi?</translation>
         <translation>&quot;Yeşil ekranı&quot; bir resimle değiştirin.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+287"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+286"/>
         <source>Select Background Image</source>
         <translation>Arka Plan Resmi Seç</translation>
     </message>
@@ -5714,7 +5718,7 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
     </message>
     <message>
         <location line="-1"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+62"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+61"/>
         <location line="+76"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
@@ -5846,13 +5850,13 @@ Yüklemek istiyor musunuz  ?
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+564"/>
-        <location line="+358"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+555"/>
+        <location line="+363"/>
         <source>Size: </source>
         <translation>Boyut: </translation>
     </message>
     <message>
-        <location line="-236"/>
+        <location line="-242"/>
         <source>Auto Crop</source>
         <translation>Otomatik Kesme</translation>
     </message>
@@ -6036,7 +6040,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Geçersiz dosya</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+110"/>
         <source>Load HaldCLUT</source>
         <translation>HaldCLUT&apos;u Yükle</translation>
     </message>
@@ -6052,7 +6056,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Yükleme başarısız</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+35"/>
         <source>LUT file is not specified!</source>
         <translation>LUT dosyası belirtilmemiş!</translation>
     </message>
@@ -6297,7 +6301,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Kayıt başarısız!</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+105"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+104"/>
         <source>Find a frame in the preview with the logo clearly visible and not blending into the background.</source>
         <translation>Önizlemede, logonun açıkça görülebildiği ve arka plana karışmadığı bir çerçeve bulun.</translation>
     </message>
@@ -6688,7 +6692,7 @@ Yüklemek istiyor musunuz  ?
         <translation>MPlayer eq2</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+63"/>
         <source>Reset</source>
         <translation>Sıfırla</translation>
     </message>
@@ -6777,7 +6781,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Solma için başlangıç zamanında görüntüyü kullanın.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+81"/>
         <source>_Start time:</source>
         <translation>_Başlangıç zamanı:</translation>
     </message>
@@ -6792,7 +6796,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Elle zaman girişi</translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+65"/>
         <location line="+19"/>
         <source>Time scope: </source>
         <translation>Zaman kapsamı: </translation>
@@ -6927,7 +6931,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Renklendirmek için karartın.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+41"/>
         <source>_Start time:</source>
         <translation>_Başlangıç zamanı:</translation>
     </message>
@@ -6942,7 +6946,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Elle zaman girişi</translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+88"/>
         <location line="+29"/>
         <source>Time scope: </source>
         <translation>Zaman kapsamı: </translation>
@@ -7000,7 +7004,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Birden fazla efektin kombinasyonu ile kaybolur.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+161"/>
         <source>_Start time:</source>
         <translation>_Başlangıç zamanı:</translation>
     </message>
@@ -7022,14 +7026,14 @@ Start and/or end time would be out of range</source>
 Başlangıç ve/veya bitiş zamanı aralık dışı olacaktır</translation>
     </message>
     <message>
-        <location line="+170"/>
-        <location line="+186"/>
+        <location line="+159"/>
+        <location line="+182"/>
         <source>Time scope: </source>
         <translation>Zaman kapsamı: </translation>
     </message>
     <message>
-        <location line="-183"/>
-        <location line="+196"/>
+        <location line="-179"/>
+        <location line="+192"/>
         <source>Duration: </source>
         <translation>Süre: </translation>
     </message>
@@ -7040,7 +7044,7 @@ Başlangıç ve/veya bitiş zamanı aralık dışı olacaktır</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-502"/>
         <source>Fade in</source>
         <translation>Aydınlat</translation>
     </message>
@@ -11094,7 +11098,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Ön izleme. Kutu koordinatlarını kaba bir şekilde ayarlamak için yukarıdaki resme tıklayın</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+472"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+461"/>
         <source>You can resize the red rectangle using the grips </source>
         <translation>Sapları kullanarak kırmızı dikdörtgeni yeniden boyutlandırabilirsiniz </translation>
     </message>
@@ -12020,7 +12024,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+501"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+499"/>
         <location line="+28"/>
         <source>Partial</source>
         <translation>Kısmi</translation>
@@ -12053,7 +12057,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>Yukarı git</translation>
     </message>
     <message>
-        <location line="-405"/>
+        <location line="-403"/>
         <source>Preview</source>
         <translation>Önizleme</translation>
     </message>
@@ -12063,7 +12067,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation>DEVRE DIŞI </translation>
     </message>
     <message>
-        <location line="+239"/>
+        <location line="+237"/>
         <source>This filter is not partial</source>
         <translation>Bu filtre kısmi değil</translation>
     </message>
@@ -13171,7 +13175,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+166"/>
         <source>Peek Original</source>
         <translation>Orijinale Bak</translation>
     </message>
@@ -17215,13 +17219,13 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
         <translation>Kısmileştirilebilir kırpma filtresi.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+488"/>
-        <location line="+425"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+480"/>
+        <location line="+429"/>
         <source>Selection: </source>
         <translation>Seçim: </translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-331"/>
         <location line="+184"/>
         <source>Preferences</source>
         <translation>Tercihler</translation>

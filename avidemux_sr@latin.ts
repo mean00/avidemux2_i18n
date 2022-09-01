@@ -4228,7 +4228,7 @@ Installation mismatch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+287"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/artChromaKey/qt4/Q_artChromaKey.cpp" line="+286"/>
         <source>Select Background Image</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5533,7 +5533,7 @@ This message will not be displayed again.</source>
     <name>contrast</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+33"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+62"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+61"/>
         <location line="+76"/>
         <source>Contrast</source>
         <translation type="unfinished">Kontrast</translation>
@@ -5665,13 +5665,13 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+564"/>
-        <location line="+358"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+555"/>
+        <location line="+363"/>
         <source>Size: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-236"/>
+        <location line="-242"/>
         <source>Auto Crop</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5855,7 +5855,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+110"/>
         <source>Load HaldCLUT</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5871,7 +5871,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+35"/>
         <source>LUT file is not specified!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6116,7 +6116,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+105"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+104"/>
         <source>Find a frame in the preview with the logo clearly visible and not blending into the background.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6507,7 +6507,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+64"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/eq2/qt4/Q_eq2.cpp" line="+63"/>
         <source>Reset</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6592,7 +6592,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+81"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6607,7 +6607,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+76"/>
+        <location line="+65"/>
         <location line="+19"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
@@ -6742,7 +6742,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+41"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6757,7 +6757,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+99"/>
+        <location line="+88"/>
         <location line="+29"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
@@ -6815,7 +6815,7 @@ trebalo bi da je sačuvate ukoliko želite da je zadržite)</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+161"/>
         <source>_Start time:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6836,14 +6836,14 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+170"/>
-        <location line="+186"/>
+        <location line="+159"/>
+        <location line="+182"/>
         <source>Time scope: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-183"/>
-        <location line="+196"/>
+        <location line="-179"/>
+        <location line="+192"/>
         <source>Duration: </source>
         <translation type="unfinished"></translation>
     </message>
@@ -6854,7 +6854,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-502"/>
         <source>Fade in</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10770,7 +10770,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+472"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+461"/>
         <source>You can resize the red rectangle using the grips </source>
         <translation type="unfinished"></translation>
     </message>
@@ -11668,7 +11668,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qmainfilter</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+501"/>
+        <location filename="../ADM_userInterfaces/ADM_filters/Q_mainfilter.cpp" line="+499"/>
         <location line="+28"/>
         <source>Partial</source>
         <translation type="unfinished">Polovično</translation>
@@ -11701,7 +11701,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-405"/>
+        <location line="-403"/>
         <source>Preview</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11711,7 +11711,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+239"/>
+        <location line="+237"/>
         <source>This filter is not partial</source>
         <translation type="unfinished"></translation>
     </message>
@@ -12735,7 +12735,7 @@ Ready.
         <translation type="unfinished">Pregled</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+166"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16570,13 +16570,13 @@ If it is a system profile it will be recreated next time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+488"/>
-        <location line="+425"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+480"/>
+        <location line="+429"/>
         <source>Selection: </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-326"/>
+        <location line="-331"/>
         <location line="+184"/>
         <source>Preferences</source>
         <translation type="unfinished"></translation>
