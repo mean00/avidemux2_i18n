@@ -596,7 +596,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+21"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR ton eşleme</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -678,7 +678,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+11"/>
         <source>T&amp;heme</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;ema</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -786,7 +786,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+23"/>
         <source>Delete selection [DEL]</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçimi sil [DEL]</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -1012,37 +1012,37 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/rotate/rotate.cpp" line="+437"/>
         <source>Arbitrary Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>İsteğe bağlı Döndürme</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rotate the image by arbitrary angle.</source>
-        <translation type="unfinished"></translation>
+        <translation>Görüntüyü istediğiniz açıyla döndürün.</translation>
     </message>
     <message>
         <location line="+186"/>
         <source>Black</source>
-        <translation type="unfinished"></translation>
+        <translation>Siyah</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Yankı</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>_Angle:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Açı:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolgu:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Döndürme</translation>
     </message>
 </context>
 <context>
@@ -1055,7 +1055,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+92"/>
         <source>Avidemux</source>
-        <translation type="unfinished"></translation>
+        <translation>Avidemux</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -1137,7 +1137,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+641"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>DXVA2 kullanarak video kodunu çözme (Windows)</translation>
     </message>
@@ -1157,7 +1157,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Hw kod çözmeyi etkinleştirmek, çoklu iş parçacığını devre dışı bırakır, değişiklikleri uygulamak için uygulamayı yeniden başlatın</translation>
     </message>
     <message>
-        <location line="-386"/>
+        <location line="-384"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD için standart olmayan ses frekansını kabul edin</translation>
     </message>
@@ -1179,7 +1179,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+1"/>
         <source>Reverse mouse _wheel for navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Gezinme için ters fare _tekerleği</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1234,22 +1234,22 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+1"/>
         <source>Enable SSE4</source>
-        <translation type="unfinished"></translation>
+        <translation>SSE4 ü Etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable SSE4.2</source>
-        <translation type="unfinished"></translation>
+        <translation>SSE4.2 yi Etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX</source>
-        <translation type="unfinished"></translation>
+        <translation>AVX i Etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Enable AVX2</source>
-        <translation type="unfinished"></translation>
+        <translation>AVX2 yi Etkinleştir</translation>
     </message>
     <message>
         <location line="+39"/>
@@ -1315,7 +1315,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+11"/>
         <source>Priority can be only lowered and applies to the entire application for the current session</source>
-        <translation type="unfinished"></translation>
+        <translation>Öncelik yalnızca düşürülebilir ve mevcut oturum için tüm uygulama için geçerlidir</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1345,77 +1345,77 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+6"/>
         <source>Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Resimler</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Load sequentially named pictures in reverse order</source>
-        <translation type="unfinished"></translation>
+        <translation>_Sıralı olarak adlandırılan resimleri ters sırada yükleyin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>23.976 (Film)</source>
-        <translation type="unfinished"></translation>
+        <translation>23.976 (Film)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>25 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>25 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>29.970 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>29.970 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>30</source>
-        <translation type="unfinished"></translation>
+        <translation>30</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>50 (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>50 (PAL)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>59.940 (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>59.940 (NTSC)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>60</source>
-        <translation type="unfinished"></translation>
+        <translation>60</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_Assign following standard frame rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Aşağıdaki standart kare hızını atayın:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Avisynth</source>
-        <translation type="unfinished"></translation>
+        <translation>Avisynth</translation>
     </message>
     <message>
         <location line="+195"/>
         <source>Default out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan gamut işleme dışı:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>HDR</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR</translation>
     </message>
     <message>
         <location line="-10"/>
         <source>Default _tone mapping method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan _tone eşleme yöntemi:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Target peak luminance (nits):</source>
-        <translation type="unfinished"></translation>
+        <translation>Hedef tepe parlaklık (nit):</translation>
     </message>
     <message>
         <location line="-181"/>
@@ -1425,23 +1425,23 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+5"/>
         <source>This renderer provides no hardware acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu oluşturucu donanım hızlandırması sağlamaz</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>DXVA2</source>
-        <translation type="unfinished"></translation>
+        <translation>DXVA2</translation>
     </message>
     <message>
         <location line="+3"/>
-        <location line="+190"/>
+        <location line="+189"/>
         <source>OpenGL</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL</translation>
     </message>
     <message>
-        <location line="-187"/>
+        <location line="-186"/>
         <source>LibVA</source>
-        <translation type="unfinished"></translation>
+        <translation>LibVA</translation>
     </message>
     <message>
         <source>XVideo (best)</source>
@@ -1531,7 +1531,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+2"/>
         <source>Deblocking</source>
-        <translation type="unfinished"></translation>
+        <translation>Serberst bırakma</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
@@ -1572,7 +1572,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
         <source>Threading</source>
         <translation>İş parçası</translation>
     </message>
@@ -1692,252 +1692,252 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+34"/>
         <source>Enable Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekolayzeri Etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bass/Mid cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas/Orta kesme (Hz):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Orta (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Mid/Treble cut-off (Hz):</source>
-        <translation type="unfinished"></translation>
+        <translation>Orta/Tiz kesme (Hz):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Treble (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiz (dB):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>&lt;hr&gt;&lt;p&gt;It is highly recommended to enable normalization when using positive gain values&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Pozitif kazanç değerleri kullanılırken normalleştirmenin etkinleştirilmesi önemle tavsiye edilir&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekolayzer</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sol (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sağ (db):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön merkez (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sol (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sağ (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka merkez (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol taraf (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ taraf (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Düşük frekans efektleri (LFE) (dB):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel gains</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanal kazançları</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Front left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sol (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sağ (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön merkez (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sol (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sağ (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka merkez (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol taraf (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ taraf (ms):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Düşük frekans efektleri (LFE) (ms):</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Son gecikme, yukarıdaki bir değer ile Ana sekmesinde sağlanan &quot;Sesi Kaydır&quot; değerinin toplamı olacaktır&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Channel delays</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanal gecikmeleri</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Enable Remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden Eşlemeyi Etkinleştir</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sol</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sağ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön merkez</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol taraf</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ taraf</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sol</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sağ</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka merkez</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE)</source>
-        <translation type="unfinished"></translation>
+        <translation>Düşük frekans efektleri (LFE)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Front left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sol için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön sağ için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Front center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ön merkez için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol taraf için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Side right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ taraf için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear left to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sol için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear right to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka sağ için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rear center to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arka merkez için:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Low-frequency effects (LFE) to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Düşük frekanslı efektler (LFE) için:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>&lt;hr&gt;&lt;p&gt;Remapping does not change the channel layout, therefore:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;mapping a channel to a non-existent one will result in loss of the channel&lt;/li&gt;&lt;li&gt;mapping a non-existent channel will result in silence&lt;/li&gt;&lt;/ul&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;hr&gt;&lt;p&gt;Yeniden eşleme kanal düzenini değiştirmez, bu nedenle:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;bir kanalı var olmayan bir kanalla eşlemek, kanal eşlemesinin kaybolmasına neden olur&lt;/li&gt;&lt;li&gt; var olmayan bir kanal sessizliğe neden olur&lt;/li&gt;&lt;/ul&gt;</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Channel remap</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanal yeniden eşlemesi</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -2366,33 +2366,33 @@ Is it running ?</source>
     <message>
         <location line="+10"/>
         <source>Tempo multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo çarpanı:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A value of 2.0 means twice as fast playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>2.0 değeri, iki kat daha hızlı oynatma anlamına gelir.</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Pitch multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Adım çarpanı:</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Every doubling means one octave upshift</source>
-        <translation type="unfinished"></translation>
+        <translation>Her ikiye katlama, bir oktavlık vites büyütme anlamına gelir</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Frame rate change</source>
-        <translation type="unfinished"></translation>
+        <translation>Kare hızı değişikliği</translation>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-220"/>
         <source>Stereo headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Stereo kulaklık</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2433,47 +2433,47 @@ Is it running ?</source>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>Surround headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Surround kulaklıklar</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>Shift audio (ms):</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesi kaydır (ms):</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enable Compressor</source>
-        <translation type="unfinished"></translation>
+        <translation>Sıkıştırmayı Etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Normalize</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Threshold (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Eşik (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Noise floor (dB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Gürültü tabanı (dB):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oran:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Attack time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Saldırı süresi (sn):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Release time (sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Yayın süresi (sn):</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2559,7 +2559,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+260"/>
         <source>CPU</source>
         <translation>İŞLEMCİ</translation>
     </message>
@@ -2664,17 +2664,17 @@ Is it running ?</source>
         <translation>VideoToolbox (macOS) kullanarak video kodunu çözme</translation>
     </message>
     <message>
-        <location line="-40"/>
-        <source>Enable OpenGL support</source>
+        <location line="-38"/>
+        <source>Enable openGl support</source>
         <translation>OpenGl desteğini etkinleştir</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+44"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Hw kod çözme kullanıyorsanız, eşleşen ekran sürücüsünü kullanmak daha iyidir</translation>
     </message>
     <message>
-        <location line="-378"/>
+        <location line="-376"/>
         <source>_Check for new release</source>
         <translation>_Yeni sürüm olup olmadığını kontrol edin</translation>
     </message>
@@ -2755,12 +2755,12 @@ Is it running ?</source>
     <message>
         <location line="+12"/>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>İçe aktar</translation>
     </message>
     <message>
         <location line="+59"/>
         <source>Post-Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Rötuş</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2775,15 +2775,15 @@ Is it running ?</source>
     <message>
         <location line="+4"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtre önizleme iletişim kutularında OpenGL görüntüsünü etkinleştir</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL video gösterimi ve filtreleri, OpenGL&apos;nin etkinleştirilmesini ve kullanılabilir olması için uygulama başlangıcında çalışmasını gerektirir</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+7"/>
         <source>GUI Rendering Options</source>
         <translation>GUI Oluşturma Seçenekleri</translation>
     </message>
@@ -2798,7 +2798,7 @@ Is it running ?</source>
         <translation>HW Hızlandırıcısı</translation>
     </message>
     <message>
-        <location line="-275"/>
+        <location line="-273"/>
         <source>_Always ask which port to use</source>
         <translation>_Her zaman hangi bağlantı noktasını kullanacağınızı sor</translation>
     </message>
@@ -2907,12 +2907,12 @@ Is it running ?</source>
     <message>
         <location line="+5"/>
         <source>Reset Marker A</source>
-        <translation type="unfinished"></translation>
+        <translation>İşaretçi A&apos;yı Sıfırla</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reset Marker B</source>
-        <translation type="unfinished"></translation>
+        <translation>İşaretçi B&apos;yi Sıfırla</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2943,12 +2943,12 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>HDR ton eşleme</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Add partialized filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısmi filtre ekle</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3043,42 +3043,42 @@ Is it running ?</source>
     <message>
         <location line="+2"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>1 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>1 saniye ileri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>2 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>2 saniye ileri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 saniye ileri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Backward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir dakika geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward one minute</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir dakika ileri</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3852,7 +3852,7 @@ Yine de denemek ister misiniz?</translation>
     <message>
         <location line="+1"/>
         <source>A-law</source>
-        <translation type="unfinished"></translation>
+        <translation>A-law</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3872,7 +3872,7 @@ Yine de denemek ister misiniz?</translation>
     <message>
         <location line="+1"/>
         <source>TrueHD</source>
-        <translation type="unfinished"></translation>
+        <translation>TrueHD</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -3900,17 +3900,17 @@ Yine de denemek ister misiniz?</translation>
         <translation>Bellek hatası</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+512"/>
         <source>Saving</source>
         <translation>Kaydedildi</translation>
     </message>
     <message>
-        <location line="+196"/>
+        <location line="+181"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>Kaydedilen video eksik. Hata %s&apos;de (%d%) oluştu. Bu, videodaki geçersiz zaman damgalarının bir sonucu olabilir.</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+6"/>
         <source>Too short</source>
         <translation>Çok kısa</translation>
     </message>
@@ -4101,79 +4101,79 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_HDRConfig.cpp" line="-5"/>
         <source>Changing the options above will results the editor jumping to the nearest prior key frame.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yukarıdaki seçeneklerin değiştirilmesi, düzenleyicinin en yakın önceki anahtar kareye atlamasını sağlar.</translation>
     </message>
     <message>
         <location line="+6"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Fast YUV</source>
-        <translation type="unfinished"></translation>
+        <translation>Hızlı YUV</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB kırpma</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB soft limit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB yumuşak sınırı</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Reinhard</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Reinhard</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>RGB Hable</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB Hable</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>_Tone mapping:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Ton eşleme:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Saturation:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Doygunluk:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Boost (level multiplier):</source>
-        <translation type="unfinished"></translation>
+        <translation>_Boost (seviye çarpanı):</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Adaptive RGB tonemappers</source>
-        <translation type="unfinished"></translation>
+        <translation>_Uyarlanabilir RGB ton eşleyicileri</translation>
     </message>
     <message>
         <location line="+3"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+8"/>
         <source>Clipping</source>
-        <translation type="unfinished"></translation>
+        <translation>Kırpma</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>Compression</source>
-        <translation type="unfinished"></translation>
+        <translation>Sıkıştırma</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>_RGB out of gamut handling:</source>
-        <translation type="unfinished"></translation>
+        <translation>_RGB gamut işleme dışında:</translation>
     </message>
     <message>
         <location filename="../ADM_UIs/src/T_floatResettable.cpp" line="+131"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Sıfırla</translation>
     </message>
 </context>
 <context>
@@ -4771,7 +4771,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location line="+34"/>
         <source>Noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Gürültü</translation>
     </message>
 </context>
 <context>
@@ -5044,22 +5044,22 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerAvi/muxerAviConfig.cpp" line="+25"/>
         <source>AVI</source>
-        <translation type="unfinished"></translation>
+        <translation>AVI</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Start as legacy AVI and switch to OpenDML mode when approaching the 4 GiB file size limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Eski AVI olarak başlayın ve 4 GiB dosya boyutu sınırına yaklaşırken OpenDML moduna geçin</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OpenDML</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenDML</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5498,12 +5498,12 @@ Bu mesaj bir daha gösterilmeyecek.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/Q_colorBalance.cpp" line="+52"/>
         <source>Peek Ranges</source>
-        <translation type="unfinished"></translation>
+        <translation>Aralıklara Bak</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Show shadow, midtone and highlight areas in black,gray and white colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Siyah, gri ve beyaz renklerde gölge, orta ton ve vurgu alanlarını gösterin</translation>
     </message>
 </context>
 <context>
@@ -5966,95 +5966,95 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/ADM_vidCubicLUT.cpp" line="+50"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Apply cubic lookup table.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kübik arama tablosunu uygulayın.</translation>
     </message>
     <message>
         <location line="+72"/>
         <source>Width must match height</source>
-        <translation type="unfinished"></translation>
+        <translation>Genişlik, yükseklikle eşleşmelidir</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+2"/>
         <source>Invalid resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçersiz çözünürlük</translation>
     </message>
     <message>
         <location line="+4"/>
         <location line="+72"/>
         <source>Invalid file size</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçersiz dosya boyutu</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File open error</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya açma hatası</translation>
     </message>
     <message>
         <location line="-68"/>
         <location line="+72"/>
         <source>File read error</source>
-        <translation type="unfinished"></translation>
+        <translation>Dosya okuma hatası</translation>
     </message>
     <message>
         <location line="-65"/>
         <source>Can&apos;t find decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod çözücüyü bulamıyorum</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Decoding error. Only 8-bit PNG files are supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kod çözme hatası. Yalnızca 8 bit PNG dosyaları desteklenir.</translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+82"/>
         <source>Memory error</source>
-        <translation type="unfinished"></translation>
+        <translation>Bellek hatası</translation>
     </message>
     <message>
         <location line="-12"/>
         <location line="+3"/>
         <location line="+6"/>
         <source>Malformed header</source>
-        <translation type="unfinished"></translation>
+        <translation>Hatalı biçimlendirilmiş başlık</translation>
     </message>
     <message>
         <location line="+51"/>
         <source>Incomplete file</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksik dosya</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Invalid file</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçersiz dosya</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+111"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>HaldCLUT&apos;u Yükle</translation>
     </message>
     <message>
         <location line="+17"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Küpü Yükle</translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+26"/>
         <source>Load failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Yükleme başarısız</translation>
     </message>
     <message>
         <location line="+53"/>
         <source>LUT file is not specified!</source>
-        <translation type="unfinished"></translation>
+        <translation>LUT dosyası belirtilmemiş!</translation>
     </message>
 </context>
 <context>
@@ -6062,22 +6062,22 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/cubicLUT.ui" line="+14"/>
         <source>3D LUT</source>
-        <translation type="unfinished"></translation>
+        <translation>3D LUT</translation>
     </message>
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Maske</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Load HaldCLUT</source>
-        <translation type="unfinished"></translation>
+        <translation>HaldCLUT&apos;u Yükle</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>Load Cube</source>
-        <translation type="unfinished"></translation>
+        <translation>Küpü Yükle</translation>
     </message>
 </context>
 <context>
@@ -6098,12 +6098,12 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/ADM_vidDeband.cpp" line="+32"/>
         <source>Deband</source>
-        <translation type="unfinished"></translation>
+        <translation>Bantı kaldır</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Reduce banding artifacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eser bantlamayı azaltın.</translation>
     </message>
 </context>
 <context>
@@ -6111,22 +6111,22 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui" line="+14"/>
         <source>Deband</source>
-        <translation type="unfinished"></translation>
+        <translation>Bantı kaldır</translation>
     </message>
     <message>
         <location line="+55"/>
         <source>Chroma threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk eşiği</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Luma threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Parlaklık eşiği</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Aralık</translation>
     </message>
 </context>
 <context>
@@ -6213,52 +6213,52 @@ Yüklemek istiyor musunuz  ?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimateFrame/ADM_vidDecimateFrame.cpp" line="+54"/>
         <location line="+34"/>
         <source>Decimate</source>
-        <translation type="unfinished"></translation>
+        <translation>Yok etme</translation>
     </message>
     <message>
         <location line="-33"/>
         <source>Drop duplicate frames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yinelenen kareleri bırakın.</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Normal mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal mod</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Evaluation mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Değerlendirme modu</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Evaluation mode makes possible to examine the video by printing duplicate metric, while omitting frame dropping.</source>
-        <translation type="unfinished"></translation>
+        <translation>Değerlendirme modu, kare düşürmeyi atlarken yinelenen metrik yazdırarak videoyu incelemeyi mümkün kılar.</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mod:</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Parametreler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Duplicate threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yinelenen eşik:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Consecutive frame drop limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ardışık çerçeve bırakma sınırı:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Note: this filter won&apos;t change the reported frame rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Not: Bu filtre, bildirilen kare hızını değiştirmez</translation>
     </message>
 </context>
 <context>
@@ -6769,39 +6769,39 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.cpp" line="+38"/>
         <source>Fade from first image</source>
-        <translation type="unfinished"></translation>
+        <translation>İlk görüntüden solma</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Use image at start time for fading.</source>
-        <translation type="unfinished"></translation>
+        <translation>Solma için başlangıç zamanında görüntüyü kullanın.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+82"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Başlangıç zamanı:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Bitiş zamanı:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+76"/>
         <location line="+19"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="-16"/>
         <location line="+22"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
 </context>
 <context>
@@ -6809,97 +6809,97 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui" line="+14"/>
         <source>Fade from first image</source>
-        <translation type="unfinished"></translation>
+        <translation>İlk görüntüden solma</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B işaretlerinden ayarla</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Effect:</source>
-        <translation type="unfinished"></translation>
+        <translation>Efekt:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Linear blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Doğrusal karışım</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Slide</source>
-        <translation type="unfinished"></translation>
+        <translation>Kayma</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Wipe</source>
-        <translation type="unfinished"></translation>
+        <translation>Silip süpür</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Push</source>
-        <translation type="unfinished"></translation>
+        <translation>İt</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Luma dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Parlaklık çözünmesi</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Inverse luma dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Ters parlaklık çözünmesi</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Static random dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Sabit rastgele çözülme</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Dynamic random dissolve</source>
-        <translation type="unfinished"></translation>
+        <translation>Dinamik rastgele çözülme</translation>
     </message>
     <message>
         <location line="+9"/>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Yukarı</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Aşağı</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Start preview play before time scope, if you see green.</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeşil görürseniz, zaman kapsamından önce önizleme oynatmayı başlatın.</translation>
     </message>
 </context>
 <context>
@@ -6908,50 +6908,50 @@ Yüklemek istiyor musunuz  ?
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeIn.cpp" line="+24"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
         <source>Fade in</source>
-        <translation type="unfinished"></translation>
+        <translation>Aydınlat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade in from color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Renkten solma.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/ADM_vidFadeOut.cpp" line="+24"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+2"/>
         <source>Fade out</source>
-        <translation type="unfinished"></translation>
+        <translation>Karart</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade out to color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Renklendirmek için karartın.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+42"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Başlangıç zamanı:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Bitiş zamanı:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+99"/>
         <location line="+29"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="-26"/>
         <location line="+32"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
 </context>
 <context>
@@ -6959,32 +6959,32 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/fadeInOut.ui" line="+14"/>
         <source>Fade in/out</source>
-        <translation type="unfinished"></translation>
+        <translation>Karartma-aç/kapa</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B işaretlerinden ayarla</translation>
     </message>
     <message>
         <location line="+24"/>
         <source>Pick color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk seç:</translation>
     </message>
 </context>
 <context>
@@ -6992,72 +6992,73 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeThrough.cpp" line="+32"/>
         <source>Fade through</source>
-        <translation type="unfinished"></translation>
+        <translation>Solma</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade through combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Birden fazla efektin kombinasyonu ile kaybolur.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+162"/>
         <source>_Start time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Başlangıç zamanı:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Bitiş zamanı:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+32"/>
         <source>Not possible!
 Start and/or end time would be out of range</source>
-        <translation type="unfinished"></translation>
+        <translation>Mümkün değil!
+Başlangıç ve/veya bitiş zamanı aralık dışı olacaktır</translation>
     </message>
     <message>
         <location line="+170"/>
         <location line="+186"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="-183"/>
         <location line="+196"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
     <message>
         <location line="-5"/>
         <source>Center: </source>
-        <translation type="unfinished"></translation>
+        <translation>Merkez: </translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-518"/>
         <source>Fade in</source>
-        <translation type="unfinished"></translation>
+        <translation>Aydınlat</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade in from combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Birden fazla efektin kombinasyonundan kaybolur.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeOut.cpp" line="+32"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+2"/>
         <source>Fade out</source>
-        <translation type="unfinished"></translation>
+        <translation>Karart</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Fade out to combination of multiple effects.</source>
-        <translation type="unfinished"></translation>
+        <translation>Birden fazla efektin birleşimine kadar kaybolur.</translation>
     </message>
 </context>
 <context>
@@ -7065,43 +7066,43 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/fadeThrough.ui" line="+20"/>
         <source>Fade through</source>
-        <translation type="unfinished"></translation>
+        <translation>Solma</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Time scope: </source>
-        <translation type="unfinished"></translation>
+        <translation>Zaman kapsamı: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Center: </source>
-        <translation type="unfinished"></translation>
+        <translation>Merkez: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Duration: </source>
-        <translation type="unfinished"></translation>
+        <translation>Süre: </translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Elle zaman girişi</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set from A-B markers</source>
-        <translation type="unfinished"></translation>
+        <translation>A-B işaretlerinden ayarla</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Set center as A marker, duration is 2×|A-B|</source>
-        <translation type="unfinished"></translation>
+        <translation>Merkezi A işaretçisi olarak ayarlayın, süre 2×|A-B|</translation>
     </message>
     <message>
         <location line="+34"/>
         <location line="+19"/>
         <source>Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>Parlaklık</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -7112,7 +7113,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+131"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Etkin</translation>
     </message>
     <message>
         <location line="-790"/>
@@ -7123,7 +7124,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Transient</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçici</translation>
     </message>
     <message>
         <location line="-896"/>
@@ -7134,7 +7135,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Raised cosine</source>
-        <translation type="unfinished"></translation>
+        <translation>Yükseltilmiş kosinüs</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -7145,7 +7146,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Ramp</source>
-        <translation type="unfinished"></translation>
+        <translation>Rampa</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -7156,7 +7157,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>İkinci dereceden</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -7167,7 +7168,7 @@ Start and/or end time would be out of range</source>
         <location line="+126"/>
         <location line="+200"/>
         <source>Inverse quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>Ters ikinci dereceden</translation>
     </message>
     <message>
         <location line="-905"/>
@@ -7177,7 +7178,7 @@ Start and/or end time would be out of range</source>
         <location line="+257"/>
         <location line="+200"/>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Üstel</translation>
     </message>
     <message>
         <location line="-902"/>
@@ -7188,69 +7189,69 @@ Start and/or end time would be out of range</source>
         <location line="+131"/>
         <location line="+200"/>
         <source>duration</source>
-        <translation type="unfinished"></translation>
+        <translation>süre</translation>
     </message>
     <message>
         <location line="-880"/>
         <location line="+19"/>
         <source>Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Doygunluk</translation>
     </message>
     <message>
         <location line="+109"/>
         <source>Color blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk karışımı</translation>
     </message>
     <message>
         <location line="+31"/>
         <location line="+582"/>
         <source>Pick color</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk seç</translation>
     </message>
     <message>
         <location line="-516"/>
         <source>Peak amount</source>
-        <translation type="unfinished"></translation>
+        <translation>En yüksek miktar</translation>
     </message>
     <message>
         <location line="+103"/>
         <source>Blur</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulanıklık</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Blur radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Bulanıklık yarıçapı</translation>
     </message>
     <message>
         <location line="+106"/>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Döndür</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Peak angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Tepe açısı</translation>
     </message>
     <message>
         <location line="+107"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Yaklaştır</translation>
     </message>
     <message>
         <location line="+19"/>
         <source>Peak zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>En yüksek yakınlaştırma</translation>
     </message>
     <message>
         <location line="+112"/>
         <source>Vignette</source>
-        <translation type="unfinished"></translation>
+        <translation>Skeç</translation>
     </message>
     <message>
         <location line="+97"/>
         <source>Peak opening</source>
-        <translation type="unfinished"></translation>
+        <translation>En yüksek açılış</translation>
     </message>
 </context>
 <context>
@@ -8074,42 +8075,42 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+5"/>
         <source>Autoselect</source>
-        <translation type="unfinished"></translation>
+        <translation>Otomatik seçim</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation>1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation>2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>3</source>
-        <translation type="unfinished"></translation>
+        <translation>3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>4</source>
-        <translation type="unfinished"></translation>
+        <translation>4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>5</source>
-        <translation type="unfinished"></translation>
+        <translation>5</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>6</source>
-        <translation type="unfinished"></translation>
+        <translation>6</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>7</source>
-        <translation type="unfinished"></translation>
+        <translation>7</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8149,7 +8150,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Maximum Reference Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Azami Referans Çerçeveleri:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8219,7 +8220,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Weighted prediction is incompatible with B-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Ağırlıklı tahmin, B kareleriyle uyumlu değil</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8234,7 +8235,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>References</source>
-        <translation type="unfinished"></translation>
+        <translation>Referanslar</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -8396,37 +8397,37 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTS.cpp" line="+71"/>
         <source>Video track is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Video parçası uyumsuz</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Audio track %d out of %u is incompatible</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses parçası %d %u uyumsuz</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Audio track %d out of %u is incompatible with M2TS mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses parçası %d %u dışında M2TS moduyla uyumlu değil</translation>
     </message>
     <message>
         <location line="+15"/>
         <source>Only MPEG-1/2, VC-1, H264 and HEVC supported for video</source>
-        <translation type="unfinished"></translation>
+        <translation>Video için yalnızca MPEG-1/2, VC-1, H264 ve HEVC desteklenir</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Only AC3, E-AC3, DTS and TrueHD supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses için yalnızca AC3, E-AC3, DTS ve TrueHD desteklenir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Only MP2, MP3, AC3, E-AC3, DTS, AAC and TrueHD supported for audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Ses için yalnızca MP2, MP3, AC3, E-AC3, DTS, AAC ve TrueHD desteklenir</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Unsupported</source>
-        <translation type="unfinished"></translation>
+        <translation>Desteklenmeyen</translation>
     </message>
     <message>
         <location line="+87"/>
@@ -8436,7 +8437,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+28"/>
         <source>M2TS mode</source>
-        <translation type="unfinished"></translation>
+        <translation>M2TS mode</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8533,7 +8534,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-3"/>
         <source>Main10</source>
-        <translation type="unfinished"></translation>
+        <translation>Ana10</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -8553,12 +8554,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+3"/>
         <source>Allow B-frames</source>
-        <translation type="unfinished"></translation>
+        <translation>B-karelerine izin ver</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>On some Macs, disabling B-frames is not possible</source>
-        <translation type="unfinished"></translation>
+        <translation>Bazı Mac&apos;lerde B-karelerini devre dışı bırakmak mümkün değildir</translation>
     </message>
     <message>
         <source>Maximum Consecutive B-Frames:</source>
@@ -8587,7 +8588,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+17"/>
         <source>VideoToolbox HEVC Encoder Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>VideoAraç Kutusu HEVC Kodlayıcı Yapılandırması</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8649,63 +8650,63 @@ Değiştirmek istiyor musun?</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
         <location line="+146"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni filtre örnekleri için varsayılanlar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+19"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>En son kabul edilen</translation>
     </message>
     <message>
         <location line="-18"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift doğrusal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikübik</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kama</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Nearest Neighbor</source>
-        <translation type="unfinished"></translation>
+        <translation>En yakın Komşu</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolgu tipi:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Siyah Çubuklar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Yankı</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -9764,7 +9765,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location line="+4"/>
         <source>_Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>_Piksel biçimi:</translation>
     </message>
     <message>
         <source>_ColorSpace:</source>
@@ -10075,7 +10076,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location line="+20"/>
         <source>Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Ölçekleme</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -10184,7 +10185,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location line="+9"/>
         <source>Transition</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçiş</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -10265,7 +10266,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Matroska Video Parça Dizinleme</translation>
     </message>
 </context>
 <context>
@@ -11422,27 +11423,27 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
     <message>
         <location line="+35"/>
         <source>Pixel format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Piksel biçimi:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk aralığı:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color primaries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk seçimleri:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Transfer characteristics:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktarım özellikleri:</translation>
     </message>
     <message>
         <location line="+14"/>
         <source>Color space:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renk alanı:</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -11586,27 +11587,27 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_audioTracks.h" line="+31"/>
         <source>Track %d</source>
-        <translation type="unfinished"></translation>
+        <translation>Parça %d</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Enabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Etkin</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Configure</source>
-        <translation type="unfinished"></translation>
+        <translation>Yapılandır</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Filters</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtreler</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Duplicate first track&apos;s settings</source>
-        <translation type="unfinished"></translation>
+        <translation>İlk parçanın ayarlarını çoğalt</translation>
     </message>
 </context>
 <context>
@@ -11703,17 +11704,17 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <message>
         <location line="+16"/>
         <source>Default theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Varsayılan tema</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Light theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Aydınlık tema</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Dark theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Karanlık tema</translation>
     </message>
     <message>
         <location line="+604"/>
@@ -11748,7 +11749,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <message>
         <location line="+4"/>
         <source>Delete selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçimi sil</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -11803,42 +11804,42 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <message>
         <location line="+7"/>
         <source>Backward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>1 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 1 second</source>
-        <translation type="unfinished"></translation>
+        <translation>1 saniye ileri</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>2 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 2 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>2 saniye ileri</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Backward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 saniye geri</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Forward 4 seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>4 saniye ileri</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Rotate mouse wheel to switch mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modu değiştirmek için fare tekerleğini döndürün</translation>
     </message>
     <message>
         <location line="+611"/>
         <source>Zoom: </source>
-        <translation type="unfinished"></translation>
+        <translation>Yaklaştır: </translation>
     </message>
     <message>
         <location line="+445"/>
@@ -12064,7 +12065,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+239"/>
         <source>This filter is not partial</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu filtre kısmi değil</translation>
     </message>
     <message>
         <location line="+164"/>
@@ -12074,7 +12075,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+2"/>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Çoğalt</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -12100,7 +12101,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+3"/>
         <source>Make global</source>
-        <translation type="unfinished"></translation>
+        <translation>Genel yap</translation>
     </message>
     <message>
         <location line="+146"/>
@@ -12120,12 +12121,12 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+348"/>
         <source>Cannot add partial filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısmi filtre eklenemiyor</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>A selection by markers has to be made.</source>
-        <translation type="unfinished"></translation>
+        <translation>İşaretçilere göre bir seçim yapılmalıdır.</translation>
     </message>
 </context>
 <context>
@@ -12181,88 +12182,88 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+20"/>
         <source>RGB, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Planar RGB, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzlemsel RGB, 8-bit</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>RGBA, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGBA, 8-bit</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>RGB, 5-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB, 5-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (NV12), 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (NV12), 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <location line="+2"/>
         <source>Packed YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketlenmiş YUV 4:2:2, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:1:1, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:1:1, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 8-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Grayscale Y, 8-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>Gri Tonlamalı Y, 8 bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 10-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0 (P010), 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0 (P010), 10-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 10-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:0, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:0, 12-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:2:2, 10-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:2:2, 10-bit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>YUV 4:4:4, 12-bit</source>
-        <translation type="unfinished"></translation>
+        <translation>YUV 4:4:4, 12-bit</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -12271,188 +12272,188 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <location line="+37"/>
         <location line="+31"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinmeyen</translation>
     </message>
     <message>
         <location line="-98"/>
         <source>Limited (MPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sınırlı (MPEG)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Full (JPEG)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tam (JPEG)</translation>
     </message>
     <message>
         <location line="+7"/>
         <location line="+26"/>
         <location line="+39"/>
         <source>BT.709</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.709</translation>
     </message>
     <message>
         <location line="-63"/>
         <location line="+26"/>
         <source>BT.470 System M</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 Sistem M</translation>
     </message>
     <message>
         <location line="-24"/>
         <source>BT.601 PAL</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 PAL</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>BT.601 NTSC</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601 NTSC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Generic film</source>
-        <translation type="unfinished"></translation>
+        <translation>Genel film</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>XYZ</source>
-        <translation type="unfinished"></translation>
+        <translation>XYZ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>DCI P3</source>
-        <translation type="unfinished"></translation>
+        <translation>DCI P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Display P3</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekran P3</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>EBU Tech. 3213</source>
-        <translation type="unfinished"></translation>
+        <translation>EBU Tech. 3213</translation>
     </message>
     <message>
         <location line="+11"/>
         <location line="+39"/>
         <source>BT.470 System B/G</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.470 Sistem B/G</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>BT.601</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.601</translation>
     </message>
     <message>
         <location line="-37"/>
         <location line="+39"/>
         <source>SMPTE 240M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 240M</translation>
     </message>
     <message>
         <location line="-37"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Doğrusal</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (100:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logaritmik (100:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Logarithmic (316.227:1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logaritmik (316.227:1)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>xvYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>xvYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.1361</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.1361</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>sRGB/sYCC</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB/sYCC</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (10-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (10-bit)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 (12-bit)</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 (12-bit)</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>PQ</source>
-        <translation type="unfinished"></translation>
+        <translation>PQ</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>SMPTE 428M</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPTE 428M</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>HLG</source>
-        <translation type="unfinished"></translation>
+        <translation>HLG</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>sRGB</source>
-        <translation type="unfinished"></translation>
+        <translation>sRGB</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>FCC 73.682</source>
-        <translation type="unfinished"></translation>
+        <translation>FCC 73.682</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>YCgCo</source>
-        <translation type="unfinished"></translation>
+        <translation>YCgCo</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 non-constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 sabit-olmayan</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>BT.2020 constant</source>
-        <translation type="unfinished"></translation>
+        <translation>BT.2020 sabit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Y&apos;D&apos;zD&apos;x</source>
-        <translation type="unfinished"></translation>
+        <translation>Y&apos;D&apos;zD&apos;x</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Chromaticity-derived non-constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Renklendiriciden türetilmiş sabit olmayan</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Chromaticity-derived constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Renklendiriciden türetilmiş sabit</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>ICtCp</source>
-        <translation type="unfinished"></translation>
+        <translation>ICtCp</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -12692,22 +12693,22 @@ Hazır.
     <message>
         <location filename="../ADM_userInterfaces/ADM_filters/quickfilter.ui" line="+20"/>
         <source>Add Partial Video Filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısmi Video Filtresi Ekle</translation>
     </message>
     <message>
         <location line="+44"/>
         <source>&lt;big&gt;&lt;b&gt;Available Filters&lt;/b&gt;&lt;/big&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;big&gt;&lt;b&gt;Kullanılabilir Filtreler&lt;/b&gt;&lt;/big&gt;</translation>
     </message>
     <message>
         <location line="+64"/>
         <source>Type to narrow the list</source>
-        <translation type="unfinished"></translation>
+        <translation>Listeyi daraltmak için yazın</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kapat</translation>
     </message>
 </context>
 <context>
@@ -12873,47 +12874,47 @@ Hazır.
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
         <location line="+137"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni filtre örnekleri için varsayılanlar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>En son kabul edilen</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift doğrusal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikübik</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kama</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Nearest neighbor</source>
-        <translation type="unfinished"></translation>
+        <translation>En yakın komşu</translation>
     </message>
     <message>
         <location line="+259"/>
@@ -13110,7 +13111,7 @@ Hazır.
     <message>
         <location line="+0"/>
         <source>90° clockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>90° saat yönünde</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13125,7 +13126,7 @@ Hazır.
     <message>
         <location line="+0"/>
         <source>90° contraclockwise</source>
-        <translation type="unfinished"></translation>
+        <translation>90° saat yönünün tersine</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -13170,7 +13171,7 @@ Hazır.
         <translation>Ön izleme</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+123"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+120"/>
         <source>Peek Original</source>
         <translation>Orijinale Bak</translation>
     </message>
@@ -13192,22 +13193,22 @@ Hazır.
     <message>
         <location line="+1"/>
         <source>A</source>
-        <translation type="unfinished"></translation>
+        <translation>A</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the start of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçimin başına git</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>B</source>
-        <translation type="unfinished"></translation>
+        <translation>B</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Go to the end of the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Seçimin sonuna git</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -14174,7 +14175,7 @@ Dosya yeniden endekslenmelidir. devam edilsinmi?</translation>
     <message>
         <location line="+7"/>
         <source>Noise cutoff</source>
-        <translation type="unfinished"></translation>
+        <translation>Gürültü kesme</translation>
     </message>
     <message>
         <location line="-54"/>
@@ -14258,7 +14259,7 @@ Yalnızca VP8 / VP9 video ve Vorbis / Opus ses desteklenir</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -14268,7 +14269,7 @@ Yalnızca VP8 / VP9 video ve Vorbis / Opus ses desteklenir</translation>
     <message>
         <location line="+1"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinmeyen</translation>
     </message>
     <message>
         <location line="+55"/>
@@ -17206,80 +17207,80 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/ADM_vidZoom.cpp" line="+69"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Yakınlaştırma</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Partializable crop filter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısmileştirilebilir kırpma filtresi.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+488"/>
         <location line="+425"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Seçim: </translation>
     </message>
     <message>
         <location line="-326"/>
         <location line="+184"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni filtre örnekleri için varsayılanlar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Resize method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>
     <message>
         <location line="+3"/>
         <location line="+18"/>
         <source>Most recently accepted</source>
-        <translation type="unfinished"></translation>
+        <translation>En son kabul edilen</translation>
     </message>
     <message>
         <location line="-17"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift doğrusal</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikübik</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Lanczos</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kama</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Padding type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolgu tipi:</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Black Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Siyah Çubuklar</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Echo</source>
-        <translation type="unfinished"></translation>
+        <translation>Yankı</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiçbiri</translation>
     </message>
 </context>
 <context>
@@ -17288,142 +17289,142 @@ Bir sistem profiliyse bir dahaki sefere yeniden oluşturulur.</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt4/zoom.ui" line="+14"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+14"/>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Yaklaştır</translation>
     </message>
     <message>
         <location line="+38"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+105"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sağ:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+42"/>
         <source>Top:</source>
-        <translation type="unfinished"></translation>
+        <translation>Üst:</translation>
     </message>
     <message>
         <location line="+43"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Sıfırla</translation>
     </message>
     <message>
         <location line="+21"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-28"/>
         <source>Bottom:</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt:</translation>
     </message>
     <message>
         <location line="+7"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="+45"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sol:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/zoom.ui" line="-124"/>
         <source>Resize Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeniden Boyutlandırma Yöntemi:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift doğrusal</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikübik</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Lanczos-3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Spline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kama</translation>
     </message>
     <message>
         <location line="+63"/>
         <source>Lock Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>En Boy Oranını Kilitle:</translation>
     </message>
     <message>
         <location line="+31"/>
         <source>&amp;Hide Rubber Band</source>
-        <translation type="unfinished"></translation>
+        <translation>Lastik Bandı &amp;Gizle</translation>
     </message>
     <message>
         <location line="+16"/>
         <source>Selection: </source>
-        <translation type="unfinished"></translation>
+        <translation>Seçim: </translation>
     </message>
     <message>
         <location line="+16"/>
         <location line="+4"/>
         <source>Do not lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Kilitleme</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Current selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Geçerli seçim</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaynak</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>21:9</source>
-        <translation type="unfinished"></translation>
+        <translation>21:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>18:9</source>
-        <translation type="unfinished"></translation>
+        <translation>18:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>16:9</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation type="unfinished"></translation>
+        <translation>4:3</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1:1</source>
-        <translation type="unfinished"></translation>
+        <translation>1:1</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>9:16</source>
-        <translation type="unfinished"></translation>
+        <translation>9:16</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolgu:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>black bars</source>
-        <translation type="unfinished"></translation>
+        <translation>siyah çubuklar</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>echo</source>
-        <translation type="unfinished"></translation>
+        <translation>yankı</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>none (stretch)</source>
-        <translation type="unfinished"></translation>
+        <translation>hiçbiri (uzatma)</translation>
     </message>
 </context>
 </TS>
