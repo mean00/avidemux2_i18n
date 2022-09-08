@@ -3268,7 +3268,7 @@ Proceed anyway?</source>
     <message>
         <location line="+24"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
-        <translation>Невозможно установить язык аудио: видео не ещё загрузилось!</translation>
+        <translation>Невозможно установить язык аудио: видео ещё не было загружено!</translation>
     </message>
     <message>
         <location line="+8"/>
