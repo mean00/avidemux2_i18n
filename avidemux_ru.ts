@@ -1131,7 +1131,7 @@ Drop timing informations ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
         <source>Decode video using DXVA2 (windows)</source>
-        <translation>Декодировать видео посредством DXVA2 (Windows)</translation>
+        <translation>Декодировать видео с помощью DXVA2 (Windows)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1146,7 +1146,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+10"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
-        <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуск приложения</translation>
+        <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуска приложения</translation>
     </message>
     <message>
         <location line="-386"/>
@@ -1166,7 +1166,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Re_verse UP and DOWN arrow keys for navigation</source>
-        <translation>_Обратить действие клавиш UP и DOWN при навигации</translation>
+        <translation>_Обратить действие клавиш ВВЕРХ и ВНИЗ при навигации</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1251,7 +1251,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+3"/>
         <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
-        <translation>Многопоточность автоматически отключается при включении аппаратного ускорения, изменения требуют перезапуск приложения</translation>
+        <translation>Многопоточность автоматически отключается при включении аппаратного ускорения, изменения требуют перезапуска приложения</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2767,7 +2767,7 @@ Is it running ?</source>
     <message>
         <location line="+4"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить отображение OpenGL в окне предпросмотра фильтров</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3268,7 +3268,7 @@ Proceed anyway?</source>
     <message>
         <location line="+24"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
-        <translation>Невозможно установить язык аудио: видео не загружено!</translation>
+        <translation>Невозможно установить язык аудио: видео не ещё загрузилось!</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -12842,7 +12842,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>swScale Resizer.</source>
-        <translation>Изменить размер посредством libswscale.</translation>
+        <translation>Изменить размер с помощью swScale.</translation>
     </message>
 </context>
 <context>
