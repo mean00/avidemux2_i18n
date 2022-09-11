@@ -2767,7 +2767,7 @@ Is it running ?</source>
     <message>
         <location line="+4"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
-        <translation>Включить отображение OpenGL в окне предпросмотра фильтров</translation>
+        <translation>Включить отображение через OpenGL в окне предпросмотра фильтров</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3268,7 +3268,7 @@ Proceed anyway?</source>
     <message>
         <location line="+24"/>
         <source>Unable to set the audio language: No video loaded yet!</source>
-        <translation>Невозможно установить язык аудио: видео ещё не было загружено!</translation>
+        <translation>Невозможно установить язык аудио: видео не загружено!</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -12842,7 +12842,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>swScale Resizer.</source>
-        <translation>Изменить размер с помощью swScale.</translation>
+        <translation>Изменить размер с помощью libswscale.</translation>
     </message>
 </context>
 <context>
