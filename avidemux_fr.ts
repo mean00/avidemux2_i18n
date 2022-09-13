@@ -11850,7 +11850,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

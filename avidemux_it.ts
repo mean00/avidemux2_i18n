@@ -12332,7 +12332,7 @@ DEI TERMINI E DELLE CONDIZIONI&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

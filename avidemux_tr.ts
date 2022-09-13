@@ -12124,7 +12124,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation>Kısmi filtre eklenemiyor</translation>
     </message>
     <message>

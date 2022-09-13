@@ -11969,7 +11969,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+363"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

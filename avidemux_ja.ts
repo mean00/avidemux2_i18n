@@ -11840,7 +11840,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+583"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation>部分化フィルターを追加できません</translation>
     </message>
     <message>

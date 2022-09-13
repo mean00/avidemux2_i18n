@@ -11990,7 +11990,7 @@ Bieżąca edycja została zapisana i zostanie ponownie załadowana przy następn
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

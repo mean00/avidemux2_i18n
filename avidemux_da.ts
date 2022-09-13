@@ -11983,7 +11983,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

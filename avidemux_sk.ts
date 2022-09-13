@@ -12057,7 +12057,7 @@ Súčasná úprava bola uložená a pri ďalšom štarte bude znovu načítaná<
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation>Nepodarilo sa pridať čiastočný filter</translation>
     </message>
     <message>

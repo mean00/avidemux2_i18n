@@ -11961,7 +11961,7 @@ Der letzte Bearbeitungsstand wurde gespeichert und wird beim nächsten Anwendung
     </message>
     <message>
         <location line="+348"/>
-        <source>Cannot add partial filter</source>
+        <source>Can not add partial filter</source>
         <translation>Kann partiellen Filter nicht hinzufügen</translation>
     </message>
     <message>
