@@ -31,12 +31,12 @@
     <message>
         <location line="+3"/>
         <source>%sdifferent between first and this video stream</source>
-        <translation>%srozdielna(e) medzi prvým a týmto videom</translation>
+        <translation>%srozdielna medzi prvým a týmto videom</translation>
     </message>
     <message>
         <location line="+1"/>
         <source> are </source>
-        <translation> sú </translation>
+        <translation> je </translation>
     </message>
     <message>
         <location line="+0"/>
@@ -560,7 +560,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+33"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Video dekóder&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;Video dekodér&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+75"/>
@@ -1171,7 +1171,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+1"/>
         <source>Save as Image</source>
-        <translation>&amp;Uložiť ako obrázok</translation>
+        <translation>Uložiť ako obrázok</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1274,7 +1274,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+6"/>
         <source>Decoder Option</source>
-        <translation>Možnosti dekódera</translation>
+        <translation>Možnosti dekodéra</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2033,7 +2033,7 @@ Vypustiť časové údaje?</translation>
     <message>
         <location line="+24"/>
         <source>Video Decoder</source>
-        <translation>Video dekóder</translation>
+        <translation>Video dekodér</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -9898,7 +9898,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+2"/>
         <source>Decoder Options</source>
-        <translation>Možnosti dekódera</translation>
+        <translation>Možnosti dekodéra</translation>
     </message>
 </context>
 <context>
@@ -16951,7 +16951,7 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     <message>
         <location line="+1"/>
         <source>Framedrop _Ratio:</source>
-        <translation>Pomer úbytku snímok:</translation>
+        <translation>Pomer _úbytku snímok:</translation>
     </message>
     <message>
         <location line="+2"/>
