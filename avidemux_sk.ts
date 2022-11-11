@@ -2859,7 +2859,7 @@ Je potrebné na vytvorenie FLV videa.</translation>
         <source>You don&apos;t have FAAC!.
 It is needed to create PSP compatible video.</source>
         <translation>Nemáte FAAC!
-To je potrebný na vytvorenie PSP kompatibilného videa.</translation>
+To je potrebné na vytvorenie PSP kompatibilného videa.</translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="-1551"/>
@@ -3029,7 +3029,7 @@ This indicates an issue with a source video, the state of editing or a bug in th
 Proceed anyway?</source>
         <translation>Body rezu nebolo možné skontrolovať.
 Naznačuje to problém so zdrojovým videom, stav úpravy alebo chybu v programe. Skontrolujte podrobnosti v protokolovom súbore aplikácie alebo výstupe z konzoly.
-PNapriek tomu pokračovať?</translation>
+Napriek tomu pokračovať?</translation>
     </message>
     <message>
         <location line="+120"/>
@@ -5115,7 +5115,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location line="+1"/>
         <source>Constant Rate Factor</source>
-        <translation>Faktor konštantného rýchlosti</translation>
+        <translation>Faktor konštantnej rýchlosti</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8752,7 +8752,7 @@ Chcete ho nahradiť?</translation>
     <message>
         <location line="+74"/>
         <source>0%</source>
-        <translation>0%</translation>
+        <translation>0 %</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -8762,7 +8762,7 @@ Chcete ho nahradiť?</translation>
     <message>
         <location line="+20"/>
         <source>100%</source>
-        <translation>100%</translation>
+        <translation>100 %</translation>
     </message>
     <message>
         <location line="+47"/>
@@ -8970,12 +8970,12 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="-16"/>
         <source>Only FLV1 &amp; VP6 supported for video</source>
-        <translation>Podporované len pre video FLV1 &amp; VP6</translation>
+        <translation>Podporované len pre video FLV1 a VP6</translation>
     </message>
     <message>
         <location line="+10"/>
         <source>Only AAC &amp; mpegaudio supported for audio</source>
-        <translation>Podporované len pre audio AAC &amp; mpegaudio</translation>
+        <translation>Podporované len pre audio AAC a mpegaudio</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -9014,7 +9014,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_fragment/sampleGl.cpp" line="+68"/>
         <source>OpenGl Fragment Shader Sample</source>
-        <translation>Príklad fragmentácie shaderov OpenGL</translation>
+        <translation>OpenGL fragmentácia shaderov vzorka</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9091,7 +9091,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glGlyphy/glGlyphy.cpp" line="+68"/>
         <source>OpenGl Fragment Shader Sample</source>
-        <translation>Príklad fragmentácie shaderov OpenGL</translation>
+        <translation>OpenGL fragmentácia shaderov vzorka</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9127,7 +9127,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glSmooth/glSmooth.cpp" line="+61"/>
         <source>OpenGl Smooth</source>
-        <translation>Vyhladenie OpenGL</translation>
+        <translation>OpenGL vyhladenie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9160,7 +9160,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location line="+1"/>
         <source>Double framerate</source>
-        <translation>Dvojitá snímková frakvencia</translation>
+        <translation>Dvojitá snímková frekvencia</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9193,7 +9193,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/sample_vertex/sampleGl.cpp" line="+59"/>
         <source>OpenGl Vertex Shader</source>
-        <translation>Vrcholové shadery OpenGL</translation>
+        <translation>OpenGL vrcholové shadery</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10584,7 +10584,7 @@ Podporované je iba VP8/VP9/AV1 video a zvuk Vorbis/Opus audio</translation>
     <message>
         <location line="+1"/>
         <source>Aspect Ratio (DAR):</source>
-        <translation>Aspect Ratio (DAR):</translation>
+        <translation>Pomer strán (DAR):</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -10954,7 +10954,7 @@ Podporované je iba VP8/VP9/AV1 video a zvuk Vorbis/Opus audio</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4v2/muxerMp4v2Audio.cpp" line="+53"/>
         <source>Invalid frequency for AC3. Only 32, 44.1 &amp; 48 kHz</source>
-        <translation>Neplatná frekvencia pre AC3. Len 32, 44,1 &amp; 48 kHz</translation>
+        <translation>Neplatná frekvencia pre AC3. Len 32, 44,1 a 48 kHz</translation>
     </message>
     <message>
         <location line="+19"/>
