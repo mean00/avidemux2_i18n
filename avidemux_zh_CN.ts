@@ -55,7 +55,7 @@
 1.) &quot;resize&quot; / &quot;add border&quot; / &quot;crop&quot; each stream to the same resolution
 2.) concatenate them together</source>
         <translation>您还不能混合不同的视频尺寸.稍后使用部分视频过滤器程序将无法解决此问题,解决方法是:
-1) &quot;重设大小&quot; / &quot;增加边框&quot; / &quot;剪切&quot; 每个流到同一分辨率
+1) &quot;调整尺寸&quot; / &quot;增加边框&quot; / &quot;剪切&quot; 每个流到同一分辨率
 2) 将它们串联在一起</translation>
     </message>
     <message>
@@ -165,12 +165,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+259"/>
         <source>Video Size:</source>
-        <translation>视频大小:</translation>
+        <translation>视频尺寸:</translation>
     </message>
     <message>
         <location line="-7"/>
         <source>Audio Size:</source>
-        <translation>音频大小:</translation>
+        <translation>音频尺寸:</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -250,7 +250,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+171"/>
         <source>Custom Size:</source>
-        <translation>自定义大小:</translation>
+        <translation>自定义尺寸:</translation>
     </message>
     <message>
         <location line="-98"/>
@@ -260,7 +260,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+355"/>
         <source>Total Size:</source>
-        <translation>总大小:</translation>
+        <translation>总尺寸:</translation>
     </message>
     <message>
         <location line="+120"/>
@@ -320,7 +320,7 @@ Drop timing informations ?</source>
     </message>
     <message>
         <source>Enabled</source>
-        <translation type="vanished">已启用</translation>
+        <translation type="vanished">启用</translation>
     </message>
     <message>
         <source>Filters</source>
@@ -438,7 +438,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+7"/>
         <source>File being written </source>
-        <translation>文件正被写入 </translation>
+        <translation>文件写入中</translation>
     </message>
     <message>
         <location line="-27"/>
@@ -477,7 +477,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-8"/>
         <source>SBR enabled</source>
-        <translation>SBR 已启用</translation>
+        <translation>SBR 启用</translation>
     </message>
 </context>
 <context>
@@ -2425,7 +2425,7 @@ Installation mismatch</source>
     <message>
         <location line="+2"/>
         <source>&lt;hr&gt;&lt;p&gt;The final delay will be the sum of a value above and the &quot;Shift audio&quot; value provided on the Main tab&lt;/p&gt;</source>
-        <translation>&lt;hr&gt;&lt;p&gt;最终的延时将是上述这些值之和加上主tab中的&quot;音频时移&quot;的值&lt;/p&gt;</translation>
+        <translation>&lt;hr&gt;&lt;p&gt;最终的延时将是上述这些值之和加上主tab中的&quot;音频偏移&quot;的值&lt;/p&gt;</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2435,7 +2435,7 @@ Installation mismatch</source>
     <message>
         <location line="+4"/>
         <source>Enable Remap</source>
-        <translation>启用重映射(Remap)</translation>
+        <translation>启用重映射</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3026,7 +3026,7 @@ It is needed to create PSP compatible video.</source>
     <message>
         <location filename="../../common/gui_main.cpp" line="+940"/>
         <source>Frame size:</source>
-        <translation>帧大小:</translation>
+        <translation>帧尺寸:</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3095,7 +3095,7 @@ Do you want to continue anyway ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_audioFilter.cpp" line="+18"/>
         <source>Manual (dB)</source>
-        <translation>手册 (dB)</translation>
+        <translation>手动 (dB)</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+4"/>
@@ -3360,7 +3360,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     <message>
         <location line="+41"/>
         <source>_Cache size:</source>
-        <translation>高速缓存大小:</translation>
+        <translation>高速缓存尺寸:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3564,7 +3564,7 @@ Installation mismatch</source>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+133"/>
         <source>_Vertical deblocking</source>
-        <translation>去除垂直方向块状色斑</translation>
+        <translation>去除垂直方向块色斑</translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="+1282"/>
@@ -3800,7 +3800,7 @@ Install lame plugin</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-29"/>
         <source>_Interlaced</source>
-        <translation>交错</translation>
+        <translation>隔行扫描</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+83"/>
@@ -3890,7 +3890,7 @@ Install lame plugin</source>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+204"/>
         <source>_Horizontal deblocking</source>
-        <translation>去除水平方向块状色斑</translation>
+        <translation>去除水平方向块色斑</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edFrameType.cpp" line="+72"/>
@@ -3925,7 +3925,7 @@ Install lame plugin</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-26"/>
         <source>Trellis Quantization</source>
-        <translation>框架(Trellis)量化</translation>
+        <translation>棚架(Trellis)量化</translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
@@ -4311,7 +4311,7 @@ Expect problems.</source>
     <message>
         <location line="+10"/>
         <source>Cutoff slope</source>
-        <translation>切除(Cutoff)斜率</translation>
+        <translation>截止斜率</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -4362,7 +4362,7 @@ Expect problems.</source>
     <message>
         <location line="+83"/>
         <source>Cutoff slope</source>
-        <translation>切除(Cutoff)斜率</translation>
+        <translation>截止斜率</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -4729,7 +4729,7 @@ Expect problems.</source>
     <message>
         <location line="+70"/>
         <source>Sync error filter</source>
-        <translation>同步错误过滤器</translation>
+        <translation>同步错误过滤</translation>
     </message>
     <message>
         <location line="+34"/>
@@ -5098,23 +5098,23 @@ This message will not be displayed again.</source>
     <message>
         <location line="+1"/>
         <source>Constant Quantiser</source>
-        <translation>恒定量化器(QP模式)</translation>
+        <translation>恒定量化</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Constant Rate Factor</source>
-        <translation>固定速率因子</translation>
+        <translation>固定速率系数</translation>
     </message>
     <message>
         <location line="+105"/>
         <source>Target video size (MB)</source>
-        <translation>目标视频大小 (MB)</translation>
+        <translation>目标视频尺寸 (MB)</translation>
     </message>
     <message>
         <location line="-5"/>
         <location line="+19"/>
         <source>Quantizer</source>
-        <translation>量化器</translation>
+        <translation>量化</translation>
     </message>
     <message>
         <location line="-115"/>
@@ -5129,7 +5129,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="-8"/>
         <source>Two Pass - Video Size</source>
-        <translation>2通 - 视频大小</translation>
+        <translation>2通 - 视频尺寸</translation>
     </message>
     <message>
         <location line="+109"/>
@@ -5258,7 +5258,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="+11"/>
         <source>Frames</source>
-        <translation>帧数</translation>
+        <translation>帧</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -5938,7 +5938,7 @@ Do you want to load it  ?
         <location line="+4"/>
         <location line="+72"/>
         <source>Invalid file size</source>
-        <translation>文件大小错误</translation>
+        <translation>文件尺寸错误</translation>
     </message>
     <message>
         <location line="-68"/>
@@ -6017,7 +6017,7 @@ Do you want to load it  ?
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation>遮罩(Mask)</translation>
+        <translation>蒙版(Mask)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6264,17 +6264,17 @@ Do you want to load it  ?
     <message>
         <location line="+5"/>
         <source>This black and white image will serve as a mask where white pixels correspond to the logo to be removed.</source>
-        <translation>使用这副黑白图像作为遮罩, 它的白色像素对应的logo将被移除</translation>
+        <translation>使用这副黑白图像作为蒙版, 它的白色像素对应的logo将被移除</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>If the logo has fully transparent areas, it is recommended to exclude them from the mask by making them black.</source>
-        <translation>如果logo有全透明的区域, 建议从遮罩中设为黑色以排除.</translation>
+        <translation>如果logo有全透明的区域, 建议从蒙版中设为黑色以排除.</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Load the mask image.</source>
-        <translation>加载遮罩图像</translation>
+        <translation>加载蒙版图像</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -6294,7 +6294,7 @@ Do you want to load it  ?
     <message>
         <location line="+17"/>
         <source>Load mask</source>
-        <translation>加载遮罩文件</translation>
+        <translation>加载蒙版文件</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -6312,7 +6312,7 @@ Do you want to load it  ?
     <message>
         <location line="+21"/>
         <source>Mask</source>
-        <translation>遮罩(Mask)</translation>
+        <translation>蒙版(Mask)</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -6322,7 +6322,7 @@ Do you want to load it  ?
     <message>
         <location line="+20"/>
         <source>Load mask</source>
-        <translation>加载遮罩文件</translation>
+        <translation>加载蒙版文件</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -6365,7 +6365,7 @@ Do you want to load it  ?
     <message>
         <location line="+21"/>
         <source>_Top Field First:</source>
-        <translation>顶部区域优先:</translation>
+        <translation>顶部场优先:</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -6474,7 +6474,7 @@ Do you want to load it  ?
     <message>
         <location line="-81"/>
         <source>Main</source>
-        <translation>Main</translation>
+        <translation>主要</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -6496,12 +6496,12 @@ Do you want to load it  ?
     <message>
         <location line="+340"/>
         <source>Video Size:</source>
-        <translation>视频大小:</translation>
+        <translation>视频尺寸:</translation>
     </message>
     <message>
         <location line="-28"/>
         <source>Audio Size:</source>
-        <translation>音频大小:</translation>
+        <translation>音频尺寸:</translation>
     </message>
     <message>
         <location line="-296"/>
@@ -6516,7 +6516,7 @@ Do you want to load it  ?
     <message>
         <location line="+141"/>
         <source>Processed Frames:</source>
-        <translation>已处理的帧数:</translation>
+        <translation>已处理的帧:</translation>
     </message>
     <message>
         <location line="-384"/>
@@ -6556,7 +6556,7 @@ Do you want to load it  ?
     <message>
         <location line="+472"/>
         <source>Quantiser:</source>
-        <translation>量化器:</translation>
+        <translation>量化:</translation>
     </message>
     <message>
         <location line="-437"/>
@@ -6601,7 +6601,7 @@ Do you want to load it  ?
     <message>
         <location line="+31"/>
         <source>Minimize to Tray</source>
-        <translation>缩到工具栏上</translation>
+        <translation>最小化到工具栏上</translation>
     </message>
     <message>
         <location line="+33"/>
@@ -6622,7 +6622,7 @@ Do you want to load it  ?
     <message>
         <location line="+71"/>
         <source>Total Size:</source>
-        <translation>总大小:</translation>
+        <translation>总尺寸:</translation>
     </message>
 </context>
 <context>
@@ -6715,7 +6715,7 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/ADM_vidFadeFromImage.cpp" line="+38"/>
         <source>Fade from first image</source>
-        <translation>从首画面淡入</translation>
+        <translation>从首画面渐入</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -6735,7 +6735,7 @@ Do you want to load it  ?
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+65"/>
@@ -6755,7 +6755,7 @@ Do you want to load it  ?
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/fadeFromImage.ui" line="+14"/>
         <source>Fade from first image</source>
-        <translation>从首画面淡入</translation>
+        <translation>从首画面渐入</translation>
     </message>
     <message>
         <location line="+23"/>
@@ -6770,7 +6770,7 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -6885,7 +6885,7 @@ Do you want to load it  ?
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+88"/>
@@ -6920,7 +6920,7 @@ Do you want to load it  ?
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -6958,7 +6958,7 @@ Do you want to load it  ?
     <message>
         <location line="+3"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -7032,7 +7032,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+7"/>
         <source>Manual time entry</source>
-        <translation>手动设置进入时间</translation>
+        <translation>手动设置时间入口</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -7318,7 +7318,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+3"/>
         <source>Constant Rate Factor</source>
-        <translation>固定速率因子</translation>
+        <translation>固定速率系数</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7407,7 +7407,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-11"/>
         <source>Constant Rate Factor</source>
-        <translation>固定速率因子</translation>
+        <translation>固定速率系数</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7461,12 +7461,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+38"/>
         <source>_Trellis quantization</source>
-        <translation>框架量化</translation>
+        <translation>棚架量化</translation>
     </message>
     <message>
         <location line="-4"/>
         <source>Max. quantizer _difference:</source>
-        <translation>最大量化器差异:</translation>
+        <translation>最大量化差异:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7481,7 +7481,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+41"/>
         <source>_Filesize tolerance (kb):</source>
-        <translation>文件大小容许误差(kb):</translation>
+        <translation>文件尺寸容许误差(kb):</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -7491,7 +7491,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-5"/>
         <source>Quantizer _blur:</source>
-        <translation>量化器模糊:</translation>
+        <translation>量化模糊:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7511,7 +7511,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+28"/>
         <source>Top Field First</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -7526,7 +7526,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+33"/>
         <source>Mi_n. quantizer:</source>
-        <translation>最小量化器:</translation>
+        <translation>最小量化:</translation>
     </message>
     <message>
         <location line="+45"/>
@@ -7611,12 +7611,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-27"/>
         <source>Interlaced</source>
-        <translation>交错的</translation>
+        <translation>隔行扫描</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Bottom Field First</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -7626,7 +7626,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-49"/>
         <source>Ma_x. quantizer:</source>
-        <translation>最大量化器:</translation>
+        <translation>最大量化:</translation>
     </message>
     <message>
         <location line="-28"/>
@@ -7646,7 +7646,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-5"/>
         <source>_Quantizer compression:</source>
-        <translation>量化器压缩:</translation>
+        <translation>量化压缩:</translation>
     </message>
 </context>
 <context>
@@ -7669,7 +7669,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+28"/>
         <source>_Trellis quantization</source>
-        <translation>框架量化</translation>
+        <translation>棚架量化</translation>
     </message>
     <message>
         <location line="-29"/>
@@ -7679,7 +7679,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+26"/>
         <source>Max. quantizer _difference:</source>
-        <translation>最大量化器差异:</translation>
+        <translation>最大量化差异:</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -7689,12 +7689,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+31"/>
         <source>_Filesize tolerance (kb):</source>
-        <translation>文件大小容许误差(kb):</translation>
+        <translation>文件尺寸容许误差(kb):</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Quantizer _blur:</source>
-        <translation>量化器模糊:</translation>
+        <translation>量化模糊:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7714,7 +7714,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-25"/>
         <source>Mi_n. quantizer:</source>
-        <translation>最小量化器:</translation>
+        <translation>最小量化:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -7784,7 +7784,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-42"/>
         <source>Ma_x. quantizer:</source>
-        <translation>最大量化器:</translation>
+        <translation>最大量化:</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -7794,7 +7794,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+37"/>
         <source>_Quantizer compression:</source>
-        <translation>量化器压缩:</translation>
+        <translation>量化压缩:</translation>
     </message>
 </context>
 <context>
@@ -7832,7 +7832,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+28"/>
         <source>_Trellis quantization</source>
-        <translation>框架量化</translation>
+        <translation>棚架量化</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -7847,7 +7847,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+24"/>
         <source>Max. quantizer _difference:</source>
-        <translation>最大量化器差异:</translation>
+        <translation>最大量化差异:</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -7857,12 +7857,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+13"/>
         <source>_Filesize tolerance (kb):</source>
-        <translation>文件大小容许误差(kb):</translation>
+        <translation>文件尺寸容许误差(kb):</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Quantizer _blur:</source>
-        <translation>量化器模糊:</translation>
+        <translation>量化模糊:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -7877,7 +7877,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-12"/>
         <source>Mi_n. quantizer:</source>
-        <translation>最小量化器:</translation>
+        <translation>最小量化:</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -7902,7 +7902,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-21"/>
         <source>Ma_x. quantizer:</source>
-        <translation>最大量化器:</translation>
+        <translation>最大量化:</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -7912,7 +7912,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+16"/>
         <source>_Quantizer compression:</source>
-        <translation>量化器压缩:</translation>
+        <translation>量化压缩:</translation>
     </message>
 </context>
 <context>
@@ -7956,7 +7956,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-26"/>
         <source>Constant Quantizer</source>
-        <translation>固定量化器</translation>
+        <translation>固定量化</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -8263,7 +8263,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+3"/>
         <source>VBV size (kBytes)</source>
-        <translation>VBV 大小 (kBytes)</translation>
+        <translation>VBV 尺寸 (kBytes)</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="+95"/>
@@ -8569,7 +8569,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+1"/>
         <source>Resize and pad to the specified size.</source>
-        <translation>调整大小并填塞到指定的尺寸</translation>
+        <translation>调整尺寸并填塞到指定的尺寸</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
@@ -8749,7 +8749,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+22"/>
         <source>Current input dimensions:</source>
-        <translation>当前输入大小:</translation>
+        <translation>当前输入尺寸:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -8827,7 +8827,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+18"/>
         <source>_Trellis quantization</source>
-        <translation>框架量化</translation>
+        <translation>棚架量化</translation>
     </message>
     <message>
         <location line="-19"/>
@@ -8837,7 +8837,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+18"/>
         <source>Max. quantizer _difference:</source>
-        <translation>最大量化器差异:</translation>
+        <translation>最大量化差异:</translation>
     </message>
     <message>
         <location line="-11"/>
@@ -8847,12 +8847,12 @@ Do you want to replace it?</source>
     <message>
         <location line="+13"/>
         <source>_Filesize tolerance (kb):</source>
-        <translation>文件大小容许误差(kb):</translation>
+        <translation>文件尺寸容许误差(kb):</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Quantizer _blur:</source>
-        <translation>量化器模糊:</translation>
+        <translation>量化模糊:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -8867,7 +8867,7 @@ Do you want to replace it?</source>
     <message>
         <location line="-15"/>
         <source>Mi_n. quantizer:</source>
-        <translation>最小量化器:</translation>
+        <translation>最小量化:</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -8887,7 +8887,7 @@ Do you want to replace it?</source>
     <message>
         <location line="-24"/>
         <source>Ma_x. quantizer:</source>
-        <translation>最大量化器:</translation>
+        <translation>最大量化:</translation>
     </message>
     <message>
         <location line="+27"/>
@@ -8902,7 +8902,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+19"/>
         <source>_Quantizer compression:</source>
-        <translation>量化器压缩:</translation>
+        <translation>量化压缩:</translation>
     </message>
 </context>
 <context>
@@ -9001,7 +9001,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.cpp" line="+218"/>
         <source>glResize</source>
-        <translation>重设大小(glResize)</translation>
+        <translation>调整尺寸(glResize)</translation>
     </message>
     <message>
         <location line="-152"/>
@@ -9111,7 +9111,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="-1"/>
         <source>_Resize:</source>
-        <translation>调整大小:</translation>
+        <translation>调整尺寸:</translation>
     </message>
     <message>
         <location line="-6"/>
@@ -9131,7 +9131,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="-187"/>
         <source>VDPAU deinterlacer+resize, openGl version (faster).</source>
-        <translation>VDPAU去交错+重设大小, openGl 版本 (更快).</translation>
+        <translation>VDPAU去交错+调整尺寸, openGl 版本 (更快).</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -9195,7 +9195,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+190"/>
         <source>Top field first</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9230,7 +9230,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+4"/>
         <source>Bottom field first</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
 </context>
 <context>
@@ -9372,7 +9372,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+17"/>
         <source>Gravity</source>
-        <translation>重力(Gravity)</translation>
+        <translation>重力</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -9679,7 +9679,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="-5"/>
         <source>_Quantizer:</source>
-        <translation>量化器:</translation>
+        <translation>量化:</translation>
     </message>
     <message>
         <location line="-3"/>
@@ -10054,7 +10054,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+33"/>
         <source>frames</source>
-        <translation>帧数</translation>
+        <translation>帧</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -10115,7 +10115,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+97"/>
         <source>Transition</source>
-        <translation>转场</translation>
+        <translation>转换</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -10209,7 +10209,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+42"/>
         <source>Extra slow (same as 3+multiple reference frames)</source>
-        <translation>特别慢 (同于3或3倍数以上的参考帧数)</translation>
+        <translation>特别慢 (同于3倍+的参考帧数)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -10471,7 +10471,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+1"/>
         <source>16: ITU-R BT.2100 Perceptual Quantization</source>
-        <translation>16: ITU-R BT.2100 知觉量化器(Perceptual Quantization)</translation>
+        <translation>16: ITU-R BT.2100 知觉量化(Perceptual Quantization)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10604,7 +10604,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+33"/>
         <source>S_patial chroma strength:</source>
-        <translation>空间的色度强度:</translation>
+        <translation>空域的色度强度:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10614,7 +10614,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-2"/>
         <source>_Spatial luma strength:</source>
-        <translation>空间的亮度强度:</translation>
+        <translation>空域的亮度强度:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -10632,7 +10632,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3Dlow.cpp" line="+70"/>
         <source>S_patial chroma strength:</source>
-        <translation>空间的色度强度:</translation>
+        <translation>空域的色度强度:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10642,7 +10642,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-2"/>
         <source>_Spatial luma strength:</source>
-        <translation>空间的亮度强度:</translation>
+        <translation>空域的亮度强度:</translation>
     </message>
     <message>
         <location line="-33"/>
@@ -10975,7 +10975,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+70"/>
         <source>Preview. Click in the image above to coarsly set the box coordinates</source>
-        <translation>预览,在上述粗设置框坐标图像中单击光标</translation>
+        <translation>预览. 您可以在图像上单击来粗略设定盒子坐标</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/mpdelogo.ui" line="+60"/>
@@ -10985,7 +10985,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDelogo/qt5/DIA_flyMpDelogo.cpp" line="+461"/>
         <source>You can resize the red rectangle using the grips </source>
-        <translation>你可以重设大小使用支配的红色矩形 </translation>
+        <translation>你可以使用把手来重设红色矩形的尺寸 </translation>
     </message>
 </context>
 <context>
@@ -11006,7 +11006,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mSharpen/qt4/msharpen.ui" line="+73"/>
         <source>Mask</source>
-        <translation>遮罩(Mask)</translation>
+        <translation>蒙版(Mask)</translation>
     </message>
     <message>
         <location line="-7"/>
@@ -11279,7 +11279,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     </message>
     <message>
         <source>ExtraDataSize:</source>
-        <translation type="vanished">额外数据大小:</translation>
+        <translation type="vanished">额外数据尺寸:</translation>
     </message>
     <message>
         <location line="-270"/>
@@ -11472,7 +11472,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+7"/>
         <source>Enabled</source>
-        <translation>已启用</translation>
+        <translation>启用</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -12363,12 +12363,12 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <source>Image Size:	</source>
-        <translation type="vanished">图片大小(DAR):	</translation>
+        <translation type="vanished">图片尺寸:	</translation>
     </message>
     <message>
         <location line="+164"/>
         <source>No Audio</source>
-        <translation>没音频</translation>
+        <translation>无音频</translation>
     </message>
     <message>
         <source>Frame Rate:	</source>
@@ -12429,7 +12429,7 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <source>ExtraDataSize:	</source>
-        <translation type="vanished">额外数据大小:	</translation>
+        <translation type="vanished">额外数据尺寸:	</translation>
     </message>
     <message>
         <source>Total Duration:	</source>
@@ -12742,7 +12742,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="+84"/>
         <source>swScale Resizer.</source>
-        <translation>调整比例大小.</translation>
+        <translation>调整比例尺寸.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
@@ -12798,7 +12798,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="-1"/>
         <source>swsResize</source>
-        <translation>像素大小(swsResize)</translation>
+        <translation>像素尺寸(swsResize)</translation>
     </message>
 </context>
 <context>
@@ -12857,7 +12857,7 @@ Ready.
     <message>
         <location line="-461"/>
         <source>Resize</source>
-        <translation>重设大小</translation>
+        <translation>调整尺寸</translation>
     </message>
     <message>
         <location line="+66"/>
@@ -13555,12 +13555,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+3"/>
         <source>Top Field First</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -13595,7 +13595,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+5"/>
         <source>_Resize</source>
-        <translation>调整大小</translation>
+        <translation>调整尺寸</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13643,12 +13643,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilter.cpp" line="+58"/>
         <source>VA-API Resize</source>
-        <translation>VA-API重设大小</translation>
+        <translation>VA-API 尺寸调整</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Resize image using VA-API.</source>
-        <translation>使用VA-API的大小调整图像.</translation>
+        <translation>使用VA-API调整图像尺寸.</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -13696,7 +13696,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+212"/>
         <source>_Resize</source>
-        <translation>调整大小</translation>
+        <translation>调整尺寸</translation>
     </message>
     <message>
         <location line="-16"/>
@@ -13711,12 +13711,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>Top Field First</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -13731,7 +13731,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-214"/>
         <source>VDPAU deinterlacer (+resize).</source>
-        <translation>VDPAU 去交错化 (+ 重设大小).</translation>
+        <translation>VDPAU 去交错器 (+ 尺寸调整).</translation>
     </message>
     <message>
         <location line="+213"/>
@@ -13759,7 +13759,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-1"/>
         <source>vdpau: Resize</source>
-        <translation>vdpau: 重设大小</translation>
+        <translation>vdpau: 调整尺寸</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -13805,7 +13805,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-37"/>
         <source>Subtitle Font Size and Position</source>
-        <translation>字幕字体大小和位置</translation>
+        <translation>字幕字体尺寸和位置</translation>
     </message>
     <message>
         <location line="+54"/>
@@ -14105,7 +14105,7 @@ Do you wish to continue?</source>
     <message>
         <location line="-173"/>
         <source>Target Video Size:</source>
-        <translation>目标视频大小:</translation>
+        <translation>目标视频尺寸:</translation>
     </message>
     <message>
         <location line="+246"/>
@@ -14135,7 +14135,7 @@ Do you wish to continue?</source>
     <message>
         <location line="-237"/>
         <source>Quantiser:</source>
-        <translation>量化器:</translation>
+        <translation>量化:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/ADM_x264Setup.cpp" line="+206"/>
@@ -14375,7 +14375,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-15"/>
         <source>PAL</source>
-        <translation>PAL逐行倒相</translation>
+        <translation>PAL</translation>
     </message>
     <message>
         <location line="+257"/>
@@ -14417,7 +14417,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-73"/>
         <source>NTSC</source>
-        <translation>NTSC国家电视系统委员会</translation>
+        <translation>NTSC</translation>
     </message>
     <message>
         <location line="-2354"/>
@@ -14438,7 +14438,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1462"/>
         <source>CABAC</source>
-        <translation>CABAC(上下文自适应二进制算术编码)</translation>
+        <translation>CABAC</translation>
     </message>
     <message>
         <location line="+2244"/>
@@ -14465,7 +14465,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1801"/>
         <source>SECAM</source>
-        <translation>SECAM顺序彩色与记忆</translation>
+        <translation>SECAM</translation>
     </message>
     <message>
         <location line="+209"/>
@@ -14475,12 +14475,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-740"/>
         <source>Zones</source>
-        <translation>缓冲区</translation>
+        <translation>区域(Zones)</translation>
     </message>
     <message>
         <location line="-58"/>
         <source>Maximum Macroblocks per Slice:</source>
-        <translation>切割每帧最大宏块:</translation>
+        <translation>每分片最大宏块:</translation>
     </message>
     <message>
         <location line="-22"/>
@@ -14502,7 +14502,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+2275"/>
         <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
-        <translation>这些设定只是建议播放设备,使用您自担风险.</translation>
+        <translation>这些设定只是对播放设备的建议. 您自担使用风险.</translation>
     </message>
     <message>
         <location line="-548"/>
@@ -14517,12 +14517,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1203"/>
         <source>Maximum Quantiser Step:</source>
-        <translation>最大量化步骤:</translation>
+        <translation>最大量化步数:</translation>
     </message>
     <message>
         <location line="+542"/>
         <source>Maximum Size per Slice:</source>
-        <translation>切割每帧最大容量:</translation>
+        <translation>每分片最大尺寸:</translation>
     </message>
     <message>
         <location line="-269"/>
@@ -14552,12 +14552,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-766"/>
         <source>Constant Quantiser (Single Pass)</source>
-        <translation>恒定量化器(QP)(1通)</translation>
+        <translation>恒定量化 (1通)</translation>
     </message>
     <message>
         <location line="+2040"/>
         <source>I and P-frame Quantiser Ratio:</source>
-        <translation>I和P-帧量化器比率:</translation>
+        <translation>I和P-帧量化比率:</translation>
     </message>
     <message>
         <location line="+877"/>
@@ -14567,7 +14567,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-736"/>
         <source>P and B-frame Quantiser Ratio:</source>
-        <translation>P和B-帧量化器比率:</translation>
+        <translation>P和B-帧量化比率:</translation>
     </message>
     <message>
         <location line="-675"/>
@@ -14582,17 +14582,17 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-883"/>
         <source>Hexagonal Search</source>
-        <translation>六角形搜索</translation>
+        <translation>六边形搜索</translation>
     </message>
     <message>
         <location line="-609"/>
         <source>Target Video Size:</source>
-        <translation>目标视频大小:</translation>
+        <translation>目标视频尺寸:</translation>
     </message>
     <message>
         <location line="+1060"/>
         <source>8x8 DCT Spatial Transform</source>
-        <translation>8 x 8 DCT 空间变换</translation>
+        <translation>8 x 8 DCT 空域变换</translation>
     </message>
     <message>
         <location line="-354"/>
@@ -14607,7 +14607,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+401"/>
         <source>8x8, 8x16 and 16x8 P-frame Intra-predicted Blocks</source>
-        <translation>8x8,8x16和16x8 P-帧内预测块状</translation>
+        <translation>8x8,8x16和16x8 P-帧内预测块</translation>
     </message>
     <message>
         <location line="+748"/>
@@ -14617,7 +14617,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-433"/>
         <source>Non-strict (Not Blu-ray Compatible)</source>
-        <translation>非严格(不与Blu-ray蓝光相容)</translation>
+        <translation>非严格(与蓝光Blu-ray不兼容)</translation>
     </message>
     <message>
         <location line="+634"/>
@@ -14637,7 +14637,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+2996"/>
         <source>BluRay compatibility</source>
-        <translation>BluRay兼容性</translation>
+        <translation>蓝光BluRay兼容性</translation>
     </message>
     <message>
         <location line="-734"/>
@@ -14647,7 +14647,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1221"/>
         <source>8x8, 8x16 and 16x8 B-frame Intra-predicted Blocks</source>
-        <translation>8x8,8x16和16x8 B-帧内预测块状</translation>
+        <translation>8x8,8x16和16x8 B-帧内预测块</translation>
     </message>
     <message>
         <location line="+442"/>
@@ -14672,17 +14672,17 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-219"/>
         <source>Top Field First</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+579"/>
         <source>Inter Luma Quantisation Deadzone:</source>
-        <translation>内亮度量化静区:</translation>
+        <translation>外亮度量化静区:</translation>
     </message>
     <message>
         <location line="-180"/>
         <source>Trellis Quantization:</source>
-        <translation>框架量化:</translation>
+        <translation>棚架量化:</translation>
     </message>
     <message>
         <location line="+173"/>
@@ -14692,12 +14692,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+489"/>
         <source>Reduce Fluctuation Before Curve Compression:</source>
-        <translation>减少波动曲线压缩之前:</translation>
+        <translation>曲线压缩之前减少波动:</translation>
     </message>
     <message>
         <location line="+971"/>
         <source>Component</source>
-        <translation>合成的</translation>
+        <translation>分量</translation>
     </message>
     <message>
         <location line="+63"/>
@@ -14719,7 +14719,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+347"/>
         <source>Maximum Constant Rate Factor</source>
-        <translation>最大固定速率因子</translation>
+        <translation>最大固定速率系数</translation>
     </message>
     <message>
         <location line="+2576"/>
@@ -14740,7 +14740,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2534"/>
         <source>Uneven Multi-hexagonal Search</source>
-        <translation>六边形搜索</translation>
+        <translation>非平均多-六边形搜索</translation>
     </message>
     <message>
         <location line="-331"/>
@@ -14770,7 +14770,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1252"/>
         <source>Chroma to Luma Quantiser Offset:</source>
-        <translation>从色度到亮度量化器偏移量:</translation>
+        <translation>从色度到亮度量化偏移量:</translation>
     </message>
     <message>
         <location line="-2405"/>
@@ -14886,17 +14886,17 @@ If it is a system profile it will be recreated next time.</source>
         <location line="-942"/>
         <location line="+2495"/>
         <source>frames</source>
-        <translation>帧数</translation>
+        <translation>帧</translation>
     </message>
     <message>
         <location line="-1274"/>
         <source>Final Macroblock Only</source>
-        <translation>最终的宏块(更快,中等质量)</translation>
+        <translation>只最终宏块</translation>
     </message>
     <message>
         <location line="-682"/>
         <source>Weighted Prediction for B-frames</source>
-        <translation>B-帧的加权预测</translation>
+        <translation>为B-帧加权预测</translation>
     </message>
     <message>
         <location line="+1645"/>
@@ -14943,7 +14943,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-160"/>
         <source>4x4, 4x8 and 8x4 P-frame Intra-predicted Blocks</source>
-        <translation>4x4,4x8和8x4 P-帧内预测块状</translation>
+        <translation>4x4,4x8和8x4 P-帧内预测块</translation>
     </message>
     <message>
         <location line="+589"/>
@@ -14965,7 +14965,7 @@ If it is a system profile it will be recreated next time.</source>
         <location line="+200"/>
         <location line="+1649"/>
         <source>Quantiser</source>
-        <translation>量化器</translation>
+        <translation>量化</translation>
     </message>
     <message>
         <location line="+1460"/>
@@ -14980,7 +14980,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2661"/>
         <source>Sequence Parameter Set Identifer:</source>
-        <translation>序列参数集标识符:</translation>
+        <translation>序列参数集标识:</translation>
     </message>
     <message>
         <location line="+1134"/>
@@ -15001,7 +15001,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+2076"/>
         <source>Slices per Frame:</source>
-        <translation>切割每帧:</translation>
+        <translation>每帧分片数:</translation>
     </message>
     <message>
         <location line="-1134"/>
@@ -15026,7 +15026,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1526"/>
         <source>Interlaced:</source>
-        <translation>交错:</translation>
+        <translation>隔行扫描:</translation>
     </message>
     <message>
         <location line="-650"/>
@@ -15066,7 +15066,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+2090"/>
         <source>Slicing</source>
-        <translation>切割</translation>
+        <translation>切片</translation>
     </message>
     <message>
         <location line="-3062"/>
@@ -15086,7 +15086,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+397"/>
         <source>Spatial</source>
-        <translation>空间性</translation>
+        <translation>空域</translation>
     </message>
     <message>
         <location line="+1584"/>
@@ -15161,7 +15161,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-563"/>
         <source>Video Size (Two Pass)</source>
-        <translation>视频大小(2通)</translation>
+        <translation>视频尺寸(2通)</translation>
     </message>
     <message>
         <location line="-294"/>
@@ -15196,7 +15196,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-514"/>
         <source>Temporal</source>
-        <translation>时间性</translation>
+        <translation>时域</translation>
     </message>
     <message>
         <location line="+2273"/>
@@ -15221,7 +15221,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2123"/>
         <source>4x4 Intra-predicted Blocks</source>
-        <translation>4x4 内预测块状</translation>
+        <translation>4x4 内预测块</translation>
     </message>
     <message>
         <location line="+1335"/>
@@ -15231,17 +15231,17 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-728"/>
         <source>Always On</source>
-        <translation>始终在(缓慢,质量最好)</translation>
+        <translation>始终打开</translation>
     </message>
     <message>
         <location line="-420"/>
         <source>Bottom Field First</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
     <message>
         <location line="+496"/>
         <source>Psychovisual Trellis:</source>
-        <translation>心理学框架:</translation>
+        <translation>心理视觉棚架:</translation>
     </message>
     <message>
         <location line="-2056"/>
@@ -15261,12 +15261,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1274"/>
         <source>Custom Threaded Lookahead Buffer:</source>
-        <translation>自定义线程预测先行缓冲区:</translation>
+        <translation>自定义线程前视缓冲区:</translation>
     </message>
     <message>
         <location line="-1863"/>
         <source>8x8 Intra-predicted Blocks</source>
-        <translation>8x8 内预测块状</translation>
+        <translation>8x8 内预测块</translation>
     </message>
     <message>
         <location line="-1096"/>
@@ -15286,7 +15286,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1321"/>
         <source>Strictly Hierarchical Pyramid</source>
-        <translation>严格金字塔模式</translation>
+        <translation>严格分层金字塔</translation>
     </message>
     <message>
         <location line="-325"/>
@@ -15296,7 +15296,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1890"/>
         <source>Slice-based Threading</source>
-        <translation>分片线程</translation>
+        <translation>基于分片的线程</translation>
     </message>
     <message>
         <location line="-736"/>
@@ -15311,7 +15311,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1030"/>
         <source>Subpixel Refinement</source>
-        <translation>次像素精细化(次ME)</translation>
+        <translation>次像素精细化</translation>
     </message>
     <message>
         <location line="+2739"/>
@@ -15331,12 +15331,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-3201"/>
         <source>Constant Rate Factor (Single Pass)</source>
-        <translation>固定速率因子(1通)</translation>
+        <translation>固定速率系数(1通)</translation>
     </message>
     <message>
         <location line="+439"/>
         <source>Frametype Lookahead:</source>
-        <translation>帧类型预测先行:</translation>
+        <translation>帧类型前视:</translation>
     </message>
     <message>
         <location line="+2900"/>
@@ -15455,7 +15455,7 @@ Do you wish to continue?</source>
     <message>
         <location line="-201"/>
         <source>Target Video Size:</source>
-        <translation>目标视频大小:</translation>
+        <translation>目标视频尺寸:</translation>
     </message>
     <message>
         <location line="+274"/>
@@ -15485,7 +15485,7 @@ Do you wish to continue?</source>
     <message>
         <location line="-262"/>
         <source>Quantiser:</source>
-        <translation>量化器:</translation>
+        <translation>量化:</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+238"/>
@@ -15621,7 +15621,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+7"/>
         <source>Asymmetric</source>
-        <translation>不对称</translation>
+        <translation>非对称</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -15631,7 +15631,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+613"/>
         <source>RDO in Quantization:</source>
-        <translation>量化器中的RDO:</translation>
+        <translation>量化中的RDO:</translation>
     </message>
     <message>
         <location line="+936"/>
@@ -15706,7 +15706,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-131"/>
         <source>Output Bit Depth:</source>
-        <translation>输出位深(Bit Depth):</translation>
+        <translation>输出位深:</translation>
     </message>
     <message>
         <location line="+889"/>
@@ -15751,7 +15751,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+141"/>
         <source>Enabled</source>
-        <translation>已启用</translation>
+        <translation>启用</translation>
     </message>
     <message>
         <location line="+189"/>
@@ -15768,7 +15768,7 @@ If it is a system profile it will be recreated next time.</source>
         <location line="-54"/>
         <location line="+88"/>
         <source>Psycho-visual Strength:</source>
-        <translation>Psycho-visual强度:</translation>
+        <translation>心理视觉强度:</translation>
     </message>
     <message>
         <location line="+86"/>
@@ -15849,7 +15849,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-15"/>
         <source>PAL</source>
-        <translation>PAL逐行倒相</translation>
+        <translation>PAL</translation>
     </message>
     <message>
         <location line="+833"/>
@@ -15883,7 +15883,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1055"/>
         <source>NTSC</source>
-        <translation>NTSC国家电视系统委员会</translation>
+        <translation>NTSC</translation>
     </message>
     <message>
         <location line="+823"/>
@@ -15922,7 +15922,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+974"/>
         <source>SECAM</source>
-        <translation>SECAM顺序彩色与记忆</translation>
+        <translation>SECAM</translation>
     </message>
     <message>
         <source>YCgCo</source>
@@ -15931,12 +15931,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+502"/>
         <source>Zones</source>
-        <translation>缓冲区</translation>
+        <translation>区域(Zones)</translation>
     </message>
     <message>
         <location line="-58"/>
         <source>Maximum Macroblocks per Slice:</source>
-        <translation>切割每帧最大宏块:</translation>
+        <translation>每分片最大宏块:</translation>
     </message>
     <message>
         <location line="-22"/>
@@ -15946,7 +15946,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2216"/>
         <source>Coding Unit-tree Rate Control</source>
-        <translation>单位码-树速率控制</translation>
+        <translation>编码树单元速率控制</translation>
     </message>
     <message>
         <location line="+460"/>
@@ -15958,7 +15958,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1759"/>
         <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
-        <translation>这些设定只是建议播放设备,使用您自担风险.</translation>
+        <translation>这些设定只是对播放设备的建议. 您自担使用风险.</translation>
     </message>
     <message>
         <location line="-356"/>
@@ -15973,12 +15973,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+925"/>
         <source>Maximum Quantiser Step:</source>
-        <translation>最大量化步骤:</translation>
+        <translation>最大量化步数:</translation>
     </message>
     <message>
         <location line="+825"/>
         <source>Maximum Size per Slice:</source>
-        <translation>切割每帧最大容量:</translation>
+        <translation>每分片最大尺寸:</translation>
     </message>
     <message>
         <location line="-570"/>
@@ -16003,12 +16003,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-763"/>
         <source>Constant Quantiser (Single Pass)</source>
-        <translation>恒定量化器(QP)(1通)</translation>
+        <translation>恒定量化 (1通)</translation>
     </message>
     <message>
         <location line="+1764"/>
         <source>I and P-frame Quantiser Ratio:</source>
-        <translation>I和P-帧量化器比率:</translation>
+        <translation>I和P-帧量化比率:</translation>
     </message>
     <message>
         <location line="+1096"/>
@@ -16018,7 +16018,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-989"/>
         <source>P and B-frame Quantiser Ratio:</source>
-        <translation>P和B-帧量化器比率:</translation>
+        <translation>P和B-帧量化比率:</translation>
     </message>
     <message>
         <location line="-628"/>
@@ -16033,7 +16033,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-529"/>
         <source>Hexagonal Search</source>
-        <translation>六角形搜索</translation>
+        <translation>六边形搜索</translation>
     </message>
     <message>
         <location line="-368"/>
@@ -16043,7 +16043,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-238"/>
         <source>Target Video Size:</source>
-        <translation>目标视频大小:</translation>
+        <translation>目标视频尺寸:</translation>
     </message>
     <message>
         <location line="+703"/>
@@ -16061,7 +16061,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <source>Non-strict (Not Blu-ray Compatible)</source>
-        <translation type="vanished">非严格(不与Blu-ray蓝光相容)</translation>
+        <translation type="vanished">非严格(与蓝光Blu-ray不兼容)</translation>
     </message>
     <message>
         <location line="+1077"/>
@@ -16106,21 +16106,21 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-166"/>
         <source>Top Field First</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <source>Trellis Quantization:</source>
-        <translation type="vanished">框架量化:</translation>
+        <translation type="vanished">棚架量化:</translation>
     </message>
     <message>
         <location line="+987"/>
         <source>Reduce Fluctuation Before Curve Compression:</source>
-        <translation>减少波动曲线压缩之前:</translation>
+        <translation>曲线压缩之前减少波动:</translation>
     </message>
     <message>
         <location line="+239"/>
         <source>Component</source>
-        <translation>合成的</translation>
+        <translation>分量</translation>
     </message>
     <message>
         <source>BT470M</source>
@@ -16135,7 +16135,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1102"/>
         <source>Maximum Constant Rate Factor</source>
-        <translation>最大固定速率因子</translation>
+        <translation>最大固定速率系数</translation>
     </message>
     <message>
         <location line="+2522"/>
@@ -16156,7 +16156,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1776"/>
         <source>Uneven Multi-hexagonal Search</source>
-        <translation>六边形搜索</translation>
+        <translation>非平均多-六边形搜索</translation>
     </message>
     <message>
         <location line="-331"/>
@@ -16179,7 +16179,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+828"/>
         <source>Chroma to Luma Quantiser Offset:</source>
-        <translation>从色度到亮度量化器偏移量:</translation>
+        <translation>从色度到亮度量化偏移量:</translation>
     </message>
     <message>
         <location line="-1808"/>
@@ -16262,7 +16262,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+603"/>
         <source>Star Search</source>
-        <translation>开始搜索</translation>
+        <translation>星型搜索</translation>
     </message>
     <message>
         <location line="+2512"/>
@@ -16282,7 +16282,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+14"/>
         <source>Noise Reduction Inter:</source>
-        <translation>在之间降噪:</translation>
+        <translation>外部降噪:</translation>
     </message>
     <message>
         <location line="-1444"/>
@@ -16299,11 +16299,11 @@ If it is a system profile it will be recreated next time.</source>
         <location line="-716"/>
         <location line="+2441"/>
         <source>frames</source>
-        <translation>帧数</translation>
+        <translation>帧</translation>
     </message>
     <message>
         <source>Final Macroblock Only</source>
-        <translation type="vanished">最终的宏块(更快,中等质量)</translation>
+        <translation type="vanished">只最终宏块</translation>
     </message>
     <message>
         <location line="-2999"/>
@@ -16312,7 +16312,7 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <source>Weighted Prediction for B-frames</source>
-        <translation type="vanished">B-帧的加权预测</translation>
+        <translation type="vanished">为B-帧加权预测</translation>
     </message>
     <message>
         <location line="+2183"/>
@@ -16367,7 +16367,7 @@ If it is a system profile it will be recreated next time.</source>
         <location line="+213"/>
         <location line="+1376"/>
         <source>Quantiser</source>
-        <translation>量化器</translation>
+        <translation>量化</translation>
     </message>
     <message>
         <source>SMPTEL170M</source>
@@ -16380,7 +16380,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1237"/>
         <source>Sequence Parameter Set Identifer:</source>
-        <translation>序列参数集标识符:</translation>
+        <translation>序列参数集标识:</translation>
     </message>
     <message>
         <location line="+1637"/>
@@ -16390,12 +16390,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+509"/>
         <source>Slices per Frame:</source>
-        <translation>切割每帧:</translation>
+        <translation>每帧分片数:</translation>
     </message>
     <message>
         <location line="-2787"/>
         <source>Pool Threads </source>
-        <translation>线程池数 </translation>
+        <translation>线程池 </translation>
     </message>
     <message>
         <location line="+1447"/>
@@ -16419,7 +16419,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1208"/>
         <source>Interlaced:</source>
-        <translation>交错:</translation>
+        <translation>隔行扫描:</translation>
     </message>
     <message>
         <location line="-369"/>
@@ -16453,7 +16453,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+2036"/>
         <source>Slicing</source>
-        <translation>切割</translation>
+        <translation>切片</translation>
     </message>
     <message>
         <location line="-2966"/>
@@ -16523,7 +16523,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-560"/>
         <source>Video Size (Two Pass)</source>
-        <translation>视频大小(2通)</translation>
+        <translation>视频尺寸(2通)</translation>
     </message>
     <message>
         <location line="-255"/>
@@ -16572,12 +16572,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <source>Always On</source>
-        <translation type="vanished">始终在(缓慢,质量最好)</translation>
+        <translation type="vanished">始终打开</translation>
     </message>
     <message>
         <location line="-1064"/>
         <source>Bottom Field First</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
     <message>
         <location line="-1247"/>
@@ -16587,7 +16587,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+3133"/>
         <source>Custom Threaded Lookahead Buffer:</source>
-        <translation>自定义线程预测先行缓冲区:</translation>
+        <translation>自定义线程前视缓冲区:</translation>
     </message>
     <message>
         <location line="-2915"/>
@@ -16606,12 +16606,12 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <source>Strictly Hierarchical Pyramid</source>
-        <translation type="vanished">严格金字塔模式</translation>
+        <translation type="vanished">严格分层金字塔</translation>
     </message>
     <message>
         <location line="+2829"/>
         <source>Slice-based Threading</source>
-        <translation>分片线程</translation>
+        <translation>基于分片的线程</translation>
     </message>
     <message>
         <source>Average Bitrate Tolerance:</source>
@@ -16625,7 +16625,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+988"/>
         <source>Subpixel Refinement</source>
-        <translation>次像素精细化(次ME)</translation>
+        <translation>次像素精细化</translation>
     </message>
     <message>
         <location line="+1617"/>
@@ -16644,12 +16644,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2952"/>
         <source>Constant Rate Factor (Single Pass)</source>
-        <translation>固定速率因子(1通)</translation>
+        <translation>固定速率系数(1通)</translation>
     </message>
     <message>
         <location line="+436"/>
         <source>Frametype Lookahead:</source>
-        <translation>帧类型预测先行:</translation>
+        <translation>帧类型前视:</translation>
     </message>
     <message>
         <location line="+1813"/>
@@ -16765,7 +16765,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+35"/>
         <source>_Trellis quantization</source>
-        <translation>框架量化</translation>
+        <translation>棚架量化</translation>
     </message>
     <message>
         <location line="-52"/>
@@ -16815,7 +16815,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+45"/>
         <source>Mi_n. quantizer:</source>
-        <translation>最小量化器:</translation>
+        <translation>最小量化:</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -16941,7 +16941,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-68"/>
         <source>Ma_x. quantizer:</source>
-        <translation>最大量化器:</translation>
+        <translation>最大量化:</translation>
     </message>
 </context>
 <context>
@@ -16979,7 +16979,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1"/>
         <source>Deint interlaced</source>
-        <translation>去交错隔行的</translation>
+        <translation>去交错的</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -16994,7 +16994,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-16"/>
         <source>Top field first</source>
-        <translation>顶部区域优先</translation>
+        <translation>顶部场优先</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -17014,7 +17014,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+70"/>
         <source>Bottom field first</source>
-        <translation>底部区域优先</translation>
+        <translation>底部场优先</translation>
     </message>
 </context>
 <context>
