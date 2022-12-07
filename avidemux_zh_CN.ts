@@ -288,7 +288,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Time Left : Infinity</source>
-        <translation>剩下时间: 无限</translation>
+        <translation>剩余时间 : 无限</translation>
     </message>
 </context>
 <context>
@@ -2806,7 +2806,7 @@ Installation mismatch</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+1"/>
         <source>Medium Search</source>
-        <translation>中等搜索</translation>
+        <translation>中间搜索</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-115"/>
@@ -3075,7 +3075,7 @@ Do you want to continue anyway ?</source>
     <message>
         <location filename="../../../avidemux_core/ADM_core/src/ADM_prettyPrint.cpp" line="+23"/>
         <source>%d minute(s)</source>
-        <translation>%d 分(s)</translation>
+        <translation>%d 分</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-178"/>
@@ -3462,7 +3462,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
     <message>
         <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-87"/>
         <source>Information</source>
-        <translation>属性(&amp;I)</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="-2"/>
@@ -3747,8 +3747,8 @@ Installation mismatch</source>
         <location filename="../../common/gui_main.cpp" line="+1381"/>
         <source>Failed to connect to avsproxy.
 Is it running ?</source>
-        <translation>无法联机到 avs代理,
-确认avsproxy是不是在运行?</translation>
+        <translation>无法联机到 avsproxy,
+确认它是不是在运行?</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="+19"/>
@@ -3833,7 +3833,7 @@ Install lame plugin</source>
     <message>
         <location line="-58"/>
         <source>_Greyscale</source>
-        <translation>灰阶</translation>
+        <translation>灰度</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
@@ -3874,7 +3874,7 @@ Install lame plugin</source>
     <message>
         <location filename="../../common/gui_main.cpp" line="+228"/>
         <source>AvsProxy</source>
-        <translation>Avs代理(AvsProxy)</translation>
+        <translation>AvsProxy</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-245"/>
@@ -3884,7 +3884,7 @@ Install lame plugin</source>
     <message>
         <location filename="../../common/gui_main.cpp" line="+5"/>
         <source>avsproxy</source>
-        <translation>avs代理(avsproxy)</translation>
+        <translation>avsproxy</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_postproc.cpp" line="-1"/>
@@ -4009,7 +4009,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_core/ADM_core/src/ADM_prettyPrint.cpp" line="-18"/>
         <source>%d hour(s)</source>
-        <translation>%d 时(s)</translation>
+        <translation>%d 小时</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-138"/>
@@ -4144,7 +4144,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="+44"/>
         <source>All in one ivtc.</source>
-        <translation>ADM ivtc:IVTC全合一交错过滤器.</translation>
+        <translation>全合一ivtc.</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -4660,7 +4660,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/ADM_vidArtPosterize.cpp" line="+44"/>
         <source>Posterize</source>
-        <translation>色调分离</translation>
+        <translation>多色调分色</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4673,7 +4673,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artPosterize/qt4/artPosterize.ui" line="+14"/>
         <source>Posterize</source>
-        <translation>色调分离</translation>
+        <translation>多色调分色</translation>
     </message>
     <message>
         <location line="+62"/>
@@ -4816,7 +4816,7 @@ Expect problems.</source>
     <message>
         <location line="+1"/>
         <source>Adaptative sharpener by MarcFD.</source>
-        <translation>自适应锐化器,作者为 MarcFD.</translation>
+        <translation>自适应锐化器,作者 MarcFD.</translation>
     </message>
 </context>
 <context>
@@ -5382,12 +5382,12 @@ This message will not be displayed again.</source>
     <message>
         <location line="-13"/>
         <source>Source frame rate:</source>
-        <translation>源视频帧速:</translation>
+        <translation>源帧速:</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Destination frame rate:</source>
-        <translation>目标帧播放速率:</translation>
+        <translation>目标帧速:</translation>
     </message>
     <message>
         <location line="-197"/>
@@ -6365,7 +6365,7 @@ Do you want to load it  ?
     <message>
         <location line="+21"/>
         <source>_Top Field First:</source>
-        <translation>顶部场优先:</translation>
+        <translation>顶场优先:</translation>
     </message>
     <message>
         <location line="-4"/>
@@ -7511,7 +7511,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+28"/>
         <source>Top Field First</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+44"/>
@@ -7586,7 +7586,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+71"/>
         <source>Adv. Settings</source>
-        <translation>Adv. 设定</translation>
+        <translation>高级设定</translation>
     </message>
     <message>
         <location line="-70"/>
@@ -7616,7 +7616,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+4"/>
         <source>Bottom Field First</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
     <message>
         <location line="+61"/>
@@ -7641,7 +7641,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+12"/>
         <source>_Interlaced:</source>
-        <translation>交错的:</translation>
+        <translation>交错:</translation>
     </message>
     <message>
         <location line="-5"/>
@@ -8429,7 +8429,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+1"/>
         <source>Context:</source>
-        <translation>上下文:</translation>
+        <translation>框架(Context):</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9116,12 +9116,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="-6"/>
         <source>Keep Top Field</source>
-        <translation>保持顶部区域</translation>
+        <translation>保持顶场</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keep Bottom Field</source>
-        <translation>保持底部区域</translation>
+        <translation>保持底场</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -9195,7 +9195,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+190"/>
         <source>Top field first</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9230,7 +9230,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+4"/>
         <source>Bottom field first</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
 </context>
 <context>
@@ -9336,7 +9336,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stackField/hzStackField.cpp" line="+52"/>
         <source>Horizontal Stack Fields</source>
-        <translation>水平堆叠场</translation>
+        <translation>场水平堆叠</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9467,7 +9467,7 @@ I will assume it has and try to continue</source>
         <location line="+1"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+1"/>
         <source>_Show:</source>
-        <translation>显示::</translation>
+        <translation>显示:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9478,12 +9478,12 @@ I will assume it has and try to continue</source>
         <location line="+11"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+11"/>
         <source>DupeRemover</source>
-        <translation>删除重复的帧</translation>
+        <translation>删除重复帧</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-346"/>
         <source>Remove IVTC dupe.</source>
-        <translation>删除重复的帧(IVTC).</translation>
+        <translation>删除IVTC重复帧.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="-6"/>
@@ -9500,7 +9500,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-342"/>
         <source>Remove the duplicate frames present after ivtc.</source>
-        <translation>删除重复的帧(IVTC)和PAL智能型一样.</translation>
+        <translation>在ivtc之后删除重复帧.</translation>
     </message>
 </context>
 <context>
@@ -10082,7 +10082,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/lumaOnly/lumaOnly.cpp" line="+44"/>
         <source>GreyScale</source>
-        <translation>灰阶(GreyScale)</translation>
+        <translation>灰度</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10186,7 +10186,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
         <source>Indexing Matroska Video Track</source>
-        <translation>对Matroska视频轨道进行索引</translation>
+        <translation>对Matroska视频轨道索引中</translation>
     </message>
 </context>
 <context>
@@ -10273,7 +10273,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fields/ADM_vidMergeField.cpp" line="+52"/>
         <source>Merge Fields</source>
-        <translation>Merge Fields(合并场)</translation>
+        <translation>合并场</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10594,7 +10594,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3D.cpp" line="+237"/>
         <source>T_emporal chroma strength:</source>
-        <translation>时间色度强度:</translation>
+        <translation>时域色度强度:</translation>
     </message>
     <message>
         <location line="-35"/>
@@ -10604,17 +10604,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+33"/>
         <source>S_patial chroma strength:</source>
-        <translation>空域的色度强度:</translation>
+        <translation>空域色度强度:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Temporal luma strength:</source>
-        <translation>时间亮度强度:</translation>
+        <translation>时域亮度强度:</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>_Spatial luma strength:</source>
-        <translation>空域的亮度强度:</translation>
+        <translation>空域亮度强度:</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -10632,17 +10632,17 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3Dlow.cpp" line="+70"/>
         <source>S_patial chroma strength:</source>
-        <translation>空域的色度强度:</translation>
+        <translation>空域色度强度:</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_Temporal strength:</source>
-        <translation>时间强度:</translation>
+        <translation>时域强度:</translation>
     </message>
     <message>
         <location line="-2"/>
         <source>_Spatial luma strength:</source>
-        <translation>空域的亮度强度:</translation>
+        <translation>空域亮度强度:</translation>
     </message>
     <message>
         <location line="-33"/>
@@ -11062,7 +11062,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/negative/ADM_negative.cpp" line="+46"/>
         <source>Negative</source>
-        <translation>反向</translation>
+        <translation>底片</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -11284,7 +11284,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-270"/>
         <source>Properties</source>
-        <translation>属性(&amp;I)</translation>
+        <translation>属性</translation>
     </message>
     <message>
         <location line="+37"/>
@@ -11389,7 +11389,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+28"/>
         <source>Aspect Ratio:</source>
-        <translation>宽高比:</translation>
+        <translation>像素宽高比:</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -12798,7 +12798,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/swScaleResize.cpp" line="-1"/>
         <source>swsResize</source>
-        <translation>像素尺寸(swsResize)</translation>
+        <translation>sws调整尺寸</translation>
     </message>
 </context>
 <context>
@@ -13128,7 +13128,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stackField/stackField.cpp" line="+47"/>
         <source>Stack Fields</source>
-        <translation>堆叠场(Stack Fields)</translation>
+        <translation>场堆叠</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13208,12 +13208,12 @@ Ready.
     <message>
         <location line="+26"/>
         <source>Decomb Telecide</source>
-        <translation>Decomb Telecide-除梳下拉反向混合色度信息</translation>
+        <translation>Decomb Telecide</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide.cpp" line="+45"/>
         <source>Decomb telecide</source>
-        <translation>Decomb Telecide-除梳下拉反向混合色度信息</translation>
+        <translation>Decomb Telecide</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide_utils.cpp" line="-18"/>
@@ -13228,7 +13228,7 @@ Ready.
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide.cpp" line="+1"/>
         <source>Donald Graft Telecide. Replace ivtc pattern by progressive frames. Video stays at 30 fps.</source>
-        <translation>唐纳德(Donald Graft)抽取,用渐进式帧替换 ivtc 模式,视频停留在 30 fps.</translation>
+        <translation>Donald Graft Telecide, 替换ivtc模式为渐进式帧,视频保持在30fps.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/telecide/Telecide_utils.cpp" line="+26"/>
@@ -13323,7 +13323,7 @@ Ready.
     <message>
         <location line="+17"/>
         <source>None but compute</source>
-        <translation>无但计算</translation>
+        <translation>无,但是计算</translation>
     </message>
 </context>
 <context>
@@ -13463,7 +13463,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stackField/unstackField.cpp" line="+47"/>
         <source>Unstack Fields</source>
-        <translation>Unstack(解叠)场</translation>
+        <translation>场解堆叠(Unstack)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13486,7 +13486,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>Median</source>
-        <translation>中等</translation>
+        <translation>中间</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -13525,7 +13525,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/vaapiFilters/ADM_vidVaapiFilterDeint.cpp" line="+121"/>
         <source>VA-API Deinterlacer</source>
-        <translation>VA-API 去交错器(Deinterlacer)</translation>
+        <translation>VA-API 去交错器</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13555,12 +13555,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+3"/>
         <source>Top Field First</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -13630,12 +13630,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+6"/>
         <source>VA-API Setup Error</source>
-        <translation>VA-API设置错误</translation>
+        <translation>VA-API设定错误</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Could not setup VA-API, purely passthrough operation.</source>
-        <translation>不能设定VA-API, 纯通过模式操作</translation>
+        <translation>不能设定VA-API, 使用纯通过模式操作</translation>
     </message>
 </context>
 <context>
@@ -13701,22 +13701,22 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-16"/>
         <source>Keep Top Field</source>
-        <translation>保持顶部区域</translation>
+        <translation>保持顶场</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Keep Bottom Field</source>
-        <translation>保持底部区域</translation>
+        <translation>保持底场</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Top Field First</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom Field First</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -13866,7 +13866,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+4"/>
         <source>For optimal quality, select 2-pass average bitrate mode and set target bitrate to zero</source>
-        <translation>追求最佳的品质, 选择2-通平均比特模式并设置比特率为0</translation>
+        <translation>若追求最优品质, 选择2-通平均比特模式并设置比特率为0</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -14532,7 +14532,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-2149"/>
         <source>Advanced Rate Control</source>
-        <translation>高级速率控制(RC)</translation>
+        <translation>高级速率控制</translation>
     </message>
     <message>
         <location line="+3012"/>
@@ -14672,7 +14672,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-219"/>
         <source>Top Field First</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+579"/>
@@ -14745,7 +14745,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-331"/>
         <source>Advanced RC</source>
-        <translation>高级速率控制(RC)</translation>
+        <translation>高级 RC</translation>
     </message>
     <message>
         <location line="-342"/>
@@ -15236,7 +15236,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-420"/>
         <source>Bottom Field First</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
     <message>
         <location line="+496"/>
@@ -15988,7 +15988,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1794"/>
         <source>Advanced Rate Control</source>
-        <translation>高级速率控制(RC)</translation>
+        <translation>高级速率控制</translation>
     </message>
     <message>
         <location line="+1925"/>
@@ -16106,7 +16106,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-166"/>
         <source>Top Field First</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <source>Trellis Quantization:</source>
@@ -16161,7 +16161,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-331"/>
         <source>Advanced RC</source>
-        <translation>高级速率控制(RC)</translation>
+        <translation>高级 RC</translation>
     </message>
     <message>
         <location line="+640"/>
@@ -16577,7 +16577,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-1064"/>
         <source>Bottom Field First</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
     <message>
         <location line="-1247"/>
@@ -16931,7 +16931,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+43"/>
         <source>Use XVID fcc (else DIVX)</source>
-        <translation>使用 XVID fcc (其他 DIVX)</translation>
+        <translation>使用 XVID fcc (否则 DIVX)</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -16954,12 +16954,12 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+63"/>
         <source>Frame : Temporal &amp; spatial check</source>
-        <translation>帧:时空检查(&amp; s)</translation>
+        <translation>帧:时空检查</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Field :  Temporal &amp; spatial check</source>
-        <translation>场:时空检查(&amp; s)</translation>
+        <translation>场:时空检查</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -16994,7 +16994,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="-16"/>
         <source>Top field first</source>
-        <translation>顶部场优先</translation>
+        <translation>顶场优先</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -17014,7 +17014,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+70"/>
         <source>Bottom field first</source>
-        <translation>底部场优先</translation>
+        <translation>底场优先</translation>
     </message>
 </context>
 <context>
@@ -17027,7 +17027,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1"/>
         <source>Partializable crop filter.</source>
-        <translation>局部化裁剪过滤器</translation>
+        <translation>可局部化裁剪过滤器</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+480"/>
