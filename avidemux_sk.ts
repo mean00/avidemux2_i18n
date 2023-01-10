@@ -2745,7 +2745,7 @@ Vypustiť časové údaje?</translation>
         <translation>Nasledujúca čierna snímka</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+830"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+878"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -4034,7 +4034,7 @@ Skúsiť to znovu?</translation>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+187"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+186"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -4184,6 +4184,113 @@ Installation mismatch</source>
         <location line="+6"/>
         <source>Aften Configuration</source>
         <translation>Konfigurácia Aften</translation>
+    </message>
+</context>
+<context>
+    <name>aiEnhance</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
+        <source>A.I. Enhance (sw)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Neural network upscalers for low resolution videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
+        <source>Peek Original</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <location line="+54"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Defaults for new filter instances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Preview scale:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>x2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>x3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>x4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+83"/>
+        <source>Warning: the scale of the preview does not match the scale of the selected filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>aiEnhanceDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/aiEnhance.ui" line="+14"/>
+        <source>A.I. Enhance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>fast-FSRCNN x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>fast-FSRCNN x2 upscale with denoising</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale for anime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale with denoising</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale mild</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x3 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x4 upscale</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5682,7 +5789,7 @@ Táto správa sa znova nezobrazí.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/ADM_vidContrast.cpp" line="+33"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+61"/>
-        <location line="+76"/>
+        <location line="+78"/>
         <source>Contrast</source>
         <translation>Kontrast</translation>
     </message>
@@ -5692,8 +5799,8 @@ Táto správa sa znova nezobrazí.</translation>
         <translation>Upraví kontrast, jas a farby.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="-75"/>
-        <location line="+76"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="-77"/>
+        <location line="+78"/>
         <source>Brightness</source>
         <translation>Jas</translation>
     </message>
@@ -5819,12 +5926,12 @@ Chcete ho načítať?
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+555"/>
-        <location line="+363"/>
+        <location line="+365"/>
         <source>Size: </source>
         <translation>Veľkosť: </translation>
     </message>
     <message>
-        <location line="-242"/>
+        <location line="-244"/>
         <source>Auto Crop</source>
         <translation>Automatické orezanie</translation>
     </message>
@@ -6008,7 +6115,7 @@ Chcete ho načítať?
         <translation>Neplatný súbor</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+110"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+112"/>
         <source>Load HaldCLUT</source>
         <translation>Načítať HaldCLUT</translation>
     </message>
@@ -6269,7 +6376,7 @@ Chcete ho načítať?
         <translation>Uloženie skončilo s chybou!</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+104"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+106"/>
         <source>Find a frame in the preview with the logo clearly visible and not blending into the background.</source>
         <translation>Nastavte v náhľade snímku s jasne viditeľným logom, ktoré je možné ľahko odlíšiť od pozadia.</translation>
     </message>
@@ -6745,7 +6852,7 @@ Chcete ho načítať?
         <translation>Použiť obrázok na začiatku prechodu.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+83"/>
         <source>_Start time:</source>
         <translation>Čas _štartu:</translation>
     </message>
@@ -6895,7 +7002,7 @@ Chcete ho načítať?
         <translation>Vytrácanie do farby.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+41"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+43"/>
         <source>_Start time:</source>
         <translation>Čas _štartu:</translation>
     </message>
@@ -6968,7 +7075,7 @@ Chcete ho načítať?
         <translation>Prelínať cez kombináciu viacerých efektov.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+163"/>
         <source>_Start time:</source>
         <translation>Čas _štartu:</translation>
     </message>
@@ -7008,7 +7115,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-502"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-504"/>
         <source>Fade in</source>
         <translation>Zjavovanie</translation>
     </message>
@@ -8560,6 +8667,45 @@ Start and/or end time would be out of range</source>
     </message>
 </context>
 <context>
+    <name>fieldsAlign</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fieldsAlign/ADM_fieldsAlign.cpp" line="+54"/>
+        <location line="+224"/>
+        <source>Fields Align</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-223"/>
+        <source>Adjust fields alignment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+214"/>
+        <source>Swap fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Top field horizontal adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom field horizontal adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Top field vertical adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom field vertical adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>filesel</name>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUI/src/DIA_fileSel.cpp" line="+150"/>
@@ -8611,7 +8757,7 @@ Chcete ho nahradiť?</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
-        <location line="+146"/>
+        <location line="+153"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>
@@ -10223,7 +10369,7 @@ Je predpoklad, že má a pokúsiť sa pokračovať</translation>
         <translation type="vanished">Matroska klustery</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+654"/>
         <source>Indexing Matroska Video Track</source>
         <translation>Indexujem video stopu Matroska</translation>
     </message>
@@ -10706,7 +10852,7 @@ Podporované je iba VP8/VP9/AV1 video a zvuk Vorbis/Opus audio</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1089"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1145"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>Chyba čítania hlavičky SVQ3</translation>
     </message>
@@ -10767,7 +10913,7 @@ Podporované je iba VP8/VP9/AV1 video a zvuk Vorbis/Opus audio</translation>
         <translation>Podporované len pre audio AAC, AC3, DTS, E-AC3, MP2, MP3 a Vorbis</translation>
     </message>
     <message>
-        <location line="+203"/>
+        <location line="+214"/>
         <source>Saving mp4</source>
         <translation>Uloženie mp4</translation>
     </message>
@@ -11598,7 +11744,7 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     <name>qfile</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+45"/>
-        <location line="+152"/>
+        <location line="+156"/>
         <source>All files (*.*)</source>
         <translation>Všetky súbory (*.*)</translation>
     </message>
@@ -12811,7 +12957,7 @@ Pripravený.
     <name>resize</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
-        <location line="+137"/>
+        <location line="+144"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>
@@ -14162,7 +14308,7 @@ Podporované audio len VP8/VP9 video a Vorbis/Opus</translation>
 </translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+249"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+261"/>
         <source>Auto</source>
         <translation>Automaticky</translation>
     </message>
@@ -17117,13 +17263,13 @@ Ak je to systémový profil, bude nabudúce obnovený.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+480"/>
-        <location line="+429"/>
+        <location line="+431"/>
         <source>Selection: </source>
         <translation>Výber: </translation>
     </message>
     <message>
-        <location line="-331"/>
-        <location line="+184"/>
+        <location line="-333"/>
+        <location line="+186"/>
         <source>Preferences</source>
         <translation>Predvoľby</translation>
     </message>

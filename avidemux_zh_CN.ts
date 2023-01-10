@@ -1517,7 +1517,7 @@ It is needed to create FLV  video.</source>
         <translation>关闭</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+187"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+186"/>
         <location line="+31"/>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
         <location line="+46"/>
@@ -1530,7 +1530,7 @@ It is needed to create FLV  video.</source>
         <translation>只显示错误警告</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+830"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+878"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
@@ -4166,6 +4166,113 @@ Expect problems.</source>
     </message>
 </context>
 <context>
+    <name>aiEnhance</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
+        <source>A.I. Enhance (sw)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Neural network upscalers for low resolution videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
+        <source>Peek Original</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <location line="+54"/>
+        <source>Preferences</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Defaults for new filter instances</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Preview scale:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>x2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>x3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>x4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+83"/>
+        <source>Warning: the scale of the preview does not match the scale of the selected filter</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>aiEnhanceDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/aiEnhance.ui" line="+14"/>
+        <source>A.I. Enhance</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>fast-FSRCNN x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>fast-FSRCNN x2 upscale with denoising</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale for anime</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale with denoising</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale mild</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x3 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>FSRCNN x4 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>analyzer</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/ADM_vidAnalyzer.cpp" line="+32"/>
@@ -5665,13 +5772,13 @@ This message will not be displayed again.</source>
     <message>
         <location line="-1"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="+61"/>
-        <location line="+76"/>
+        <location line="+78"/>
         <source>Contrast</source>
         <translation>对比度</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="-75"/>
-        <location line="+76"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/contrast/qt4/Q_contrast.cpp" line="-77"/>
+        <location line="+78"/>
         <source>Brightness</source>
         <translation>亮度</translation>
     </message>
@@ -5797,12 +5904,12 @@ Do you want to load it  ?
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/crop/qt5/DIA_flyCrop.cpp" line="+555"/>
-        <location line="+363"/>
+        <location line="+365"/>
         <source>Size: </source>
         <translation>尺寸: </translation>
     </message>
     <message>
-        <location line="-242"/>
+        <location line="-244"/>
         <source>Auto Crop</source>
         <translation>自动裁剪</translation>
     </message>
@@ -5986,7 +6093,7 @@ Do you want to load it  ?
         <translation>文件不合法</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+110"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/cubicLUT/qt4/Q_cubicLUT.cpp" line="+112"/>
         <source>Load HaldCLUT</source>
         <translation>加载HaldCLUT</translation>
     </message>
@@ -6247,7 +6354,7 @@ Do you want to load it  ?
         <translation>保存失败!</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+104"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/delogoHQ/qt4/Q_delogoHQ.cpp" line="+106"/>
         <source>Find a frame in the preview with the logo clearly visible and not blending into the background.</source>
         <translation>在预览中找到logo清晰可见,而且没有混入到背景当中的帧.</translation>
     </message>
@@ -6723,7 +6830,7 @@ Do you want to load it  ?
         <translation>从开始时间的画面淡入</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeFromImage/qt4/Q_fadeFromImage.cpp" line="+83"/>
         <source>_Start time:</source>
         <translation>开始时间:</translation>
     </message>
@@ -6873,7 +6980,7 @@ Do you want to load it  ?
         <translation>颜色淡出.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+41"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeInOut/qt4/Q_fadeInOut.cpp" line="+43"/>
         <source>_Start time:</source>
         <translation>开始时间:</translation>
     </message>
@@ -6946,7 +7053,7 @@ Do you want to load it  ?
         <translation>多个特效组合的渐变进出</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+161"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="+163"/>
         <source>_Start time:</source>
         <translation>开始时间:</translation>
     </message>
@@ -6986,7 +7093,7 @@ Start and/or end time would be out of range</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vfFadeIn.cpp" line="+32"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-502"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/Q_fadeThrough.cpp" line="-504"/>
         <source>Fade in</source>
         <translation>淡入</translation>
     </message>
@@ -8522,6 +8629,45 @@ Start and/or end time would be out of range</source>
     </message>
 </context>
 <context>
+    <name>fieldsAlign</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fieldsAlign/ADM_fieldsAlign.cpp" line="+54"/>
+        <location line="+224"/>
+        <source>Fields Align</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-223"/>
+        <source>Adjust fields alignment.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+214"/>
+        <source>Swap fields</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Top field horizontal adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom field horizontal adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Top field vertical adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bottom field vertical adjust</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>filesel</name>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUI/src/DIA_fileSel.cpp" line="+215"/>
@@ -8573,7 +8719,7 @@ Do you want to replace it?</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
-        <location line="+146"/>
+        <location line="+153"/>
         <source>Preferences</source>
         <translation>偏好设定</translation>
     </message>
@@ -10184,7 +10330,7 @@ I will assume it has and try to continue</source>
         <translation type="vanished">Matroska 图像</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+649"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Matroska/ADM_mkvIndexer.cpp" line="+654"/>
         <source>Indexing Matroska Video Track</source>
         <translation>对Matroska视频轨道索引中</translation>
     </message>
@@ -10663,7 +10809,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1089"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1145"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>读取 SVQ3 文件头时发生问题</translation>
     </message>
@@ -10829,7 +10975,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>只支持AAC, AC3, DTS, E-AC3, MP2, MP3和Vorbis格式的音频</translation>
     </message>
     <message>
-        <location line="+204"/>
+        <location line="+215"/>
         <source>Saving PSP</source>
         <translation>正在保存 PSP</translation>
     </message>
@@ -10854,7 +11000,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>MP4复合器</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-198"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-209"/>
         <source>Unsupported</source>
         <translation>尚未支持</translation>
     </message>
@@ -11542,14 +11688,14 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qfile</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+128"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+132"/>
         <location line="+116"/>
         <source> files (*.</source>
         <translation> 文件 (*.</translation>
     </message>
     <message>
-        <location line="-199"/>
-        <location line="+152"/>
+        <location line="-203"/>
+        <location line="+156"/>
         <source>All files (*.*)</source>
         <translation>所有文件 (*.*)</translation>
     </message>
@@ -12453,7 +12599,14 @@ Ready.
         <translation>输入你的命令然后按求值按钮或 ⌘⏎.</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="+1"/>
+        <source>You can use ⌥⌘▲ and ⌥⌘▼ to recall previous commands.
+Ready.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-4"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>输入你的命令,然后按下求值按钮或按 CTRL + ENTER.
@@ -12746,7 +12899,7 @@ Ready.
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/resize/qt4/Q_resize.cpp" line="+118"/>
-        <location line="+137"/>
+        <location line="+144"/>
         <source>Preferences</source>
         <translation>偏好设定</translation>
     </message>
@@ -14074,7 +14227,7 @@ Only VP8/VP9 video and Vorbis/Opus audio supported</source>
 <context>
     <name>x264</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+745"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x264/qt4/Q_x264.cpp" line="+757"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
@@ -15493,6 +15646,12 @@ Do you wish to continue?</source>
         <translation>不编码</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source>this mode has not been implemented
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="-5"/>
         <location line="+20"/>
         <source>kbit/s</source>
@@ -15514,12 +15673,11 @@ Do you wish to continue?</source>
         <translation>平均比特率:</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/ADM_x265Setup.cpp" line="+0"/>
         <source>this mode has not been implemented</source>
-        <translation>此模式尚未实现</translation>
+        <translation type="vanished">此模式尚未实现</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="-10"/>
+        <location line="-10"/>
         <source>Quality:</source>
         <translation>品质:</translation>
     </message>
@@ -17031,13 +17189,13 @@ If it is a system profile it will be recreated next time.</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/zoom/qt5/DIA_flyZoom.cpp" line="+480"/>
-        <location line="+429"/>
+        <location line="+431"/>
         <source>Selection: </source>
         <translation>选择: </translation>
     </message>
     <message>
-        <location line="-331"/>
-        <location line="+184"/>
+        <location line="-333"/>
+        <location line="+186"/>
         <source>Preferences</source>
         <translation>偏好设定</translation>
     </message>
