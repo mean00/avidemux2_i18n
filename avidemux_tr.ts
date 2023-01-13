@@ -2774,7 +2774,7 @@ Is it running ?</source>
     <message>
         <location line="+3"/>
         <source>Enable OpenGL support</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL desteğini etkinleştir</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4211,53 +4211,53 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
         <source>A.I. Enhance (sw)</source>
-        <translation type="unfinished"></translation>
+        <translation>A.I. Geliştirme (sw)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Neural network upscalers for low resolution videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Düşük çözünürlüklü videolar için sinir ağı yükselticileri.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
         <source>Peek Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Orijinale Bak</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+54"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Tercihler</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Yeni filtre örnekleri için varsayılanlar</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Preview scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Önizleme ölçeği:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>x2</source>
-        <translation type="unfinished"></translation>
+        <translation>x2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>x3</source>
-        <translation type="unfinished"></translation>
+        <translation>x3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>x4</source>
-        <translation type="unfinished"></translation>
+        <translation>x4</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Warning: the scale of the preview does not match the scale of the selected filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Uyarı: önizlemenin ölçeği, seçilen filtrenin ölçeğiyle eşleşmiyor</translation>
     </message>
 </context>
 <context>
@@ -4265,52 +4265,52 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/aiEnhance.ui" line="+14"/>
         <source>A.I. Enhance</source>
-        <translation type="unfinished"></translation>
+        <translation>A.I. Geliştirme</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Yöntem:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>fast-FSRCNN x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>hızlı FSRCNN x2 üst ölçek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>fast-FSRCNN x2 upscale with denoising</source>
-        <translation type="unfinished"></translation>
+        <translation>gürültü giderici hızlı FSRCNN x2 üst ölçek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale for anime</source>
-        <translation type="unfinished"></translation>
+        <translation>Anime için FSRCNN x2 üst ölçeği</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale with denoising</source>
-        <translation type="unfinished"></translation>
+        <translation>Gürültü giderme özellikli FSRCNN x2 üst ölçek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale mild</source>
-        <translation type="unfinished"></translation>
+        <translation>FSRCNN x2 üst ölçeği hafif</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>FSRCNN x2 üst ölçek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x3 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>FSRCNN x3 üst ölçek</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x4 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>FSRCNN x4 üst ölçek</translation>
     </message>
 </context>
 <context>
@@ -8713,37 +8713,37 @@ Başlangıç ve/veya bitiş zamanı aralık dışı olacaktır</translation>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fieldsAlign/ADM_fieldsAlign.cpp" line="+54"/>
         <location line="+224"/>
         <source>Fields Align</source>
-        <translation type="unfinished"></translation>
+        <translation>Alanlar Hizala</translation>
     </message>
     <message>
         <location line="-223"/>
         <source>Adjust fields alignment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alan hizalamasını ayarlayın.</translation>
     </message>
     <message>
         <location line="+214"/>
         <source>Swap fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Alanları değiştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Top field horizontal adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Üst alan yatay ayarı</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom field horizontal adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt alan yatay ayarı</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Top field vertical adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Üst alan dikey ayarı</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom field vertical adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt alan dikey ayarı</translation>
     </message>
 </context>
 <context>
