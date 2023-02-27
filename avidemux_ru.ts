@@ -4165,53 +4165,53 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
         <source>A.I. Enhance (sw)</source>
-        <translation type="unfinished"></translation>
+        <translation>A.I. Enhance (программно)</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Neural network upscalers for low resolution videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Увеличение видео низкого разрешения с помощью нейросети</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
         <source>Peek Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Просмотр оригинала</translation>
     </message>
     <message>
         <location line="+17"/>
         <location line="+54"/>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Defaults for new filter instances</source>
-        <translation type="unfinished"></translation>
+        <translation>Стандартные значения новых экземпляров фильтра</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Preview scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Масштаб предпросмотра:</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>x2</source>
-        <translation type="unfinished"></translation>
+        <translation>×2</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>x3</source>
-        <translation type="unfinished"></translation>
+        <translation>×3</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>x4</source>
-        <translation type="unfinished"></translation>
+        <translation>×4</translation>
     </message>
     <message>
         <location line="+83"/>
         <source>Warning: the scale of the preview does not match the scale of the selected filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Предупреждение: масштаб предпросмотра не соответствует масштабу выбранного фильтра</translation>
     </message>
 </context>
 <context>
@@ -4219,52 +4219,52 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/aiEnhance.ui" line="+14"/>
         <source>A.I. Enhance</source>
-        <translation type="unfinished"></translation>
+        <translation>A.I. Enhance</translation>
     </message>
     <message>
         <location line="+23"/>
         <source>Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Метод:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>fast-FSRCNN x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>быстрое двукратное увеличение FSRCNN</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>fast-FSRCNN x2 upscale with denoising</source>
-        <translation type="unfinished"></translation>
+        <translation>быстрое двукратное увеличение FSRCNN с шумоподавлением</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale for anime</source>
-        <translation type="unfinished"></translation>
+        <translation>двукратное увеличение FSRCNN для аниме</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale with denoising</source>
-        <translation type="unfinished"></translation>
+        <translation>двукратное увеличение FSRCNN с шумоподавлением</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale mild</source>
-        <translation type="unfinished"></translation>
+        <translation>мягкое двукратное увеличение FSRCNN</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>двукратное увеличение FSRCNN</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x3 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>троекратное увеличение FSRCNN</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>FSRCNN x4 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>четырёхкратное увеличение FSRCNN</translation>
     </message>
 </context>
 <context>
@@ -8650,37 +8650,37 @@ Start and/or end time would be out of range</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/fieldsAlign/ADM_fieldsAlign.cpp" line="+54"/>
         <location line="+224"/>
         <source>Fields Align</source>
-        <translation type="unfinished"></translation>
+        <translation>Выравнивание полей</translation>
     </message>
     <message>
         <location line="-223"/>
         <source>Adjust fields alignment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Подогнать выравнивание полей.</translation>
     </message>
     <message>
         <location line="+214"/>
         <source>Swap fields</source>
-        <translation type="unfinished"></translation>
+        <translation>Поменять поля местами</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Top field horizontal adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Горизонтальная подгонка верхнего поля</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom field horizontal adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Горизонтальная подгонка нижнего поля</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Top field vertical adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикальная подгонка верхнего поля</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Bottom field vertical adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Вертикальная подгонка нижнего поля</translation>
     </message>
 </context>
 <context>
