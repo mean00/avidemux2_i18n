@@ -4234,7 +4234,7 @@ Installation mismatch</source>
     <message>
         <location line="+5"/>
         <source>fast-FSRCNN x2 upscale with denoising</source>
-        <translation>быстрое двукратное увеличение FSRCNN с шумподавлением</translation>
+        <translation>быстрое двукратное увеличение FSRCNN с шумоподавлением</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4244,7 +4244,7 @@ Installation mismatch</source>
     <message>
         <location line="+5"/>
         <source>FSRCNN x2 upscale with denoising</source>
-        <translation>двукратное увеличение FSRCNN с шумподавлением</translation>
+        <translation>двукратное увеличение FSRCNN с шумоподавлением</translation>
     </message>
     <message>
         <location line="+5"/>
