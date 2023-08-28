@@ -36,12 +36,12 @@ Drop timinginformationer?</translation>
         <translation>Kan ikke finde en demuxer for %s</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+38"/>
         <source>Attempt to open %s failed!</source>
         <translation>Forsøg på at åbne %s fejlede!</translation>
     </message>
     <message>
-        <location line="+30"/>
+        <location line="+31"/>
         <source>width</source>
         <translation>bredden</translation>
     </message>
@@ -451,8 +451,13 @@ Drop timinginformationer?</translation>
 <context>
     <name>FDK-AAC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+436"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+450"/>
         <source>_Profile:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bitrate _Mode:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -461,18 +466,16 @@ Drop timinginformationer?</translation>
         <translation>_Bithastighed:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>SBR enabled</source>
-        <translation>SBR aktiveret</translation>
+        <translation type="vanished">SBR aktiveret</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Afterburner</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>FDK-AAC Configuration</source>
         <translation>FDK-AAC-konfiguration</translation>
     </message>
@@ -510,7 +513,7 @@ Drop timinginformationer?</translation>
         <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>T&amp;heme</source>
         <translation type="unfinished"></translation>
     </message>
@@ -550,14 +553,11 @@ Drop timinginformationer?</translation>
         <translation>&amp;Seneste</translation>
     </message>
     <message>
-        <location line="+155"/>
-        <location line="+7"/>
         <source>XXXX</source>
-        <translation>XXXX</translation>
+        <translation type="vanished">XXXX</translation>
     </message>
     <message>
-        <location line="+18"/>
-        <location line="+142"/>
+        <location line="+195"/>
         <location line="+169"/>
         <location line="+181"/>
         <source>Configure</source>
@@ -601,7 +601,7 @@ Drop timinginformationer?</translation>
         <translation>&lt;b&gt;Output format&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+210"/>
+        <location line="+207"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -758,18 +758,13 @@ Drop timinginformationer?</translation>
         <translation>Ctrl+Alt+C</translation>
     </message>
     <message>
-        <location line="-1055"/>
-        <location line="+1066"/>
+        <location line="-1052"/>
+        <location line="+1063"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Navigation</translation>
     </message>
     <message>
-        <location line="-1713"/>
-        <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1628"/>
+        <location line="-85"/>
         <source>HDR tone mapping</source>
         <translation type="unfinished"></translation>
     </message>
@@ -810,6 +805,16 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+11"/>
+        <source>Stat&amp;us bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+U</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Lydmeter</translation>
     </message>
@@ -834,12 +839,12 @@ Drop timinginformationer?</translation>
         <translation>Si&amp;de</translation>
     </message>
     <message>
-        <location line="-1841"/>
+        <location line="-1725"/>
         <source>Codec O&amp;ptions</source>
         <translation>Codec-&amp;valgmuligheder</translation>
     </message>
     <message>
-        <location line="+342"/>
+        <location line="+215"/>
         <source> (0 tracks)</source>
         <translation> (0 spor)</translation>
     </message>
@@ -849,9 +854,8 @@ Drop timinginformationer?</translation>
         <translation>Afspil [MELLEMRUM]</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Play</source>
-        <translation>Afspil</translation>
+        <translation type="vanished">Afspil</translation>
     </message>
     <message>
         <location line="+26"/>
@@ -1250,7 +1254,7 @@ Drop timinginformationer?</translation>
         <translation>Sæt markør B</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+704"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+748"/>
         <source>Preferences</source>
         <translation>Præferencer</translation>
     </message>
@@ -1529,7 +1533,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-223"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-237"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
@@ -1979,7 +1983,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+1"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+276"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -2015,7 +2019,7 @@ Drop timinginformationer?</translation>
     </message>
     <message>
         <location line="+23"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-127"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-141"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="+58"/>
@@ -2099,7 +2103,7 @@ Drop timinginformationer?</translation>
         <translation>Aktivér understøttelse af OpenGL</translation>
     </message>
     <message>
-        <location line="-338"/>
+        <location line="-341"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Acceptér ikke-standard lydfrekvens for DVD</translation>
     </message>
@@ -2194,7 +2198,12 @@ Drop timinginformationer?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+1"/>
+        <source>Enable FMA3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+41"/>
         <source>_lavc threads:</source>
         <translation>_lavc-tråde:</translation>
     </message>
@@ -2528,7 +2537,7 @@ Drop timinginformationer?</translation>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+137"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+151"/>
         <source>Threading</source>
         <translation>Trådning</translation>
     </message>
@@ -2928,11 +2937,11 @@ Kører den?</translation>
         <translation>Gemte %d billeder.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+878"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+880"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+150"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+58"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
         <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
@@ -3219,22 +3228,22 @@ Kører den?</translation>
         <translation>Mikser</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-39"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-53"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Dekod video ved brug af DXVA2 (windows)</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Dekod video ved brug af VDPAU (NVIDIA)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Dekod video ved brug af LIBVA (INTEL)</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-6"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3249,7 +3258,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+15"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Hvis du bruger hardwaredekodning, så er det bedre at bruge den matchende skærmdriver</translation>
     </message>
@@ -3259,7 +3268,7 @@ Kører den?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="-385"/>
+        <location line="-395"/>
         <source>_Revert to saved default output settings on video load</source>
         <translation>_Tilbagefør til gemte standardoutputindstillinger når video indlæses</translation>
     </message>
@@ -3269,7 +3278,7 @@ Kører den?</translation>
         <translation>_Søg efter ny udgivelse</translation>
     </message>
     <message>
-        <location line="+129"/>
+        <location line="+132"/>
         <source>Caching of decoded pictures</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3343,12 +3352,17 @@ Kører den?</translation>
         <translation>Visning</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+19"/>
+        <source>Decode video using NVDEC (NVIDIA)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
         <source>HW Accel</source>
         <translation>Hardwareacceleration</translation>
     </message>
     <message>
-        <location line="-275"/>
+        <location line="-289"/>
         <source>_Always ask which port to use</source>
         <translation>_Spørg altid hvilken port der skal bruges</translation>
     </message>
@@ -3878,7 +3892,7 @@ Try anyway?</source>
         <translation>Bygger tidskort</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+88"/>
         <source>Cannot allocate enough memory</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3893,7 +3907,7 @@ Try anyway?</source>
         <translation>Hukommelsesfejl</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+468"/>
         <source>Saving</source>
         <translation>Gemmer</translation>
     </message>
@@ -4006,22 +4020,28 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+186"/>
-        <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
-        <location line="+46"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_ffmp43.cpp" line="+394"/>
+        <location line="+45"/>
         <source>Codec</source>
         <translation>Codec</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
-        <source>Internal error finding codec 0x%x</source>
-        <translation>Intern fejl ved forsøg på at finde codec 0x%x</translation>
+        <location line="-44"/>
+        <source>Internal error finding decoder for %s</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
+        <source>Internal error opening libavcodec %s decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal error finding codec 0x%x</source>
+        <translation type="vanished">Intern fejl ved forsøg på at finde codec 0x%x</translation>
+    </message>
+    <message>
         <source>Internal error opening 0x%x</source>
-        <translation>Intern fejl ved åbning af 0x%x</translation>
+        <translation type="vanished">Intern fejl ved åbning af 0x%x</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glShaderLoader/shader.cpp" line="+246"/>
@@ -4155,7 +4175,7 @@ Try anyway?</source>
 <context>
     <name>aiEnhance</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+38"/>
         <source>A.I. Enhance (sw)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4258,6 +4278,11 @@ Try anyway?</source>
         <source>FSRCNN x4 upscale</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location line="+5"/>
+        <source>PL3NET x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>analyzer</name>
@@ -4277,6 +4302,69 @@ Try anyway?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui" line="+14"/>
         <source>Analyzer</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>aomencoder</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+28"/>
+        <source>Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Lower values favor quality over speed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Maximum number of threads allowed, the encoder may use less at its discretion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Use at most as many threads as CPU cores</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>GOP Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Treat input as having full color range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Encoding Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Speed vs Quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keyframes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Miscellaneous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>libaom AV1 Encoder Configuration</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -6553,20 +6641,20 @@ Vil du indlæse den?
         <translation>Fase:</translation>
     </message>
     <message>
-        <location line="+324"/>
+        <location line="+327"/>
         <source>Video Codec:</source>
         <translation>Video-codec:</translation>
     </message>
     <message>
-        <location line="-331"/>
-        <location line="+296"/>
+        <location line="-334"/>
+        <location line="+299"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location line="-293"/>
-        <location line="+286"/>
+        <location line="-296"/>
+        <location line="+289"/>
         <source>Unknown</source>
         <translation>Ukendt</translation>
     </message>
@@ -6598,12 +6686,12 @@ Vil du indlæse den?
         <translation>Forløbet:</translation>
     </message>
     <message>
-        <location line="-505"/>
+        <location line="-508"/>
         <source>Time Remaining:</source>
         <translation>Resterende tid:</translation>
     </message>
     <message>
-        <location line="+529"/>
+        <location line="+532"/>
         <source>Frames/sec:</source>
         <translation>Billeder/sekund:</translation>
     </message>
@@ -6625,7 +6713,32 @@ Vil du indlæse den?
         <translation>Lydstørrelse:</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="-335"/>
+        <source>When finished:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Close dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keep dialog open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Suspend computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shut down computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+337"/>
         <source>Video Size:</source>
         <translation>Videostørrelse:</translation>
     </message>
@@ -6650,12 +6763,11 @@ Vil du indlæse den?
         <translation>Quantiser:</translation>
     </message>
     <message>
-        <location line="-437"/>
         <source>Shut down computer when finished</source>
-        <translation>Luk computer når fuldført</translation>
+        <translation type="vanished">Luk computer når fuldført</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="-393"/>
         <source>Priority:</source>
         <translation>Prioritet:</translation>
     </message>
@@ -6686,11 +6798,6 @@ Vil du indlæse den?
     </message>
     <message>
         <location line="+12"/>
-        <source>Keep dialog open when finished</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+24"/>
         <source>Delete first pass log files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6705,12 +6812,12 @@ Vil du indlæse den?
         <translation>Pause/afbryd</translation>
     </message>
     <message>
-        <location line="-218"/>
+        <location line="-221"/>
         <source>Main</source>
         <translation>Hoved</translation>
     </message>
     <message>
-        <location line="+198"/>
+        <location line="+201"/>
         <source>Minimize to Tray</source>
         <translation>Minimer til bakke</translation>
     </message>
@@ -8314,7 +8421,7 @@ Start and/or end time would be out of range</source>
         <translation>[uoverensstemmelse]</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+103"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Gemmer MPEG PS (ff)</translation>
     </message>
@@ -9368,6 +9475,32 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
     </message>
 </context>
 <context>
+    <name>grain</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/ADM_vidGrain.cpp" line="+35"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Film grain effect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>grainDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/qt4/grain.ui" line="+14"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Noise</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>hflip</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/horizontalFlip/horizontalFlip.cpp" line="+44"/>
@@ -9539,17 +9672,32 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
+        <source>Padding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Auto Gravity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Scene threshold</source>
+        <location line="+39"/>
+        <source>Scene change detection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+34"/>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-88"/>
         <source>Zoom</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9591,7 +9739,7 @@ Jeg vil antage at den har og prøve at fortsætte</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="+134"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+333"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+334"/>
         <source>_Noise:</source>
         <translation>_Støj:</translation>
     </message>
@@ -10424,7 +10572,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+139"/>
+        <location line="+147"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10845,7 +10993,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+217"/>
         <source>Saving mp4</source>
         <translation>Gemmer MP4</translation>
     </message>
@@ -11170,17 +11318,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+378"/>
+        <location filename="../../common/gui_navigate.cpp" line="+357"/>
+        <source>Cannot go to next frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Cannot go to next keyframe</source>
         <translation>Kan ikke gå til det næste nøglebillede</translation>
     </message>
     <message>
-        <location line="+66"/>
+        <location line="+67"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Kan ikke gå til det forrige nøglebillede</translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+27"/>
+        <source>Cannot go to previous frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+377"/>
         <source>Seek</source>
         <translation>Søg</translation>
     </message>
@@ -11625,19 +11783,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qencoding</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+65"/>
-        <location line="+20"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+64"/>
         <source>Privileges Required</source>
         <translation>Rettigheder kræves</translation>
     </message>
     <message>
-        <location line="-20"/>
-        <location line="+20"/>
+        <location line="+0"/>
         <source>Root privileges are required to perform this operation.</source>
         <translation>Root-rettigheder kræves for at udføre denne handling.</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+147"/>
         <source>First Pass</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11695,7 +11851,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Ny version tilgængelig&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Udgivet den %2.&lt;br&gt;Du kan downloade den her&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; Du kan deaktivere automatisk opdatering i præferencer.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+471"/>
+        <location line="+480"/>
         <source>Recent Files</source>
         <translation>Seneste filer</translation>
     </message>
@@ -11730,7 +11886,7 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+246"/>
         <source>Play/Stop</source>
         <translation>Afspil/stop</translation>
     </message>
@@ -11845,12 +12001,32 @@ The file must be re-indexed. Proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+611"/>
-        <source>Zoom: </source>
+        <location line="+828"/>
+        <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+445"/>
+        <location line="+6"/>
+        <source>No file loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1075"/>
+        <source>INFO: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>WARNING: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>ERROR: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-721"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Programmet er stødt på et fatalt problem
@@ -12513,7 +12689,7 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+62"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+63"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>Indtast dine kommandoer og tryk så på Evaluér-knappen eller CTRL+ENTER.
@@ -12521,6 +12697,13 @@ Den aktuelle redigering er blevet gemt og vil blive genindlæst ved næste start
     </message>
     <message>
         <location line="+1"/>
+        <location line="+4"/>
+        <source>Enter help() for more information.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
@@ -12535,7 +12718,7 @@ Klar.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>You can use ⌥⌘▲ and ⌥⌘▼ to recall previous commands.
 Ready.
 </source>
@@ -12545,31 +12728,33 @@ Ready.
 <context>
     <name>qtalert</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+33"/>
         <source>Alert</source>
-        <translation>Besked</translation>
+        <translation type="vanished">Besked</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+25"/>
-        <location line="+25"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+117"/>
         <source>Info</source>
         <translation>Info</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <location line="+31"/>
+        <location line="+23"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <location line="+29"/>
         <source>Confirmation</source>
         <translation>Bekræftelse</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <location line="+33"/>
+        <location line="+25"/>
+        <location line="+34"/>
         <source>Question</source>
         <translation>Spørgsmål</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-8"/>
         <source>Question?</source>
         <translation>Spørgsmål?</translation>
     </message>
@@ -13106,7 +13291,7 @@ Ready.
         <translation>Forhåndsvis</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+166"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+167"/>
         <source>Peek Original</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13429,7 +13614,7 @@ Ready.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+426"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+434"/>
         <source>Save File</source>
         <translation type="unfinished"></translation>
     </message>

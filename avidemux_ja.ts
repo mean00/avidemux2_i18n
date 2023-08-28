@@ -19,7 +19,7 @@
         <translation>映像をデコード中...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+537"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+540"/>
         <source>width</source>
         <translation>幅</translation>
     </message>
@@ -84,7 +84,7 @@
         <translation>サポートされていないサイズ</translation>
     </message>
     <message>
-        <location line="-68"/>
+        <location line="-69"/>
         <source>Attempt to open %s failed!</source>
         <translation>ファイル %s のオープンに失敗!</translation>
     </message>
@@ -106,7 +106,7 @@ Drop timing informations ?</source>
 タイミング情報を削除しますか?</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="-36"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="-38"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Demuxer %s が見つかりません</translation>
     </message>
@@ -454,9 +454,14 @@ Drop timing informations ?</source>
 <context>
     <name>FDK-AAC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+436"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+450"/>
         <source>_Profile:</source>
         <translation>プロファイル(_P):</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bitrate _Mode:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -464,26 +469,24 @@ Drop timing informations ?</source>
         <translation>ビットレート(_B):</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
         <source>Afterburner</source>
         <translation>アフターバーナー</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>FDK-AAC Configuration</source>
         <translation>FDK-AAC 構成設定</translation>
     </message>
     <message>
-        <location line="-8"/>
         <source>SBR enabled</source>
-        <translation>SBR 有効</translation>
+        <translation type="vanished">SBR 有効</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1475"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+1346"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -498,17 +501,17 @@ Drop timing informations ?</source>
         <translation>B:</translation>
     </message>
     <message>
-        <location line="-845"/>
+        <location line="-842"/>
         <source>ms</source>
         <translation>ミリ秒</translation>
     </message>
     <message>
-        <location line="-586"/>
+        <location line="-459"/>
         <source>&amp;Go</source>
         <translation>移動(&amp;G)</translation>
     </message>
     <message>
-        <location line="+831"/>
+        <location line="+701"/>
         <location line="+23"/>
         <location line="+23"/>
         <location line="+23"/>
@@ -529,44 +532,41 @@ Drop timing informations ?</source>
         <translation>...</translation>
     </message>
     <message>
-        <location line="+344"/>
+        <location line="+358"/>
         <source>&amp;Top</source>
         <translation>上(&amp;T)</translation>
     </message>
     <message>
-        <location line="-1571"/>
+        <location line="-1582"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location line="+331"/>
         <source>Play</source>
-        <translation>再生</translation>
+        <translation type="vanished">再生</translation>
     </message>
     <message>
-        <location line="-650"/>
-        <location line="+7"/>
         <source>XXXX</source>
-        <translation>XXXX</translation>
+        <translation type="vanished">XXXX</translation>
     </message>
     <message>
-        <location line="-192"/>
+        <location line="-377"/>
         <source>&amp;Auto</source>
         <translation>自動(&amp;U)</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-29"/>
         <source>&amp;Edit</source>
         <translation>編集(&amp;E)</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+54"/>
         <source>&amp;File</source>
         <translation>ファイル(&amp;F)</translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="-64"/>
         <source>&amp;Help</source>
         <translation>ヘルプ(&amp;H)</translation>
     </message>
@@ -576,17 +576,17 @@ Drop timing informations ?</source>
         <translation>表示(&amp;V)</translation>
     </message>
     <message>
-        <location line="+1716"/>
+        <location line="+1587"/>
         <source>Open Video</source>
         <translation>ビデオを開く</translation>
     </message>
     <message>
-        <location line="+225"/>
+        <location line="+239"/>
         <source>Si&amp;de</source>
         <translation>側面(&amp;D)</translation>
     </message>
     <message>
-        <location line="-674"/>
+        <location line="-688"/>
         <source>Time:</source>
         <translation>時間:</translation>
     </message>
@@ -623,12 +623,12 @@ Drop timing informations ?</source>
         <translation>プロジェクトを保存</translation>
     </message>
     <message>
-        <location line="-1751"/>
+        <location line="-1621"/>
         <source>&amp;Audio</source>
         <translation>音声(&amp;A)</translation>
     </message>
     <message>
-        <location line="+1766"/>
+        <location line="+1636"/>
         <source>&amp;Input</source>
         <translation>入力(&amp;I)</translation>
     </message>
@@ -638,12 +638,12 @@ Drop timing informations ?</source>
         <translation>選択範囲(&amp;S)</translation>
     </message>
     <message>
-        <location line="-1822"/>
+        <location line="-1692"/>
         <source>&amp;Tools</source>
         <translation>ツール(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1362"/>
+        <location line="+1232"/>
         <source>Se&amp;lection</source>
         <translation>選択範囲(&amp;L)</translation>
     </message>
@@ -659,40 +659,39 @@ Drop timing informations ?</source>
         <translation>000000</translation>
     </message>
     <message>
-        <location line="+406"/>
+        <location line="+420"/>
         <source>&amp;Audio Metre</source>
         <translation>音声メーター(&amp;A)</translation>
     </message>
     <message>
-        <location line="-1669"/>
-        <location line="+142"/>
+        <location line="-1538"/>
         <location line="+169"/>
         <location line="+181"/>
         <source>Configure</source>
         <translation>構成</translation>
     </message>
     <message>
-        <location line="-735"/>
+        <location line="-609"/>
         <source>Vi&amp;deo</source>
         <translation>映像(&amp;D)</translation>
     </message>
     <message>
-        <location line="+865"/>
+        <location line="+739"/>
         <source>Play [SPACE]</source>
         <translation>再生 [SPACE]</translation>
     </message>
     <message>
-        <location line="+811"/>
+        <location line="+808"/>
         <source>Audio &amp;Metre</source>
         <translation>音声メーター(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1662"/>
+        <location line="-1533"/>
         <source>&amp;Toolbars</source>
         <translation>ツールバー(&amp;T)</translation>
     </message>
     <message>
-        <location line="+1709"/>
+        <location line="+1580"/>
         <source>&amp;Open...</source>
         <translation>開く(&amp;O)...</translation>
     </message>
@@ -723,12 +722,12 @@ Drop timing informations ?</source>
         <translation>次のフレームに移動 [LEFT]</translation>
     </message>
     <message>
-        <location line="-784"/>
+        <location line="-654"/>
         <source>Codec O&amp;ptions</source>
         <translation>コーデック設定(&amp;P)</translation>
     </message>
     <message>
-        <location line="+1652"/>
+        <location line="+1522"/>
         <source>Play filtered</source>
         <translation>フィルター付きで再生</translation>
     </message>
@@ -738,7 +737,7 @@ Drop timing informations ?</source>
         <translation>マーカ B に移動 [PAGE DOWN]</translation>
     </message>
     <message>
-        <location line="-1061"/>
+        <location line="-1058"/>
         <source>&lt;b&gt;Audio Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;音声出力&lt;/b&gt;</translation>
     </message>
@@ -748,7 +747,7 @@ Drop timing informations ?</source>
         <translation>&lt;b&gt;出力形式&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1119"/>
+        <location line="+1116"/>
         <source>&amp;Load/Run Project...</source>
         <translation>プロジェクト読込/実行(&amp;L)...</translation>
     </message>
@@ -758,27 +757,27 @@ Drop timing informations ?</source>
         <translation>末尾のフレームに移動 [END]</translation>
     </message>
     <message>
-        <location line="-1132"/>
+        <location line="-1002"/>
         <source>&amp;Custom</source>
         <translation>カスタム(&amp;C)</translation>
     </message>
     <message>
-        <location line="+1793"/>
+        <location line="+1663"/>
         <source>&amp;Output</source>
         <translation>出力(&amp;O)</translation>
     </message>
     <message>
-        <location line="-1768"/>
+        <location line="-1638"/>
         <source>&amp;Recent</source>
         <translation>履歴(&amp;R)</translation>
     </message>
     <message>
-        <location line="+1156"/>
+        <location line="+1026"/>
         <source>Forward one minute</source>
         <translation>1 分前へ移動</translation>
     </message>
     <message>
-        <location line="-622"/>
+        <location line="-619"/>
         <source>&amp;Shift:</source>
         <translation>シフト(&amp;S):</translation>
     </message>
@@ -788,7 +787,7 @@ Drop timing informations ?</source>
         <translation> (0 トラック)</translation>
     </message>
     <message>
-        <location line="+1432"/>
+        <location line="+1429"/>
         <source>&amp;Volume</source>
         <translation>音量(&amp;V)</translation>
     </message>
@@ -803,48 +802,47 @@ Drop timing informations ?</source>
         <translation>1 分前へ移動 [CTRL+UP]</translation>
     </message>
     <message>
-        <location line="+711"/>
+        <location line="+725"/>
         <source>&amp;Separate</source>
         <translation>区切り(&amp;S)</translation>
     </message>
     <message>
-        <location line="-941"/>
+        <location line="-955"/>
         <source>Set start marker [CTRL+PAGEUP]</source>
         <translation>開始マーカをセット [CTRL+PAGEUP]</translation>
     </message>
     <message>
-        <location line="-1086"/>
+        <location line="-957"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
     <message>
-        <location line="+501"/>
+        <location line="+375"/>
         <location line="+169"/>
         <source>Filters</source>
         <translation>フィルター</translation>
     </message>
     <message>
-        <location line="+992"/>
+        <location line="+989"/>
         <source>Vol&amp;ume</source>
         <translation>音量(&amp;M)</translation>
     </message>
     <message>
-        <location line="-1419"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation>&lt;b&gt;映像デコーダ&lt;/b&gt;</translation>
+        <translation type="vanished">&lt;b&gt;映像デコーダ&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-118"/>
+        <location line="-1407"/>
         <source>T&amp;heme</source>
         <translation>テーマ(&amp;h)</translation>
     </message>
     <message>
-        <location line="+257"/>
+        <location line="+130"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;映像出力&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+727"/>
+        <location line="+724"/>
         <source>Delete selection [DEL]</source>
         <translation type="unfinished"></translation>
     </message>
@@ -914,12 +912,22 @@ Drop timing informations ?</source>
         <translation>Ctrl+Alt+B</translation>
     </message>
     <message>
+        <location line="+11"/>
+        <source>Stat&amp;us bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+U</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+14"/>
         <source>Ctrl+Alt+M</source>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
-        <location line="-56"/>
+        <location line="-70"/>
         <source>Ctrl+Alt+N</source>
         <translation>Ctrl+Alt+N</translation>
     </message>
@@ -939,8 +947,8 @@ Drop timing informations ?</source>
         <translation>前のキーフレームに移動 [DOWN]</translation>
     </message>
     <message>
-        <location line="-150"/>
-        <location line="+1066"/>
+        <location line="-147"/>
+        <location line="+1063"/>
         <source>&amp;Navigation</source>
         <translation>ナビゲーション(&amp;N)</translation>
     </message>
@@ -1161,7 +1169,7 @@ Japanese translated by Tilt</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_builtin.cpp" line="+97"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+682"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+726"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
@@ -1186,7 +1194,7 @@ Japanese translated by Tilt</translation>
         <translation>GMC</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-84"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-98"/>
         <source>HDR</source>
         <translation>HDR</translation>
     </message>
@@ -1344,7 +1352,7 @@ Japanese translated by Tilt</translation>
         <translation>開く</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-67"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-70"/>
         <source>SIMD</source>
         <translation>SIMD</translation>
     </message>
@@ -1423,7 +1431,7 @@ FLV ビデオの作成には LAME が必要です.</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="-86"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+273"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+276"/>
         <location line="+3"/>
         <location line="+5"/>
         <location filename="../../common/gui_save.cpp" line="-606"/>
@@ -1442,12 +1450,20 @@ FLV ビデオの作成には LAME が必要です.</translation>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+186"/>
-        <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
-        <location line="+46"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_ffmp43.cpp" line="+394"/>
+        <location line="+45"/>
         <source>Codec</source>
         <translation>コーデック</translation>
+    </message>
+    <message>
+        <location line="-44"/>
+        <source>Internal error finding decoder for %s</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+45"/>
+        <source>Internal error opening libavcodec %s decoder</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-98"/>
@@ -1455,11 +1471,11 @@ FLV ビデオの作成には LAME が必要です.</translation>
         <translation>エラー警告のみ表示</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+878"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+880"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+150"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+58"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
         <location filename="../../common/gui_main.cpp" line="-364"/>
         <location line="+27"/>
@@ -1661,12 +1677,12 @@ Installation mismatch</source>
         <translation>デコーダオプション</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+88"/>
         <source>Cannot allocate enough memory</source>
         <translation>十分なメモリを割り当てることはできません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-122"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-125"/>
         <source>Enable 3DNOWEXT</source>
         <translation>3DNowExt を有効</translation>
     </message>
@@ -1710,7 +1726,7 @@ Installation mismatch</source>
         <translation>ジョブ %s を追加できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+121"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+124"/>
         <source>_Cache size:</source>
         <translation>キャッシュサイズ(_C):</translation>
     </message>
@@ -1730,7 +1746,7 @@ Installation mismatch</source>
         <translation>4 秒前に戻る</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+704"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+664"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
         <translation>保存されたビデオは不完全です。 エラーは at %s (%d%) で発生しました。 これは、ビデオの無効なタイムスタンプの結果として発生する可能性があります。</translation>
     </message>
@@ -1833,7 +1849,7 @@ Installation mismatch</source>
         <translation>ダウンミックスなし</translation>
     </message>
     <message>
-        <location line="-184"/>
+        <location line="-187"/>
         <source>Enable AVX2</source>
         <translation>AVX2 を有効化</translation>
     </message>
@@ -2003,7 +2019,7 @@ Proceed anyway?</source>
         <translation>スクリプト &quot;%s&quot; は存在しません。</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+139"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+142"/>
         <source>This renderer provides no hardware acceleration</source>
         <translation>このレンダラはハードウェアアクセラレーションを提供しません</translation>
     </message>
@@ -2429,7 +2445,7 @@ Warning, the settings must be close.</source>
         <translation>追加するビデオファイルを選択...</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-58"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-61"/>
         <source>Enable SSSE3</source>
         <translation>SSSE3 を有効</translation>
     </message>
@@ -2449,7 +2465,7 @@ Warning, the settings must be close.</source>
         <translation>音声言語を設定できません: 先にビデオを読み込んでください!</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+312"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+315"/>
         <source>Post-Processing</source>
         <translation>ポスト プロセッシング</translation>
     </message>
@@ -2479,7 +2495,7 @@ Warning, the settings must be close.</source>
         <translation>Dolby Pro Logic</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-74"/>
         <source>Enable 3DNOW</source>
         <translation>3DNOW を有効</translation>
     </message>
@@ -2667,7 +2683,7 @@ Installation mismatch</source>
         <translation>エラーはみつかりません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+258"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+261"/>
         <source>Import</source>
         <translation>インポート</translation>
     </message>
@@ -2688,9 +2704,8 @@ Installation mismatch</source>
         <translation>コーデック エラー</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
         <source>Internal error finding codec 0x%x</source>
-        <translation>コーデック 0x%x 検索時の内部エラー</translation>
+        <translation type="vanished">コーデック 0x%x 検索時の内部エラー</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-71"/>
@@ -2760,7 +2775,7 @@ Is it running ?</source>
         <translation>ストリームを作成できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-265"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-268"/>
         <source>Enable all SIMD</source>
         <translation>すべての SIMD を有効化</translation>
     </message>
@@ -2778,7 +2793,7 @@ Is it running ?</source>
 </translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+217"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+220"/>
         <source>_AudioDevice</source>
         <translation>音声デバイス(_A)</translation>
     </message>
@@ -2860,7 +2875,7 @@ Is it running ?</source>
         <translation>開けません &quot;%s&quot;.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-139"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-142"/>
         <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
         <translation>マーカ A がマーカ B より後に設定されている場合、またはマーカ B が A より前に設定 されている場合、マーカーを入れ替える。</translation>
     </message>
@@ -2930,7 +2945,7 @@ Is it running ?</source>
         <translation>音声エンコーダ プラグイン</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+130"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+133"/>
         <source>Caching of decoded pictures</source>
         <translation>デコード済みピクチャのキャッシュ化</translation>
     </message>
@@ -3004,7 +3019,7 @@ Is it running ?</source>
         <translation>タイム マップを構築中</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+195"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+196"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>映像のデコードに_VDPAU (NVIDIA) を使用</translation>
     </message>
@@ -3080,7 +3095,7 @@ Do you want to continue anyway ?</source>
         <translation>%d 分</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-178"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-179"/>
         <source>_Volume control:</source>
         <translation>音量制御(_V):</translation>
     </message>
@@ -3115,12 +3130,12 @@ Do you want to continue anyway ?</source>
         <translation>%s の BMP ファイル保存に失敗.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-297"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-300"/>
         <source>_Enable alternative keyboard shortcuts</source>
         <translation>キーボードの代替ショートカットを使用(_E)</translation>
     </message>
     <message>
-        <location line="+379"/>
+        <location line="+385"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>映像のデコードに_libVA (INTEL) を使用</translation>
     </message>
@@ -3145,7 +3160,7 @@ Do you want to continue anyway ?</source>
         <translation>保存するファイルを選択</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-47"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-50"/>
         <source>_Limit Refresh Rate</source>
         <translation>リフレッシュレートの制限(_L)</translation>
     </message>
@@ -3209,12 +3224,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>映像エンコーダ</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+105"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+119"/>
         <source>Threading</source>
         <translation>スレッド処理</translation>
     </message>
     <message>
-        <location line="-116"/>
+        <location line="-130"/>
         <source>_Strength:</source>
         <translation>強度(_S):</translation>
     </message>
@@ -3229,7 +3244,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>ジョブを保存</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-291"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-294"/>
         <source>_Check for new release</source>
         <translation>アップデートの確認(_U)</translation>
     </message>
@@ -3238,7 +3253,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation type="vanished">インデックス/アンパック処理の優先度(_I):</translation>
     </message>
     <message>
-        <location line="+290"/>
+        <location line="+293"/>
         <source>De_ringing</source>
         <translation>リンギング軽減(_R)</translation>
     </message>
@@ -3268,7 +3283,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>キーフレームブースト(%)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-274"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-277"/>
         <source>Enable AVX</source>
         <translation>AVX を有効化</translation>
     </message>
@@ -3288,7 +3303,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>SSE を有効</translation>
     </message>
     <message>
-        <location line="+49"/>
+        <location line="+8"/>
+        <source>Enable FMA3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+44"/>
         <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3409,7 +3429,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>ブラックリストのコーデックは無視する (Intel, HEVC 10bit)</translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+12"/>
+        <source>Decode video using NVDEC (NVIDIA)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>HW デコーディングを使用する場合は、一致するディスプレイ ドライバーが推奨されます</translation>
     </message>
@@ -3425,12 +3450,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>完全なファイルシステム</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+18"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+25"/>
         <source>HW Accel</source>
         <translation>HW アクセラレータ</translation>
     </message>
     <message>
-        <location line="-404"/>
+        <location line="-421"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>DVD 規格にない周波数の音声使用を許可(_A)</translation>
     </message>
@@ -3470,7 +3495,7 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>音声トラックとして利用できません</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+71"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+74"/>
         <source>Prioritisation</source>
         <translation>優先順位の設定</translation>
     </message>
@@ -3495,12 +3520,12 @@ Go to Audio-&gt;MainTrack to select the active one.</source>
         <translation>スクリプト/プロジェクトを選択して実行</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-63"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-66"/>
         <source>Enable SSE4.2</source>
         <translation>SSE4.2 を有効化</translation>
     </message>
     <message>
-        <location line="+108"/>
+        <location line="+111"/>
         <source>_Always ask which port to use</source>
         <translation>常に使用ポートをユーザに確認(_A)</translation>
     </message>
@@ -3856,7 +3881,7 @@ lame プラグインをインストールしてください</translation>
         <translation>画像を保存(_I)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+93"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+107"/>
         <source>Preferences</source>
         <translation>環境設定</translation>
     </message>
@@ -3899,7 +3924,7 @@ lame プラグインをインストールしてください</translation>
         <translation>フィルター(_F)</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-369"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-383"/>
         <source>_lavc threads:</source>
         <translation>lavc スレッド(_L):</translation>
     </message>
@@ -4095,9 +4120,8 @@ Expect problems.</source>
         <translation>ジョブをキューに追加</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+46"/>
         <source>Internal error opening 0x%x</source>
-        <translation>0x%x をオープン中にエラーが発生</translation>
+        <translation type="vanished">0x%x をオープン中にエラーが発生</translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="-958"/>
@@ -4134,7 +4158,7 @@ Expect problems.</source>
 <context>
     <name>aiEnhance</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+38"/>
         <source>A.I. Enhance (sw)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4237,6 +4261,11 @@ Expect problems.</source>
         <source>FSRCNN x4 upscale</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location line="+5"/>
+        <source>PL3NET x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>analyzer</name>
@@ -4257,6 +4286,69 @@ Expect problems.</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui" line="+14"/>
         <source>Analyzer</source>
         <translation>アナライザー</translation>
+    </message>
+</context>
+<context>
+    <name>aomencoder</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+28"/>
+        <source>Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Lower values favor quality over speed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Maximum number of threads allowed, the encoder may use less at its discretion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Use at most as many threads as CPU cores</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>GOP Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Treat input as having full color range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Encoding Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Speed vs Quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keyframes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Miscellaneous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>libaom AV1 Encoder Configuration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6505,53 +6597,78 @@ Do you want to load it  ?
 <context>
     <name>encodingDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="+512"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/encoding.ui" line="+515"/>
         <location line="+31"/>
         <location line="+60"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location line="-460"/>
+        <location line="-436"/>
         <source>Low</source>
         <translation>低</translation>
     </message>
     <message>
-        <location line="+295"/>
+        <location line="+271"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
         <translation>0 MB</translation>
     </message>
     <message>
-        <location line="-336"/>
+        <location line="-312"/>
         <source>High</source>
         <translation>高</translation>
     </message>
     <message>
-        <location line="-81"/>
+        <location line="-108"/>
         <source>Main</source>
         <translation>メイン</translation>
     </message>
     <message>
         <location line="+8"/>
-        <location line="+296"/>
+        <location line="+299"/>
         <location line="+21"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location line="-14"/>
+        <location line="-278"/>
+        <source>When finished:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Close dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keep dialog open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Suspend computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shut down computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+238"/>
         <source>Audio Codec:</source>
         <translation>音声コーデック:</translation>
     </message>
     <message>
-        <location line="-241"/>
+        <location line="-217"/>
         <source>Priority:</source>
         <translation>優先度:</translation>
     </message>
     <message>
-        <location line="+340"/>
+        <location line="+316"/>
         <source>Video Size:</source>
         <translation>ビデオサイズ:</translation>
     </message>
@@ -6561,12 +6678,12 @@ Do you want to load it  ?
         <translation>音声サイズ:</translation>
     </message>
     <message>
-        <location line="-296"/>
+        <location line="-272"/>
         <source>Above Normal</source>
         <translation>標準以上</translation>
     </message>
     <message>
-        <location line="+253"/>
+        <location line="+229"/>
         <source>Video Codec:</source>
         <translation>映像コーデック:</translation>
     </message>
@@ -6576,12 +6693,12 @@ Do you want to load it  ?
         <translation>処理されたフレーム:</translation>
     </message>
     <message>
-        <location line="-384"/>
+        <location line="-360"/>
         <source>Below Normal</source>
         <translation>標準以下</translation>
     </message>
     <message>
-        <location line="+448"/>
+        <location line="+424"/>
         <source>Elapsed:</source>
         <translation>経過:</translation>
     </message>
@@ -6596,32 +6713,31 @@ Do you want to load it  ?
         <translation>00:00:00</translation>
     </message>
     <message>
-        <location line="-512"/>
+        <location line="-515"/>
         <source>Time Remaining:</source>
         <translation>残り時間:</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+79"/>
         <source>Normal</source>
         <translation>標準</translation>
     </message>
     <message>
-        <location line="-76"/>
+        <location line="-103"/>
         <source>Phase:</source>
         <translation>位相:</translation>
     </message>
     <message>
-        <location line="+472"/>
+        <location line="+475"/>
         <source>Quantiser:</source>
         <translation>量子化:</translation>
     </message>
     <message>
-        <location line="-437"/>
         <source>Shut down computer when finished</source>
-        <translation>完了後に PC をシャットダウン</translation>
+        <translation type="vanished">完了後に PC をシャットダウン</translation>
     </message>
     <message>
-        <location line="+168"/>
+        <location line="-269"/>
         <source>Pause / Abort</source>
         <translation>一時停止 / 中断</translation>
     </message>
@@ -6636,17 +6752,16 @@ Do you want to load it  ?
         <translation>コンテナ:</translation>
     </message>
     <message>
-        <location line="-348"/>
+        <location line="-351"/>
         <source>Encoding...</source>
         <translation>エンコーディング...</translation>
     </message>
     <message>
-        <location line="+129"/>
         <source>Keep dialog open when finished</source>
-        <translation>完了後もダイアログを開いたままにする</translation>
+        <translation type="vanished">完了後もダイアログを開いたままにする</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+156"/>
         <source>Delete first pass log files</source>
         <translation>最初のパスのログを削除</translation>
     </message>
@@ -6671,8 +6786,8 @@ Do you want to load it  ?
         <translation>フレーム/秒:</translation>
     </message>
     <message>
-        <location line="-536"/>
-        <location line="+286"/>
+        <location line="-539"/>
+        <location line="+289"/>
         <source>Unknown</source>
         <translation>不明</translation>
     </message>
@@ -8278,7 +8393,7 @@ Start and/or end time would be out of range</source>
         <translation>MPEG-PS-Muxer</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="+209"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPS.cpp" line="+212"/>
         <source> video not compatible
 </source>
         <translation> ビデオ互換性がありません
@@ -8328,12 +8443,12 @@ Start and/or end time would be out of range</source>
 </translation>
     </message>
     <message>
-        <location line="-201"/>
+        <location line="-204"/>
         <source>[Mismatch]</source>
         <translation>パラメータのミスマッチ</translation>
     </message>
     <message>
-        <location line="+166"/>
+        <location line="+169"/>
         <source> Bad width/height for DVD
 </source>
         <translation> DVD に不適切な幅/高さ
@@ -9322,6 +9437,32 @@ I will assume it has and try to continue</source>
     </message>
 </context>
 <context>
+    <name>grain</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/ADM_vidGrain.cpp" line="+35"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Film grain effect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>grainDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/qt4/grain.ui" line="+14"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Noise</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>hflip</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/horizontalFlip/horizontalFlip.cpp" line="+45"/>
@@ -9458,17 +9599,32 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
+        <source>Padding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Auto Gravity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Scene threshold</source>
+        <location line="+39"/>
+        <source>Scene change detection</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+34"/>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-88"/>
         <source>Zoom</source>
         <translation>拡大</translation>
     </message>
@@ -9500,7 +9656,7 @@ I will assume it has and try to continue</source>
     <name>ivtcRemover</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="+141"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+430"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+431"/>
         <source>Fast</source>
         <translation>高速</translation>
     </message>
@@ -9534,13 +9690,13 @@ I will assume it has and try to continue</source>
         <translation>重複画像の除去</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-346"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-347"/>
         <source>Remove IVTC dupe.</source>
         <translation>IVTC-重複画像の除去.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="-6"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+340"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+341"/>
         <source>VeryFast</source>
         <translation>最高速</translation>
     </message>
@@ -9551,7 +9707,7 @@ I will assume it has and try to continue</source>
         <translation>フレーム レート変更(_F):</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-342"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="-343"/>
         <source>Remove the duplicate frames present after ivtc.</source>
         <translation>ivtc 後に存在する重複フレームを除去.</translation>
     </message>
@@ -10331,7 +10487,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+139"/>
+        <location line="+147"/>
         <source>Saving WebM</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10861,7 +11017,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>オーディオは AAC, AC3, DTS, E-AC3, MP2, MP3 Vorbis のみサポートされています</translation>
     </message>
     <message>
-        <location line="+215"/>
+        <location line="+218"/>
         <source>Saving PSP</source>
         <translation>PSP で保存</translation>
     </message>
@@ -10894,7 +11050,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>MP4 Muxer</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-209"/>
+        <location filename="../../../avidemux_plugins/ADM_muxers/muxerMp4/muxerMP4.cpp" line="-212"/>
         <source>Unsupported</source>
         <translation>未対応の形式</translation>
     </message>
@@ -11081,7 +11237,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+845"/>
+        <location filename="../../common/gui_navigate.cpp" line="+852"/>
         <source>Seek</source>
         <translation>シーク</translation>
     </message>
@@ -11091,14 +11247,24 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location line="-492"/>
+        <location line="-495"/>
         <source>Cannot go to previous keyframe</source>
         <translation>前のキーフレームに移動できません</translation>
     </message>
     <message>
-        <location line="-66"/>
+        <location line="-91"/>
+        <source>Cannot go to next frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Cannot go to next keyframe</source>
         <translation>次のキーフレームに移動できません</translation>
+    </message>
+    <message>
+        <location line="+94"/>
+        <source>Cannot go to previous frame</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -11521,13 +11687,12 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qencoding</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+479"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+452"/>
         <source>Abort</source>
         <translation>中断</translation>
     </message>
     <message>
-        <location line="-414"/>
-        <location line="+20"/>
+        <location line="-388"/>
         <source>Privileges Required</source>
         <translation>管理者権限が必要</translation>
     </message>
@@ -11536,18 +11701,17 @@ The file must be re-indexed. Proceed?</source>
         <translation type="vanished">パス 1</translation>
     </message>
     <message>
-        <location line="+394"/>
+        <location line="+388"/>
         <source>Resume</source>
         <translation>再開</translation>
     </message>
     <message>
-        <location line="-414"/>
-        <location line="+20"/>
+        <location line="-388"/>
         <source>Root privileges are required to perform this operation.</source>
         <translation>この操作にはルート権限が必要です.</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+147"/>
         <source>First Pass</source>
         <translation>最初のパス</translation>
     </message>
@@ -11590,44 +11754,43 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qgui2</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3091"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2.cpp" line="+3245"/>
         <source>%c-%s (%02d)</source>
         <translation>%c-%s (%02d)</translation>
     </message>
     <message>
-        <location line="-2819"/>
+        <location line="-2973"/>
         <source>&lt;b&gt;New version available&lt;/b&gt;&lt;br&gt; Version %1&lt;br&gt;Released on %2.&lt;br&gt;You can download it here&lt;br&gt; &lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt; You can disable autoupdate in preferences.&lt;/small&gt;</source>
         <translation>&lt;b&gt;新バージョンが利用可能&lt;/b&gt;&lt;br&gt;バージョン %1&lt;br&gt;リリース %2.&lt;br&gt;ここからダウンロード:&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;自動更新は環境設定で無効にできます.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+1409"/>
+        <location line="+1417"/>
         <source>Set start marker</source>
         <translation>開始マーカをセット</translation>
     </message>
     <message>
-        <location line="-937"/>
+        <location line="-936"/>
         <source>Recent Projects</source>
         <translation>最近使用したプロジェクト</translation>
     </message>
     <message>
-        <location line="+1629"/>
         <source>Zoom: </source>
-        <translation>拡大: </translation>
+        <translation type="vanished">拡大: </translation>
     </message>
     <message>
-        <location line="+445"/>
+        <location line="+2219"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>アプリケーションに問題が発生したため終了します
 現在の編集内容は保存され、次の起動時に再読み込みされます</translation>
     </message>
     <message>
-        <location line="-1149"/>
+        <location line="-1295"/>
         <source>Go to previous keyframe</source>
         <translation>前のキーフレームに移動</translation>
     </message>
     <message>
-        <location line="-926"/>
+        <location line="-925"/>
         <source>Recent Files</source>
         <translation>最近使用したファイル</translation>
     </message>
@@ -11657,7 +11820,7 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+263"/>
+        <location line="+262"/>
         <source>Go to next keyframe</source>
         <translation>次のキーフレームに移動</translation>
     </message>
@@ -11717,7 +11880,17 @@ The current editing has been saved and will be reloaded at next start</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+1327"/>
+        <location line="+828"/>
+        <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>No file loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+639"/>
         <source>%c-%s</source>
         <translation>%c-%s</translation>
     </message>
@@ -11735,7 +11908,22 @@ The current editing has been saved and will be reloaded at next start</source>
         </translation>
     </message>
     <message>
-        <location line="-1816"/>
+        <location line="+10"/>
+        <source>INFO: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>WARNING: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>ERROR: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-1986"/>
         <source>Go to first frame</source>
         <translation>先頭フレームに移動</translation>
     </message>
@@ -12415,7 +12603,14 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+63"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+64"/>
+        <location line="+4"/>
+        <source>Enter help() for more information.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
@@ -12430,7 +12625,7 @@ Ready.
 </translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>You can use ⌥⌘▲ and ⌥⌘▼ to recall previous commands.
 Ready.
 </source>
@@ -12439,7 +12634,7 @@ Ready.
 </translation>
     </message>
     <message>
-        <location line="-4"/>
+        <location line="-6"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>コマンドを入力後、評価ボタンまたは Ctrl+Enter を押します.
@@ -12449,31 +12644,33 @@ Ready.
 <context>
     <name>qtalert</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+39"/>
-        <location line="+25"/>
-        <location line="+25"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+117"/>
         <source>Info</source>
         <translation>情報</translation>
     </message>
     <message>
-        <location line="-56"/>
         <source>Alert</source>
-        <translation>警告</translation>
+        <translation type="vanished">警告</translation>
     </message>
     <message>
-        <location line="+134"/>
-        <location line="+33"/>
+        <location line="+23"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+75"/>
+        <location line="+34"/>
         <source>Question</source>
         <translation>質問</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-8"/>
         <source>Question?</source>
         <translation>質問?</translation>
     </message>
     <message>
-        <location line="-78"/>
-        <location line="+31"/>
+        <location line="-80"/>
+        <location line="+29"/>
         <source>Confirmation</source>
         <translation>確認</translation>
     </message>
@@ -12973,7 +13170,7 @@ Ready.
 <context>
     <name>seekablePreviewDialog</name>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+191"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+192"/>
         <source>&gt;</source>
         <translation>&gt;</translation>
     </message>
@@ -13301,7 +13498,7 @@ Ready.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+426"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+434"/>
         <source>Save File</source>
         <translation>ファイルを保存</translation>
     </message>

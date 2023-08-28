@@ -4,17 +4,17 @@
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+507"/>
+        <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+509"/>
         <source>Attempt to open %s failed!</source>
         <translation>Ошибка при открытии %s!</translation>
     </message>
     <message>
-        <location line="-36"/>
+        <location line="-38"/>
         <source>Cannot find a demuxer for %s</source>
         <translation>Невозможно найти демультиплексор для %s</translation>
     </message>
     <message>
-        <location line="+66"/>
+        <location line="+69"/>
         <source>width</source>
         <translation>ширина</translation>
     </message>
@@ -454,9 +454,14 @@ Drop timing informations ?</source>
 <context>
     <name>FDK-AAC</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+436"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/fdk-aac/ae_fdk.cpp" line="+450"/>
         <source>_Profile:</source>
         <translation>_Профиль:</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Bitrate _Mode:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -464,18 +469,16 @@ Drop timing informations ?</source>
         <translation>_Битрейт:</translation>
     </message>
     <message>
-        <location line="+2"/>
         <source>SBR enabled</source>
-        <translation>SBR включён</translation>
+        <translation type="vanished">SBR включён</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
         <source>Afterburner</source>
         <translation>Улучшенный алгоритм (afterburner)</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>FDK-AAC Configuration</source>
         <translation>Настройки FDK-AAC</translation>
     </message>
@@ -483,14 +486,13 @@ Drop timing informations ?</source>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+483"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+357"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Копировать</translation>
     </message>
     <message>
-        <location line="-294"/>
-        <location line="+142"/>
+        <location line="-152"/>
         <location line="+169"/>
         <location line="+181"/>
         <source>Configure</source>
@@ -508,12 +510,12 @@ Drop timing informations ?</source>
         <translation>Сдв&amp;иг:</translation>
     </message>
     <message>
-        <location line="+680"/>
+        <location line="+677"/>
         <source>Time:</source>
         <translation>Время:</translation>
     </message>
     <message>
-        <location line="-1282"/>
+        <location line="-1153"/>
         <source>&amp;Help</source>
         <translation>Сп&amp;равка</translation>
     </message>
@@ -523,7 +525,7 @@ Drop timing informations ?</source>
         <translation>Ви&amp;део</translation>
     </message>
     <message>
-        <location line="+53"/>
+        <location line="+54"/>
         <source>&amp;Audio</source>
         <translation>&amp;Аудио</translation>
     </message>
@@ -538,7 +540,7 @@ Drop timing informations ?</source>
         <translation>&amp;Инструменты</translation>
     </message>
     <message>
-        <location line="-43"/>
+        <location line="-44"/>
         <source>&amp;Edit</source>
         <translation>&amp;Правка</translation>
     </message>
@@ -548,7 +550,7 @@ Drop timing informations ?</source>
         <translation>&amp;Вид</translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+29"/>
         <source>&amp;Custom</source>
         <translation>&amp;Мои скрипты</translation>
     </message>
@@ -558,12 +560,12 @@ Drop timing informations ?</source>
         <translation>Перех&amp;од</translation>
     </message>
     <message>
-        <location line="+409"/>
+        <location line="+282"/>
         <source> (0 tracks)</source>
         <translation> (0 дорожек)</translation>
     </message>
     <message>
-        <location line="+603"/>
+        <location line="+600"/>
         <source>Go to previous cut point [SHIFT+DOWN]</source>
         <translation>Перейти к предыдущему разрезу [SHIFT+DOWN]</translation>
     </message>
@@ -635,7 +637,7 @@ Drop timing informations ?</source>
         <translation>&amp;Выход</translation>
     </message>
     <message>
-        <location line="+120"/>
+        <location line="+134"/>
         <source>Si&amp;de</source>
         <translation>С&amp;боку</translation>
     </message>
@@ -645,22 +647,21 @@ Drop timing informations ?</source>
         <translation>&amp;Сверху</translation>
     </message>
     <message>
-        <location line="-1796"/>
         <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Декодер видео&lt;/b&gt;</translation>
+        <translation type="vanished">&lt;b&gt;Декодер видео&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="+1204"/>
+        <location line="-606"/>
         <source>Frame type:</source>
         <translation>Тип кадра:</translation>
     </message>
     <message>
-        <location line="+580"/>
+        <location line="+594"/>
         <source>&amp;Separate</source>
         <translation>&amp;Отделить</translation>
     </message>
     <message>
-        <location line="-2027"/>
+        <location line="-1912"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -670,7 +671,7 @@ Drop timing informations ?</source>
         <translation>&amp;Панели</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+12"/>
         <source>T&amp;heme</source>
         <translation>&amp;Тема</translation>
     </message>
@@ -690,13 +691,11 @@ Drop timing informations ?</source>
         <translation>Па&amp;раметры кодека</translation>
     </message>
     <message>
-        <location line="+108"/>
-        <location line="+7"/>
         <source>XXXX</source>
-        <translation>XXXX</translation>
+        <translation type="vanished">XXXX</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+45"/>
         <source>&lt;b&gt;Video Output&lt;/b&gt;</source>
         <translation>&lt;b&gt;Видео на выходе&lt;/b&gt;</translation>
     </message>
@@ -717,19 +716,18 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1066"/>
+        <location line="+1063"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Навигация</translation>
     </message>
     <message>
-        <location line="-991"/>
+        <location line="-988"/>
         <source>Play [SPACE]</source>
         <translation>Воспроизвести [SPACE]</translation>
     </message>
     <message>
-        <location line="+3"/>
         <source>Play</source>
-        <translation>Воспроизвести</translation>
+        <translation type="vanished">Воспроизвести</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -940,6 +938,16 @@ Drop timing informations ?</source>
     </message>
     <message>
         <location line="+11"/>
+        <source>Stat&amp;us bar</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Ctrl+Alt+U</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>&amp;Audio Metre</source>
         <translation>&amp;Аудиометр</translation>
     </message>
@@ -1129,7 +1137,7 @@ Drop timing informations ?</source>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+647"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+677"/>
         <source>Decode video using DXVA2 (windows)</source>
         <translation>Декодировать видео с помощью DXVA2 (Windows)</translation>
     </message>
@@ -1144,12 +1152,12 @@ Drop timing informations ?</source>
         <translation>Игнорировать чёрный список (Intel, HEVC 10bit)</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+17"/>
         <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
         <translation>Включение аппаратного ускорения отключает многопоточность, изменения требуют перезапуска приложения</translation>
     </message>
     <message>
-        <location line="-386"/>
+        <location line="-396"/>
         <source>_Accept non-standard audio frequency for DVD</source>
         <translation>_Разрешать нестандартную частоту звука для DVD</translation>
     </message>
@@ -1244,7 +1252,12 @@ Drop timing informations ?</source>
         <translation>Включить AVX2</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+1"/>
+        <source>Enable FMA3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+41"/>
         <source>_lavc threads:</source>
         <translation>_Потоки декодера libavcodec:</translation>
     </message>
@@ -1568,7 +1581,7 @@ Drop timing informations ?</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+123"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+137"/>
         <source>Threading</source>
         <translation>Многопоточность</translation>
     </message>
@@ -2270,11 +2283,11 @@ Is it running ?</source>
         <translation>Сохранено изображений: %d.</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+878"/>
+        <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+880"/>
         <location line="+50"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+80"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+144"/>
-        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+51"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+150"/>
+        <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+58"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
         <location filename="../../common/gui_main.cpp" line="-251"/>
         <location line="+27"/>
@@ -2382,7 +2395,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+10"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-222"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-236"/>
         <source>Stereo headphones</source>
         <translation>Стереонаушники</translation>
     </message>
@@ -2551,7 +2564,7 @@ Is it running ?</source>
     </message>
     <message>
         <location line="+8"/>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+262"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+276"/>
         <source>CPU</source>
         <translation>ЦП</translation>
     </message>
@@ -2641,17 +2654,17 @@ Is it running ?</source>
         <translation>_Дерингинг</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-29"/>
+        <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="-42"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Декодировать видео с помощью VDPAU (NVIDIA)</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+3"/>
         <source>Decode video using LIBVA (INTEL)</source>
         <translation>Декодировать видео с помощью LIBVA (INTEL)</translation>
     </message>
     <message>
-        <location line="-3"/>
+        <location line="-6"/>
         <source>Decode video using VideoToolbox (macOS)</source>
         <translation>Декодировать видео с помощью VideoToolbox (macOS)</translation>
     </message>
@@ -2661,12 +2674,12 @@ Is it running ?</source>
         <translation>Включить поддержку OpenGL</translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+53"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>При включении аппаратного ускорения лучше использовать соответствующий вывод видео</translation>
     </message>
     <message>
-        <location line="-378"/>
+        <location line="-388"/>
         <source>_Check for new release</source>
         <translation>_Проверять обновления</translation>
     </message>
@@ -2676,7 +2689,7 @@ Is it running ?</source>
         <translation>SIMD</translation>
     </message>
     <message>
-        <location line="+126"/>
+        <location line="+129"/>
         <source>Caching of decoded pictures</source>
         <translation>Кэширование декодированных кадров</translation>
     </message>
@@ -2785,12 +2798,17 @@ Is it running ?</source>
         <translation>Видео</translation>
     </message>
     <message>
-        <location line="+35"/>
+        <location line="+19"/>
+        <source>Decode video using NVDEC (NVIDIA)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+30"/>
         <source>HW Accel</source>
         <translation>Аппаратное ускорение</translation>
     </message>
     <message>
-        <location line="-275"/>
+        <location line="-289"/>
         <source>_Always ask which port to use</source>
         <translation>_Всегда выбирать порт</translation>
     </message>
@@ -3879,7 +3897,7 @@ Try anyway?</source>
         <translation>Создание временной карты</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+87"/>
+        <location filename="../../../avidemux_core/ADM_coreImage/src/ADM_imageSave.cpp" line="+88"/>
         <source>Cannot allocate enough memory</source>
         <translation>Ошибка выделения памяти</translation>
     </message>
@@ -3894,7 +3912,7 @@ Try anyway?</source>
         <translation>Ошибка выделения памяти</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+508"/>
+        <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+468"/>
         <source>Saving</source>
         <translation>Сохранение</translation>
     </message>
@@ -4007,22 +4025,28 @@ Try anyway?</source>
         <translation>1:1</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/include/ADM_ffmp43.h" line="+186"/>
-        <location line="+31"/>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="+40"/>
-        <location line="+46"/>
+        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_ffmp43.cpp" line="+394"/>
+        <location line="+45"/>
         <source>Codec</source>
         <translation>Кодек</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/ADM_codecFFsimple.cpp" line="-46"/>
-        <source>Internal error finding codec 0x%x</source>
-        <translation>Внутренняя ошибка поиска кодека 0x%x</translation>
+        <location line="-44"/>
+        <source>Internal error finding decoder for %s</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+46"/>
+        <location line="+45"/>
+        <source>Internal error opening libavcodec %s decoder</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Internal error finding codec 0x%x</source>
+        <translation type="vanished">Внутренняя ошибка поиска кодека 0x%x</translation>
+    </message>
+    <message>
         <source>Internal error opening 0x%x</source>
-        <translation>Внутренняя ошибка открытия 0x%x</translation>
+        <translation type="vanished">Внутренняя ошибка открытия 0x%x</translation>
     </message>
     <message>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+0"/>
@@ -4163,7 +4187,7 @@ Installation mismatch</source>
 <context>
     <name>aiEnhance</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+37"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/ADM_vidAiEnhance.cpp" line="+38"/>
         <source>A.I. Enhance (sw)</source>
         <translation>A.I. Enhance (программно)</translation>
     </message>
@@ -4266,6 +4290,11 @@ Installation mismatch</source>
         <source>FSRCNN x4 upscale</source>
         <translation>четырёхкратное увеличение FSRCNN</translation>
     </message>
+    <message>
+        <location line="+5"/>
+        <source>PL3NET x2 upscale</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>analyzer</name>
@@ -4286,6 +4315,69 @@ Installation mismatch</source>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui" line="+14"/>
         <source>Analyzer</source>
         <translation>Анализатор</translation>
+    </message>
+</context>
+<context>
+    <name>aomencoder</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+28"/>
+        <source>Speed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Lower values favor quality over speed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Maximum number of threads allowed, the encoder may use less at its discretion.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Use at most as many threads as CPU cores</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>GOP Size</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Treat input as having full color range</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Encoding Mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Speed vs Quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keyframes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Miscellaneous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>libaom AV1 Encoder Configuration</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -6569,7 +6661,32 @@ Do you want to load it  ?
         <translation>Этап:</translation>
     </message>
     <message>
-        <location line="+296"/>
+        <location line="+35"/>
+        <source>When finished:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>Close dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Keep dialog open</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Suspend computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shut down computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+238"/>
         <source>Audio Codec:</source>
         <translation>Кодек аудио:</translation>
     </message>
@@ -6584,15 +6701,15 @@ Do you want to load it  ?
         <translation>Кодек видео:</translation>
     </message>
     <message>
-        <location line="-331"/>
-        <location line="+296"/>
+        <location line="-334"/>
+        <location line="+299"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Нет</translation>
     </message>
     <message>
-        <location line="-293"/>
-        <location line="+286"/>
+        <location line="-296"/>
+        <location line="+289"/>
         <source>Unknown</source>
         <translation>Неизвестно</translation>
     </message>
@@ -6614,12 +6731,12 @@ Do you want to load it  ?
         <translation>0</translation>
     </message>
     <message>
-        <location line="-522"/>
+        <location line="-525"/>
         <source>Time Remaining:</source>
         <translation>Осталось времени:</translation>
     </message>
     <message>
-        <location line="+350"/>
+        <location line="+353"/>
         <source>Total Size:</source>
         <translation>Общий размер:</translation>
     </message>
@@ -6629,12 +6746,11 @@ Do you want to load it  ?
         <translation>Размер видео:</translation>
     </message>
     <message>
-        <location line="-360"/>
         <source>Shut down computer when finished</source>
-        <translation>Выключить ПК по завершении</translation>
+        <translation type="vanished">Выключить ПК по завершении</translation>
     </message>
     <message>
-        <location line="+20"/>
+        <location line="-316"/>
         <source>Priority:</source>
         <translation>Приоритет:</translation>
     </message>
@@ -6664,12 +6780,11 @@ Do you want to load it  ?
         <translation>Низкий</translation>
     </message>
     <message>
-        <location line="+12"/>
         <source>Keep dialog open when finished</source>
-        <translation>Не закрывать окно по завершении</translation>
+        <translation type="vanished">Не закрывать окно по завершении</translation>
     </message>
     <message>
-        <location line="+24"/>
+        <location line="+12"/>
         <source>Delete first pass log files</source>
         <translation>Удалять файлы статистики от первого прохода</translation>
     </message>
@@ -6714,12 +6829,12 @@ Do you want to load it  ?
         <translation>Кадров в секунду:</translation>
     </message>
     <message>
-        <location line="-568"/>
+        <location line="-571"/>
         <source>Main</source>
         <translation>Основное</translation>
     </message>
     <message>
-        <location line="+396"/>
+        <location line="+399"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -8339,7 +8454,7 @@ Start and/or end time would be out of range</source>
         <translation>[Несовпадение]</translation>
     </message>
     <message>
-        <location line="+100"/>
+        <location line="+103"/>
         <source>Saving mpeg PS (ff)</source>
         <translation>Сохранение mpeg PS (ff)</translation>
     </message>
@@ -9397,6 +9512,32 @@ I will assume it has and try to continue</source>
     </message>
 </context>
 <context>
+    <name>grain</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/ADM_vidGrain.cpp" line="+35"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Film grain effect.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>grainDialog</name>
+    <message>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/qt4/grain.ui" line="+14"/>
+        <source>Grain</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+35"/>
+        <source>Noise</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>hflip</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/horizontalFlip/horizontalFlip.cpp" line="+44"/>
@@ -9572,17 +9713,36 @@ I will assume it has and try to continue</source>
         <translation>быстрое</translation>
     </message>
     <message>
-        <location line="+21"/>
+        <location line="+24"/>
+        <source>Padding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Auto Gravity</source>
         <translation>Автоматическая гравитация</translation>
     </message>
     <message>
-        <location line="+24"/>
-        <source>Scene threshold</source>
-        <translation>Порог сцены</translation>
+        <location line="+39"/>
+        <source>Scene change detection</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+34"/>
+        <source>Threshold</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+26"/>
+        <source>Level</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Scene threshold</source>
+        <translation type="vanished">Порог сцены</translation>
+    </message>
+    <message>
+        <location line="-88"/>
         <source>Zoom</source>
         <translation>Масштаб</translation>
     </message>
@@ -9624,7 +9784,7 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/admIvtc/ADM_admIvtc.cpp" line="+134"/>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+333"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+334"/>
         <source>_Noise:</source>
         <translation>_Шум:</translation>
     </message>
@@ -10458,7 +10618,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 Только VP8/VP9/AV1 поддерживаются как видео и Vorbis/Opus как аудио</translation>
     </message>
     <message>
-        <location line="+139"/>
+        <location line="+147"/>
         <source>Saving WebM</source>
         <translation>Сохранение в формате WebM</translation>
     </message>
@@ -10883,7 +11043,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Для аудио поддерживаются только AAC, AC3, DTS, E-AC3, MP2, MP3 и Vorbis</translation>
     </message>
     <message>
-        <location line="+214"/>
+        <location line="+217"/>
         <source>Saving mp4</source>
         <translation>Сохранение в формате MP4</translation>
     </message>
@@ -11212,17 +11372,27 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>navigate</name>
     <message>
-        <location filename="../../common/gui_navigate.cpp" line="+378"/>
+        <location filename="../../common/gui_navigate.cpp" line="+357"/>
+        <source>Cannot go to next frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+24"/>
         <source>Cannot go to next keyframe</source>
         <translation>Невозможно перейти к следующему ключевому кадру</translation>
     </message>
     <message>
-        <location line="+66"/>
+        <location line="+67"/>
         <source>Cannot go to previous keyframe</source>
         <translation>Невозможно перейти к предыдущему ключевому кадру</translation>
     </message>
     <message>
-        <location line="+401"/>
+        <location line="+27"/>
+        <source>Cannot go to previous frame</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+377"/>
         <source>Seek</source>
         <translation>Поиск</translation>
     </message>
@@ -11668,19 +11838,17 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>qencoding</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+65"/>
-        <location line="+20"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_encoding.cpp" line="+64"/>
         <source>Privileges Required</source>
         <translation>Требуются права</translation>
     </message>
     <message>
-        <location line="-20"/>
-        <location line="+20"/>
+        <location line="+0"/>
         <source>Root privileges are required to perform this operation.</source>
         <translation>Для выполнения этой операции требуются права root.</translation>
     </message>
     <message>
-        <location line="+153"/>
+        <location line="+147"/>
         <source>First Pass</source>
         <translation>Первый проход</translation>
     </message>
@@ -11742,7 +11910,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&lt;b&gt;Новая версия&lt;/b&gt;&lt;br&gt;Версия %1&lt;br&gt;Выпущена %2.&lt;br&gt;Доступна для загрузки с адреса&lt;br&gt;&lt;a href=&apos;%3&apos;&gt;%3&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;small&gt;Вы можете отключить автоматическую проверку обновлений в настройках.&lt;/small&gt;</translation>
     </message>
     <message>
-        <location line="+471"/>
+        <location line="+480"/>
         <source>Recent Files</source>
         <translation>Недавние файлы</translation>
     </message>
@@ -11777,7 +11945,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>?</translation>
     </message>
     <message>
-        <location line="+247"/>
+        <location line="+246"/>
         <source>Play/Stop</source>
         <translation>Старт/стоп</translation>
     </message>
@@ -11892,12 +12060,36 @@ The file must be re-indexed. Proceed?</source>
         <translation>Прокрутите колесо мыши для переключения режима</translation>
     </message>
     <message>
-        <location line="+611"/>
-        <source>Zoom: </source>
-        <translation>Масштаб: </translation>
+        <location line="+828"/>
+        <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+445"/>
+        <location line="+6"/>
+        <source>No file loaded</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1075"/>
+        <source>INFO: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>WARNING: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>ERROR: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Zoom: </source>
+        <translation type="vanished">Масштаб: </translation>
+    </message>
+    <message>
+        <location line="-721"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
         <translation>Приложение столкнулось с критической проблемой
@@ -12618,7 +12810,7 @@ The current editing has been saved and will be reloaded at next start</source>
 <context>
     <name>qshell</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+62"/>
+        <location filename="../ADM_userInterfaces/ADM_shell/Q_shell.cpp" line="+63"/>
         <source>Enter your commands then press the evaluate button or CTRL+ENTER.
 </source>
         <translation>Введите команды и нажмите кнопку «Выполнить» или CTRL+ENTER.
@@ -12626,6 +12818,13 @@ The current editing has been saved and will be reloaded at next start</source>
     </message>
     <message>
         <location line="+1"/>
+        <location line="+4"/>
+        <source>Enter help() for more information.
+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-3"/>
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
@@ -12641,7 +12840,7 @@ Ready.
 </translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>You can use ⌥⌘▲ and ⌥⌘▼ to recall previous commands.
 Ready.
 </source>
@@ -12653,31 +12852,33 @@ Ready.
 <context>
     <name>qtalert</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+33"/>
         <source>Alert</source>
-        <translation>Оповещение</translation>
+        <translation type="vanished">Оповещение</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <location line="+25"/>
-        <location line="+25"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+117"/>
         <source>Info</source>
         <translation>Информация</translation>
     </message>
     <message>
-        <location line="+26"/>
-        <location line="+31"/>
+        <location line="+23"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <location line="+29"/>
         <source>Confirmation</source>
         <translation>Подтверждение</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <location line="+33"/>
+        <location line="+25"/>
+        <location line="+34"/>
         <source>Question</source>
         <translation>Вопрос</translation>
     </message>
     <message>
-        <location line="-7"/>
+        <location line="-8"/>
         <source>Question?</source>
         <translation>Вопрос?</translation>
     </message>
@@ -13202,7 +13403,7 @@ Ready.
         <translation>Предпросмотр</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+166"/>
+        <location filename="../ADM_UIs/src/DIA_flyDialog.cpp" line="+167"/>
         <source>Peek Original</source>
         <translation>Просмотр оригинала</translation>
     </message>
@@ -13525,7 +13726,7 @@ Ready.
 <context>
     <name>tinypy</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+426"/>
+        <location filename="../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemux.cpp" line="+434"/>
         <source>Save File</source>
         <translation>Сохранить файл</translation>
     </message>
