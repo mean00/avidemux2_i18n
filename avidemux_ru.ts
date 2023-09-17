@@ -81,7 +81,7 @@
     <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+79"/>
         <source>Checking if timestamps are valid..</source>
-        <translation>Проверка правильности временных меток...</translation>
+        <translation>Проверяются метки времени...</translation>
     </message>
     <message>
         <location line="+49"/>
@@ -527,7 +527,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+54"/>
         <source>&amp;Audio</source>
-        <translation>&amp;Аудио</translation>
+        <translation>&amp;Звук</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -537,7 +537,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-10"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Инструменты</translation>
+        <translation>&amp;Сервис</translation>
     </message>
     <message>
         <location line="-44"/>
@@ -678,7 +678,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+8"/>
         <source>&amp;Auto</source>
-        <translation>Ав&amp;томатика</translation>
+        <translation>&amp;Автомат</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -723,7 +723,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-988"/>
         <source>Play [SPACE]</source>
-        <translation>Воспроизвести [SPACE]</translation>
+        <translation>Играть [ПРОБЕЛ]</translation>
     </message>
     <message>
         <source>Play</source>
@@ -929,7 +929,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>&amp;Toolbar</source>
-        <translation>&amp;Панель</translation>
+        <translation>&amp;Панель инструментов</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1164,7 +1164,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>_Revert to saved default output settings on video load</source>
-        <translation>_Сбрасывать настройки вывода на сохранённые при загрузке видео</translation>
+        <translation>_Сбрасывать настройки выхода на сохранённые при загрузке видео</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1301,7 +1301,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+4"/>
         <source>_Encoding priority:</source>
-        <translation>_Приоритет кодирования:</translation>
+        <translation>Приоритет _кодирования:</translation>
     </message>
     <message>
         <source>_Indexing/unpacking priority:</source>
@@ -1310,12 +1310,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+5"/>
         <source>_Playback priority:</source>
-        <translation>_Приоритет воспроизведения:</translation>
+        <translation>Приоритет воспрои_зведения:</translation>
     </message>
     <message>
         <location line="-6"/>
         <source>Prioritisation</source>
-        <translation>Приоритет</translation>
+        <translation>Приоритизация</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1340,7 +1340,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>_Use custom fragment size for auto-append of MPEG-TS files</source>
-        <translation>_Использовать нестандартный размер фрагментов при автоматическом объединении файлов MPEG-TS</translation>
+        <translation>_Использовать нестандартный размер фрагментов при автоприсоединении файлов MPEG-TS</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1524,13 +1524,13 @@ Drop timing informations ?</source>
         <location line="+13"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+80"/>
         <source>_Horizontal deblocking</source>
-        <translation>_Горизонтальный деблокинг</translation>
+        <translation>_Горизонтальное устранение блочности</translation>
     </message>
     <message>
         <location line="+1"/>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+1"/>
         <source>_Vertical deblocking</source>
-        <translation>_Вертикальный деблокинг</translation>
+        <translation>_Вертикальнне устранение блочности</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -1540,7 +1540,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+2"/>
         <source>Deblocking</source>
-        <translation>Деблокинг</translation>
+        <translation>Устранение блочности</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_prefs.cpp" line="+4"/>
@@ -1555,7 +1555,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+10"/>
         <source>Output</source>
-        <translation>Вывод</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/DIA_plugins.cpp" line="+80"/>
@@ -2740,7 +2740,7 @@ Is it running ?</source>
     <message>
         <location line="+68"/>
         <source>De_ringing</source>
-        <translation>_Дерингинг</translation>
+        <translation>_Сглаживать высокочастотные искажения (дерингинг)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2775,17 +2775,17 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>Refresh Rate Cap (ms)</source>
-        <translation>Интервал частоты обновления (мс)</translation>
+        <translation>Предел частоты обновления (мс)</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
-        <translation>Включить отображение через OpenGL в окне предпросмотра фильтров</translation>
+        <translation>Включить вывод через OpenGL в окне предпросмотра фильтров</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>OpenGL video display and filters require OpenGL to be enabled and working at application startup to be available</source>
-        <translation>Для отображения видео и фильтров OpenGL требуется, чтобы OpenGL был включён и работал при запуске приложения</translation>
+        <translation>Вывод видео через OpenGL и работа его фильтров требуют, чтобы OpenGL был включён и работал при запуске приложения</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -2795,7 +2795,7 @@ Is it running ?</source>
     <message>
         <location line="+21"/>
         <source>Display</source>
-        <translation>Видео</translation>
+        <translation>Вывод</translation>
     </message>
     <message>
         <location line="+19"/>
@@ -2805,7 +2805,7 @@ Is it running ?</source>
     <message>
         <location line="+30"/>
         <source>HW Accel</source>
-        <translation>Аппаратное ускорение</translation>
+        <translation>Апп. ускорение</translation>
     </message>
     <message>
         <location line="-289"/>
@@ -2860,7 +2860,7 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>Save Selection as JPEG</source>
-        <translation>Сохранить выборку как последовательность JPEG</translation>
+        <translation>Сохранить выборку в последовательность JPEG</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2881,7 +2881,7 @@ Is it running ?</source>
         <location line="+8"/>
         <location line="+2"/>
         <source>Clear recent items</source>
-        <translation>Очистить список</translation>
+        <translation>Очистить список недавних</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -3224,7 +3224,7 @@ It is needed to create PSP compatible video.</source>
     <message>
         <location line="+67"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
-        <translation>Вы собираетесь очистить список недавно открытых файлов и проектов. Этот шаг необратим. Продолжить?</translation>
+        <translation>Вы хотите очистить список недавно открытых файлов и проектов. Этот шаг необратим. Продолжить?</translation>
     </message>
     <message>
         <location line="+139"/>
@@ -3271,7 +3271,7 @@ Proceed anyway?</source>
         <location line="+835"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
-        <translation>Неверный индекс аудио</translation>
+        <translation>Указан неверный индекс аудио</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -3291,7 +3291,7 @@ Proceed anyway?</source>
     <message>
         <location line="+8"/>
         <source>Setting the language for the given track index is not possible: Video has no audio file!</source>
-        <translation>Установка языка дорожки невозможна: в видео нет файла аудио!</translation>
+        <translation>Установка языка указанной дорожки невозможна: в видео нет файла аудио!</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5379,7 +5379,7 @@ This message will not be displayed again.</source>
     <message>
         <location line="+1"/>
         <source>Remove noisy edge by turning them to black.</source>
-        <translation>Удалить шум границ, заполнив их чёрным цветом.</translation>
+        <translation>Убрать шум границ, заполнив их чёрным цветом.</translation>
     </message>
 </context>
 <context>
@@ -7495,7 +7495,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+10"/>
         <source>Out</source>
-        <translation>Вывод</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -7505,7 +7505,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+0"/>
         <source>In</source>
-        <translation>Ввод</translation>
+        <translation>Вход</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -8926,7 +8926,7 @@ Do you want to replace it?</source>
     <message>
         <location line="+21"/>
         <source>Output settings</source>
-        <translation>Настройки вывода</translation>
+        <translation>Настройки выхода</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -9821,7 +9821,7 @@ I will assume it has and try to continue</source>
         <location line="+3"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>_Frame rate change:</source>
-        <translation>_Изменение частоты кадров:</translation>
+        <translation>Смен_а частоты кадров:</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -9840,7 +9840,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+0"/>
         <source>Something very wrong happened when building joblist.</source>
-        <translation>Что-то очень необъяснимое случилось при построении списка заданий.</translation>
+        <translation>Что-то непонятное случилось при построении списка заданий.</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -9896,7 +9896,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Output</source>
-        <translation>Вывод</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -10447,7 +10447,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+9"/>
         <source>Noise</source>
-        <translation>Подавление шума</translation>
+        <translation>Шумоподавление</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -10462,7 +10462,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+18"/>
         <source>Artistic</source>
-        <translation>Художественность</translation>
+        <translation>Декорация</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -10907,7 +10907,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+3"/>
         <source>Advanced Settings</source>
-        <translation>Дополнительные настройки</translation>
+        <translation>Расширенные настройки</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -11246,7 +11246,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+48"/>
         <source>Cannot get AAC Extra data
 </source>
-        <translation>Невозможно получить дополнительные данные AAC
+        <translation>Невозможно получить расширенные данные AAC
 </translation>
     </message>
     <message>
@@ -11673,7 +11673,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+17"/>
         <source>Video Codec Extradata</source>
-        <translation>Дополнительные данные видеокодека</translation>
+        <translation>Расширенные данные видеокодека</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -11683,7 +11683,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+14"/>
         <source>Extradata:</source>
-        <translation>Дополнительные данные:</translation>
+        <translation>Расширенные данные:</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -11746,7 +11746,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+244"/>
         <source>Indexing</source>
-        <translation>Индексация</translation>
+        <translation>Индексируется</translation>
     </message>
     <message>
         <location line="-32"/>
@@ -12062,7 +12062,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+828"/>
         <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
-        <translation>Вход: %1x%2, %3к/с  |  Декодер: %4  |  Изображение: %5  |  Масштаб: %6%</translation>
+        <translation>Вход: %1x%2, %3 к/c  |  Декодер: %4  |  Вывод: %5  |  Масштаб: %6%</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -12714,9 +12714,9 @@ The current editing has been saved and will be reloaded at next start</source>
         <location line="+2"/>
         <source>Audio (%n active track(s))</source>
         <translation>
-            <numerusform>Аудио (%n включённая дорожка)</numerusform>
-            <numerusform>Аудио (%n включённые дорожки)</numerusform>
-            <numerusform>Аудио (%n включённых дорожек)</numerusform>
+            <numerusform>Аудио (%n активная дорожка)</numerusform>
+            <numerusform>Аудио (%n активные дорожки)</numerusform>
+            <numerusform>Аудио (%n активных дорожек)</numerusform>
         </translation>
     </message>
     <message>
@@ -12793,7 +12793,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="-429"/>
         <source>%2.3f fps</source>
-        <translation>%2.3f кадров/с</translation>
+        <translation>%2.3f к/с</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -13411,7 +13411,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Show unprocessed input</source>
-        <translation>Показать необработанный ввод</translation>
+        <translation>Показать необработанный вход</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -13446,7 +13446,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Play</source>
-        <translation>Воспроизвести</translation>
+        <translation>Играть</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13965,7 +13965,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>_Output:</source>
-        <translation>_Вывод:</translation>
+        <translation>_Выход:</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -14678,7 +14678,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+1603"/>
         <source>Output</source>
-        <translation>Вывод</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location line="-565"/>
@@ -14729,7 +14729,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+6"/>
         <source>Use advanced configuration</source>
-        <translation>Использовать дополнительные настройки</translation>
+        <translation>Использовать расширенные настройки</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -16657,7 +16657,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+65"/>
         <source>Display</source>
-        <translation>Видео</translation>
+        <translation>Вывод</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -16667,7 +16667,7 @@ If it is a system profile it will be recreated next time.</source>
     <message>
         <location line="+160"/>
         <source>The value set here will almost always be ignored in favor of the aspect ratio stored in the container.  Configure that via the options in Output Format for the muxer chosen.</source>
-        <translation>Установленное здесь значение почти всегда будет игнорироваться в пользу соотношения сторон, сохранённого в контейнере. Настройте это с помощью параметров в формате вывода для выбранного мультиплексора.</translation>
+        <translation>Установленное здесь значение почти всегда будет игнорироваться в пользу соотношения сторон, сохранённого в контейнере. Настройте это с помощью параметров в формате выхода для выбранного мультиплексора.</translation>
     </message>
     <message>
         <location line="+12"/>
@@ -16805,7 +16805,7 @@ If it is a system profile it will be recreated next time.</source>
         <location line="+59"/>
         <location line="+6"/>
         <source>Output</source>
-        <translation>Вывод</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location line="+6"/>
