@@ -461,7 +461,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Bitrate _Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим _битрейта:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -939,12 +939,12 @@ Drop timing informations ?</source>
     <message>
         <location line="+11"/>
         <source>Stat&amp;us bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Па&amp;нель состояния</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+U</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1254,7 +1254,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Enable FMA3</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить FMA3</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -2800,7 +2800,7 @@ Is it running ?</source>
     <message>
         <location line="+19"/>
         <source>Decode video using NVDEC (NVIDIA)</source>
-        <translation type="unfinished"></translation>
+        <translation>Декодировать видео с помощью NVDEC (NVIDIA)</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -4033,12 +4033,12 @@ Try anyway?</source>
     <message>
         <location line="-44"/>
         <source>Internal error finding decoder for %s</source>
-        <translation type="unfinished"></translation>
+        <translation>Внутренняя ошибка поиска кодека для %s</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Internal error opening libavcodec %s decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Внутренняя ошибка открытия декодера libavcodec %s</translation>
     </message>
     <message>
         <source>Internal error finding codec 0x%x</source>
@@ -4293,7 +4293,7 @@ Installation mismatch</source>
     <message>
         <location line="+5"/>
         <source>PL3NET x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>двукратное увеличение PL3NET</translation>
     </message>
 </context>
 <context>
@@ -4322,62 +4322,62 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+28"/>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Lower values favor quality over speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>При меньших значениях предпочтение отдаётся качеству, а не скорости.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Потоки</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Maximum number of threads allowed, the encoder may use less at its discretion.</source>
-        <translation type="unfinished"></translation>
+        <translation>Предельно допустимое число потоков, кодек может использовать меньше по своему усмотрению.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Use at most as many threads as CPU cores</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничить число потоков количеством ядер процессора</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>GOP Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Размер группы кадров</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Treat input as having full color range</source>
-        <translation type="unfinished"></translation>
+        <translation>Считать, что вход содержит полный цветовой диапазон</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Encoding Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим кодирования</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Speed vs Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Скорость и качество</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Keyframes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ключевые кадры</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Прочее</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>libaom AV1 Encoder Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройки кодировщика libaom AV1</translation>
     </message>
 </context>
 <context>
@@ -6663,27 +6663,27 @@ Do you want to load it  ?
     <message>
         <location line="+35"/>
         <source>When finished:</source>
-        <translation type="unfinished"></translation>
+        <translation>По завершении:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Close dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Закрыть диалоговое окно</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Keep dialog open</source>
-        <translation type="unfinished"></translation>
+        <translation>Не закрывать диалоговое окно</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Suspend computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Приостановить работу ПК</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Выключить ПК</translation>
     </message>
     <message>
         <location line="+238"/>
@@ -7876,7 +7876,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+8"/>
         <source>libavcodec MPEG-2 configuration</source>
-        <translation>Настройки кодировщика libavcodec MPEG-2</translation>
+        <translation>Настройки libavcodec MPEG-2</translation>
     </message>
 </context>
 <context>
@@ -9516,12 +9516,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/ADM_vidGrain.cpp" line="+35"/>
         <source>Grain</source>
-        <translation type="unfinished"></translation>
+        <translation>Зернистость</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Film grain effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эффект зернистости пленки.</translation>
     </message>
 </context>
 <context>
@@ -9529,12 +9529,12 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/qt4/grain.ui" line="+14"/>
         <source>Grain</source>
-        <translation type="unfinished"></translation>
+        <translation>Зернистость</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Шум</translation>
     </message>
 </context>
 <context>
@@ -9715,7 +9715,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+24"/>
         <source>Padding</source>
-        <translation type="unfinished"></translation>
+        <translation>Поля</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -9725,17 +9725,17 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+39"/>
         <source>Scene change detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Обнаружение смены сцены</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Порог</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Уровень</translation>
     </message>
     <message>
         <source>Scene threshold</source>
@@ -9921,7 +9921,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+35"/>
         <source>Ready</source>
-        <translation>Готовность</translation>
+        <translation>Готово</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -9931,7 +9931,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+3"/>
         <source>Success</source>
-        <translation>Успех</translation>
+        <translation>Успешно</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -9951,17 +9951,17 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>Run Now</source>
-        <translation>Запустить немедленно</translation>
+        <translation>Запустить сейчас</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to success</source>
-        <translation>Изменить статус на успешное выполнение</translation>
+        <translation>Принудительно сменить статус на успешно</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Force Status to ready</source>
-        <translation>Изменить статус на готовность</translation>
+        <translation>Принудительно сменить статус на готово</translation>
     </message>
 </context>
 <context>
@@ -11374,7 +11374,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../common/gui_navigate.cpp" line="+357"/>
         <source>Cannot go to next frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно перейти к следующему кадру</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -11389,7 +11389,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+27"/>
         <source>Cannot go to previous frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Невозможно перейти к предыдущему кадру</translation>
     </message>
     <message>
         <location line="+377"/>
@@ -12062,27 +12062,27 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+828"/>
         <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
-        <translation type="unfinished"></translation>
+        <translation>Вход: %1x%2, %3к/с  |  Декодер: %4  |  Изображение: %5  |  Масштаб: %6%</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No file loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Файл не загружен</translation>
     </message>
     <message>
         <location line="+1075"/>
         <source>INFO: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ИНФОРМАЦИЯ: %1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>WARNING: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ПРЕДУПРЕЖДЕНИЕ: %1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>ERROR: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ОШИБКА: %1</translation>
     </message>
     <message>
         <source>Zoom: </source>
@@ -12821,7 +12821,8 @@ The current editing has been saved and will be reloaded at next start</source>
         <location line="+4"/>
         <source>Enter help() for more information.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Введите «help()» для подробностей.
+</translation>
     </message>
     <message>
         <location line="-3"/>
@@ -12829,7 +12830,7 @@ The current editing has been saved and will be reloaded at next start</source>
 Ready.
 </source>
         <translation>Вы можете использовать CTRL+Page Up и CTRL+Page Down для вызова предыдущих команд.
-Готовность.
+Готов.
 </translation>
     </message>
     <message>
@@ -12863,7 +12864,7 @@ Ready.
     <message>
         <location line="+23"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -14273,7 +14274,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+1"/>
         <source>Use as many threads as CPU cores</source>
-        <translation>Количество потоков равно числу ядер процессора</translation>
+        <translation>Приравнять число потоков к количеству ядер процессора</translation>
     </message>
     <message>
         <location line="+4"/>
