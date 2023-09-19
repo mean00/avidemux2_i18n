@@ -723,7 +723,7 @@ Drop timing informations ?</source>
     <message>
         <location line="-988"/>
         <source>Play [SPACE]</source>
-        <translation>Играть [ПРОБЕЛ]</translation>
+        <translation>Играть [SPACE]</translation>
     </message>
     <message>
         <source>Play</source>
@@ -2775,7 +2775,7 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>Refresh Rate Cap (ms)</source>
-        <translation>Предел частоты обновления (мс)</translation>
+        <translation>Период обновления (мс)</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -2881,7 +2881,7 @@ Is it running ?</source>
         <location line="+8"/>
         <location line="+2"/>
         <source>Clear recent items</source>
-        <translation>Очистить список недавних</translation>
+        <translation>Очистить список</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -11246,7 +11246,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+48"/>
         <source>Cannot get AAC Extra data
 </source>
-        <translation>Невозможно получить расширенные данные AAC
+        <translation>Невозможно получить экстраданные AAC
 </translation>
     </message>
     <message>
@@ -11673,7 +11673,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+17"/>
         <source>Video Codec Extradata</source>
-        <translation>Расширенные данные видеокодека</translation>
+        <translation>Экстраданные видеокодека</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -11683,7 +11683,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+14"/>
         <source>Extradata:</source>
-        <translation>Расширенные данные:</translation>
+        <translation>Экстраданные:</translation>
     </message>
     <message>
         <location line="+10"/>
