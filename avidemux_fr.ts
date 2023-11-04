@@ -6,7 +6,7 @@
     <message>
         <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+128"/>
         <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation type="Cette vidéo contient des trames-B, mais les horodatages de présentation (PTS) sont manquants ou augmentent de manière monotone. Avidemux peut essayer de reconstruire le PTS correct en décodant la vidéo entière. Cela peut prendre beaucoup de temps. Procéder ?"></translation>
     </message>
     <message>
         <location line="+34"/>
