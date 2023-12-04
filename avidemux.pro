@@ -310,6 +310,7 @@ HEADERS = \
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_working.h \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_about.h \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_props.h \ 
+../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.h \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_shell/Q_shell.h \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_ocr/Q_ocr.h \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_gui/Q_gui2.h \ 
@@ -658,6 +659,7 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/include/PythonEngine.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/include/pyClassDescriptor.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/include/pyFunc.h \ 
+../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyTools.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/modules/re/regexpr.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/TinyParams.h \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/PythonScriptWriter.h \ 
@@ -756,6 +758,10 @@ HEADERS = \
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/ADM_vidFadeThrough.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/vdpauFilter.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/vdpauFilterDeint.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/DIA_flyFlat360.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/Q_flat360.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/flat360.h \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/ADM_vidFlat360.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/Q_artGrid.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/DIA_flyArtGrid.h \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/ADM_vidArtGrid.h \ 
@@ -1144,6 +1150,7 @@ SOURCES = \
 ../../../avidemux/qt4/ADM_jobs/src/ADM_runOneJob.cpp \ 
 ../../../avidemux/qt4/ADM_jobs/src/ADM_jobs.cpp \ 
 ../../../avidemux/qt4/ADM_update/src/ADM_update.cpp \ 
+../../../avidemux/qt4/ADM_UIs/src/FAC_tiling.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_notch.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/T_toggle.cpp \ 
 ../../../avidemux/qt4/ADM_UIs/src/FAC_frame.cpp \ 
@@ -1176,6 +1183,7 @@ SOURCES = \
 ../../../avidemux/qt4/ADM_openGL/src/ADM_openGl.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ui_support.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/OCR_none.cpp \ 
+../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/alert_qt4.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/Q_audioTracks.cpp \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp \ 
@@ -1693,6 +1701,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/resize_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/resize_desc.cpp \ 
+../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/Memory.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDFInteger_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemuxAudio.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/GUI_gen.cpp \ 
@@ -1708,10 +1717,12 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/tinypy/math.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/tinypy/tinypy.c.org \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/tinypy/tst/hello.cpp \ 
+../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyTools.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/adm_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDFMenu_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyTests.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDialogFactory_gen.cpp \ 
+../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/tools_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDFToggle_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/editor_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDFText_gen.cpp \ 
@@ -1853,6 +1864,11 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/ADM_vidVdpauFilter.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/vdpauFilter_desc.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/vdpauFilters/vdpauFilterDeint_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/DIA_flyFlat360.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/Q_flat360.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/ADM_vidFlat360.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/flat360_desc.cpp \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/flat360_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/artGrid_json.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/DIA_flyArtGrid.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/Q_artGrid.cpp \ 
@@ -2189,6 +2205,7 @@ FORMS = \
 ../../../avidemux_plugins/ADM_videoFilters6/deband/qt4/deband.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/colorBalance/qt4/colorBalance.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/fadeThrough/qt4/fadeThrough.ui \ 
+../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/flat360.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/artGrid/qt4/artGrid.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/analyzer/qt4/analyzer.ui \ 
 ../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/aiEnhance.ui \ 
@@ -2232,6 +2249,7 @@ FORMS = \
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/encoding.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/processing.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/calculator.ui \ 
+../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/scriptShortcutConfig.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/jobs.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_dialog/working.ui \ 
 ../../../avidemux/qt4/ADM_userInterfaces/ADM_shell/shell.ui \ 
