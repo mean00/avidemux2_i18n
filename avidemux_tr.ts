@@ -461,7 +461,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+1"/>
         <source>Bitrate _Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bit Hızı _Modu:</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -645,12 +645,12 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+11"/>
         <source>Stat&amp;us bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Dur&amp;um çubuğu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Ctrl+Alt+U</source>
-        <translation type="unfinished"></translation>
+        <translation>Ctrl+Alt+U</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -974,7 +974,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/scriptShortcutConfig.ui" line="+20"/>
         <source>User Script Shortcut Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullanıcı Komut Dosyası Kısayolu Yapılandırması</translation>
     </message>
 </context>
 <context>
@@ -1270,7 +1270,7 @@ Bırakma zamanlaması bilgileri?</translation>
     <message>
         <location line="+1"/>
         <source>Enable FMA3</source>
-        <translation type="unfinished"></translation>
+        <translation>FMA3&apos;ü etkinleştir</translation>
     </message>
     <message>
         <location line="+41"/>
@@ -2820,7 +2820,7 @@ Is it running ?</source>
     <message>
         <location line="+19"/>
         <source>Decode video using NVDEC (NVIDIA)</source>
-        <translation type="unfinished"></translation>
+        <translation>NVDEC (NVIDIA) kullanarak videonun kodunu çözün</translation>
     </message>
     <message>
         <location line="+30"/>
@@ -4051,12 +4051,12 @@ Yine de denemek ister misiniz?</translation>
     <message>
         <location line="-44"/>
         <source>Internal error finding decoder for %s</source>
-        <translation type="unfinished"></translation>
+        <translation>%s için dahili hata bulma kod çözücüsü</translation>
     </message>
     <message>
         <location line="+45"/>
         <source>Internal error opening libavcodec %s decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>Libavcodec %s kod çözücüyü açarken dahili hata oluştu</translation>
     </message>
     <message>
         <source>Internal error finding codec 0x%x</source>
@@ -4347,7 +4347,7 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location line="+5"/>
         <source>PL3NET x2 upscale</source>
-        <translation type="unfinished"></translation>
+        <translation>PL3NET x2 yükseltme</translation>
     </message>
 </context>
 <context>
@@ -4376,87 +4376,87 @@ Yine de devam edilsin mi?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+29"/>
         <source>Good quality</source>
-        <translation type="unfinished"></translation>
+        <translation>İyi kalite</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Realtime</source>
-        <translation type="unfinished"></translation>
+        <translation>Gerçek zamanlı</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Kullanım</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Hız</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Lower values favor quality over speed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Daha düşük değerler hızdan ziyade kaliteyi tercih eder.</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Tiling</source>
-        <translation type="unfinished"></translation>
+        <translation>Döşeme</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tiling benefits multi-threading of encoding and decoding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Döşeme, kodlama ve kod çözmenin çoklu iş parçacıklarından yararlanır.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>İş parçacıkları</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Maximum number of threads allowed, the encoder may use less at its discretion.</source>
-        <translation type="unfinished"></translation>
+        <translation>İzin verilen azami iş parçacığı sayısı; kodlayıcı kendi takdirine bağlı olarak daha az iş parçacığı kullanabilir.</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Use at most as many threads as CPU cores</source>
-        <translation type="unfinished"></translation>
+        <translation>En fazla CPU çekirdeği sayısı kadar iş parçacığı kullanın</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>GOP Size</source>
-        <translation type="unfinished"></translation>
+        <translation>GOP Boyutu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Treat input as having full color range</source>
-        <translation type="unfinished"></translation>
+        <translation>Girişi tam renk aralığına sahipmiş gibi değerlendirin</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Encoding Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Kodlama Modu</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Speed vs Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Hız ve Kalite</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Keyframes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ana Kareler</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Miscellaneous</source>
-        <translation type="unfinished"></translation>
+        <translation>Çeşitli</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>libaom AV1 Encoder Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>libaom AV1 Kodlayıcı Yapılandırması</translation>
     </message>
 </context>
 <context>
@@ -6746,27 +6746,27 @@ Yüklemek istiyor musunuz  ?
     <message>
         <location line="+35"/>
         <source>When finished:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bittiğinde:</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>Close dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>İletişim kutusunu kapat</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Keep dialog open</source>
-        <translation type="unfinished"></translation>
+        <translation>İletişim kutusunu açık tut</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Suspend computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilgisayarı askıya al</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilgisayarı Kapat</translation>
     </message>
     <message>
         <location line="+238"/>
@@ -9140,12 +9140,12 @@ Değiştirmek istiyor musun?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flat360/ADM_vidFlat360.cpp" line="+51"/>
         <source>Flatten 360</source>
-        <translation type="unfinished"></translation>
+        <translation>360 derece düzleştir</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Project 360 degree videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>360 derecelik videolar yansıtın.</translation>
     </message>
 </context>
 <context>
@@ -9153,72 +9153,72 @@ Değiştirmek istiyor musun?</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/flat360.ui" line="+14"/>
         <source>Flatten 360</source>
-        <translation type="unfinished"></translation>
+        <translation>360 derece düzleştir</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Edge padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kenar dolgusu:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kaynak:</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aradeğerleme:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Equirectangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Eşdikdörtgen</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Equi-Angular Cubemap</source>
-        <translation type="unfinished"></translation>
+        <translation>Eş Açılı Küp Haritası</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Cubemap 3x2 RLUDFB</source>
-        <translation type="unfinished"></translation>
+        <translation>Küp haritası 3x2 RLUDFB</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Çift doğrusal</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Bikübik</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Roll</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulo</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Distortion</source>
-        <translation type="unfinished"></translation>
+        <translation>Çarpıtma</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Yaw</source>
-        <translation type="unfinished"></translation>
+        <translation>Dönme</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Saha</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>FoV</source>
-        <translation type="unfinished"></translation>
+        <translation>Görüş alanı</translation>
     </message>
 </context>
 <context>
@@ -9698,12 +9698,12 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/ADM_vidGrain.cpp" line="+35"/>
         <source>Grain</source>
-        <translation type="unfinished"></translation>
+        <translation>Tane</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Film grain effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Film tanesi efekti.</translation>
     </message>
 </context>
 <context>
@@ -9711,12 +9711,12 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/grain/qt4/grain.ui" line="+14"/>
         <source>Grain</source>
-        <translation type="unfinished"></translation>
+        <translation>Tane</translation>
     </message>
     <message>
         <location line="+35"/>
         <source>Noise</source>
-        <translation type="unfinished"></translation>
+        <translation>Gürültü</translation>
     </message>
 </context>
 <context>
@@ -9897,7 +9897,7 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location line="+24"/>
         <source>Padding</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolgu</translation>
     </message>
     <message>
         <location line="+20"/>
@@ -9907,17 +9907,17 @@ Var olduğunu varsayacağım ve devam etmeye çalışacağım</translation>
     <message>
         <location line="+39"/>
         <source>Scene change detection</source>
-        <translation type="unfinished"></translation>
+        <translation>Sahne değişikliği tespiti</translation>
     </message>
     <message>
         <location line="+34"/>
         <source>Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Eşik</translation>
     </message>
     <message>
         <location line="+26"/>
         <source>Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Düzey</translation>
     </message>
     <message>
         <source>Scene threshold</source>
@@ -11586,7 +11586,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
     <message>
         <location filename="../../common/gui_navigate.cpp" line="+357"/>
         <source>Cannot go to next frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Bir sonraki ana kareye gidilemiyor</translation>
     </message>
     <message>
         <location line="+24"/>
@@ -11601,7 +11601,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
     <message>
         <location line="+27"/>
         <source>Cannot go to previous frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Önceki kareye gidilemiyor</translation>
     </message>
     <message>
         <location line="+377"/>
@@ -12274,32 +12274,32 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <message>
         <location line="+828"/>
         <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
-        <translation type="unfinished"></translation>
+        <translation>Giriş: %1x%2, %3fps  |  Kod çözücü: %4  |  Gösterim: %5  |  Yakınlaştırma: %6%</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>No file loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Yüklü dosya yok</translation>
     </message>
     <message>
         <location line="+1075"/>
         <source>INFO: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>BİLGİ: %1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>WARNING: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>UYARI: %1</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>ERROR: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>HATA: %1</translation>
     </message>
     <message>
         <location line="+11"/>
         <source>WARNING: Video is late by %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>UYARI: Video %1 ms gecikti</translation>
     </message>
     <message>
         <source>Zoom: </source>
@@ -12376,7 +12376,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+9"/>
         <source>Script Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Komut Dosyası Kısayolları</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -12612,7 +12612,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location line="+96"/>
         <source>_Cancel Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>_İşlemeyi İptal Et</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13034,7 +13034,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.cpp" line="+41"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>temizle</translation>
     </message>
 </context>
 <context>
@@ -13051,7 +13051,8 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <location line="+4"/>
         <source>Enter help() for more information.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Daha fazla bilgi için help() yazın.
+</translation>
     </message>
     <message>
         <location line="-3"/>
@@ -13093,7 +13094,7 @@ Hazır.
     <message>
         <location line="+23"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Hata</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -13968,12 +13969,12 @@ Hazır.
     <message>
         <location filename="../ADM_UIs/src/FAC_tiling.cpp" line="+68"/>
         <source>Columns: 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sütunlar: 1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rows: 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Satırlar: 1</translation>
     </message>
 </context>
 <context>
