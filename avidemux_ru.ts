@@ -970,7 +970,7 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/scriptShortcutConfig.ui" line="+20"/>
         <source>User Script Shortcut Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Настройка горячих клавиш пользовательского скрипта</translation>
     </message>
 </context>
 <context>
@@ -2853,7 +2853,7 @@ Is it running ?</source>
     <message>
         <location line="+1"/>
         <source>Save as BMP</source>
-        <translation>Сохранить битовой матрицей (BMP)</translation>
+        <translation>Сохранить как BMP</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4330,17 +4330,17 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/av1aom/ADM_av1AomEncDialog.cpp" line="+29"/>
         <source>Good quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Хорошее качество</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Realtime</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим реального времени</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Использование</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -4355,12 +4355,12 @@ Installation mismatch</source>
     <message>
         <location line="+3"/>
         <source>Tiling</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточный режим</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tiling benefits multi-threading of encoding and decoding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточный режим обеспечивает многопоточность кодирования и декодирования.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -9077,12 +9077,12 @@ Do you want to replace it?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flat360/ADM_vidFlat360.cpp" line="+51"/>
         <source>Flatten 360</source>
-        <translation type="unfinished"></translation>
+        <translation>Плоское видео 360°</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Project 360 degree videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Проецирование панорамного видео.</translation>
     </message>
 </context>
 <context>
@@ -9090,72 +9090,72 @@ Do you want to replace it?</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/flat360/qt4/flat360.ui" line="+14"/>
         <source>Flatten 360</source>
-        <translation type="unfinished"></translation>
+        <translation>Плоское видео 360°</translation>
     </message>
     <message>
         <location line="+30"/>
         <source>Edge padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Краевой отступ:</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Source:</source>
-        <translation type="unfinished"></translation>
+        <translation>Источник:</translation>
     </message>
     <message>
         <location line="+36"/>
         <source>Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Интерполяция:</translation>
     </message>
     <message>
         <location line="+8"/>
         <source>Equirectangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Равнопромежуточная</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Equi-Angular Cubemap</source>
-        <translation type="unfinished"></translation>
+        <translation>Равноугольная кубическая карта</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Cubemap 3x2 RLUDFB</source>
-        <translation type="unfinished"></translation>
+        <translation>Кубическая карта 3x2 RLUDFB</translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Билинейная</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Bicubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Бикубическая</translation>
     </message>
     <message>
         <location line="+48"/>
         <source>Roll</source>
-        <translation type="unfinished"></translation>
+        <translation>Крен</translation>
     </message>
     <message>
         <location line="+113"/>
         <source>Distortion</source>
-        <translation type="unfinished"></translation>
+        <translation>Искажение</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Yaw</source>
-        <translation type="unfinished"></translation>
+        <translation>Рыскание</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Pitch</source>
-        <translation type="unfinished"></translation>
+        <translation>Тангаж</translation>
     </message>
     <message>
         <location line="+20"/>
         <source>FoV</source>
-        <translation type="unfinished"></translation>
+        <translation>Поле зрения</translation>
     </message>
 </context>
 <context>
@@ -12204,7 +12204,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+11"/>
         <source>WARNING: Video is late by %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>ПРЕДУПРЕЖДЕНИЕ: Видео отстаёт на %1 мс</translation>
     </message>
     <message>
         <source>Zoom: </source>
@@ -12283,7 +12283,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+9"/>
         <source>Script Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Горячие клавиши скрипта</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -12519,7 +12519,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+96"/>
         <source>_Cancel Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Отменить по_стобработку</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -12943,7 +12943,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.cpp" line="+41"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>очистить</translation>
     </message>
 </context>
 <context>
@@ -13850,12 +13850,12 @@ Ready.
     <message>
         <location filename="../ADM_UIs/src/FAC_tiling.cpp" line="+68"/>
         <source>Columns: 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Столбцы: 1</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Rows: 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Строки: 1</translation>
     </message>
 </context>
 <context>
