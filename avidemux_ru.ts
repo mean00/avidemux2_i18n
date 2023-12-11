@@ -56,14 +56,14 @@
         <location line="+13"/>
         <source>The width of the video %u px exceeds maximum supported width %u.
 </source>
-        <translation>Ширина видео %u px превышает максимально поддерживаемую в %u.
+        <translation>Ширина видео %u пкс превышает максимально поддерживаемую в %u.
 </translation>
     </message>
     <message>
         <location line="+4"/>
         <source>The height of the video %u px exceeds maximum supported height %u.
 </source>
-        <translation>Высота видео %u px превышает максимально поддерживаемую в %u.
+        <translation>Высота видео %u пкс превышает максимально поддерживаемую в %u.
 </translation>
     </message>
     <message>
@@ -1288,17 +1288,17 @@ Drop timing informations ?</source>
     <message>
         <location line="+1"/>
         <source>Above normal</source>
-        <translation>Выше нормального</translation>
+        <translation>Выше обычного</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Normal</source>
-        <translation>Нормальный</translation>
+        <translation>Обычный</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Below normal</source>
-        <translation>Ниже нормального</translation>
+        <translation>Ниже обычного</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4202,7 +4202,7 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>Neural network upscalers for low resolution videos.</source>
-        <translation>Увеличение видео низкого разрешения с помощью нейросети</translation>
+        <translation>Увеличение видео низкого разрешения с помощью нейросети.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
@@ -4355,12 +4355,12 @@ Installation mismatch</source>
     <message>
         <location line="+3"/>
         <source>Tiling</source>
-        <translation>Плиточный режим</translation>
+        <translation>Плиточное замощение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tiling benefits multi-threading of encoding and decoding.</source>
-        <translation>Плиточный режим обеспечивает многопоточность кодирования и декодирования.</translation>
+        <translation>Плиточное замощение обеспечивает многопоточность кодирования и декодирования.</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -6795,17 +6795,17 @@ Do you want to load it  ?
     <message>
         <location line="+5"/>
         <source>Above Normal</source>
-        <translation>Выше нормального</translation>
+        <translation>Выше обычного</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Normal</source>
-        <translation>Нормальный</translation>
+        <translation>Обычный</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Below Normal</source>
-        <translation>Ниже нормального</translation>
+        <translation>Ниже обычного</translation>
     </message>
     <message>
         <location line="+5"/>
