@@ -121,7 +121,7 @@ Timing-Informationen löschen?</translation>
     <message>
         <location line="+12"/>
         <source>Target</source>
-        <translation>Format und Größe des Ausgabedatei</translation>
+        <translation>Format und Größe der Ausgabedatei</translation>
     </message>
     <message>
         <location line="+36"/>
@@ -2567,7 +2567,7 @@ Dies wird Probleme verursachen.</translation>
     <message>
         <location line="+4"/>
         <source>Errors found in %u frames</source>
-        <translation>Es wurde in %u Bildern Fehler entdeckt</translation>
+        <translation>Es wurden in %u Bildern Fehler entdeckt</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -3423,7 +3423,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="-327"/>
         <source>Cannot set up encoder for the first pass. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
-        <translation>Kann Encoder nicht für den ersten Durchlauf konfigurieren. Die an den Encoder übergebene Konfiguration könnte inkompatibel sein, oder der Encode könnte von Features abhängig sein, welche auf diesem System nicht verfügbar sind.</translation>
+        <translation>Kann Encoder nicht für den ersten Durchlauf konfigurieren. Die an den Encoder übergebene Konfiguration könnte inkompatibel sein, oder der Encoder könnte von Features abhängig sein, welche auf diesem System nicht verfügbar sind.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -3434,7 +3434,7 @@ Trotzdem fortsetzen?</translation>
     <message>
         <location line="-102"/>
         <source>Cannot set up encoder. The configuration supplied to the encoder may be incompatible or the encoder may depend on features unavailable on this system.</source>
-        <translation>Kann Encoder nicht konfigurieren. Die an den Encoder übergebene Konfiguration könnte inkompatibel sein, oder der Encode könnte von Features abhängig sein, welche auf diesem System nicht verfügbar sind.</translation>
+        <translation>Kann Encoder nicht konfigurieren. Die an den Encoder übergebene Konfiguration könnte inkompatibel sein, oder der Encoder könnte von Features abhängig sein, welche auf diesem System nicht verfügbar sind.</translation>
     </message>
     <message>
         <location line="+74"/>
@@ -7368,7 +7368,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="-19"/>
         <source>Fade to black in/out.</source>
-        <translation>Einblenden von Schwarz aus / Ausblenden zu Schwarz.</translation>
+        <translation>Einblenden von Schwarz / Ausblenden zu Schwarz.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -14284,7 +14284,7 @@ Möchten Sie fortfahren?</translation>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Macroblock-Tree optimisation will automatically be disabled.
 
 Do you wish to continue?</source>
-        <translation>VAQ ist für die Makroblock-Tree Optimierung erforderlich. MB-Tree wird daher auch abgeschaltet.
+        <translation>VAQ ist für die Makroblock-Tree Optimierung erforderlich. MB-Tree wird daher abgeschaltet.
 
 Möchten Sie fortfahren?</translation>
     </message>
