@@ -4781,10 +4781,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/ADM_vidArtMirror.cpp" line="+41"/>
         <source>Mirror</source>
-        <translation variants="yes">
-            <lengthvariant>鏡像</lengthvariant>
-            <lengthvariant></lengthvariant>
-        </translation>
+        <translation>鏡像</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -4797,10 +4794,7 @@ Expect problems.</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/artMirror/qt4/artMirror.ui" line="+14"/>
         <source>Mirror</source>
-        <translation variants="yes">
-            <lengthvariant>鏡像</lengthvariant>
-            <lengthvariant></lengthvariant>
-        </translation>
+        <translation>鏡像</translation>
     </message>
     <message>
         <location line="+87"/>
