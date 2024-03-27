@@ -3736,7 +3736,7 @@ Installation mismatch</source>
     <message>
         <location filename="../../../avidemux_core/ADM_core/src/ADM_prettyPrint.cpp" line="-2"/>
         <source>Less than a minute</source>
-        <translation>分未満</translation>
+        <translation>１分以下</translation>
     </message>
     <message>
         <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-28"/>
@@ -6752,7 +6752,7 @@ Do you want to load it  ?
     <message>
         <location line="-103"/>
         <source>Phase:</source>
-        <translation>位相:</translation>
+        <translation>状態:</translation>
     </message>
     <message>
         <location line="+475"/>
