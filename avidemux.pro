@@ -220,6 +220,7 @@ HEADERS = \
 ../../../avidemux_core/ADM_coreUtils/include/ADM_frameType.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_last.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/prefs.h \ 
+../../../avidemux_core/ADM_coreUtils/include/ADM_memFile.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_h264_tag.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_writeRiff.h \ 
 ../../../avidemux_core/ADM_coreUtils/include/ADM_getbits.h \ 
@@ -1117,6 +1118,7 @@ SOURCES = \
 ../../../avidemux_core/ADM_coreUtils/src/ADM_infoExtractorH265.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/prefs.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp \ 
+../../../avidemux_core/ADM_coreUtils/src/ADM_memFile.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/ADM_extraDataExtractor.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/ADM_frameType.cpp \ 
 ../../../avidemux_core/ADM_coreUtils/src/ADM_paramList.cpp \ 
@@ -1702,6 +1704,7 @@ SOURCES = \
 ../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/sampleGl.cpp \ 
 ../../../avidemux_plugins/ADM_videoFilters6_openGl/glResize/resize_desc.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/Memory.cpp \ 
+../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyTools_win32.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/pyDFInteger_gen.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/ADM_pyAvidemuxAudio.cpp \ 
 ../../../avidemux_plugins/ADM_scriptEngines/tinyPy/src/GUI_gen.cpp \ 

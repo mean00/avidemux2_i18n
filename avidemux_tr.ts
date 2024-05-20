@@ -486,7 +486,7 @@ Bırakma zamanlaması bilgileri?</translation>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+357"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+368"/>
         <location line="+169"/>
         <source>Copy</source>
         <translation>Kopya</translation>
@@ -515,7 +515,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Zaman:</translation>
     </message>
     <message>
-        <location line="-1153"/>
+        <location line="-1164"/>
         <source>&amp;Help</source>
         <translation>&amp;Yardım</translation>
     </message>
@@ -560,7 +560,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Git</translation>
     </message>
     <message>
-        <location line="+282"/>
+        <location line="+293"/>
         <source> (0 tracks)</source>
         <translation> (0 parçalar)</translation>
     </message>
@@ -601,7 +601,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>HDR ton eşleme</translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+102"/>
         <source>&amp;Load/Run Project...</source>
         <translation>&amp;Proje Yüklenip/Çalıştırılıyor...</translation>
     </message>
@@ -667,17 +667,17 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation type="vanished">&lt;b&gt;Video Kod Çözücü&lt;/b&gt;</translation>
     </message>
     <message>
-        <location line="-607"/>
+        <location line="-697"/>
         <source>Frame type:</source>
         <translation>Çerçeve tipi:</translation>
     </message>
     <message>
-        <location line="+595"/>
+        <location line="+685"/>
         <source>&amp;Separate</source>
         <translation>&amp;Ayrı</translation>
     </message>
     <message>
-        <location line="-1913"/>
+        <location line="-2014"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
@@ -702,7 +702,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>&amp;Son</translation>
     </message>
     <message>
-        <location line="+47"/>
+        <location line="+58"/>
         <source>Codec O&amp;ptions</source>
         <translation>Kodlayıcı &amp;Seçenekleri</translation>
     </message>
@@ -732,12 +732,12 @@ Bırakma zamanlaması bilgileri?</translation>
     </message>
     <message>
         <location line="+126"/>
-        <location line="+1064"/>
+        <location line="+1154"/>
         <source>&amp;Navigation</source>
         <translation>&amp;Gezinme</translation>
     </message>
     <message>
-        <location line="-989"/>
+        <location line="-1079"/>
         <source>Play [SPACE]</source>
         <translation>Oynat [BOŞLUK]</translation>
     </message>
@@ -898,7 +898,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Video aç</translation>
     </message>
     <message>
-        <location line="+117"/>
+        <location line="+207"/>
         <source>&amp;Codec Options</source>
         <translation>&amp;Kodlayıcı Seçenekleri</translation>
     </message>
@@ -943,7 +943,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Ctrl+Alt+M</translation>
     </message>
     <message>
-        <location line="-829"/>
+        <location line="-919"/>
         <source>Search previous black frame</source>
         <translation>Önceki siyah karede ara</translation>
     </message>
@@ -975,6 +975,11 @@ Bırakma zamanlaması bilgileri?</translation>
         <location filename="../ADM_userInterfaces/ADM_dialog/scriptShortcutConfig.ui" line="+20"/>
         <source>User Script Shortcut Configuration</source>
         <translation>Kullanıcı Komut Dosyası Kısayolu Yapılandırması</translation>
+    </message>
+    <message>
+        <location line="+127"/>
+        <source>Toolbar</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2002,7 +2007,7 @@ Bırakma zamanlaması bilgileri?</translation>
         <translation>Codec Hatası</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="+396"/>
+        <location filename="../../common/gui_main.cpp" line="+391"/>
         <source>Not coded in this version</source>
         <translation>Bu sürümde kodlanmamış</translation>
     </message>
@@ -2157,7 +2162,7 @@ Etkin olanı seçmek için Ses-&gt; Ana Parça&apos;ya gidin.</translation>
         <translation>Eklerken bir şey başarısız oldu</translation>
     </message>
     <message>
-        <location line="+321"/>
+        <location line="+320"/>
         <source>Something bad happened (II)</source>
         <translation>Kötü bir şey oldu (II)</translation>
     </message>
@@ -2314,7 +2319,7 @@ Is it running ?</source>
         <location line="+92"/>
         <location line="+7"/>
         <location line="+20"/>
-        <location filename="../../../avidemux_core/ADM_coreUtils/src/ADM_quota.cpp" line="+68"/>
+        <location filename="../../../avidemux_core/ADM_coreUtils/src/ADM_quota.cpp" line="+70"/>
         <source>Error</source>
         <translation>Hata</translation>
     </message>
@@ -3222,7 +3227,7 @@ It is needed to create PSP compatible video.</source>
 PSP uyumlu video oluşturmak gerekir.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_main.cpp" line="-1557"/>
+        <location filename="../../common/gui_main.cpp" line="-1556"/>
         <source>Select script/project to run</source>
         <translation>Çalıştırılacak komut dosyasını/projeyi seçin</translation>
     </message>
@@ -3288,7 +3293,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Keserken hata.</translation>
     </message>
     <message>
-        <location line="+837"/>
+        <location line="+836"/>
         <location line="+7"/>
         <source>Invalid audio index given</source>
         <translation>Geçersiz ses dizini verildi</translation>
@@ -3961,31 +3966,31 @@ Yine de denemek ister misiniz?</translation>
     </message>
     <message>
         <location line="+2"/>
-        <location line="+85"/>
+        <location line="+90"/>
         <source>filesystem full</source>
         <translation>dosya sistemi dolu</translation>
     </message>
     <message>
-        <location line="-85"/>
-        <location line="+85"/>
+        <location line="-90"/>
+        <location line="+90"/>
         <source>quota exceeded</source>
         <translation>kota aşıldı</translation>
     </message>
     <message>
-        <location line="-84"/>
-        <location line="+85"/>
+        <location line="-89"/>
+        <location line="+90"/>
         <source>Please free up some space and press RETRY to try again.</source>
         <translation>Lütfen biraz yer açın ve tekrar denemek için RETRY düğmesine basın.</translation>
     </message>
     <message>
-        <location line="-78"/>
+        <location line="-79"/>
         <source>can&apos;t open &quot;%s&quot;: %u (%s)
 </source>
         <translation>&quot;%s&quot; açılamıyor: %u (%s)
 </translation>
     </message>
     <message>
-        <location line="+75"/>
+        <location line="+76"/>
         <source>can&apos;t write to file &quot;%s&quot;: %s
 %s
 </source>
@@ -4399,7 +4404,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Daha düşük değerler hızdan ziyade kaliteyi tercih eder.</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+6"/>
         <source>Tiling</source>
         <translation>Döşeme</translation>
     </message>
@@ -4409,7 +4414,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Döşeme, kodlama ve kod çözmenin çoklu iş parçacıklarından yararlanır.</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+3"/>
         <source>Threads</source>
         <translation>İş parçacıkları</translation>
     </message>
@@ -5204,7 +5209,7 @@ Yine de devam edilsin mi?</translation>
         <translation>Ekran en boy oranını ayarlayın:</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+16"/>
         <source>This is a SRT file. Convert to SSA ?</source>
         <translation>Bu bir SRT dosyasıdır. SSA&apos;ya Dönüştür ?</translation>
     </message>
@@ -6262,7 +6267,7 @@ Yüklemek istiyor musunuz  ?
         <translation>Hatalı biçimlendirilmiş başlık</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+53"/>
         <source>Incomplete file</source>
         <translation>Eksik dosya</translation>
     </message>
@@ -8945,8 +8950,8 @@ Değiştirmek istiyor musun?</translation>
         <translation>Yeniden boyutlandırın ve belirtilen boyuta getirin.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+75"/>
-        <location line="+153"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fitToSize/qt4/Q_fitToSize.cpp" line="+76"/>
+        <location line="+154"/>
         <source>Preferences</source>
         <translation>Tercihler</translation>
     </message>
@@ -9007,7 +9012,7 @@ Değiştirmek istiyor musun?</translation>
         <translation>Yankı</translation>
     </message>
     <message>
-        <location line="+57"/>
+        <location line="+74"/>
         <source>Width and height cannot be odd</source>
         <translation>Genişlik ve yükseklik tek olamaz</translation>
     </message>
@@ -9030,7 +9035,7 @@ Değiştirmek istiyor musun?</translation>
         <translation>Genişlik:</translation>
     </message>
     <message>
-        <location line="+36"/>
+        <location line="+71"/>
         <source>Height:</source>
         <translation>Yükseklik:</translation>
     </message>
@@ -11176,7 +11181,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>mp4demuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1145"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1483"/>
         <source>Problem reading SVQ3 headers</source>
         <translation>SVQ3 başlıklarını okumada sorun</translation>
     </message>
@@ -11956,7 +11961,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
 <context>
     <name>psdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+244"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_psIndex.cpp" line="+260"/>
         <source>Indexing</source>
         <translation>İndeksleme</translation>
     </message>
@@ -11966,7 +11971,7 @@ Yalnızca VP8/VP9/AV1 video ve Vorbis/Opus ses desteklenir</translation>
         <translation>Sıralı dosya adlarına sahip birkaç dosya vardır. Hepsi yüklenmeli mi?</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_ps.cpp" line="+78"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegPS/ADM_ps.cpp" line="+79"/>
         <source>This file&apos;s index has been created with an older version of avidemux.
 The file must be re-indexed. Proceed?</source>
         <translation>Bu dosyanın dizini avidemux&apos;un daha eski bir sürümüyle oluşturuldu.
@@ -12098,13 +12103,13 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     <name>qfile</name>
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/file_qt4.cpp" line="+110"/>
-        <location line="+160"/>
+        <location line="+164"/>
         <source>All files (*.*)</source>
         <translation>Tüm dosyalar (*.*)</translation>
     </message>
     <message>
-        <location line="-73"/>
-        <location line="+120"/>
+        <location line="-77"/>
+        <location line="+124"/>
         <source> files (*.</source>
         <translation> Dosyalar(*.</translation>
     </message>
@@ -12132,27 +12137,27 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Son Projeler</translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+32"/>
         <source>Restore defaults</source>
         <translation>Varsayılanları geri yükle</translation>
     </message>
     <message>
-        <location line="+16"/>
+        <location line="+13"/>
         <source>Default theme</source>
         <translation>Varsayılan tema</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
         <source>Light theme</source>
         <translation>Aydınlık tema</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+5"/>
         <source>Dark theme</source>
         <translation>Karanlık tema</translation>
     </message>
     <message>
-        <location line="+604"/>
+        <location line="+610"/>
         <source>?</source>
         <translation>?</translation>
     </message>
@@ -12272,7 +12277,7 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
         <translation>Modu değiştirmek için fare tekerleğini döndürün</translation>
     </message>
     <message>
-        <location line="+828"/>
+        <location line="+845"/>
         <source>Input: %1x%2, %3fps  |  Decoder: %4  |  Display: %5  |  Zoom: %6%</source>
         <translation>Giriş: %1x%2, %3fps  |  Kod çözücü: %4  |  Gösterim: %5  |  Yakınlaştırma: %6%</translation>
     </message>
@@ -12374,7 +12379,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation> Kabuk</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+12"/>
         <source>Script Shortcuts</source>
         <translation>Komut Dosyası Kısayolları</translation>
     </message>
@@ -12389,7 +12394,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
         <translation> Referanslar</translation>
     </message>
     <message>
-        <location line="+221"/>
+        <location line="+243"/>
         <source>Restore previous session</source>
         <translation>Önceki oturumu geri yükle</translation>
     </message>
@@ -13032,7 +13037,7 @@ Geçerli düzenleme kaydedildi ve bir sonraki başlangıçta yeniden yüklenecek
 <context>
     <name>qscriptshortcutconfig</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.cpp" line="+41"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/Q_scriptShortcutConfig.cpp" line="+45"/>
         <source>clear</source>
         <translation>temizle</translation>
     </message>
@@ -13778,17 +13783,17 @@ Hazır.
     <name>stillimage</name>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/stillimage/stillimage.cpp" line="+68"/>
-        <location line="+305"/>
+        <location line="+297"/>
         <source>Still Image</source>
         <translation>Hareketsiz görüntü</translation>
     </message>
     <message>
-        <location line="-304"/>
+        <location line="-296"/>
         <source>Duplicate frames for a given duration.</source>
         <translation>Belirli bir süre için kareleri çoğaltın.</translation>
     </message>
     <message>
-        <location line="+300"/>
+        <location line="+292"/>
         <source>_Start time:</source>
         <translation>_Başlangıç saati:</translation>
     </message>
@@ -13967,7 +13972,7 @@ Hazır.
 <context>
     <name>tiling</name>
     <message>
-        <location filename="../ADM_UIs/src/FAC_tiling.cpp" line="+68"/>
+        <location filename="../ADM_UIs/src/FAC_tiling.cpp" line="+69"/>
         <source>Columns: 1</source>
         <translation>Sütunlar: 1</translation>
     </message>
@@ -14016,17 +14021,17 @@ Hazır.
 <context>
     <name>tsdemuxer</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+266"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+337"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+86"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH264.cpp" line="+280"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+352"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+101"/>
         <source>There are several files with sequential file names. Should they be all loaded ?</source>
         <translation>Sıralı dosya adlarına sahip birkaç dosya vardır. Hepsi yüklenmeli mi?</translation>
     </message>
     <message>
         <location line="+12"/>
         <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexH265.cpp" line="+12"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+19"/>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexVC1.cpp" line="+74"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexMpeg2.cpp" line="+22"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_tsIndexVC1.cpp" line="+85"/>
         <source>Indexing</source>
         <translation>Endeksleme</translation>
     </message>
@@ -14051,7 +14056,7 @@ Yine de devam edilsinmi?
 Bu video için bu uyarı bir daha gösterilmeyecek.</translation>
     </message>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+84"/>
+        <location filename="../../../avidemux_plugins/ADM_demuxers/MpegTS/ADM_ts.cpp" line="+85"/>
         <source>This file&apos;s index has been created with an older version of avidemux.
 The file must be re-indexed. Proceed?</source>
         <translation>Bu dosyanın dizini avidemux&apos;un daha eski bir sürümüyle oluşturuldu.
@@ -14552,7 +14557,17 @@ Dosya yeniden endekslenmelidir. devam edilsinmi?</translation>
         <translation>Hız</translation>
     </message>
     <message>
+        <location line="+6"/>
+        <source>Tiling</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location line="+1"/>
+        <source>Tiling benefits multi-threading of encoding and decoding.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>Threads</source>
         <translation>İş parçacıkları</translation>
     </message>
@@ -14582,7 +14597,7 @@ Dosya yeniden endekslenmelidir. devam edilsinmi?</translation>
         <translation>Hız ve Kalite</translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+7"/>
         <source>Keyframes</source>
         <translation>Bağımsız animasyon karesi</translation>
     </message>
