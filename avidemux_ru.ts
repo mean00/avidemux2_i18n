@@ -975,7 +975,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+127"/>
         <source>Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Панель управления</translation>
     </message>
 </context>
 <context>
@@ -14426,12 +14426,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+6"/>
         <source>Tiling</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточное замощение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tiling benefits multi-threading of encoding and decoding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточное замощение обеспечивает многопоточность кодирования и декодирования.</translation>
     </message>
     <message>
         <location line="+2"/>
