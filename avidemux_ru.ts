@@ -970,12 +970,12 @@ Drop timing informations ?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/scriptShortcutConfig.ui" line="+20"/>
         <source>User Script Shortcut Configuration</source>
-        <translation>Настройка горячих клавиш пользовательского скрипта</translation>
+        <translation>Настройка горячих клавиш для скриптов пользователя</translation>
     </message>
     <message>
         <location line="+127"/>
         <source>Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>На панель</translation>
     </message>
 </context>
 <context>
@@ -12288,7 +12288,7 @@ The current editing has been saved and will be reloaded at next start</source>
     <message>
         <location line="+12"/>
         <source>Script Shortcuts</source>
-        <translation>Горячие клавиши скрипта</translation>
+        <translation>Горячие клавиши для скриптов пользователя</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -14426,12 +14426,12 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+6"/>
         <source>Tiling</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточное замощение</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Tiling benefits multi-threading of encoding and decoding.</source>
-        <translation type="unfinished"></translation>
+        <translation>Плиточное замощение обеспечивает многопоточность кодирования и декодирования.</translation>
     </message>
     <message>
         <location line="+2"/>
