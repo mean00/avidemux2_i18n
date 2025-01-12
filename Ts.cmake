@@ -5,7 +5,9 @@ MACRO(FIND_LRELEASE)
     SET(QT_EXE "$ENV{QTDIR}/bin")
     MESSAGE(STATUS "Looking up lrelease (${QT_EXE})")
     FIND_PROGRAM(LRELEASE_EXECUTABLE lrelease
-        PATHS ${QT_EXE} /usr/bin/
+        PATHS ${QT_EXE}
+        /usr/lib/${QT_EXTENSION}/bin
+        /usr/bin
         NO_DEFAULT_PATH
     )
 
