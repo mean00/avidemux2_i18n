@@ -11830,8 +11830,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation>Přepsat soubor </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>Přepsat soubor &quot;%s&quot;?</translation>
     </message>
 </context>
 <context>

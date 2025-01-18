@@ -11737,8 +11737,8 @@ Die Datei muss erneut indiziert werden. Fortfahren?</translation>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation type="unfinished">Datei ist bereits vorhanden. Überschreibe Datei </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>Datei &quot;%s&quot; ist bereits vorhanden. Überschreiben?</translation>
     </message>
 </context>
 <context>

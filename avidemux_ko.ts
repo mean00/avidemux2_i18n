@@ -11943,8 +11943,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation>파일 덮어쓰기</translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>&quot;%s&quot; 파일을 덮어쓰시겠습니까?</translation>
     </message>
 </context>
 <context>

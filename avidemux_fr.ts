@@ -11832,8 +11832,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation>Écraser le fichier </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>Écraser le fichier &quot;%s&quot; ?</translation>
     </message>
 </context>
 <context>

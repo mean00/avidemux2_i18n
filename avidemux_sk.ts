@@ -12046,8 +12046,8 @@ Súbor musí byť preindexovaný. Pokračovať?</translation>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation>Prepísať súbor </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>Prepísať súbor &quot;%s&quot;?</translation>
     </message>
 </context>
 <context>

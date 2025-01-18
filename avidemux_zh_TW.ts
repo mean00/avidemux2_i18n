@@ -11959,8 +11959,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Overwrite file </source>
-        <translation>覆寫檔案 </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>覆寫檔案 &quot;%s&quot;?</translation>
     </message>
 </context>
 <context>

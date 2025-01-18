@@ -12115,8 +12115,8 @@ Dosya yeniden endekslenmelidir. İlerlensinmi?</translation>
     </message>
     <message>
         <location line="-83"/>
-        <source>Overwrite file </source>
-        <translation>Dosyanın üzerine yaz </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>&quot;%s&quot; dosyasının üzerine yazılsın mı?</translation>
     </message>
 </context>
 <context>

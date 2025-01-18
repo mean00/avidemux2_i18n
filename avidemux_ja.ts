@@ -11865,8 +11865,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Overwrite file </source>
-        <translation>ファイルの上書き </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>ファイル &quot;%s&quot; を上書きしますか?</translation>
     </message>
 </context>
 <context>

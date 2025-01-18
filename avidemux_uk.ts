@@ -12083,8 +12083,8 @@ The file must be re-indexed. Proceed?</source>
     </message>
     <message>
         <location line="-36"/>
-        <source>Overwrite file </source>
-        <translation>Перезаписати файл </translation>
+        <source>Overwrite file &quot;%s&quot;?</source>
+        <translation>Перезаписати файл &quot;%s&quot;?</translation>
     </message>
 </context>
 <context>
