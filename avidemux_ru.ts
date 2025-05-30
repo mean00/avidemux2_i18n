@@ -1077,7 +1077,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+18"/>
         <source>Multi-platform Video Editor</source>
-        <translation>Мультиплатформенный видеоредактор</translation>
+        <translation>Многоплатформенный видеоредактор</translation>
     </message>
     <message>
         <source>Avidemux </source>
@@ -1100,7 +1100,7 @@ Drop timing informations ?</source>
     <message>
         <location line="+20"/>
         <source>OK</source>
-        <translation>Да</translation>
+        <translation>ОК</translation>
     </message>
 </context>
 <context>
@@ -2833,7 +2833,7 @@ Is it running ?</source>
     <message>
         <location filename="../../common/ADM_commonUI/myOwnMenu.h" line="-106"/>
         <source>Open</source>
-        <translation>&amp;Открыть...</translation>
+        <translation>Открыть</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2888,7 +2888,7 @@ Is it running ?</source>
     <message>
         <location line="+4"/>
         <source>Quit</source>
-        <translation>В&amp;ыйти из Avidemux</translation>
+        <translation>Выход</translation>
     </message>
     <message>
         <location line="+8"/>
@@ -3932,7 +3932,7 @@ Try anyway?</source>
     <message>
         <location line="+196"/>
         <source>The saved video is incomplete. The error occured at %s (%d%). This may happen as result of invalid time stamps in the video.</source>
-        <translation>Сохранённое видео незакончено. Ошибка возникла на %s (%d%). Это может происходить в результате недопустимых отметок времени в видео.</translation>
+        <translation>Сохранённое видео является неполным. Ошибка возникла на %s (%d%). Это может происходить в результате недопустимых отметок времени в видео.</translation>
     </message>
     <message>
         <location line="+16"/>
@@ -4207,7 +4207,7 @@ Installation mismatch</source>
     <message>
         <location line="+1"/>
         <source>Neural network upscalers for low resolution videos.</source>
-        <translation>Увеличение видео низкого разрешения с помощью нейросети.</translation>
+        <translation>Увеличение видео низкого разрешения с помощью нейросетей.</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/aiEnhance/qt4/Q_aiEnhance.cpp" line="+64"/>
@@ -6706,12 +6706,12 @@ Do you want to load it  ?
     <message>
         <location line="+11"/>
         <source>Close dialog</source>
-        <translation>Закрыть диалоговое окно</translation>
+        <translation>Закрыть окно диалога</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Keep dialog open</source>
-        <translation>Не закрывать диалоговое окно</translation>
+        <translation>Не закрывать окно диалога</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -12021,7 +12021,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="-83"/>
         <source>Overwrite file &quot;%s&quot;?</source>
-        <translation>Перезаписать файл &quot;%s&quot;?</translation>
+        <translation>Перезаписать файл «%s»?</translation>
     </message>
 </context>
 <context>
