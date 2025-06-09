@@ -71,8 +71,13 @@ cat avidemux.pro2 | sed 's/"//g' | \
 for i in lupdate lupdate-qt${QT_SELECT}; do
     which ${i} > /dev/null 2>&1;
     if [[ "x$?" = "x0" ]]; then
-        echo ${i} found as $(which ${i});
-        ${i} -disable-heuristic number -disable-heuristic sametext -locations relative -pro avidemux.pro && echo "DONE" && exit 0 || \
+        lupdate_full_version=$(${i} -version | cut -d \  -f 3)
+        echo ${i} version ${lupdate_full_version} found as $(which ${i});
+        lupdate_heuristic="-disable-heuristic number -disable-heuristic sametext"
+        if [[ $(echo "${lupdate_full_version}" | cut -d . -f 1) = "6" ]]; then
+            lupdate_heuristic="-disable-heuristic sametext"
+        fi
+        ${i} ${lupdate_heuristic} -locations relative -pro avidemux.pro && echo "DONE" && exit 0 || \
             echo "Update of translation files failed." && exit 1;
     fi
 done
