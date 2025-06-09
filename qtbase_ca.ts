@@ -5,7 +5,7 @@
     <name>CloseButton</name>
     <message>
         <source>Close Tab</source>
-        <translation>Tanca pestanya</translation>
+        <translation>Tanca la pestanya</translation>
     </message>
 </context>
 <context>
@@ -40,18 +40,32 @@
     </message>
 </context>
 <context>
+    <name>Print Device Input Slot</name>
+    <message>
+        <source>Automatic</source>
+        <translation>Automàtic</translation>
+    </message>
+</context>
+<context>
+    <name>Print Device Output Bin</name>
+    <message>
+        <source>Automatic</source>
+        <translation>Automàtic</translation>
+    </message>
+</context>
+<context>
     <name>QAbstractSocket</name>
     <message>
         <source>Socket operation timed out</source>
-        <translation>Operació de sòcol ha excedit el temps</translation>
+        <translation>L&apos;operació de sòcol ha excedit el temps</translation>
     </message>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no admesa en el sòcol</translation>
+        <translation>Operació no admesa al sòcol</translation>
     </message>
     <message>
         <source>Host not found</source>
-        <translation>No s&apos;ha trobat l&apos;ordinador</translation>
+        <translation>No s&apos;ha trobat el servidor</translation>
     </message>
     <message>
         <source>Connection refused</source>
@@ -211,7 +225,11 @@
     <name>QApplication</name>
     <message>
         <source>Executable &apos;%1&apos; requires Qt %2, found Qt %3.</source>
-        <translation>L&apos;executable «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
+        <translation type="vanished">L&apos;executable «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
+    </message>
+    <message>
+        <source>Application &quot;%1&quot; requires Qt %2, found Qt %3.</source>
+        <translation>L&apos;aplicació «%1» requereix les Qt %2, s&apos;han trobat les Qt %3.</translation>
     </message>
     <message>
         <source>Incompatible Qt Library Error</source>
@@ -272,6 +290,14 @@
         <source>Select All</source>
         <translation>Selecciona-ho tot</translation>
     </message>
+    <message>
+        <source>Start Dictation...</source>
+        <translation type="vanished">Inicia el dictat...</translation>
+    </message>
+    <message>
+        <source>Emoji &amp;&amp; Symbols</source>
+        <translation type="vanished">Emojis i símbols</translation>
+    </message>
 </context>
 <context>
     <name>QCocoaTheme</name>
@@ -318,7 +344,7 @@
         <source>Cursor at %1, %2
 Press ESC to cancel</source>
         <translation>Cursor a %1, %2
-Premeu ESC per cancel·lar</translation>
+Premeu ESC per a cancel·lar</translation>
     </message>
     <message>
         <source>&amp;Pick Screen Color</source>
@@ -328,7 +354,7 @@ Premeu ESC per cancel·lar</translation>
         <source>Cursor at %1, %2, color: %3
 Press ESC to cancel</source>
         <translation type="vanished">Cursor en %1, %2, color: %3
-Premeu Esc per cancel·lar</translation>
+Premeu Esc per a cancel·lar</translation>
     </message>
     <message>
         <source>Select Color</source>
@@ -374,7 +400,19 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Displays this help.</source>
-        <translation>Mostra aquesta ajuda.</translation>
+        <translation type="vanished">Mostra aquesta ajuda.</translation>
+    </message>
+    <message>
+        <source>Displays help on commandline options.</source>
+        <translation>Mostra l&apos;ajuda a les opcions de la línia d&apos;ordres.</translation>
+    </message>
+    <message>
+        <source>Displays help including Qt specific options.</source>
+        <translation type="vanished">Mostra l&apos;ajuda incloent les opcions específiques de les Qt.</translation>
+    </message>
+    <message>
+        <source>Displays help, including generic Qt options.</source>
+        <translation>Mostra l&apos;ajuda, incloent-hi les opcions genèriques de les Qt.</translation>
     </message>
     <message>
         <source>Unknown option &apos;%1&apos;.</source>
@@ -414,17 +452,17 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>%1: key is empty</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: la clau és buida</translation>
+        <translation type="vanished">%1: la clau és buida</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: no s&apos;ha pogut crear la clau</translation>
+        <translation type="vanished">%1: no s&apos;ha pogut crear la clau</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
         <comment>QSystemSemaphore</comment>
-        <translation>%1: ha fallat el «ftok»</translation>
+        <translation type="vanished">%1: ha fallat el «ftok»</translation>
     </message>
 </context>
 <context>
@@ -489,7 +527,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Weekend (Saturday to Sunday)</source>
-        <translation>Cap de setmana (Dissabte a diumenge)</translation>
+        <translation>Cap de setmana (dissabte a diumenge)</translation>
     </message>
     <message>
         <source>Specific Time</source>
@@ -528,7 +566,30 @@ Premeu Esc per cancel·lar</translation>
     <message>
         <source>Top Secret</source>
         <comment>CUPS Banner page</comment>
-        <translation>Secret</translation>
+        <translation>Alt secret</translation>
+    </message>
+</context>
+<context>
+    <name>QCupsPrinterSupport</name>
+    <message>
+        <source>Authentication Needed</source>
+        <translation>Cal autenticació</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1.</source>
+        <translation>Cal autenticació per a usar %1.</translation>
+    </message>
+    <message>
+        <source>Authentication needed to use %1 on %2.</source>
+        <translation>Cal autenticació per a usar %1 a %2.</translation>
+    </message>
+    <message>
+        <source>Username:</source>
+        <translation>Nom d&apos;usuari:</translation>
+    </message>
+    <message>
+        <source>Password:</source>
+        <translation>Contrasenya:</translation>
     </message>
 </context>
 <context>
@@ -607,19 +668,19 @@ Premeu Esc per cancel·lar</translation>
     <name>QDateTimeParser</name>
     <message>
         <source>AM</source>
-        <translation>AM</translation>
+        <translation type="vanished">AM</translation>
     </message>
     <message>
         <source>am</source>
-        <translation>am</translation>
+        <translation type="vanished">am</translation>
     </message>
     <message>
         <source>PM</source>
-        <translation>PM</translation>
+        <translation type="vanished">PM</translation>
     </message>
     <message>
         <source>pm</source>
-        <translation>pm</translation>
+        <translation type="vanished">pm</translation>
     </message>
 </context>
 <context>
@@ -640,25 +701,25 @@ Premeu Esc per cancel·lar</translation>
     <name>QDirModel</name>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation type="vanished">Nom</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Mida</translation>
+        <translation type="vanished">Mida</translation>
     </message>
     <message>
         <source>Kind</source>
         <comment>Match OS X Finder</comment>
-        <translation>Classe</translation>
+        <translation type="vanished">Classe</translation>
     </message>
     <message>
         <source>Type</source>
         <comment>All other platforms</comment>
-        <translation>Tipus</translation>
+        <translation type="vanished">Tipus</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation>Data de modificació</translation>
+        <translation type="vanished">Data de modificació</translation>
     </message>
 </context>
 <context>
@@ -667,32 +728,13 @@ Premeu Esc per cancel·lar</translation>
         <source>Operation cancelled</source>
         <translation>Operació cancel·lada</translation>
     </message>
-</context>
-<context>
-    <name>QDnsLookupRunnable</name>
-    <message>
-        <source>IPv6 addresses for nameservers are currently not supported</source>
-        <translation>Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
-    </message>
     <message>
         <source>Invalid domain name</source>
         <translation>Nom de domini no vàlid</translation>
     </message>
     <message>
-        <source>Not yet supported on Android</source>
-        <translation>Encara no està admès a l&apos;Android</translation>
-    </message>
-    <message>
-        <source>Resolver functions not found</source>
-        <translation>No s&apos;ha trobat les funcions del resolutor</translation>
-    </message>
-    <message>
-        <source>Resolver initialization failed</source>
-        <translation>La inicialització del resolutor ha fallat</translation>
-    </message>
-    <message>
-        <source>IPv6 addresses for nameservers is currently not supported</source>
-        <translation type="vanished">Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
+        <source>Request timed out</source>
+        <translation>S&apos;ha excedit el temps d&apos;espera de la sol·licitud</translation>
     </message>
     <message>
         <source>Server could not process query</source>
@@ -711,8 +753,24 @@ Premeu Esc per cancel·lar</translation>
         <translation>El servidor ha refusat respondre</translation>
     </message>
     <message>
+        <source>Invalid reply received (rcode %1)</source>
+        <translation>S&apos;ha rebut una resposta no vàlida (rcode %1)</translation>
+    </message>
+    <message>
         <source>Invalid reply received</source>
         <translation>S&apos;ha rebut una resposta no vàlida</translation>
+    </message>
+    <message>
+        <source>Invalid reply received (%1)</source>
+        <translation>S&apos;ha rebut una resposta no vàlida (%1)</translation>
+    </message>
+    <message>
+        <source>IPv6 nameservers are currently not supported on this OS</source>
+        <translation>Els servidors de noms IPv6 no estan implementats actualment en aquest SO</translation>
+    </message>
+    <message>
+        <source>Reply was too large</source>
+        <translation>La resposta era massa llarga</translation>
     </message>
     <message>
         <source>Could not expand domain name</source>
@@ -750,25 +808,112 @@ Premeu Esc per cancel·lar</translation>
         <source>Invalid text record</source>
         <translation>Registre no vàlid de text</translation>
     </message>
+</context>
+<context>
+    <name>QDnsLookupRunnable</name>
+    <message>
+        <source>IPv6 addresses for nameservers are currently not supported</source>
+        <translation type="vanished">Actualment les adreces IPv6 no estan admeses pels servidors de noms</translation>
+    </message>
+    <message>
+        <source>Invalid domain name</source>
+        <translation type="vanished">Nom de domini no vàlid</translation>
+    </message>
+    <message>
+        <source>Not yet supported on Android</source>
+        <translation type="vanished">Encara no està admès a l&apos;Android</translation>
+    </message>
+    <message>
+        <source>Resolver functions not found</source>
+        <translation type="vanished">No s&apos;han trobat les funcions del resolutor</translation>
+    </message>
+    <message>
+        <source>Resolver initialization failed</source>
+        <translation type="vanished">La inicialització del resolutor ha fallat</translation>
+    </message>
+    <message>
+        <source>IPv6 addresses for nameservers is currently not supported</source>
+        <translation type="vanished">Actualment les adreces IPv6 no són admeses pels servidors de noms</translation>
+    </message>
+    <message>
+        <source>Server could not process query</source>
+        <translation type="vanished">El servidor no ha pogut processar la consulta</translation>
+    </message>
+    <message>
+        <source>Server failure</source>
+        <translation type="vanished">Fallada del servidor</translation>
+    </message>
+    <message>
+        <source>Non existent domain</source>
+        <translation type="vanished">Domini no existent</translation>
+    </message>
+    <message>
+        <source>Server refused to answer</source>
+        <translation type="vanished">El servidor ha refusat respondre</translation>
+    </message>
+    <message>
+        <source>Invalid reply received</source>
+        <translation type="vanished">S&apos;ha rebut una resposta no vàlida</translation>
+    </message>
+    <message>
+        <source>Could not expand domain name</source>
+        <translation type="vanished">No s&apos;ha pogut expandir el nom de domini</translation>
+    </message>
+    <message>
+        <source>Invalid IPv4 address record</source>
+        <translation type="vanished">Registre no vàlid d&apos;adreça IPv4</translation>
+    </message>
+    <message>
+        <source>Invalid IPv6 address record</source>
+        <translation type="vanished">Registre no vàlid d&apos;adreça IPv6</translation>
+    </message>
+    <message>
+        <source>Invalid canonical name record</source>
+        <translation type="vanished">Registre no vàlid de nom canònic</translation>
+    </message>
+    <message>
+        <source>Invalid name server record</source>
+        <translation type="vanished">Registre no vàlid de servidor de noms</translation>
+    </message>
+    <message>
+        <source>Invalid pointer record</source>
+        <translation type="vanished">Registre no vàlid de punter de noms</translation>
+    </message>
+    <message>
+        <source>Invalid mail exchange record</source>
+        <translation type="vanished">Registre no vàlid d&apos;intercanvi de correu</translation>
+    </message>
+    <message>
+        <source>Invalid service record</source>
+        <translation type="vanished">Registre no vàlid de servei</translation>
+    </message>
+    <message>
+        <source>Invalid text record</source>
+        <translation type="vanished">Registre no vàlid de text</translation>
+    </message>
     <message>
         <source>Resolver library can&apos;t be loaded: No runtime library loading support</source>
-        <translation>No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
+        <translation type="vanished">No s&apos;ha pogut carregar la biblioteca de resolució: No s&apos;admet la càrrega de biblioteques en execució</translation>
     </message>
     <message>
         <source>No hostname given</source>
-        <translation>No s&apos;ha indicat cap nom d&apos;ordinador</translation>
+        <translation type="vanished">No s&apos;ha indicat cap nom d&apos;ordinador</translation>
     </message>
     <message>
         <source>Invalid hostname</source>
-        <translation>Nom d&apos;ordinador no vàlid</translation>
+        <translation type="vanished">Nom d&apos;ordinador no vàlid</translation>
     </message>
     <message>
         <source>Host %1 could not be found.</source>
-        <translation>No s&apos;ha pogut trobar l&apos;ordinador %1.</translation>
+        <translation type="vanished">No s&apos;ha pogut trobar l&apos;ordinador %1.</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation type="vanished">Error desconegut</translation>
+    </message>
+    <message>
+        <source>Not yet supported on this OS</source>
+        <translation>Encara no està implementat en aquest SO</translation>
     </message>
 </context>
 <context>
@@ -780,7 +925,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Undocks and re-attaches the dock widget</source>
-        <translation>Desacobla i torna a enganxar l&apos;estri acoblador</translation>
+        <translation>Desacobla i torna a enganxar el giny acoblador</translation>
     </message>
     <message>
         <source>Close</source>
@@ -789,11 +934,209 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Closes the dock widget</source>
-        <translation>Tanca l&apos;estri acoblador</translation>
+        <translation>Tanca el giny acoblador</translation>
+    </message>
+</context>
+<context>
+    <name>QDomParser</name>
+    <message>
+        <source>Error occurred while processing XML declaration</source>
+        <translation>Hi ha hagut un error en processar la declaració XML</translation>
+    </message>
+    <message>
+        <source>Multiple DTD sections are not allowed</source>
+        <translation>No es permeten seccions DTD múltiples</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing document type declaration</source>
+        <translation>Hi ha hagut un error en processar la declaració del tipus de document</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing comment</source>
+        <translation>Hi ha hagut un error en processar un comentari</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing a processing instruction</source>
+        <translation>Hi ha hagut un error en processar una instrucció de processat</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing a start element</source>
+        <translation>Hi ha hagut un error en processar un element d&apos;inici</translation>
+    </message>
+    <message>
+        <source>Unexpected end element &apos;%1&apos;</source>
+        <translation>Element de final «%1» no esperat</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing an end element</source>
+        <translation>Hi ha hagut un error en processar un element de final</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing the element content</source>
+        <translation>Hi ha hagut un error en processar el contingut d&apos;un element</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing comments</source>
+        <translation>Hi ha hagut un error en processar els comentaris</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing an entity reference</source>
+        <translation>Hi ha hagut un error en processar una referència d&apos;entitat</translation>
+    </message>
+    <message>
+        <source>Unexpected token</source>
+        <translation>Testimoni inesperat</translation>
+    </message>
+    <message>
+        <source>Tag mismatch</source>
+        <translation>L&apos;etiqueta no coincideix</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing entity declaration</source>
+        <translation>Hi ha hagut un error en processar la declaració d&apos;entitat</translation>
+    </message>
+    <message>
+        <source>Error occurred while processing notation declaration</source>
+        <translation>Hi ha hagut un error en processar la declaració de notació</translation>
+    </message>
+</context>
+<context>
+    <name>QDtls</name>
+    <message>
+        <source>Invalid (empty) secret</source>
+        <translation>Secret no vàlid (buit)</translation>
+    </message>
+    <message>
+        <source>Multicast and broadcast addresses are not supported</source>
+        <translation>No s&apos;admeten les adreces de multidifusió ni de difusió</translation>
+    </message>
+    <message>
+        <source>Cannot set peer after handshake started</source>
+        <translation>No s&apos;ha pogut establir el parell després d&apos;iniciar la conformitat de connexió</translation>
+    </message>
+    <message>
+        <source>Invalid address</source>
+        <translation>Adreça no vàlida</translation>
+    </message>
+    <message>
+        <source>Cannot set verification name after handshake started</source>
+        <translation>No s&apos;ha pogut establir el nom de verificació després d&apos;iniciar la conformitat de connexió</translation>
+    </message>
+    <message>
+        <source>Cannot set configuration after handshake started</source>
+        <translation>No s&apos;ha pogut establir la configuració després d&apos;iniciar la conformitat de connexió</translation>
+    </message>
+    <message>
+        <source>Cannot start/continue handshake, invalid handshake state</source>
+        <translation>No s&apos;ha pogut iniciar/continuar la conformitat de connexió, estat no vàlid de la conformitat de connexió</translation>
+    </message>
+    <message>
+        <source>Invalid (nullptr) socket</source>
+        <translation>Sòcol no vàlid («nullptr»)</translation>
+    </message>
+    <message>
+        <source>To start a handshake you must set peer&apos;s address and port first</source>
+        <translation>Per a iniciar una conformitat de connexió primer cal establir l&apos;adreça i el port del parell</translation>
+    </message>
+    <message>
+        <source>To start a handshake, DTLS server requires non-empty datagram (client hello)</source>
+        <translation>Per a iniciar una conformitat de connexió, el servidor DTLS requereix un datagrama no buit («client hello»)</translation>
+    </message>
+    <message>
+        <source>Cannot start handshake, already done/in progress</source>
+        <translation>No s&apos;ha pogut iniciar la conformitat de connexió, ja està feta/en curs</translation>
+    </message>
+    <message>
+        <source>A valid QUdpSocket and non-empty datagram are needed to continue the handshake</source>
+        <translation>Per a continuar la conformitat de connexió cal un «QUdpSocket» vàlid i un datagrama no buit</translation>
+    </message>
+    <message>
+        <source>Cannot continue handshake, not in InProgress state</source>
+        <translation>No s&apos;ha pogut continuar la conformitat de connexió, l&apos;estat no és «InProgress»</translation>
+    </message>
+    <message>
+        <source>Cannot resume, not in VerificationError state</source>
+        <translation>No s&apos;ha pogut continuar, l&apos;estat no és «VerificationError»</translation>
+    </message>
+    <message>
+        <source>No handshake in progress, nothing to abort</source>
+        <translation>No hi ha cap conformitat de connexió en curs, no hi ha res a interrompre</translation>
+    </message>
+    <message>
+        <source>Cannot send shutdown alert, not encrypted</source>
+        <translation>No s&apos;ha pogut enviar l&apos;alerta d&apos;aturada, no està encriptada</translation>
+    </message>
+    <message>
+        <source>Cannot write a datagram, not in encrypted state</source>
+        <translation>No s&apos;ha pogut escriure un datagrama, no està en estat encriptat</translation>
+    </message>
+    <message>
+        <source>Cannot read a datagram, not in encrypted state</source>
+        <translation>No s&apos;ha pogut llegir un datagrama, no està en estat encriptat</translation>
+    </message>
+    <message>
+        <source>%1 failed</source>
+        <extracomment>%1: Some function</extracomment>
+        <translation>Ha fallat %1</translation>
+    </message>
+    <message>
+        <source>Invalid SslMode, SslServerMode or SslClientMode expected</source>
+        <translation>«SslMode» no vàlid, s&apos;esperava «SslServerMode» o «SslClientMode»</translation>
+    </message>
+    <message>
+        <source>Invalid protocol version, DTLS protocol expected</source>
+        <translation>Versió no vàlida del protocol, s&apos;esperava el protocol DTLS</translation>
+    </message>
+    <message>
+        <source>BIO_ADD_new failed, cannot start handshake</source>
+        <translation>Ha fallat «BIO_ADD_new», no s&apos;ha pogut iniciar la conformitat de connexió</translation>
+    </message>
+    <message>
+        <source>Cannot start the handshake, verified client hello expected</source>
+        <translation>No s&apos;ha pogut iniciar la conformitat de connexió, s&apos;esperava un «client hello» verificat</translation>
+    </message>
+    <message>
+        <source>Peer verification failed</source>
+        <translation>Ha fallat la verificació del parell</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been closed</source>
+        <translation>S&apos;ha tancat la connexió DTLS</translation>
+    </message>
+    <message>
+        <source>Error while writing: %1</source>
+        <translation>Error en escriure: %1</translation>
+    </message>
+    <message>
+        <source>The DTLS connection has been shutdown</source>
+        <translation>S&apos;ha tancat la connexió DTLS</translation>
+    </message>
+    <message>
+        <source>Error while reading: %1</source>
+        <translation>Error en llegir: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QDtlsClientVerifier</name>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, valid address/port were expected</source>
+        <translation type="vanished">S&apos;esperava un sòcol UDP vàlid, un datagrama no buit, una adreça/port vàlids</translation>
+    </message>
+    <message>
+        <source>BIO_ADDR_new failed, ignoring client hello</source>
+        <translation>Ha fallat «BIO_ADDR_new», s&apos;ignora el «client hello»</translation>
+    </message>
+    <message>
+        <source>A valid UDP socket, non-empty datagram, and valid address/port were expected</source>
+        <translation>S&apos;esperava un sòcol UDP vàlid, un datagrama no buit i una adreça/port vàlids</translation>
     </message>
 </context>
 <context>
     <name>QErrorMessage</name>
+    <message>
+        <source>An error occurred</source>
+        <translation>S&apos;ha produït un error</translation>
+    </message>
     <message>
         <source>Debug Message:</source>
         <translation>Missatge de depuració:</translation>
@@ -831,7 +1174,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Source file does not exist.</source>
-        <translation>El fitxer origen no existeix.</translation>
+        <translation>El fitxer d&apos;origen no existeix.</translation>
     </message>
     <message>
         <source>Destination file exists</source>
@@ -855,7 +1198,7 @@ Premeu Esc per cancel·lar</translation>
     </message>
     <message>
         <source>Cannot remove source file</source>
-        <translation>No s&apos;ha pogut eliminar el fitxer origen</translation>
+        <translation>No s&apos;ha pogut eliminar el fitxer d&apos;origen</translation>
     </message>
     <message>
         <source>Cannot open destination file: %1</source>
@@ -866,16 +1209,28 @@ Premeu Esc per cancel·lar</translation>
         <translation>No s&apos;ha pogut obrir %1 per entrada</translation>
     </message>
     <message>
+        <source>Cannot open for output: %1</source>
+        <translation>No s&apos;ha pogut obrir per sortida: %1</translation>
+    </message>
+    <message>
+        <source>Failure to write block: %1</source>
+        <translation>Ha fallat en escriure un bloc: %1</translation>
+    </message>
+    <message>
+        <source>Cannot create %1 for output: %2</source>
+        <translation>No s&apos;ha pogut crear %1 per sortida: %2</translation>
+    </message>
+    <message>
         <source>Cannot open for output</source>
-        <translation>No s&apos;ha pogut obrir per sortida</translation>
+        <translation type="vanished">No s&apos;ha pogut obrir per sortida</translation>
     </message>
     <message>
         <source>Failure to write block</source>
-        <translation>Ha fallat en escriure un bloc</translation>
+        <translation type="vanished">Ha fallat en escriure un bloc</translation>
     </message>
     <message>
         <source>Cannot create %1 for output</source>
-        <translation>No s&apos;ha pogut crear %1 per sortida</translation>
+        <translation type="vanished">No s&apos;ha pogut crear %1 per sortida</translation>
     </message>
 </context>
 <context>
@@ -1040,7 +1395,7 @@ Premeu Esc per cancel·lar</translation>
 Directory not found.
 Please verify the correct directory name was given.</source>
         <translation>%1
-no s&apos;ha trobat el directori.
+No s&apos;ha trobat el directori.
 Comproveu que s&apos;ha indicat el nom correcte del directori.</translation>
     </message>
     <message>
@@ -1054,7 +1409,7 @@ El voleu substituir?</translation>
 File not found.
 Please verify the correct file name was given.</source>
         <translation>%1
-no s&apos;ha trobat el fitxer.
+No s&apos;ha trobat el fitxer.
 Comproveu que s&apos;ha indicat el nom correcte del fitxer.</translation>
     </message>
     <message>
@@ -1089,35 +1444,35 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>My Computer</source>
-        <translation>El meu ordinador</translation>
+        <translation type="vanished">El meu ordinador</translation>
     </message>
     <message>
         <source>Drive</source>
-        <translation>Controlador</translation>
+        <translation type="vanished">Controlador</translation>
     </message>
     <message>
         <source>%1 File</source>
         <extracomment>%1 is a file name suffix, for example txt</extracomment>
-        <translation>Fitxer %1</translation>
+        <translation type="vanished">Fitxer %1</translation>
     </message>
     <message>
         <source>File</source>
-        <translation>Fitxer</translation>
+        <translation type="vanished">Fitxer</translation>
     </message>
     <message>
         <source>File Folder</source>
         <comment>Match Windows Explorer</comment>
-        <translation>Carpeta de fitxers</translation>
+        <translation type="vanished">Carpeta de fitxers</translation>
     </message>
     <message>
         <source>Folder</source>
         <comment>All other platforms</comment>
-        <translation>Carpeta</translation>
+        <translation type="vanished">Carpeta</translation>
     </message>
     <message>
         <source>Alias</source>
         <comment>OS X Finder</comment>
-        <translation>Àlies</translation>
+        <translation type="vanished">Àlies</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1127,11 +1482,11 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>Shortcut</source>
         <comment>All other platforms</comment>
-        <translation>Drecera</translation>
+        <translation type="vanished">Drecera</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Desconegut</translation>
+        <translation type="vanished">Desconegut</translation>
     </message>
 </context>
 <context>
@@ -1158,7 +1513,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Invalid filename</source>
-        <translation>Nom de fitxer no vàlid</translation>
+        <translation type="vanished">Nom de fitxer no vàlid</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; can not be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuations marks.</source>
@@ -1166,7 +1521,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>&lt;b&gt;The name &quot;%1&quot; cannot be used.&lt;/b&gt;&lt;p&gt;Try using another name, with fewer characters or no punctuation marks.</source>
-        <translation>&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
+        <translation type="vanished">&lt;b&gt;No es pot usar el nom «%1».&lt;/b&gt;&lt;p&gt;Proveu-ho amb un altre nom, amb menys caràcters o sense signes de puntuació.</translation>
     </message>
     <message>
         <source>Name</source>
@@ -1406,15 +1761,15 @@ El voleu suprimir igualment?</translation>
     <name>QFontDialog</name>
     <message>
         <source>Select Font</source>
-        <translation>Seleccioneu el tipus de lletra</translation>
+        <translation>Seleccioneu la lletra</translation>
     </message>
     <message>
         <source>&amp;Font</source>
-        <translation>&amp;Tipus de lletra</translation>
+        <translation>&amp;Lletra</translation>
     </message>
     <message>
         <source>Font st&amp;yle</source>
-        <translation>Est&amp;il de tipus de lletra</translation>
+        <translation>Est&amp;il de la lletra</translation>
     </message>
     <message>
         <source>&amp;Size</source>
@@ -1445,89 +1800,89 @@ El voleu suprimir igualment?</translation>
     <name>QFtp</name>
     <message>
         <source>Not connected</source>
-        <translation>No connectat</translation>
+        <translation type="vanished">No connectat</translation>
     </message>
     <message>
         <source>Host %1 not found</source>
-        <translation>No s&apos;ha trobat el servidor %1</translation>
+        <translation type="vanished">No s&apos;ha trobat el servidor %1</translation>
     </message>
     <message>
         <source>Connection refused to host %1</source>
-        <translation>S&apos;ha rebutjat la connexió al servidor %1</translation>
+        <translation type="vanished">S&apos;ha rebutjat la connexió al servidor %1</translation>
     </message>
     <message>
         <source>Connection timed out to host %1</source>
-        <translation>Temps de connexió excedit al servidor %1</translation>
+        <translation type="vanished">Temps de connexió excedit al servidor %1</translation>
     </message>
     <message>
         <source>Connected to host %1</source>
-        <translation>S&apos;ha connectat al servidor %1</translation>
+        <translation type="vanished">S&apos;ha connectat al servidor %1</translation>
     </message>
     <message>
         <source>Data Connection refused</source>
-        <translation>S&apos;ha rebutjat la connexió de dades</translation>
+        <translation type="vanished">S&apos;ha rebutjat la connexió de dades</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation type="vanished">Error desconegut</translation>
     </message>
     <message>
         <source>Connecting to host failed:
 %1</source>
-        <translation>La connexió al servidor ha fallat:
+        <translation type="vanished">La connexió al servidor ha fallat:
 %1</translation>
     </message>
     <message>
         <source>Login failed:
 %1</source>
-        <translation>Ha fallat l&apos;inici de sessió:
+        <translation type="vanished">Ha fallat l&apos;inici de sessió:
 %1</translation>
     </message>
     <message>
         <source>Listing directory failed:
 %1</source>
-        <translation>Ha fallat el llistat del directori:
+        <translation type="vanished">Ha fallat el llistat del directori:
 %1</translation>
     </message>
     <message>
         <source>Changing directory failed:
 %1</source>
-        <translation>Ha fallat el canvi de directori:
+        <translation type="vanished">Ha fallat el canvi de directori:
 %1</translation>
     </message>
     <message>
         <source>Downloading file failed:
 %1</source>
-        <translation>Ha fallat la baixada del fitxer:
+        <translation type="vanished">Ha fallat la baixada del fitxer:
 %1</translation>
     </message>
     <message>
         <source>Uploading file failed:
 %1</source>
-        <translation>Ha fallat la pujada del fitxer:
+        <translation type="vanished">Ha fallat la pujada del fitxer:
 %1</translation>
     </message>
     <message>
         <source>Removing file failed:
 %1</source>
-        <translation>Ha fallat l&apos;eliminació del fitxer:
+        <translation type="vanished">Ha fallat l&apos;eliminació del fitxer:
 %1</translation>
     </message>
     <message>
         <source>Creating directory failed:
 %1</source>
-        <translation>Ha fallat la creació del directori:
+        <translation type="vanished">Ha fallat la creació del directori:
 %1</translation>
     </message>
     <message>
         <source>Removing directory failed:
 %1</source>
-        <translation>Ha fallat l&apos;eliminació del directori:
+        <translation type="vanished">Ha fallat l&apos;eliminació del directori:
 %1</translation>
     </message>
     <message>
         <source>Connection closed</source>
-        <translation>S&apos;ha tancat la connexió</translation>
+        <translation type="vanished">S&apos;ha tancat la connexió</translation>
     </message>
 </context>
 <context>
@@ -1559,6 +1914,86 @@ El voleu suprimir igualment?</translation>
         <source>QT_LAYOUT_DIRECTION</source>
         <comment>Translate this string to the string &apos;LTR&apos; in left-to-right languages or to &apos;RTL&apos; in right-to-left languages (such as Hebrew and Arabic) to get proper widget layout.</comment>
         <translation>LTR</translation>
+    </message>
+    <message>
+        <source>QPA plugin. See QGuiApplication documentation for available options for each plugin.</source>
+        <translation>Connector QPA. Vegeu la documentació de QGuiApplication per a les opcions disponibles de cada connector.</translation>
+    </message>
+    <message>
+        <source>Path to the platform plugins.</source>
+        <translation>Camí als connectors de la plataforma.</translation>
+    </message>
+    <message>
+        <source>Platform theme.</source>
+        <translation>Tema de la plataforma.</translation>
+    </message>
+    <message>
+        <source>Additional plugins to load, can be specified multiple times.</source>
+        <translation>Connectors addicionals a carregar, es poden especificar diverses vegades.</translation>
+    </message>
+    <message>
+        <source>Window geometry for the main window, using the X11-syntax, like 100x100+50+50.</source>
+        <translation>Geometria de finestra de la finestra principal, usant la sintaxi X11, com 100x100+50+50.</translation>
+    </message>
+    <message>
+        <source>Default window icon.</source>
+        <translation>Icona predeterminada de la finestra.</translation>
+    </message>
+    <message>
+        <source>Title of the first window.</source>
+        <translation>Títol de la primera finestra.</translation>
+    </message>
+    <message>
+        <source>Sets the application&apos;s layout direction to Qt::RightToLeft (debugging helper).</source>
+        <translation>Estableix la direcció de la disposició de l&apos;aplicació a Qt::RightToLeft (ajudant de depuració).</translation>
+    </message>
+    <message>
+        <source>Restores the application from an earlier session.</source>
+        <translation>Restaura l&apos;aplicació d&apos;una sessió anterior.</translation>
+    </message>
+    <message>
+        <source>Display name, overrides $DISPLAY.</source>
+        <translation>Nom de la pantalla, sobreescriu $DISPLAY.</translation>
+    </message>
+    <message>
+        <source>Instance name according to ICCCM 4.1.2.5.</source>
+        <translation>Nom d&apos;instància d&apos;acord amb ICCCM 4.1.2.5.</translation>
+    </message>
+    <message>
+        <source>Disable mouse grabbing (useful in debuggers).</source>
+        <translation>Desactiva la captura del ratolí (útil als depuradors).</translation>
+    </message>
+    <message>
+        <source>Force mouse grabbing (even when running in a debugger).</source>
+        <translation>Força la captura del ratolí (inclús en executar a un depurador).</translation>
+    </message>
+    <message>
+        <source>ID of the X11 Visual to use.</source>
+        <translation>ID de la «Visual» X11 a usar.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowgeometry.</source>
+        <translation>Àlies de --qwindowgeometry.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowicon.</source>
+        <translation>Àlies de --qwindowicon.</translation>
+    </message>
+    <message>
+        <source>Alias for --qwindowtitle.</source>
+        <translation>Àlies de --qwindowtitle.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowgeometry.</source>
+        <translation type="vanished">Àlies de --windowgeometry.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowicon.</source>
+        <translation type="vanished">Àlies de --windowicon.</translation>
+    </message>
+    <message>
+        <source>Alias for --windowtitle.</source>
+        <translation type="vanished">Àlies de --windowtitle.</translation>
     </message>
 </context>
 <context>
@@ -1596,7 +2031,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Unknown error (%1)</source>
-        <translation>Error desconegut (%1)</translation>
+        <translation type="vanished">Error desconegut (%1)</translation>
     </message>
 </context>
 <context>
@@ -1641,6 +2076,30 @@ El voleu suprimir igualment?</translation>
         <source>Insecure redirect</source>
         <translation>Redirecció insegura</translation>
     </message>
+    <message>
+        <source>Unsupported content encoding: %1</source>
+        <translation>La codificació del contingut no està admesa: %1</translation>
+    </message>
+    <message>
+        <source>Failed to initialize the compression decoder.</source>
+        <translation>La inicialització del descodificador de compressió ha fallat.</translation>
+    </message>
+    <message>
+        <source>The decompressed output exceeds the limits specified by QNetworkRequest::decompressedSafetyCheckThreshold()</source>
+        <translation>La sortida descomprimida excedeix els límits especificats per QNetworkRequest::decompressedSafetyCheckThreshold()</translation>
+    </message>
+    <message>
+        <source>Decompression failed: %1</source>
+        <translation>Ha fallat la descompressió: %1</translation>
+    </message>
+    <message>
+        <source>Data downloaded is too large to store</source>
+        <translation>Les dades baixades són massa grans per a emmagatzemar</translation>
+    </message>
+    <message>
+        <source>Failed to initialize decompression: %1</source>
+        <translation>Ha fallat en inicialitzar la descompressió: %1</translation>
+    </message>
 </context>
 <context>
     <name>QHttpSocketEngine</name>
@@ -1683,6 +2142,10 @@ El voleu suprimir igualment?</translation>
 </context>
 <context>
     <name>QIBaseDriver</name>
+    <message>
+        <source>failed to query time zone mapping from system table</source>
+        <translation>ha fallat en consultar el mapatge de la zona horària des de la taula del sistema</translation>
+    </message>
     <message>
         <source>Error opening database</source>
         <translation>Error en obrir la base de dades</translation>
@@ -1787,7 +2250,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>No space left on device</source>
-        <translation>No queda espai en el dispositiu</translation>
+        <translation>No queda espai al dispositiu</translation>
     </message>
     <message>
         <source>file to open is a directory</source>
@@ -1837,7 +2300,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Device not writable</source>
-        <translation>No es pot escriure en el dispositiu</translation>
+        <translation>No es pot escriure al dispositiu</translation>
     </message>
     <message>
         <source>Unsupported image format</source>
@@ -1927,69 +2390,69 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>%1, ...</source>
         <extracomment>This text is an &quot;unfinished&quot; shortcut, expands like &quot;Ctrl+A, ...&quot;</extracomment>
-        <translation>%1, ...</translation>
+        <translation>%1,...</translation>
     </message>
 </context>
 <context>
     <name>QLibrary</name>
     <message>
         <source>&apos;%1&apos; is not an ELF object (%2)</source>
-        <translation>«%1» no és cap objecte ELF (%2)</translation>
+        <translation type="vanished">«%1» no és cap objecte ELF (%2)</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not an ELF object</source>
-        <translation>«%1» no és cap objecte ELF</translation>
+        <translation type="vanished">«%1» no és cap objecte ELF</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is an invalid ELF object (%2)</source>
-        <translation>«%1» és un objecte ELF no vàlid (%2)</translation>
+        <translation type="vanished">«%1» és un objecte ELF no vàlid (%2)</translation>
     </message>
     <message>
         <source>odd cpu architecture</source>
-        <translation>arquitectura estranya de la CPU</translation>
+        <translation type="vanished">arquitectura estranya de la CPU</translation>
     </message>
     <message>
         <source>wrong cpu architecture</source>
-        <translation>arquitectura incorrecta de la CPU</translation>
+        <translation type="vanished">arquitectura incorrecta de la CPU</translation>
     </message>
     <message>
         <source>odd endianness</source>
-        <translation>«endianness» estrany</translation>
+        <translation type="vanished">«endianness» estrany</translation>
     </message>
     <message>
         <source>unexpected e_shsize</source>
-        <translation>«e_shsize» inesperat</translation>
+        <translation type="vanished">«e_shsize» inesperat</translation>
     </message>
     <message>
         <source>unexpected e_shentsize</source>
-        <translation>«e_shentsize» inesperat</translation>
+        <translation type="vanished">«e_shentsize» inesperat</translation>
     </message>
     <message numerus="yes">
         <source>announced %n section(s), each %1 byte(s), exceed file size</source>
-        <translation>
+        <translation type="vanished">
             <numerusform>s&apos;han anunciat %n secció, cada una de %1 byte, s&apos;ha excedit la mida del fitxer</numerusform>
             <numerusform>s&apos;han anunciat %n seccions, cada una de %1 bytes, s&apos;ha excedit la mida del fitxer</numerusform>
         </translation>
     </message>
     <message>
         <source>shstrtab section header seems to be at %1</source>
-        <translation>la capçalera de la secció «shstrtab» sembla que està a %1</translation>
+        <translation type="vanished">la capçalera de la secció «shstrtab» sembla que està a %1</translation>
     </message>
     <message>
         <source>string table seems to be at %1</source>
-        <translation>la taula de cadenes sembla que està a %1</translation>
+        <translation type="vanished">la taula de cadenes sembla que està a %1</translation>
     </message>
     <message>
         <source>section name %1 of %2 behind end of file</source>
-        <translation>la secció amb nom %1 de %2 està darrere del final del fitxer</translation>
+        <translation type="vanished">la secció amb nom %1 de %2 està darrere del final del fitxer</translation>
     </message>
     <message>
         <source>empty .rodata. not a library.</source>
-        <translation>«.rodata» buit. No és cap biblioteca.</translation>
+        <translation type="vanished">«.rodata» buit. No és cap biblioteca.</translation>
     </message>
     <message>
         <source>missing section data. This is not a library.</source>
-        <translation>manca la secció «data». Això no és cap biblioteca.</translation>
+        <translation type="vanished">manca la secció «data». Això no és cap biblioteca.</translation>
     </message>
     <message>
         <source>Plugin verification data mismatch in &apos;%1&apos;</source>
@@ -1997,11 +2460,23 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Failed to extract plugin meta data from &apos;%1&apos;</source>
-        <translation>Ha fallat en extreure les metadades del connector des de «%1»</translation>
+        <translation type="vanished">Ha fallat en extreure les metadades del connector des de «%1»</translation>
+    </message>
+    <message>
+        <source>Failed to extract plugin meta data from &apos;%1&apos;: %2</source>
+        <translation>Ha fallat en extreure les metadades del connector des de «%1»: %2</translation>
     </message>
     <message>
         <source>The shared library was not found.</source>
         <translation>No s&apos;ha trobat la biblioteca compartida.</translation>
+    </message>
+    <message>
+        <source>metadata too small</source>
+        <translation>metadades massa petites</translation>
+    </message>
+    <message>
+        <source>entrypoint to query the plugin meta data not found</source>
+        <translation>no s&apos;ha trobat punt d&apos;entrada per a consultar les metadades del connector</translation>
     </message>
     <message>
         <source>The file &apos;%1&apos; is not a valid Qt plugin.</source>
@@ -2029,7 +2504,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Cannot resolve symbol &quot;%1&quot; in %2: %3</source>
-        <translation>No s&apos;ha pogut resoldre el símbol «%1» en %2: %3</translation>
+        <translation type="vanished">No s&apos;ha pogut resoldre el símbol «%1» en %2: %3</translation>
     </message>
     <message>
         <source>&apos;%1&apos; is not a valid Mach-O binary (%2)</source>
@@ -2040,12 +2515,72 @@ El voleu suprimir igualment?</translation>
         <translation>el fitxer està malmès</translation>
     </message>
     <message>
+        <source>file is for the wrong endianness</source>
+        <translation>el fitxer és per a l&apos;«endianness» erroni</translation>
+    </message>
+    <message>
+        <source>file has an unknown ELF version</source>
+        <translation>el fitxer té una versió ELF desconeguda</translation>
+    </message>
+    <message>
+        <source>file has an unexpected ABI</source>
+        <translation>el fitxer té un ABI inesperat</translation>
+    </message>
+    <message>
+        <source>file is not a shared object</source>
+        <translation>el fitxer no és cap objecte compartit</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid ELF object (%2)</source>
+        <translation>«%1» no és un objecte ELF vàlid (%2)</translation>
+    </message>
+    <message>
+        <source>unimplemented: PN_XNUM program headers</source>
+        <translation>sense implementar: capçaleres de programa PN_XNUM</translation>
+    </message>
+    <message>
+        <source>program header table extends past the end of the file</source>
+        <translation>la taula de capçalera del programa s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>a program header entry extends past the end of the file</source>
+        <translation>una entrada de capçalera de programa s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>a note segment start is not properly aligned (offset 0x%1, alignment %2)</source>
+        <translation>un inici de segment de nota no està correctament alineat (desplaçament 0x%1, alineació %2)</translation>
+    </message>
+    <message>
+        <source>section table extends past the end of the file</source>
+        <translation>la taula de seccions s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>section header string table extends past the end of the file</source>
+        <translation>la taula de cadenes de capçalera de secció s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>a section name extends past the end of the file</source>
+        <translation>un nom de secció s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
         <source>file too small</source>
         <translation>el fitxer és massa petit</translation>
     </message>
     <message>
+        <source>unexpected program header entry size (%1)</source>
+        <translation>mida inesperada de l&apos;entrada de la capçalera del programa (%1)</translation>
+    </message>
+    <message>
+        <source>unexpected section entry size (%1)</source>
+        <translation>mida inesperada d&apos;entrada de secció (%1)</translation>
+    </message>
+    <message>
+        <source>e_shstrndx greater than the number of sections e_shnum (%1 &gt;= %2)</source>
+        <translation>e_shstrndx més gran que el nombre de seccions e_shnum (%1 &gt;= %2)</translation>
+    </message>
+    <message>
         <source>no suitable architecture in fat binary</source>
-        <translation>no hi ha cap arquitectura apropiada en el «fat binary»</translation>
+        <translation>no hi ha cap arquitectura apropiada al «fat binary»</translation>
     </message>
     <message>
         <source>invalid magic %1</source>
@@ -2062,6 +2597,70 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>&apos;%1&apos; is not a Qt plugin</source>
         <translation>«%1» no és cap connector Qt</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a valid Windows DLL (%2)</source>
+        <translation>«%1» no és una DLL vàlida del Windows (%2)</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is too small</source>
+        <translation>«%1» és massa petit</translation>
+    </message>
+    <message>
+        <source>&apos;%1&apos; is not a Qt plugin (%2)</source>
+        <translation>«%1» no és cap connector Qt (%2)</translation>
+    </message>
+    <message>
+        <source>metadata not found</source>
+        <translation>no s&apos;han trobat les metadades</translation>
+    </message>
+    <message>
+        <source>invalid signature</source>
+        <translation>signatura no vàlida</translation>
+    </message>
+    <message>
+        <source>file is for a different processor</source>
+        <translation>el fitxer és per a un processador diferent</translation>
+    </message>
+    <message>
+        <source>file has no sections</source>
+        <translation>el fitxer no té seccions</translation>
+    </message>
+    <message>
+        <source>wrong characteristics</source>
+        <translation>característiques incorrectes</translation>
+    </message>
+    <message>
+        <source>file is for a different word size</source>
+        <translation>el fitxer és per a una mida diferent de paraula</translation>
+    </message>
+    <message>
+        <source>file has no code</source>
+        <translation>el fitxer no té codi</translation>
+    </message>
+    <message>
+        <source>a section name is empty or extends past the end of the file</source>
+        <translation>un nom de secció està buit o s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>section contents extend past the end of the file</source>
+        <translation>el contingut de la secció s&apos;estén més enllà del final del fitxer</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is too small</source>
+        <translation>la secció «.qtmetadata» és massa petita</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section has incorrect magic</source>
+        <translation>la secció «.qtmetadata» té un màgic incorrecte</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is writable</source>
+        <translation>la secció «.qtmetadata» s&apos;hi pot escriure</translation>
+    </message>
+    <message>
+        <source>.qtmetadata section is executable</source>
+        <translation>la secció «.qtmetadata» és executable</translation>
     </message>
 </context>
 <context>
@@ -2150,7 +2749,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>%1: The socket operation is not supported</source>
-        <translation>%1: Operació no admesa en el sòcol</translation>
+        <translation>%1: Operació no admesa al sòcol</translation>
     </message>
     <message>
         <source>%1: Operation not permitted when socket is in this state</source>
@@ -2171,6 +2770,14 @@ El voleu suprimir igualment?</translation>
     <message>
         <source>%1: Access denied</source>
         <translation>%1: S&apos;ha denegat l&apos;accés</translation>
+    </message>
+    <message>
+        <source>Socket is not connected</source>
+        <translation>El sòcol no s&apos;ha connectat</translation>
+    </message>
+    <message>
+        <source>Remote closed</source>
+        <translation>El remot ha tancat</translation>
     </message>
 </context>
 <context>
@@ -2244,7 +2851,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>Unable to store statement results</source>
-        <translation>No s&apos;ha pogut emmagatzemar els resultats de la sentència</translation>
+        <translation>No s&apos;ha pogut emmagatzemar el resultat de la sentència</translation>
     </message>
 </context>
 <context>
@@ -2340,8 +2947,13 @@ El voleu suprimir igualment?</translation>
         <translation>Oculta els detalls...</translation>
     </message>
     <message>
+        <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
+        <extracomment>Leave this text untranslated or include a verbatim copy of it below and note that it is the authoritative version in case of doubt.</extracomment>
+        <translation>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under multiple licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of GNU (L)GPL.&lt;/p&gt;&lt;p&gt;Qt licensed under GNU (L)GPL is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the respective licenses.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per a adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2357,7 +2969,7 @@ El voleu suprimir igualment?</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt&amp;nbsp;applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Qt is The Qt Company Ltd product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
-        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU o de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt perquè pugueu complir amb els termes i condicions de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;Les Qt són un conjunt d&apos;eines C++ pel desenvolupament d&apos;aplicacions multiplataforma.&lt;/p&gt;&lt;p&gt;Les Qt proporcionen portabilitat amb un codi font únic entre els principals sistemes operatius. Les Qt també són disponibles per a Linux incrustat i sistemes operatius incrustats i mòbils.&lt;/p&gt;&lt;p&gt;Les Qt estan disponibles en tres opcions de llicència diferents dissenyades per a adaptar-se a les necessitats dels diversos usuaris.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota el nostre acord de llicència comercial són apropiades per al desenvolupament de programari propietari/comercial a on no voleu compartir cap codi font amb terceres parts o no podeu complir amb els termes de la versió 3 de la LGPL de la GNU o de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 3 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt quan podeu complir amb els termes i condicions de la versió 3 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Les Qt llicenciades sota la versió 2.1 de la LGPL de la GNU són apropiades per al desenvolupament d&apos;aplicacions Qt perquè pugueu complir amb els termes i condicions de la versió 2.1 de la LGPL de la GNU.&lt;/p&gt;&lt;p&gt;Si us plau, vegeu a &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; un resum de les llicències de les Qt.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 The Qt Company Ltd i altres col·laboradors.&lt;/p&gt;&lt;p&gt;Les Qt i el logotip de les Qt són marques comercials de The Qt Company Ltd.&lt;/p&gt;&lt;p&gt;Les Qt són un producte de The Qt Company Ltd desenvolupat com un projecte de codi font obert. Vegeu &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; per a més informació.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Qt is a C++ toolkit for cross-platform application development.&lt;/p&gt;&lt;p&gt;Qt provides single-source portability across all major desktop operating systems. It is also available for embedded Linux and other embedded and mobile operating systems.&lt;/p&gt;&lt;p&gt;Qt is available under three different licensing options designed to accommodate the needs of our various users.&lt;/p&gt;&lt;p&gt;Qt licensed under our commercial license agreement is appropriate for development of proprietary/commercial software where you do not want to share any source code with third parties or otherwise cannot comply with the terms of the GNU LGPL version 3 or GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 3 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 3.&lt;/p&gt;&lt;p&gt;Qt licensed under the GNU LGPL version 2.1 is appropriate for the development of Qt applications provided you can comply with the terms and conditions of the GNU LGPL version 2.1.&lt;/p&gt;&lt;p&gt;Please see &lt;a href=&quot;http://%2/&quot;&gt;%2&lt;/a&gt; for an overview of Qt licensing.&lt;/p&gt;&lt;p&gt;Copyright (C) %1 Digia Plc and/or its subsidiary(-ies) and other contributors.&lt;/p&gt;&lt;p&gt;Qt and the Qt logo are trademarks of Digia Plc and/or its subsidiary(-ies).&lt;/p&gt;&lt;p&gt;Qt is a Digia product developed as an open source project. See &lt;a href=&quot;http://%3/&quot;&gt;%3&lt;/a&gt; for more information.&lt;/p&gt;</source>
@@ -2433,7 +3045,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>The bound address is already in use</source>
-        <translation>Ja s&apos;està usant l&apos;adreça límit</translation>
+        <translation>Ja s&apos;està usant l&apos;adreça vinculada</translation>
     </message>
     <message>
         <source>The address is not available</source>
@@ -2445,7 +3057,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Datagram was too large to send</source>
-        <translation>El datagrama era massa gran per enviar-lo</translation>
+        <translation>El datagrama era massa gran per a enviar-lo</translation>
     </message>
     <message>
         <source>Unable to send a message</source>
@@ -2465,7 +3077,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Another socket is already listening on the same port</source>
-        <translation>Ja hi ha un altre sòcol escoltant en el mateix port</translation>
+        <translation>Ja hi ha un altre sòcol escoltant al mateix port</translation>
     </message>
     <message>
         <source>Operation on non-socket</source>
@@ -2525,7 +3137,7 @@ applications where you wish to use such applications in combination with softwar
     <name>QNetworkAccessFileBackend</name>
     <message>
         <source>Request for opening non-local file %1</source>
-        <translation>Sol·licitud per obrir el fitxer no local %1</translation>
+        <translation>Sol·licitud per a obrir el fitxer no local %1</translation>
     </message>
     <message>
         <source>Error opening %1: %2</source>
@@ -2548,30 +3160,30 @@ applications where you wish to use such applications in combination with softwar
     <name>QNetworkAccessFtpBackend</name>
     <message>
         <source>No suitable proxy found</source>
-        <translation>No s&apos;ha trobat cap servidor intermediari adequat</translation>
+        <translation type="vanished">No s&apos;ha trobat cap servidor intermediari adequat</translation>
     </message>
     <message>
         <source>Cannot open %1: is a directory</source>
-        <translation>No es pot obrir %1: És un directori</translation>
+        <translation type="vanished">No es pot obrir %1: És un directori</translation>
     </message>
     <message>
         <source>Logging in to %1 failed: authentication required</source>
-        <translation>La connexió a %1 ha fallat: Es requereix autenticació</translation>
+        <translation type="vanished">La connexió a %1 ha fallat: Es requereix autenticació</translation>
     </message>
     <message>
         <source>Error while downloading %1: %2</source>
-        <translation>Error en baixar %1: %2</translation>
+        <translation type="vanished">Error en baixar %1: %2</translation>
     </message>
     <message>
         <source>Error while uploading %1: %2</source>
-        <translation>Error en pujar %1: %2</translation>
+        <translation type="vanished">Error en pujar %1: %2</translation>
     </message>
 </context>
 <context>
     <name>QNetworkAccessManager</name>
     <message>
         <source>Network access is disabled.</source>
-        <translation>L&apos;accés a la xarxa està desactivat.</translation>
+        <translation type="vanished">L&apos;accés a la xarxa està desactivat.</translation>
     </message>
 </context>
 <context>
@@ -2582,11 +3194,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Background request not allowed.</source>
-        <translation>Sol·licitud en segon pla no permesa.</translation>
+        <translation type="vanished">Sol·licitud en segon pla no permesa.</translation>
     </message>
     <message>
         <source>Network session error.</source>
-        <translation>Error de sessió de xarxa.</translation>
+        <translation type="vanished">Error de sessió de xarxa.</translation>
     </message>
     <message>
         <source>backend start error.</source>
@@ -2594,7 +3206,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Temporary network failure.</source>
-        <translation>Fallada temporal de xarxa.</translation>
+        <translation type="vanished">Fallada temporal de xarxa.</translation>
     </message>
     <message>
         <source>Protocol &quot;%1&quot; is unknown</source>
@@ -2627,30 +3239,30 @@ applications where you wish to use such applications in combination with softwar
     <name>QNetworkSession</name>
     <message>
         <source>Invalid configuration.</source>
-        <translation>Configuració no vàlida.</translation>
+        <translation type="vanished">Configuració no vàlida.</translation>
     </message>
 </context>
 <context>
     <name>QNetworkSessionPrivateImpl</name>
     <message>
         <source>Unknown session error.</source>
-        <translation>Error desconegut de sessió.</translation>
+        <translation type="vanished">Error desconegut de sessió.</translation>
     </message>
     <message>
         <source>The session was aborted by the user or system.</source>
-        <translation>Sessió interrompuda per l&apos;usuari o el sistema.</translation>
+        <translation type="vanished">Sessió interrompuda per l&apos;usuari o el sistema.</translation>
     </message>
     <message>
         <source>The requested operation is not supported by the system.</source>
-        <translation>L&apos;operació sol·licitada no està admesa pel sistema.</translation>
+        <translation type="vanished">L&apos;operació sol·licitada no està admesa pel sistema.</translation>
     </message>
     <message>
         <source>The specified configuration cannot be used.</source>
-        <translation>No es pot utilitzar la configuració especificada.</translation>
+        <translation type="vanished">No es pot utilitzar la configuració especificada.</translation>
     </message>
     <message>
         <source>Roaming was aborted or is not possible.</source>
-        <translation>S&apos;ha interromput la itinerància o no és possible.</translation>
+        <translation type="vanished">S&apos;ha interromput la itinerància o no és possible.</translation>
     </message>
 </context>
 <context>
@@ -2782,11 +3394,11 @@ applications where you wish to use such applications in combination with softwar
     <name>QPPDOptionsModel</name>
     <message>
         <source>Name</source>
-        <translation>Nom</translation>
+        <translation type="vanished">Nom</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation>Valor</translation>
+        <translation type="vanished">Valor</translation>
     </message>
 </context>
 <context>
@@ -2794,6 +3406,10 @@ applications where you wish to use such applications in combination with softwar
     <message>
         <source>Unable to connect</source>
         <translation>No s&apos;ha pogut connectar</translation>
+    </message>
+    <message>
+        <source>Unable to set client encoding to &apos;UNICODE&apos;</source>
+        <translation>No s&apos;ha pogut establir la codificació del client a «UNICODE»</translation>
     </message>
     <message>
         <source>Could not begin transaction</source>
@@ -2828,7 +3444,7 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Unable to get result</source>
-        <translation>No s&apos;ha pogut obtenir els resultats</translation>
+        <translation>No s&apos;ha pogut obtenir el resultat</translation>
     </message>
     <message>
         <source>Unable to send query</source>
@@ -3632,11 +4248,19 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>%1 does not follow the correct syntax. Please use &apos;,&apos; to separate ranges and pages, &apos;-&apos; to define ranges and make sure ranges do not intersect with each other.</source>
-        <translation>%1 no segueix la sintaxi correcta. Useu «,» per separar intervals i pàgines, «-» per definir intervals, i assegureu-vos que els intervals no se sobreposen entre ells.</translation>
+        <translation>%1 no segueix la sintaxi correcta. Useu «,» per a separar intervals i pàgines, «-» per a definir intervals, i assegureu-vos que els intervals no se sobreposen entre ells.</translation>
+    </message>
+    <message>
+        <source>Duplex Settings Conflicts</source>
+        <translation>Conflictes a la configuració d&apos;impressió a doble cara</translation>
+    </message>
+    <message>
+        <source>There are conflicts in duplex settings. Do you want to fix them?</source>
+        <translation>Hi ha conflictes a la configuració d&apos;impressió a doble cara. Els voleu corregir?</translation>
     </message>
     <message>
         <source>Print to File (PDF)</source>
-        <translation>Imprimeix a fitxer (PDF)</translation>
+        <translation>Imprimeix a un fitxer (PDF)</translation>
     </message>
     <message>
         <source>Local file</source>
@@ -3644,11 +4268,11 @@ applications where you wish to use such applications in combination with softwar
     </message>
     <message>
         <source>Write PDF file</source>
-        <translation>Escriu a fitxer PDF</translation>
+        <translation>Escriu a un fitxer PDF</translation>
     </message>
     <message>
         <source>Print To File ...</source>
-        <translation>Imprimeix a fitxer...</translation>
+        <translation>Imprimeix a un fitxer...</translation>
     </message>
     <message>
         <source>%1 is a directory.
@@ -3659,7 +4283,7 @@ Si us plau, seleccioneu un nom de fitxer diferent.</translation>
     <message>
         <source>File %1 is not writable.
 Please choose a different file name.</source>
-        <translation>No es pot escriure en el fitxer %1.
+        <translation>No es pot escriure al fitxer %1.
 Si us plau, seleccioneu un nom de fitxer diferent.</translation>
     </message>
     <message>
@@ -3680,11 +4304,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>D&apos;acord</translation>
+        <translation type="vanished">D&apos;acord</translation>
     </message>
     <message>
         <source>Automatic</source>
-        <translation>Automàtic</translation>
+        <translation type="vanished">Automàtic</translation>
     </message>
 </context>
 <context>
@@ -3775,6 +4399,14 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Job Options</source>
         <translation>Opcions del treball</translation>
+    </message>
+    <message>
+        <source>Page Setup Conflicts</source>
+        <translation>Conflictes de configuració de pàgina</translation>
+    </message>
+    <message>
+        <source>There are conflicts in page setup options. Do you want to fix them?</source>
+        <translation>Hi ha conflictes a les opcions de configuració de pàgina. Els voleu solucionar?</translation>
     </message>
     <message>
         <source>Advanced Option Conflicts</source>
@@ -3876,19 +4508,19 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Duplex Printing</source>
-        <translation>Impressió doble</translation>
+        <translation type="vanished">Impressió doble</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Cap</translation>
+        <translation type="vanished">Cap</translation>
     </message>
     <message>
         <source>Long side</source>
-        <translation>Vora llarga</translation>
+        <translation type="vanished">Vora llarga</translation>
     </message>
     <message>
         <source>Short side</source>
-        <translation>Vora curta</translation>
+        <translation type="vanished">Vora curta</translation>
     </message>
     <message>
         <source>Pages</source>
@@ -3897,6 +4529,22 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>Specify pages or ranges separated by commas. Ranges are specified by two numbers separated by a hyphen. E.g: 3,5-7,9 prints pages 3, 5, 6, 7 and 9.</source>
         <translation>Especifiqueu les pàgines o intervals separats per comes. Els intervals s&apos;especifiquen amb dos nombres separats per un guió. P. ex: 3,5-7,9 imprimeix les pàgines 3, 5, 6, 7 i 9.</translation>
+    </message>
+    <message>
+        <source>Double Sided Printing</source>
+        <translation>Impressió a doble cara</translation>
+    </message>
+    <message>
+        <source>Off</source>
+        <translation>Inactiva</translation>
+    </message>
+    <message>
+        <source>Long side binding</source>
+        <translation>Enquadernació per la vora llarga</translation>
+    </message>
+    <message>
+        <source>Short side binding</source>
+        <translation>Enquadernació per la vora curta</translation>
     </message>
 </context>
 <context>
@@ -3969,6 +4617,22 @@ Desactiveu una de les dues opcions.</translation>
         <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per lectura</translation>
     </message>
     <message>
+        <source>Child process modifier threw an exception: %1</source>
+        <translation>El modificador del procés fill ha generat una excepció: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1</source>
+        <translation>El modificador del procés fill ha informat un error: %1</translation>
+    </message>
+    <message>
+        <source>Child process modifier reported error: %1: %2</source>
+        <translation>El modificador del procés fill ha informat un error: %1: %2</translation>
+    </message>
+    <message>
+        <source>Child process set up failed: %1: %2</source>
+        <translation>Ha fallat la configuració del procés fill: %1: %2</translation>
+    </message>
+    <message>
         <source>Could not open output redirection for writing</source>
         <translation>No s&apos;ha pogut obrir la redirecció d&apos;entrada per escriptura</translation>
     </message>
@@ -4018,51 +4682,51 @@ Desactiveu una de les dues opcions.</translation>
     <name>QRegExp</name>
     <message>
         <source>no error occurred</source>
-        <translation>sense errors</translation>
+        <translation type="vanished">sense errors</translation>
     </message>
     <message>
         <source>disabled feature used</source>
-        <translation>s&apos;ha usat una funcionalitat desactivada</translation>
+        <translation type="vanished">s&apos;ha usat una funcionalitat desactivada</translation>
     </message>
     <message>
         <source>bad char class syntax</source>
-        <translation>caràcter incorrecte de sintaxi de classe</translation>
+        <translation type="vanished">caràcter incorrecte de sintaxi de classe</translation>
     </message>
     <message>
         <source>bad lookahead syntax</source>
-        <translation>sintaxi incorrecta de preplanificació</translation>
+        <translation type="vanished">sintaxi incorrecta de preplanificació</translation>
     </message>
     <message>
         <source>lookbehinds not supported, see QTBUG-2371</source>
-        <translation>«lookbehinds» no està implementat, veieu QTBUG-2371</translation>
+        <translation type="vanished">«lookbehinds» no està implementat, veieu QTBUG-2371</translation>
     </message>
     <message>
         <source>bad repetition syntax</source>
-        <translation>sintaxi de repetició incorrecta</translation>
+        <translation type="vanished">sintaxi de repetició incorrecta</translation>
     </message>
     <message>
         <source>invalid octal value</source>
-        <translation>valor octal no vàlid</translation>
+        <translation type="vanished">valor octal no vàlid</translation>
     </message>
     <message>
         <source>missing left delim</source>
-        <translation>manca el delimitador esquerre</translation>
+        <translation type="vanished">manca el delimitador esquerre</translation>
     </message>
     <message>
         <source>unexpected end</source>
-        <translation>final inesperat</translation>
+        <translation type="vanished">final inesperat</translation>
     </message>
     <message>
         <source>met internal limit</source>
-        <translation>s&apos;ha trobat un límit intern</translation>
+        <translation type="vanished">s&apos;ha trobat un límit intern</translation>
     </message>
     <message>
         <source>invalid interval</source>
-        <translation>interval no vàlid</translation>
+        <translation type="vanished">interval no vàlid</translation>
     </message>
     <message>
         <source>invalid category</source>
-        <translation>categoria no vàlida</translation>
+        <translation type="vanished">categoria no vàlida</translation>
     </message>
 </context>
 <context>
@@ -4085,23 +4749,23 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>numbers out of order in {} quantifier</source>
-        <translation>nombres fora de l&apos;interval en el quantificador {}</translation>
+        <translation>nombres fora de l&apos;interval al quantificador {}</translation>
     </message>
     <message>
         <source>number too big in {} quantifier</source>
-        <translation>nombre massa gran en el quantificador {}</translation>
+        <translation>nombre massa gran al quantificador {}</translation>
     </message>
     <message>
         <source>missing terminating ] for character class</source>
-        <translation>manca la terminació ] en la classe caràcter</translation>
+        <translation>manca la terminació ] a la classe caràcter</translation>
     </message>
     <message>
         <source>invalid escape sequence in character class</source>
-        <translation>seqüència d&apos;escapada no vàlida en la classe caràcter</translation>
+        <translation type="vanished">seqüència d&apos;escapada no vàlida en la classe caràcter</translation>
     </message>
     <message>
         <source>range out of order in character class</source>
-        <translation>fora d&apos;interval en la classe caràcter</translation>
+        <translation>fora d&apos;interval a la classe caràcter</translation>
     </message>
     <message>
         <source>nothing to repeat</source>
@@ -4165,11 +4829,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>malformed number or name after (?(</source>
-        <translation>nombre o nom amb format incorrecte després de (?(</translation>
+        <translation type="vanished">nombre o nom amb format incorrecte després de (?(</translation>
     </message>
     <message>
         <source>conditional group contains more than two branches</source>
-        <translation>un grup condicional conté més de dues branques</translation>
+        <translation type="vanished">un grup condicional conté més de dues branques</translation>
     </message>
     <message>
         <source>assertion expected after (?(</source>
@@ -4177,7 +4841,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>(?R or (?[+-]digits must be followed by )</source>
-        <translation>(?R o (?[+-]digits ha d&apos;anar seguit per )</translation>
+        <translation type="vanished">(?R o (?[+-]digits ha d&apos;anar seguit per )</translation>
     </message>
     <message>
         <source>unknown POSIX class name</source>
@@ -4197,7 +4861,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>invalid condition (?(0)</source>
-        <translation>condició no vàlida (?(0)</translation>
+        <translation type="vanished">condició no vàlida (?(0)</translation>
     </message>
     <message>
         <source>\C not allowed in lookbehind assertion</source>
@@ -4205,7 +4869,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>PCRE does not support \L, \l, \N{name}, \U, or \u</source>
-        <translation>PCRE no accepta \L, \l, \N{nom}, \U, ni \u</translation>
+        <translation type="vanished">PCRE no accepta \L, \l, \N{nom}, \U, ni \u</translation>
     </message>
     <message>
         <source>number after (?C is &gt; 255</source>
@@ -4225,7 +4889,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>syntax error in subpattern name (missing terminator)</source>
-        <translation>error de sintaxi en nom de subpatró (manca terminació)</translation>
+        <translation type="vanished">error de sintaxi en nom de subpatró (manca terminació)</translation>
     </message>
     <message>
         <source>two named subpatterns have the same name</source>
@@ -4253,7 +4917,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 10000)</source>
-        <translation type="vanished">hi ha massa subpatrons amb nom (màxim 10000)</translation>
+        <translation>hi ha massa subpatrons amb nom (màxim 10000)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 (not in UTF-8 mode)</source>
@@ -4269,7 +4933,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>DEFINE group contains more than one branch</source>
-        <translation>el grup DEFINE conté més d&apos;una branca</translation>
+        <translation type="vanished">el grup DEFINE conté més d&apos;una branca</translation>
     </message>
     <message>
         <source>repeating a DEFINE group is not allowed</source>
@@ -4277,19 +4941,19 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>inconsistent NEWLINE options</source>
-        <translation type="vanished">opcions «NEWLINE» inconsistents</translation>
+        <translation type="vanished">opcions «NEWLINE» incoherents</translation>
     </message>
     <message>
         <source>\g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number</source>
-        <translation>\g no és seguit per un nom/nombre entre claus, claudàtors o cometes o per un nombre normal</translation>
+        <translation>\g no és seguit per un nom/nombre entre claus, claus angulars o cometes o per un nombre normal</translation>
     </message>
     <message>
         <source>a numbered reference must not be zero</source>
-        <translation>una referència amb número no pot ser zero</translation>
+        <translation type="vanished">una referència amb número no pot ser zero</translation>
     </message>
     <message>
         <source>an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)</source>
-        <translation>no es permet cap argument per (*ACCEPT), (*FAIL), o (*COMMIT)</translation>
+        <translation type="vanished">no es permet cap argument per (*ACCEPT), (*FAIL), o (*COMMIT)</translation>
     </message>
     <message>
         <source>(*VERB) not recognized</source>
@@ -4297,7 +4961,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>number is too big</source>
-        <translation>nombre massa gran</translation>
+        <translation type="vanished">nombre massa gran</translation>
     </message>
     <message>
         <source>subpattern name expected</source>
@@ -4305,7 +4969,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>digit expected after (?+</source>
-        <translation>s&apos;esperava un dígit després de (?+</translation>
+        <translation type="vanished">s&apos;esperava un dígit després de (?+</translation>
     </message>
     <message>
         <source>] is an invalid data character in JavaScript compatibility mode</source>
@@ -4329,11 +4993,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>\k is not followed by a braced, angle-bracketed, or quoted name</source>
-        <translation>\k no és seguit per un nom entre claus, claudàtors o cometes</translation>
+        <translation>\k no és seguit per un nom entre claus, claus angulars o cometes</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in find_fixedlength()</source>
-        <translation>error intern: «opcode» desconegut en «find_fixedlength()»</translation>
+        <translation type="vanished">error intern: «opcode» desconegut en «find_fixedlength()»</translation>
     </message>
     <message>
         <source>\N is not supported in a class</source>
@@ -4376,6 +5040,54 @@ Desactiveu una de les dues opcions.</translation>
         <translation>caràcter no octal en \o{} (manca la clau de tancament?)</translation>
     </message>
     <message>
+        <source>escape sequence is invalid in character class</source>
+        <translation>la seqüència d&apos;escapada no és vàlida a la classe caràcter</translation>
+    </message>
+    <message>
+        <source>missing closing parenthesis for condition</source>
+        <translation>manca el parèntesi de tancament a la condició</translation>
+    </message>
+    <message>
+        <source>a relative value of zero is not allowed</source>
+        <translation>no es permet un valor relatiu de zero</translation>
+    </message>
+    <message>
+        <source>conditional subpattern contains more than two branches</source>
+        <translation>el subpatró condicional conté més de dues branques</translation>
+    </message>
+    <message>
+        <source>digit expected after (?+ or (?-</source>
+        <translation>s&apos;esperava un dígit després de (?+ o (?-</translation>
+    </message>
+    <message>
+        <source>lookbehind is too complicated</source>
+        <translation>el «lookbehind» és massa complicat</translation>
+    </message>
+    <message>
+        <source>\C is not allowed in a lookbehind assertion in UTF-16 mode</source>
+        <translation>no es permet \C en una asserció «lookbehind» en mode UTF-16</translation>
+    </message>
+    <message>
+        <source>PCRE2 does not support \F, \L, \l, \N{name}, \U, or \u</source>
+        <translation>PCRE2 no admet \F, \L, \l, \N{nom}, \U, or \u</translation>
+    </message>
+    <message>
+        <source>syntax error in subpattern name (missing terminator?)</source>
+        <translation>error de sintaxi al nom de subpatró (manca un terminador?)</translation>
+    </message>
+    <message>
+        <source>subpattern name must start with a non-digit</source>
+        <translation>el nom del subpatró ha de començar per un no dígit</translation>
+    </message>
+    <message>
+        <source>subpattern name is too long (maximum 32 code units)</source>
+        <translation>el nom de subpatró és massa llarg (màxim 32 unitats de codi)</translation>
+    </message>
+    <message>
+        <source>DEFINE subpattern contains more than one branch</source>
+        <translation>el subpatró DEFINE conté més d&apos;una branca</translation>
+    </message>
+    <message>
         <source>missing opening brace after \o</source>
         <translation>manca una clau d&apos;obertura després de \o</translation>
     </message>
@@ -4385,11 +5097,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>invalid range in character class</source>
-        <translation>interval no vàlid en la classe caràcter</translation>
+        <translation>interval no vàlid a la classe caràcter</translation>
     </message>
     <message>
         <source>group name must start with a non-digit</source>
-        <translation>el nom del grup ha de començar sense un dígit</translation>
+        <translation type="vanished">el nom del grup ha de començar sense un dígit</translation>
     </message>
     <message>
         <source>quantifier does not follow a repeatable item</source>
@@ -4421,7 +5133,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>letter or underscore expected after (?&lt; or (?&apos;</source>
-        <translation>s&apos;espera una lletra o un subratllat després de (?&lt; o (?&apos;</translation>
+        <translation type="vanished">s&apos;espera una lletra o un subratllat després de (?&lt; o (?&apos;</translation>
     </message>
     <message>
         <source>assertion expected after (?( or (?(?C)</source>
@@ -4445,7 +5157,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>\C is not allowed in a lookbehind assertion</source>
-        <translation>\C no es permet en una asserció «lookbehind»</translation>
+        <translation type="vanished">\C no es permet en una asserció «lookbehind»</translation>
     </message>
     <message>
         <source>number after (?C is greater than 255</source>
@@ -4469,11 +5181,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>subpattern name is too long (maximum 10000 characters)</source>
-        <translation>el nom de subpatró és massa llarg (màxim 10000 caràcters)</translation>
+        <translation type="vanished">el nom de subpatró és massa llarg (màxim 10000 caràcters)</translation>
     </message>
     <message>
         <source>too many named subpatterns (maximum 256)</source>
-        <translation>hi ha massa subpatrons amb nom (màxim 256)</translation>
+        <translation type="vanished">hi ha massa subpatrons amb nom (màxim 256)</translation>
     </message>
     <message>
         <source>octal value is greater than \377 in 8-bit non-UTF-8 mode</source>
@@ -4484,8 +5196,24 @@ Desactiveu una de les dues opcions.</translation>
         <translation>error intern: paràmetre desconegut de línia nova</translation>
     </message>
     <message>
+        <source>(?R (recursive pattern call) must be followed by a closing parenthesis</source>
+        <translation>(?R (crida recursiva de patró) cal que estigui seguida per un parèntesi de tancament</translation>
+    </message>
+    <message>
+        <source>obsolete error (should not occur)</source>
+        <translation>error obsolet (no hauria d&apos;ocórrer)</translation>
+    </message>
+    <message>
         <source>(*VERB) not recognized or malformed</source>
         <translation>(*VERB) no es reconeix o amb format incorrecte</translation>
+    </message>
+    <message>
+        <source>subpattern number is too big</source>
+        <translation>el nombre de subpatrons és massa gran</translation>
+    </message>
+    <message>
+        <source>internal error: parsed pattern overflow</source>
+        <translation>error intern: desbordament de patró analitzat</translation>
     </message>
     <message>
         <source>\c must be followed by a printable ASCII character</source>
@@ -4497,7 +5225,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>SPARE ERROR</source>
-        <translation>ERROR DE RESERVA</translation>
+        <translation type="vanished">ERROR DE RESERVA</translation>
     </message>
     <message>
         <source>using UTF is disabled by the application</source>
@@ -4513,11 +5241,27 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>digits missing in \x{} or \o{}</source>
-        <translation>manquen els dígits a\x{} o \o{}</translation>
+        <translation type="vanished">manquen els dígits a\x{} o \o{}</translation>
     </message>
     <message>
         <source>syntax error in (?(VERSION condition</source>
-        <translation>error de sintaxi a la condició (?(VERSION</translation>
+        <translation type="vanished">error de sintaxi a la condició (?(VERSION</translation>
+    </message>
+    <message>
+        <source>internal error: unknown meta code in check_lookbehinds()</source>
+        <translation>error intern: codi «meta» desconegut a «check_lookbehinds()»</translation>
+    </message>
+    <message>
+        <source>callout string is too long</source>
+        <translation>la cadena de crida és massa gran</translation>
+    </message>
+    <message>
+        <source>digits missing in \x{} or \o{} or \N{U+}</source>
+        <translation>manquen dígits a \x{} o \o{} o \N{U+}</translation>
+    </message>
+    <message>
+        <source>syntax error or number too big in (?(VERSION condition</source>
+        <translation>error de sintaxi o un nombre massa gran a la condició (?(VERSION</translation>
     </message>
     <message>
         <source>internal error: unknown opcode in auto_possessify()</source>
@@ -4525,7 +5269,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>missing terminating delimiter for callout with string argument</source>
-        <translation>Manca el delimitador de terminació de crida amb un argument de cadena</translation>
+        <translation>manca el delimitador de terminació de crida amb un argument de cadena</translation>
     </message>
     <message>
         <source>unrecognized string delimiter follows (?C</source>
@@ -4554,6 +5298,46 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>pattern string is longer than the limit set by the application</source>
         <translation>la cadena del patró és més gran que el límit definit per l&apos;aplicació</translation>
+    </message>
+    <message>
+        <source>internal error: unknown code in parsed pattern</source>
+        <translation>error intern: codi desconegut a un patró analitzat</translation>
+    </message>
+    <message>
+        <source>internal error: bad code value in parsed_skip()</source>
+        <translation>error intern: valor incorrecte de codi a «parsed_skip()»</translation>
+    </message>
+    <message>
+        <source>PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES is not allowed in UTF-16 mode</source>
+        <translation>no es permet PCRE2_EXTRA_ALLOW_SURROGATE_ESCAPES en el mode UTF-16</translation>
+    </message>
+    <message>
+        <source>invalid option bits with PCRE2_LITERAL</source>
+        <translation>bits no vàlids d&apos;opció amb PCRE2_LITERAL</translation>
+    </message>
+    <message>
+        <source>\N{U+dddd} is supported only in Unicode (UTF) mode</source>
+        <translation>\N{U+dddd} només s&apos;admet en el mode Unicode (UTF)</translation>
+    </message>
+    <message>
+        <source>invalid hyphen in option setting</source>
+        <translation>guió no vàlid a la definició d&apos;opció</translation>
+    </message>
+    <message>
+        <source>(*alpha_assertion) not recognized</source>
+        <translation>(*alpha_assertion) no es reconeix</translation>
+    </message>
+    <message>
+        <source>script runs require Unicode support, which this version of PCRE2 does not have</source>
+        <translation>l&apos;execució de l&apos;script requereix admetre l&apos;Unicode, que aquesta versió del PCRE2 no ho fa</translation>
+    </message>
+    <message>
+        <source>too many capturing groups (maximum 65535)</source>
+        <translation>massa grups de captura (màxim 65535)</translation>
+    </message>
+    <message>
+        <source>atomic assertion expected after (?( or (?(?C)</source>
+        <translation>s&apos;esperava una asserció atòmica després de (?( o (?(?C)</translation>
     </message>
     <message>
         <source>no match</source>
@@ -4764,8 +5548,36 @@ Desactiveu una de les dues opcions.</translation>
         <translation>recursivitat imbricada a la mateixa posició del subjecte</translation>
     </message>
     <message>
+        <source>matching depth limit exceeded</source>
+        <translation>s&apos;ha excedit el límit de profunditat de coincidències</translation>
+    </message>
+    <message>
+        <source>match with end before start or start moved backwards is not supported</source>
+        <translation>no s&apos;admet la coincidència amb el final abans de l&apos;inici o moure l&apos;inici cap enrere</translation>
+    </message>
+    <message>
+        <source>bad serialized data</source>
+        <translation>dades serialitzades incorrectes</translation>
+    </message>
+    <message>
+        <source>heap limit exceeded</source>
+        <translation>s&apos;ha excedit el límit de la memòria en monticles</translation>
+    </message>
+    <message>
+        <source>invalid syntax</source>
+        <translation>sintaxi no vàlida</translation>
+    </message>
+    <message>
+        <source>internal error - duplicate substitution match</source>
+        <translation>error intern - coincidència de substitució duplicada</translation>
+    </message>
+    <message>
+        <source>PCRE2_MATCH_INVALID_UTF is not supported for DFA matching</source>
+        <translation>no s&apos;admet PCRE2_MATCH_INVALID_UTF per a la coincidència DFA</translation>
+    </message>
+    <message>
         <source>recursion limit exceeded</source>
-        <translation>s&apos;ha excedit el límit de recursions</translation>
+        <translation type="vanished">s&apos;ha excedit el límit de recursions</translation>
     </message>
     <message>
         <source>requested value is not available</source>
@@ -4781,7 +5593,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>bad escape sequence in replacement string</source>
-        <translation>seqüència d&apos;escapada incorrecta en la cadena de reemplaçament</translation>
+        <translation>seqüència d&apos;escapada incorrecta a la cadena de reemplaçament</translation>
     </message>
     <message>
         <source>expected closing curly bracket in replacement string</source>
@@ -4789,11 +5601,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>bad substitution in replacement string</source>
-        <translation>substitució incorrecta en la cadena de reemplaçament</translation>
+        <translation>substitució incorrecta a la cadena de reemplaçament</translation>
     </message>
     <message>
         <source>match with end before start is not supported</source>
-        <translation>no s&apos;admet la coincidència amb el final abans de l&apos;inici</translation>
+        <translation type="vanished">no s&apos;admet la coincidència amb el final abans de l&apos;inici</translation>
     </message>
     <message>
         <source>too many replacements (more than INT_MAX)</source>
@@ -4804,30 +5616,30 @@ Desactiveu una de les dues opcions.</translation>
     <name>QSQLite2Driver</name>
     <message>
         <source>Error opening database</source>
-        <translation>Error en obrir la base de dades</translation>
+        <translation type="vanished">Error en obrir la base de dades</translation>
     </message>
     <message>
         <source>Unable to begin transaction</source>
-        <translation>La transacció no ha pogut començar</translation>
+        <translation type="vanished">La transacció no ha pogut començar</translation>
     </message>
     <message>
         <source>Unable to commit transaction</source>
-        <translation>No s&apos;ha pogut confirmar la transacció</translation>
+        <translation type="vanished">No s&apos;ha pogut confirmar la transacció</translation>
     </message>
     <message>
         <source>Unable to rollback transaction</source>
-        <translation>No s&apos;ha pogut desfer la transacció</translation>
+        <translation type="vanished">No s&apos;ha pogut desfer la transacció</translation>
     </message>
 </context>
 <context>
     <name>QSQLite2Result</name>
     <message>
         <source>Unable to fetch results</source>
-        <translation>No s&apos;han pogut recuperar resultats</translation>
+        <translation type="vanished">No s&apos;han pogut recuperar resultats</translation>
     </message>
     <message>
         <source>Unable to execute statement</source>
-        <translation>No s&apos;ha pogut executar la sentència</translation>
+        <translation type="vanished">No s&apos;ha pogut executar la sentència</translation>
     </message>
 </context>
 <context>
@@ -4895,8 +5707,12 @@ Desactiveu una de les dues opcions.</translation>
         <translation>El nom del fitxer es refereix a un directori</translation>
     </message>
     <message>
+        <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled.</source>
+        <translation>QSaveFile no pot obrir «%1» sense una reserva d&apos;escriptura directa activada.</translation>
+    </message>
+    <message>
         <source>QSaveFile cannot open &apos;%1&apos; without direct write fallback enabled: path contains an Alternate Data Stream specifier</source>
-        <translation>QSaveFile no pot obrir «%1» sense una reserva d&apos;escriptura activada: el camí conté un especificador de flux de dades alternatiu</translation>
+        <translation type="vanished">QSaveFile no pot obrir «%1» sense una reserva d&apos;escriptura activada: el camí conté un especificador de flux de dades alternatiu</translation>
     </message>
     <message>
         <source>Writing canceled by application</source>
@@ -4915,7 +5731,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation>Dalt</translation>
+        <translation>Part superior</translation>
     </message>
     <message>
         <source>Right edge</source>
@@ -4923,7 +5739,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation>Baix</translation>
+        <translation>Part inferior</translation>
     </message>
     <message>
         <source>Page left</source>
@@ -4969,7 +5785,15 @@ Desactiveu una de les dues opcions.</translation>
     <name>QSharedMemory</name>
     <message>
         <source>%1: unable to set key on lock</source>
-        <translation>%1: no s&apos;ha pogut establir la clau del bloqueig</translation>
+        <translation type="vanished">%1: no s&apos;ha pogut establir la clau del bloqueig</translation>
+    </message>
+    <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: tipus de clau no admès</translation>
+    </message>
+    <message>
+        <source>%1: unable to set key on lock (%2)</source>
+        <translation>%1: no s&apos;ha pogut establir la clau del bloqueig (%2)</translation>
     </message>
     <message>
         <source>%1: create size is less then 0</source>
@@ -5000,8 +5824,12 @@ Desactiveu una de les dues opcions.</translation>
         <translation>%1: sense recursos</translation>
     </message>
     <message>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: error desconegut: %2</translation>
+    </message>
+    <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: error desconegut %2</translation>
+        <translation type="vanished">%1: error desconegut %2</translation>
     </message>
     <message>
         <source>%1: key is empty</source>
@@ -5013,11 +5841,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>%1: UNIX key file doesn&apos;t exist</source>
-        <translation>%1: no existeix el fitxer de claus de l&apos;UNIX</translation>
+        <translation type="vanished">%1: no existeix el fitxer de claus de l&apos;UNIX</translation>
     </message>
     <message>
         <source>%1: ftok failed</source>
-        <translation>%1: ha fallat el «ftok»</translation>
+        <translation type="vanished">%1: ha fallat el «ftok»</translation>
     </message>
     <message>
         <source>%1: unable to make key</source>
@@ -5181,19 +6009,19 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Bass Up</source>
-        <translation>Puja els greus</translation>
+        <translation>Apuja els greus</translation>
     </message>
     <message>
         <source>Bass Down</source>
-        <translation>Baixa els greus</translation>
+        <translation>Abaixa els greus</translation>
     </message>
     <message>
         <source>Treble Up</source>
-        <translation>Puja els aguts</translation>
+        <translation>Apuja els aguts</translation>
     </message>
     <message>
         <source>Treble Down</source>
-        <translation>Baixa els aguts</translation>
+        <translation>Abaixa els aguts</translation>
     </message>
     <message>
         <source>Media Play</source>
@@ -5247,83 +6075,83 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Launch Mail</source>
-        <translation>Engega el correu</translation>
+        <translation>Inicia el correu</translation>
     </message>
     <message>
         <source>Launch Media</source>
-        <translation>Engega el reproductor</translation>
+        <translation>Inicia el reproductor</translation>
     </message>
     <message>
         <source>Launch (0)</source>
-        <translation>Engega (0)</translation>
+        <translation>Inicia (0)</translation>
     </message>
     <message>
         <source>Launch (1)</source>
-        <translation>Engega (1)</translation>
+        <translation>Inicia (1)</translation>
     </message>
     <message>
         <source>Launch (2)</source>
-        <translation>Engega (2)</translation>
+        <translation>Inicia (2)</translation>
     </message>
     <message>
         <source>Launch (3)</source>
-        <translation>Engega (3)</translation>
+        <translation>Inicia (3)</translation>
     </message>
     <message>
         <source>Launch (4)</source>
-        <translation>Engega (4)</translation>
+        <translation>Inicia (4)</translation>
     </message>
     <message>
         <source>Launch (5)</source>
-        <translation>Engega (5)</translation>
+        <translation>Inicia (5)</translation>
     </message>
     <message>
         <source>Launch (6)</source>
-        <translation>Engega (6)</translation>
+        <translation>Inicia (6)</translation>
     </message>
     <message>
         <source>Launch (7)</source>
-        <translation>Engega (7)</translation>
+        <translation>Inicia (7)</translation>
     </message>
     <message>
         <source>Launch (8)</source>
-        <translation>Engega (8)</translation>
+        <translation>Inicia (8)</translation>
     </message>
     <message>
         <source>Launch (9)</source>
-        <translation>Engega (9)</translation>
+        <translation>Inicia (9)</translation>
     </message>
     <message>
         <source>Launch (A)</source>
-        <translation>Engega (A)</translation>
+        <translation>Inicia (A)</translation>
     </message>
     <message>
         <source>Launch (B)</source>
-        <translation>Engega (B)</translation>
+        <translation>Inicia (B)</translation>
     </message>
     <message>
         <source>Launch (C)</source>
-        <translation>Engega (C)</translation>
+        <translation>Inicia (C)</translation>
     </message>
     <message>
         <source>Launch (D)</source>
-        <translation>Engega (D)</translation>
+        <translation>Inicia (D)</translation>
     </message>
     <message>
         <source>Launch (E)</source>
-        <translation>Engega (E)</translation>
+        <translation>Inicia (E)</translation>
     </message>
     <message>
         <source>Launch (F)</source>
-        <translation>Engega (F)</translation>
+        <translation>Inicia (F)</translation>
     </message>
     <message>
         <source>Monitor Brightness Up</source>
-        <translation>Augmenta la brillantor del monitor</translation>
+        <translation>Augmenta la lluminositat del monitor</translation>
     </message>
     <message>
         <source>Monitor Brightness Down</source>
-        <translation>Redueix la brillantor del monitor</translation>
+        <translation>Redueix la lluminositat del monitor</translation>
     </message>
     <message>
         <source>Keyboard Light On/Off</source>
@@ -5331,11 +6159,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Keyboard Brightness Up</source>
-        <translation>Augmenta la brillantor del teclat</translation>
+        <translation>Augmenta la lluminositat del teclat</translation>
     </message>
     <message>
         <source>Keyboard Brightness Down</source>
-        <translation>Redueix la brillantor del teclat</translation>
+        <translation>Redueix la lluminositat del teclat</translation>
     </message>
     <message>
         <source>Power Off</source>
@@ -5379,11 +6207,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Hot Links</source>
-        <translation>Enllaços roents</translation>
+        <translation>Enllaços candents</translation>
     </message>
     <message>
         <source>Adjust Brightness</source>
-        <translation>Ajusta la brillantor</translation>
+        <translation>Ajusta la lluminositat</translation>
     </message>
     <message>
         <source>Finance</source>
@@ -5467,7 +6295,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Go</source>
-        <translation>Vés</translation>
+        <translation>Ves</translation>
     </message>
     <message>
         <source>iTouch</source>
@@ -5519,7 +6347,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Reply</source>
-        <translation>Respondre</translation>
+        <translation>Respon</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -5607,7 +6435,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Mail Forward</source>
-        <translation>Reenvia</translation>
+        <translation>Reenvia el correu</translation>
     </message>
     <message>
         <source>Pictures</source>
@@ -5631,7 +6459,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Ultra Wide Band</source>
-        <translation>Banda ultra ampla</translation>
+        <translation>Banda ultraampla</translation>
     </message>
     <message>
         <source>Audio Forward</source>
@@ -5639,11 +6467,11 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>Audio Repeat</source>
-        <translation>Repeteix àudio</translation>
+        <translation>Repetició de l&apos;àudio</translation>
     </message>
     <message>
         <source>Audio Random Play</source>
-        <translation>Reproducció aleatòria àudio</translation>
+        <translation>Reproducció aleatòria de l&apos;àudio</translation>
     </message>
     <message>
         <source>Subtitle</source>
@@ -5678,12 +6506,36 @@ Desactiveu una de les dues opcions.</translation>
         <translation>Hiberna</translation>
     </message>
     <message>
+        <source>Launch (G)</source>
+        <translation>Inicia (G)</translation>
+    </message>
+    <message>
+        <source>Launch (H)</source>
+        <translation>Inicia (H)</translation>
+    </message>
+    <message>
         <source>Media Rewind</source>
-        <translation>Rebobina el suport</translation>
+        <translation>Rebobina el fitxer multimèdia</translation>
+    </message>
+    <message>
+        <source>Calendar</source>
+        <translation>Calendari</translation>
+    </message>
+    <message>
+        <source>Adjust contrast</source>
+        <translation>Ajusta el contrast</translation>
+    </message>
+    <message>
+        <source>Memo</source>
+        <translation>Anotació</translation>
+    </message>
+    <message>
+        <source>To-do list</source>
+        <translation>Llista de tasques pendents</translation>
     </message>
     <message>
         <source>Media Fast Forward</source>
-        <translation>Avança ràpidament el suport</translation>
+        <translation>Avança ràpidament el fitxer multimèdia</translation>
     </message>
     <message>
         <source>Power Down</source>
@@ -6021,6 +6873,10 @@ Desactiveu una de les dues opcions.</translation>
         <translation>Ratolí tàctil inactiu</translation>
     </message>
     <message>
+        <source>Control</source>
+        <translation>Control</translation>
+    </message>
+    <message>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
@@ -6042,6 +6898,7 @@ Desactiveu una de les dues opcions.</translation>
     </message>
     <message>
         <source>+</source>
+        <extracomment>Key separator in shortcut string</extracomment>
         <translation>+</translation>
     </message>
     <message>
@@ -6123,7 +6980,7 @@ Desactiveu una de les dues opcions.</translation>
     <message>
         <source>menu bar</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>barra de menú</translation>
+        <translation>barra de menús</translation>
     </message>
     <message>
         <source>scroll bar</source>
@@ -6325,7 +7182,7 @@ Role of an accessible object</extracomment>
     <message>
         <source>push button</source>
         <extracomment>Role of an accessible object</extracomment>
-        <translation>botó per prémer</translation>
+        <translation>botó per a prémer</translation>
     </message>
     <message>
         <source>check box</source>
@@ -6468,6 +7325,21 @@ Role of an accessible object</extracomment>
         <translation>contingut complementari</translation>
     </message>
     <message>
+        <source>terminal</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>terminal</translation>
+    </message>
+    <message>
+        <source>desktop</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>escriptori</translation>
+    </message>
+    <message>
+        <source>notification</source>
+        <extracomment>Role of an accessible object</extracomment>
+        <translation>notificació</translation>
+    </message>
+    <message>
         <source>unknown</source>
         <extracomment>Role of an accessible object</extracomment>
         <translation>desconegut</translation>
@@ -6516,7 +7388,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Cannot provide a certificate with no key, %1</source>
-        <translation>No es pot subministrar un certificat sense una clau, %1</translation>
+        <translation type="vanished">No es pot subministrar un certificat sense una clau, %1</translation>
     </message>
     <message>
         <source>Error loading local certificate, %1</source>
@@ -6536,7 +7408,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>OpenSSL version with disabled elliptic curves</source>
-        <translation>Vesió de l&apos;OpenSSL amb les corbes el·líptiques desactivades</translation>
+        <translation>Versió de l&apos;OpenSSL amb les corbes el·líptiques desactivades</translation>
     </message>
     <message>
         <source>Error when setting the OpenSSL configuration (%1)</source>
@@ -6568,7 +7440,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>OpenSSL version too old, need at least v1.0.2</source>
-        <translation>La versió de l&apos;OpenSSL és massa antiga, cal com a mínim la v1.0.2</translation>
+        <translation type="vanished">La versió de l&apos;OpenSSL és massa antiga, cal com a mínim la v1.0.2</translation>
     </message>
     <message>
         <source>No error</source>
@@ -6663,6 +7535,50 @@ Role of an accessible object</extracomment>
         <translation>El certificat del parell és a la llista negra</translation>
     </message>
     <message>
+        <source>No OCSP status response found</source>
+        <translation>No s&apos;ha trobat cap resposta de l&apos;estat OCSP</translation>
+    </message>
+    <message>
+        <source>The OCSP status request had invalid syntax</source>
+        <translation>La sol·licitud de l&apos;estat OCSP tenia una sintaxi no vàlida</translation>
+    </message>
+    <message>
+        <source>OCSP response contains an unexpected number of SingleResponse structures</source>
+        <translation>La resposta OCSP conté un nombre inesperat d&apos;estructures «SingleResponse»</translation>
+    </message>
+    <message>
+        <source>OCSP responder reached an inconsistent internal state</source>
+        <translation>El contestador OCSP ha arribat a un estat intern incoherent</translation>
+    </message>
+    <message>
+        <source>OCSP responder was unable to return a status for the requested certificate</source>
+        <translation>El contestador OCSP no ha pogut retornar un estat per al certificat sol·licitat</translation>
+    </message>
+    <message>
+        <source>The server requires the client to sign the OCSP request in order to construct a response</source>
+        <translation>El servidor requereix que el client signi la sol·licitud OCSP per tal de construir una resposta</translation>
+    </message>
+    <message>
+        <source>The client is not authorized to request OCSP status from this server</source>
+        <translation>El client no està autoritzat a sol·licitar un estat OCSP d&apos;aquest servidor</translation>
+    </message>
+    <message>
+        <source>OCSP responder&apos;s identity cannot be verified</source>
+        <translation>No s&apos;ha pogut verificar la identitat del contestador OCSP</translation>
+    </message>
+    <message>
+        <source>The identity of a certificate in an OCSP response cannot be established</source>
+        <translation>No s&apos;ha pogut establir la identitat d&apos;un certificat a una resposta OCSP</translation>
+    </message>
+    <message>
+        <source>The certificate status response has expired</source>
+        <translation>La resposta de l&apos;estat del certificat ha caducat</translation>
+    </message>
+    <message>
+        <source>The certificate&apos;s status is unknown</source>
+        <translation>L&apos;estat del certificat és desconegut</translation>
+    </message>
+    <message>
         <source>Unknown error</source>
         <translation>Error desconegut</translation>
     </message>
@@ -6673,6 +7589,18 @@ Role of an accessible object</extracomment>
     <message>
         <source>Error creating SSL session: %1</source>
         <translation>Error en crear la sessió SSL: %1</translation>
+    </message>
+    <message>
+        <source>Server-side QSslSocket does not support OCSP stapling</source>
+        <translation>El QSslSocket de la banda del servidor no admet la marca horària OCSP</translation>
+    </message>
+    <message>
+        <source>Failed to enable OCSP stapling</source>
+        <translation>Ha fallat en activar la marca horària OCSP</translation>
+    </message>
+    <message>
+        <source>Client-side sockets do not send OCSP responses</source>
+        <translation>Els sòcols de la banda del client no envien respostes OCSP</translation>
     </message>
     <message>
         <source>Unable to init SSL Context: %1</source>
@@ -6687,16 +7615,168 @@ Role of an accessible object</extracomment>
         <translation>No s&apos;han pogut desencriptar les dades: %1</translation>
     </message>
     <message>
+        <source>TLS certificate unexpectedly changed during renegotiation!</source>
+        <translation>El certificat TLS ha canviat inesperadament durant la renegociació!</translation>
+    </message>
+    <message>
+        <source>Failed to decode OCSP response</source>
+        <translation>Ha fallat en descodificar la resposta OCSP</translation>
+    </message>
+    <message>
+        <source>Failed to extract basic OCSP response</source>
+        <translation>Ha fallat en extreure la resposta OCSP bàsica</translation>
+    </message>
+    <message>
+        <source>No certificate verification store, cannot verify OCSP response</source>
+        <translation>No hi ha cap magatzem de verificació de certificats, no s&apos;ha pogut verificar la resposta OCSP</translation>
+    </message>
+    <message>
+        <source>Failed to decode a SingleResponse from OCSP status response</source>
+        <translation>Ha fallat en descodificar una «SingleResponse» d&apos;una resposta d&apos;estat OCSP</translation>
+    </message>
+    <message>
+        <source>Failed to extract &apos;this update time&apos; from the SingleResponse</source>
+        <translation>Ha fallat en extreure «this update time» de la «SingleResponse»</translation>
+    </message>
+    <message>
         <source>The TLS/SSL connection has been closed</source>
         <translation>S&apos;ha tancat la connexió TLS/SSL</translation>
     </message>
     <message>
         <source>Error while reading: %1</source>
-        <translation>Error mentre es llegia: %1</translation>
+        <translation>Error en llegir: %1</translation>
     </message>
     <message>
         <source>Error during SSL handshake: %1</source>
-        <translation>Error en la conformitat de connexió SSL: %1</translation>
+        <translation>Error durant la conformitat de connexió SSL: %1</translation>
+    </message>
+    <message>
+        <source>TLS initialization failed</source>
+        <translation>Ha fallat la inicialització del TLS</translation>
+    </message>
+    <message>
+        <source>Attempted to use an unsupported protocol.</source>
+        <translation>S&apos;ha intentat usar un protocol no admès.</translation>
+    </message>
+    <message>
+        <source>Insufficient memory</source>
+        <translation>Memòria insuficient</translation>
+    </message>
+    <message>
+        <source>Internal error</source>
+        <translation>Error intern</translation>
+    </message>
+    <message>
+        <source>An internal handle was invalid</source>
+        <translation>Un gestor intern no era vàlid</translation>
+    </message>
+    <message>
+        <source>An internal token was invalid</source>
+        <translation>Un testimoni intern no era vàlid</translation>
+    </message>
+    <message>
+        <source>Access denied</source>
+        <translation>S&apos;ha denegat l&apos;accés</translation>
+    </message>
+    <message>
+        <source>No authority could be contacted for authorization</source>
+        <translation>No s&apos;ha pogut contactar amb cap autoritat per a l&apos;autorització</translation>
+    </message>
+    <message>
+        <source>No credentials</source>
+        <translation>Sense credencials</translation>
+    </message>
+    <message>
+        <source>The target is unknown or unreachable</source>
+        <translation>El destí és desconegut o inaccessible</translation>
+    </message>
+    <message>
+        <source>An unsupported function was requested</source>
+        <translation>S&apos;ha sol·licitat una funció no admesa</translation>
+    </message>
+    <message>
+        <source>The hostname provided does not match the one received from the peer</source>
+        <translation>El nom d&apos;ordinador proporcionat no coincideix amb el rebut del parell</translation>
+    </message>
+    <message>
+        <source>No common protocol exists between the client and the server</source>
+        <translation>No existeix cap protocol comú entre el client i el servidor</translation>
+    </message>
+    <message>
+        <source>Unexpected or badly-formatted message received</source>
+        <translation>S&apos;ha rebut un missatge inesperat o amb format incorrecte</translation>
+    </message>
+    <message>
+        <source>The data could not be encrypted</source>
+        <translation>No s&apos;han pogut encriptar les dades</translation>
+    </message>
+    <message>
+        <source>No cipher suites in common</source>
+        <translation>No hi ha cap xifra adequada en comú</translation>
+    </message>
+    <message>
+        <source>The credentials were not recognized / Invalid argument</source>
+        <translation>No s&apos;han reconegut les credencials / Argument no vàlid</translation>
+    </message>
+    <message>
+        <source>The message was tampered with, damaged or out of sequence.</source>
+        <translation>El missatge s&apos;ha manipulat, està malmès o està fora de la seqüència.</translation>
+    </message>
+    <message>
+        <source>A message was received out of sequence.</source>
+        <translation>S&apos;ha rebut un missatge fora de la seqüència.</translation>
+    </message>
+    <message>
+        <source>Unknown error occurred: %1</source>
+        <translation>S&apos;ha produït un error desconegut: %1</translation>
+    </message>
+    <message>
+        <source>Invalid protocol chosen</source>
+        <translation>S&apos;ha triat un protocol no vàlid</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a client.</source>
+        <translation>El certificat proporcionat no pot ser usat per un client.</translation>
+    </message>
+    <message>
+        <source>The certificate provided cannot be used for a server.</source>
+        <translation>El certificat proporcionat no pot ser usat per un servidor.</translation>
+    </message>
+    <message>
+        <source>Server did not accept any certificate we could present.</source>
+        <translation>El servidor no accepta qualsevol certificat que es pugui presentar.</translation>
+    </message>
+    <message>
+        <source>Algorithm mismatch</source>
+        <translation>Algorisme desaparellat</translation>
+    </message>
+    <message>
+        <source>Handshake failed: %1</source>
+        <translation>Ha fallat la conformitat de la connexió: %1</translation>
+    </message>
+    <message>
+        <source>Failed to query the TLS context: %1</source>
+        <translation>Ha fallat en consultar el context del TLS: %1</translation>
+    </message>
+    <message>
+        <source>Did not get the required attributes for the connection.</source>
+        <translation>No s&apos;han aconseguit els atributs requerits per a la connexió.</translation>
+    </message>
+    <message>
+        <source>Unwanted protocol was negotiated</source>
+        <translation>S&apos;ha negociat un protocol no desitjat</translation>
+    </message>
+    <message>
+        <source>Renegotiation was unsuccessful: %1</source>
+        <translation>La renegociació ha estat infructuosa: %1</translation>
+    </message>
+    <message>
+        <source>Schannel failed to encrypt data: %1</source>
+        <translation>El «Schannel» ha fallat en encriptar les dades: %1</translation>
+    </message>
+    <message>
+        <source>Cannot provide a certificate with no key</source>
+        <translation>No es pot subministrar un certificat sense una clau</translation>
     </message>
 </context>
 <context>
@@ -6711,7 +7791,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Fonts</source>
-        <translation>Tipus de lletra</translation>
+        <translation>Lletres</translation>
     </message>
     <message>
         <source>Applications</source>
@@ -6742,8 +7822,24 @@ Role of an accessible object</extracomment>
         <translation>Dades d&apos;aplicació</translation>
     </message>
     <message>
+        <source>State</source>
+        <translation>Estat</translation>
+    </message>
+    <message>
+        <source>Shared State</source>
+        <translation>Estat compartit</translation>
+    </message>
+    <message>
         <source>Application Configuration</source>
         <translation>Configuració d&apos;aplicació</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Públic</translation>
+    </message>
+    <message>
+        <source>Templates</source>
+        <translation>Plantilles</translation>
     </message>
     <message>
         <source>Cache</source>
@@ -6773,28 +7869,41 @@ Role of an accessible object</extracomment>
         <source>Download</source>
         <translation>Baixades</translation>
     </message>
+    <message>
+        <source>Temporary Items</source>
+        <extracomment>macOS: Temporary directory</extracomment>
+        <translation>Elements temporals</translation>
+    </message>
 </context>
 <context>
     <name>QStateMachine</name>
     <message>
         <source>Missing initial state in compound state &apos;%1&apos;</source>
-        <translation>Manca l&apos;estat inicial a l&apos;estat compost «%1»</translation>
+        <translation type="vanished">Manca l&apos;estat inicial a l&apos;estat compost «%1»</translation>
     </message>
     <message>
         <source>Missing default state in history state &apos;%1&apos;</source>
-        <translation>Manca l&apos;estat per defecte a l&apos;estat històric «%1»</translation>
+        <translation type="vanished">Manca l&apos;estat per defecte a l&apos;estat històric «%1»</translation>
     </message>
     <message>
         <source>No common ancestor for targets and source of transition from state &apos;%1&apos;</source>
-        <translation>No hi ha cap antecessor comú per les destinacions i origen des de l&apos;estat «%1»</translation>
+        <translation type="vanished">No hi ha cap antecessor comú per les destinacions i origen des de l&apos;estat «%1»</translation>
+    </message>
+    <message>
+        <source>Child mode of state machine &apos;%1&apos; is not &apos;ExclusiveStates&apos;.</source>
+        <translation type="vanished">El mode fill de la màquina d&apos;estats «%1» no és «ExclusiveStates».</translation>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation>Error desconegut</translation>
+        <translation type="vanished">Error desconegut</translation>
     </message>
 </context>
 <context>
     <name>QSystemSemaphore</name>
+    <message>
+        <source>%1: unsupported key type</source>
+        <translation>%1: tipus de clau no admès</translation>
+    </message>
     <message>
         <source>%1: permission denied</source>
         <translation>%1: s&apos;ha denegat el permís</translation>
@@ -6812,19 +7921,43 @@ Role of an accessible object</extracomment>
         <translation>%1: sense recursos</translation>
     </message>
     <message>
+        <source>%1: key too long</source>
+        <translation>%1: la clau és massa llarga</translation>
+    </message>
+    <message>
+        <source>%1: unknown error: %2</source>
+        <translation>%1: error desconegut: %2</translation>
+    </message>
+    <message>
         <source>%1: unknown error %2</source>
-        <translation>%1: error desconegut %2</translation>
+        <translation type="vanished">%1: error desconegut %2</translation>
+    </message>
+    <message>
+        <source>%1: key is empty</source>
+        <translation>%1: la clau és buida</translation>
+    </message>
+    <message>
+        <source>%1: System V semaphores are not available for sandboxed applications. Please build Qt with -feature-ipc_posix</source>
+        <translation>%1: els semàfors del System V no estan disponibles per a aplicacions en entorn protegit. Construïu les Qt amb -feature-ipc_posix</translation>
+    </message>
+    <message>
+        <source>%1: unable to make key</source>
+        <translation>%1: no s&apos;ha pogut crear la clau</translation>
+    </message>
+    <message>
+        <source>%1: ftok failed</source>
+        <translation>%1: ha fallat el «ftok»</translation>
     </message>
 </context>
 <context>
     <name>QTDSDriver</name>
     <message>
         <source>Unable to open connection</source>
-        <translation>No s&apos;ha pogut obrir la connexió</translation>
+        <translation type="vanished">No s&apos;ha pogut obrir la connexió</translation>
     </message>
     <message>
         <source>Unable to use database</source>
-        <translation>No s&apos;ha pogut utilitzar la base de dades</translation>
+        <translation type="vanished">No s&apos;ha pogut utilitzar la base de dades</translation>
     </message>
 </context>
 <context>
@@ -6842,7 +7975,7 @@ Role of an accessible object</extracomment>
     <name>QTcpServer</name>
     <message>
         <source>Operation on socket is not supported</source>
-        <translation>Operació no admesa pel sòcol</translation>
+        <translation>Operació no admesa al sòcol</translation>
     </message>
 </context>
 <context>
@@ -6853,11 +7986,11 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>Sequential device (eg socket) for image read not supported</source>
-        <translation>No s&apos;admet cap dispositiu seqüencial (p. ex. sòcol) per llegir una imatge</translation>
+        <translation>No s&apos;admet cap dispositiu seqüencial (p. ex. sòcol) per a llegir una imatge</translation>
     </message>
     <message>
         <source>Seek file/device for image read failed</source>
-        <translation>Ha fallat la cerca del fitxer/dispositiu de la lectura de la imatge</translation>
+        <translation>Ha fallat la cerca del fitxer/dispositiu per a llegir la imatge</translation>
     </message>
     <message>
         <source>Image header read failed</source>
@@ -6891,6 +8024,10 @@ Role of an accessible object</extracomment>
         <source>Could not reset to read data</source>
         <translation>No s&apos;ha pogut reiniciar la lectura de les dades</translation>
     </message>
+    <message>
+        <source>Invalid color map depth (%1)</source>
+        <translation>Profunditat del mapa de color no vàlida (%1)</translation>
+    </message>
 </context>
 <context>
     <name>QUdpSocket</name>
@@ -6900,7 +8037,7 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>No datagram available for reading</source>
-        <translation>No hi ha cap datagrama disponible per llegir</translation>
+        <translation>No hi ha cap datagrama disponible per a llegir</translation>
     </message>
 </context>
 <context>
@@ -6992,19 +8129,19 @@ Role of an accessible object</extracomment>
     </message>
     <message>
         <source>PDF Pop directional formatting</source>
-        <translation>Final de formatació direccional (PDF)</translation>
+        <translation>Final de format direccional (PDF)</translation>
     </message>
     <message>
         <source>LRI Left-to-right isolate</source>
-        <translation>D&apos;esquerra a dreta aïllat (LRI)</translation>
+        <translation>Aïllada d&apos;esquerra a dreta (LRI)</translation>
     </message>
     <message>
         <source>RLI Right-to-left isolate</source>
-        <translation>De dreta a esquerra aïllat (RLI)</translation>
+        <translation>Aïllada de dreta a esquerra (RLI)</translation>
     </message>
     <message>
         <source>FSI First strong isolate</source>
-        <translation>Primer intens aïllat (FSI)</translation>
+        <translation>Aïllada intensa primera (FSI)</translation>
     </message>
     <message>
         <source>PDI Pop directional isolate</source>
@@ -7070,7 +8207,7 @@ Role of an accessible object</extracomment>
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1.%2.%3.%4. The Direct2D version on this system is %5.%6.%7.%8.</source>
-        <translation type="vanished">Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
+        <translation type="vanished">Les Qt no han pogut carregar el connector de la plataforma Direct2D perquè la versió del Direct2D en aquest sistema és massa antiga. El requisit mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
 
 La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct2D en aquest sistema és %5.%6.%7.%8.</translation>
     </message>
@@ -7078,13 +8215,13 @@ La versió mínima requerida del Direct2D és %1.%2.%3.%4. La versió del Direct
         <source>Qt cannot load the direct2d platform plugin because the Direct2D version on this system is too old. The minimum system requirement for this platform plugin is Windows 7 SP1 with Platform Update.
 
 The minimum Direct2D version required is %1. The Direct2D version on this system is %2.</source>
-        <translation>Les Qt no han pogut carregar el connector de la plataforma direct2d perquè la versió del Direct2D en aquest sistema és massa antiga. El requeriment mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
+        <translation>Les Qt no han pogut carregar el connector de la plataforma «direct2d» perquè la versió del Direct2D en aquest sistema és massa antiga. El requisit mínim de sistema per aquest connector de plataforma és Windows 7 SP1 amb «Platform Update».
 
 La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aquest sistema és %2.</translation>
     </message>
     <message>
         <source>Cannot load direct2d platform plugin</source>
-        <translation>No s&apos;ha pogut carregar el connector de la plataforma direct2d</translation>
+        <translation>No s&apos;ha pogut carregar el connector de la plataforma «direct2d»</translation>
     </message>
 </context>
 <context>
@@ -7138,95 +8275,95 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <name>QXml</name>
     <message>
         <source>no error occurred</source>
-        <translation>sense errors</translation>
+        <translation type="vanished">sense errors</translation>
     </message>
     <message>
         <source>error triggered by consumer</source>
-        <translation>error provocat pel consumidor</translation>
+        <translation type="vanished">error provocat pel consumidor</translation>
     </message>
     <message>
         <source>unexpected end of file</source>
-        <translation>fi de fitxer inesperat</translation>
+        <translation type="vanished">fi de fitxer inesperat</translation>
     </message>
     <message>
         <source>more than one document type definition</source>
-        <translation>més d&apos;una definició de tipus de document</translation>
+        <translation type="vanished">més d&apos;una definició de tipus de document</translation>
     </message>
     <message>
         <source>error occurred while parsing element</source>
-        <translation>hi ha hagut un error en analitzar un element</translation>
+        <translation type="vanished">hi ha hagut un error en analitzar un element</translation>
     </message>
     <message>
         <source>tag mismatch</source>
-        <translation>marcador desaparellat</translation>
+        <translation type="vanished">marcador desaparellat</translation>
     </message>
     <message>
         <source>error occurred while parsing content</source>
-        <translation>hi ha hagut un error en analitzar el contingut</translation>
+        <translation type="vanished">hi ha hagut un error en analitzar el contingut</translation>
     </message>
     <message>
         <source>unexpected character</source>
-        <translation>caràcter inesperat</translation>
+        <translation type="vanished">caràcter inesperat</translation>
     </message>
     <message>
         <source>invalid name for processing instruction</source>
-        <translation>nom d&apos;instrucció de procés no vàlid</translation>
+        <translation type="vanished">nom d&apos;instrucció de procés no vàlid</translation>
     </message>
     <message>
         <source>version expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una versió en llegir la declaració XML</translation>
+        <translation type="vanished">s&apos;esperava una versió en llegir la declaració XML</translation>
     </message>
     <message>
         <source>wrong value for standalone declaration</source>
-        <translation>valor erroni per a la declaració autònoma</translation>
+        <translation type="vanished">valor erroni per a la declaració autònoma</translation>
     </message>
     <message>
         <source>encoding declaration or standalone declaration expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una declaració de codificació o una declaració autònoma en llegir la declaració XML</translation>
+        <translation type="vanished">s&apos;esperava una declaració de codificació o una declaració autònoma en llegir la declaració XML</translation>
     </message>
     <message>
         <source>standalone declaration expected while reading the XML declaration</source>
-        <translation>s&apos;esperava una declaració autònoma en llegir la declaració XML</translation>
+        <translation type="vanished">s&apos;esperava una declaració autònoma en llegir la declaració XML</translation>
     </message>
     <message>
         <source>error occurred while parsing document type definition</source>
-        <translation>hi ha hagut un error en analitzar la definició del tipus de document</translation>
+        <translation type="vanished">hi ha hagut un error en analitzar la definició del tipus de document</translation>
     </message>
     <message>
         <source>letter is expected</source>
-        <translation>s&apos;esperava una lletra</translation>
+        <translation type="vanished">s&apos;esperava una lletra</translation>
     </message>
     <message>
         <source>error occurred while parsing comment</source>
-        <translation>hi ha hagut un error en analitzar un comentari</translation>
+        <translation type="vanished">hi ha hagut un error en analitzar un comentari</translation>
     </message>
     <message>
         <source>error occurred while parsing reference</source>
-        <translation>hi ha hagut un error en analitzar una referència</translation>
+        <translation type="vanished">hi ha hagut un error en analitzar una referència</translation>
     </message>
     <message>
         <source>internal general entity reference not allowed in DTD</source>
-        <translation>al DTD no es permet una referència interna a una entitat general</translation>
+        <translation type="vanished">al DTD no es permet una referència interna a una entitat general</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in attribute value</source>
-        <translation>al valor d&apos;atribut no es permet una referència a una entitat general analitzada externament</translation>
+        <translation type="vanished">al valor d&apos;atribut no es permet una referència a una entitat general analitzada externament</translation>
     </message>
     <message>
         <source>external parsed general entity reference not allowed in DTD</source>
-        <translation>al DTD no es permet una referència a una entitat general analitzada externament</translation>
+        <translation type="vanished">al DTD no es permet una referència a una entitat general analitzada externament</translation>
     </message>
     <message>
         <source>unparsed entity reference in wrong context</source>
-        <translation>referència a una entitat no analitzada a un context erroni</translation>
+        <translation type="vanished">referència a una entitat no analitzada a un context erroni</translation>
     </message>
     <message>
         <source>recursive entities</source>
-        <translation>entitats recursives</translation>
+        <translation type="vanished">entitats recursives</translation>
     </message>
     <message>
         <source>error in the text declaration of an external entity</source>
-        <translation>error en la declaració de text d&apos;una entitat externa</translation>
+        <translation type="vanished">error a la declaració de text d&apos;una entitat externa</translation>
     </message>
 </context>
 <context>
@@ -7245,7 +8382,7 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     </message>
     <message>
         <source>Sequence &apos;]]&gt;&apos; not allowed in content.</source>
-        <translation>No es permet la seqüència «]]&gt;» en el contingut.</translation>
+        <translation>No es permet la seqüència «]]&gt;» al contingut.</translation>
     </message>
     <message>
         <source>Encountered incorrectly encoded content.</source>
@@ -7296,8 +8433,20 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
         <translation>L&apos;autònom només accepta sí o no.</translation>
     </message>
     <message>
+        <source>Invalid attribute in XML declaration: %1 = %2</source>
+        <translation>Atribut no vàlid a la declaració de l&apos;XML: %1 = %2</translation>
+    </message>
+    <message>
+        <source>Unexpected token type %1 in %2.</source>
+        <translation>Tipus de testimoni inesperat %1 a %2.</translation>
+    </message>
+    <message>
+        <source>Found second DTD token in %1.</source>
+        <translation>S&apos;ha trobat un segon testimoni DTD a %1.</translation>
+    </message>
+    <message>
         <source>Invalid attribute in XML declaration.</source>
-        <translation>Atribut no vàlid a la declaració de l&apos;XML.</translation>
+        <translation type="vanished">Atribut no vàlid a la declaració de l&apos;XML.</translation>
     </message>
     <message>
         <source>Premature end of document.</source>
@@ -7306,6 +8455,10 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>Invalid document.</source>
         <translation>Document no vàlid.</translation>
+    </message>
+    <message>
+        <source>Length of XML attribute name exceeds implementation limits (4KiB characters).</source>
+        <translation>La longitud del nom de l&apos;atribut XML excedeix els límits d&apos;implementació (4 KiB de caràcters).</translation>
     </message>
     <message>
         <source>&apos;%1&apos;</source>
@@ -7337,7 +8490,7 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     </message>
     <message>
         <source>Unexpected &apos;%1&apos;.</source>
-        <translation></translation>
+        <translation>«%1» inesperat.</translation>
     </message>
     <message>
         <source>Expected </source>
@@ -7357,7 +8510,15 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     </message>
     <message>
         <source>Recursive entity detected.</source>
-        <translation>S&apos;ha detectat una entitat recursiva.</translation>
+        <translation type="vanished">S&apos;ha detectat una entitat recursiva.</translation>
+    </message>
+    <message>
+        <source>Self-referencing entity detected.</source>
+        <translation>S&apos;ha detectat una entitat autoreferent.</translation>
+    </message>
+    <message>
+        <source>Entity expands to more characters than the entity expansion limit.</source>
+        <translation>L&apos;entitat s&apos;expandeix a més caràcters que el límit d&apos;expansió de l&apos;entitat.</translation>
     </message>
     <message>
         <source>Start tag expected.</source>
@@ -7369,7 +8530,7 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     </message>
     <message>
         <source>XML declaration not at start of document.</source>
-        <translation>la declaració XML no és a l&apos;inici del document.</translation>
+        <translation>La declaració XML no és a l&apos;inici del document.</translation>
     </message>
     <message>
         <source>%1 is an invalid processing instruction name.</source>
@@ -7406,6 +8567,251 @@ La versió mínima requerida del Direct2D és %1. La versió del Direct2D en aqu
     <message>
         <source>Invalid character reference.</source>
         <translation>Referència de caràcter no vàlid.</translation>
+    </message>
+</context>
+<context>
+    <name>QAxSelect</name>
+    <message>
+        <source>Select ActiveX Control</source>
+        <translation>Selecció de control ActiveX</translation>
+    </message>
+    <message>
+        <source>Filter</source>
+        <translation>Filtre</translation>
+    </message>
+    <message>
+        <source>COM &amp;Object:</source>
+        <translation>&amp;Objecte COM:</translation>
+    </message>
+    <message>
+        <source>Sandboxing:</source>
+        <translation>Entorn protegit:</translation>
+    </message>
+    <message>
+        <source>Name:</source>
+        <translation>Nom:</translation>
+    </message>
+    <message>
+        <source>Type:</source>
+        <translation>Tipus:</translation>
+    </message>
+    <message>
+        <source>In process</source>
+        <translation>En procés</translation>
+    </message>
+    <message>
+        <source>Out of process</source>
+        <translation>Fora de procés</translation>
+    </message>
+    <message>
+        <source>CLSID:</source>
+        <translation>CLSID:</translation>
+    </message>
+    <message>
+        <source>Key:</source>
+        <translation>Clau:</translation>
+    </message>
+    <message>
+        <source>Word&amp;nbsp;size:</source>
+        <translation>Mida&amp;nbsp;de&amp;nbsp;paraula:</translation>
+    </message>
+    <message>
+        <source>DLL:</source>
+        <translation>DLL:</translation>
+    </message>
+    <message>
+        <source>Binary:</source>
+        <translation>Binari:</translation>
+    </message>
+    <message>
+        <source>Version:</source>
+        <translation>Versió:</translation>
+    </message>
+</context>
+<context>
+    <name>QFactoryLoader</name>
+    <message>
+        <source>Invalid metadata version</source>
+        <translation>Versió no vàlida de les metadades</translation>
+    </message>
+    <message>
+        <source>Metadata parsing error: %1</source>
+        <translation>Error en analitzar les metadades: %1</translation>
+    </message>
+    <message>
+        <source>Unexpected metadata contents</source>
+        <translation>Contingut inesperat de les metadades</translation>
+    </message>
+</context>
+<context>
+    <name>QAbstractFileIconProvider</name>
+    <message>
+        <source>Drive</source>
+        <translation>Unitat</translation>
+    </message>
+    <message>
+        <source>File</source>
+        <translation>Fitxer</translation>
+    </message>
+    <message>
+        <source>File Folder</source>
+        <comment>Match Windows Explorer</comment>
+        <translation>Carpeta de fitxers</translation>
+    </message>
+    <message>
+        <source>Folder</source>
+        <comment>All other platforms</comment>
+        <translation>Carpeta</translation>
+    </message>
+    <message>
+        <source>Alias</source>
+        <comment>macOS Finder</comment>
+        <translation>Àlies</translation>
+    </message>
+    <message>
+        <source>Shortcut</source>
+        <comment>All other platforms</comment>
+        <translation>Drecera</translation>
+    </message>
+    <message>
+        <source>Unknown</source>
+        <translation>Desconegut</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenu</name>
+    <message>
+        <source>Edit</source>
+        <translation type="vanished">Edita</translation>
+    </message>
+</context>
+<context>
+    <name>quiaccessibilityelement</name>
+    <message>
+        <source>checked</source>
+        <translation>activat</translation>
+    </message>
+    <message>
+        <source>unchecked</source>
+        <translation>desactivat</translation>
+    </message>
+</context>
+<context>
+    <name>QCocoaMenuBar</name>
+    <message>
+        <source>Edit</source>
+        <translation>Edita</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQL</name>
+    <message>
+        <source>No Mimer SQL error for code %1</source>
+        <translation>No hi ha cap error de l&apos;SQL del Mimer per al codi %1</translation>
+    </message>
+    <message>
+        <source>Generic Mimer SQL error</source>
+        <translation>Error genèric de l&apos;SQL del Mimer</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult</name>
+    <message>
+        <source>Could not get %1, column %2</source>
+        <extracomment>Data type, column</extracomment>
+        <translation>No s&apos;ha pogut obtenir %1, columna %2</translation>
+    </message>
+    <message>
+        <source>Could not set %1, parameter %2</source>
+        <extracomment>Data type, parameter</extracomment>
+        <translation>No s&apos;ha pogut establir %1, paràmetre %2</translation>
+    </message>
+    <message>
+        <source>Could not close cursor</source>
+        <translation>No s&apos;ha pogut tancar el cursor</translation>
+    </message>
+    <message>
+        <source>Could not close statement</source>
+        <translation>No s&apos;ha pogut tancar la sentència</translation>
+    </message>
+    <message>
+        <source>Fetch did not succeed</source>
+        <translation>No s&apos;ha pogut recuperar</translation>
+    </message>
+    <message>
+        <source>Fetch first did not succeed</source>
+        <translation>No s&apos;ha pogut recuperar el primer</translation>
+    </message>
+    <message>
+        <source>Could not fetch next row</source>
+        <translation>No s&apos;ha pogut recuperar la columna següent</translation>
+    </message>
+    <message>
+        <source>Unknown data type %1</source>
+        <translation>Tipus de dada desconeguda %1</translation>
+    </message>
+    <message>
+        <source>Could not check null, column %1</source>
+        <translation>No s&apos;ha pogut comprovar si és nul, columna %1</translation>
+    </message>
+    <message>
+        <source>Could not prepare/execute statement</source>
+        <translation>No s&apos;ha pogut preparar/executar la sentència</translation>
+    </message>
+    <message>
+        <source>Wrong number of parameters</source>
+        <translation>Nombre erroni de paràmetres</translation>
+    </message>
+    <message>
+        <source>Unknown datatype, parameter %1</source>
+        <translation>Tipus de dada desconeguda, paràmetre %1</translation>
+    </message>
+    <message>
+        <source>Could not execute statement/open cursor</source>
+        <translation>No s&apos;ha pogut executar la sentència/obrir el cursor</translation>
+    </message>
+    <message>
+        <source>Only input parameters can be used in batch operations</source>
+        <translation>Només es poden utilitzar paràmetres d&apos;entrada en operacions per lots</translation>
+    </message>
+    <message>
+        <source>Could not add batch %1</source>
+        <extracomment>%1 is the batch number</extracomment>
+        <translation>No s&apos;ha pogut afegir el lot %1</translation>
+    </message>
+    <message>
+        <source>Could not execute batch</source>
+        <translation>No s&apos;ha pogut executar el lot</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLResult:</name>
+    <message>
+        <source>Fetch last did not succeed</source>
+        <translation>No s&apos;ha pogut recuperar l&apos;últim</translation>
+    </message>
+    <message>
+        <source>Column %1 out of range</source>
+        <translation>La columna %1 està fora de l&apos;interval</translation>
+    </message>
+</context>
+<context>
+    <name>QMimerSQLDriver</name>
+    <message>
+        <source>Could not connect to database</source>
+        <translation>No s&apos;ha pogut connectar a la base de dades</translation>
+    </message>
+    <message>
+        <source>Could not start transaction</source>
+        <translation>La transacció no ha pogut iniciar-se</translation>
+    </message>
+    <message>
+        <source>Could not commit transaction</source>
+        <translation>La transacció no ha pogut confirmar-se</translation>
+    </message>
+    <message>
+        <source>Could not roll back transaction</source>
+        <translation>La transacció no ha pogut desfer-se</translation>
     </message>
 </context>
 </TS>
