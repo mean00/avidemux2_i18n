@@ -1,38 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="fr">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>ADM_Composer</name>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+130"/>
-        <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+36"/>
-        <source>Decoding video...</source>
-        <translation>Décodage vidéo…</translation>
-    </message>
-    <message>
-        <location line="+164"/>
-        <source>Some timing information are incorrect.
-It happens with some capture software.
-If you re encode video we should drop these informations,
- else it will cause dropped frame/jerky video.
-If you just copy the video without reencoding,
- you should keep them.
-Drop timing informations ?</source>
-        <translation>Les informations de timings sur les images sont incorrectes.
-Cela arrive avec certains logiciels de capture.
-Si vous réencoder ces vidéos, il vaut mieux ignorer ces informations,
-sinon cela va provoquer des saccades.
-Si vous copiez la piste sans réencoder, il vaut mieux conserver ces informations de timing.
-Ignorer les informations de timing ?</translation>
-    </message>
-    <message>
         <location filename="../../common/ADM_editor/src/ADM_edit.cpp" line="+471"/>
         <source>Cannot find a demuxer for %s</source>
-        <translation>Impossible de trouver un demuxer pour lire %s</translation>
+        <translation>Impossible de trouver un demuxeur pour lire %s</translation>
     </message>
     <message>
         <location line="+38"/>
@@ -74,9 +48,7 @@ Ignorer les informations de timing ?</translation>
         <source>You cannot mix different video dimensions yet. Using the partial video filter later, will not work around this problem. The workaround is:
 1.) &quot;resize&quot; / &quot;add border&quot; / &quot;crop&quot; each stream to the same resolution
 2.) concatenate them together</source>
-        <translation>Vous ne pouvez pas mélanger des vidéos avec des dimensions différentes. Utiliser le filtre &quot;Partiel&quot; ne résoudra pas le problème. La correction est :
-1) Redimensionner ou ajouter des bords pour que toutes les vidéos aient les mêmes dimensions, et les enregistrer une par une
-2) Concaténer ces vidéos ensembles</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
@@ -102,35 +74,36 @@ Ignorer les informations de timing ?</translation>
         <translation>Taille non supportée</translation>
     </message>
     <message>
-        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="-249"/>
+        <location filename="../../common/ADM_editor/src/utils/ADM_edCheckForInvalidPts.cpp" line="+81"/>
         <source>Checking if timestamps are valid..</source>
         <translation>Vérification des informations de temps</translation>
+    </message>
+    <message>
+        <location line="+49"/>
+        <source>This video contains B-frames, but presentation time stamps (PTS) are either missing or monotonically increasing. Avidemux can try to reconstruct correct PTS by decoding the entire video. This may take a lot of time. Proceed?</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+36"/>
+        <source>Decoding video...</source>
+        <translation>Décodage vidéo…</translation>
+    </message>
+    <message>
+        <location line="+164"/>
+        <source>Some timing information are incorrect.
+It happens with some capture software.
+If you re encode video we should drop these informations,
+ else it will cause dropped frame/jerky video.
+If you just copy the video without reencoding,
+ you should keep them.
+Drop timing informations ?</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>CalculatorDialog</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/calculator.ui" line="+129"/>
-        <source>Custom</source>
-        <translation>Manuel</translation>
-    </message>
-    <message>
-        <location line="+143"/>
-        <source>Track 1:</source>
-        <translation>Piste 1 :</translation>
-    </message>
-    <message>
-        <location line="+37"/>
-        <source>Track 2:</source>
-        <translation>Piste 2 :</translation>
-    </message>
-    <message>
-        <location line="+330"/>
-        <source>Cancel</source>
-        <translation>Annuler</translation>
-    </message>
-    <message>
-        <location line="-623"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/calculator.ui" line="+16"/>
         <source>Calculator</source>
         <translation></translation>
     </message>
@@ -177,22 +150,22 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+8"/>
         <source>1 x 80 minute CD</source>
-        <translation>1 x 80 minutes CD</translation>
+        <translation>CD 1 x 80 minutes</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>2 x 80 minute CD</source>
-        <translation>2 x 80 minutes CD</translation>
+        <translation>CD 2 x 80 minutes</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>1 x 74 minute CD</source>
-        <translation>1 x 74 minutes CD</translation>
+        <translation>CD 1 x 74 minutes</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>2 x 74 minute CD</source>
-        <translation>2 x 74 minutes CD</translation>
+        <translation>CD 2 x 74 minutes</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -200,7 +173,12 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="+63"/>
+        <location line="+5"/>
+        <source>Custom</source>
+        <translation>Personnalisé</translation>
+    </message>
+    <message>
+        <location line="+58"/>
         <source>Custom Size:</source>
         <translation>Taille personnalisée :</translation>
     </message>
@@ -218,14 +196,24 @@ Ignorer les informations de timing ?</translation>
         <translation>Débit audio</translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+20"/>
+        <source>Track 1:</source>
+        <translation>Piste 1 :</translation>
+    </message>
+    <message>
+        <location line="+14"/>
         <location line="+37"/>
         <location line="+232"/>
         <source>kbps</source>
         <translation>kb/s</translation>
     </message>
     <message>
-        <location line="-207"/>
+        <location line="-246"/>
+        <source>Track 2:</source>
+        <translation>Piste 2 :</translation>
+    </message>
+    <message>
+        <location line="+39"/>
         <source>Result</source>
         <translation>Résultat</translation>
     </message>
@@ -268,6 +256,11 @@ Ignorer les informations de timing ?</translation>
         <source>OK</source>
         <translation></translation>
     </message>
+    <message>
+        <location line="+7"/>
+        <source>Cancel</source>
+        <translation>Annuler</translation>
+    </message>
 </context>
 <context>
     <name>Dialog</name>
@@ -295,43 +288,14 @@ Ignorer les informations de timing ?</translation>
         <translation>Configuration des pistes audios</translation>
     </message>
     <message>
-        <source>Track 1</source>
-        <translation type="vanished">Piste 1</translation>
-    </message>
-    <message>
-        <source>Enabled</source>
-        <translation type="vanished">Activée</translation>
-    </message>
-    <message>
-        <source>Configure</source>
-        <translation type="vanished">Configurer</translation>
-    </message>
-    <message>
         <source>Filters</source>
-        <translation type="vanished">Filtres</translation>
-    </message>
-    <message>
-        <source>Track 2</source>
-        <translation type="vanished">Piste 2</translation>
-    </message>
-    <message>
-        <source>Track 3</source>
-        <translation type="vanished">Piste 3</translation>
-    </message>
-    <message>
-        <source>Track 4</source>
-        <translation type="vanished">Piste 4</translation>
+        <translation type="obsolete">&amp;Filters</translation>
     </message>
 </context>
 <context>
     <name>DialogOcr</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_ocr/ocr.ui" line="+92"/>
-        <source>Close</source>
-        <translation>Fermer</translation>
-    </message>
-    <message>
-        <location line="-79"/>
+        <location filename="../ADM_userInterfaces/ADM_ocr/ocr.ui" line="+13"/>
         <source>Dialog</source>
         <translation>Dialogue</translation>
     </message>
@@ -361,7 +325,12 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="+28"/>
+        <location line="+18"/>
+        <source>Close</source>
+        <translation>Fermer</translation>
+    </message>
+    <message>
+        <location line="+10"/>
         <source>00:00:00/000</source>
         <translation></translation>
     </message>
@@ -432,17 +401,17 @@ Ignorer les informations de timing ?</translation>
         <translation>Travail en cours</translation>
     </message>
     <message>
-        <location line="+14"/>
-        <source>File being written </source>
-        <translation>Écriture fichier</translation>
-    </message>
-    <message>
-        <location line="-7"/>
+        <location line="+7"/>
         <source>1/1</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="+7"/>
+        <source>File being written </source>
+        <translation>Écriture fichier</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>...</source>
         <translation>…</translation>
     </message>
@@ -465,10 +434,6 @@ Ignorer les informations de timing ?</translation>
         <translation>_Débit :</translation>
     </message>
     <message>
-        <source>SBR enabled</source>
-        <translation type="vanished">SBR activé</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>Afterburner</source>
         <translation type="unfinished"></translation>
@@ -482,37 +447,82 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>MainWindow</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+15"/>
+        <location filename="../ADM_userInterfaces/ADM_gui/gui2.ui" line="+149"/>
+        <source>&amp;Auto</source>
+        <translation>Au&amp;to</translation>
+    </message>
+    <message>
+        <location line="-134"/>
         <source>Avidemux</source>
         <translation>Avidemux</translation>
     </message>
     <message>
         <location line="+95"/>
         <source>&amp;Help</source>
-        <translation>&amp;Aide</translation>
+        <translation>Aid&amp;e</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+5"/>
+        <source>Vi&amp;deo</source>
+        <translation>&amp;Vidéo</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Editer</translation>
+        <translation>É&amp;dition</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>&amp;View</source>
-        <translation>&amp;Vue</translation>
+        <translation>V&amp;ue</translation>
     </message>
     <message>
-        <location line="+39"/>
+        <location line="+4"/>
+        <source>&amp;Toolbars</source>
+        <translation>&amp;Volets de contrôle</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>T&amp;heme</source>
+        <translation>T&amp;hème</translation>
+    </message>
+    <message>
+        <location line="+13"/>
+        <source>&amp;Custom</source>
+        <translation>&amp;Scripts perso</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>&amp;Go</source>
+        <translation>A&amp;ction</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>&amp;Tools</source>
         <translation>Ou&amp;tils</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+5"/>
+        <source>&amp;Audio</source>
+        <translation>&amp;Audio</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>&amp;File</source>
         <translation>&amp;Fichier</translation>
     </message>
     <message>
-        <location line="+211"/>
+        <location line="+5"/>
+        <source>&amp;Recent</source>
+        <translation>&amp;Récent</translation>
+    </message>
+    <message>
+        <location line="+58"/>
+        <source>Codec O&amp;ptions</source>
+        <translation>Options du co&amp;dec</translation>
+    </message>
+    <message>
+        <location line="+148"/>
         <location line="+169"/>
         <location line="+181"/>
         <source>Configure</source>
@@ -543,166 +553,20 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+155"/>
         <source>&amp;Shift:</source>
-        <translation>&amp;Décal.:</translation>
+        <translation>&amp;Décal. :</translation>
     </message>
     <message>
-        <location line="+67"/>
-        <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
-        <translation>&lt;b&gt;Format de sortie&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+388"/>
-        <source>Go to previous cut point [SHIFT+DOWN]</source>
-        <translation>Point de coupe précédent [MAJ+BAS]</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>Go to next cut point [SHIFT+UP]</source>
-        <translation>Point de coupe suivant [MAJ+HAUT]</translation>
-    </message>
-    <message>
-        <location line="+447"/>
-        <source>Selection: 000000</source>
-        <translation>Sélection : 000000</translation>
-    </message>
-    <message>
-        <location line="+198"/>
-        <source>&amp;Open...</source>
-        <translation>&amp;Ouvrir…</translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Save &amp;Video...</source>
-        <translation>Enregistrer la &amp;vidéo…</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+3"/>
-        <source>Save Video</source>
-        <translation>Enregistrer</translation>
-    </message>
-    <message>
-        <location line="+22"/>
-        <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+102"/>
-        <source>&amp;Load/Run Project...</source>
-        <translation>&amp;Lancer un projet…</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+3"/>
-        <source>Load/Run Project</source>
-        <translation>Lancer un projet</translation>
-    </message>
-    <message>
-        <location line="+9"/>
-        <source>Save &amp;Project</source>
-        <translation>Enregistrer un &amp;projet</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <location line="+3"/>
-        <source>Save Project</source>
-        <translation>Enregistrer un projet</translation>
-    </message>
-    <message>
-        <source>&amp;Calculator...</source>
-        <translation type="vanished">&amp;Calculette…</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>&amp;Input</source>
-        <translation>Orig&amp;inal</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>&amp;Output</source>
-        <translation>M&amp;odifié</translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>&amp;Codec Options</source>
-        <translation>Options du co&amp;dec</translation>
-    </message>
-    <message>
-        <location line="+99"/>
-        <source>&amp;Separate</source>
-        <translation>&amp;Séparer</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>&amp;Top</source>
-        <translation>Hau&amp;t</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>Si&amp;de</source>
-        <translation>Cot&amp;e à cote</translation>
-    </message>
-    <message>
-        <location line="-1938"/>
-        <source>Vi&amp;deo</source>
-        <translation>Vidéo</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>&amp;Toolbars</source>
-        <translation>Barre d&apos;outils</translation>
-    </message>
-    <message>
-        <location line="+12"/>
-        <source>T&amp;heme</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>&amp;Auto</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>&amp;Custom</source>
-        <translation>&amp;Scripts perso</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>&amp;Go</source>
-        <translation>Aller</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Audio</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>&amp;Recent</source>
-        <translation>&amp;Récent</translation>
-    </message>
-    <message>
-        <location line="+58"/>
-        <source>Codec O&amp;ptions</source>
-        <translation>Options du co&amp;dec</translation>
-    </message>
-    <message>
-        <source>&lt;b&gt;Video Decoder&lt;/b&gt;</source>
-        <translation type="vanished">&lt;b&gt;Décodeur vidéo&lt;/b&gt;</translation>
-    </message>
-    <message>
-        <location line="+215"/>
-        <source> (0 tracks)</source>
-        <translation> (0 piste)</translation>
-    </message>
-    <message>
-        <location line="+177"/>
+        <location line="+32"/>
         <source>ms</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+161"/>
+        <location line="+35"/>
+        <source>&lt;b&gt;Output Format&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Format de sortie&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location line="+126"/>
         <location line="+1154"/>
         <source>&amp;Navigation</source>
         <translation>Navigation</translation>
@@ -711,10 +575,6 @@ Ignorer les informations de timing ?</translation>
         <location line="-1079"/>
         <source>Play [SPACE]</source>
         <translation>Lire [ESPACE]</translation>
-    </message>
-    <message>
-        <source>Play</source>
-        <translation type="vanished">Lire</translation>
     </message>
     <message>
         <location line="+6"/>
@@ -874,12 +734,37 @@ Ignorer les informations de timing ?</translation>
         <translation></translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="-1107"/>
+        <source> (0 tracks)</source>
+        <translation> (0 piste)</translation>
+    </message>
+    <message>
+        <location line="+600"/>
+        <source>Go to previous cut point [SHIFT+DOWN]</source>
+        <translation>Point de coupe précédent [MAJ+BAS]</translation>
+    </message>
+    <message>
+        <location line="+23"/>
+        <source>Go to next cut point [SHIFT+UP]</source>
+        <translation>Point de coupe suivant [MAJ+HAUT]</translation>
+    </message>
+    <message>
+        <location line="+447"/>
+        <source>Selection: 000000</source>
+        <translation>Sélection : 000000</translation>
+    </message>
+    <message>
+        <location line="+151"/>
         <source>Audio &amp;Metre</source>
         <translation>Audio&amp;mètre</translation>
     </message>
     <message>
-        <location line="+50"/>
+        <location line="+47"/>
+        <source>&amp;Open...</source>
+        <translation>&amp;Ouvrir…</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Open Video</source>
         <translation>Ouvrir une vidéo</translation>
     </message>
@@ -889,7 +774,60 @@ Ignorer les informations de timing ?</translation>
         <translation>&amp;Information…</translation>
     </message>
     <message>
-        <location line="+201"/>
+        <location line="+9"/>
+        <source>Save &amp;Video...</source>
+        <translation>Enregistrer la &amp;vidéo…</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+3"/>
+        <source>Save Video</source>
+        <translation>Enregistrer</translation>
+    </message>
+    <message>
+        <location line="+22"/>
+        <source>HDR tone mapping</source>
+        <translation>Mappage de tons HDR</translation>
+    </message>
+    <message>
+        <location line="+102"/>
+        <source>&amp;Load/Run Project...</source>
+        <translation>&amp;Lancer un projet…</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+3"/>
+        <source>Load/Run Project</source>
+        <translation>Lancer un projet</translation>
+    </message>
+    <message>
+        <location line="+9"/>
+        <source>Save &amp;Project</source>
+        <translation>Enregistrer un &amp;projet</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <location line="+3"/>
+        <source>Save Project</source>
+        <translation>Enregistrer un projet</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>&amp;Input</source>
+        <translation>Orig&amp;inal</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&amp;Output</source>
+        <translation>M&amp;odifié</translation>
+    </message>
+    <message>
+        <location line="+11"/>
+        <source>&amp;Codec Options</source>
+        <translation>Options des co&amp;dec</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Ctrl+Alt+C</source>
         <translation></translation>
     </message>
@@ -921,7 +859,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+11"/>
         <source>&amp;Toolbar</source>
-        <translation>Barre d&apos;outils</translation>
+        <translation>Barre d&apos;&amp;outils</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -931,7 +869,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+11"/>
         <source>Stat&amp;us bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barre d&apos;é&amp;tat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -947,6 +885,21 @@ Ignorer les informations de timing ?</translation>
         <location line="+3"/>
         <source>Ctrl+Alt+M</source>
         <translation></translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&amp;Separate</source>
+        <translation>&amp;Séparer</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>&amp;Top</source>
+        <translation>Hau&amp;t</translation>
+    </message>
+    <message>
+        <location line="+12"/>
+        <source>Si&amp;de</source>
+        <translation>&amp;Côté</translation>
     </message>
 </context>
 <context>
@@ -1134,414 +1087,6 @@ Ignorer les informations de timing ?</translation>
 <context>
     <name>adm</name>
     <message>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+715"/>
-        <source>Decode video using DXVA2 (windows)</source>
-        <translation>Utiliser DXVA2 pour décoder (Windows)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Ignore driver blacklist (Intel)</source>
-        <translation>Ignorer la liste noire des pilotes (Intel)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
-        <translation>Ignorer la liste noire des codecs (Intel, HEVC 10bit) </translation>
-    </message>
-    <message>
-        <location line="+21"/>
-        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
-        <translation>L&apos;activation du décodage HW désactive le multithreading, redémarrez l&apos;application pour appliquer les modifications</translation>
-    </message>
-    <message>
-        <location line="-60"/>
-        <source>Enable OpenGL support</source>
-        <translation>Activer OpenGL</translation>
-    </message>
-    <message>
-        <location line="-362"/>
-        <source>_Accept non-standard audio frequency for DVD</source>
-        <translation>Accepter les fréquences non standard pour les DVD</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>_Revert to saved default output settings on video load</source>
-        <translation>_Revenir aux paramètres par défaut enregistrés lors du chargement vidéo</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>_Enable alternative keyboard shortcuts</source>
-        <translation>Activer les raccourcis claviers alternatifs</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Re_verse UP and DOWN arrow keys for navigation</source>
-        <translation>Inverser les touches HAUT et BAS pour la navigation</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Reverse mouse _wheel for navigation</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
-        <translation>_Inversion des marqueurs dans la vidéo si le marqueur A est après le marqueur B, ou inversement</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Enable all SIMD</source>
-        <translation>Activer toutes les optimisations SIMD</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable MMX</source>
-        <translation>Activer le MMX</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable MMXEXT</source>
-        <translation>Activer le MMXEXT</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable 3DNOW</source>
-        <translation>Activer le 3DNOW</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable 3DNOWEXT</source>
-        <translation>Activer le 3DNOWEXT</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSE</source>
-        <translation>Activer le SSE</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSE2</source>
-        <translation>Activer le SSE2</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSE3</source>
-        <translation>Activer le SSE3</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSSE3</source>
-        <translation>Activer le SSSE3</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSE4</source>
-        <translation>Activer le SSE4</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable SSE4.2</source>
-        <translation>Activer le SSE4.2</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable AVX</source>
-        <translation>Activer le AVX</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable AVX2</source>
-        <translation>Activer le AVX2</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Enable FMA3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+41"/>
-        <source>_lavc threads:</source>
-        <translation>Threads lavc :</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
-        <translation>Le multithreading est désactivé en interne si le décodage accéléré matériel est activé, redémarrez l&apos;application pour appliquer les modifications </translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+47"/>
-        <source>High</source>
-        <translation>Haute</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Above normal</source>
-        <translation>Plus que normale</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Normal</source>
-        <translation>Normale</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Below normal</source>
-        <translation>Sous normale</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
-        <source>Low</source>
-        <translation>Basse</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>_Encoding priority:</source>
-        <translation>Priorité de l&apos;encodage :</translation>
-    </message>
-    <message>
-        <source>_Indexing/unpacking priority:</source>
-        <translation type="vanished">Priorité de l&apos;indexation :</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>_Playback priority:</source>
-        <translation>Priorité de la lecture :</translation>
-    </message>
-    <message>
-        <location line="-7"/>
-        <source>Prioritisation</source>
-        <translation>Priorités</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Priority can be only lowered and applies to the entire application for the current session</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>_Default to the directory of the last read file for saving</source>
-        <translation>Utiliser le répertoire du dernier fichier lu comme répertoire de sauvegarde par défaut</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>De_lete first pass log files by default</source>
-        <translation>Supprimer les fichiers journaux du premier passage par défaut</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Auto-Append Settings</source>
-        <translation>Ajout automatique</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>_Use custom fragment size for auto-append of MPEG-TS files</source>
-        <translation>Utiliser une taille de fragment personnalisée pour l&apos;ajout automatique de fichiers MPEG-TS</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>_Fragment size:</source>
-        <translation>_Taille du fragment :</translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Pictures</source>
-        <translation>Images</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>_Load sequentially named pictures in reverse order</source>
-        <translation>Charger les images séquentielles dans l&apos;ordre inverse</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>23.976 (Film)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>25 (PAL)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>29.970 (NTSC)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>30</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>50 (PAL)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>59.940 (NTSC)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>60</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>_Assign following standard frame rate:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Avisynth</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+203"/>
-        <source>Default out of gamut handling:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>HDR</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="-11"/>
-        <source>Default _tone mapping method:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>Target peak luminance (nits):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-189"/>
-        <source>Use _shared cache</source>
-        <translation>Utiliser le cache partagé</translation>
-    </message>
-    <message>
-        <source>XVideo (best)</source>
-        <translation type="vanished">Xvideo (rapide)</translation>
-    </message>
-    <message>
-        <source>VDPAU (best)</source>
-        <translation type="vanished">VDPAU (très rapide)</translation>
-    </message>
-    <message>
-        <source>DXVA2 (best)</source>
-        <translation type="vanished">DXVA2 (très rapide)</translation>
-    </message>
-    <message>
-        <source>OpenGL (best)</source>
-        <translation type="vanished">OpenGL (rapide)</translation>
-    </message>
-    <message>
-        <source>SDL (good)</source>
-        <translation type="vanished">SDL (moyen)</translation>
-    </message>
-    <message>
-        <location line="+31"/>
-        <source>Video _display:</source>
-        <translation>Affichage vidéo :</translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>No alerts</source>
-        <translation>Pas d&apos;alerte</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Display only error alerts</source>
-        <translation>N&apos;afficher que les erreurs</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Display all alerts</source>
-        <translation>Afficher tout</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>_Message level:</source>
-        <translation>Afficher les messages :</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>_Volume control:</source>
-        <translation>Contrôle du volume :</translation>
-    </message>
-    <message>
-        <location line="+4"/>
-        <source>No downmixing</source>
-        <translation>Pas de downmixing</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>_Local playback downmixing:</source>
-        <translation>Downmixing pour la lecture :</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <source>_AudioDevice</source>
-        <translation>Périphérique audio</translation>
-    </message>
-    <message>
-        <location filename="../ADM_commonUI/DIA_postproc.cpp" line="+26"/>
-        <source>_Filter strength:</source>
-        <translation>Force du filtre :</translation>
-    </message>
-    <message>
-        <location line="-1"/>
-        <source>The options above are effective only for software decoding</source>
-        <translation>Les options ci-dessus ne sont efficaces que pour le décodage logiciel</translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+72"/>
-        <source>_Horizontal deblocking</source>
-        <translation>Deblocking horizontal</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+1"/>
-        <source>_Vertical deblocking</source>
-        <translation>Deblocking vertical</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>De_interlacing (ffmpegdeint)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Deblocking</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+2"/>
-        <source>_Strength:</source>
-        <translation>Force :</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Default Postprocessing</source>
-        <translation>Postprocessing par défaut</translation>
-    </message>
-    <message>
-        <location line="-33"/>
-        <source>User Interface</source>
-        <translation>Interface utilisateur</translation>
-    </message>
-    <message>
-        <location line="+10"/>
-        <source>Output</source>
-        <translation>Sortie</translation>
-    </message>
-    <message>
         <location filename="../ADM_commonUI/myOwnMenu.h" line="+36"/>
         <source>Open</source>
         <translation>Ouvrir</translation>
@@ -1557,27 +1102,22 @@ Ignorer les informations de timing ?</translation>
         <translation>Enregistrer</translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Queue</source>
+        <translation>Mettre en file d&apos;attente</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Save as Image</source>
         <translation>Enregistrer comme image</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Save as BMP</source>
-        <translation>Enregistrer comme BMP</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Save as PNG</source>
-        <translation>Enregistrer comme PNG</translation>
+        <translation>Au format PNG</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Save as JPEG</source>
-        <translation>Enregistrer comme JPEG</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+2"/>
         <source>Save Selection as JPEG</source>
         <translation>Enregistrer la sélection comme JPEG</translation>
     </message>
@@ -1587,22 +1127,23 @@ Ignorer les informations de timing ?</translation>
         <translation>Fermer</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>Connect to avsproxy</source>
-        <translation>Se connecter à avsproxy</translation>
+        <location line="+2"/>
+        <source>Information</source>
+        <translation></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+4"/>
         <source>Quit</source>
         <translation>Quitter</translation>
     </message>
     <message>
-        <location line="+17"/>
-        <source>Undo</source>
-        <translation>Défaire</translation>
+        <location line="+6"/>
+        <location line="+3"/>
+        <source>Clear recent items</source>
+        <translation>Effacer les éléments récents</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="+9"/>
         <source>Redo</source>
         <translation>Refaire</translation>
     </message>
@@ -1658,7 +1199,13 @@ Ignorer les informations de timing ?</translation>
         <translation>Réinitialiser les marqueurs</translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+5"/>
+        <location line="+3"/>
+        <source>Save current settings as default</source>
+        <translation>Enregistrer les réglages courants comme défaut</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Load saved settings</source>
         <translation>Charger les réglages sauvegardés</translation>
     </message>
@@ -1675,7 +1222,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>HDR tone mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappage de tons HDR</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1686,12 +1233,12 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="-9"/>
         <source>Add partialized filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajouter un filtre partiel</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Play filtered</source>
-        <translation>Jouer post filtrage</translation>
+        <translation>Jouer le post filtrage</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -1709,52 +1256,17 @@ Ignorer les informations de timing ?</translation>
         <translation>Options activées</translation>
     </message>
     <message>
-        <location line="+4"/>
-        <source>&amp;Advanced</source>
-        <translation>&amp;Avancé</translation>
-    </message>
-    <message>
         <location line="+1"/>
-        <source>Open Application &amp;Log</source>
-        <translation>Ouvrir le fichier de &amp;log</translation>
+        <source>Plugins</source>
+        <translation></translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Open Application Data &amp;Folder</source>
-        <translation>Ouvrir le dossier de l&apos;application</translation>
-    </message>
-    <message>
-        <location line="+4"/>
+        <location line="+9"/>
         <source>About</source>
         <translation>À propos</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Play/Stop</source>
-        <translation>Jouer/stopper</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Previous Frame</source>
-        <translation>Image précédente</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Next Frame</source>
-        <translation>Image suivante</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Previous Intra Frame</source>
-        <translation>Image clé précédente</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Next Intra Frame</source>
-        <translation>Image clé suivante</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+12"/>
         <source>Previous Cut Point</source>
         <translation>Point de coupe précédent</translation>
     </message>
@@ -1764,17 +1276,7 @@ Ignorer les informations de timing ?</translation>
         <translation>Point de coupe suivant</translation>
     </message>
     <message>
-        <location line="+1"/>
-        <source>Previous Black Frame</source>
-        <translation>Image noire précédente</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Next Black Frame</source>
-        <translation>Image noire suivante</translation>
-    </message>
-    <message>
-        <location line="+1"/>
+        <location line="+4"/>
         <source>First Frame</source>
         <translation>Première image</translation>
     </message>
@@ -1876,7 +1378,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+4"/>
         <location line="+44"/>
-        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+43"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
@@ -1926,8 +1428,13 @@ Ignorer les informations de timing ?</translation>
         <translation>Aucun</translation>
     </message>
     <message>
-        <location line="+2"/>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="-74"/>
+        <location line="+1"/>
+        <source>Mono</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+543"/>
         <source>Stereo</source>
         <translation>Stéréo</translation>
     </message>
@@ -1940,7 +1447,7 @@ Ignorer les informations de timing ?</translation>
     <message>
         <location line="+1"/>
         <source>Stereo+surround</source>
-        <translation>Stéréo + Surround</translation>
+        <translation>Stéréo + surround</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1963,18 +1470,88 @@ Ignorer les informations de timing ?</translation>
         <translation>5 canaux</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>5.1</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Dolby Pro Logic</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Dolby Pro Logic II</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+3"/>
         <source>Surround headphones</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+28"/>
+        <source>Shift audio (ms):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>Enable Compressor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Normalize</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Threshold (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Noise floor (dB):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Ratio:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Attack time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Release time (sec):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+8"/>
+        <source>DRC</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="-47"/>
+        <source>Automatic</source>
+        <translation>Automatique</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Manual (dB)</source>
         <translation>Manuel (dB)</translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+2"/>
+        <source>Gain</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_Gain mode:</source>
         <translation>Mode :</translation>
     </message>
@@ -1999,11 +1576,12 @@ Ignorer les informations de timing ?</translation>
         <translation>Remixer</translation>
     </message>
     <message>
-        <source>Shift audio:</source>
-        <translation type="vanished">Décalage audio :</translation>
+        <location line="+3"/>
+        <source>Mixer</source>
+        <translation></translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+6"/>
         <source>Shift Value (ms):</source>
         <translation>Valeur (ms) :</translation>
     </message>
@@ -2263,165 +1841,6 @@ Ignorer les informations de timing ?</translation>
         <translation>Filtres audios</translation>
     </message>
     <message>
-        <location filename="../../common/gui_autodrive.cpp" line="+49"/>
-        <source>An audio track is necessary to create such file</source>
-        <translation>Une piste audio est nécessaire pour ce type de fichier</translation>
-    </message>
-    <message>
-        <location line="+15"/>
-        <location line="+14"/>
-        <location line="+31"/>
-        <location line="+6"/>
-        <location line="+15"/>
-        <location line="+27"/>
-        <location line="+35"/>
-        <source>Codec Error</source>
-        <translation>Erreur de codec</translation>
-    </message>
-    <message>
-        <location line="-114"/>
-        <source>No AAC audio encoder plugin found.</source>
-        <translation>Pas de plugin AAC trouvé.</translation>
-    </message>
-    <message>
-        <location line="+32"/>
-        <source>The MP3 codec does not allow disabling reservoir.
-Install lame plugin</source>
-        <translation>Le codec MP3 n&apos;autorise pas l&apos;option reservoir. Installez le plugin lame</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>You don&apos;t have LAME!.
-It is needed to create FLV  video.</source>
-        <translation>Vous n&apos;avez pas le plugin LAME. Il est nécessaire pour créer des fichiers FLV.</translation>
-    </message>
-    <message>
-        <location line="+14"/>
-        <source>Cannot select FLV1  codec.</source>
-        <translation>Impossible de choisir le codec FLV1.</translation>
-    </message>
-    <message>
-        <location filename="../../common/gui_main.cpp" line="+194"/>
-        <source>Select script to save</source>
-        <translation>Choisir le script à sauvegarder</translation>
-    </message>
-    <message>
-        <location line="+540"/>
-        <source>Are you sure?</source>
-        <translation>Etes-vous sur ?</translation>
-    </message>
-    <message>
-        <location line="+247"/>
-        <source>Cannot open &quot;%s&quot;.</source>
-        <translation>Impossible d&apos;ouvrir &quot;%s&quot;.</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>File error</source>
-        <translation>Erreur de fichier</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>&quot;%s&quot; does not exist.</source>
-        <translation>&quot;%s&quot; n&apos;existe pas.</translation>
-    </message>
-    <message>
-        <location line="+98"/>
-        <source>Multiple Audio Tracks</source>
-        <translation>Plusieurs pistes audios</translation>
-    </message>
-    <message>
-        <location line="+417"/>
-        <source>Something bad happened</source>
-        <translation>Quelque chose d&apos;anormal s&apos;est produit</translation>
-    </message>
-    <message>
-        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+47"/>
-        <location filename="../ADM_commonUI/DIA_audioFilter.cpp" line="-210"/>
-        <source>Custom</source>
-        <translation>Manuel</translation>
-    </message>
-    <message>
-        <location filename="../ADM_commonUI/DIA_audioFilter.cpp" line="+28"/>
-        <source>Mono</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>5.1</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Dolby Pro Logic</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Dolby Pro Logic II</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+29"/>
-        <source>Shift audio (ms):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>Enable Compressor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Normalize</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Threshold (dB):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Noise floor (dB):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Ratio:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Attack time (sec):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Release time (sec):</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+8"/>
-        <source>DRC</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="-47"/>
-        <source>Automatic</source>
-        <translation>Automatique</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Gain</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+17"/>
-        <source>Mixer</source>
-        <translation></translation>
-    </message>
-    <message>
         <location filename="../ADM_commonUI/DIA_builtin.cpp" line="+77"/>
         <source>Fontconfig</source>
         <translation></translation>
@@ -2483,7 +1902,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location filename="../ADM_commonUI/DIA_gototime.cpp" line="+33"/>
         <source>TimeStamp:</source>
-        <translation>Horodatage : </translation>
+        <translation>Horodatage :</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2528,7 +1947,7 @@ It is needed to create FLV  video.</source>
         <location line="+3"/>
         <location line="+5"/>
         <source>Audio</source>
-        <translation></translation>
+        <translation>Audio</translation>
     </message>
     <message>
         <location filename="../ADM_commonUI/DIA_plugins.cpp" line="+6"/>
@@ -2538,7 +1957,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+30"/>
         <source>Video Encoder</source>
-        <translation>Encoder vidéo</translation>
+        <translation>Encodeurs vidéo</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2578,7 +1997,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+29"/>
         <source>Demuxers</source>
-        <translation>Demuxers</translation>
+        <translation>Demuxeurs</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -2596,12 +2015,49 @@ It is needed to create FLV  video.</source>
         <translation>Information plugin</translation>
     </message>
     <message>
-        <location filename="../ADM_commonUI/DIA_postproc.cpp" line="-3"/>
+        <location filename="../ADM_commonUI/DIA_postproc.cpp" line="+26"/>
+        <source>_Filter strength:</source>
+        <translation>Force du filtre :</translation>
+    </message>
+    <message>
+        <location line="-1"/>
+        <source>The options above are effective only for software decoding</source>
+        <translation>Les options ci-dessus ne sont efficaces que pour le décodage logiciel</translation>
+    </message>
+    <message>
+        <location line="+17"/>
+        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+4"/>
+        <source>_Horizontal deblocking</source>
+        <translation>Deblocking horizontal</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+1"/>
+        <source>_Vertical deblocking</source>
+        <translation>Deblocking vertical</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_Deringing</source>
         <translation>Deringing</translation>
     </message>
     <message>
-        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+93"/>
+        <location line="+1"/>
+        <source>De_interlacing (ffmpegdeint)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Deblocking</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../ADM_commonUI/DIA_prefs.cpp" line="+79"/>
+        <source>Decode video using DXVA2 (windows)</source>
+        <translation>Utiliser DXVA2 pour décoder (Windows)</translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Decode video using VDPAU (NVIDIA)</source>
         <translation>Utiliser VDPAU pour décoder (NVIDIA)</translation>
     </message>
@@ -2616,12 +2072,62 @@ It is needed to create FLV  video.</source>
         <translation>Décoder la vidéo à l&apos;aide de VideoToolbox (macOS)</translation>
     </message>
     <message>
-        <location line="+14"/>
+        <location line="-41"/>
+        <source>Enable OpenGL support</source>
+        <translation>Activer OpenGL</translation>
+    </message>
+    <message>
+        <location line="+55"/>
         <source>If you use Hw decoding, it is better to use the matching display driver</source>
         <translation>Si vous activez le décodage HW, il est préférable d&apos;utiliser la même méthode d&apos;affichage</translation>
     </message>
     <message>
-        <location line="-406"/>
+        <location line="-18"/>
+        <source>Ignore driver blacklist (Intel)</source>
+        <translation>Ignorer la liste noire des pilotes (Intel)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Ignore codec blacklist (Intel, HEVC 10bit)</source>
+        <translation>Ignorer la liste noire des codecs (Intel, HEVC 10bit) </translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Enabling Hw decoding disables multi-threading, restart application to apply changes</source>
+        <translation>L&apos;activation du décodage HW désactive le multithreading, redémarrez l&apos;application pour appliquer les modifications</translation>
+    </message>
+    <message>
+        <location line="-422"/>
+        <source>_Accept non-standard audio frequency for DVD</source>
+        <translation>Accepter les fréquences non standard pour les DVD</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Revert to saved default output settings on video load</source>
+        <translation>_Revenir aux paramètres par défaut enregistrés lors du chargement vidéo</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Enable alternative keyboard shortcuts</source>
+        <translation>Activer les raccourcis claviers alternatifs</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Re_verse UP and DOWN arrow keys for navigation</source>
+        <translation>Inverser les touches HAUT et BAS pour la navigation</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Reverse mouse _wheel for navigation</source>
+        <translation>Inverser la molette de la souris pour la navigation</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>_Swap markers if marker A is set past marker B or marker B before A in video</source>
+        <translation>_Inversion des marqueurs dans la vidéo si le marqueur A est après le marqueur B, ou inversement</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_Check for new release</source>
         <translation>Vérifier s&apos;il y a de nouvelle version</translation>
     </message>
@@ -2631,28 +2137,285 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+64"/>
+        <location line="+2"/>
+        <source>Enable all SIMD</source>
+        <translation>Activer toutes les optimisations SIMD</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable MMX</source>
+        <translation>Activer le MMX</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable MMXEXT</source>
+        <translation>Activer le MMXEXT</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable 3DNOW</source>
+        <translation>Activer le 3DNOW</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable 3DNOWEXT</source>
+        <translation>Activer le 3DNOWEXT</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE</source>
+        <translation>Activer le SSE</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE2</source>
+        <translation>Activer le SSE2</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE3</source>
+        <translation>Activer le SSE3</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSSE3</source>
+        <translation>Activer le SSSE3</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4</source>
+        <translation>Activer le SSE4</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable SSE4.2</source>
+        <translation>Activer le SSE4.2</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX</source>
+        <translation>Activer le AVX</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable AVX2</source>
+        <translation>Activer le AVX2</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Enable FMA3</source>
+        <translation>Activer le FMA3</translation>
+    </message>
+    <message>
+        <location line="+41"/>
+        <source>_lavc threads:</source>
+        <translation>Threads lavc :</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Multi-threading is disabled internally if HW accelerated decoding is enabled, restart application to apply changes</source>
+        <translation>Le multithreading est désactivé en interne si le décodage accéléré matériel est activé, redémarrez l&apos;application pour appliquer les modifications </translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>Multi-threading</source>
         <translation>Multithreading</translation>
     </message>
     <message>
-        <location line="+74"/>
+        <location line="+7"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
+        <source>High</source>
+        <translation>Haute</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Above normal</source>
+        <translation>Plus que normale</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Normal</source>
+        <translation>Normale</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Below normal</source>
+        <translation>Sous normale</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-2"/>
+        <source>Low</source>
+        <translation>Basse</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>_Encoding priority:</source>
+        <translation>Priorité de l&apos;encodage :</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>_Playback priority:</source>
+        <translation>Priorité de la lecture :</translation>
+    </message>
+    <message>
+        <location line="-7"/>
+        <source>Prioritisation</source>
+        <translation>Priorités</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>_Default to the directory of the last read file for saving</source>
+        <translation>Utiliser le répertoire du dernier fichier lu comme répertoire de sauvegarde par défaut</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>De_lete first pass log files by default</source>
+        <translation>Supprimer les fichiers journaux du premier passage par défaut</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Auto-Append Settings</source>
+        <translation>Ajout automatique</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Use custom fragment size for auto-append of MPEG-TS files</source>
+        <translation>Utiliser une taille de fragment personnalisée pour l&apos;ajout automatique de fichiers MPEG-TS</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Fragment size:</source>
+        <translation>_Taille du fragment :</translation>
+    </message>
+    <message>
+        <location line="+7"/>
+        <source>Pictures</source>
+        <translation>Images</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>_Load sequentially named pictures in reverse order</source>
+        <translation>Charger les images séquentielles dans l&apos;ordre inverse</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>23.976 (Film)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>25 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>29.970 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>30</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>50 (PAL)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>59.940 (NTSC)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>60</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Assign following standard frame rate:</source>
+        <translation>_Attribuer la fréquence d&apos;images standard suivante :</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Avisynth</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+203"/>
+        <source>Default out of gamut handling:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>HDR</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="-11"/>
+        <source>Default _tone mapping method:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Target peak luminance (nits):</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="-191"/>
         <source>Caching of decoded pictures</source>
         <translation>Mise en cache des images décodées</translation>
     </message>
     <message>
-        <location line="+1"/>
+        <location line="-46"/>
+        <source>Priority can be only lowered and applies to the entire application for the current session</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+47"/>
         <source>_Cache size:</source>
         <translation>_Taille du cache :</translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+1"/>
+        <source>Use _shared cache</source>
+        <translation>Utiliser le cache partagé</translation>
+    </message>
+    <message>
+        <location line="+31"/>
+        <source>Video _display:</source>
+        <translation>Affichage vidéo :</translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <location line="+4"/>
         <source>Sdl driver</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+4"/>
+        <source>No alerts</source>
+        <translation>Pas d&apos;alerte</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Display only error alerts</source>
+        <translation>N&apos;afficher que les erreurs</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Display all alerts</source>
+        <translation>Afficher tout</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Message level:</source>
+        <translation>Afficher les messages :</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <location filename="../../../avidemux_core/ADM_coreAudio/src/ADM_audioStream.cpp" line="+217"/>
         <source>PCM</source>
         <translation></translation>
@@ -2663,7 +2426,17 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+1"/>
+        <source>_Volume control:</source>
+        <translation>Contrôle du volume :</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>No downmixing</source>
+        <translation>Pas de downmixing</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Pro Logic</source>
         <translation></translation>
     </message>
@@ -2673,12 +2446,32 @@ It is needed to create FLV  video.</source>
         <translation></translation>
     </message>
     <message>
-        <location line="+91"/>
+        <location line="+2"/>
+        <source>_Local playback downmixing:</source>
+        <translation>Downmixing pour la _lecture :</translation>
+    </message>
+    <message>
+        <location line="+15"/>
+        <source>_AudioDevice</source>
+        <translation>Périphérique _audio :</translation>
+    </message>
+    <message>
+        <location line="+74"/>
         <source>De_ringing</source>
         <translation></translation>
     </message>
     <message>
-        <location line="-63"/>
+        <location line="+1"/>
+        <source>_Strength:</source>
+        <translation>Force :</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Default Postprocessing</source>
+        <translation>Postprocessing par défaut</translation>
+    </message>
+    <message>
+        <location line="-66"/>
         <source>System language</source>
         <translation>Langue du système</translation>
     </message>
@@ -2688,12 +2481,22 @@ It is needed to create FLV  video.</source>
         <translation>Langue</translation>
     </message>
     <message>
-        <location line="+13"/>
-        <source>Import</source>
-        <translation></translation>
+        <location line="+7"/>
+        <source>User Interface</source>
+        <translation>Interface utilisateur</translation>
     </message>
     <message>
-        <location line="+60"/>
+        <location line="+6"/>
+        <source>Import</source>
+        <translation>Importation</translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>Output</source>
+        <translation>Sortie</translation>
+    </message>
+    <message>
+        <location line="+56"/>
         <source>Post-Processing</source>
         <translation></translation>
     </message>
@@ -2710,7 +2513,7 @@ It is needed to create FLV  video.</source>
     <message>
         <location line="+5"/>
         <source>Enable OpenGL display in filter preview dialogs</source>
-        <translation type="unfinished"></translation>
+        <translation>Activer l&apos;affichage OpenGL dans les boîtes de dialogue de prévisualisation des filtres</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2779,36 +2582,79 @@ It is needed to create FLV  video.</source>
         <translation>Préférences</translation>
     </message>
     <message>
-        <location filename="../ADM_commonUI/myOwnMenu.h" line="-139"/>
-        <source>Queue</source>
-        <translation>Mettre en file d&apos;attente</translation>
+        <location filename="../ADM_commonUI/myOwnMenu.h" line="-137"/>
+        <source>Save as BMP</source>
+        <translation>Au format BMP</translation>
     </message>
     <message>
-        <location line="+8"/>
-        <source>Information</source>
-        <translation></translation>
+        <location line="+2"/>
+        <source>Save as JPEG</source>
+        <translation>Au format JPEG</translation>
     </message>
     <message>
-        <location line="+10"/>
-        <location line="+3"/>
-        <source>Clear recent items</source>
-        <translation>Effacer les éléments récents</translation>
+        <location line="+6"/>
+        <source>Connect to avsproxy</source>
+        <translation>Se connecter à avsproxy</translation>
     </message>
     <message>
-        <location line="+26"/>
+        <location line="+19"/>
+        <source>Undo</source>
+        <translation>Défaire</translation>
+    </message>
+    <message>
+        <location line="+18"/>
         <source>Pr&amp;eferences</source>
         <translation>Préférences</translation>
     </message>
     <message>
-        <location line="+3"/>
-        <location line="+3"/>
-        <source>Save current settings as default</source>
-        <translation>Enregistrer les réglages courants comme défaut</translation>
+        <location line="+37"/>
+        <source>&amp;Advanced</source>
+        <translation>&amp;Avancé</translation>
     </message>
     <message>
-        <location line="+28"/>
-        <source>Plugins</source>
-        <translation></translation>
+        <location line="+1"/>
+        <source>Open Application &amp;Log</source>
+        <translation>Ouvrir le fichier de &amp;log</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Open Application Data &amp;Folder</source>
+        <translation>Ouvrir le dossier de l&apos;application</translation>
+    </message>
+    <message>
+        <location line="+10"/>
+        <source>Play/Stop</source>
+        <translation>Jouer/stopper</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Previous Frame</source>
+        <translation>Image précédente</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Next Frame</source>
+        <translation>Image suivante</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Previous Intra Frame</source>
+        <translation>Image clé précédente</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Next Intra Frame</source>
+        <translation>Image clé suivante</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Previous Black Frame</source>
+        <translation>Image noire précédente</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Next Black Frame</source>
+        <translation>Image noire suivante</translation>
     </message>
     <message>
         <location filename="../../common/ADM_editor/src/ADM_segment.cpp" line="+860"/>
@@ -2817,7 +2663,7 @@ It is needed to create FLV  video.</source>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_libva.cpp" line="+150"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_vdpau_utils.cpp" line="+58"/>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_xvba.cpp" line="+134"/>
-        <location filename="../../common/gui_main.cpp" line="+179"/>
+        <location filename="../../common/gui_main.cpp" line="+1680"/>
         <location line="+35"/>
         <location line="+29"/>
         <location line="+11"/>
@@ -2861,18 +2707,56 @@ Installation mismatch</source>
         <translation>Avidemux_core n&apos;a pas été compilé avec XVBA, mais avidemux_app oui. Il y a un problème d&apos;installation.</translation>
     </message>
     <message>
-        <location filename="../../common/gui_autodrive.cpp" line="-81"/>
+        <location filename="../../common/gui_autodrive.cpp" line="+49"/>
         <location filename="../../common/gui_save.cpp" line="-662"/>
         <source>No audio track</source>
         <translation>Pas de piste audio</translation>
     </message>
     <message>
+        <location line="+0"/>
+        <source>An audio track is necessary to create such file</source>
+        <translation>Une piste audio est nécessaire pour ce type de fichier</translation>
+    </message>
+    <message>
         <location line="+15"/>
+        <location line="+14"/>
+        <location line="+31"/>
+        <location line="+6"/>
+        <location line="+15"/>
+        <location line="+27"/>
+        <location line="+35"/>
+        <source>Codec Error</source>
+        <translation>Erreur de codec</translation>
+    </message>
+    <message>
+        <location line="-128"/>
         <source>Cannot select the MPEG-4 SP codec.</source>
         <translation>Impossible de choisir le codec MPEG4 SP</translation>
     </message>
     <message>
-        <location line="+93"/>
+        <location line="+14"/>
+        <source>No AAC audio encoder plugin found.</source>
+        <translation>Pas de plugin AAC trouvé.</translation>
+    </message>
+    <message>
+        <location line="+32"/>
+        <source>The MP3 codec does not allow disabling reservoir.
+Install lame plugin</source>
+        <translation>Le codec MP3 n&apos;autorise pas l&apos;option reservoir. Installez le plugin lame</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>You don&apos;t have LAME!.
+It is needed to create FLV  video.</source>
+        <translation>Vous n&apos;avez pas le plugin LAME. Il est nécessaire pour créer des fichiers FLV.</translation>
+    </message>
+    <message>
+        <location line="+14"/>
+        <source>Cannot select FLV1  codec.</source>
+        <translation>Impossible de choisir le codec FLV1.</translation>
+    </message>
+    <message>
+        <location line="+27"/>
         <source>Cannot select MPEG-4 SP codec.</source>
         <translation>Impossible de choisir le codec MPEG4 SP</translation>
     </message>
@@ -2880,8 +2764,7 @@ Installation mismatch</source>
         <location line="+36"/>
         <source>You don&apos;t have FAAC!.
 It is needed to create PSP compatible video.</source>
-        <translation>FAAC n&apos;est pas disponible. 
-Il est nécessaire pour créer un fichier compatible PSP</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../common/gui_main.cpp" line="-1601"/>
@@ -2899,7 +2782,12 @@ Il est nécessaire pour créer un fichier compatible PSP</translation>
         <translation>Choisir un script à débugger</translation>
     </message>
     <message>
-        <location line="+68"/>
+        <location line="+4"/>
+        <source>Select script to save</source>
+        <translation>Choisir le script à sauvegarder</translation>
+    </message>
+    <message>
+        <location line="+64"/>
         <source>You are about to clear the list of recent files and projects. This can&apos;t be undone. Proceed?</source>
         <translation>Vous êtes sur le point d&apos;effacer la liste des fichiers et projets récents. Cela ne peut pas être annulé. Continuer ?</translation>
     </message>
@@ -2934,9 +2822,7 @@ Il est nécessaire pour créer un fichier compatible PSP</translation>
         <source>The cut points of the pasted video are not on keyframes.
 Video saved in copy mode will be corrupted at these points.
 Proceed anyway?</source>
-        <translation>Les points de coupe de la vidéo collée ne sont pas sur des images clés.
-La vidéo enregistrée en mode copie sera corrompue à ces points.
-Voulez-vous continuer malgré tout ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -2958,7 +2844,12 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+83"/>
+        <source>Are you sure?</source>
+        <translation>Etes-vous sur ?</translation>
+    </message>
+    <message>
+        <location line="+48"/>
         <location line="+24"/>
         <source>Cutting</source>
         <translation>Coupe</translation>
@@ -2995,9 +2886,7 @@ Proceed anyway?</source>
         <source>The end point of the deletion is not on a keyframe.
 Video saved in copy mode will be corrupted at this point.
 Proceed anyway?</source>
-        <translation>Le point final de la coupe n&apos;est pas sur une image clé.
-La vidéo enregistrée en mode copie sera corrompue.
-Continuer ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+6"/>
@@ -3036,7 +2925,22 @@ Proceed anyway?</source>
         <translation>Erreur de permission</translation>
     </message>
     <message>
-        <location line="+41"/>
+        <location line="+0"/>
+        <source>Cannot open &quot;%s&quot;.</source>
+        <translation>Impossible d&apos;ouvrir &quot;%s&quot;.</translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>File error</source>
+        <translation>Erreur de fichier</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>&quot;%s&quot; does not exist.</source>
+        <translation>&quot;%s&quot; n&apos;existe pas.</translation>
+    </message>
+    <message>
+        <location line="+36"/>
         <source>Cannot open project using the video loader.</source>
         <translation>Impossible d&apos;ouvrir le projet à l&apos;aide du chargeur vidéo.</translation>
     </message>
@@ -3051,11 +2955,15 @@ Proceed anyway?</source>
         <translation>Impossible d&apos;ouvrir le fichier</translation>
     </message>
     <message>
-        <location line="+58"/>
+        <location line="+57"/>
+        <source>Multiple Audio Tracks</source>
+        <translation>Plusieurs pistes audios</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>The file you just loaded contains several audio tracks.
 Go to Audio-&gt;MainTrack to select the active one.</source>
-        <translation>Le fichier que vous venez de charger contient plusieurs pistes audio.
-Allez dans le menu &quot;Audio -&gt; Choisir les pistes&quot; pour sélectionner celle qui est active.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
@@ -3072,8 +2980,7 @@ Allez dans le menu &quot;Audio -&gt; Choisir les pistes&quot; pour sélectionner
         <location line="+44"/>
         <source>The tinypy plugin is missing.
 Expect problems.</source>
-        <translation>Le plugin tinypy est manquant.
-Attendez-vous à des problèmes.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+104"/>
@@ -3106,7 +3013,12 @@ Attendez-vous à des problèmes.</translation>
         <translation>Vous ne pouvez pas tout supprimer</translation>
     </message>
     <message>
-        <location line="+124"/>
+        <location line="+8"/>
+        <source>Something bad happened</source>
+        <translation>Quelque chose d&apos;anormal s&apos;est produit</translation>
+    </message>
+    <message>
+        <location line="+116"/>
         <source>_Track from video:</source>
         <translation>_Piste venant de la vidéo</translation>
     </message>
@@ -3193,12 +3105,7 @@ Is it running ?</source>
         <translation>Le périphérique audio ne peut pas être initialisé</translation>
     </message>
     <message>
-        <location filename="../../common/gui_save.cpp" line="+11"/>
-        <source>Audio encoder index out of bounds</source>
-        <translation>Index de l&apos;encodeur audio hors limite</translation>
-    </message>
-    <message>
-        <location line="+46"/>
+        <location filename="../../common/gui_save.cpp" line="+57"/>
         <source>No</source>
         <translation>Non</translation>
     </message>
@@ -3338,7 +3245,7 @@ Is it running ?</source>
     <message>
         <location line="+13"/>
         <source>Job script %s already exists. Overwrite?</source>
-        <translation>Le script de travail %s existe déjà. Écraser ?</translation>
+        <translation>Le script de tâche %s existe déjà. Écraser ?</translation>
     </message>
     <message>
         <location line="-118"/>
@@ -3347,7 +3254,12 @@ Is it running ?</source>
         <translation>Fait</translation>
     </message>
     <message>
-        <location line="-80"/>
+        <location line="-603"/>
+        <source>Audio encoder index out of bounds</source>
+        <translation>Index de l&apos;encodeur audio hors limite</translation>
+    </message>
+    <message>
+        <location line="+523"/>
         <source>Maximum number of 99999 images reached.</source>
         <translation>Nombre maximum de 99999 images atteint.</translation>
     </message>
@@ -3390,8 +3302,7 @@ Is it running ?</source>
         <location filename="../../common/gui_savenew.cpp" line="-260"/>
         <source>Reuse previous first pass data ?
 Warning, the settings must be close.</source>
-        <translation>Réutiliser les données précédentes du premier passage ?
-Attention, les paramètres doivent être proche.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
@@ -3412,10 +3323,6 @@ Attention, les paramètres doivent être proche.</translation>
         <translation>Impossible de créer l&apos;encodeur</translation>
     </message>
     <message>
-        <source>Cannot setup codec. Bitrate too low?</source>
-        <translation type="vanished">Impossible de configurer le codec. Bitrate trop bas?</translation>
-    </message>
-    <message>
         <location line="+63"/>
         <source>Cannot setup audio encoder, make sure your stream is compatible with audio encoder (number of channels, bitrate, format)</source>
         <translation>Impossible de configurer l&apos;encodeur audio, assurez-vous que votre flux est compatible avec l&apos;encodeur audio (nombre de canaux, bitrate, format)</translation>
@@ -3425,9 +3332,7 @@ Attention, les paramètres doivent être proche.</translation>
         <source>The video is in copy mode but the cut points are not on keyframes.
 The video will be saved but there will be corruption at cut point(s).
 Do you want to continue anyway ?</source>
-        <translation>La vidéo est en mode copie, mais les points de coupure ne sont pas sur les images clés.
-La vidéo sera enregistrée, mais il y aura des corruption au point de coupure(s).
-Voulez-vous continuer ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-265"/>
@@ -3445,7 +3350,7 @@ Voulez-vous continuer ?</translation>
         <location line="+11"/>
         <location line="+301"/>
         <source>Cannot instantiate muxer</source>
-        <translation>Impossible d&apos;instancier muxer</translation>
+        <translation>Impossible d&apos;instancier le muxeur</translation>
     </message>
     <message>
         <location line="-110"/>
@@ -3476,7 +3381,7 @@ Try anyway?</source>
         <translation>Ne peut pas ouvrir</translation>
     </message>
     <message>
-        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="-2"/>
+        <location filename="../ADM_UIs/src/T_threadCount.cpp" line="+45"/>
         <location filename="../ADM_commonUI/DIA_HDRConfig.cpp" line="+27"/>
         <location filename="../ADM_commonUI/DIA_prefs.cpp" line="-138"/>
         <source>Disabled</source>
@@ -3488,7 +3393,13 @@ Try anyway?</source>
         <translation>Détection auto</translation>
     </message>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-9"/>
+        <location line="+1"/>
+        <location filename="../ADM_commonUI/DIA_audioFilter.cpp" line="-210"/>
+        <source>Custom</source>
+        <translation>Manuel</translation>
+    </message>
+    <message>
+        <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="-11"/>
         <source>_Interlaced</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3505,7 +3416,7 @@ Try anyway?</source>
     <message>
         <location line="+1"/>
         <source>Turbo mode</source>
-        <translation>Mode Turbo</translation>
+        <translation>Mode turbo</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3513,7 +3424,7 @@ Try anyway?</source>
         <translation>Optimiseur C&amp;hroma</translation>
     </message>
     <message>
-        <location filename="../ADM_commonUI/DIA_audioFilter.cpp" line="+10"/>
+        <location filename="../ADM_commonUI/DIA_audioFilter.cpp" line="+72"/>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+2"/>
         <source>Main</source>
         <translation>Principal</translation>
@@ -3521,7 +3432,7 @@ Try anyway?</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/DIA_xvid4.cpp" line="+4"/>
         <source>Very Low</source>
-        <translation>Très Bas</translation>
+        <translation>Très bas</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3531,7 +3442,7 @@ Try anyway?</source>
     <message>
         <location line="+2"/>
         <source>Very High</source>
-        <translation>Très Haut</translation>
+        <translation>Très haut</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3556,7 +3467,7 @@ Try anyway?</source>
     <message>
         <location line="+1"/>
         <source>Limited Search</source>
-        <translation>Recherche Limitée</translation>
+        <translation>Recherche limitée</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3881,7 +3792,7 @@ Try anyway?</source>
     <message>
         <location line="+246"/>
         <source>Memory error</source>
-        <translation type="unfinished">Impossible d&apos;allouer la mémoire</translation>
+        <translation>Impossible d&apos;allouer la mémoire</translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreMuxer/src/ADM_coreMuxerFfmpeg.cpp" line="+470"/>
@@ -3909,9 +3820,7 @@ Try anyway?</source>
         <source>can&apos;t open &quot;%s&quot;: %s
 %s
 </source>
-        <translation>Impossible d&apos;ouvrir &quot;%s&quot;: %s
-%s
-</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -3935,8 +3844,7 @@ Try anyway?</source>
         <location line="-79"/>
         <source>can&apos;t open &quot;%s&quot;: %u (%s)
 </source>
-        <translation>Ne peut pas ouvrir &quot;%s&quot;: %u (%s)
-</translation>
+        <translation>Ne peut pas ouvrir &quot;%s&quot;: %u (%s)</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -3965,7 +3873,7 @@ Try anyway?</source>
         <location line="+7"/>
         <source>can&apos;t write to file &quot;%s&quot;: %u (%s)
 </source>
-        <translation>Ne peut pas écrire dans le fichier &quot;%s&quot;: %u (%s)</translation>
+        <translation>Ne peut pas écrire dans le fichier &quot;%s&quot; : %u (%s)</translation>
     </message>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUtils/src/avidemutils.cpp" line="-7"/>
@@ -4010,19 +3918,10 @@ Try anyway?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Internal error finding codec 0x%x</source>
-        <translation type="vanished">Erreur interne pour trouver le codec 0x%x</translation>
-    </message>
-    <message>
-        <source>Internal error opening 0x%x</source>
-        <translation type="vanished">Erreur interne lors de l&apos;ouverture 0x%x</translation>
-    </message>
-    <message>
         <location filename="../../common/ADM_videoCodec/src/ADM_ffmpeg_dxva2.cpp" line="+1"/>
         <source>Core has been compiled without DXVA2 support, but the application has been compiled with it.
 Installation mismatch</source>
-        <translation>Core a été compilé sans le support DXVA2, mais l&apos;application a été compilée avec elle.
-Incompatibilité d&apos;installation</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6_openGl/glShaderLoader/shader.cpp" line="+246"/>
@@ -4143,14 +4042,14 @@ Incompatibilité d&apos;installation</translation>
 <context>
     <name>aften</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/aften/audioencoder_aften.cpp" line="+246"/>
-        <source>Aften Configuration</source>
-        <translation>Configuration d&apos;Aften</translation>
-    </message>
-    <message>
-        <location line="-6"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/aften/audioencoder_aften.cpp" line="+240"/>
         <source>_Bitrate:</source>
         <translation>Débit :</translation>
+    </message>
+    <message>
+        <location line="+6"/>
+        <source>Aften Configuration</source>
+        <translation>Configuration d&apos;Aften</translation>
     </message>
 </context>
 <context>
@@ -4985,8 +4884,7 @@ Incompatibilité d&apos;installation</translation>
         <location line="+0"/>
         <source>Cannot open file
 </source>
-        <translation>Ne peut pas ouvrir le fichier
-</translation>
+        <translation>Ne peut pas ouvrir le fichier</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Asf/ADM_asfHeaders.cpp" line="+468"/>
@@ -5038,14 +4936,34 @@ Incompatibilité d&apos;installation</translation>
 <context>
     <name>ass</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+73"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/ass/ADM_vidASS.cpp" line="+72"/>
+        <source>SSA/ASS/SRT</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Hardcode ASS/SSA/SRT subtitles using libass.</source>
         <translation>Incruster des sous-titres ASS/SSA/SRT avec libass</translation>
     </message>
     <message>
-        <location line="+131"/>
+        <location line="+91"/>
+        <source>Format ?</source>
+        <translation>Format ?</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Are you sure this is an ASS/SSA file ?</source>
+        <translation>Êtes-vous sûr qu&apos;il s&apos;agit d&apos;un fichier ASS/SSA ?</translation>
+    </message>
+    <message>
+        <location line="+40"/>
         <source>_Subtitle file (ASS/SSA):</source>
         <translation>Fichier de sous-titres (ASS/SSA) :</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Select Subtitle File</source>
+        <translation>Sélectionner le fichier de sous-titre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5055,7 +4973,7 @@ Incompatibilité d&apos;installation</translation>
     <message>
         <location line="+1"/>
         <source>_Font scale:</source>
-        <translation>Taille de la fonte :</translation>
+        <translation>Taille de la police :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -5068,34 +4986,14 @@ Incompatibilité d&apos;installation</translation>
         <translation>Marge basse :</translation>
     </message>
     <message>
-        <location line="-136"/>
-        <source>SSA/ASS/SRT</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+92"/>
-        <source>Format ?</source>
-        <translation>Format ?</translation>
-    </message>
-    <message>
-        <location line="+0"/>
-        <source>Are you sure this is an ASS/SSA file ?</source>
-        <translation>Êtes-vous sûr qu&apos;il s&apos;agit d&apos;un fichier ASS/SSA ?</translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>Select Subtitle File</source>
-        <translation>Sélectionner le fichier de sous-titre</translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+2"/>
         <source>Do not adjust</source>
         <translation>Ne pas ajuster</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Adjust for display aspect ratio:</source>
-        <translation>Ajustez le format d&apos;affichage : </translation>
+        <translation>Ajustez le format d&apos;affichage :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -5138,8 +5036,7 @@ Incompatibilité d&apos;installation</translation>
         <location line="+0"/>
         <source>Preparing the fonts can take a few minutes the first time.
 This message will not be displayed again.</source>
-        <translation>La préparation des fontes peut prendre plusieurs minutes la premère fois.
-Ce message n&apos;apparaitra pas la prochaine fois.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+89"/>
@@ -5158,12 +5055,6 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerAvi/muxerAvi.cpp" line="+75"/>
         <source>Bad Idea</source>
         <translation>Mauvaise idée</translation>
-    </message>
-    <message>
-        <source>Using H264/H265 in AVI is a bad idea, MKV is better for that.
- Do you want to continue anyway?</source>
-        <translation type="vanished">L&apos;utilisation de H264/H265 avec AVI n&apos;est pas conseillé, MKV est mieux pour cela.
- Voulez-vous continuer malgré tout ?</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -5215,27 +5106,17 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
 <context>
     <name>avsfilter</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilter.cpp" line="+599"/>
-        <source>Select wine filename[wine/cedega/etc.]</source>
-        <translation>Choisir le nom de l&apos;exécutable wine (wine/cedega/…)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>Select avs filename[*.avs]</source>
-        <translation>Choisir le fichier avisynth (*.avs)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>AvsFilter config</source>
-        <translation>Configuration AVSFilter</translation>
-    </message>
-    <message>
-        <location line="-12"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/avsfilter/avsfilter.cpp" line="+598"/>
         <source>_wine app file:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+3"/>
+        <location line="+1"/>
+        <source>Select wine filename[wine/cedega/etc.]</source>
+        <translation>Choisir le nom de l&apos;exécutable wine (wine/cedega/…)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_loader file:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5250,9 +5131,19 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>Select avs filename[*.avs]</source>
+        <translation>Choisir le fichier avisynth (*.avs)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_pipe timeout:</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+4"/>
+        <source>AvsFilter config</source>
+        <translation>Configuration AVSFilter</translation>
     </message>
 </context>
 <context>
@@ -5265,32 +5156,32 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location line="+1"/>
         <source>Constant Quantiser</source>
-        <translation type="unfinished">Quantisation constante</translation>
+        <translation>Quantisation constante</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Same Quantiser as Input</source>
-        <translation type="unfinished">Même quantisation que la source</translation>
+        <translation>Même quantisation que la source</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Constant Rate Factor</source>
-        <translation type="unfinished">Rate Factor constant</translation>
+        <translation>Rate Factor constant</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two Pass - Video Size</source>
-        <translation type="unfinished">2 Passes- Taille de la vidéo</translation>
+        <translation>2 Passes - Taille de la vidéo</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two Pass - Average Bitrate</source>
-        <translation type="unfinished">2 Passes - Bitrate moyen</translation>
+        <translation>2 Passes - Bitrate moyen</translation>
     </message>
     <message>
         <location line="+2"/>
         <source>Encoding mode</source>
-        <translation type="unfinished">Mode d&apos;encodage</translation>
+        <translation>Mode d&apos;encodage</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -5327,22 +5218,17 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
 <context>
     <name>black</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/black/ADM_vidBlack.cpp" line="+49"/>
-        <source>Replace a section by black.</source>
-        <translation>Remplacer une portion de la vidéo par du noir</translation>
-    </message>
-    <message>
-        <location line="+16"/>
-        <source>Replace by Black</source>
-        <translation>Remplacer par du noir</translation>
-    </message>
-    <message>
-        <location line="-17"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/black/ADM_vidBlack.cpp" line="+48"/>
         <source>Black</source>
         <translation>Noir</translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+1"/>
+        <source>Replace a section by black.</source>
+        <translation>Remplacer une portion de la vidéo par du noir</translation>
+    </message>
+    <message>
+        <location line="+12"/>
         <source>_Start time:</source>
         <translation>_Début :</translation>
     </message>
@@ -5350,6 +5236,11 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <location line="+1"/>
         <source>_End time:</source>
         <translation>_Fin :</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Replace by Black</source>
+        <translation>Remplacer par du noir</translation>
     </message>
 </context>
 <context>
@@ -5514,12 +5405,42 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation>Manuel</translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
+        <source>25  (PAL)</source>
+        <translation>25 (PAL/SÉCAM)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>23.976 (Film)</source>
+        <translation>23,976 (film)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>29.97 (NTSC)</source>
+        <translation>29,97 (NTSC)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>50 (Pal)</source>
+        <translation>50 (PAL/SÉCAM)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>59.94  (NTSC)</source>
         <translation>59,94 (NTSC)</translation>
     </message>
     <message>
-        <location line="+188"/>
+        <location line="+32"/>
+        <source>Change FPS</source>
+        <translation>Changer la fréquence d&apos;image (i/s)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Speed up/slow down the video as if altering fps. This filter changes duration.</source>
+        <translation>Accélère ou ralentit la vidéo en modifiant la fréquence d&apos;image (i/s). La durée est modifiée.</translation>
+    </message>
+    <message>
+        <location line="+155"/>
         <source>Source Fps:</source>
         <translation>Source :</translation>
     </message>
@@ -5545,43 +5466,13 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     </message>
     <message>
         <location line="+5"/>
-        <source>Invalid fps</source>
-        <translation>Fréquence invalide</translation>
-    </message>
-    <message>
-        <location line="-211"/>
-        <source>25  (PAL)</source>
-        <translation>25 (PAL/SÉCAM)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>23.976 (Film)</source>
-        <translation>23,976 (film)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>29.97 (NTSC)</source>
-        <translation>29,97 (NTSC)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>50 (Pal)</source>
-        <translation>50 (PAL/SÉCAM)</translation>
-    </message>
-    <message>
-        <location line="+33"/>
-        <source>Change FPS</source>
-        <translation>Changer la fréquence d&apos;image (i/s)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Speed up/slow down the video as if altering fps. This filter changes duration.</source>
-        <translation>Accélère ou ralentit la vidéo en modifiant la fréquence d&apos;image (i/s). La durée est modifiée.</translation>
-    </message>
-    <message>
-        <location line="+174"/>
         <source>Error</source>
         <translation>Erreur</translation>
+    </message>
+    <message>
+        <location line="+0"/>
+        <source>Invalid fps</source>
+        <translation>Fréquence invalide</translation>
     </message>
 </context>
 <context>
@@ -5589,12 +5480,12 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/chromaShift/ADM_vidChromaShift.cpp" line="+35"/>
         <source>ChromaShift</source>
-        <translation type="unfinished">Decalage chroma</translation>
+        <translation>Décalage chroma</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Shift chroma U/V to fix badly synced luma/chroma.</source>
-        <translation type="unfinished">Decaler la chroma u/v pour corriger les couleurs non alignées</translation>
+        <translation>Décaler la chroma u/v pour corriger les couleurs non alignées</translation>
     </message>
 </context>
 <context>
@@ -5602,7 +5493,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/chromaShift/qt4/chromashift.ui" line="+14"/>
         <source>ChromaShift</source>
-        <translation type="unfinished">Decalage chroma</translation>
+        <translation>Décalage chroma</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -5709,12 +5600,7 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
 <context>
     <name>coloryuv</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+78"/>
-        <source>None</source>
-        <translation type="unfinished">Aucun</translation>
-    </message>
-    <message>
-        <location line="-16"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/colorYUV/ADM_vidColorYuv.cpp" line="+62"/>
         <source>Avisynth color filter.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -5739,7 +5625,12 @@ Ce message n&apos;apparaitra pas la prochaine fois.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>None</source>
+        <translation>Aucun</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>PC-&gt;TV</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6248,52 +6139,7 @@ Do you want to load it  ?
 <context>
     <name>decimate</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimate/decimate.cpp" line="+74"/>
-        <source>Discard closer</source>
-        <translation type="unfinished">Eliminer le plus proche</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Replace (interpolate)</source>
-        <translation type="unfinished">Remplacer (interpoler)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Pulldown dupe removal</source>
-        <translation type="unfinished">Elimination du pulldown</translation>
-    </message>
-    <message>
-        <location line="+3"/>
-        <source>Fastest (no chroma, partial luma)</source>
-        <translation type="unfinished">Rapide (luma partielle)</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Medium (full luma, no chroma)</source>
-        <translation type="unfinished">Moyen (toute la luma)</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>_Quality:</source>
-        <translation type="unfinished">_Qualité:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>_Threshold 1:</source>
-        <translation type="unfinished">_Seuil 1:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>T_hreshold 2:</source>
-        <translation type="unfinished">S_euil2:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>Sho_w</source>
-        <translation type="unfinished">A_fficher</translation>
-    </message>
-    <message>
-        <location line="-36"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/decimate/decimate.cpp" line="+56"/>
         <source>Decomb decimate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6303,22 +6149,67 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+19"/>
+        <location line="+17"/>
+        <source>Discard closer</source>
+        <translation>Éliminer le plus proche</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Replace (interpolate)</source>
+        <translation>Remplacer (interpoler)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Discard longer dupe (animés)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+11"/>
+        <location line="+1"/>
+        <source>Pulldown dupe removal</source>
+        <translation>Élimination du pulldown</translation>
+    </message>
+    <message>
+        <location line="+3"/>
+        <source>Fastest (no chroma, partial luma)</source>
+        <translation>Rapide (luma partielle)</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Medium (full luma, no chroma)</source>
+        <translation>Moyen (toute la luma)</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>_Mode:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>_Quality:</source>
+        <translation>_Qualité :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Threshold 1:</source>
+        <translation>_Seuil 1 :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>T_hreshold 2:</source>
+        <translation>S_euil 2 :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>C_ycle:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>Sho_w</source>
+        <translation>A_fficher</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Decomb Decimate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6509,27 +6400,7 @@ Do you want to load it  ?
 <context>
     <name>dgbob</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/dgBob/ADM_vidDGbob.cpp" line="+72"/>
-        <source>Keep nb of frames and fps</source>
-        <translation>Garder le nombre d&apos;images et le nombre d&apos;i/s</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Double nb of frames and fps</source>
-        <translation>Doubler le nombre d&apos;images et le nombre d&apos;i/s</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Double nb of frames (slow motion)</source>
-        <translation type="unfinished">Doubler le nombre d&apos;images (ralenti)</translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>_Threshold:</source>
-        <translation type="unfinished">_Seuil:</translation>
-    </message>
-    <message>
-        <location line="-23"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/dgBob/ADM_vidDGbob.cpp" line="+56"/>
         <source>dgbob</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6549,7 +6420,22 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+3"/>
+        <source>Keep nb of frames and fps</source>
+        <translation>Garder le nombre d&apos;images et le nombre d&apos;i/s</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Double nb of frames and fps</source>
+        <translation>Doubler le nombre d&apos;images et le nombre d&apos;i/s</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Double nb of frames (slow motion)</source>
+        <translation>Doubler le nombre d&apos;images (ralenti)</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>_Top Field First:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6559,7 +6445,12 @@ Do you want to load it  ?
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+2"/>
+        <location line="+1"/>
+        <source>_Threshold:</source>
+        <translation>_Seuil :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_Extra artifact protection (may increase flickering, rarely needed)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6611,70 +6502,35 @@ Do you want to load it  ?
         <translation>Encodage…</translation>
     </message>
     <message>
-        <location line="+31"/>
-        <source>Phase:</source>
-        <translation>Phase :</translation>
+        <location line="+16"/>
+        <source>Main</source>
+        <translation>Général</translation>
     </message>
     <message>
-        <location line="+299"/>
-        <source>Audio Codec:</source>
-        <translation>Codec audio :</translation>
+        <location line="+32"/>
+        <location line="+289"/>
+        <source>Unknown</source>
+        <translation>Inconnu</translation>
     </message>
     <message>
-        <location line="+21"/>
-        <source>Container:</source>
-        <translation>Conteneur : </translation>
-    </message>
-    <message>
-        <location line="+7"/>
-        <source>Video Codec:</source>
-        <translation>Codec vidéo :</translation>
-    </message>
-    <message>
-        <location line="-334"/>
+        <location line="-313"/>
         <location line="+299"/>
         <location line="+21"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
     <message>
-        <location line="-296"/>
-        <location line="+289"/>
-        <source>Unknown</source>
-        <translation>Inconnu</translation>
+        <location line="-313"/>
+        <source>Phase:</source>
+        <translation>Phase :</translation>
     </message>
     <message>
-        <location line="-282"/>
+        <location line="+24"/>
         <source>Time Remaining:</source>
-        <translation>Temps restant : </translation>
+        <translation>Temps restant :</translation>
     </message>
     <message>
-        <location line="+11"/>
-        <source>When finished:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+11"/>
-        <source>Close dialog</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Keep dialog open</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Suspend computer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+5"/>
-        <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+21"/>
+        <location line="+58"/>
         <source>Priority:</source>
         <translation>Priorité :</translation>
     </message>
@@ -6704,10 +6560,6 @@ Do you want to load it  ?
         <translation>Basse</translation>
     </message>
     <message>
-        <source>Keep dialog open when finished</source>
-        <translation type="vanished">Conserver la fenêtre ouverte une fois terminé</translation>
-    </message>
-    <message>
         <location line="+12"/>
         <source>Delete first pass log files</source>
         <translation>Supprimer le journal de la première passe</translation>
@@ -6718,12 +6570,32 @@ Do you want to load it  ?
         <translation>Fichier de destination :</translation>
     </message>
     <message>
-        <location line="+51"/>
+        <location line="+31"/>
+        <source>Minimize to Tray</source>
+        <translation>Réduire en zone de notification</translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Pause / Abort</source>
         <translation>Pause/Abandon</translation>
     </message>
     <message>
-        <location line="+164"/>
+        <location line="+13"/>
+        <source>Advanced</source>
+        <translation>Avancé</translation>
+    </message>
+    <message>
+        <location line="+80"/>
+        <source>Audio Codec:</source>
+        <translation>Codec audio :</translation>
+    </message>
+    <message>
+        <location line="+21"/>
+        <source>Container:</source>
+        <translation>Conteneur :</translation>
+    </message>
+    <message>
+        <location line="+50"/>
         <source>Audio Size:</source>
         <translation>Taille audio :</translation>
     </message>
@@ -6763,26 +6635,37 @@ Do you want to load it  ?
         <translation>Fréquence :</translation>
     </message>
     <message>
-        <location line="-571"/>
-        <source>Main</source>
-        <translation>Général</translation>
+        <location line="-229"/>
+        <source>Video Codec:</source>
+        <translation>Codec vidéo :</translation>
     </message>
     <message>
-        <source>Shut down computer when finished</source>
-        <translation type="vanished">Arrêter l&apos;ordinateur une fois terminé</translation>
+        <location line="-292"/>
+        <source>When finished:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+201"/>
-        <source>Minimize to Tray</source>
-        <translation>Réduire en zone de notification</translation>
+        <location line="+11"/>
+        <source>Close dialog</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
-        <source>Advanced</source>
-        <translation>Avancé</translation>
+        <location line="+5"/>
+        <source>Keep dialog open</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+165"/>
+        <location line="+5"/>
+        <source>Suspend computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+5"/>
+        <source>Shut down computer</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+323"/>
         <location line="+7"/>
         <location line="+14"/>
         <source>0 MB</source>
@@ -6961,7 +6844,7 @@ Do you want to load it  ?
     <message>
         <location line="+24"/>
         <source>Effect:</source>
-        <translation>Effet : </translation>
+        <translation>Effet :</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -7571,7 +7454,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+7"/>
         <source>Profile:</source>
-        <translation>Profile : </translation>
+        <translation>Profile :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7685,12 +7568,7 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg2</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+346"/>
-        <source>Interlacing</source>
-        <translation type="unfinished">Entrelacement</translation>
-    </message>
-    <message>
-        <location line="-81"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg2/ADM_ffMpeg2.cpp" line="+265"/>
         <source>Normal (4:3)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7737,17 +7615,17 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+3"/>
         <source>One thread</source>
-        <translation type="unfinished">Un thread</translation>
+        <translation>Un thread</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Two threads</source>
-        <translation type="unfinished">Deux threads</translation>
+        <translation>Deux threads</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Three threads</source>
-        <translation type="unfinished">Trois threads</translation>
+        <translation>Trois threads</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7870,7 +7748,12 @@ Start and/or end time would be out of range</source>
         <translation>Avancé</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+4"/>
+        <source>Interlacing</source>
+        <translation>Entrelacement</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Quantization</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7888,12 +7771,7 @@ Start and/or end time would be out of range</source>
 <context>
     <name>ffmpeg4</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+246"/>
-        <source>User Interface</source>
-        <translation>Interface utilisateur</translation>
-    </message>
-    <message>
-        <location line="-49"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMpeg4/ADM_ffMpeg4.cpp" line="+197"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8008,7 +7886,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+6"/>
+        <location line="+3"/>
+        <source>User Interface</source>
+        <translation>Interface utilisateur</translation>
+    </message>
+    <message>
+        <location line="+3"/>
         <source>Advanced Simple Profile</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8038,17 +7921,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffMsMpeg4/ADM_ffMsMp4.cpp" line="+224"/>
         <source>None</source>
-        <translation type="unfinished">Aucun</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
-        <location line="+37"/>
-        <source>User Interface</source>
-        <translation type="unfinished">Interface Utilisateur</translation>
-    </message>
-    <message>
-        <location line="-36"/>
+        <location line="+1"/>
         <source>Full</source>
-        <translation type="unfinished">Complète</translation>
+        <translation>Complète</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -8136,7 +8014,12 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+3"/>
+        <source>User Interface</source>
+        <translation>Interface utilisateur</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Quantization</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8450,14 +8333,13 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+109"/>
         <source>Saving mpeg PS (ff)</source>
-        <translation type="unfinished">Sauvegarde au format PS (ff)</translation>
+        <translation>Sauvegarde au format PS (ff)</translation>
     </message>
     <message>
         <location line="+45"/>
         <source> video not compatible
 </source>
-        <translation> vidéo non compatible
-</translation>
+        <translation> vidéo non compatible</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -8469,22 +8351,19 @@ Start and/or end time would be out of range</source>
         <location line="+6"/>
         <source> Bad width/height for SVCD
 </source>
-        <translation> Mauvaise largeur/hauteur pour SVCD
-</translation>
+        <translation> Mauvaise largeur/hauteur pour SVCD</translation>
     </message>
     <message>
         <location line="+6"/>
         <source> Bad width/height for DVD
 </source>
-        <translation> Mauvaise largeur/hauteur pour DVD
-</translation>
+        <translation> Mauvaise largeur/hauteur pour DVD</translation>
     </message>
     <message>
         <location line="+17"/>
         <source> VCD : only MP2 audio accepted
 </source>
-        <translation> VCD : seul MP2 est accepté
-</translation>
+        <translation> VCD : seul MP2 est accepté</translation>
     </message>
     <message>
         <location line="+5"/>
@@ -8499,23 +8378,10 @@ Start and/or end time would be out of range</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source> VCD : only 44.1 kHz audio accepted
-</source>
-        <translation type="vanished"> VCD : seul 44,1 kHz est accepté
-</translation>
-    </message>
-    <message>
-        <source> DVD : only 48 kHz audio accepted
-</source>
-        <translation type="vanished"> DVD : seul 48 kHz est accepté
-</translation>
-    </message>
-    <message>
         <location line="+6"/>
         <source>[ffPS] DVD : only MP2/AC3/DTS audio accepted
 </source>
-        <translation>[ffPS] DVD : seuls MP2/AC3/DTS sont acceptés
-</translation>
+        <translation>[ffPS] DVD : seuls MP2/AC3/DTS sont acceptés</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffPS/muxerffPSConfig.cpp" line="+54"/>
@@ -8598,7 +8464,7 @@ Start and/or end time would be out of range</source>
     <message>
         <location line="+87"/>
         <source>Saving mpeg TS (ff)</source>
-        <translation type="unfinished">Sauvegarde au format TS (ff)</translation>
+        <translation>Sauvegarde au format TS (ff)</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerffTS/muxerffTSConfig.cpp" line="+28"/>
@@ -8802,12 +8668,12 @@ Start and/or end time would be out of range</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreUI/src/DIA_fileSel.cpp" line="+150"/>
         <source>File error</source>
-        <translation type="unfinished">Erreur de fichier</translation>
+        <translation>Erreur de fichier</translation>
     </message>
     <message>
         <location line="+0"/>
         <source>Cannot open &quot;%s&quot;.</source>
-        <translation type="unfinished">Impossible d&apos;ouvrir &quot;%s&quot;.</translation>
+        <translation>Impossible d&apos;ouvrir &quot;%s&quot;.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -9156,17 +9022,7 @@ Do you want to replace it?</source>
 <context>
     <name>flux</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fluxSmooth/ADM_vidFlux.cpp" line="+88"/>
-        <source>_Temporal threshold:</source>
-        <translation type="unfinished">Seuil temporel:</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>_Spatial threshold:</source>
-        <translation type="unfinished">Seuil spacial:</translation>
-    </message>
-    <message>
-        <location line="-52"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/fluxSmooth/ADM_vidFlux.cpp" line="+37"/>
         <location line="+56"/>
         <source>FluxSmooth</source>
         <translation type="unfinished"></translation>
@@ -9176,16 +9032,21 @@ Do you want to replace it?</source>
         <source>Spatio-temporal cleaner by Ross Thomas.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <location line="+50"/>
+        <source>_Temporal threshold:</source>
+        <translation>Seuil temporel :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>_Spatial threshold:</source>
+        <translation>Seuil spacial :</translation>
+    </message>
 </context>
 <context>
     <name>flv1</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+192"/>
-        <source>User Interface</source>
-        <translation type="unfinished">Interface Utilisateur</translation>
-    </message>
-    <message>
-        <location line="-31"/>
+        <location filename="../../../avidemux_plugins/ADM_videoEncoder/ffFlv1/ADM_ffFlv1.cpp" line="+161"/>
         <source>H.263</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9250,7 +9111,12 @@ Do you want to replace it?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+8"/>
+        <location line="+3"/>
+        <source>User Interface</source>
+        <translation>Interface utilisateur</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Quantization</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9371,12 +9237,12 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+146"/>
         <source>Width :</source>
-        <translation type="unfinished">Largeur:</translation>
+        <translation>Largeur :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Height :</source>
-        <translation type="unfinished">Hauteur:</translation>
+        <translation>Hauteur :</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -9466,7 +9332,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+1"/>
         <source>VDPAU deinterlacer+resize, openGl version (faster).</source>
-        <translation type="unfinished">VDPAU de-entrelace+resize, openGl version (faster).</translation>
+        <translation>VDPAU de-entrelace+resize, openGl version (faster).</translation>
     </message>
     <message>
         <location line="+178"/>
@@ -9506,7 +9372,7 @@ I will assume it has and try to continue</source>
     <message>
         <location line="+4"/>
         <source>vdpau</source>
-        <translation type="unfinished">vdpau</translation>
+        <translation>vdpau</translation>
     </message>
 </context>
 <context>
@@ -9789,12 +9655,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>indexing</name>
     <message>
-        <location filename="../ADM_userInterfaces/ADM_dialog/T_index_pg.cpp" line="+92"/>
-        <source>Time Left :%02d:%02d:%02d</source>
-        <translation type="unfinished">Temps restant :%02d:%02d:%02d</translation>
-    </message>
-    <message>
-        <location line="-76"/>
+        <location filename="../ADM_userInterfaces/ADM_dialog/T_index_pg.cpp" line="+16"/>
         <source>Continue indexing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9807,6 +9668,11 @@ I will assume it has and try to continue</source>
         <location line="+0"/>
         <source>Do you want to abort indexing ?</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+76"/>
+        <source>Time Left :%02d:%02d:%02d</source>
+        <translation>Temps restant :%02d:%02d:%02d</translation>
     </message>
 </context>
 <context>
@@ -9842,7 +9708,7 @@ I will assume it has and try to continue</source>
         <location line="+3"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>Full</source>
-        <translation type="unfinished">Complète</translation>
+        <translation>Complète</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -9860,7 +9726,7 @@ I will assume it has and try to continue</source>
         <location line="+3"/>
         <location filename="../../../avidemux_plugins/ADM_videoFilters6/ivtcDupeRemover/ADM_ivtcDupeRemover.cpp" line="+3"/>
         <source>_Frame rate change:</source>
-        <translation type="unfinished">Changement i/s</translation>
+        <translation>Changement i/s</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -9872,45 +9738,45 @@ I will assume it has and try to continue</source>
 <context>
     <name>jobs</name>
     <message>
-        <location filename="../ADM_jobs/src/uiJobs.ui" line="+28"/>
+        <location filename="../ADM_jobs/src/uiJobs.ui" line="+17"/>
+        <source>Avidemux Jobs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>Run all pending jobs</source>
-        <translation type="unfinished">Executer tous les jobs en attente</translation>
+        <translation>Exécuter tous les jobs en attente</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Run jobs</source>
-        <translation type="unfinished">Executer</translation>
+        <translation>Exécuter</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>Delete already executed jobs</source>
-        <translation type="unfinished">Effacer les jobs déjà faits</translation>
+        <translation>Effacer les jobs déjà faits</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>Cleanup</source>
-        <translation type="unfinished">Nettoyer</translation>
+        <translation>Nettoyer</translation>
     </message>
     <message>
         <location line="+7"/>
         <source>If you use VDPAU you cannot use CLI version</source>
-        <translation type="unfinished">Si vous utilisez VDPAU, la version CLI ne marchera pas</translation>
+        <translation>Si vous utilisez VDPAU, la version CLI ne marchera pas</translation>
     </message>
     <message>
         <location line="+3"/>
         <source>use Qt version</source>
-        <translation type="unfinished">Utiliser la version Qt</translation>
+        <translation>Utiliser la version Qt</translation>
     </message>
     <message>
         <location line="+20"/>
         <location filename="../ADM_jobs/src/ADM_jobControl.cpp" line="+186"/>
         <source>Quit</source>
-        <translation type="unfinished">Quitter</translation>
-    </message>
-    <message>
-        <location line="-54"/>
-        <source>Avidemux Jobs</source>
-        <translation type="unfinished"></translation>
+        <translation>Quitter</translation>
     </message>
     <message>
         <location filename="../../common/GUI_jobs.cpp" line="+36"/>
@@ -10062,12 +9928,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>kerneldeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/kernelDeint/ADM_vidKernelDeint.cpp" line="+71"/>
-        <source>_Threshold:</source>
-        <translation type="unfinished">_Seuil:</translation>
-    </message>
-    <message>
-        <location line="-21"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/kernelDeint/ADM_vidKernelDeint.cpp" line="+50"/>
         <source>Kernel Deint.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10093,6 +9954,11 @@ I will assume it has and try to continue</source>
     </message>
     <message>
         <location line="+1"/>
+        <source>_Threshold:</source>
+        <translation>_Seuil :</translation>
+    </message>
+    <message>
+        <location line="+0"/>
         <source>Smaller means more deinterlacing</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10135,12 +10001,7 @@ I will assume it has and try to continue</source>
 <context>
     <name>lame</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/lame/audioencoder_lame.cpp" line="+333"/>
-        <source>_Quality:</source>
-        <translation type="unfinished">_Qualité:</translation>
-    </message>
-    <message>
-        <location line="-23"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/lame/audioencoder_lame.cpp" line="+310"/>
         <source>CBR</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10160,7 +10021,12 @@ I will assume it has and try to continue</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+2"/>
+        <source>_Quality:</source>
+        <translation>_Qualité :</translation>
+    </message>
+    <message>
+        <location line="+2"/>
         <source>_Disable reservoir</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10216,7 +10082,7 @@ I will assume it has and try to continue</source>
     <message>
         <location filename="../../../avidemux_core/ADM_coreVideoCodec/src/DIA_lavDecoder.cpp" line="+23"/>
         <source>_Swap U and V</source>
-        <translation type="unfinished">Inverser U et V</translation>
+        <translation>Inverser U et V</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -10227,7 +10093,17 @@ I will assume it has and try to continue</source>
 <context>
     <name>lavdeint</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/lavDeint/lavDeint.cpp" line="+188"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/lavDeint/lavDeint.cpp" line="+71"/>
+        <source>Libavdec Deinterlacers</source>
+        <translation>Désentrelacement par Libavdec</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Lavcodec deinterlacer family.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+116"/>
         <source>None</source>
         <translation>Aucun</translation>
     </message>
@@ -10270,16 +10146,6 @@ I will assume it has and try to continue</source>
         <location line="+4"/>
         <source>libavcodec deinterlacer</source>
         <translation>Désentrelacement par Libavcodec</translation>
-    </message>
-    <message>
-        <location line="-131"/>
-        <source>Libavdec Deinterlacers</source>
-        <translation>Désentrelacement par Libavdec</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Lavcodec deinterlacer family.</source>
-        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -10364,10 +10230,6 @@ I will assume it has and try to continue</source>
         <location line="+43"/>
         <source>Fade-in/out</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>You can click in the image to approximately position the logo</source>
-        <translation type="vanished">Vous pouvez cliquer dans l&apos;image pour positionner approximativement le logo.</translation>
     </message>
     <message>
         <location line="-20"/>
@@ -10526,10 +10388,6 @@ I will assume it has and try to continue</source>
         <source>&amp;Close</source>
         <translation>&amp;Fermer</translation>
     </message>
-    <message>
-        <source>OpenGL</source>
-        <translation type="vanished">OpenGL</translation>
-    </message>
 </context>
 <context>
     <name>matroskademuxer</name>
@@ -10647,7 +10505,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+2"/>
         <source>Saving Mkv</source>
-        <translation type="unfinished">Sauvegarde au format MKV (ff)</translation>
+        <translation>Sauvegarde au format MKV (ff)</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_muxers/muxerMkv/muxerMkvConfig.cpp" line="+33"/>
@@ -10933,12 +10791,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp3d</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3D.cpp" line="+234"/>
-        <source>_Spatial luma strength:</source>
-        <translation type="unfinished">Luma, intensité spatiale:</translation>
-    </message>
-    <message>
-        <location line="-33"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3D.cpp" line="+201"/>
         <source>Mplayer Denoise 3D HQ</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10948,7 +10801,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+32"/>
+        <source>_Spatial luma strength:</source>
+        <translation>Luma, intensité spatiale :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>S_patial chroma strength:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10971,17 +10829,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
 <context>
     <name>mp3dlow</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3Dlow.cpp" line="+69"/>
-        <source>_Spatial luma strength:</source>
-        <translation type="unfinished">Luma, intensité spatiale:</translation>
-    </message>
-    <message>
-        <location line="+2"/>
-        <source>_Temporal strength:</source>
-        <translation type="unfinished">Intensité temporelle:</translation>
-    </message>
-    <message>
-        <location line="-35"/>
+        <location filename="../../../avidemux_plugins/ADM_videoFilters6/mplayerDenoise3D/ADM_vidMPLD3Dlow.cpp" line="+36"/>
         <source>Mplayer Denoise 3D</source>
         <translation type="unfinished"></translation>
     </message>
@@ -10991,12 +10839,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+33"/>
+        <location line="+32"/>
+        <source>_Spatial luma strength:</source>
+        <translation>Luma, intensité spatiale :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>S_patial chroma strength:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+5"/>
+        <location line="+1"/>
+        <source>_Temporal strength:</source>
+        <translation>Intensité temporelle :</translation>
+    </message>
+    <message>
+        <location line="+4"/>
         <source>MPlayer Denoise 3D</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11006,7 +10864,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4Analyzer.cpp" line="+1485"/>
         <source>Problem reading SVQ3 headers</source>
-        <translation type="unfinished">Impossible de lire l&apos;entete SVQ3</translation>
+        <translation>Impossible de lire l&apos;entête SVQ3</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/Mp4/ADM_mp4.cpp" line="+550"/>
@@ -11055,12 +10913,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+227"/>
         <source>Saving mp4</source>
-        <translation type="unfinished">Sauvegarde au format MP4</translation>
+        <translation>Sauvegarde au format MP4</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>Saving PSP</source>
-        <translation type="unfinished">Sauvegarde au format PSP</translation>
+        <translation>Sauvegarde au format PSP</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -11513,12 +11371,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <location line="+76"/>
         <location line="+269"/>
         <source>Malformed header</source>
-        <translation type="unfinished">En tete incorrecte</translation>
+        <translation>En tête incorrecte</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_demuxers/OpenDml/ADM_openDMLDepack.cpp" line="+85"/>
         <source>Unpacking bitstream</source>
-        <translation type="unfinished">Conversion en cours</translation>
+        <translation>Conversion en cours</translation>
     </message>
 </context>
 <context>
@@ -11531,12 +11389,12 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="+3"/>
         <source>_Start time:</source>
-        <translation type="unfinished">_Début:</translation>
+        <translation>_Début :</translation>
     </message>
     <message>
         <location line="+1"/>
         <source>_End time:</source>
-        <translation type="unfinished">_Fin:</translation>
+        <translation>_Fin :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -11585,18 +11443,23 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/props.ui" line="+14"/>
         <source>Properties</source>
-        <translation type="unfinished">Propriétés</translation>
+        <translation>Propriétés</translation>
     </message>
     <message>
-        <location line="+72"/>
+        <location line="+6"/>
+        <source>Video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+66"/>
         <source>Frame Rate:</source>
-        <translation type="unfinished">Images/s:</translation>
+        <translation>Images/s :</translation>
     </message>
     <message>
         <location line="+28"/>
         <location line="+226"/>
         <source>Total Duration:</source>
-        <translation type="unfinished">Durée totale:</translation>
+        <translation>Durée totale :</translation>
     </message>
     <message>
         <location line="-289"/>
@@ -11622,7 +11485,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
     <message>
         <location line="-275"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished">Rapport h/l:</translation>
+        <translation>Rapport h/l :</translation>
     </message>
     <message>
         <location line="-14"/>
@@ -11630,38 +11493,7 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation>Dimensions :</translation>
     </message>
     <message>
-        <source>Extra Video Properties</source>
-        <translation type="obsolete">Informations suppl.</translation>
-    </message>
-    <message>
-        <source>ExtraDataSize:</source>
-        <translation type="obsolete">Taille :</translation>
-    </message>
-    <message>
-        <source>Extra data :</source>
-        <translation type="obsolete">Infos :</translation>
-    </message>
-    <message>
-        <location line="+268"/>
-        <source>Frequency:</source>
-        <translation type="unfinished">Fréquence:</translation>
-    </message>
-    <message>
-        <source>Variable Bitrate:</source>
-        <translation type="obsolete">Bitrate variable:</translation>
-    </message>
-    <message>
-        <location line="-28"/>
-        <source>Channels:</source>
-        <translation type="unfinished">Canaux:</translation>
-    </message>
-    <message>
-        <location line="-278"/>
-        <source>Video</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+24"/>
+        <location line="-14"/>
         <source>Codec 4CC:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -11716,12 +11548,22 @@ Only VP8/VP9/AV1 video and Vorbis/Opus audio supported</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+52"/>
+        <location line="+66"/>
+        <source>Frequency:</source>
+        <translation>Fréquence :</translation>
+    </message>
+    <message>
+        <location line="-14"/>
         <source>Bitrate:</source>
         <translation>Débit :</translation>
     </message>
     <message>
-        <location line="-28"/>
+        <location line="-14"/>
+        <source>Channels:</source>
+        <translation>Canaux :</translation>
+    </message>
+    <message>
+        <location line="-14"/>
         <source>Codec:</source>
         <translation>Codec :</translation>
     </message>
@@ -11912,22 +11754,22 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+35"/>
         <source>Restore defaults</source>
-        <translation>Réinitialiser</translation>
+        <translation type="unfinished">Rétablir tout</translation>
     </message>
     <message>
         <location line="+18"/>
         <source>Default theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Thème par défault</translation>
     </message>
     <message>
         <location line="+6"/>
         <source>Light theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Thème clair</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Dark theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Thème sombre</translation>
     </message>
     <message>
         <location line="+661"/>
@@ -12083,8 +11925,7 @@ The file must be re-indexed. Proceed?</source>
         <location line="-760"/>
         <source>The application has encountered a fatal problem
 The current editing has been saved and will be reloaded at next start</source>
-        <translation>L&apos;application a rencontré un problème fatal
-L&apos;édition en cours a été enregistrée et sera rechargée au prochain démarrage</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+287"/>
@@ -12116,7 +11957,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location filename="../ADM_userInterfaces/ADM_gui/Q_gui2_menu.cpp" line="+52"/>
         <source>Project Script</source>
-        <translation>Projet</translation>
+        <translation>Script de projet</translation>
     </message>
     <message>
         <location line="+4"/>
@@ -12151,7 +11992,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
     <message>
         <location line="+12"/>
         <source>Script Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Raccourcis de script</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -12379,10 +12220,6 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
         <location filename="../ADM_userInterfaces/ADM_dialog/Q_processing.cpp" line="+69"/>
         <source>Unknown</source>
         <translation>Inconnu</translation>
-    </message>
-    <message>
-        <source>_Resume</source>
-        <translation type="vanished">&amp;Reprendre</translation>
     </message>
     <message>
         <location line="+96"/>
@@ -12729,38 +12566,6 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
         </translation>
     </message>
     <message>
-        <source>Video</source>
-        <translation type="vanished">Vidéo</translation>
-    </message>
-    <message>
-        <source>Image Size:	</source>
-        <translation type="vanished">Taille image : </translation>
-    </message>
-    <message>
-        <source>Aspect Ratio:	</source>
-        <translation type="vanished">Ratio : </translation>
-    </message>
-    <message>
-        <source>Frame Rate:	</source>
-        <translation type="vanished">Fréquence : </translation>
-    </message>
-    <message>
-        <source>Total Duration:	</source>
-        <translation type="vanished">Durée totale : </translation>
-    </message>
-    <message>
-        <source>Extra Video Properties</source>
-        <translation type="vanished">Propriétés vidéos étendues</translation>
-    </message>
-    <message>
-        <source>Channels:	</source>
-        <translation type="vanished">Canaux : </translation>
-    </message>
-    <message>
-        <source>Bitrate:	</source>
-        <translation type="vanished">Débit : </translation>
-    </message>
-    <message>
         <location line="+198"/>
         <source>No Audio</source>
         <translation>Pas d&apos;audio</translation>
@@ -12809,8 +12614,7 @@ L&apos;édition en cours a été enregistrée et sera rechargée au prochain dé
         <source>You can use CTRL+PageUP and CTRL+Page Down to recall previous commands
 Ready.
 </source>
-        <translation>Vous pouvez utiliser CTRL + Page Précédente et CTRL + Page Suivante pour rappeler les commandes précédentes
-Prêt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
@@ -12828,10 +12632,6 @@ Ready.
 </context>
 <context>
     <name>qtalert</name>
-    <message>
-        <source>Alert</source>
-        <translation type="vanished">Alerte</translation>
-    </message>
     <message>
         <location filename="../ADM_userInterfaces/ADM_dialog/alert_qt4.cpp" line="+126"/>
         <source>Info</source>
@@ -13050,16 +12850,27 @@ Ready.
         <translation>Manuel</translation>
     </message>
     <message>
-        <source>59.94 (NTSC)</source>
-        <translation type="vanished">59,94 (NTSC)</translation>
-    </message>
-    <message>
         <location line="+1"/>
         <source>25  (PAL)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="+1"/>
+        <source>23.976 (Film)</source>
+        <translation>23,976 (film)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>29.97 (NTSC)</source>
+        <translation>29,97 (NTSC)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>50 (Pal)</source>
+        <translation>50 (PAL/SECAM)</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>59.94  (NTSC)</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13089,7 +12900,12 @@ Ready.
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+6"/>
+        <source>_Mode:</source>
+        <translation>_Mode :</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>_New frame rate:</source>
         <translation>_Nouvelle fréquence (i/s) :</translation>
     </message>
@@ -13099,31 +12915,7 @@ Ready.
         <translation>_Interpolation :</translation>
     </message>
     <message>
-        <source>25 (PAL)</source>
-        <translation type="vanished">25 (PAL/SECAM)</translation>
-    </message>
-    <message>
-        <location line="-405"/>
-        <source>23.976 (Film)</source>
-        <translation>23,976 (film)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>29.97 (NTSC)</source>
-        <translation>29,97 (NTSC)</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>50 (Pal)</source>
-        <translation>50 (PAL/SECAM)</translation>
-    </message>
-    <message>
-        <location line="+401"/>
-        <source>_Mode:</source>
-        <translation>_Mode :</translation>
-    </message>
-    <message>
-        <location line="+8"/>
+        <location line="+6"/>
         <source>Resample fps</source>
         <translation>Ré-échantillonnage du nombre d&apos;i/s</translation>
     </message>
@@ -13261,17 +13053,32 @@ Ready.
         <translation>Arrondir au multiple de 4</translation>
     </message>
     <message>
-        <location line="+114"/>
+        <location line="+94"/>
+        <source>1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+20"/>
         <source>Percent</source>
         <translation>Pourcent</translation>
     </message>
     <message>
-        <location line="+79"/>
+        <location line="+20"/>
+        <source>200%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+59"/>
         <source>Error X / Y:</source>
         <translation>Erreur X/Y :</translation>
     </message>
     <message>
-        <location line="+40"/>
+        <location line="+7"/>
+        <source>0.00 / 0.00</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+33"/>
         <source>0.0000</source>
         <translation type="unfinished"></translation>
     </message>
@@ -13308,21 +13115,6 @@ Ready.
     <message>
         <location line="+5"/>
         <source>Nearest neighbor</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="-221"/>
-        <source>1%</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+40"/>
-        <source>200%</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+66"/>
-        <source>0.00 / 0.00</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -13516,7 +13308,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>_Duration:</source>
-        <translation type="unfinished">_Fin :</translation>
+        <translation>_Fin :</translation>
     </message>
 </context>
 <context>
@@ -13622,7 +13414,7 @@ Ready.
     <message>
         <location line="+4"/>
         <source>_Strategy:</source>
-        <translation>&amp;Stratégie:</translation>
+        <translation>&amp;Stratégie :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -13672,7 +13464,7 @@ Ready.
     <message>
         <location line="+1"/>
         <source>Debu_g</source>
-        <translation type="unfinished">Débo&amp;guer</translation>
+        <translation>Débo&amp;guer</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -14093,12 +13885,7 @@ The file must be re-indexed. Proceed?</source>
         <translation>&amp;Redimensionner</translation>
     </message>
     <message>
-        <location line="-4"/>
-        <source>_Deint Mode:</source>
-        <translation>Mode de &amp;désentrelacement :</translation>
-    </message>
-    <message>
-        <location line="+6"/>
+        <location line="+2"/>
         <source>Width:</source>
         <translation>Largeur :</translation>
     </message>
@@ -14108,7 +13895,12 @@ The file must be re-indexed. Proceed?</source>
         <translation>Hauteur :</translation>
     </message>
     <message>
-        <location line="+4"/>
+        <location line="-7"/>
+        <source>_Deint Mode:</source>
+        <translation>Mode de &amp;désentrelacement :</translation>
+    </message>
+    <message>
+        <location line="+11"/>
         <source>vdpau</source>
         <translation>vdpau</translation>
     </message>
@@ -14185,12 +13977,7 @@ The file must be re-indexed. Proceed?</source>
 <context>
     <name>vorbis</name>
     <message>
-        <location filename="../../../avidemux_plugins/ADM_audioEncoders/vorbis/audioencoder_vorbis.cpp" line="+350"/>
-        <source>_Quality:</source>
-        <translation>&amp;Qualité :</translation>
-    </message>
-    <message>
-        <location line="-19"/>
+        <location filename="../../../avidemux_plugins/ADM_audioEncoders/vorbis/audioencoder_vorbis.cpp" line="+331"/>
         <source>VBR</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14207,10 +13994,15 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+14"/>
         <source>_Bitrate:</source>
-        <translation>Débit :</translation>
+        <translation>&amp;Débit :</translation>
     </message>
     <message>
-        <location line="+9"/>
+        <location line="+2"/>
+        <source>_Quality:</source>
+        <translation>&amp;Qualité :</translation>
+    </message>
+    <message>
+        <location line="+7"/>
         <source>Vorbis Configuration</source>
         <translation type="unfinished"></translation>
     </message>
@@ -14408,7 +14200,7 @@ The file must be re-indexed. Proceed?</source>
     <message>
         <location line="+6"/>
         <source>Elapsed:</source>
-        <translation>Temps écoulé:</translation>
+        <translation>Temps écoulé :</translation>
     </message>
     <message>
         <location line="+14"/>
@@ -14495,18 +14287,14 @@ The file must be re-indexed. Proceed?</source>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
-        <translation>L&apos; optimisation Macroblock-Tree  nécessite  Variance Adaptive Quantisation. Variance Adaptive Quantisation va être automatiquement activée.
-
-Voulez vous procéder ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Macroblock-Tree optimisation will automatically be disabled.
 
 Do you wish to continue?</source>
-        <translation>L&apos; optimisation Macroblock-Tree  nécessite  Variance Adaptive Quantisation. Variance Adaptive Quantisation va être automatiquement activée.
-
-Voulez vous procéder ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+61"/>
@@ -14554,8 +14342,7 @@ Voulez vous procéder ?</translation>
         <location line="+1"/>
         <source> profile ?.
 If it is a system profile it will be recreated next time.</source>
-        <translation> profile ?.
-S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine fois.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -14737,7 +14524,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+8"/>
         <source>Target Video Size:</source>
-        <translation>Taille vidéo cible:</translation>
+        <translation>Taille vidéo cible :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -14960,7 +14747,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+13"/>
         <location line="+2601"/>
         <source>None</source>
-        <translation type="unfinished">Aucun</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location line="-2596"/>
@@ -15420,7 +15207,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+20"/>
         <source>Add</source>
-        <translation type="unfinished">Ajouter</translation>
+        <translation>Ajouter</translation>
     </message>
     <message>
         <location line="+42"/>
@@ -15576,7 +15363,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+23"/>
         <source>Video Format:</source>
-        <translation>Format Vidéo:</translation>
+        <translation>Format Vidéo :</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -15785,8 +15572,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+0"/>
         <source>this mode has not been implemented
 </source>
-        <translation>ce mode n&apos;a pas été implémenté
-</translation>
+        <translation>ce mode n&apos;a pas été implémenté</translation>
     </message>
     <message>
         <location filename="../../../avidemux_plugins/ADM_videoEncoder/x265/qt4/Q_x265.cpp" line="+289"/>
@@ -15827,17 +15613,17 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-15"/>
         <source>Quantiser:</source>
-        <translation>Quantisation:</translation>
+        <translation>Quantisation :</translation>
     </message>
     <message>
         <location line="+4"/>
         <source>Quality:</source>
-        <translation>Qualité:</translation>
+        <translation>Qualité :</translation>
     </message>
     <message>
         <location line="+5"/>
         <source>Target Video Size:</source>
-        <translation>Taille vidéo cible:</translation>
+        <translation>Taille vidéo cible :</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15847,25 +15633,21 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+4"/>
         <source>Average Bitrate:</source>
-        <translation>Bitrate moyen:</translation>
+        <translation>Bitrate moyen :</translation>
     </message>
     <message>
         <location line="+128"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Variance Adaptive Quantisation will automatically be enabled.
 
 Do you wish to continue?</source>
-        <translation>L&apos; optimisation Macroblock-Tree  nécessite  Variance Adaptive Quantisation. Variance Adaptive Quantisation va être automatiquement activée.
-
-Voulez vous procéder ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+12"/>
         <source>Macroblock-Tree optimisation requires Variance Adaptive Quantisation to be enabled.  Macroblock-Tree optimisation will automatically be disabled.
 
 Do you wish to continue?</source>
-        <translation>L&apos; optimisation Macroblock-Tree  nécessite  Variance Adaptive Quantisation. Variance Adaptive Quantisation va être automatiquement activée.
-
-Voulez vous procéder ?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+41"/>
@@ -15913,8 +15695,7 @@ Voulez vous procéder ?</translation>
         <location line="+1"/>
         <source> profile ?.
 If it is a system profile it will be recreated next time.</source>
-        <translation> profile ?.
-S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine fois.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
@@ -15978,7 +15759,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="-14"/>
         <source>Tuning:</source>
-        <translation>Réglage:</translation>
+        <translation>Réglage :</translation>
     </message>
     <message>
         <location line="+91"/>
@@ -16018,7 +15799,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+21"/>
         <source>Target Video Size:</source>
-        <translation>Taille vidéo cible:</translation>
+        <translation>Taille vidéo cible :</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -16240,7 +16021,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+269"/>
         <location line="+43"/>
         <source>Disabled</source>
-        <translation type="unfinished">Désactivé</translation>
+        <translation>Désactivé</translation>
     </message>
     <message>
         <location line="-307"/>
@@ -16345,7 +16126,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+33"/>
         <source>Maximum:</source>
-        <translation>Maximum:</translation>
+        <translation>Maximum :</translation>
     </message>
     <message>
         <location line="+32"/>
@@ -16454,7 +16235,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <location line="+10"/>
         <location line="+1090"/>
         <source>Edit</source>
-        <translation>Editer</translation>
+        <translation>Éditer</translation>
     </message>
     <message>
         <location line="-1043"/>
@@ -16737,7 +16518,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+34"/>
+        <location line="+6"/>
+        <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location line="+28"/>
         <source>Overscan:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -16803,12 +16589,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+746"/>
-        <source>These settings are only suggestions for the playback equipment.  Use at your own risk.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location line="+71"/>
+        <location line="+817"/>
         <source>HRD Parameters:</source>
         <translation>Paramètres HRD :</translation>
     </message>
@@ -16919,57 +16700,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation>Complète</translation>
     </message>
     <message>
-        <location line="+6"/>
-        <source>Custom</source>
-        <translation>Manuel</translation>
-    </message>
-    <message>
-        <location line="+23"/>
-        <source>One thread</source>
-        <translation>Un thread</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Two threads</source>
-        <translation>Deux threads</translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>Three threads</source>
-        <translation>Trois threads</translation>
-    </message>
-    <message>
-        <location line="+6"/>
-        <source>4:3 (PAL)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>4:3 (NTSC)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>16:9 (PAL)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+1"/>
-        <source>16:9 (NTSC)</source>
-        <translation></translation>
-    </message>
-    <message>
-        <location line="+28"/>
-        <source>Aspect Ratio:</source>
-        <translation>Rapport d&apos;image :</translation>
-    </message>
-    <message>
-        <location line="+47"/>
-        <source>Aspect Ratio</source>
-        <translation>Rapport d&apos;image</translation>
-    </message>
-    <message>
-        <location line="-111"/>
+        <location line="+4"/>
         <source>H.263</source>
         <translation></translation>
     </message>
@@ -16979,7 +16710,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation></translation>
     </message>
     <message>
-        <location line="+17"/>
+        <location line="+1"/>
+        <source>Custom</source>
+        <translation>Manuel</translation>
+    </message>
+    <message>
+        <location line="+16"/>
         <source>DCT</source>
         <translation></translation>
     </message>
@@ -16999,7 +16735,22 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation>Carré</translation>
     </message>
     <message>
-        <location line="+7"/>
+        <location line="+4"/>
+        <source>One thread</source>
+        <translation>Un thread</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Two threads</source>
+        <translation>Deux threads</translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>Three threads</source>
+        <translation>Trois threads</translation>
+    </message>
+    <message>
+        <location line="+1"/>
         <source>Auto (#cpu)</source>
         <translation></translation>
     </message>
@@ -17009,7 +16760,27 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation></translation>
     </message>
     <message>
-        <location line="+13"/>
+        <location line="+1"/>
+        <source>4:3 (PAL)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>4:3 (NTSC)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>16:9 (PAL)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+1"/>
+        <source>16:9 (NTSC)</source>
+        <translation></translation>
+    </message>
+    <message>
+        <location line="+9"/>
         <source>Threading</source>
         <translation></translation>
     </message>
@@ -17059,7 +16830,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation>Profil :</translation>
     </message>
     <message>
-        <location line="+10"/>
+        <location line="+2"/>
+        <source>Aspect Ratio:</source>
+        <translation>Rapport d&apos;image :</translation>
+    </message>
+    <message>
+        <location line="+8"/>
         <source>_Gop Size:</source>
         <translation>Taille GOP :</translation>
     </message>
@@ -17100,7 +16876,12 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location line="+12"/>
+        <location line="+7"/>
+        <source>Aspect Ratio</source>
+        <translation>Rapport d&apos;image</translation>
+    </message>
+    <message>
+        <location line="+5"/>
         <source>Rate Control</source>
         <translation>Contrôle du débit</translation>
     </message>
@@ -17329,7 +17110,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+63"/>
         <source>Lock Aspect Ratio:</source>
-        <translation>Verrouiller le format d&apos;image :</translation>
+        <translation>Verrouiller le ratio d&apos;image :</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -17375,7 +17156,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+5"/>
         <source>4:3</source>
-        <translation></translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+5"/>
@@ -17390,7 +17171,7 @@ S&apos;il s&apos;agit d&apos;un profil système, il sera recréé la prochaine f
     <message>
         <location line="+10"/>
         <source>Padding:</source>
-        <translation type="unfinished"></translation>
+        <translation>Remplissage :</translation>
     </message>
     <message>
         <location line="+8"/>
